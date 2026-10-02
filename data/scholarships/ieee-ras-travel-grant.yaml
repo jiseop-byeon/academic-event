@@ -1,0 +1,47 @@
+id: ieee-ras-travel-grant
+name: "IEEE RAS Travel Grants (RAS Member Support Program) — ICRA · IROS · CASE"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+org_type: society
+type: travel-grant
+fields: [robotics, manipulation, navigation, physical-ai]
+amount:
+  summary: "최대 US$1,500 상당 — 숙박·교통비 실비 환급 또는 RAS가 학회장 인근 호텔을 사전 결제 (ICRA 2025·2026은 대부분 호텔 사전결제, IROS 2025는 호텔·교통·등록비 최대 $1,500)"
+  value: 1500
+  currency: USD
+  unit: one-time
+  covers: ["lodging", "travel", "registration"]
+duration: "학회 1회 (채택 논문 1편당 1명)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음 (전 세계 대학 재학생)"
+  stage: "학생(학위 단계 무관) 또는 개발도상국 소속 RAS 회원"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "IEEE RAS 회원(학생회원)이어야 하며 해당 RAS 학회(ICRA·IROS·CASE 등)에서 채택 논문을 발표해야 함. 논문당 1명만 신청할 수 있고 발표 저자가 우선, 경쟁 심사이며 다른 저자·논문·학회로 양도 불가. IROS에는 별도로 IROS-SDC Travel Award(2026년 최대 US$600, 25명, RAS/IES/RSJ/SICE 회원인 1저자 대상)도 있음."
+requirements: ["IEEE RAS 학생회원 자격 (회원 증빙)", "학회 채택 논문 정보", "학회 등록 증빙", "온라인 신청서"]
+nomination: false
+awards_per_year: "학회별 상이 (IROS 2025 RAS 프로그램 최대 51명)"
+cycle:
+  typical: "학회별 접수 — ICRA는 논문 채택 통보 약 3주 뒤 2월 하순 마감(2025: 2/20, 2026: 2/25), IROS는 학회 약 11–12주 전 마감(2025: 8/1, 2026: 7/3), 마감 1–2주 뒤 결과 통보"
+  deadlines:
+    - {kind: application, date: 2027-02-22, estimated: true, label: "ICRA 2027(서울, 5/24–28) RAS 트래블 그랜트 신청 마감 (예상)"}
+    - {kind: result, date: 2027-03-01, estimated: true, label: "ICRA 2027 수혜자 통보 (예상)"}
+    - {kind: application, date: 2027-07-02, estimated: true, label: "IROS 2027(피렌체, 9/26–10/1) RAS 트래블 그랜트 신청 마감 (예상)"}
+status: upcoming
+apply_url: "https://2027.ieee-icra.org/?p=648"
+fit: 3
+take: "ICRA 2027(서울)이나 IROS 2027(피렌체)에 논문이 채택되면 RAS 학생회원으로 가입해 2월 하순·7월 초 마감에 바로 신청 — 최대 US$1,500 상당의 숙박·교통 지원으로 가장 확실한 학회 출장 재원이다."
+links:
+  home: "https://www.ieee-ras.org/membership/member-support-program/"
+sources:
+  - "https://www.ieee-ras.org/membership/member-support-program/"
+  - "https://2027.ieee-icra.org/?p=648"
+  - "https://2026.ieee-icra.org/?p=648"
+  - "https://2025.ieee-icra.org/attend/travel-support/"
+  - "https://2026.ieee-iros.org/attend/ras-member-support/"
+  - "https://2026.ieee-iros.org/attend/iros-sdc-travel-award-program/"
+  - "http://iros25.org/TravelGrants"
+  - "https://2027.ieee-icra.org/"
+  - "https://2027.ieee-iros.org/"
+last_verified: 2026-10-02

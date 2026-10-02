@@ -1,0 +1,47 @@
+id: fulbright-graduate-study-award
+name: "풀브라이트 대학원 장학 프로그램 (Fulbright Graduate Study Award)"
+organizer: "한미교육위원단 (Korean-American Educational Commission, Fulbright Korea)"
+org_type: other
+type: scholarship
+fields: [any]
+amount:
+  summary: "박사과정 첫해 학비·생활비 최대 USD 45,000(최소 USD 20,000 보장), 석사과정 최대 USD 55,000; 의료보험(연 약 10만 달러 보장)·왕복 항공권 별도"
+  value: 20000
+  max: 45000
+  currency: USD
+  unit: year
+  covers: ["tuition", "living", "health-insurance", "travel"]
+duration: "1년 (학업 성과·예산에 따라 1년 연장, 최대 2년)"
+eligibility:
+  nationality: ["KR"]
+  where_enrolled: "미국 대학원 신규 진학 예정자; 온라인 지원서 제출 시점에 미국에 체류 중인 사람, 장학 개시(이듬해 8월) 전에 미국 대학원에 진학하는 사람, 최근 6년간 미국에 5년 이상 연속 체류한 사람은 지원 불가"
+  stage: "학사 학위 소지자(지원 이듬해 2월까지 취득 예정자 포함); 이듬해 가을 미국 석사·박사과정 입학 예정자"
+  korean_ok: true
+  international_in_us_ok: false
+  us_citizen_only: false
+  notes: "미국 이중국적자·영주권자는 지원 불가. 이미 미국 박사과정에 재학 중인 학생은 미국 체류·진학 시점 제한에 걸려 지원할 수 없음. 일반 트랙은 인문·사회·예술 분야만 해당하고, 이공계는 별도의 '이공계 첨단분야 대학원 장학 프로그램'(STEM 전 분야, 바이오·반도체·배터리·양자·AI·우주 우대)으로 지원."
+requirements:
+  - "학부(및 대학원) 누적 GPA 3.0/4.0 이상"
+  - "TOEFL iBT 4.5(개편 전 88) 이상 또는 IELTS Academic 6.5 이상 (이공계 트랙 기준)"
+  - "GRE General 또는 GMAT 성적 (이공계 트랙 기준)"
+  - "남성은 출국 전 병역 필 또는 면제"
+  - "온라인 지원서 및 우편 서류 제출, 영어 면접"
+nomination: false
+cycle:
+  typical: "매년 4월 1일 접수 시작, 5월 셋째 주 화요일경 KST 17시 마감, 7–8월 영어 면접, 9월 중순 최종 발표, 이듬해 8–9월 출국"
+  deadlines:
+    - {kind: other, date: 2027-04-01, estimated: true, label: "PY2028 접수 시작(추정)"}
+    - {kind: application, date: 2027-05-18, tz: "KST", time: "17:00", estimated: true, label: "PY2028 지원 마감(추정)"}
+    - {kind: application, date: 2026-05-19, tz: "KST", time: "17:00", label: "2026년 마감(참고)"}
+status: upcoming
+apply_url: "https://www.fulbright.or.kr/grant/graduatestem/"
+fit: 1
+take: "미국 대학원에 이미 재학 중이면 지원 자체가 불가하므로 건너뛰고, 미국 석·박사 진학을 준비하는 국내 후배에게 이공계 첨단분야 트랙을 알려주는 참고용으로만 둔다."
+links:
+  home: "https://www.fulbright.or.kr/grant/graduate/"
+sources:
+  - "https://www.fulbright.or.kr/grant/graduate/"
+  - "https://www.fulbright.or.kr/grant/graduatestem/"
+  - "https://www.fulbright.or.kr/2026-gsp/"
+  - "https://www.fulbright.or.kr/grant/faq/"
+last_verified: 2026-10-02

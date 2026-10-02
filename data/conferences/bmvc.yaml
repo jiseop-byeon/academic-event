@@ -1,0 +1,58 @@
+id: bmvc
+acronym: "BMVC"
+name: "British Machine Vision Conference"
+organizer: "British Machine Vision Association (BMVA)"
+fields: [vision, ml]
+community: vision
+tier: 2
+rankings:
+  core: "A"
+  h5_index: 57
+  h5_year: 2025
+frequency: annual
+paper_format: "14 pages excluding references (BMVC template); unlimited supplementary"
+review:
+  blind: double
+  rebuttal: true
+proceedings: "BMVA proceedings (open access)"
+orientation:
+  contribution: -1
+  summary: "영국 BMVA가 주관하는 단일 트랙 비전 학회로 참고문헌 제외 14쪽의 긴 분량, 이중맹검, rebuttal(2026)로 심사하며 BMVA 자체 프로시딩으로 출판한다. 방법론 기여를 요구하지만 CVPR보다 경쟁이 덜해, 건설 응용 비전 논문도 방법적 기여를 분명히 하면 현실적인 타깃이 된다."
+  values: ["methodological contribution", "single-track", "long-format papers"]
+fit: 1
+take: "CVPR 결과(2월 말) 후 보완해 5월 말 마감에 내기 좋은 인식 논문 재투고처지만, 조작 연구가 핵심이므로 필요할 때 쓰는 백업으로만 두어라."
+editions:
+  - year: 2026
+    status: confirmed
+    start: 2026-11-23
+    end: 2026-11-26
+    city: "Lancaster"
+    country: GB
+    venue: "Lancaster Town Hall"
+    lat: 54.05
+    lon: -2.80
+    url: "https://bmvc2026.bmva.org/"
+    deadlines:
+      - {kind: abstract, date: 2026-05-22, tz: "AoE", time: "23:59"}
+      - {kind: paper, date: 2026-05-29, tz: "AoE", time: "23:59", label: "Paper and supplementary"}
+      - {kind: rebuttal, date: 2026-07-10, tz: "AoE", time: "23:59", label: "Rebuttal period Jul 3 – Jul 10"}
+      - {kind: notification, date: 2026-08-07, tz: "AoE", time: "23:59"}
+      - {kind: camera-ready, date: 2026-08-28, tz: "AoE", time: "23:59"}
+    notes: "제37회 BMVC, Lancaster University 주최. 투고·심사 일정은 모두 끝났고 11/23–26 오프라인 개최만 남았다. 2025년에는 rebuttal이 없었지만 2026년에는 rebuttal 기간이 있었다."
+  - year: 2027
+    status: estimated
+    deadlines:
+      - {kind: paper, date: 2027-05-21, estimated: true}
+    notes: "개최지 미정(BMVA가 주최 기관 자원자를 모집 중). BMVC 2025(5/16)·2026(5/29) 제출 마감 패턴으로 5월 하순을 추정했다. 대회는 보통 11월 말."
+links:
+  home: "https://www.bmva.org/bmvc"
+  cfp: "https://bmvc2026.bmva.org/calls/call-for-papers/"
+sources:
+  - "https://bmvc2026.bmva.org/"
+  - "https://bmvc2026.bmva.org/calls/call-for-papers/"
+  - "https://bmvc2025.bmva.org/"
+  - "https://bmvc2025.bmva.org/calls/call-for-papers/"
+  - "https://www.bmva.org/bmvc"
+  - "https://portal.core.edu.au/conf-ranks/?search=BMVC&by=acronym&source=ICORE2026"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
+last_verified: 2026-10-02

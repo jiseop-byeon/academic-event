@@ -1,0 +1,24 @@
+id: fsr
+acronym: "FSR"
+name: "International Conference on Field and Service Robotics"
+organizer: "Field and Service Robotics community (listed by the International Foundation of Robotics Research, IFRR)"
+fields: [robotics, navigation, construction, manipulation]
+community: robotics
+tier: 2
+frequency: biennial
+orientation:
+  contribution: 1
+  summary: "광업·농업·건설·임업·화물 처리 등 공장 밖 비정형 환경에서 동작하는 필드·서비스 로봇을 다루는 격년 학회로(IFRR 소개문에 '건설'이 명시됨), 실제 현장 배치와 거기서 얻은 교훈을 높이 산다. 건설 현장 내비게이션·조작 시스템의 현장 실증 논문에 가장 직접적으로 맞는 커뮤니티다."
+  values: ["field deployment", "lessons learned", "unstructured environments"]
+fit: 2
+take: "FSR은 건설 현장 실증을 정면으로 다루는 커뮤니티지만 2019년 이후 공식 일정 정보를 확인하지 못했으니, 다음 회차 공지를 확인한 뒤 판단할 것."
+editions:
+  - year: 2027
+    status: estimated
+    notes: "IFRR 페이지는 1997년부터 '2년마다' 개최라고 밝히지만 회차 기록이 2019(도쿄)에서 멈춰 있다. 홀수 해 격년 관례로 2027을 추정했으며, 2021–2025 회차와 다음 회차의 개최지·일정은 공식 출처에서 확인하지 못함 — 반드시 재확인 필요."
+links:
+  home: "http://www.ifrr.org/fsr"
+sources:
+  - "http://www.ifrr.org/fsr"
+  - "http://www.srg.mech.keio.ac.jp/fsr2019/"
+last_verified: 2026-10-02

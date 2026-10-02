@@ -1,0 +1,31 @@
+id: ornl-graduate-research-gro-rolling
+company: "Oak Ridge National Laboratory (ORNL)"
+org_type: lab
+team: "Graduate Research at ORNL (GRO) — e.g., Manufacturing Demonstration Facility: Robotics, Automation & Controls"
+title: "Graduate Research at ORNL (GRO)"
+fields: [robotics, construction]
+degree: [phd, ms]
+season: "Rolling (multi-semester appointments possible)"
+start: "flexible"
+locations:
+  - {city: "Oak Ridge", region: "TN", country: US, lat: 36.01, lon: -84.27}
+work_mode: unknown
+pay:
+  min: 3800
+  max: 3800
+  currency: USD
+  unit: month
+  source: posting
+  note: "program stipend; plus $1,000 housing allowance and travel reimbursement as applicable"
+required: ["Graduate student in a thesis- or dissertation-based program", "GPA 3.0+", "18+ years old", "An ORNL mentor identified first, with the project aligned with the academic adviser"]
+skills: []
+responsibilities: ["Conduct thesis/dissertation-related research hosted by an ORNL mentor (e.g., MDF robotics, automation and controls)"]
+citizenship: none
+eligibility_note: "프로그램 페이지에 '시민권 요건 없음(No citizenship requirement)' 명시. 지원 전에 ORNL 멘토를 직접 찾아 지도교수와 연구 주제를 맞춰야 하며, 마감 없이 수시 심사. 문의는 ORISE 운영 메일로만 안내되어 있음."
+status: rolling
+apply_url: "https://www.ornl.gov/content/graduate-research-ornl"
+fit: 2
+take: "시민권 제한 없이 박사과정생이 여러 학기 파견 연구를 할 수 있는 드문 국립연구소 경로라, MDF 로보틱스·자동화 그룹의 멘토를 먼저 찾아 지도교수와 공동 과제로 추진할 만하다."
+notes: "ORNL의 다른 학생 프로그램인 RSI(Spring 2027 마감 2026-10-28)와 SCGSR은 미국 시민·영주권자 전용이라 제외. ORNL ECO 공고는 박사과정생을 GRO로 안내함."
+sources: ["https://www.ornl.gov/content/graduate-research-ornl", "https://www.ornl.gov/content/how-find-research-mentor-ornl", "https://www.ornl.gov/facility/mdf", "https://www.zintellect.com/Opportunity/Details/ORNL-ECO-2026", "https://www.zintellect.com/Opportunity/Details/ORNL-RSI-Spring-2027"]
+last_verified: 2026-10-02

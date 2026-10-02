@@ -1,0 +1,32 @@
+id: jcce
+abbr: "J. Comput. Civ. Eng."
+name: "ASCE Journal of Computing in Civil Engineering"
+publisher: "American Society of Civil Engineers (ASCE)"
+issn: "0887-3801"
+eissn: "1943-5487"
+fields: [construction, robotics, vision, ml, hri]
+community: construction
+tier: 2
+metrics:
+  jif: {value: 5.8, year: 2025}
+  jif_5y: {value: 6.8, year: 2025}
+  citescore: {value: 8.6, year: 2025}
+access: hybrid
+conference_link: "i3CE 2026 우수 논문 JCCE 특집호 초청, IROS 2026 Future of Construction 워크숍 선정 논문 JCCE special collection 초청."
+orientation:
+  contribution: 1
+  summary: "ASCE 컴퓨팅 분과가 후원하는 격월간지로 AI·비전·로보틱스·BIM·디지털 트윈을 토목·건설에 적용한 연구를 싣는다. 새 계산 방법과 건설 데이터 기반 검증의 조합을 기대하지만 AutCon보다 문턱이 낮고, 공동 편집장(Yong K. Cho, Nora El-Gohary) 중 Yong K. Cho가 건설 로보틱스 연구자라 로봇 논문이 낯설지 않은 저널이다."
+  values: ["computing methods for civil engineering", "data-driven validation", "robotics friendly", "ASCE community"]
+fit: 3
+take: "AutCon 다음으로 가장 현실적인 1순위 저널이니, i3CE 발표 후 확장하거나 특집호(i3CE·Future of Construction 연계)를 통해 첫 저널 논문을 내기에 좋다."
+openalex_id: "S176637136"
+links:
+  home: "https://ascelibrary.org/journal/jccee5"
+sources:
+  - "https://web.archive.org/web/20260831131049/https://ascelibrary.org/journal/jccee5"
+  - "https://web.archive.org/web/20260718201352/https://ascelibrary.org/journal/jccee5"
+  - "https://www.i3ce2026.com/papers/02.html"
+  - "https://construction-robots.github.io/"
+  - "https://www.bioxbio.com/journal/J-COMPUT-CIVIL-ENG"
+  - "https://api.openalex.org/sources/S176637136"
+last_verified: 2026-10-02

@@ -1,0 +1,52 @@
+id: google-research-intern-phd-summer-2027
+company: "Google"
+org_type: bigtech
+team: "Google Research"
+title: "Research Intern, PhD, Summer 2027"
+fields: [ml, vision, robotics]
+degree: [phd]
+season: "Summer 2027"
+duration: "12–14 weeks, full-time"
+duration_weeks: [12, 14]
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+  - {city: "Austin", region: "TX", country: US, lat: 30.27, lon: -97.74}
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+  - {city: "New York", region: "NY", country: US, lat: 40.71, lon: -74.01}
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+  - {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -80.00}
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: unknown
+pay:
+  min: 118000
+  max: 157000
+  currency: USD
+  unit: year
+  source: posting
+  note: "미국 연 환산 기본급 범위(공고 기재)"
+required:
+  - "Enrolled in a PhD in CS or a related technical field"
+  - "Experience in one area of CS (NLU, CV, ML, deep learning, optimization, etc.)"
+  - "Located in the US for the internship; English proficiency"
+  - "CV with graduation date and a transcript"
+preferred:
+  - "Penultimate academic year, returning to the program afterwards"
+  - "Attending a US program and available full-time for 12 weeks"
+  - "Research experience and publications"
+  - "Python, C/C++, Java or similar"
+skills: [python, cpp, computer-vision]
+responsibilities:
+  - "Develop and execute a research agenda"
+  - "Work with peers, managers and partner teams"
+citizenship: none
+eligibility_note: "시민권 요건 없음, 인턴 기간 미국 거주 필요. 공고가 '박사 수료 직전 학년(penultimate year)' 대상이라고 명시하고 그보다 저연차는 Student Researcher 공고로 안내."
+status: open
+deadline: 2027-02-26
+apply_url: "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
+fit: 2
+take: "수료 직전 학년 대상 공고라 1년차에게는 Student Researcher가 정답이니, 이 공고는 넣더라도 보조로만 두라."
+notes: "지원 창은 2027-02-26까지(조기 종료 가능), 결과 회신에 90일 이상 걸릴 수 있음. 근무지 후보 약 30곳(대표 도시만 기재). 게시일 비공개."
+sources:
+  - "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
+last_verified: 2026-10-02

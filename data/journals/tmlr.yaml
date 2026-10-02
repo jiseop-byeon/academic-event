@@ -1,0 +1,40 @@
+id: tmlr
+abbr: "TMLR"
+name: "Transactions on Machine Learning Research"
+publisher: "TMLR (JMLR family, reviewed on OpenReview)"
+issn: "2835-8856"
+fields: [ml]
+community: ml
+tier: 2
+metrics:
+  papers_published: {value: 1395, year: 2025}
+review:
+  blind: double
+  first_decision_days: 91
+  acceptance_rate: 0.706
+  speed_note: "2025 연례보고서 기준 투고→결정 중앙값은 단편(12쪽 이하) 91일, 장편 104일. 채택률 70.6%는 철회·데스크리젝트를 제외한 수치이며 포함하면 46.3%다. 월 약 250편이 투고되며, 2024·2025년에는 12월 초~1월 초 연휴 기간에 신규 투고를 중단했다."
+access: open-access
+apc_usd: 0
+length: "Regular submissions up to 12 pages of main text; longer submissions are accepted with a longer review period"
+article_types: ["regular", "long", "survey"]
+conference_link: "J2C Certification을 받은 TMLR 논문은 NeurIPS·ICML·ICLR의 Journal-to-Conference 트랙에서 발표할 수 있다."
+orientation:
+  contribution: -1
+  summary: "'주장이 정확하고 설득력 있는 근거로 뒷받침되는가'와 '독자 일부라도 관심을 가질 결과인가'만 심사하고 주관적 중요도(novelty·impact)는 따지지 않는 ML 저널로, OpenReview에서 이중맹검 공개 심사를 하며 상시 투고를 받는다. 로봇 학습의 실증 분석·재현 연구·부정적 결과도 실릴 수 있지만 ML 관점의 명확한 주장이 있어야 하며, 2025년 1월부터 Scopus·DOAJ에 색인됐지만 Web of Science는 2025년 말 기준 심사 중이라 JIF가 없다."
+  values: ["technical correctness", "evidence-backed claims", "open review", "rolling submission"]
+fit: 2
+take: "학회 마감에 얽매이지 않고 로봇 학습 방법·실증 분석을 상시 투고할 수 있고 채택률 약 70%와 J2C 발표 경로까지 있어, 학회 탈락 원고를 정리해 내는 ML 저널로 적극 활용할 만하다."
+openalex_id: "S4393919742"
+links:
+  home: "https://jmlr.org/tmlr/"
+  submit: "https://openreview.net/group?id=TMLR"
+  guide: "https://jmlr.org/tmlr/author-guide.html"
+  policies: "https://jmlr.org/tmlr/editorial-policies.html"
+sources:
+  - "https://jmlr.org/tmlr/"
+  - "https://jmlr.org/tmlr/editorial-policies.html"
+  - "https://jmlr.org/tmlr/author-guide.html"
+  - "https://docs.google.com/document/d/1EsApC9y08bY2Qv2lQ-1NjTgU8QuAT9E30k44QiuSG5c/"
+  - "https://docs.google.com/document/d/1_lUT03lHtwLKnFaN_RYjxnG8MX5DGcFAbfUQY6YxQsI"
+  - "https://api.openalex.org/sources?filter=issn:2835-8856"
+last_verified: 2026-10-02

@@ -1,0 +1,34 @@
+id: jmlr
+abbr: "JMLR"
+name: "Journal of Machine Learning Research"
+publisher: "JMLR (self-published online; print volumes by Microtome Publishing)"
+issn: "1532-4435"
+eissn: "1533-7928"
+fields: [ml]
+community: ml
+tier: 1
+metrics:
+  h5_index: {value: 130, year: 2025}
+review:
+  speed_note: "공식 심사 통계는 공개되지 않는다. 자매지 TMLR의 연례보고서는 JMLR의 첫 리뷰·AE 권고까지 중앙값이 200일을 넘는다고 언급했다(2021년 자료). 35쪽을 넘는 원고는 심사가 더 길어질 수 있다."
+access: open-access
+apc_usd: 0
+length: "No hard limit; papers over 35 pages (including appendices) take longer to review and over 50 pages require a justification"
+article_types: ["regular", "open source software (MLOSS)", "survey (invited only)"]
+orientation:
+  contribution: -2
+  summary: "ML 이론·방법론의 대표 저널로, 엄밀한 이론과 완결된 장편 연구를 싣고 학회 논문은 상당히 확장된 경우에만 받는다. 출판료 없이 모든 논문을 무료 공개하며 오픈소스 소프트웨어(MLOSS) 트랙이 있지만, 응용·시스템 논문은 거의 실리지 않는다."
+  values: ["theoretical rigor", "comprehensive long-form studies", "open source software track"]
+fit: 1
+take: "이론 중심 장편 논문 저널이라 건설 physical AI 연구와는 거리가 멀어 참고용으로만 두면 된다."
+openalex_id: "S118988714"
+links:
+  home: "https://www.jmlr.org/"
+  guide: "https://www.jmlr.org/author-info.html"
+sources:
+  - "https://www.jmlr.org/"
+  - "https://www.jmlr.org/author-info.html"
+  - "https://docs.google.com/document/d/1EsApC9y08bY2Qv2lQ-1NjTgU8QuAT9E30k44QiuSG5c/"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence"
+  - "https://api.openalex.org/sources?filter=issn:1532-4435"
+last_verified: 2026-10-02

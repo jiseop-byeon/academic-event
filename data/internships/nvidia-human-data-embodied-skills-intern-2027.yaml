@@ -1,0 +1,43 @@
+id: nvidia-human-data-embodied-skills-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — Data-Driven AI for Robotics (DAIR)"
+title: "PhD Research Intern, Learning Embodied Skills from Human Data - 2027"
+fields: [physical-ai, manipulation, vision, robotics]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: onsite
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위"
+required:
+  - "Pursuing a PhD in CS, CE, EE, Robotics or related"
+  - "Efficient use of coding agents for research prototyping"
+  - "Model-training and simulation frameworks (PyTorch, Isaac Lab, MuJoCo)"
+  - "At least one paper at CVPR, ICCV, SIGGRAPH, CoRL or similar"
+preferred:
+  - "Human motion and human-object interaction modeling"
+  - "Robot learning, RL/IL and cross-embodiment motion tracking"
+  - "Generative modeling, video understanding or differentiable physics"
+skills: [python, pytorch, isaac-sim, mujoco, reinforcement-learning, imitation-learning, computer-vision, 3d-vision, simulation, world-models]
+responsibilities:
+  - "Turn large-scale human video, motion-capture and teleoperation data into robot and character skills"
+  - "Build pipelines for motion reconstruction, generation, retargeting and control"
+  - "Transfer human skills to humanoid loco-manipulation and dexterous manipulation"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 Santa Clara 근무."
+status: open
+posted: 2026-09-21
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405"
+fit: 2
+take: "사람 시연 영상에서 조작 기술을 뽑는 방향은 숙련공 데이터를 쓰는 건설 조작 연구와 맞닿아 있으나 휴머노이드·캐릭터 모션 비중이 커서 2순위로 지원하라."
+notes: "요청번호 JR2025405. '최소 2026-09-25까지 접수' 문구는 마감일이 아님."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405"
+last_verified: 2026-10-02

@@ -1,0 +1,39 @@
+id: ro-man
+acronym: "RO-MAN"
+name: "IEEE International Conference on Robot and Human Interactive Communication"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+fields: [hri, robotics]
+community: hri
+tier: 2
+rankings:
+  h5_index: 34
+  h5_year: 2025
+frequency: annual
+proceedings: "IEEE Xplore"
+orientation:
+  contribution: 1
+  summary: "인간-로봇 상호작용 전반(소셜 로봇, 협업, 원격조작, 보조 로봇)을 폭넓게 받는 IEEE 계열 학회로, HRI보다 문턱이 낮아 시스템 구현과 소규모 사용자 평가를 갖춘 논문도 채택된다. 건설 작업자-로봇 협업, 작업자 의도 인식, 원격조작 인터페이스 같은 주제가 자연스럽게 맞는다."
+  values: ["human-robot collaboration", "social robotics", "user evaluation", "broad scope"]
+fit: 2
+take: "RO-MAN 2027(캐나다 워털루)은 협업·원격조작 인터페이스 결과를 3월 중순 예상 마감에 맞춰 내기 좋은 HRI 계열 2순위 무대."
+editions:
+  - year: 2027
+    status: estimated
+    start: 2027-08-23
+    end: 2027-08-27
+    city: "Waterloo"
+    country: CA
+    lat: 43.46
+    lon: -80.52
+    deadlines:
+      - {kind: paper, date: 2027-03-15, estimated: true}
+    notes: "ro-man.org에 2027 개최지(캐나다 온타리오주 워털루)만 공지됨. 일정은 최근 4회(8월 마지막 주) 패턴으로, 논문 마감은 2026(3/15, 연장 3/29)·2025(3/31) 회차를 바탕으로 추정. RO-MAN 2026(일본 기타큐슈, 8/24–28)은 종료."
+links:
+  home: "https://ro-man.org/"
+sources:
+  - "https://ro-man.org/"
+  - "https://ro-man2026.org/"
+  - "https://ro-man2025.org/"
+  - "https://www.rsj.or.jp/en/event/international/roman.html"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Humanoid+Robots"
+last_verified: 2026-10-02

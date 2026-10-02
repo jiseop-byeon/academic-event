@@ -1,0 +1,39 @@
+id: nmi
+abbr: "Nat. Mach. Intell."
+name: "Nature Machine Intelligence"
+publisher: "Springer Nature (Nature Portfolio)"
+eissn: "2522-5839"
+fields: [ml, robotics, physical-ai]
+community: ml
+tier: 1
+metrics:
+  jif: {value: 29.8, year: 2025}
+  jif_5y: {value: 36.0, year: 2025}
+  sjr: {value: 6.902, year: 2025}
+  h5_index: {value: 130, year: 2025}
+review:
+  first_decision_days: 10
+  speed_note: "투고→첫 편집 결정 중앙값 10일(대부분 전문 에디터의 데스크 단계 판단), 투고→채택 중앙값 231일. 채택률은 공개되지 않는다."
+access: hybrid
+length: "Article: main text up to 3,500 words, up to 6 display items, about 50 references"
+article_types: ["article", "analysis", "review", "perspective", "reusability report"]
+orientation:
+  contribution: 0
+  summary: "Nature 계열의 ML·AI·로보틱스 저널로 학제적 파급력과 넓은 독자층에 대한 의의를 가장 중시하며, 전문 에디터가 데스크 단계에서 대부분을 거른다. 실제 환경에서 검증된 로봇 학습이나 과학·공학 문제를 바꾸는 AI 응용이 실릴 수 있지만, 본문 3,500단어·그림 6개 안에 강한 서사로 압축해야 한다."
+  values: ["broad significance", "interdisciplinary impact", "real-world validation"]
+fit: 2
+take: "실제 건설 현장에서 검증된 조작·로봇 학습처럼 학제적 파급력이 큰 결과가 나왔을 때 노릴 장기 목표 저널이다."
+openalex_id: "S2912241403"
+links:
+  home: "https://www.nature.com/natmachintell/"
+  submit: "https://mts-natmachintell.nature.com/"
+  guide: "https://www.nature.com/natmachintell/submission-guidelines"
+  metrics: "https://www.nature.com/natmachintell/journal-impact"
+sources:
+  - "https://www.nature.com/natmachintell/journal-impact"
+  - "https://www.nature.com/natmachintell/content"
+  - "https://www.nature.com/natmachintell/our-publishing-models"
+  - "https://www.nature.com/natmachintell/journal-information"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Nature+Machine+Intelligence"
+  - "https://api.openalex.org/sources?filter=issn:2522-5839"
+last_verified: 2026-10-02

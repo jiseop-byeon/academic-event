@@ -1,0 +1,52 @@
+id: case
+acronym: "CASE"
+name: "IEEE International Conference on Automation Science and Engineering"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+fields: [robotics, construction, manipulation, physical-ai]
+community: robotics
+tier: 2
+rankings:
+  h5_index: 30
+  h5_year: 2025
+frequency: annual
+paper_format: "6 pages including references, up to 2 additional pages with an extra page charge (8 max), IEEE two-column"
+review:
+  blind: double
+proceedings: "IEEE Xplore"
+journal_track: "Accepted T-ASE, RA-L, T-RO, RA-M and RA-P papers can be presented at CASE as presentation-only papers (CASE 2027 deadline 2027-04-30)"
+orientation:
+  contribution: 1
+  summary: "IEEE RAS 3대 플래그십 중 자동화 쪽 학회로, 제조·물류·건설 등 실제 공정에 로봇과 자동화를 통합하고 정량적으로 검증한 논문을 환영한다. 알고리즘 신규성은 적당해도 되며, 건설 공정 자동화(시공 작업 로봇화, BIM·디지털 트윈 연계 작업 계획)는 'automation in construction' 주제로 자연스럽게 받아들여진다."
+  values: ["system integration", "industrial automation", "real-world validation", "optimization"]
+fit: 3
+take: "CASE 2027(린츠, 3/1 마감)은 건설 공정 자동화 시스템 논문을 ICRA보다 낮은 문턱으로 RAS 플래그십 무대에 올릴 수 있는 현실적 1순위 후보."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-08-23
+    end: 2027-08-27
+    city: "Linz"
+    country: AT
+    venue: "LIT Factory, Johannes Kepler University (JKU)"
+    lat: 48.31
+    lon: 14.29
+    url: "https://2027.ieeecase.org/"
+    deadlines:
+      - {kind: other, date: 2027-01-15, label: "special session proposal"}
+      - {kind: paper, date: 2027-03-01, label: "regular and special session full papers"}
+      - {kind: workshop-proposal, date: 2027-04-01}
+      - {kind: other, date: 2027-04-01, label: "industry papers and work-in-progress papers"}
+      - {kind: other, date: 2027-04-30, label: "journal presentation-only (RA-L, T-RO, RAM, RAP, T-ASE)"}
+      - {kind: notification, date: 2027-05-15}
+      - {kind: camera-ready, date: 2027-06-15, label: "final paper and author registration"}
+    notes: "23회째. 공식 Key Dates 기준(시간대 미표기). 페이지 규정은 CASE 2026 CFP 기준이며 2027 CFP는 아직 미게시."
+links:
+  home: "https://2027.ieeecase.org/"
+  cfp: "https://2027.ieeecase.org/key-dates/"
+sources:
+  - "https://2027.ieeecase.org/key-dates/"
+  - "https://2027.ieeecase.org/"
+  - "https://www.ieee-ras.org/event/deadlines-paper-submission-deadline-case-2027-ieee-23rd-international-conference-on-automation-science-and-engineering-case-27972-0/"
+  - "https://2026.ieeecase.org/call-for-papers/"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Automation+Science+and+Engineering"
+last_verified: 2026-10-02

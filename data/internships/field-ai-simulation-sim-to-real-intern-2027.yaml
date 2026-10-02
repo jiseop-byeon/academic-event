@@ -1,0 +1,33 @@
+id: field-ai-simulation-sim-to-real-intern-2027
+company: "Field AI"
+org_type: robotics
+team: "Simulation (Irvine)"
+title: "Simulation, Sim to Real (Internship Program)"
+fields: [robotics, physical-ai, navigation]
+degree: [phd, ms, bs]
+season: "12-week internship (term not stated)"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Irvine", region: "CA", country: US, lat: 33.68, lon: -117.83}
+work_mode: onsite
+pay:
+  min: 30
+  max: 40
+  currency: USD
+  unit: hour
+  source: posting
+  note: "posted hourly range"
+required: ["Pursuing a BS, MS or PhD in CS, robotics, EE, ME or related", "Python and/or C++ programming", "Foundations in robotics, simulation, graphics, physics or software engineering", "Git and Linux", "Availability for a 12-week internship"]
+preferred: ["Isaac Sim, Gazebo, MuJoCo, Unity or Unreal", "ROS 2 sensor messages, transforms or recorded robot data", "URDF, USD, meshes or point clouds", "Sensor simulation, physics modeling or 3D reconstruction projects", "Using real robot data to evaluate sim accuracy"]
+skills: [python, cpp, simulation, isaac-sim, mujoco, ros2, point-cloud]
+responsibilities: ["Deliver a mentored 12-week project in simulation tooling, sensor fidelity, real-to-sim workflows or autonomy evaluation", "Build tools for scenario execution, log replay, regression testing and metrics", "Turn field logs and real failure cases into reproducible simulation scenarios"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 학사·석사·박사 모두 지원 가능하며 미국 내 근무 자격이 필요."
+status: open
+posted: 2026-09-23
+apply_url: "https://jobs.lever.co/field-ai/cce71d31-40a0-407f-b3b9-a586976b89b8"
+fit: 2
+take: "야외 현장 로봇의 sim-to-real 도구를 만드는 엔지니어링 인턴이라 연구 비중은 낮지만, 건설 현장 같은 비정형 환경의 시뮬레이션 역량을 쌓는 보조 지원처로 괜찮다."
+sources: ["https://jobs.lever.co/field-ai/cce71d31-40a0-407f-b3b9-a586976b89b8", "https://api.lever.co/v0/postings/field-ai?mode=json"]
+last_verified: 2026-10-02

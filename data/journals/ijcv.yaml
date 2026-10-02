@@ -1,0 +1,33 @@
+id: ijcv
+abbr: "IJCV"
+name: "International Journal of Computer Vision"
+publisher: "Springer Nature"
+issn: "0920-5691"
+eissn: "1573-1405"
+fields: [vision]
+community: vision
+tier: 1
+metrics:
+  jif: {value: 10.3, year: 2025}
+  jif_5y: {value: 20.0, year: 2025}
+  h5_index: {value: 109, year: 2025}
+review:
+  first_decision_days: 37
+  speed_note: "Springer 공개 기준 투고에서 첫 결정까지 중앙값 37일로 빠른 편이다. 채택률은 공개되지 않는다."
+access: hybrid
+conference_link: "ACCV 2026 수상 논문은 IJCV 특별호에 초청된다(ACCV 2026 공지)."
+orientation:
+  contribution: -1
+  summary: "컴퓨터비전 전문 최상위 저널로 방법론의 깊이와 포괄적인 실험을 중시하며, CVPR·ICCV·ECCV 논문의 충실한 확장판과 특별호 초청 논문이 많이 실린다. 건설 현장 인식 연구도 비전 방법론으로서의 기여와 폭넓은 비교 실험을 갖추면 경쟁할 수 있다."
+  values: ["methodological depth", "comprehensive experiments", "extended conference work"]
+fit: 1
+take: "첫 결정 중앙값 37일로 빠르고 학회 논문 확장판을 환영해, 학회에서 발표한 건설 인식 연구를 저널로 확장할 때 1순위로 고려할 비전 저널이다."
+openalex_id: "S25538012"
+links:
+  home: "https://link.springer.com/journal/11263"
+sources:
+  - "https://link.springer.com/journal/11263"
+  - "https://accv2026.org/submissions/author-guidelines/"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
+  - "https://api.openalex.org/sources?filter=issn:0920-5691"
+last_verified: 2026-10-02

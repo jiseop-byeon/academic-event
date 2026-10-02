@@ -1,0 +1,43 @@
+id: ndseg-fellowship
+name: "National Defense Science and Engineering Graduate (NDSEG) Fellowship"
+organizer: "U.S. Department of Defense (Army, Navy, Air Force)"
+org_type: us-government
+type: fellowship
+fields: [any]
+amount:
+  summary: "월 $3,600(연 $43,200) stipend + 등록금·필수 학비 전액 + 건강보험 최대 $1,600, 재임 기간 중 출장·학회비 최대 $5,000"
+  value: 43200
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "fees", "health-insurance", "travel"]
+duration: "3년"
+eligibility:
+  nationality: ["US"]
+  where_enrolled: "미국 내 인가된 대학원 학위과정에 풀타임 재학 (DoD 연구 관심 분야의 과학·공학)"
+  stage: "지원 연도에 학사 취득 예정인 학부 4학년, 또는 대학원 시작 후 2년 이내(1·2년 차)이면서 학위과정이 최소 3년 남은 학생"
+  korean_ok: false
+  international_in_us_ok: false
+  us_citizen_only: true
+  notes: "미국 시민권자·미국 포함 이중국적자·미국 국민(national)만 지원 가능하며 영주권자도 지원 불가. 연구 주제가 DoD BAA 관심 분야와 맞아야 함. 최근 공지에서는 주관 부처를 Department of War(DoW)로 표기하며, FY2026 선정자(102명, 61개 대학)는 2026년 9월 3일 발표됨."
+requirements: ["에세이 2편 (각 500단어 이상: 진로 목표, 개인 배경)", "성적증명서", "익명 처리한 이력서(CV)", "익명 처리한 연구 제안서", "추천서 최대 3부 (FY2027 회차는 선택 사항, 지원서 제출 전에 완료돼야 함)"]
+nomination: false
+awards_per_year: "연 150–350명 (FY2026은 102명)"
+cycle:
+  typical: "FY2027 회차는 2026년 8월 3일–10월 30일 접수, FY2026 선정 결과는 2026년 9월 3일 발표"
+  deadlines:
+    - {kind: application, date: 2026-10-30, tz: "ET", label: "지원 마감 (오후 5시 ET)"}
+status: open
+apply_url: "https://ndseg.sysplus.com/"
+fit: 1
+take: "미국 시민권자·국민 전용(영주권자도 불가)이라 한국 국적자는 지원할 수 없는 참고용 항목이다."
+links:
+  home: "https://ndseg.sysplus.com/NDSEG/about/"
+sources:
+  - "https://ndseg.sysplus.com/"
+  - "https://ndseg.sysplus.com/NDSEG/about/eligibility"
+  - "https://ndseg.sysplus.com/NDSEG/about/"
+  - "https://ndseg.sysplus.com/NDSEG/fellows/Stipends-Travel"
+  - "https://ndseg.sysplus.com/NDSEG/FAQ/application"
+  - "https://ndseg.sysplus.com/NDSEG/News/"
+  - "https://ndseg.sysplus.com/NDSEG/News/DoDNDSEG2026NDSEGAwardeesAnnouncement.pdf"
+last_verified: 2026-10-02

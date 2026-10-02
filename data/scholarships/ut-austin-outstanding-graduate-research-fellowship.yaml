@@ -1,0 +1,37 @@
+id: ut-austin-outstanding-graduate-research-fellowship
+name: "Outstanding Graduate Research Fellowship (University Graduate Continuing Fellowship)"
+organizer: "The University of Texas at Austin — Office of Graduate and Postdoctoral Studies"
+org_type: university
+type: fellowship
+fields: [any]
+amount:
+  summary: "12개월 생활비 $38,000 + 건강보험 지원 + 주(州) 거주자 기준 등록금·수수료 지원 (가을·봄 9학점, 여름 3학점); 추천됐으나 미선정 시 Graduate Recognition Award $1,000"
+  value: 38000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "other"]
+duration: "12개월"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "UT Austin 대학원 재학생"
+  stage: "현 재학생 — UT 입학 이후의 실적으로 평가 (학년 제한 명시 없음)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학생이 직접 지원할 수 없고 학과 graduate adviser/coordinator가 대학원 온라인 시스템으로 추천해야 함. CAEE는 전공 분야별 교수로 구성된 Graduate Fellowship Committee가 추천 대상을 정하며, 이 위원회는 학과·Cockrell 펠로십(1년 $1,000–$20,000 이상)도 추천함. 심사 기준: 입학 후 주요 성과, 명확한 연구 계획, 개인 진술서, 추천서. 국적 제한 언급 없음."
+requirements: ["학과 추천 (graduate adviser/coordinator)", "CV", "개인 진술서 (personal statement)", "추천서 3부 (추천인 정보 제출)"]
+nomination: true
+cycle:
+  typical: "학과 추천 → 대학원 위원회 심사; 2026–27 추천 일정은 대학원 공지 전 (Cockrell 재학생 펠로십 결과는 보통 여름에 통보)"
+status: upcoming
+fit: 2
+take: "1년차 실적만으로는 경쟁이 어려우니 2년차에 ICRA·IROS 1저자 논문을 확보한 뒤 지도교수에게 CAEE 펠로십 위원회 추천을 요청하라 — 선정되면 1년간 $38,000 생활비와 등록금 지원을 받는다."
+links:
+  home: "https://graduate.utexas.edu/funding/fellowships/grad-school/continuing"
+sources:
+  - "https://graduate.utexas.edu/funding/fellowships/grad-school/continuing"
+  - "https://graduate.utexas.edu/funding/fellowships/grad-school/deadlines"
+  - "https://graduate.utexas.edu/funding/fellowships/grad-fellows"
+  - "https://caee.utexas.edu/academics/graduate/funding/"
+  - "https://cockrell.utexas.edu/admissions/financial-support/graduate-funding"
+last_verified: 2026-10-02

@@ -1,0 +1,38 @@
+id: ashrae-grant-in-aid
+name: "ASHRAE Graduate Student Grant-in-Aid"
+organizer: "ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers)"
+org_type: society
+type: research-grant
+fields: [construction]
+amount:
+  summary: "최대 $20,000 (등록 확인 시 $10,000 + ASHRAE Society Meeting 참석 보고 후 $10,000), ASHRAE 학회 논문 발표 또는 STBE 저널 게재 시 $3,000 추가"
+  value: 20000
+  currency: USD
+  unit: one-time
+  covers: ["research", "travel"]
+duration: "1년 (수상 다음 학년도)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "전 세계 ASHRAE 지역의 대학원에 수상 다음 학년도 내내 풀타임 재학"
+  stage: "대학원생 (석·박사), 지도교수의 지도 아래 ASHRAE 관련 학위논문·연구 수행"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "HVAC&R 등 ASHRAE 관련 기술·주제의 연구여야 함. 국적 제한 없고 ASHRAE 회원 가입은 권장 사항이며, 지원금 일부는 수상 후 ASHRAE Winter/Annual Meeting 1회 참석 경비로 사용."
+requirements: ["GIA 지원서 (학생 작성 1–3쪽 + 지도교수 작성 4쪽)", "공식 성적증명서", "연구 계획 등 보충 자료"]
+nomination: false
+awards_per_year: "연 10–25명"
+cycle:
+  typical: "3월 1일 마감(2027년 회차 기준), 7월 중순 결과 통보·지급"
+  deadlines:
+    - {kind: application, date: 2027-03-01, tz: "ET", label: "지원 마감 (오전 8시 ET)"}
+status: open
+apply_url: "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program"
+fit: 1
+take: "HVAC&R·건물 에너지 등 ASHRAE 관련 연구 전용이라 건설 로봇 연구와 맞지 않는 참고용 항목이다."
+links:
+  home: "https://www.ashrae.org/technical-resources/research/graduate-student-grant-in-aid-award"
+sources:
+  - "https://www.ashrae.org/technical-resources/research/graduate-student-grant-in-aid-award"
+  - "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program"
+last_verified: 2026-10-02

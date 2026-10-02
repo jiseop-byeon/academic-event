@@ -1,0 +1,37 @@
+id: ut-austin-kolodzey-travel-grant
+name: "Kolodzey Travel Grant"
+organizer: "UT Austin Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering (CAEE)"
+org_type: university
+type: travel-grant
+fields: [any]
+amount:
+  summary: "학회 발표 출장비 부분 지원 (금액 비공개)"
+  covers: ["travel"]
+duration: "출장 1회"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "UT Austin CAEE 대학원 재학생"
+  stage: "박사 후보(candidacy) 단계 우선, 석사과정은 드물게 선정"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학회에서 본인 연구를 발표하는 CAEE 대학원생 대상으로 매년 지원 가능. 지도교수가 추천 서한 또는 온라인 양식(학위논문 제목, 학회명, 참석 필요성, 졸업 예정일 등)을 제출하며, 여러 학생을 추천하면 순위를 매김. 국적 제한 언급 없음."
+requirements: ["온라인 신청서", "2쪽 CV", "채택된 초록·논문 (PDF)", "지도교수 추천 서한 또는 온라인 추천 양식"]
+nomination: false
+cycle:
+  typical: "연 3회 — 9/30 마감(10/15–5/31 출장), 1/31 마감(3/1–9/30 출장), 5/31 마감(7/1–12/15 출장), 마감 약 2주 뒤 결과"
+  deadlines:
+    - {kind: application, date: 2027-01-31, label: "2027년 3/1–9/30 출장분 신청 마감 (ICRA 2027 포함)"}
+    - {kind: result, date: 2027-02-15, label: "2027년 3/1–9/30 출장분 결과"}
+    - {kind: application, date: 2027-05-31, label: "2027년 7/1–12/15 출장분 신청 마감 (IROS 2027 포함)"}
+    - {kind: result, date: 2027-06-15, label: "2027년 7/1–12/15 출장분 결과"}
+status: open
+apply_url: "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013309/Travel+Grants"
+fit: 2
+take: "박사 후보(candidacy) 우선이라 1년차에는 가능성이 낮으니 PDA를 먼저 쓰고, candidacy 진입 후 ICRA·IROS 발표 때 지도교수 추천을 받아 지원하라."
+links:
+  home: "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013309/Travel+Grants"
+sources:
+  - "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013309/Travel+Grants"
+  - "https://caee.utexas.edu/academics/graduate/funding/"
+last_verified: 2026-10-02

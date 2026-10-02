@@ -1,0 +1,43 @@
+id: ilju-overseas-scholarship
+name: "일주학술문화재단 해외박사 장학 (Ilju Foundation Overseas PhD Scholarship)"
+organizer: "일주학술문화재단 (Ilju Academy and Culture Foundation, 태광그룹)"
+org_type: korean-foundation
+type: scholarship
+fields: [any]
+amount:
+  summary: "1인당 총 USD 120,000 (학기당 USD 15,000, 연 USD 30,000, 5년 이내 8학기) + 입학 출국·졸업 귀국 항공료, 연구보조비(최대 200만 원, 2025년 보도 기준)"
+  value: 30000
+  currency: USD
+  unit: year
+  covers: ["stipend", "travel", "research"]
+duration: "5년 이내 8학기"
+eligibility:
+  nationality: ["KR"]
+  where_enrolled: "해외 우수 대학원 박사과정(석·박사 통합과정 포함) 입학 허가를 받은 진학 예정자"
+  stage: "박사과정 신입생(진학 예정자)만 지원 가능 — 이미 해외 박사과정 1년차에 재학 중이면 지원 대상이 아님"
+  korean_ok: true
+  international_in_us_ok: false
+  us_citizen_only: false
+  notes: "대한민국 국적자라면 해외 고교 졸업자도 지원 가능. 유학 국가·전공·연령 제한 없음(MBA·JD·LLM·MD·DNP·PHARM.D 등 전문직 학위 제외), 순수·기초학문 연구자 우대. 졸업 후 태광그룹 기여 등 의무 조건 없음. 면접은 대면, 장학증서 수여식 본인 참석 필수."
+requirements: ["온라인 지원서", "해외 대학원 박사과정 입학허가서", "지도교수 추천서 (최대 2부)", "대면 면접"]
+nomination: false
+awards_per_year: "약 7명 (2025년)"
+cycle:
+  typical: "매년 3–4월 공고·온라인 접수(2025년 4/2–4/27, 2026년 3/5 공고), 서류심사·대면 면접 후 7월 초 최종 발표(2026년 7/2) — 2027년 일정은 3월경 공고 예상"
+  deadlines:
+    - {kind: application, date: 2025-04-27, tz: "KST", label: "2025년 마감(참고)"}
+    - {kind: result, date: 2026-07-02, label: "2026년 34기 최종 발표(참고)"}
+status: upcoming
+apply_url: "https://www.iljufoundation.org/html/scholarship/fs/list/ussk.do"
+fit: 1
+take: "박사과정 진학 예정자(입학 허가 신입생)만 선발하므로 이미 박사과정에 재학 중인 지금은 지원 대상이 아니어서 건너뛴다."
+links:
+  home: "https://www.iljufoundation.org/html/foreignBusinessOutline.do"
+sources:
+  - "https://www.iljufoundation.org/html/foreignBusinessOutline.do"
+  - "https://www.iljufoundation.org/html/sfaqFront01.do"
+  - "https://www.iljufoundation.org/html/NewsNoticeFront01.do"
+  - "https://www.iljufoundation.org/"
+  - "https://sateconomy.co.kr/news/view/1065602179579935"
+  - "https://www.smarttoday.co.kr/ko-kr/articles/76921"
+last_verified: 2026-10-02

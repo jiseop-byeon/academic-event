@@ -1,0 +1,28 @@
+id: autodesk-research-phd-researcher-hci-2027
+company: "Autodesk"
+org_type: construction-tech
+team: "Autodesk Research — Future AI Experiences / HCI & Visualization"
+title: "PhD Researcher, HCI & Visualization Research"
+fields: [hri, ml]
+degree: [phd]
+season: "Summer 2027"
+start: "2027-05"
+duration: "16 weeks (May 24 – Sep 10, 2027)"
+duration_weeks: [16, 16]
+locations:
+  - {city: "Toronto", region: "ON", country: CA, lat: 43.65, lon: -79.38}
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: hybrid
+required: ["Enrolled in a CS (or related) PhD specializing in HCI, with at least one term left after the internship", "Peer-reviewed publications on interactive technologies", "Very strong software prototyping skills"]
+preferred: ["Generative AI tools and frameworks (GPT, Llama, Stable Diffusion, ComfyUI)", "Web frameworks (React/Next.js, Node.js/Flask)", "AR/VR development (Meta Quest, Apple Vision Pro)", "3D graphics, Unity or Unreal", "Experimental design and data analysis"]
+skills: [python, llm, hci, ar-vr]
+responsibilities: ["Drive a mentored research project in HCI or visualization (human-AI collaboration, generative design tools, interactive fabrication, AR/VR)", "Build prototypes and run experiments and usability studies", "Author a full research paper and an accompanying video"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 캐나다(토론토) 또는 미국(샌프란시스코 Pier 9) 근무로, 해당 국가의 근무 자격이 필요. 급여는 공개되지 않음."
+status: open
+posted: 2026-10-01
+apply_url: "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/PhD-Researcher--HCI---Visualization-Research_26WD101057"
+fit: 1
+take: "HCI 전공 박사 대상이라 직접 지원 대상은 아니지만 Autodesk Research의 2027 연구 인턴 프로그램(16주)이 열렸다는 신호이니, 로보틱스·제조 쪽 공고가 추가되는지 지켜볼 만하다."
+sources: ["https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/PhD-Researcher--HCI---Visualization-Research_26WD101057"]
+last_verified: 2026-10-02

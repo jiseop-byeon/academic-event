@@ -1,0 +1,23 @@
+id: boston-dynamics-internship-2027
+company: "Boston Dynamics"
+org_type: robotics
+team: "Internship and co-op program"
+title: "Internships and Co-ops (2027 cycle)"
+fields: [robotics, manipulation, physical-ai, navigation]
+degree: [phd, ms, bs]
+season: "2027 (10–12-week internship or 6-month co-op)"
+duration: "10–12 weeks (internship) or 6 months (co-op)"
+duration_weeks: [10, 26]
+locations:
+  - {city: "Waltham", region: "MA", country: US, lat: 42.38, lon: -71.24}
+work_mode: unknown
+skills: []
+citizenship: unknown
+eligibility_note: "공식 커리어 페이지 기준 학사·석사·박사 풀타임 재학생 대상 유급 인턴(10–12주) 또는 6개월 co-op. 시민권 요건은 개별 공고마다 다를 수 있어 공고가 열리면 확인 필요."
+status: upcoming
+apply_url: "https://bostondynamics.com/careers/"
+fit: 3
+take: "Atlas의 조작·행동 학습과 Spot의 현장 내비게이션을 모두 다루는 대표 기업이니, 새해 인턴 채용이 열리는 시점에 맞춰 Workday 공고를 확인하고 바로 지원할 만하다."
+notes: "2026-10-02 기준 Workday 게시판(Boston_Dynamics)에 인턴·co-op 공고 없음. 커리어 페이지에 'Internship recruiting season kicks off in the new year'라고 안내돼 있어 2027년 초 공고가 예상됨(시점은 페이지 문구 기준 추정). 이력서는 Talent Hub로 미리 등록 가능."
+sources: ["https://bostondynamics.com/careers/", "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/introduceYourself"]
+last_verified: 2026-10-02

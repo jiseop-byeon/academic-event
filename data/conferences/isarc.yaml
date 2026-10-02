@@ -1,0 +1,46 @@
+id: isarc
+acronym: "ISARC"
+name: "International Symposium on Automation and Robotics in Construction"
+organizer: "International Association for Automation and Robotics in Construction (IAARC)"
+fields: [construction, robotics, manipulation, navigation, hri, vision]
+community: construction
+tier: 1
+frequency: annual
+paper_format: "Scientific paper 6–8 pages incl. references; short (industry / case-study) paper up to 4 pages"
+review:
+  rebuttal: true
+proceedings: "ISARC Proceedings (IAARC, open access, Scopus-indexed, ISSN 2413-5844)"
+orientation:
+  contribution: 2
+  summary: "건설 자동화·로보틱스 전용 플래그십 학회로, 현장 적용·프로토타입 시연·사례 연구만으로도 게재가 가능하다. 논문마다 최소 2인이 심사한 뒤 점수 순위로 키노트·플레너리·병렬·포스터 발표를 배정하며, 2026년에는 리뷰 후 rebuttal·수정본 제출 단계가 있었다. 알고리즘 신규성보다 건설 문제 정의와 현장 검증의 설득력이 핵심 심사 포인트다."
+  values: ["construction robotics", "field validation", "case studies welcome", "open-access proceedings"]
+fit: 3
+take: "건설 로봇 조작 연구를 IAARC 커뮤니티에 처음 알리기에 가장 직접적인 무대이므로, 2026-12-10 풀페이퍼 마감에 맞춰 시스템·현장 실험 중심 논문을 반드시 내자."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-06-28
+    end: 2027-07-01
+    city: "Odense"
+    country: DK
+    venue: "ODEON, Odense (host: SDU Center for Large Structure Production)"
+    lat: 55.40
+    lon: 10.39
+    url: "https://www.iaarc.org/isarc-2027"
+    deadlines:
+      - {kind: paper, date: 2026-12-10}
+      - {kind: other, label: "Reviews completed (revision phase)", date: 2027-02-01}
+      - {kind: notification, date: 2027-03-14}
+    notes: "제44회 ISARC, 북유럽 첫 개최(남덴마크대 SDU 주관, 주제: 연구실에서 현장으로). 초록 단계 없이 풀페이퍼로 바로 투고하며 CFP는 2026-10-07 공개 예정. 2026(싱가포르)에는 리뷰 코멘트 → rebuttal·수정본 → 최종 통보 → 카메라레디(5월 중순) 순이었으므로 2027년에도 2–3월 수정 단계가 예상됨. 카메라레디 마감은 아직 미공지."
+links:
+  home: "https://www.iaarc.org/conference"
+  cfp: "https://www.iaarc.org/isarc-2027"
+sources:
+  - "https://www.iaarc.org/isarc-2027"
+  - "https://www.iaarc.org/isarc-2027/overview"
+  - "https://www.iaarc.org/isarc-2027/conference-venue"
+  - "https://www.iaarc.org/isarc-2026"
+  - "https://www.iaarc.org/isarc-2026/paper-and-presentation-types-2026"
+  - "https://www.iaarc.org/isarc-2026/review-and-publication-process-2026"
+  - "https://www.visitodense.com/press/odense-to-host-leading-robotics-conference-in-2027"
+last_verified: 2026-10-02

@@ -1,0 +1,29 @@
+id: convr
+acronym: "CONVR"
+name: "International Conference on Construction Applications of Virtual Reality"
+organizer: "CONVR conference series (founded by Prof. Nashwan Dawood)"
+fields: [construction, vision, hri]
+community: construction
+tier: 3
+frequency: annual
+proceedings: "Open-access proceedings with DOI (2026: Smart and Sustainable Built Environment series, free of charge, CC BY 4.0)"
+orientation:
+  contribution: 2
+  summary: "VR/AR·디지털 트윈·BIM 등 가상현실 기술의 건설 적용을 다루는 소규모 연례 학회다. 프로토타입·사례 적용 수준의 응용 논문으로 충분하며, 영역 의장이 2인 이상 심사자를 배정해 품질 순위를 매긴다. 최근에는 ICIO·SASBE 등 다른 행사와 공동 개최되는 경우가 많다."
+  values: ["VR/AR applications", "digital twins", "application papers", "free OA proceedings"]
+fit: 1
+take: "원격조작·XR 기반 HRI 결과가 생기면 가볍게 발표할 수 있지만 핵심 연구인 접촉 조작의 주 타깃은 아니므로 우선순위는 낮다."
+editions:
+  - year: 2027
+    status: estimated
+    notes: "2026-10-02 기준 CONVR 2027 개최지·일정 미발표. 2024 시드니(웨스턴시드니대), 2026 케임브리지(7/22, ICIO 2026과 공동)처럼 개최 시기·장소가 해마다 크게 달라 마감 추정은 생략(2026 대회 풀페이퍼 마감은 2/16)."
+links:
+  home: "https://www.convr2026.com/conference-series/"
+  cfp: "https://www.convr2026.com/call-for-papers/"
+sources:
+  - "https://www.convr2026.com/"
+  - "https://www.convr2026.com/call-for-papers/"
+  - "https://www.convr2026.com/review-and-publication-process/"
+  - "https://www.convr2026.com/conference-series/"
+  - "https://www.westernsydney.edu.au/urban-transformations/events/24_international_conference_on_construction_applications_of_virtual_reality_convr_2024"
+last_verified: 2026-10-02

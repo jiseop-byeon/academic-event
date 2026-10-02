@@ -1,0 +1,43 @@
+id: tesla-optimus-physics-engine-intern-summer-2027
+company: "Tesla"
+org_type: bigtech
+team: "Tesla AI — Optimus"
+title: "Internship, Physics Engine Development Engineer, Optimus (Summer 2027)"
+fields: [robotics, physical-ai]
+degree: [phd, ms, bs]
+season: "Summer 2027"
+start: "2027-05"
+duration: "12 weeks minimum, full-time on-site (May to about Sep 2027, may extend into Fall)"
+locations:
+  - {city: "Palo Alto", region: "CA", country: US, lat: 37.44, lon: -122.14}
+work_mode: onsite
+pay:
+  min: 20
+  max: 55
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고에 단위 미표기 — 금액 규모상 시급으로 해석"
+required:
+  - "Pursuing a degree in Physics, Math, Robotics, EE or related, graduating 2026–2027"
+  - "Robotics physics-engine development backed by first-author papers or impactful projects"
+  - "Algorithms, data structures and control theory"
+  - "C++, Python, CUDA and GPU programming"
+preferred:
+  - "Compiler principles and differentiable simulation"
+skills: [cpp, python, cuda, simulation, control]
+responsibilities:
+  - "Develop high-fidelity physics simulation modules for robotics"
+  - "Optimize simulation throughput while preserving fidelity"
+  - "Work with training and hardware teams to close the sim-to-real gap"
+citizenship: none
+eligibility_note: "시민권 요건은 없으나 졸업 예정일이 2026–2027년이어야 한다는 조건이 있어 그 이후 졸업 예정인 저연차 박사과정은 대상이 아님. 주 40시간 상주 근무 필수."
+status: open
+apply_url: "https://www.tesla.com/careers/search/job/internship-physics-engine-development-engineer-optimus-summer-2027-282147"
+fit: 1
+take: "졸업 예정 2026–27년 조건 때문에 저연차 박사과정은 사실상 대상이 아니니 참고용으로만 두라."
+notes: "Tesla 인턴 공고 다수가 같은 졸업연도 조건을 둠 — 예: 'Internship, RL Engineer, Tesla AI (Fall 2026/Winter 2027)'(덱스터러스 조작 RL, 연 환산 $100,000–150,000), 'Robotics Modeling & Simulation Engineer, Optimus (Winter/Spring 2027)'. 게시일 비공개."
+sources:
+  - "https://www.tesla.com/careers/search/job/internship-physics-engine-development-engineer-optimus-summer-2027-282147"
+  - "https://www.tesla.com/careers/search/job/internship-rl-engineer-tesla-ai-fall-2026-winter-2027--275494"
+last_verified: 2026-10-02

@@ -1,0 +1,39 @@
+id: honda-ri-dexterous-manipulation-memory-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Memory Representation for Dexterous Manipulation"
+fields: [manipulation, physical-ai, robotics]
+degree: [phd, ms]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "PhD or highly qualified MS candidate in robotics, CS or related"
+  - "Representation learning on multimodal robot data (RGB, RGB-D, tactile)"
+  - "Learned state-space models; real-robot policy deployment"
+  - "Isaac Gym or MuJoCo; Python, C++, PyTorch and ROS2"
+preferred:
+  - "Large VLA and world-action models"
+  - "In-hand dexterous manipulation with multi-fingered hands"
+  - "Contact dynamics and contact-mode switching"
+  - "Online RL on hardware; sim2real"
+skills: [python, cpp, pytorch, ros2, isaac-sim, mujoco, tactile-sensing, reinforcement-learning, vla, world-models]
+responsibilities:
+  - "Develop memory representations for long-horizon, contact-rich multi-fingered manipulation"
+  - "Design training objectives that retain information over long horizons"
+  - "Benchmark against baselines on hardware and in simulation"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴이라 학업 일정과의 조율이 필요."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-memory-representation-for-dexterous-manipulation"
+fit: 3
+take: "다지 로봇손의 장기·접촉 과다 조작을 촉각 포함 멀티모달로 다루는 과제라 핵심 연구와 정확히 겹치니 1월 시작이 가능하면 최우선으로 지원하라."
+notes: "공고번호 P25INT-68, 게시일 미표기. 공고 페이지의 지원 양식 또는 공고에 안내된 이메일로 접수."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-memory-representation-for-dexterous-manipulation"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

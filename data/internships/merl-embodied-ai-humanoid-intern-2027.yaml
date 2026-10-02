@@ -1,0 +1,45 @@
+id: merl-embodied-ai-humanoid-intern-2027
+company: "Mitsubishi Electric Research Laboratories (MERL)"
+org_type: lab
+team: "MERL (host: Toshi Koike-Akino)"
+title: "CI0314: Internship - Embodied AI & Humanoid Robotics"
+fields: [physical-ai, manipulation, robotics]
+degree: [phd, ms]
+season: "Flexible start (rolling)"
+start: "flexible"
+duration: "Approximately 4 months"
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: onsite
+pay:
+  min: 6000
+  max: 8000
+  currency: USD
+  unit: month
+  source: posting
+  note: "공고 기재 월 급여 범위(6–8K/월)"
+required:
+  - "Graduate student with research experience in robotics, embodied AI, ML or CV"
+  - "PyTorch or JAX; strong Python"
+  - "One or more of: VLA/foundation models, RL or imitation learning, manipulation/planning/control, agentic AI"
+preferred:
+  - "Humanoids or loco-manipulators (e.g., Unitree G1)"
+  - "Teleoperation systems"
+  - "Isaac Sim, MuJoCo or Genesis; ROS/ROS 2"
+  - "Policy deployment on Jetson edge devices"
+skills: [python, pytorch, jax, vla, world-models, reinforcement-learning, imitation-learning, isaac-sim, mujoco, ros2, embedded]
+responsibilities:
+  - "Embodied AI for dexterous manipulation, assembly and tool use on humanoids"
+  - "VLA and world-action models for long-horizon planning"
+  - "Learning from demonstrations and teleoperation; sim-to-real deployment"
+citizenship: none
+eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+status: open
+apply_url: "https://merl.clearcompany.com/careers/jobs/e620640e-7cf0-5449-b4b3-b5b90dbadbd9/apply"
+fit: 3
+take: "조립·공구 사용·덱스터러스 조작을 휴머노이드로 푸는 과제라 건설 작업 조작과 문제 설정이 거의 같으니 바로 지원하라."
+notes: "게시일 미표기. 시작일 유연, 목표는 CoRL·RSS·ICRA 등 논문 게재."
+sources:
+  - "https://www.merl.com/employment/internship-openings#CI0314"
+  - "https://merl.clearcompany.com/careers/jobs/e620640e-7cf0-5449-b4b3-b5b90dbadbd9/apply"
+last_verified: 2026-10-02

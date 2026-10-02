@@ -1,0 +1,41 @@
+id: nvidia-embodied-agentic-ai-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — Learning and Perception"
+title: "PhD Research Intern, Embodied and Agentic AI - 2027"
+fields: [vision, physical-ai, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: remote
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위"
+required:
+  - "Pursuing a PhD in CS/CE, EE or related"
+  - "Theory and practice of AI, especially computer vision, LLMs and agents"
+  - "Python or C++ prototyping; PyTorch"
+  - "Promising research track record"
+preferred:
+  - "Parallel programming (CUDA)"
+skills: [python, cpp, pytorch, computer-vision, llm, foundation-models, cuda]
+responsibilities:
+  - "Research embodied and agentic AI: perception, agentic reasoning, multimodal and continual learning"
+  - "Take ideas from hypothesis to rigorous experiments with mentors"
+  - "Transfer results to product and engineering groups"
+citizenship: none
+eligibility_note: "시민권 요건 없음. Santa Clara 또는 캘리포니아 원격(공고 근무지에 'US, CA, Remote' 포함)."
+status: open
+posted: 2026-10-02
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Embodied-and-Agentic-AI---2027_JR2025792"
+fit: 2
+take: "인지·에이전트 추론 중심 비전 팀이라 조작보다는 현장 인식·작업 계획 결과가 있을 때 노릴 보조 옵션이다."
+notes: "요청번호 JR2025792. '최소 2026-10-06까지 접수' 문구는 마감일이 아님."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Embodied-and-Agentic-AI---2027_JR2025792"
+last_verified: 2026-10-02

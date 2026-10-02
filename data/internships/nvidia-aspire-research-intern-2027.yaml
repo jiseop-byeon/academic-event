@@ -1,0 +1,44 @@
+id: nvidia-aspire-research-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — Autonomous Systems and Physical AI Research (ASPIRE)"
+title: "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027"
+fields: [physical-ai, navigation, robotics, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+  - {city: "Zurich", region: "ZH", country: CH, lat: 47.38, lon: 8.54}
+work_mode: onsite
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "미국(Santa Clara) 공고 기재 시급 범위. 취리히 공고에는 급여 미기재."
+required:
+  - "Currently pursuing a PhD in Robotics, CS, CE or related"
+  - "Research experience in autonomous vehicles, robotics, embodied AI or autonomous systems"
+  - "Publications at RSS, ICRA, CoRL, IJRR, NeurIPS, ICML, CVPR or similar"
+  - "Exceptional Python; PyTorch"
+preferred:
+  - "C++ and parallel programming such as CUDA"
+  - "Open-source research software"
+skills: [python, pytorch, cpp, cuda, reinforcement-learning, simulation, motion-planning, foundation-models]
+responsibilities:
+  - "Research closed-loop training, safety assurances, embodied reasoning and generalization for AVs and robots"
+  - "Conduct and publish original research"
+  - "Transfer results to NVIDIA autonomy and robotics product groups"
+citizenship: none
+eligibility_note: "미국 공고(JR2024171)는 시민권 요건 없음. 취리히 공고(JR2024606)는 별도 지원이며 현지 근무 자격 요건은 공고에 명시 없음."
+status: open
+posted: 2026-09-13
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171"
+fit: 2
+take: "자율주행 비중이 크지만 공고가 자율 배송·건설 차량과 모바일 매니퓰레이터의 안전·closed-loop 학습을 명시하니, 건설 장비 자율화·안전 검증 관점으로 지원서를 쓰면 승산이 있다."
+notes: "동일 직무 취리히 공고가 2026-09-28 게시. '최소 2026-09-17까지 접수' 문구는 마감일이 아님."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171"
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024606-1"
+last_verified: 2026-10-02

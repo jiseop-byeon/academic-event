@@ -1,0 +1,50 @@
+id: ijcai
+acronym: "IJCAI"
+name: "International Joint Conference on Artificial Intelligence"
+organizer: "International Joint Conferences on Artificial Intelligence (IJCAI) Organization"
+fields: [ml, robotics]
+community: ml
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 136
+  h5_year: 2025
+frequency: annual
+paper_format: "7 pages body + 2 pages of references (IJCAI-ECAI 2026 rules)"
+review:
+  blind: double
+  rebuttal: true
+  acceptance_rate: {value: 0.193, year: 2025, note: "1,042 of 5,404 submissions (myhuiban aggregator; IJCAI does not publish official statistics on its site)"}
+proceedings: "IJCAI Proceedings (ijcai.org)"
+orientation:
+  contribution: -1
+  summary: "국제 AI 공동학회로 본문 7쪽+참고문헌 2쪽, 이중맹검, 2단계 심사(1단계 요약 탈락 → author response)를 거치며 일반 AI 방법론을 중시한다. 2026년에는 'AI and Robotics' 등 특별 트랙이 있어 로봇 응용 논문의 진입로가 있었고 저자당 8편 제한이 있었으나, 2027 CFP는 아직 공개되지 않았다."
+  values: ["broad AI scope", "methodological novelty", "special tracks"]
+fit: 1
+take: "AI and Robotics 특별 트랙이 다시 열리면 대안이 될 수 있지만, 로보틱스 청중이 적어 건설 physical AI 연구에서는 우선순위가 낮다."
+editions:
+  - year: 2027
+    status: announced
+    start: 2027-08-07
+    end: 2027-08-13
+    city: "Kyoto"
+    country: JP
+    lat: 35.01
+    lon: 135.77
+    deadlines:
+      - {kind: abstract, date: 2027-01-13, estimated: true}
+      - {kind: paper, date: 2027-01-20, estimated: true}
+    notes: "IJCAI 공식 Future Conferences 기준 교토 8/7–13에 이어 중국 헝친(Hengqin)에서 8/15–17 위성 행사. 대회 사이트와 마감일은 미발표이며 IJCAI 2025(초록 1/16, 본문 1/23)·IJCAI-ECAI 2026(1/12, 1/19) 패턴에서 추정했다."
+links:
+  home: "https://www.ijcai.org/"
+  future_conferences: "https://www.ijcai.org/future_conferences"
+  cfp_2026: "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+sources:
+  - "https://www.ijcai.org/future_conferences"
+  - "https://2026.ijcai.org/important-dates/"
+  - "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/"
+  - "https://2025.ijcai.org/important-dates/"
+  - "https://www.myhuiban.com/conference/405?lang=en-us"
+  - "https://portal.core.edu.au/conf-ranks/?search=IJCAI&by=acronym&source=ICORE2026"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence"
+last_verified: 2026-10-02

@@ -1,0 +1,41 @@
+id: merl-robotic-disassembly-planning-intern-2027
+company: "Mitsubishi Electric Research Laboratories (MERL)"
+org_type: lab
+team: "MERL (host: Siddarth Jain)"
+title: "OR0298: Internship - Robotic Disassembly"
+fields: [manipulation, robotics, vision, physical-ai]
+degree: [phd]
+season: "Flexible start (rolling)"
+start: "flexible"
+duration: "Flexible"
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: onsite
+pay:
+  min: 6000
+  max: 8000
+  currency: USD
+  unit: month
+  source: posting
+  note: "공고 기재 월 급여 범위(6–8K/월)"
+required:
+  - "Current PhD student with a strong background in robot learning or computer vision"
+  - "Computer vision, robot learning or vision-language models"
+  - "ROS2, Python and PyTorch"
+  - "Strong publication record or research potential"
+skills: [python, pytorch, ros2, computer-vision, motion-planning, foundation-models]
+responsibilities:
+  - "Research task/sequence planning, skill learning, occlusion-robust perception and contact-rich manipulation for disassembly"
+  - "Use vision-language models for acting under uncertainty"
+  - "Run experiments and publish at a top-tier conference"
+citizenship: none
+eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+status: open
+apply_url: "https://merl.clearcompany.com/careers/jobs/fbb68320-9404-02cb-bbfd-1179523e2346/apply"
+fit: 3
+take: "분해 작업의 접촉 과다 조작·순서 계획은 건설 해체·개보수 작업과 구조가 같아 연구 스토리를 그대로 연결할 수 있으니 강하게 지원하라."
+notes: "게시일 미표기. 같은 분해 프로젝트의 OR0329(덱스터러스·sim-to-real)와 함께 지원 가능."
+sources:
+  - "https://www.merl.com/employment/internship-openings#OR0298"
+  - "https://merl.clearcompany.com/careers/jobs/fbb68320-9404-02cb-bbfd-1179523e2346/apply"
+last_verified: 2026-10-02

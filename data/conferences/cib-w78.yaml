@@ -1,0 +1,58 @@
+id: cib-w78
+acronym: "CIB W78"
+name: "International CIB W78 Conference on Information Technology in Construction"
+organizer: "CIB W78 – Information Technology for Construction (CIB working commission)"
+fields: [construction, ml, robotics]
+community: construction
+tier: 3
+frequency: annual
+paper_format: "Abstract first, then full paper (2026); in 2027 submissions run through the joint EC3 system (8-page full papers)"
+orientation:
+  contribution: 1
+  summary: "BIM·데이터 통합·디지털 트윈·AI 등 건설 IT 전반을 다루는 오래된 CIB 워킹커미션 학회다. 정보 모델링·데이터 관리 관점의 응용 연구가 주류이고, 로봇은 'Smart Manufacturing and Robotic Construction' 주제로 일부 다뤄진다. 해마다 EC3·buildingSMART 서밋 등과 공동 개최되는 경우가 많다."
+  values: ["construction IT", "BIM & data integration", "abstract-first", "co-located events"]
+fit: 1
+take: "로봇 조작 연구의 주 무대는 아니므로 단독 투고보다는 2027년 EC3와 공동 개최(테살로니키)될 때 EC3 투고로 함께 노출하는 정도가 적당하다."
+editions:
+  - year: 2026
+    status: confirmed
+    start: 2026-10-06
+    end: 2026-10-08
+    city: "New Delhi"
+    country: IN
+    venue: "Indian Institute of Technology Delhi"
+    lat: 28.61
+    lon: 77.21
+    url: "https://cibw78-2026.com/"
+    deadlines:
+      - {kind: abstract, date: 2026-03-16}
+      - {kind: paper, date: 2026-06-29}
+      - {kind: notification, date: 2026-08-01}
+      - {kind: camera-ready, date: 2026-09-15}
+    notes: "제43회 CIB W78, IIT Delhi와 University of Strathclyde 공동 주관. 모든 마감이 지남(초록 3/1→3/16, 풀페이퍼 6/1→6/29, 채택 통보 7/1→8/1, 최종본 8/15→9/15로 각각 연장)."
+  - year: 2027
+    status: confirmed
+    start: 2027-07-11
+    end: 2027-07-14
+    city: "Thessaloniki"
+    country: GR
+    lat: 40.64
+    lon: 22.94
+    url: "https://ec-3.org/conference/c2027/"
+    deadlines:
+      - {kind: abstract, date: 2026-10-30, label: "Optional abstract"}
+      - {kind: other, label: "Decision on abstracts", date: 2026-11-23}
+      - {kind: paper, date: 2027-01-15}
+      - {kind: notification, date: 2027-03-12, label: "First decision on papers"}
+    notes: "2027 EC³ Conference와 공동 개최(투고·심사는 EC3 ConfTool로 통합, 마감은 EC3와 동일). EC3 페이지는 이를 '43rd CIB W78'로 표기했지만 델리 2026도 43회로 표기돼 회차 번호가 충돌함(순서상 44회로 보임). 초록 제출은 선택 사항. 첫 판정일은 EC3 Key Dates 페이지 3/12, 메인 페이지 3/5로 불일치."
+links:
+  home: "https://www.cibw78.org/"
+  cfp: "https://cibw78-2026.com/key-dates-and-submission/"
+sources:
+  - "https://www.cibw78.org/next-conference/"
+  - "https://www.cibw78.org/conferences/"
+  - "https://cibw78-2026.com/"
+  - "https://cibw78-2026.com/key-dates-and-submission/"
+  - "https://ec-3.org/conference/c2027/"
+  - "https://ec-3.org/conference/c2027/key-dates-fees/"
+last_verified: 2026-10-02

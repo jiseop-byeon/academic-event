@@ -1,0 +1,43 @@
+id: ut-austin-professional-development-award
+name: "Graduate School Professional Development Award (PDA)"
+organizer: "The University of Texas at Austin — Office of Graduate and Postdoctoral Studies"
+org_type: university
+type: travel-grant
+fields: [any]
+amount:
+  summary: "학회 발표 출장비 지원 — CAEE 기준 $250–500 (보통 $300), 대학원 권장 범위 $100–1,000; 학년도당 1회"
+  value: 300
+  max: 500
+  currency: USD
+  unit: one-time
+  covers: ["travel"]
+duration: "1회 (학년도당 1회 한도)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "UT Austin 대학원 재학생 — 지원금을 쓰는 학기에 full-time 등록"
+  stage: "석·박사 (학위 단계 제한 없음)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "UT Austin에서 수행한 연구에 기반한 원본 논문을 주요 학회에서 발표하는 경우에만 지원. 학생이 학과(CAEE)에 신청하면 graduate adviser/coordinator가 대학원 온라인 시스템으로 추천. 국적 제한 언급 없음."
+requirements: ["발표 초록 사본", "발표 채택 증빙 (PDF)", "CAEE 내부 온라인 신청서"]
+nomination: true
+cycle:
+  typical: "출장 시기별 연 3회 — CAEE 내부 마감 11/1(8/25–11/30 출장)·1/15(12/1–5/31 출장)·5/31(6/1–8/24 출장), 학과 추천 후 대학원 접수 창구 9/1–11/30·1/2–5/4·6/1–7/7"
+  deadlines:
+    - {kind: internal, date: 2026-11-01, label: "CAEE 내부 마감 — 2026년 8/25–11/30 출장분"}
+    - {kind: application, date: 2026-11-30, label: "대학원 접수 마감 (학과 추천) — 2026년 가을 출장분"}
+    - {kind: internal, date: 2027-01-15, label: "CAEE 내부 마감 — 2026/12/1–2027/5/31 출장분 (ICRA 2027 포함)"}
+    - {kind: application, date: 2027-05-04, label: "대학원 접수 마감 (학과 추천) — 2027년 봄 출장분"}
+    - {kind: internal, date: 2027-05-31, label: "CAEE 내부 마감 — 2027년 6/1–8/24 출장분"}
+status: open
+apply_url: "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013309/Travel+Grants"
+fit: 3
+take: "학년도당 1회뿐이니 가장 비싼 해외 발표 출장에 쓰되, ICRA 2027(5월) 출장분은 CAEE 내부 마감(1월 15일)이 채택 통보보다 앞설 수 있으니 graduate coordinator와 미리 일정을 맞춰라."
+links:
+  home: "https://graduate.utexas.edu/funding/awards/travel"
+sources:
+  - "https://graduate.utexas.edu/funding/awards/travel"
+  - "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013309/Travel+Grants"
+  - "https://graduate.utexas.edu/funding/awards"
+last_verified: 2026-10-02

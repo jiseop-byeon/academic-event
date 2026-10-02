@@ -1,0 +1,43 @@
+id: nvidia-physical-ai-foundation-models-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Cosmos — world foundation models for Physical AI"
+title: "PhD Research Intern, Physical AI - Foundation Models - 2027"
+fields: [physical-ai, vision, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: onsite
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위"
+required:
+  - "Currently pursuing a PhD in CS, EE, Robotics or related"
+  - "Background in generative AI, computer vision, multimodal learning, robotics or RL"
+  - "Prior publications and research experience"
+  - "Strong Python and PyTorch"
+preferred:
+  - "Large-scale foundation model training"
+  - "Video models, VLMs, world models, robotics or autonomous driving"
+  - "Distributed training, simulation or embodied AI"
+skills: [python, pytorch, foundation-models, world-models, computer-vision, reinforcement-learning, simulation]
+responsibilities:
+  - "Research generative, multimodal world models (Cosmos) for robotics and driving"
+  - "Develop video understanding/generation, action-conditioned simulation and policy learning"
+  - "Train and evaluate large models on video, language, robotics or driving data"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 Santa Clara 근무."
+status: open
+posted: 2026-09-23
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI-for-Physical-AI---2027_JR2025025"
+fit: 2
+take: "영상 생성형 월드모델 중심이라 조작 정책과는 한 단계 떨어지니, 현장 데이터 합성이나 월드모델 기반 결과가 있을 때만 보조로 지원하라."
+notes: "요청번호 JR2025025. '최소 2026-09-27까지 접수' 문구는 마감일이 아님."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI-for-Physical-AI---2027_JR2025025"
+last_verified: 2026-10-02

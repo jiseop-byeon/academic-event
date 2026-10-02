@@ -1,0 +1,21 @@
+id: dyna-robotics-research-internship-rolling
+company: "Dyna Robotics"
+org_type: robotics
+team: "Research"
+title: "Research Internship"
+fields: [physical-ai, manipulation, ml, robotics]
+degree: [phd, ms, bs]
+season: "Rolling (evergreen posting)"
+locations:
+  - {city: "Redwood City", region: "CA", country: US, lat: 37.49, lon: -122.24}
+work_mode: onsite
+skills: [foundation-models, imitation-learning, pytorch]
+citizenship: unknown
+eligibility_note: "공고는 '모든 학위 단계의 연구 중심 인턴 지원을 받으며 자리는 매우 제한적'이라고만 밝힘. 기간·급여·자격 요건은 없음. skills 태그는 회사의 embodied foundation model 사업에 따른 추정."
+status: rolling
+posted: 2026-06-09
+apply_url: "https://jobs.ashbyhq.com/dyna-robotics/5a431519-ee6b-4cb7-8a3a-422727053a09"
+fit: 3
+take: "상용 현장에 배치된 범용 조작 foundation model 스타트업의 상시 연구 인턴이라 정원은 적어도 manipulation 연구와 맞으니 포트폴리오를 정리해 미리 넣어 둘 만하다."
+sources: ["https://jobs.ashbyhq.com/dyna-robotics/5a431519-ee6b-4cb7-8a3a-422727053a09", "https://api.ashbyhq.com/posting-api/job-board/dyna-robotics?includeCompensation=true"]
+last_verified: 2026-10-02

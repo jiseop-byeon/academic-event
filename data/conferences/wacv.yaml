@@ -1,0 +1,68 @@
+id: wacv
+acronym: "WACV"
+name: "IEEE/CVF Winter Conference on Applications of Computer Vision"
+organizer: "IEEE Computer Society & Computer Vision Foundation (CVF)"
+fields: [vision, ml]
+community: vision
+tier: 2
+rankings:
+  core: "A"
+  h5_index: 131
+  h5_year: 2025
+frequency: annual
+paper_format: "8 pages excluding references (WACV template); revised Round-1 papers add a 1-page rebuttal"
+review:
+  blind: double
+  rebuttal: true
+proceedings: "CVF Open Access and IEEE Xplore"
+orientation:
+  contribution: 0
+  summary: "응용(Applications)·알고리즘(Algorithms)·평가/데이터셋(Evaluations & Datasets) 세 트랙을 두고, 응용 트랙은 시스템 수준의 혁신·도메인 신규성·비교 평가로 심사해 건설 현장 인식 같은 도메인 특화 비전 시스템에 가장 우호적인 CVF 학회다. 1라운드에서 accept / revise-and-resubmit / reject를 받고 수정본과 1쪽 rebuttal로 재심사받는 저널형 2라운드 구조이며, 2026년 1라운드 즉시 채택은 1,329편 중 85편(6.4%)이었고 732편이 재투고를 요청받았다."
+  values: ["applications track", "systems-level innovation", "domain novelty", "two-round review"]
+fit: 2
+take: "건설 현장 인식·로봇 비전 시스템 논문에 가장 현실적인 비전 학회이므로, WACV 2028 1라운드(2027년 6월 말 전후 예상)를 첫 인식 논문의 1차 타깃으로 잡아라."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-01-04
+    end: 2027-01-08
+    city: "Orlando"
+    country: US
+    venue: "Hilton Orlando Lake Buena Vista (Disney Springs area)"
+    lat: 28.54
+    lon: -81.38
+    url: "https://wacv.thecvf.com/Conferences/2027"
+    deadlines:
+      - {kind: abstract, date: 2026-06-19, tz: "AoE", label: "Round 1 paper registration"}
+      - {kind: paper, date: 2026-06-26, tz: "AoE", label: "Round 1"}
+      - {kind: supplementary, date: 2026-06-28, tz: "AoE", label: "Round 1"}
+      - {kind: workshop-proposal, date: 2026-08-08, tz: "AoE"}
+      - {kind: abstract, date: 2026-08-21, tz: "AoE", label: "Round 2 paper registration"}
+      - {kind: paper, date: 2026-08-28, tz: "AoE", label: "Round 2"}
+      - {kind: rebuttal, date: 2026-08-28, tz: "AoE", label: "Round 1 rebuttal and revision"}
+      - {kind: supplementary, date: 2026-08-30, tz: "AoE", label: "Round 2"}
+      - {kind: notification, date: 2026-10-09, tz: "AoE", label: "Round 1 final and Round 2 decisions"}
+      - {kind: camera-ready, date: 2026-11-02, tz: "AoE"}
+    notes: "워크숍 1/4–5, 본회의 1/6–8. 1·2라운드 투고는 모두 마감됐고 남은 일정은 최종 결정(10/9)과 카메라레디(11/2)다. 2027부터 3월 개최에서 1월 개최로 바뀌며 투고 일정이 약 3주 앞당겨졌다."
+  - year: 2028
+    status: estimated
+    deadlines:
+      - {kind: paper, date: 2027-06-25, label: "Round 1", estimated: true}
+      - {kind: paper, date: 2027-08-27, label: "Round 2", estimated: true}
+    notes: "일정·개최지 미발표. WACV 2026 사이클(1라운드 7/18, 2라운드 9/19)과 1월 개최로 앞당겨진 2027 사이클(6/26, 8/28)을 바탕으로 추정했으며 2027 패턴을 더 크게 반영했다. 변동 가능성이 크다."
+links:
+  home: "https://wacv.thecvf.com/Conferences/2027"
+  cfp: "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
+  author_guide: "https://wacv.thecvf.com/Conferences/2027/AuthorGuides"
+sources:
+  - "https://wacv.thecvf.com/Conferences/2027"
+  - "https://wacv.thecvf.com/Conferences/2027/Dates"
+  - "https://wacv.thecvf.com/Conferences/2027/CallForPapers"
+  - "https://wacv.thecvf.com/Conferences/2027/AuthorGuides"
+  - "https://wacv.thecvf.com/Conferences/2027/Hotels"
+  - "https://wacv.thecvf.com/Conferences/2026/Dates"
+  - "https://www.thecvf.com/"
+  - "https://iplab.dmi.unict.it/news/wacv-2026/"
+  - "https://portal.core.edu.au/conf-ranks/?search=WACV&by=acronym&source=ICORE2026"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
+last_verified: 2026-10-02

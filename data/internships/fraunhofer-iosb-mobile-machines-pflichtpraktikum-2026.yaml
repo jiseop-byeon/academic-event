@@ -1,0 +1,27 @@
+id: fraunhofer-iosb-mobile-machines-pflichtpraktikum-2026
+company: "Fraunhofer IOSB (Institutsteil Angewandte Systemtechnik AST)"
+org_type: lab
+team: "Fraunhofer IOSB-AST, Ilmenau"
+title: "Pflichtpraktikum: Automatisierte Parameteridentifikation für mobile Arbeitsmaschinen (all genders)"
+fields: [robotics, construction, navigation]
+degree: [ms, bs]
+season: "Starts as soon as possible (2026–27)"
+start: "flexible"
+locations:
+  - {city: "Ilmenau", region: "TH", country: DE, lat: 50.68, lon: 10.92}
+work_mode: onsite
+required: ["Enrolled in technical cybernetics, mechatronics, engineering informatics, vehicle technology or comparable", "Mandatory internship (Pflichtpraktikum) required by the study program", "Basics of control engineering, system identification, modeling or vehicle dynamics", "Python or C++", "German and English at B2 level"]
+preferred: ["ROS / ROS 2"]
+skills: [python, cpp, ros2, control, state-estimation]
+responsibilities: ["Develop automated parameter identification for mobile robots and mobile work machines", "Run driving maneuvers, record vehicle data and identify driving/steering parameters", "Implement motion interfaces"]
+citizenship: local-work-permit
+eligibility_note: "독일 근무(주 39시간, 파트타임 가능)이며 재학 중 교과 과정상 의무인 Pflichtpraktikum 대상이라 미국 박사과정생은 사실상 해당되지 않음. 독일어·영어 B2 필요. 급여는 연방 인턴 보수 지침을 따름."
+status: open
+posted: 2026-09-16
+deadline: 2026-10-30
+apply_url: "https://jobs.fraunhofer.de/job/Ilmenau-Pflichtpraktikum-Automatisierte-Parameteridentifikation-f%C3%BCr-mobile-Arbeitsmaschinen-%28all-genders%29-98693/1437602033/"
+fit: 1
+take: "건설·농업용 이동식 작업기계의 동특성 식별이라 주제는 맞닿아 있지만 독일 학적의 의무 실습생 대상이라 지원보다는 Fraunhofer의 관련 연구 동향 참고용으로 둘 만하다."
+notes: "Fraunhofer IPA(슈투트가르트)의 접촉 작업 학습(contact-rich tasks) 학생보조원 공고는 독일 대학 재학생 전용이라 제외. Kennziffer 85663."
+sources: ["https://jobs.fraunhofer.de/job/Ilmenau-Pflichtpraktikum-Automatisierte-Parameteridentifikation-f%C3%BCr-mobile-Arbeitsmaschinen-%28all-genders%29-98693/1437602033/", "https://www.fraunhofer.de/en/jobs-and-career/students1.html"]
+last_verified: 2026-10-02

@@ -1,0 +1,28 @@
+id: ecam
+abbr: "ECAM"
+name: "Engineering, Construction and Architectural Management"
+publisher: "Emerald Publishing"
+issn: "0969-9988"
+eissn: "1365-232X"
+fields: [construction]
+community: construction
+tier: 2
+metrics:
+  jif: {value: 4.5, year: 2025}
+  citescore: {value: 10.7, year: 2025}
+access: hybrid
+orientation:
+  contribution: 2
+  summary: "엔지니어링·건설·건축 관리 분야 저널로 통합 설계·시공, 프로젝트 생애주기 관리, 지속가능 건설, 시설 운영 관리를 다룬다. 설문·인터뷰·사례 연구 기반의 관리 연구가 주류이며 기술 논문은 관리적 함의가 있을 때 받아들여진다. 로봇 제어·조작 같은 기술 중심 논문은 범위 밖에 가깝다."
+  values: ["construction management", "case studies & surveys", "project lifecycle", "practice relevance"]
+fit: 1
+take: "관리 중심 저널이라 로봇 조작 연구와는 거리가 멀고, 로봇 도입 인식·장벽 같은 관리 연구를 따로 할 때만 고려하자."
+openalex_id: "S120049674"
+links:
+  home: "https://www.emerald.com/insight/publication/issn/0969-9988"
+  submit: "https://mc.manuscriptcentral.com/ecaam"
+sources:
+  - "https://www.emerald.com/insight/publication/issn/0969-9988"
+  - "https://www.emerald.com/ecam/pages/about"
+  - "https://api.openalex.org/sources/S120049674"
+last_verified: 2026-10-02

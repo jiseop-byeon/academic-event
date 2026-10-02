@@ -1,0 +1,31 @@
+id: field-ai-humanoid-manipulation-spring-2027
+company: "Field AI"
+org_type: robotics
+team: "Research (Boston R&D)"
+title: "Robotics Research Internship, Humanoid Manipulation (Spring 2027) | PhD Internship"
+fields: [manipulation, physical-ai, robotics]
+degree: [phd]
+season: "Spring 2027"
+locations:
+  - {city: "Boston", region: "MA", country: US, lat: 42.36, lon: -71.06}
+work_mode: onsite
+pay:
+  min: 40
+  max: 60
+  currency: USD
+  unit: hour
+  source: posting
+  note: "posted hourly range"
+required: ["Current PhD student in robotics, CS, ME, EE, AI/ML or related", "Research experience in robotic manipulation or loco-manipulation", "Robot kinematics, dynamics and control", "Python and/or C++ with robotics or ML tooling", "Publications at ICRA, IROS, CoRL, RA-L, T-RO or similar"]
+preferred: ["Humanoid robots or dexterous hands", "Imitation or reinforcement learning for manipulation", "Real-robot hardware experiments", "ROS / ROS 2"]
+skills: [python, cpp, imitation-learning, reinforcement-learning, control, foundation-models, ros2]
+responsibilities: ["Design, implement and evaluate humanoid manipulation and loco-manipulation strategies", "Support data-collection pipelines for robotics foundation models", "Work toward a paper at a leading robotics conference or journal"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 전용. 본문에 'Fall 2026 internship' 문구가 남아 있어 정확한 근무 기간은 지원 시 확인 필요."
+status: open
+posted: 2026-09-27
+apply_url: "https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba"
+fit: 2
+take: "여름 공고와 내용이 같지만 봄 학기 중 근무라 학기 일정을 비울 수 있을 때만 고려하고, 기본은 Summer 2027 공고로 지원하는 편이 낫다."
+sources: ["https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba", "https://api.lever.co/v0/postings/field-ai?mode=json"]
+last_verified: 2026-10-02

@@ -1,0 +1,25 @@
+id: apptronik-robotics-ai-intern-summer-2027
+company: "Apptronik"
+org_type: robotics
+team: "Advanced Technologies"
+title: "IROS 2026 - Robotics & AI Talent (Summer 2027 Internships)"
+fields: [robotics, manipulation, physical-ai, navigation, vision]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Austin", region: "TX", country: US, lat: 30.27, lon: -97.74}
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: unknown
+required: ["Early-career, graduate (MS/PhD) or experienced talent in robotics, autonomous systems, control or perception"]
+skills: [cpp, python, ros, ros2, computer-vision, lidar, sensor-fusion, slam, state-estimation, motion-planning, reinforcement-learning, embedded]
+responsibilities: ["Perception & sensing: computer vision, LiDAR, sensor fusion, SLAM, state estimation", "Control & dynamics: motion planning, trajectory optimization, reinforcement learning, actuation", "Software systems or hardware design: ROS/ROS 2, C++, Python, embedded RTOS, mechatronics"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. IROS 2026 연계 인재풀 공고로 Summer 2027 인턴·신입·경력을 함께 받으며, 개별 직무와 조건은 이후 리크루터 연락으로 정해짐. IROS에 가지 않아도 지원 가능."
+status: open
+posted: 2026-09-23
+apply_url: "https://boards.greenhouse.io/apptronik/jobs/6206626004?gh_jid=6206626004"
+fit: 3
+take: "UT Austin과 같은 도시의 휴머노이드(Apollo) 회사가 2027 여름 인턴을 모으는 인재풀 공고라, 조작·인지 연구 이력을 담은 CV를 바로 넣어 둘 만하다."
+notes: "Apptronik은 2026년 여름에도 인턴 공고를 운영함(levels.fyi에 Summer 2026 Software Engineer 인턴 공고 링크 기록)."
+sources: ["https://boards.greenhouse.io/apptronik/jobs/6206626004?gh_jid=6206626004", "https://boards-api.greenhouse.io/v1/boards/apptronik/jobs?content=true", "https://www.levels.fyi/internships/"]
+last_verified: 2026-10-02

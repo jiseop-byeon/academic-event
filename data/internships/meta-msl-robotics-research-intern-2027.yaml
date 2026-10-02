@@ -1,0 +1,47 @@
+id: meta-msl-robotics-research-intern-2027
+company: "Meta"
+org_type: bigtech
+team: "Meta Superintelligence Labs (MSL) — Robotics and Embodied AI"
+title: "Research Scientist Intern, Robotics - Meta Superintelligence Labs (PhD)"
+fields: [physical-ai, manipulation, robotics, navigation]
+degree: [phd]
+season: "Rolling (12–24 weeks, start dates year-round)"
+start: "flexible"
+duration: "12–24 weeks"
+duration_weeks: [12, 24]
+locations:
+  - {city: "Menlo Park", region: "CA", country: US, lat: 37.45, lon: -122.18}
+work_mode: unknown
+pay:
+  min: 7650
+  max: 12667
+  currency: USD
+  unit: month
+  source: posting
+  note: "미국 월 기본급 범위(공고 기재)"
+required:
+  - "PhD (in progress) in CS, CE, AI, Robotics, CV, ML or related"
+  - "Research in robotics, embodied AI, sim-to-real, learning from demonstration, RL, dexterous manipulation, VLMs or related"
+  - "ML frameworks such as PyTorch or TensorFlow"
+  - "Work authorization in the country of employment at hire"
+preferred:
+  - "Papers at NeurIPS, ICML, ICLR, ICRA, IROS, RSS, CoRL, CVPR, ICCV or ECCV"
+  - "1+ years in robotics; designing new robotic systems or infrastructure"
+  - "Large-scale, high-dimensional multimodal data"
+  - "Returning to the degree program after the internship"
+skills: [pytorch, reinforcement-learning, imitation-learning, vla, world-models, tactile-sensing, computer-vision, motion-planning]
+responsibilities:
+  - "Fundamental and applied research on embodied AI, from simulated characters to real robots"
+  - "Invent data-driven paradigms using images, video, text, audio and tactile data"
+  - "Build and benchmark new capabilities with intermediate milestones"
+citizenship: none
+eligibility_note: "시민권 요건 없음 — 입사 시점에 고용 국가의 근무 허가를 확보·유지하는 것이 조건. 학위 과정 복귀 예정자 우대."
+status: open
+apply_url: "https://www.metacareers.com/profile/job_details/1940312740718917/"
+fit: 3
+take: "덱스터러스·모바일 조작과 촉각 멀티모달을 명시한 MSL 로보틱스 박사 인턴이라 직결 타깃이니 1저자 로봇 논문을 앞세워 바로 지원하라."
+notes: "게시일 비공개(JS 렌더링 페이지에서 확인). 2026-10-02 기준 Meta의 'Internship - PhD' 공고는 3건뿐이고 Reality Labs 로보틱스 인턴은 미게시."
+sources:
+  - "https://www.metacareers.com/profile/job_details/1940312740718917/"
+  - "https://www.metacareers.com/jobsearch/?teams[0]=Internship%20-%20PhD"
+last_verified: 2026-10-02

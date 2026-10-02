@@ -1,0 +1,39 @@
+id: honda-ri-force-estimation-proficiency-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Vision-Based Assessment of Human Proficiency and Skill Through Force Estimation"
+fields: [vision, haptics, ml]
+degree: [phd, ms]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "Enrolled in an MS or PhD in Robotics, CV, ML, AI or related"
+  - "Built multimodal capture setups (wearables, multi-camera, IMU, mocap, force/tactile) incl. calibration and time sync"
+  - "Python and PyTorch; hardware-in-the-loop debugging"
+  - "Willing to collect data as a participant wearing egocentric glasses and force sensors"
+preferred:
+  - "Egocentric glasses outputs (gaze, hand tracking, SLAM)"
+  - "Force, pressure or tactile sensor calibration and drift handling"
+  - "Ego-exo procedural datasets (Ego4D, Ego-Exo4D, Assembly101)"
+  - "Inferring force or contact from vision"
+skills: [python, pytorch, computer-vision, sensor-fusion, tactile-sensing, 3d-vision]
+responsibilities:
+  - "Design a procedural-task data collection protocol spanning proficiency levels"
+  - "Build and synchronize egocentric, exocentric and force-sensor capture"
+  - "Develop vision-based force estimation baselines and proficiency metrics"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월. 본인이 피험자로 데이터 수집에 참여해야 함."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-vision-based-assessment-of-human-proficiency-and-skill-through-force-estimation"
+fit: 2
+take: "영상만으로 작업자의 힘과 숙련도를 추정하는 과제라 건설 숙련공 작업 분석·시연 데이터 수집에 바로 응용되니, 센서 리그 구축 경험이 있으면 지원할 가치가 크다."
+notes: "공고번호 P25INT-72, 게시일 미표기."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-vision-based-assessment-of-human-proficiency-and-skill-through-force-estimation"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

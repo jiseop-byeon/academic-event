@@ -1,0 +1,25 @@
+id: wafr
+acronym: "WAFR"
+name: "Workshop on the Algorithmic Foundations of Robotics"
+organizer: "WAFR community (algorithmic-robotics.org; listed by IFRR)"
+fields: [robotics, navigation, manipulation]
+community: robotics
+tier: 2
+frequency: biennial
+proceedings: "Springer Proceedings in Advanced Robotics (SPAR); selected papers invited to journal special issues"
+orientation:
+  contribution: -2
+  summary: "로봇 알고리즘의 이론적 기초(모션 플래닝, 기하, 최적화, 학습 이론)를 다루는 격년 워크숍으로, 증명 가능한 보장과 알고리즘 분석이 핵심이다. 시스템·실험 중심의 건설 로봇 논문은 거의 받아들여지지 않으며, 접촉 계획 알고리즘의 이론적 성질을 보일 때만 해당된다."
+  values: ["provable guarantees", "algorithmic analysis", "theory"]
+fit: 1
+take: "WAFR는 이론 중심이라 건설 응용 연구와 거리가 멀다 — 접촉 계획 알고리즘에 이론적 결과가 생기기 전까지는 참고용으로만 추적."
+editions:
+  - year: 2028
+    status: estimated
+    notes: "WAFR 2026(핀란드 오울루, 6/15–17; 마감 2/1)은 종료. 1994년부터 격년(짝수 해) 개최라 2028 회차가 예상되나 개최지·일정 미발표."
+links:
+  home: "https://www.algorithmic-robotics.org/"
+sources:
+  - "https://www.algorithmic-robotics.org/"
+  - "http://www.ifrr.org/wafr"
+last_verified: 2026-10-02

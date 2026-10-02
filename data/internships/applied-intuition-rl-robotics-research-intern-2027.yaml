@@ -1,0 +1,39 @@
+id: applied-intuition-rl-robotics-research-intern-2027
+company: "Applied Intuition"
+org_type: autonomy
+team: "Applied Intuition Research Group"
+title: "Research Intern - Reinforcement Learning, Robotics"
+fields: [manipulation, physical-ai, robotics]
+degree: [phd, ms]
+season: "Rolling (dates not stated)"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 65
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 시급"
+required:
+  - "Current PhD (or MSc) student in ML, CV/graphics or robotics"
+  - "1+ year of research experience in autonomy, self-driving or related"
+  - "Strong research skills; works independently and collaboratively"
+skills: [reinforcement-learning, vla, foundation-models, simulation]
+responsibilities:
+  - "Research large-scale closed-loop RL and VLA post-training for dexterous manipulation"
+  - "Explore fundamental RL topics with broader applications"
+  - "Co-author papers for top-tier conferences"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(연방 계약업체 EEO 문구만 기재). 서니베일 사무실 상주."
+status: rolling
+posted: 2026-02-13
+apply_url: "https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902"
+fit: 3
+take: "덱스터러스 조작 RL·VLA 사후학습을 하면서 회사가 건설·광산 장비 자율화까지 다루는 드문 조합이라 가치가 크지만, 2월 게시 상시 공고이니 지원 전 2027년 채용 여부를 확인하라."
+notes: "같은 연구 그룹의 'World-Action Foundation Model, Robotics', 'Robotic Hardware, Simulation and Data' 인턴(시급 동일)도 게시 중. 회사 소개에 건설·광산 자율 장비, 휴머노이드·덱스터러스 핸드 배치가 명시됨."
+sources:
+  - "https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902"
+  - "https://api.ashbyhq.com/posting-api/job-board/applied?includeCompensation=true"
+last_verified: 2026-10-02

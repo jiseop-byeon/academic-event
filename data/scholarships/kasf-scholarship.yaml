@@ -1,0 +1,42 @@
+id: kasf-scholarship
+name: "KASF Scholarship (Korean American Scholarship Foundation)"
+organizer: "Korean American Scholarship Foundation (KASF) — Southwestern Regional Chapter"
+org_type: other
+type: scholarship
+fields: [any]
+amount:
+  summary: "1회 $500–5,000 (지역 지부·심사에 따라 상이; STEM·Business 전공 GPA 3.5 이상 KIA 트랙은 증액 가능)"
+  value: 500
+  max: 5000
+  currency: USD
+  unit: one-time
+duration: "해당 학년도 1회 지급"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국 내 학교에 해당 학년도 전체 기간 풀타임 재학(예정) — 학교 소재지 지역 지부로만 지원(텍사스 소재 학교는 남서부 지부 SWRC)"
+  stage: "고등학생·학부생·대학원생(박사과정 포함) 모두 가능 — 이미 미국 대학원 박사과정에 재학 중인 1년차도 다음 학년도 재학을 이어가면 지원 가능"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "한국계(Korean heritage) 학생 대상이며 시민권 여부와 무관하게 한국 국적 유학생도 지원 가능. 누적 GPA 3.0 이상, 유학생·자립 학생은 재정 증빙 필요. 재정 필요도·학업성적·추천서·에세이·봉사/과외활동을 종합 평가."
+requirements: ["온라인 지원서 (SmarterSelect)", "에세이", "추천서 (지원 마감일까지 제출)", "학업 성적 (누적 GPA 3.0 이상)", "재정 증빙 (유학생·자립 학생)"]
+nomination: false
+awards_per_year: "2025년 전 지역 합계 $845,500 지급"
+cycle:
+  typical: "매년 봄 지역 지부별 온라인 접수, 6월 30일 지원서·추천서 마감, 늦어도 8월 15일까지 결과 통보 (다음 학년도분)"
+  deadlines:
+    - {kind: application, date: 2027-06-30, tz: "CT", estimated: true, label: "2027–28학년도분 지원서·추천서 마감(추정)"}
+    - {kind: result, date: 2027-08-15, estimated: true, label: "결과 통보 기한(추정)"}
+status: upcoming
+apply_url: "https://www.kasf.org/apply-swrc/"
+fit: 3
+take: "한국 국적 대학원생도 바로 지원할 수 있으니 2027년 6월 30일(추정) 마감에 맞춰 학교 소재지 지부(텍사스는 SWRC)로 에세이·추천서를 준비해 지원한다."
+links:
+  home: "https://www.kasf.org/scholarships/"
+sources:
+  - "https://www.kasf.org/apply/"
+  - "https://www.kasf.org/apply-swrc/"
+  - "https://www.kasf.org/faq/"
+  - "https://www.kasf.org/scholarships/"
+  - "https://www.kasf.org/"
+last_verified: 2026-10-02

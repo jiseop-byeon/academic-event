@@ -1,0 +1,43 @@
+id: waymo-learning-based-behavior-special-vehicles-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo Behavior — special vehicles"
+title: "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles"
+fields: [navigation, physical-ai, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 인턴 시급(공고 기재)"
+required:
+  - "Pursuing a PhD in CS, Robotics or ML"
+  - "RL, imitation learning or trajectory forecasting"
+  - "Python with PyTorch, JAX or TensorFlow"
+  - "Software skills in C++ or Python"
+preferred:
+  - "Publications at CoRL, RSS or ICRA"
+  - "Transformer-based trajectory generation"
+  - "Autonomy simulation frameworks"
+skills: [python, cpp, pytorch, jax, reinforcement-learning, imitation-learning, motion-planning, simulation]
+responsibilities:
+  - "Prototype learning-based behavior policies"
+  - "Integrate multi-modal perception semantics"
+  - "Build simulation benchmarks and counterfactual suites"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무."
+status: open
+posted: 2026-09-18
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8203191"
+fit: 2
+take: "RL·모방학습 정책을 특수 차량 거동에 적용하는 과제라 로봇 학습 역량이 그대로 통하니 웨이모 공고 중 1순위로 넣어라."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8203191"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8203191"
+last_verified: 2026-10-02

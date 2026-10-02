@@ -1,0 +1,43 @@
+id: waymo-world-action-model-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo AI Foundations"
+title: "2027 Summer Intern, PhD, Research, World Action Model"
+fields: [physical-ai, navigation, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 인턴 시급(공고 기재)"
+required:
+  - "Pursuing a PhD in CS, Robotics, ML, EE or related"
+  - "Strong publication record at top AI/ML or robotics venues"
+  - "Training and evaluating deep models for autonomous driving or robotics"
+  - "Strong Python with PyTorch, JAX or TensorFlow"
+preferred:
+  - "Diffusion or flow-matching models"
+  - "World action models in driving or robotics"
+  - "Autonomous driving datasets; open-source foundation models"
+skills: [python, pytorch, jax, world-models, foundation-models, imitation-learning, reinforcement-learning]
+responsibilities:
+  - "Research, implement and evaluate world action models for end-to-end driving"
+  - "Improve the Waymo World Model with research and engineering teams"
+  - "Publish findings via technical reports or papers where possible"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+status: open
+posted: 2026-10-02
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8243732"
+fit: 2
+take: "월드 액션 모델은 로봇 조작 파운데이션 모델과 기술 축이 같아 확산·월드모델 결과가 있다면 경쟁력 있는 2순위 지원처다."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8243732"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8243732"
+last_verified: 2026-10-02

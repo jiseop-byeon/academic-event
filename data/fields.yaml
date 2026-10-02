@@ -1,0 +1,43 @@
+# Field taxonomy. Every item's `fields:` list uses these keys (scholarships may also use `any`).
+# `color` is the chip color in light mode; the site derives the dark-mode color from it.
+fields:
+  - key: construction
+    label: 건설
+    label_en: Construction
+  - key: robotics
+    label: 로보틱스
+    label_en: Robotics
+  - key: physical-ai
+    label: Physical AI
+    label_en: Physical AI · Robot learning
+  - key: manipulation
+    label: 물체 조작
+    label_en: Manipulation
+  - key: navigation
+    label: 내비게이션
+    label_en: Navigation · SLAM
+  - key: vision
+    label: 컴퓨터 비전
+    label_en: Computer vision
+  - key: hri
+    label: HRI
+    label_en: Human–robot interaction
+  - key: haptics
+    label: 햅틱스
+    label_en: Haptics · Teleoperation
+  - key: ml
+    label: 머신러닝
+    label_en: Machine learning
+
+# Primary audience of a venue or journal: the lanes of the orientation chart.
+communities:
+  - key: ml
+    label: ML · AI
+  - key: vision
+    label: 비전
+  - key: robotics
+    label: 로보틱스
+  - key: hri
+    label: HRI · 햅틱스
+  - key: construction
+    label: 건설 · AEC

@@ -1,0 +1,36 @@
+id: i3ce
+acronym: "i3CE"
+name: "ASCE International Conference on Computing in Civil Engineering"
+organizer: "American Society of Civil Engineers (ASCE)"
+fields: [construction, robotics, vision, ml, hri]
+community: construction
+tier: 2
+frequency: annual
+paper_format: "Abstract (max 250 words) first; full paper up to 8 pages incl. references, or short paper 4 pages (2026)"
+proceedings: "ASCE Library (Computing in Civil Engineering proceedings)"
+journal_track: "Outstanding full papers invited to special issues of ASCE JCCE and Advanced Engineering Informatics (2026)"
+orientation:
+  contribution: 1
+  summary: "ASCE의 연례 컴퓨팅 학회로 AI, 로보틱스·자동화, 비전, 디지털 트윈·BIM을 건설에 적용한 연구가 중심이다. 초록 선제출 후 8쪽 풀페이퍼로 심사하며, 범용 알고리즘 신규성보다 건설 문제에 맞춘 계산 방법과 검증 실험이 있으면 충분하다. 2026년에는 우수 논문을 JCCE·AEI 특집호로 초청했다."
+  values: ["computing for construction", "robotics & automation track", "abstract-first", "journal special issues"]
+fit: 3
+take: "건설 로봇·인지 연구를 ASCE 컴퓨팅 커뮤니티에 내기 가장 좋은 연례 학회이니, 2027년 공지가 나오면 11월 전후 초록 마감에 맞춰 8쪽 논문을 준비하자."
+editions:
+  - year: 2027
+    status: estimated
+    deadlines:
+      - {kind: abstract, date: 2026-11-15, estimated: true}
+      - {kind: paper, date: 2027-01-15, estimated: true}
+    notes: "2026-10-02 기준 i3CE 2027 개최지·일정 미발표. 2024 피츠버그(CMU), 2025 뉴올리언스(5/11–14, LSU), 2026 인천 송도(6/14–17, 서울대 주관)로 매년 늦봄–여름 개최. 초록 마감(원 일정)은 2024-12-01(2025 대회), 2025-11-01→11-15 연장(2026 대회), 풀페이퍼는 2024-12-15→2025-01-13, 2026-02-01→02-15였으므로 위 날짜는 추정치. ASCE 컴퓨팅 분과가 ASCE2027(2027-03, 필라델피아)에 참여하므로 별도 i3CE 2027 개최 여부도 공지로 확인 필요."
+links:
+  home: "https://www.i3ce2026.com/"
+  cfp: "https://www.i3ce2026.com/papers/01.html"
+sources:
+  - "https://www.i3ce2026.com/"
+  - "https://www.i3ce2026.com/about/03.html"
+  - "https://www.i3ce2026.com/papers/01.html"
+  - "https://www.i3ce2026.com/papers/02.html"
+  - "https://www.lsu.edu/eng/cm/i3ce2025/index.php"
+  - "https://easychair.org/cfp/i3CE2026"
+  - "https://www.asce.org/communities/institutes-and-technical-groups/computing-division/conferences-and-events"
+last_verified: 2026-10-02

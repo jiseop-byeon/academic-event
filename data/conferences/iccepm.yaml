@@ -1,0 +1,28 @@
+id: iccepm
+acronym: "ICCEPM"
+name: "International Conference on Construction Engineering and Project Management"
+organizer: "Korea Institute of Construction Engineering and Management (KICEM) with international partners"
+fields: [construction, robotics]
+community: construction
+tier: 3
+frequency: irregular
+paper_format: "Full paper up to 8 pages, or 1-page extended abstract (2024)"
+proceedings: "ICCEPM proceedings (E-ISSN 2508-9048), accepted for Scopus in 2026 with coverage back to 2022"
+orientation:
+  contribution: 2
+  summary: "한국건설관리학회(KICEM)가 주도하는 국제 건설관리 학회로 공정·원가·안전·스마트건설·AI 등 CEM 전반을 다룬다. 8쪽 논문 또는 1쪽 확장 초록으로 참여할 수 있어 문턱이 낮고, 2026년 6월 논문집의 Scopus 등재가 확정됐다. 응용·사례 연구로 충분하다."
+  values: ["construction management", "Korean CEM network", "low barrier", "Scopus-indexed proceedings"]
+fit: 2
+take: "연구 성과 발표보다는 국내 건설관리 교수진과의 네트워킹 가치가 크므로, 차기 대회가 공지되면 짧은 확장 초록으로 참여하는 정도를 권한다."
+editions:
+  - year: 2027
+    status: estimated
+    notes: "2026-10-02 기준 차기 ICCEPM 미발표. 개최 이력: 2015 부산, 2017 청두, 2020 홍콩(웨비나), 2022 라스베이거스, 2024 삿포로(7/29–8/1), 2025 제주(11/17–20, KICEM 추계학술발표대회와 연계). 2026년 KICEM 정기학술발표대회(11/4–6, 여수)는 국내 대회이며 ICCEPM 2026 공지는 없음. 개최 주기가 불규칙해 연도·마감 모두 추정 불가 — KICEM 국제학술대회 페이지를 주기적으로 확인."
+links:
+  home: "https://www.kicem.or.kr/pages_events/international_conference.vm"
+sources:
+  - "https://www.kicem.or.kr/pages_events/international_conference.vm"
+  - "https://www.kicem.or.kr/board/?_0000_method=view&ncode=a0001&num=1007"
+  - "https://www.kicem.or.kr/pages_events/kicem_conference.vm"
+  - "https://easychair.org/cfp/ICCEPM2024"
+last_verified: 2026-10-02

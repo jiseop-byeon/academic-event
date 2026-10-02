@@ -1,0 +1,63 @@
+name: Collect, build and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 11 * * *"   # daily, 06:23 Austin time — job boards, FX, OpenAlex
+  workflow_dispatch:
+
+permissions:
+  contents: write   # the daily run commits data/auto and data/fx.yaml
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pyyaml requests
+
+      - name: Collect job boards, exchange rates and citation stats
+        if: github.event_name != 'push'
+        run: |
+          python3 scripts/collect_fx.py       || echo "::warning::fx collector failed"
+          python3 scripts/collect_jobs.py     || echo "::warning::job collector failed"
+          python3 scripts/collect_openalex.py || echo "::warning::openalex collector failed"
+
+      - name: Commit collected data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auto data/fx.yaml
+          if ! git diff --cached --quiet; then
+            git commit -m "collect: daily job boards, FX and OpenAlex refresh"
+            git push
+          fi
+
+      - name: Validate data
+        run: python3 scripts/validate.py
+      - name: Build site
+        run: python3 scripts/build.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

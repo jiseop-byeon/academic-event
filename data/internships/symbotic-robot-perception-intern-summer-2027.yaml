@@ -1,0 +1,33 @@
+id: symbotic-robot-perception-intern-summer-2027
+company: "Symbotic"
+org_type: robotics
+team: "Robot Perception"
+title: "Intern- Robot Perception"
+fields: [vision, navigation, robotics]
+degree: [phd, ms]
+season: "Summer 2027"
+start: "2027-05"
+duration: "May–Aug 2027"
+locations:
+  - {city: "Wilmington", region: "MA", country: US, lat: 42.55, lon: -71.17}
+work_mode: onsite
+pay:
+  min: 32
+  max: 44
+  currency: USD
+  unit: hour
+  source: posting
+  note: "posted base range for Wilmington, MA"
+required: ["Pursuing an MS or PhD in CS, robotics, EE, ML or related", "Python and/or C++ (incl. Jupyter)", "PyTorch or TensorFlow", "OpenCV-style computer vision (classification, detection, segmentation, calibration)", "Perception concepts: sensor fusion, SLAM, 3D pose, transforms, Bayesian inference", "RGB / 3D sensors and point-cloud tools such as PCL", "Linux"]
+preferred: ["Docker, ROS/ROS 2, Jetson, ONNX, VLMs or VLA models", "Publications at CoRL, RSS, ICRA, IROS, RA-L, NeurIPS, ICML or similar"]
+skills: [python, cpp, pytorch, computer-vision, slam, sensor-fusion, state-estimation, point-cloud, 3d-vision, ros]
+responsibilities: ["Research and benchmark CV / deep-learning methods (detection, segmentation, pose, anomaly detection) on production data", "Develop SLAM / localization for warehouse robots with sensor fusion and probabilistic state estimation", "Deploy software on robot hardware and present results internally and at academic venues"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 상태 차별 금지 명시). 유효한 운전면허, 최대 10% 출장, 개인 신용카드로 경비 선결제 요건이 있음. 이주 요건 충족 시 교통·주거 지원."
+status: open
+posted: 2026-09-22
+apply_url: "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964"
+fit: 2
+take: "창고 물류 로봇의 비전·SLAM 인턴이라 건설과 직접 연결되진 않지만 MS/PhD 대상에 급여가 명시돼 있어, perception 지원 축을 다지는 안정적인 보조 지원처로 넣을 만하다."
+sources: ["https://www.symbotic.com/careers/jobs/R7964/", "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964"]
+last_verified: 2026-10-02

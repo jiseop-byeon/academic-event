@@ -1,0 +1,35 @@
+id: tpami
+abbr: "TPAMI"
+name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+publisher: "IEEE Computer Society"
+issn: "0162-8828"
+eissn: "1939-3539"
+fields: [vision, ml]
+community: vision
+tier: 1
+metrics:
+  jif: {value: 20.4, year: 2025}
+  citescore: {value: 41.1, year: 2025}
+  h5_index: {value: 217, year: 2025}
+review:
+  speed_note: "심사 기간과 채택률은 공식적으로 공개되지 않는다. 월간 발행이며, 현 편집장은 서울대 이경무(Kyoung Mu Lee) 교수다."
+access: hybrid
+apc_usd: 2800
+orientation:
+  contribution: -1
+  summary: "패턴인식·컴퓨터비전·머신러닝 분야의 최고 권위 저널로, 학회 수준을 넘는 방법론적 깊이와 광범위한 실험을 갖춘 논문, 학회 논문을 크게 확장한 저널판, 영향력 있는 서베이가 주로 실린다. 건설 응용 논문은 방법론의 일반성을 보여야 하며, 응용 시스템 중심 논문은 적합하지 않다."
+  values: ["methodological depth", "extensive experiments", "extended conference work", "surveys"]
+fit: 1
+take: "인식 연구를 학회 논문 여러 편으로 쌓은 뒤 확장판을 낼 때 고려할 곳이며, 박사 초반의 1차 타깃은 아니다."
+openalex_id: "S199944782"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+  society: "https://www.computer.org/csdl/journal/tp"
+  submit: "https://publishingportal.ieee.org/app/publication-venue?id=J-34"
+  guide: "https://www.computer.org/csdl/journal/tp/write-for-us/15083"
+sources:
+  - "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=34"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
+  - "https://api.openalex.org/sources?filter=issn:0162-8828"
+last_verified: 2026-10-02

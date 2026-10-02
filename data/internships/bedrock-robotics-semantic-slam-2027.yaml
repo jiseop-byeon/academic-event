@@ -1,0 +1,24 @@
+id: bedrock-robotics-semantic-slam-2027
+company: "Bedrock Robotics"
+org_type: construction-robotics
+team: "State Estimation"
+title: "2027 Internship State Estimation, Learned Mapping & Semantic SLAM"
+fields: [construction, navigation, vision, robotics]
+degree: [phd, ms, bs]
+season: "2027 (term not stated)"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+required: ["Pursuing a BS, MS or PhD in CS, robotics, EE or related", "Strong Python and PyTorch (or similar) model training", "3D geometry, coordinate frames and transforms", "SLAM and mapping fundamentals, point clouds or depth data", "Comfort with messy sensor data and careful experiment design"]
+preferred: ["Learned SLAM, semantic mapping or 3D scene understanding research", "Neural scene representations (NeRF, 3D Gaussian splatting, neural occupancy, SDF)", "Vision foundation models (DINOv2, SAM) for 3D or robotics", "Lidar processing or multi-sensor fusion", "Off-road or field robotics data", "Rust or C++, ROS"]
+skills: [python, pytorch, slam, 3d-vision, point-cloud, lidar, sensor-fusion, state-estimation, cpp, ros]
+responsibilities: ["Prototype learned SLAM / mapping (place recognition, odometry, depth completion, neural occupancy) for autonomous excavators", "Fuse lidar and camera segmentation into consistent 3D semantic maps of changing terrain (dig material, haul roads, spoil piles)", "Benchmark against classical baselines on fleet data and deliver a documented prototype"]
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+status: open
+posted: 2026-09-25
+apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760"
+fit: 3
+take: "굴삭으로 지형이 계속 변하는 건설 현장의 시맨틱 매핑·위치추정 과제라 perception·내비게이션 지원 축을 건설 맥락에서 키울 수 있어 manipulation 포지션의 대안으로 함께 지원할 만하다."
+sources: ["https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
+last_verified: 2026-10-02

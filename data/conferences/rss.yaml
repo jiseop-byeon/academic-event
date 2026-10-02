@@ -1,0 +1,50 @@
+id: rss
+acronym: "RSS"
+name: "Robotics: Science and Systems"
+organizer: "Robotics: Science and Systems Foundation"
+fields: [robotics, physical-ai, manipulation, navigation, ml]
+community: robotics
+tier: 1
+rankings:
+  h5_index: 83
+  h5_year: 2025
+frequency: annual
+paper_format: "RSS 2027: Stage 1 = 6-page extended abstract (5 pages of content + 1 page of references); Stage 2 = final paper of 8 pages excluding references"
+review:
+  blind: double
+  rebuttal: true
+proceedings: "RSS proceedings (open access)"
+orientation:
+  contribution: -1
+  summary: "단일 트랙의 소수 정예 학회로, 새로운 방법론과 '왜 되는가'에 대한 과학적 통찰을 엄밀한 실험으로 보인 논문을 높이 산다. 2027년부터 기존 단일 마감+rebuttal 방식이 2단계 '셰퍼딩' 심사로 바뀌어, 12/4에 문제 정의·방법이 완성된 6쪽 확장 초록(실험은 예비 단계여도 됨)을 내고, 통과하면 메타리뷰로 확정된 'Extension Charter'(추가 실험·보완 요구)를 4/16까지 이행해 8쪽 최종 논문을 낸다 — 부정적 실험 결과는 탈락 사유가 아니며 채택 논문은 리뷰어·체어 이름이 공개된다. 건설 로봇 논문은 응용 자체보다 접촉 모델링·학습 방법의 일반적 기여로 포장해야 승산이 있고, 12월~4월 심사 기간 내내 타 학회 동시 투고가 금지된다는 점에 유의."
+  values: ["methodological novelty", "scientific insight", "rigorous evaluation", "single-track"]
+fit: 2
+take: "RSS 2027은 12/4까지 '방법이 완성된 6쪽 초록'만 있으면 도전할 수 있는 새 2단계 제도지만, 4월까지 원고가 묶여 IROS 2027(3/1)과 양자택일이므로 방법론 기여가 뚜렷할 때만 고를 것."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-07-06
+    end: 2027-07-11
+    city: "Athens"
+    country: GR
+    lat: 37.98
+    lon: 23.73
+    url: "https://roboticsconference.org/"
+    deadlines:
+      - {kind: paper, date: 2026-12-04, tz: "AoE", time: "23:59", label: "Stage 1: 6-page extended abstract"}
+      - {kind: notification, date: 2027-02-05, tz: "AoE", label: "Stage 1 decision: reject or invite to Stage 2 with a metareview"}
+      - {kind: rebuttal, date: 2027-02-12, tz: "AoE", time: "23:59"}
+      - {kind: other, date: 2027-02-26, tz: "AoE", label: "Stage 2 decision: finalized Extension Charter sent to authors"}
+      - {kind: other, date: 2027-04-16, tz: "AoE", time: "23:59", label: "Stage 2: final 8-page paper executing the Extension Charter"}
+      - {kind: supplementary, date: 2027-04-19, tz: "AoE", time: "23:59"}
+      - {kind: notification, date: 2027-04-30, tz: "AoE", label: "final paper acceptance"}
+      - {kind: camera-ready, date: 2027-05-14, tz: "AoE", time: "23:59"}
+    notes: "RSS 2027 심사 제도 변경: (1) 기존 단일 마감+rebuttal을 2단계 셰퍼딩으로 대체 — 12/4 6쪽 확장 초록(문제·방법 완성, 실험은 예비 가능) → 2/5 탈락 또는 Stage 2 초대(메타리뷰에 필요한 보완·평가·방법 확장 명시) → 2/12 rebuttal → 2/26 확정 'Extension Charter' 수령 → 4/16 Charter를 이행한 8쪽 최종 논문 제출 → PC가 이행 여부와 과학적 통찰을 확인해 4/30 최종 채택 통보. (2) Charter를 이행했다면 부정적 실험 결과만으로는 탈락하지 않음. (3) 채택 논문은 리뷰어·체어 이름 공개. 취지는 장기적 과학 진보·재현 가능한 방법론으로 무게중심을 옮기고 급증하는 투고량을 관리하는 것. 동시 투고 금지(arXiv 공개는 허용)라 같은 원고로 IROS 2027(3/1 마감)과 병행할 수 없다. 장소 세부는 미정."
+links:
+  home: "https://roboticsconference.org/"
+  cfp: "https://roboticsconference.org/information/cfp/"
+sources:
+  - "https://roboticsconference.org/information/cfp/"
+  - "https://roboticsconference.org/"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+last_verified: 2026-10-02

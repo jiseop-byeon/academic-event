@@ -1,0 +1,43 @@
+id: hertz-fellowship
+name: "Hertz Fellowship"
+organizer: "Fannie and John Hertz Foundation"
+org_type: other
+type: fellowship
+fields: [any]
+amount:
+  summary: "9개월 기준 $38,000 personal stipend + 등록금 상당액(full tuition equivalent), 최대 5년·총 가치 최대 $250,000; NSF 등 타 펠로십 병행 시 Hertz 기간 $44,000 + 타 펠로십 기간 연 $9,000 보조, 자녀가 있으면 연 $5,000 추가"
+  value: 38000
+  max: 44000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "other"]
+duration: "최대 5년 (매년 갱신)"
+eligibility:
+  nationality: ["US"]
+  where_enrolled: "펠로십은 미국 소재 재단 참여 대학의 박사과정에서 수행 (지원 시점에 참여 대학 재학 불필요)"
+  stage: "학부 4학년, 대학원 진학 전 gap year, 대학원 1년 차까지 (1년 차 이후 수여는 드문 예외)"
+  korean_ok: false
+  international_in_us_ok: false
+  us_citizen_only: true
+  notes: "미국 시민권자 또는 영주권자만 지원 가능. 응용 물리·생물과학, 수학, 공학 박사과정 대상이며 국가 비상시 역량을 제공하겠다는 비구속적 도덕적 서약(moral commitment)이 필요."
+requirements: ["추천인 평가서 4부 (재단 양식)", "개인 에세이(500–1,000단어) 등 에세이", "성적증명서", "GRE 점수 (선택)"]
+nomination: false
+awards_per_year: "2026년 19명 선정 (결선 54명)"
+cycle:
+  typical: "2027 Fellowship 기준 2026년 8월 31일 접수 시작, 10월 30일 마감, 11월 서류 선발, 12–1월 1차·2월 2차 인터뷰, 2월 결선 발표, 2027년 4월 선정 통보(5월 공식 발표)"
+  deadlines:
+    - {kind: application, date: 2026-10-30, label: "지원 마감"}
+status: open
+apply_url: "https://www.hertzfoundation.org/hertz-fellowship/apply/"
+fit: 1
+take: "미국 시민권자·영주권자만 지원할 수 있어 한국 국적자에게는 참고용 항목이다."
+links:
+  home: "https://www.hertzfoundation.org/hertz-fellowship/"
+sources:
+  - "https://www.hertzfoundation.org/news/2027-hertz-fellowship-application-now-open/"
+  - "https://www.hertzfoundation.org/hertz-fellowship/application-help/faq/"
+  - "https://www.hertzfoundation.org/fellowship"
+  - "https://www.hertzfoundation.org/hertz-fellowship/apply/"
+  - "https://www.hertzfoundation.org/news/hertz-foundation-announces-19-recipients-of-the-2026-hertz-fellowship/"
+  - "https://www.hertzfoundation.org/news/54-finalists-named-for-the-2026-hertz-fellowships/"
+last_verified: 2026-10-02

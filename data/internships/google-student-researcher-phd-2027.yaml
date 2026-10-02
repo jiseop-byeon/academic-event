@@ -1,0 +1,55 @@
+id: google-student-researcher-phd-2027
+company: "Google (incl. Google DeepMind)"
+org_type: bigtech
+team: "Student Researcher Program — Google Research, Google DeepMind, Google Cloud and others"
+title: "Student Researcher, PhD, Winter-Summer 2027"
+fields: [physical-ai, robotics, vision, ml]
+degree: [phd]
+season: "Winter–Summer 2027"
+start: "flexible"
+duration: "Flexible weekly hours and project length (set at offer stage)"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+  - {city: "Austin", region: "TX", country: US, lat: 30.27, lon: -97.74}
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+  - {city: "New York", region: "NY", country: US, lat: 40.71, lon: -74.01}
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+  - {city: "Kirkland", region: "WA", country: US, lat: 47.68, lon: -122.21}
+  - {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -80.00}
+  - {city: "Palo Alto", region: "CA", country: US, lat: 37.44, lon: -122.14}
+work_mode: hybrid
+pay:
+  min: 118000
+  max: 157000
+  currency: USD
+  unit: year
+  source: posting
+  note: "미국 연 환산 기본급 범위(공고 기재)"
+required:
+  - "Enrolled in a PhD (CS, Statistics, Applied Math, OR, Natural Sciences or related) during the engagement"
+  - "Experience in one area of CS such as CV, ML, deep learning or HCI"
+  - "Located in the US for the whole engagement"
+  - "CV with expected graduation date and an English transcript"
+preferred:
+  - "Returning to the degree program after the engagement"
+  - "Attending a degree program in the US"
+  - "Research experience and publications at major venues"
+  - "Python, C/C++, Java or similar"
+skills: [python, cpp, computer-vision]
+responsibilities:
+  - "Join exploratory research projects on real-world, large-scale problems"
+  - "Matched to a host team across Google Research, Google DeepMind, Cloud and more"
+citizenship: none
+eligibility_note: "시민권 요건 없음. 참여 기간 동안 미국 거주 필수(일부 미국·캐나다 내 원격 허용). 학년 제한이 없고, 공고가 저연차 박사과정은 Research Intern 대신 이 공고로 지원하라고 안내."
+status: open
+deadline: 2027-07-16
+apply_url: "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027"
+fit: 3
+take: "Google DeepMind 로보틱스까지 이 공고 하나로 매칭되고 저연차 박사를 명시적으로 받으니, 지원과 동시에 GDM 로보틱스 연구자에게 직접 호스트 의사를 타진하라."
+notes: "지원 창은 2027-07-16까지(프로젝트가 차면 조기 종료), 프로젝트 승인 시마다 수시 검토라 결과까지 수개월 걸릴 수 있음. 시작은 보통 2027년 1–8월. 근무지 후보는 Austin 포함 25곳 이상(대표 도시만 기재). 게시일 비공개."
+sources:
+  - "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027"
+  - "https://deepmind.google/about/careers/"
+last_verified: 2026-10-02

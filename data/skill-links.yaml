@@ -1,0 +1,55 @@
+# Skill tag → the Physical AI Notes page that teaches it (https://jiseop-byeon.github.io/phd-wiki/).
+# Used on the internships pages ("위키에서 공부하기"). Paths are wiki slugs; a trailing "/" is a section index.
+base: "https://jiseop-byeon.github.io/phd-wiki/"
+links:
+  python: {path: "02-foundations/tools/python-research-code", label: "연구용 Python"}
+  cpp: {path: "04-robotics/ros2/cpp-for-robot-code", label: "로봇 코드를 위한 C++"}
+  pytorch: {path: "02-foundations/ml-practice", label: "ML 실전"}
+  ros: {path: "04-robotics/ros2/", label: "ROS 2 트랙"}
+  ros2: {path: "04-robotics/ros2/", label: "ROS 2 트랙"}
+  moveit: {path: "04-robotics/ros2/manipulation-moveit2", label: "MoveIt 2로 조작"}
+  nav2: {path: "04-robotics/ros2/navigation-nav2", label: "Nav2 내비게이션"}
+  isaac-sim: {path: "06-research-practice/simulators-benchmarks-datasets", label: "시뮬레이터·벤치마크"}
+  mujoco: {path: "06-research-practice/simulators-benchmarks-datasets", label: "시뮬레이터·벤치마크"}
+  simulation: {path: "06-research-practice/simulators-benchmarks-datasets", label: "시뮬레이터·벤치마크"}
+  sim-to-real: {path: "05-construction-robotics/sim-to-real", label: "Sim-to-real"}
+  reinforcement-learning: {path: "02-foundations/rl-basics", label: "강화학습 기초"}
+  imitation-learning: {path: "02-foundations/rl-robot-learning", label: "로봇 학습 (모방·강화)"}
+  diffusion-policy: {path: "03-deep-learning/diffusion/", label: "확산 모델"}
+  vla: {path: "03-deep-learning/vla/", label: "VLA"}
+  foundation-models: {path: "03-deep-learning/physical-ai-ecosystem", label: "Physical AI 생태계"}
+  world-models: {path: "03-deep-learning/world-models/", label: "월드 모델"}
+  llm: {path: "03-deep-learning/foundations/attention-transformer", label: "어텐션·트랜스포머"}
+  vlm: {path: "03-deep-learning/vlm/", label: "VLM"}
+  computer-vision: {path: "03-deep-learning/computer-vision/", label: "컴퓨터 비전"}
+  3d-vision: {path: "04-robotics/geometric-perception-calibration", label: "기하학적 인식·캘리브레이션"}
+  point-cloud: {path: "04-robotics/geometric-perception-calibration", label: "기하학적 인식·캘리브레이션"}
+  lidar: {path: "04-robotics/perception-sensors-rigs", label: "인식 센서·리그"}
+  sensor-fusion: {path: "04-robotics/state-estimation-slam", label: "상태 추정·SLAM"}
+  state-estimation: {path: "04-robotics/state-estimation-slam", label: "상태 추정·SLAM"}
+  slam: {path: "04-robotics/state-estimation-slam", label: "상태 추정·SLAM"}
+  motion-planning: {path: "04-robotics/planning-decision-making", label: "계획·의사결정"}
+  control: {path: "04-robotics/modern-robotics/ch11-robot-control", label: "로봇 제어 (MR 11장)"}
+  mpc: {path: "04-robotics/mpc", label: "MPC"}
+  force-control: {path: "04-robotics/force-compliance-control", label: "힘·컴플라이언스 제어"}
+  tactile-sensing: {path: "04-robotics/tactile-visuotactile", label: "촉각·시각촉각"}
+  grasping: {path: "04-robotics/grasping", label: "그래스핑"}
+  manipulation: {path: "05-construction-robotics/construction-manipulation", label: "건설 조작"}
+  kinematics: {path: "02-foundations/manipulator-kinematics-dynamics", label: "매니퓰레이터 기구학·동역학"}
+  dynamics: {path: "02-foundations/manipulator-kinematics-dynamics", label: "매니퓰레이터 기구학·동역학"}
+  navigation: {path: "04-robotics/navigation-mobile-manipulation", label: "내비게이션·모바일 조작"}
+  mobile-manipulation: {path: "04-robotics/navigation-mobile-manipulation", label: "내비게이션·모바일 조작"}
+  locomotion: {path: "04-robotics/legged-locomotion", label: "보행 로봇"}
+  teleoperation: {path: "04-robotics/teleoperation-demonstration", label: "원격조작·시연"}
+  haptics: {path: "04-robotics/haptics-teleoperation/", label: "햅틱스·원격조작 트랙"}
+  hri: {path: "04-robotics/hri-safety", label: "HRI·안전"}
+  system-identification: {path: "04-robotics/system-identification", label: "시스템 식별"}
+  deployment: {path: "04-robotics/robot-systems-deployment", label: "로봇 시스템 배포"}
+  linux: {path: "02-foundations/tools/linux-shell", label: "Linux·셸"}
+  git: {path: "02-foundations/tools/git-research-code", label: "연구 코드용 Git"}
+  cuda: {path: "02-foundations/tools/gpu-clusters", label: "GPU 클러스터"}
+  gpu: {path: "02-foundations/tools/gpu-clusters", label: "GPU 클러스터"}
+  embedded: {path: "02-foundations/digital-logic-microcontrollers", label: "디지털 논리·마이크로컨트롤러"}
+  hardware: {path: "02-foundations/tools/mechanical-design-fabrication", label: "기계 설계·제작"}
+  bim: {path: "05-construction-robotics/digital-twin-workflows", label: "디지털 트윈 워크플로"}
+  digital-twin: {path: "05-construction-robotics/digital-twin-workflows", label: "디지털 트윈 워크플로"}

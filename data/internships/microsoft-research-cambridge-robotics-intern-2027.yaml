@@ -1,0 +1,44 @@
+id: microsoft-research-cambridge-robotics-intern-2027
+company: "Microsoft"
+org_type: bigtech
+team: "Microsoft Research Cambridge (UK) — robotics and AI infrastructure"
+title: "Cambridge Internship Program - Robotics Systems and Control"
+fields: [robotics, manipulation, physical-ai]
+degree: [phd]
+season: "2027 (12 weeks; dates not stated)"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "England", country: GB, lat: 52.21, lon: 0.12}
+work_mode: onsite
+pay:
+  min: 4853
+  currency: GBP
+  unit: month
+  source: posting
+  note: "공고 기재 월 기본급"
+required:
+  - "Enrolled in (or recently completed) a PhD in CS, Robotics, ME/EE or related"
+  - "Expertise in kinematics, dynamics or motion control"
+  - "Hands-on robot programming and control software-hardware integration"
+  - "Robot simulators such as MuJoCo or Isaac Sim"
+preferred:
+  - "Python and/or C++ for simulation and data pipelines"
+  - "Publications at ICRA, RA-L, IROS or CoRL"
+  - "Manipulation and grasping, perception"
+skills: [python, cpp, mujoco, isaac-sim, control, motion-planning, simulation, hardware]
+responsibilities:
+  - "Design, prototype and validate robotics algorithms and control strategies"
+  - "Develop Real2Sim and Sim2Real strategies for robot model learning and motion planning on a custom robot"
+  - "Run simulation and real-world experiments for datacenter automation"
+citizenship: unknown
+eligibility_note: "영국 케임브리지 대면 근무. 공고에 국적·근무 허가 조건 명시 없음."
+status: open
+posted: 2026-09-10
+apply_url: "https://apply.careers.microsoft.com/careers/job/1970393556991724"
+fit: 2
+take: "커스텀 로봇의 real2sim·제어를 직접 만지는 실전형 과제라 조작·제어 역량을 보여주기 좋지만 영국 근무라 보조 타깃으로 두라."
+notes: "같은 랩의 'Cambridge Residency Program - Robotics'(2026-09-22 게시)도 열려 있음. MSR 레드먼드의 로보틱스 연구 인턴 공고는 2026-10-02 기준 미게시."
+sources:
+  - "https://apply.careers.microsoft.com/careers/job/1970393556991724"
+last_verified: 2026-10-02

@@ -1,0 +1,41 @@
+id: merl-robotic-disassembly-dexterous-intern-2027
+company: "Mitsubishi Electric Research Laboratories (MERL)"
+org_type: lab
+team: "MERL (host: Radu Corcodel)"
+title: "OR0329: Internship - Robotic Disassembly"
+fields: [manipulation, robotics, vision, physical-ai]
+degree: [phd]
+season: "Flexible start (rolling)"
+start: "flexible"
+duration: "Flexible"
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: onsite
+pay:
+  min: 6000
+  max: 8000
+  currency: USD
+  unit: month
+  source: posting
+  note: "공고 기재 월 급여 범위(6–8K/월)"
+required:
+  - "Current PhD student"
+  - "Research in robot learning, manipulation and perception"
+  - "Sim-to-real with Isaac Lab, MuJoCo or Genesis"
+  - "Strong Python or C++; publications in robotics, CV or ML venues"
+skills: [python, cpp, isaac-sim, mujoco, computer-vision, simulation]
+responsibilities:
+  - "Develop learning-based dexterous manipulation and perception for disassembly"
+  - "Sim-to-real deployment incl. small-object manipulation and handover"
+  - "Experiment on robot platforms and publish at top venues"
+citizenship: none
+eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+status: open
+apply_url: "https://merl.clearcompany.com/careers/jobs/bff24001-5489-2b5f-fff3-87abfad75207/apply"
+fit: 3
+take: "OR0298과 같은 분해 프로젝트의 덱스터러스·sim-to-real 축이라 시뮬레이션 기반 조작 정책 경험이 있으면 두 공고 모두 지원하라."
+notes: "게시일 미표기. 지원 시 CV와 관련 논문 목록 제출."
+sources:
+  - "https://www.merl.com/employment/internship-openings#OR0329"
+  - "https://merl.clearcompany.com/careers/jobs/bff24001-5489-2b5f-fff3-87abfad75207/apply"
+last_verified: 2026-10-02

@@ -1,0 +1,25 @@
+id: bedrock-robotics-behavior-ml-manipulation-2027
+company: "Bedrock Robotics"
+org_type: construction-robotics
+team: "Behavior ML"
+title: "2027 Internship Behavior ML Engineer, Learned Manipulation Policies"
+fields: [construction, manipulation, physical-ai, robotics]
+degree: [phd, ms, bs]
+season: "2027 (term not stated)"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+required: ["Pursuing a BS, MS or PhD in CS, robotics, ML or related", "Strong Python and hands-on PyTorch model training", "Working understanding of generative modeling (diffusion, flow matching, VAEs) and imitation learning / behavior cloning", "Experience running and interpreting real training experiments"]
+preferred: ["Published work in diffusion, flow matching, robot learning or imitation learning", "Training Vision-Language-Action (VLA) models", "RL policies for robot manipulation", "Policy evaluation in simulation and sim-to-real reasoning", "Interest in construction, earthwork or heavy equipment"]
+skills: [python, pytorch, diffusion-policy, imitation-learning, vla, reinforcement-learning, simulation]
+responsibilities: ["Train diffusion / flow-matching behavior policies for autonomous excavators on real fleet demonstrations and simulated rollouts", "Build evaluation pipelines scoring task success, smoothness, safety margins and operator-likeness", "Investigate failure modes (distribution shift, mode collapse, out-of-distribution scenes) and propose fixes"]
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간·시작 시기는 공고에 없음."
+status: open
+posted: 2026-10-02
+apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c"
+fit: 3
+take: "40톤 굴착기의 굴삭·스윙·적재 동작을 diffusion policy로 학습하는 자리라 건설 contact-rich manipulation 연구와 정확히 겹치므로 이번 시즌 최우선으로 지원할 만하다."
+notes: "Bedrock Robotics는 자율 굴착기를 실제 현장에 배치 중인 건설 자율화 스타트업. 2026-10-02 당일 게시된 공고."
+sources: ["https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
+last_verified: 2026-10-02

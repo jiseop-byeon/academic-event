@@ -1,0 +1,47 @@
+id: nvidia-research-intern-robotics-seattle-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — Seattle Robotics Lab"
+title: "PhD Research Intern, Robotics - Summer 2027"
+fields: [manipulation, physical-ai, robotics]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: onsite
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위(근무지·학년·학위·경력에 따라 결정)"
+required:
+  - "Enrolled in a PhD in Robotics, ML, CS, EE, ME or related"
+  - "First-author papers at RSS, CoRL, ICRA, IJRR, T-RO, NeurIPS, CVPR or similar"
+  - "Excellent Python; PyTorch or JAX"
+  - "ROS2 and physics simulators (Isaac Sim/Lab, Newton or MuJoCo)"
+  - "Hands-on debugging across simulation and real robot hardware"
+preferred:
+  - "C++, CUDA or Warp"
+  - "Bimanual, dexterous or mobile manipulation"
+  - "Multimodal robot learning with tactile and force/torque sensing"
+  - "Robot foundation models (VLA, world models) and sim-to-real"
+skills: [python, cpp, cuda, pytorch, jax, ros2, isaac-sim, mujoco, reinforcement-learning, imitation-learning, vla, world-models, tactile-sensing, simulation]
+responsibilities:
+  - "Develop algorithms and foundation models for manipulation and loco-manipulation in industrial, scientific and household settings"
+  - "Integrate methods on real cobots, industrial arms, mobile manipulators, humanoids and dexterous hands"
+  - "Publish papers and release code with the lab"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 박사과정 재학생 대상, 미국 근무(시애틀 Fremont 랩 중심, Santa Clara도 근무지로 기재)."
+status: open
+posted: 2026-09-30
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Research-Intern--Robotics---Summer-2027_JR2025647"
+fit: 3
+take: "산업용 고정밀 조작, 촉각·힘/토크 센싱, sim-to-real을 모두 명시한 공고라 건설 현장 접촉 조작 연구와 가장 직결되니 1순위로 지금 바로 지원하라."
+notes: "공고 문구는 '최소 2026-10-04까지 접수'로 마감일이 아닌 최소 접수 기간임 — 조기 지원이 유리. 요청번호 JR2025647."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Seattle/Research-Intern--Robotics---Summer-2027_JR2025647"
+  - "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/US-WA-Seattle/Research-Intern--Robotics---Summer-2027_JR2025647"
+last_verified: 2026-10-02

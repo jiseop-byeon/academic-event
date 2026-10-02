@@ -1,0 +1,43 @@
+id: apple-scholars-aiml
+name: "Apple Scholars in AI/ML PhD Fellowship"
+organizer: "Apple (Machine Learning Research)"
+org_type: industry
+type: fellowship
+fields: [ml, vision]
+amount:
+  summary: "학비·수수료(건강보험·교재 포함) 2년 전액 + 연 최대 $40,000 생활비 + 연 $5,000 연구 출장비 + Apple 연구자 멘토링"
+  value: 45000
+  currency: USD
+  unit: year
+  covers: ["tuition", "fees", "health-insurance", "books", "stipend", "travel", "mentorship"]
+  estimated: false
+duration: "2년 (2027 코호트 기준 Fall 2027–Summer 2029)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "Apple이 매 사이클 초청한 대학의 박사과정 풀타임 재학생 (UT Austin은 2023·2025년 수혜자 배출)"
+  stage: "졸업까지 2–3년 남은 박사 중후반 학생 — 보통 3–4년차, 미국 대학 박사 1년차는 추천 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학생 직접 지원 불가 — 초청 대학이 기관당 최대 3명(연구 분야별 1명)을 추천. 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 수혜 기간 중 다른 산업체 전액 펠로십과 중복 불가. 2027 코호트 중점 분야(온디바이스·효율적 AI, AI 보안, 평가·신뢰성, Computer Use Agents, Human-Centered AI 등)에 로보틱스는 없음."
+nomination: true
+awards_per_year: "전 세계 약 20명 (2025·2026년)"
+cycle:
+  typical: "매년 7월–8월 초 대학 내부 마감, 8월 중순–9월 초 Apple 추천 접수, 12월경 결과 통보, 이듬해 3–4월 공개 발표"
+  deadlines:
+    - {kind: application, date: 2026-09-08, label: "2027 코호트 Apple 추천 마감(지난 라운드)"}
+    - {kind: application, date: 2027-09-07, label: "다음 라운드 Apple 추천 마감(추정)", estimated: true}
+status: closed
+fit: 2
+take: "로보틱스가 중점 분야에 없어 우선순위가 낮으니, 3–4년차에 비전·Human-Centered AI 쪽 성과가 쌓였을 때만 학과 추천을 노려라."
+links:
+  home: "https://machinelearning.apple.com/updates/apple-scholars-aiml-2026"
+sources:
+  - "https://machinelearning.apple.com/updates/apple-scholars-aiml-2026"
+  - "https://machinelearning.apple.com/updates/apple-scholars-aiml-2025"
+  - "https://machinelearning.apple.com/updates/apple-scholars-aiml-2023"
+  - "https://ucsdcollab.atlassian.net/wiki/spaces/GDCP/pages/398524607/Apple+Scholars+in+AI+ML+Fellowship"
+  - "https://idm.uct.ac.za/media/725267"
+  - "https://ischool.utoronto.ca/award/apple-scholars-in-ai-ml"
+  - "https://micde.umich.edu/apple-scholars-in-ai-ml-phd-fellowship/"
+last_verified: 2026-10-02

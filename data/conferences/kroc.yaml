@@ -1,0 +1,42 @@
+id: kroc
+acronym: "KRoC"
+name: "Korea Robotics Conference (한국로봇종합학술대회)"
+organizer: "Korea Robotics Society (KROS)"
+fields: [robotics, manipulation, navigation, hri, physical-ai]
+community: robotics
+tier: 3
+frequency: annual
+paper_format: "Regular papers; optional simultaneous submission to the Journal of Korea Robotics Society (로봇학회 논문지)"
+attendance: "2,000+"
+orientation:
+  contribution: 2
+  summary: "국내 최대 로봇 종합학술대회(연구자·학생·기업·정책 관계자 2,000명 이상)로, 연구 발표와 함께 산업·정책 교류 성격이 강하다. 문턱이 낮아 건설 로봇의 초기 결과·데모를 국내 로봇 연구자들에게 소개하고 피드백을 받는 데 적합하며, 2027년부터 마감 연장 없는 hard deadline을 적용하고 구두·포스터·데모·튜토리얼·워크숍 등 참여 형식을 넓혔다."
+  values: ["Korean robotics community", "industry networking", "low barrier", "demos"]
+fit: 2
+take: "KRoC 2027(2월, 비발디파크)은 11/26 hard deadline — 겨울 일정이 맞으면 초기 건설 로봇 결과로 국내 로봇 커뮤니티에 연구를 알리기 좋은 무대."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-02-15
+    end: 2027-02-17
+    city: "Hongcheon"
+    country: KR
+    venue: "Sono Belle Vivaldi Park Convention Center"
+    lat: 37.70
+    lon: 127.89
+    url: "https://kros.org/Conference/ConferenceView.asp?AC=0&CODE=CC20260604"
+    deadlines:
+      - {kind: other, date: 2026-09-10, label: "simultaneous submission to the Journal of KROS (no extension)"}
+      - {kind: workshop-proposal, date: 2026-10-29, label: "workshop and tutorial proposals"}
+      - {kind: paper, date: 2026-11-26, label: "papers, RED Show, competition (hard deadline, no extension)"}
+      - {kind: notification, date: 2026-12-30}
+      - {kind: registration, date: 2027-01-20, label: "pre-registration closes (opens 01-07)"}
+    notes: "제22회 대회, 비전 'Where Robotics Meets the Physical World'. 주요일정표는 2/15–17, 대회 소개문은 2/14–17(4일)로 표기. 강원도 홍천 소노벨 비발디파크 컨벤션센터 개최."
+links:
+  home: "https://kros.org/"
+  cfp: "https://kros.org/Conference/ConferenceView.asp?AC=0&CODE=CC20260604"
+sources:
+  - "https://kros.org/Conference/ConferenceView.asp?AC=0&CODE=CC20260604"
+  - "https://kros.org/Conference/ConferenceView.asp?AC=0&CODE=CC20260603"
+  - "https://kros.org/"
+last_verified: 2026-10-02

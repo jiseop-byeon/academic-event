@@ -1,0 +1,49 @@
+id: niied-government-overseas-scholarship
+name: "국비유학생 (Korean Government Overseas Scholarship)"
+organizer: "교육부 국립국제교육원 (National Institute for International Education, NIIED)"
+org_type: korean-government
+type: scholarship
+fields: [robotics, ml, construction]
+amount:
+  summary: "미국 기준 연간 최대 USD 40,000(일반·기술기능인: 학비 2만 + 체재비 2만), 꿈나래전형 USD 50,000; 출국 항공료 1회 별도"
+  value: 40000
+  max: 50000
+  currency: USD
+  unit: year
+  covers: ["tuition", "living", "health-insurance", "travel"]
+duration: "석사 최대 2년·박사 최대 3년 (미국·영국·캐나다는 일반전형 최대 2년)"
+eligibility:
+  nationality: ["KR"]
+  where_enrolled: "국내 대학 학사 졸업자 또는 졸업예정자(2026년도 공고 기준 2026년 8월 말 졸업예정자까지)"
+  stage: "해외 석사·박사과정 진학 예정자; 공고일부터 최종 발표일까지 지원하려는 학위과정(석사 또는 박사)에 이미 유학 중인 사람은 응시 제한"
+  korean_ok: true
+  international_in_us_ok: false
+  us_citizen_only: false
+  notes: "이미 미국 박사과정에 재학 중인 학생은 '동 학위과정에 유학 중인 사람'에 해당해 응시할 수 없음. 합격 후 이듬해 9월 말까지 해외 대학 입학허가를 받아야 하며, 국고·장학재단 등 다른 장학금과 중복 수혜 금지(조교 수당 등 근로 대가는 예외). 일반전형 첨단산업연구 분야에 지능형로봇·인공지능·스마트시티 등이 포함됨. 중국(홍콩 포함) 유학자는 선발 제외."
+requirements:
+  - "공인 외국어 성적 (일반·꿈나래: TOEFL iBT 개편 전 93점/개편 후 4.5 이상, IELTS 6.5 이상, TOEIC 820 이상 등)"
+  - "한국사능력검정시험 3급 이상 (기술·기능인 전형은 4급 이상)"
+  - "남성은 병역 필 또는 면제"
+  - "유학·연구 계획서 등 응시원서 (한국유학종합시스템 입력 후 등기우편 제출)"
+  - "출신 대학 총장 직인 날인"
+nomination: false
+awards_per_year: "64명 내외 (일반 40·꿈나래 20·기술기능인 4; 일반전형 중 첨단산업연구 19명 내외)"
+cycle:
+  typical: "매년 3월 말 공고, 5월 중순 약 2주간 응시원서 접수, 6월 서류 합격 발표, 7월 면접·최종 발표"
+  deadlines:
+    - {kind: application, date: 2027-05-20, tz: "KST", estimated: true, label: "2027년도 응시원서 입력 마감(추정)"}
+    - {kind: application, date: 2026-05-20, tz: "KST", time: "10:00", label: "2026년 마감(참고)"}
+status: upcoming
+apply_url: "https://www.studyinkorea.go.kr"
+fit: 1
+take: "이미 미국 박사과정에 재학 중이면 '해당 학위과정 유학 중인 자' 응시 제한에 걸려 지원할 수 없으므로 건너뛰고, 해외 진학 전인 국내 학부 졸업(예정)자에게만 권할 장학금이다."
+links:
+  home: "https://www.niied.go.kr/web/main/nid/niied_board/5628"
+sources:
+  - "https://www.niied.go.kr/web/main/nid/niied_board/5628"
+  - "https://www.niied.go.kr/convert/preview/1775717246380/index.html"
+  - "https://www.niied.go.kr/web/main/nid/niied_board/404"
+  - "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/PTR000051505"
+  - "https://trade.jbnu.ac.kr/bbs/trade/627/346872/download.do"
+  - "https://cba.snu.ac.kr/newsroom/notice?md=v&bbsidx=24614"
+last_verified: 2026-10-02

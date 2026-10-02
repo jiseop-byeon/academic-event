@@ -1,0 +1,51 @@
+id: humanoids
+acronym: "Humanoids"
+name: "IEEE-RAS International Conference on Humanoid Robots"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+fields: [robotics, manipulation, physical-ai, hri]
+community: robotics
+tier: 2
+rankings:
+  h5_index: 22
+  h5_year: 2025
+frequency: annual
+paper_format: "Maximum 8 pages including references, no additional pages, IEEE template"
+review:
+  blind: double
+proceedings: "IEEE Xplore"
+orientation:
+  contribution: 0
+  summary: "휴머노이드·전신 제어·loco-manipulation 커뮤니티의 대표 학회로, 하드웨어 설계·제어·학습 시스템을 고르게 받는다. 건설 현장의 휴머노이드·양팔 작업(자재 운반, 공구 사용)으로 프레이밍하면 관심을 받지만, 고정형 매니퓰레이터의 일반 조작 연구는 범위가 어긋나 보일 수 있다."
+  values: ["whole-body control", "humanoid hardware", "loco-manipulation", "human-like skills"]
+fit: 2
+take: "Humanoids는 건설 작업을 휴머노이드·양팔 플랫폼으로 풀 때만 의미 있는 2순위 — 2026 산타클라라 회차는 마감됐으니 2027 공지를 기다릴 것."
+editions:
+  - year: 2026
+    status: confirmed
+    start: 2026-12-06
+    end: 2026-12-09
+    city: "Santa Clara"
+    country: US
+    lat: 37.35
+    lon: -121.96
+    url: "https://2026.ieee-humanoids.org/"
+    deadlines:
+      - {kind: paper, date: 2026-07-27, tz: "PT", time: "23:59"}
+      - {kind: supplementary, date: 2026-07-30, tz: "PT", label: "optional video"}
+      - {kind: workshop-proposal, date: 2026-08-03}
+      - {kind: notification, date: 2026-10-06}
+      - {kind: camera-ready, date: 2026-10-26}
+    notes: "논문 마감 종료(382편 투고). 12/6 공개 포럼, 12/7 워크숍·튜토리얼, 12/8–9 논문 발표. NIST와 함께 loco-manipulation 챌린지를 연다."
+  - year: 2027
+    status: estimated
+    notes: "개최지·일정 미발표. 마감은 개최 시기에 따라 크게 달라(2025 서울 회차 5/15, 2026 회차 7/27) 날짜를 추정하지 않음."
+links:
+  home: "https://2026.ieee-humanoids.org/"
+  cfp: "https://2026.ieee-humanoids.org/call-for-papers/"
+sources:
+  - "https://2026.ieee-humanoids.org/call-for-papers/"
+  - "https://2026.ieee-humanoids.org/"
+  - "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/"
+  - "https://2025humanoids.org/"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Humanoid+Robots"
+last_verified: 2026-10-02

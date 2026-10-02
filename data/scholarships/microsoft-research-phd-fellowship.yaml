@@ -1,0 +1,43 @@
+id: microsoft-research-phd-fellowship
+name: "Microsoft Research Fellowship (formerly Microsoft Research PhD Fellowship)"
+organizer: "Microsoft Research"
+org_type: industry
+type: fellowship
+fields: [robotics, physical-ai, ml]
+amount:
+  summary: "미국·캐나다 $47,000 일회성 (소속 기관에 무제한 기부금으로 지급, 생활비 용도) + MSR 연구진과의 대면 협업 출장 지원"
+  value: 47000
+  currency: USD
+  unit: one-time
+  covers: ["stipend", "travel"]
+  estimated: false
+duration: "일회성 지원 (2025년 라운드는 2026년 3–4월 지급)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국·캐나다·유럽·한국 등 지정 지역의 인정된 대학 박사과정 재학생 (교수·포닥도 별도 트랙으로 지원 가능)"
+  stage: "박사과정 학년 제한 명시 없음 — 재학 중이면 지원 가능"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "대학 추천 불필요 — 본인이 직접 제출(self-submission)하며, 학생 주도 제안서는 교수 승인과 추천서 2부 필요. 기관당 지원 인원 제한 없음. 매년 제시되는 MSR research challenge 중 하나에 맞춘 제안서로 경쟁하며, 2025년에는 'General-purpose robotic foundation models for embodied AI', 'Robot learning from alternative data sources'가 포함됨. 국적 제한 명시 없음(기관 소재지 기준). 기존 PhD Fellowship(학과 추천제)은 2023년부터 중단됨."
+requirements: ["Statement of Interest 3–4쪽 (선택한 research challenge 기준)", "연구 요약 100단어 이내", "CV", "추천서 2부 (학생 주도 제안서)", "교수 승인"]
+nomination: false
+cycle:
+  typical: "2025년 첫 라운드는 11월 초 접수 시작, 12월 중순 마감(ET), 이듬해 2월 말 결과 통보, 3–4월 지급 — 2026–27 라운드 일정은 미발표"
+  deadlines:
+    - {kind: application, date: 2025-12-16, tz: "ET", label: "2025년 마감(참고)"}
+    - {kind: result, date: 2026-02-27, label: "2025년 라운드 결과 통보(참고)"}
+status: upcoming
+apply_url: "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/how-to-apply/"
+fit: 3
+take: "학교 추천·학년 제한이 없어 1년차도 바로 낼 수 있으니, 다음 라운드(2025년엔 11월 오픈)가 뜨면 robot learning 계열 challenge에 맞춰 접촉 기반 조작 연구 제안서를 지도교수 승인과 함께 제출하라."
+links:
+  home: "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/"
+sources:
+  - "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/"
+  - "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/how-to-apply/"
+  - "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/faq/"
+  - "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/research-challenges/"
+  - "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/"
+  - "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/canada-us/"
+last_verified: 2026-10-02

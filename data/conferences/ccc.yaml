@@ -1,0 +1,33 @@
+id: ccc
+acronym: "CCC"
+name: "Creative Construction Conference"
+organizer: "Diamond Congress Ltd. (Budapest); proceedings published jointly with IAARC"
+fields: [construction, robotics]
+community: construction
+tier: 3
+frequency: annual
+paper_format: "Abstract first, then final paper and revised paper"
+proceedings: "CCC proceedings published with IAARC (Scopus-indexed from 2026)"
+orientation:
+  contribution: 2
+  summary: "2012년부터 중부유럽에서 매년 6월 중순–7월 초 열리는 건설관리·자동화 학회로 디지털화·자동화, 공정·관리, 재료·기술, 지속가능성, 교육 트랙을 둔다. 초록 승인 후 최종 논문을 내는 방식이며 사례·응용 연구 위주다. 2026년부터 IAARC와 공동으로 논문집을 내 Scopus에 색인된다."
+  values: ["construction management", "automation & robotics track", "abstract-first", "IAARC proceedings"]
+fit: 1
+take: "ISARC와 같은 IAARC 논문집에 실리지만 청중·영향력은 ISARC보다 약하니, 유럽 일정과 맞을 때만 보조 발표 무대로 고려하자."
+editions:
+  - year: 2027
+    status: estimated
+    deadlines:
+      - {kind: abstract, date: 2027-02-15, estimated: true}
+      - {kind: paper, date: 2027-05-15, estimated: true, label: "Final paper"}
+    notes: "2026-10-02 기준 CCC 2027 미발표. 2024 프라하(6/29–7/2), 2025 크로아티아 자다르(6/14–17), 2026 헝가리 쇼프론(6/28–7/1)으로 매년 6월 중순–7월 초 중부유럽 개최. 초록 마감이 2024-04-15 → 2025-03-15 → 2026-02-15로 매년 앞당겨져 2027은 보수적으로 2/15로 추정. 최종 논문은 2024·2026 모두 5/15(2025는 5/1)."
+links:
+  home: "https://www.creative-construction-conference.com/"
+  cfp: "https://2026.creative-construction-conference.com/deadlines.php"
+sources:
+  - "https://www.creative-construction-conference.com/"
+  - "https://2026.creative-construction-conference.com/"
+  - "https://2026.creative-construction-conference.com/deadlines.php"
+  - "https://2025.creative-construction-conference.com/deadlines.php"
+  - "https://2024.creative-construction-conference.com/deadlines.php"
+last_verified: 2026-10-02

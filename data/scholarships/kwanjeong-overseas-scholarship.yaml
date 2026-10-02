@@ -1,0 +1,48 @@
+id: kwanjeong-overseas-scholarship
+name: "관정 국외유학장학생 (Kwanjeong Overseas Scholarship)"
+organizer: "관정이종환교육재단 (Kwanjeong Educational Foundation)"
+org_type: korean-foundation
+type: scholarship
+fields: [any]
+amount:
+  summary: "국가·학교별 지급 상한 내 장학금 지급; 대학원생 최대 USD 30,000 (EducationUSA 안내: 대학원 USD 20,000–30,000, 학부 USD 60,000)"
+  value: 20000
+  max: 30000
+  currency: USD
+  unit: year
+eligibility:
+  nationality: ["KR"]
+  where_enrolled: "재단 선발규정 시행규칙이 정한 해외 우수 대학·전공의 학부·석사·박사과정 신입학 확정자 또는 입학 예정자 (2026년 공고 기준: 2026년 하반기 또는 2027년 상반기 신입학 예정자)"
+  stage: "신입학(입학허가 장학생·예비 장학생)만 지원 가능하고 재학생은 지원 불가 — 이미 해외 박사과정 1년차에 재학 중이면 지원할 수 없음"
+  korean_ok: true
+  international_in_us_ok: false
+  us_citizen_only: false
+  notes: "대한민국 단일 국적 보유자로서 국내 고등학교 졸업자 대상(부모 해외 파견 등으로 온 가족이 해외 체류해 해외 고교를 졸업한 경우는 예외 인정). 자연이공계 80% 이상·인문사회예능 20% 이내 선발. EducationUSA 안내상 MBA·JD·LLM·MD·DNP·PHARM.D 등 전문학위 과정 제외. 재단은 2024년부터 별도로 해외 박사후과정(Postdoc) 장학생도 선발함."
+requirements: ["재단 홈페이지 온라인 지원서", "1차 합격자 서류 제출", "2차 합격자 대면 면접(다대다)"]
+nomination: false
+awards_per_year: "2025년 국외 신규 49명 (학부·대학원·박사후과정 합계, 언론 보도); 선발 예정 인원은 비공개"
+cycle:
+  typical: "매년 4월 말 공고 후 약 10일간 온라인 접수, 5월 1차 발표·서류 제출, 6월 말 대면 면접, 7월 초 최종 발표"
+  deadlines:
+    - {kind: other, date: 2027-04-28, estimated: true, label: "2027년도 선발 공고(추정)"}
+    - {kind: application, date: 2027-05-10, tz: "KST", estimated: true, label: "온라인 접수 마감(추정)"}
+    - {kind: interview, date: 2027-06-24, estimated: true, label: "대면 면접 시작(추정)"}
+    - {kind: result, date: 2027-07-01, estimated: true, label: "최종 발표(추정)"}
+    - {kind: application, date: 2025-05-11, tz: "KST", time: "11:00", label: "2025년 마감(참고)"}
+status: upcoming
+apply_url: "https://www.ikef.or.kr/"
+fit: 1
+take: "신입학 예정자만 지원할 수 있고 재학생은 지원이 불가해 이미 박사과정에 입학한 지금은 대상이 아니므로 건너뛴다."
+links:
+  home: "https://www.ikef.or.kr/page.php?id=%2Fkj%2Fscholar_schedule"
+sources:
+  - "https://www.ikef.or.kr/page.php?id=%2Fkj%2Fscholar_schedule"
+  - "https://www.ikef.or.kr/page.php?id=%2Fkj%2Fscholar_schedule_detail&wr_id=99&page=1"
+  - "https://www.ikef.or.kr/page.php?id=%2Fkj%2Fscholar_schedule_detail&wr_id=92&page=1"
+  - "https://www.ikef.or.kr/bbs/board.php?bo_table=m31&wr_id=11452"
+  - "https://www.ikef.or.kr/bbs/board.php?bo_table=m31&wr_id=11451"
+  - "http://www.ikef.or.kr/bbs/faq.php"
+  - "https://educationusa.state.gov/scholarships/study-abroad-scholarship-kwanjeong-educational-foundation"
+  - "https://www.news1.kr/amp/society/education/5848425"
+  - "https://www.hankyung.com/article/2025071627081"
+last_verified: 2026-10-02

@@ -1,0 +1,35 @@
+id: rss-travel-grant
+name: "Pathways@RSS Fellowship"
+organizer: "Robotics: Science and Systems (RSS Foundation)"
+org_type: society
+type: travel-grant
+fields: [robotics]
+amount:
+  summary: "2025년: RSS 등록비 면제 + 항공료·숙박(대학 기숙사 다인실) 지원 / 2026년: RSS 이틀 등록만 지원 — 해마다 지원 범위가 달라지며 금액은 비공개"
+  covers: ["registration", "travel", "lodging"]
+duration: "RSS 학회 1회 참가"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음"
+  stage: "2025년: 학부·석사·박사 1–2년차 / 2026년: 고교·학부·석사 (박사과정 제외) — 연도별로 다름"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "RSS에 처음 참가하거나 로보틱스 연구 커뮤니티에 새로 들어온 학생 우선, 논문 채택은 요건 아님. 멘토 매칭과 학회 안내 세션 포함. RSS에는 논문 저자 대상의 별도 학생 트래블 그랜트가 없음 (2025·2026 학회 페이지 기준)."
+nomination: false
+cycle:
+  typical: "RSS 개최 2–3개월 전 마감 (2025: 3/21 마감·6/21 개최, 2026: 5/15 연장 마감·7/13 개최), 마감 후 10일–3주 내 결과 통보"
+status: upcoming
+fit: 2
+take: "RSS 2027(아테네) Pathways 공고가 나오면 박사과정 포함 여부부터 확인해, 2025년처럼 박사 1–2년차가 대상이면 논문 없이도 항공·숙박을 지원받을 수 있으니 바로 지원하라."
+links:
+  home: "https://roboticsconference.org/2026/program/pathways/"
+sources:
+  - "https://roboticsconference.org/2025/program/pathways/"
+  - "https://sites.google.com/lehigh.edu/pathways-rss2025/home"
+  - "https://roboticsconference.org/2026/program/pathways/"
+  - "https://sites.google.com/uts.edu.au/pathwaysrss2026/home"
+  - "https://roboticsconference.org/2026/attending/registration/"
+  - "https://roboticsconference.org/2025/"
+  - "https://roboticsconference.org/"
+last_verified: 2026-10-02

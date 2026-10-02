@@ -1,0 +1,50 @@
+id: amazon-applied-science-intern-computer-vision-2027
+company: "Amazon"
+org_type: bigtech
+team: "Amazon PhD Student Science Recruiting — Computer Vision"
+title: "2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting"
+fields: [vision, ml, robotics]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+  - {city: "Bellevue", region: "WA", country: US, lat: 47.61, lon: -122.20}
+  - {city: "Arlington", region: "VA", country: US, lat: 38.88, lon: -77.10}
+  - {city: "Boston", region: "MA", country: US, lat: 42.36, lon: -71.06}
+  - {city: "Cupertino", region: "CA", country: US, lat: 37.32, lon: -122.03}
+  - {city: "Minneapolis", region: "MN", country: US, lat: 44.98, lon: -93.27}
+  - {city: "New York", region: "NY", country: US, lat: 40.71, lon: -74.01}
+  - {city: "Portland", region: "OR", country: US, lat: 45.52, lon: -122.68}
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 135660
+  currency: USD
+  unit: year
+  source: posting
+  note: "시애틀 기준 연 환산 기본급(공고 기재 단일 금액)"
+required:
+  - "Enrolled in a PhD"
+  - "Programming in Java, Python, C or C++"
+  - "Science depth shown through publications or thesis work"
+  - "Full-time for the whole internship; able to relocate"
+preferred:
+  - "Top-tier conference or journal publications"
+  - "Deep learning for computer vision"
+  - "AI-assisted development tools"
+skills: [python, cpp, pytorch, computer-vision, foundation-models, llm]
+responsibilities:
+  - "Develop scalable vision algorithms (VLMs, detection, video understanding, retrieval, robotics)"
+  - "Deploy computer vision solutions to production with cross-functional teams"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학, 풀타임·이주 가능 조건. 근무지는 시애틀 외 다수 도시 중 배정."
+status: open
+posted: 2026-09-30
+apply_url: "https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting"
+fit: 2
+take: "팀 배정이 랜덤에 가까운 일반 CV 풀이라 로봇 팀에 걸릴 확률은 낮으니, 3D 인식·현장 영상 실적이 있을 때 FAR 공고와 함께 보조로 넣어라."
+notes: "직무 ID 10564601. 같은 날 RL & Optimization, Gen AI 등 다른 박사 과학 인턴 풀 공고도 게시됨."
+sources:
+  - "https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting"
+last_verified: 2026-10-02

@@ -1,0 +1,41 @@
+id: waymo-perception-ml-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo Perception"
+title: "2027 Summer Intern, MS/PhD, Perception, Machine Learning"
+fields: [vision, navigation, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 70
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "석사 $70, 박사 $85 시급(공고 기재)"
+required:
+  - "PhD in CS, Robotics or similar, or MS with a strong publication record"
+  - "Python"
+  - "Building ML models with JAX, PyTorch or TensorFlow"
+preferred:
+  - "Publications at CVPR, ICCV, ECCV, ICLR, ICML, ICRA, IROS, RSS or NeurIPS"
+  - "Object detection, segmentation, multi-object tracking, audio perception or occupancy"
+skills: [python, jax, pytorch, computer-vision, 3d-vision, lidar, sensor-fusion, foundation-models]
+responsibilities:
+  - "Design multi-modal (camera/radar/lidar/audio), multi-task perception models: 3D detection and tracking, occupancy, open-vocabulary detection"
+  - "Train and evaluate on Waymo driving logs with large-scale ML infrastructure"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무."
+status: open
+posted: 2026-09-25
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8227411"
+fit: 2
+take: "3D 인식·occupancy 실적이 있으면 해볼 만하지만 조작 중심 연구와는 거리가 있어 보조 지원처로 두라."
+notes: "같은 시기 'PhD, Machine Learning, Computer Vision' 인턴 2건(데이터 큐레이션·VLM 라벨링 중심, 시급 $85)도 열려 있음."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8227411"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8227411"
+last_verified: 2026-10-02

@@ -1,0 +1,48 @@
+id: iros
+acronym: "IROS"
+name: "IEEE/RSJ International Conference on Intelligent Robots and Systems"
+organizer: "IEEE Robotics and Automation Society (RAS) and Robotics Society of Japan (RSJ)"
+fields: [robotics, manipulation, navigation, physical-ai, hri]
+community: robotics
+tier: 1
+rankings:
+  core: "A"
+  h5_index: 92
+  h5_year: 2025
+frequency: annual
+paper_format: "Up to 8 pages including references and appendices, IEEE two-column (IROS 2026 rule)"
+review:
+  blind: double
+  rebuttal: false
+proceedings: "IEEE Xplore"
+journal_track: "No joint RA-L+IROS submission since IROS 2026; published RA-M papers and non-evolutionary RA-L, T-ASE and T-RO papers can be presented within an eligibility window. Papers rejected from ICRA can resubmit via the 'ICRA-IROS transfer' category with an author response file."
+orientation:
+  contribution: 0
+  summary: "ICRA와 함께 로봇공학 양대 플래그십으로 심사 기준도 거의 같다(새 방법과 시스템 모두 수용, 실로봇 검증 중시). 3월 초 마감이라 ICRA(9월)와 반년 간격의 두 번째 기회가 되며, ICRA 탈락 논문을 리뷰 대응서와 함께 재투고하는 'ICRA-IROS transfer' 트랙이 있다. 건설 로봇 논문은 field·construction robotics 세션에서 무난히 받아들여지나, 현장 특수성을 넘어 일반화 가능한 방법론 기여를 분명히 해야 한다."
+  values: ["real-robot experiments", "broad scope", "methods and systems"]
+fit: 3
+take: "IROS 2027(피렌체)은 3/1 마감 — ICRA 2027을 놓친 지금, 건설 contact-rich 조작 첫 1저자 논문을 겨냥할 가장 가까운 플래그십이다."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-09-26
+    end: 2027-10-01
+    city: "Florence"
+    country: IT
+    venue: "Fortezza da Basso"
+    lat: 43.77
+    lon: 11.26
+    url: "https://2027.ieee-iros.org/"
+    deadlines:
+      - {kind: paper, date: 2027-03-01}
+    notes: "공식 사이트에 아직 CFP가 없어 논문 마감(3/1)은 IEEE RAS 공식 행사 목록 기준(시간대 미표기). 참고로 IROS 2026은 3/2 마감, 6/16 통지, 7/16 최종본이었다. 2026부터 RA-L+IROS 동시 투고 옵션 폐지. 테마: 'Human-Centric Robots for Sustainable Life'."
+links:
+  home: "https://2027.ieee-iros.org/"
+sources:
+  - "https://www.ieee-ras.org/event/call-for-papers-paper-submission-deadline-iros-2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-27403-0/"
+  - "https://2027.ieee-iros.org/"
+  - "https://2026.ieee-iros.org/call-for-papers/"
+  - "https://www.rsj.or.jp/en/event/international/iros.html"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://www.myhuiban.com/conferences/rank/field/robotics.md"
+last_verified: 2026-10-02

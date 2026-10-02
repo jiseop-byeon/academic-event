@@ -1,0 +1,43 @@
+id: google-phd-fellowship
+name: "Google PhD Fellowship Program (United States & Canada)"
+organizer: "Google Research"
+org_type: industry
+type: fellowship
+fields: [ml, vision]
+amount:
+  summary: "연 $85,000 (학비·수수료, 생활비, 출장, 개인 장비 용도), 최대 2년 — 미국·캐나다 지역 기준"
+  value: 85000
+  currency: USD
+  unit: year
+  covers: ["tuition", "fees", "stipend", "living", "travel", "other"]
+  estimated: false
+duration: "최대 2년"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국·캐나다의 인정된 연구중심 대학에서 CS 또는 인접 분야 박사과정 풀타임 재학 (펠로십 기간 내내 풀타임 유지)"
+  stage: "펠로십이 시작되는 학년도(가을) 전까지 박사과정 coursework를 마친 학생 — 보통 2년차 봄 추천·3년차 시작 시점, 1년차는 사실상 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학생 직접 지원 불가 — 대학 추천 필수(미국·캐나다는 대학당 최대 4명). 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 국적 제한 명시 없음. 구글 직원 가족, 유사 산업체 펠로십 수혜자, 과거 수혜자는 제외. 연구 분야에 로보틱스 항목은 없고 Machine Perception, ML & ML Foundations, HCI 등이 해당."
+requirements: ["CV (웹사이트·논문 링크 포함)", "연구/학위논문 제안서 (최대 3쪽, 참고문헌 제외)", "추천서 등 지역별 추가 서류"]
+nomination: true
+cycle:
+  typical: "매년 3–5월 대학 추천 접수 (2025년 4/10–5/15, 2026년 3/5–4/30), 8월 말까지 결과 통보, 10월 말까지 공개 발표"
+  deadlines:
+    - {kind: application, date: 2026-04-30, label: "2026년 마감(참고)"}
+    - {kind: application, date: 2027-04-30, label: "2027년 대학 추천 마감(추정)", estimated: true}
+    - {kind: result, date: 2027-08-31, label: "선정 통보(추정)", estimated: true}
+status: upcoming
+apply_url: "https://research.google/programs-and-events/phd-fellowship/"
+fit: 2
+take: "coursework를 끝내는 2년차 봄(2028년 3–4월) 학과 추천을 목표로, 로보틱스 분야가 없으니 Machine Perception/ML 축으로 제안서를 쓸 수 있도록 그 전까지 1저자 논문 2편을 확보하라."
+links:
+  home: "https://research.google/programs-and-events/phd-fellowship/"
+sources:
+  - "https://research.google/programs-and-events/phd-fellowship/"
+  - "https://gradstudies.virginia.edu/google-22"
+  - "https://grad.gatech.edu/events/google-phd-fellowship-internal-call-nominations-2026"
+  - "https://research.arizona.edu/sponsors/google"
+  - "https://opportunitydesk.org/2025/04/10/google-phd-fellowship-program-2025/"
+last_verified: 2026-10-02

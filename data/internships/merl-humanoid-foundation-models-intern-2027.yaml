@@ -1,0 +1,46 @@
+id: merl-humanoid-foundation-models-intern-2027
+company: "Mitsubishi Electric Research Laboratories (MERL)"
+org_type: lab
+team: "MERL (host: Alexander Schperberg)"
+title: "OR0313: Internship - Foundation Models for Humanoid Robots"
+fields: [physical-ai, manipulation, robotics]
+degree: [phd]
+season: "Flexible start (rolling)"
+start: "flexible"
+duration: "Flexible"
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: onsite
+pay:
+  min: 6000
+  max: 8000
+  currency: USD
+  unit: month
+  source: posting
+  note: "공고 기재 월 급여 범위(6–8K/월)"
+required:
+  - "PhD student in ME, CS, EE or related"
+  - "Hands-on research with VLA and/or multimodal foundation models for robotics"
+  - "World models for robotic planning, prediction or decision making"
+  - "Sim-to-real with Isaac Lab or MuJoCo; papers at RSS, ICRA, T-RO, RA-L, NeurIPS, ICML or similar"
+preferred:
+  - "Contact-rich and force-controlled manipulation"
+  - "Whole-body control for humanoids"
+  - "Dexterous or bimanual manipulation; RL or imitation learning"
+  - "Robot perception, 3D vision or state estimation"
+skills: [vla, world-models, isaac-sim, mujoco, force-control, control, reinforcement-learning, imitation-learning, 3d-vision, state-estimation]
+responsibilities:
+  - "Study capabilities, limits, safety and robustness of foundation models for humanoid loco-manipulation"
+  - "Integrate VLA, world models and control for material handling: boxes, carts, kitting, tools, failure recovery"
+  - "Deploy on real humanoid platforms in warehouse and factory settings"
+citizenship: none
+eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+status: open
+apply_url: "https://merl.clearcompany.com/careers/jobs/a44d264d-c064-cb6d-f22a-de22de85b2e2/apply"
+fit: 3
+take: "힘 제어 기반 접촉 조작과 자재 운반·공구 조작을 명시해 건설 현장 휴머노이드 시나리오와 가장 가깝지만 VLA·월드모델 실적을 요구하니 해당 결과를 갖춰 지원하라."
+notes: "게시일 미표기. 시작일·기간 유연."
+sources:
+  - "https://www.merl.com/employment/internship-openings#OR0313"
+  - "https://merl.clearcompany.com/careers/jobs/a44d264d-c064-cb6d-f22a-de22de85b2e2/apply"
+last_verified: 2026-10-02

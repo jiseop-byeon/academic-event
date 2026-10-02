@@ -1,0 +1,42 @@
+id: nsf-grfp
+name: "NSF Graduate Research Fellowship Program (GRFP)"
+organizer: "U.S. National Science Foundation (NSF)"
+org_type: us-government
+type: fellowship
+fields: [any]
+amount:
+  summary: "연 $37,000 stipend + 학교에 연 $16,000 교육비(Cost of Education) 지급, 5년 펠로십 기간 중 3년 지원"
+  value: 37000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "fees"]
+duration: "5년 펠로십 기간 중 3년 지원"
+eligibility:
+  nationality: ["US"]
+  where_enrolled: "미국 내 인가된 대학원 학위과정 재학 또는 진학 예정 (STEM 분야)"
+  stage: "학부 4학년·학사 졸업자(대학원 미등록) 또는 첫 대학원 학위과정 1년 차(1학년도 미이수)만 지원 가능, 대학원 2년 차 이상은 지원 불가"
+  korean_ok: false
+  international_in_us_ok: false
+  us_citizen_only: true
+  notes: "마감일 기준 미국 시민권자·미국 국민(national)·영주권자만 지원 가능. FY2026 공고(NSF 25-547)부터 대학원 2년 차 지원이 막혔고, FY2027 공고(NSF 26-526)는 마감을 11월에서 10월로 약 3주 앞당기고 추천서를 지원서보다 먼저 마감함. 연례 공모당 1회만 지원 가능."
+requirements: ["Personal, Relevant Background and Future Goals Statement (최대 3쪽)", "Graduate Research Plan Statement (최대 2쪽)", "추천서 3부 이상 (최대 5부 중 상위 3부 반영, 각 2쪽 이내)", "학부 공식 성적증명서 (대학원 1학기생은 비공식 대학원 성적표 허용)"]
+nomination: false
+awards_per_year: "약 1,500명 (NSF 26-526 추정치)"
+cycle:
+  typical: "가을 접수(2026년은 8월 25일 공고), 10월 중·하순 분야별 마감(FY2026 회차는 11월), 이듬해 4월 초 발표"
+  deadlines:
+    - {kind: recommendation, date: 2026-10-16, tz: "ET", label: "추천서 마감 (오후 8시 ET)"}
+    - {kind: application, date: 2026-10-22, tz: "ET", label: "Engineering 분야 지원 마감 (오후 8시 ET)"}
+status: open
+apply_url: "https://www.research.gov/grfp/"
+fit: 1
+take: "미국 시민권자·국민·영주권자 전용이라 한국 국적자는 지원할 수 없는 참고용 항목이다."
+links:
+  home: "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program"
+  solicitation: "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation"
+sources:
+  - "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation"
+  - "https://www.research.gov/grfp/"
+  - "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program"
+  - "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf25-547/solicitation"
+last_verified: 2026-10-02

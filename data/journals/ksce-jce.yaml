@@ -1,0 +1,32 @@
+id: ksce-jce
+abbr: "KSCE J. Civ. Eng."
+name: "KSCE Journal of Civil Engineering"
+publisher: "Elsevier (for the Korean Society of Civil Engineers)"
+issn: "1226-7988"
+eissn: "1976-3808"
+fields: [construction]
+community: construction
+tier: 3
+metrics:
+  jif: {value: 2.4, year: 2025}
+  citescore: {value: 4.0, year: 2024}
+review:
+  speed_note: "저널 페이지(2025년 8월 기준) 투고→게재 승인 185일로 느린 편."
+access: open-access
+apc_usd: 1800
+orientation:
+  contribution: 2
+  summary: "대한토목학회(KSCE)의 영문 저널로 토목 전 분야를 다루며, 현재 엘스비어에서 완전 OA(APC USD 1,800)로 운영된다. 응용·사례 연구도 무난히 받아 주지만 인용 지표가 낮고 게재 승인까지 오래 걸리는 편이다."
+  values: ["Korean civil engineering society", "broad civil scope", "application papers", "low APC open access"]
+fit: 2
+take: "국내 학계 실적용으로는 쓸 만하지만 지표가 낮아, 메인 결과보다는 부수적 응용 결과나 한국 공동연구 논문을 낼 때 활용하자."
+openalex_id: "S109054653"
+links:
+  home: "https://www.sciencedirect.com/journal/ksce-journal-of-civil-engineering"
+sources:
+  - "https://web.archive.org/web/20250825024325/https://www.sciencedirect.com/journal/ksce-journal-of-civil-engineering"
+  - "https://www.elsevier.com/about/policies-and-standards/pricing"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/KSCE-J-CIV-ENG"
+  - "https://api.openalex.org/sources/S109054653"
+last_verified: 2026-10-02

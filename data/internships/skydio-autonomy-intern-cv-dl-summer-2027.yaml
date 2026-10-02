@@ -1,0 +1,31 @@
+id: skydio-autonomy-intern-cv-dl-summer-2027
+company: "Skydio"
+org_type: robotics
+team: "R&D — Autonomy"
+title: "Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027"
+fields: [vision, navigation, robotics]
+degree: [phd, ms, bs]
+season: "Summer 2027"
+locations:
+  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
+work_mode: hybrid
+pay:
+  min: 47
+  max: 53
+  currency: USD
+  unit: hour
+  source: posting
+  note: "undergrad $47/h, graduate students $53/h"
+required: ["High proficiency in C++ and/or Python and PyTorch", "Enthusiasm for computer vision, deep learning, motion planning, dynamics and controls, 3D graphics or infrastructure", "Solid software-engineering foundation"]
+preferred: ["FAA Part 107 certification within 60 days (strongly encouraged)"]
+skills: [cpp, python, pytorch, computer-vision, 3d-vision, motion-planning, control]
+responsibilities: ["Own a research project with the core autonomy / computer-vision team", "Research, prototype and assess the feasibility of new autonomy approaches", "Characterize and quantify performance of core software and hardware components"]
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Verify로 근무 자격을 확인함."
+status: open
+posted: 2026-09-03
+apply_url: "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+fit: 2
+take: "자율비행 드론의 CV/DL 연구 인턴으로 교량·인프라 점검 같은 건설 인접 분야의 perception·내비게이션 경험을 쌓을 수 있어, 지원 축 보강용으로 넣어볼 만하다."
+sources: ["https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9", "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"]
+last_verified: 2026-10-02

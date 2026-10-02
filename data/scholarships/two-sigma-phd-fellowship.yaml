@@ -1,0 +1,41 @@
+id: two-sigma-phd-fellowship
+name: "Two Sigma PhD Fellowship"
+organizer: "Two Sigma (Academic Partnerships)"
+org_type: industry
+type: fellowship
+fields: [ml]
+amount:
+  summary: "연 최대 $75,000 (학비·수수료 + 생활비, 대학에 무제한 기부금으로 지급) × 연속 2년 + 본인에게 1회 $10,000 (학비·교재·장비 용도) — 차점자도 $10,000, Two Sigma 연구 멘토 배정"
+  value: 75000
+  currency: USD
+  unit: year
+  covers: ["tuition", "fees", "stipend", "living", "books", "mentorship"]
+  estimated: false
+duration: "연속 2개 학년도 (2027 회차는 2027 가을 시작)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국 내 인가 대학의 박사과정 풀타임 재학생 (미국 외 대학 재학생은 불가)"
+  stage: "펠로십이 시작되는 가을 학기에 최소 박사 3년차이고 남은 기간이 2년 이상 — 2년차 가을에 지원해 3년차부터 수혜하는 구조, 1년차는 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "국적 제한 명시 없음 — 미국 대학 재학만 요구. 연구가 Applied Mathematics, AI & Computer Science, Finance/Econometrics, Physics, Statistics 중 하나와 관련돼야 함. 다른 기업 펠로십 수혜자는 불가(정부·비영리 재원은 예외). 학교 추천 불필요 — 학생이 직접 제출하며 학과별 지원 인원 제한 없음. Two Sigma 직원·계약자·친인척 제외."
+requirements: ["연구 제안서 (최대 750단어, PDF)", "이력서 (PDF)", "박사과정 성적증명서 (비공식 가능)", "추천서 2부 (현 지도교수 1부 + 교수 1부)"]
+nomination: false
+awards_per_year: "2026년 4명"
+cycle:
+  typical: "매년 가을 접수 — 2027 펠로십은 2026/8/14 오픈·9/25 마감, 11/2 추천서 마감, 12월 결선 발표, 1월 결선 발표회, 2–3월 선정 발표 (2023·2024년 회차는 11월 초 마감이었음)"
+  deadlines:
+    - {kind: application, date: 2026-09-25, time: "12:00", tz: "ET", label: "2027 펠로십 지원 마감"}
+    - {kind: recommendation, date: 2026-11-02, time: "12:00", tz: "ET", label: "추천서 마감"}
+status: closed
+fit: 2
+take: "지금(1년차)은 자격 밖이니 2년차 가을인 2027년 가을 접수(2028 펠로십)에 로봇 학습 연구를 AI·CS 분야로 내세워 직접 지원하되, 다른 기업 펠로십과 중복 수혜가 안 되므로 NVIDIA·Google 등과 함께 저울질하라."
+links:
+  home: "https://www.twosigma.com/graduate-students/phd-fellowships/"
+sources:
+  - "https://www.twosigma.com/graduate-students/phd-fellowships/"
+  - "https://www.twosigma.com/graduate-students/"
+  - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/245825916/24-25+Two+Sigma+PhD+Fellowship+Fall+2024"
+  - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/119767507/23-24+Two+Sigma+PhD+Fellowship+Fall+2023"
+last_verified: 2026-10-02

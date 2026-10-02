@@ -1,0 +1,39 @@
+id: caterpillar-autonomy-intelligent-systems-intern-summer-2027
+company: "Caterpillar"
+org_type: construction-tech
+team: "Cat Technology — Physical AI (Construction Autonomy; Robotics, Autonomy & Automation)"
+title: "2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering"
+fields: [construction, physical-ai, navigation, vision, robotics]
+degree: [bs, ms, phd]
+season: "Summer 2027"
+duration: "12 weeks, 40 hours/week"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Mossville", region: "IL", country: US, lat: 40.81, lon: -89.57}
+  - {city: "Peoria", region: "IL", country: US, lat: 40.69, lon: -89.59}
+  - {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -79.99}
+  - {city: "Irving", region: "TX", country: US, lat: 32.81, lon: -96.95}
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+pay:
+  min: 25
+  max: 43
+  currency: USD
+  unit: hour
+  source: posting
+  note: "rate depends on degree pursued and completed credit hours; housing stipend and relocation available"
+required: ["Full-time enrollment at a 4-year university in CS, robotics, mechatronics or related", "At least 12 completed credit hours", "Cumulative GPA of 3.0/4.0 or higher (no rounding)", "Able to relocate to the internship site"]
+preferred: ["Previous technical internship, co-op or research", "Machine learning, deep learning, MATLAB, Simulink, CREO or C++", "Leadership and student-organization experience"]
+skills: [cpp, deep-learning, computer-vision, sensor-fusion, simulation, control, matlab]
+responsibilities: ["Build Physical AI for construction autonomy: machine perception, decision-making, navigation, machine control, digital twins and simulation", "Contribute to robotics, autonomy and automation for mining and construction equipment (autonomous hauling, machine positioning, remote operation)"]
+citizenship: none
+eligibility_note: "공고에 '비자 스폰서십 불가(Visa Sponsorship is not available)'가 명시돼 있어 별도 스폰서 없이 미국 근무 자격이 있어야 함. 학위 단계 제한은 없지만 학부 중심 기업 인턴 프로그램(GPA 3.0 이상, 주 5일 출근)."
+status: open
+posted: 2026-09-04
+deadline: 2026-11-08
+apply_url: "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394"
+fit: 2
+take: "건설기계 자율화(Physical AI for Construction Autonomy) 팀이라 주제 적합도는 높지만 학부 중심 프로그램에 스폰서십 불가 조건이 있으니, 자격을 먼저 확인한 뒤 11월 8일 게시 종료 전에 지원할 만하다."
+notes: "deadline은 공고에 적힌 게시 기간(2026-09-04 ~ 2026-11-08)의 종료일."
+sources: ["https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394"]
+last_verified: 2026-10-02

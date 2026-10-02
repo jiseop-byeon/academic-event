@@ -1,0 +1,43 @@
+id: nvidia-graduate-fellowship
+name: "NVIDIA Graduate Fellowship Program"
+organizer: "NVIDIA Research"
+org_type: industry
+type: fellowship
+fields: [robotics, vision, ml]
+amount:
+  summary: "최대 $60,000 (대학을 통해 생활비·학비·필수 수수료로 지급) + 펠로십 직전 여름 NVIDIA 연구소 대면 인턴십"
+  value: 60000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "fees", "internship"]
+  estimated: false
+duration: "1년 (9개월 학년도) + 사전 여름 인턴십"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "전 세계 대학의 CS·컴퓨터공학·시스템 아키텍처·EE 또는 관련 분야 박사과정 풀타임 재학 (수혜 학년도 내내 유지)"
+  stage: "지원 시점에 박사 1년차 과정을 마친 학생 — 2년차 이상 지원 가능, 박사 첫해 학생은 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "대학 추천 불필요 — 학생이 직접 지원하고 지도교수 추천서를 포함해야 함. 대학·연구실별 지원 인원 제한 없음(연구 주제가 서로 달라야 함). 펠로십 직전 여름 NVIDIA 연구소(미국·캐나다·독일·스웨덴·핀란드·스위스·이스라엘·대만·싱가포르) 대면 인턴십 필수. 공식 연구 분야에 Robotics, Autonomous Vehicles, Computer Vision 포함. NVIDIA 정규직과 직원 가족은 제외."
+requirements: ["연구 제안서 (최대 2쪽 + 참고문헌)", "CV", "추천서 2–3부 (지도교수 1부 포함)"]
+nomination: false
+awards_per_year: "약 10명 (2026–2027년 10명 선정 + 결선 4명)"
+cycle:
+  typical: "매년 가을 접수 (2025년 9/15 마감, 2026년 9/30 오픈·10/30 마감), 12–1월 결과 발표, 이듬해 여름 인턴십 후 가을부터 지원"
+  deadlines:
+    - {kind: other, date: 2026-09-30, label: "2027–2028 접수 시작"}
+    - {kind: application, date: 2026-10-30, label: "지원서 마감"}
+    - {kind: recommendation, date: 2026-10-30, label: "추천서 마감"}
+    - {kind: result, date: 2027-01-15, label: "선정 통보"}
+status: open
+apply_url: "https://webportalapp.com/sp/nvidia_grad_fellow_2027"
+fit: 2
+take: "1년차라 이번 10월 30일 라운드는 지원 자격이 없으니, 2027년 가을(2년차) 콜에 지도교수 추천서로 지원하되 그 전까지 접촉 기반 조작 연구로 CoRL/ICRA급 1저자 논문을 확보하라."
+links:
+  home: "https://research.nvidia.com/graduate-fellowships"
+sources:
+  - "https://research.nvidia.com/graduate-fellowships"
+  - "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2025/"
+  - "https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027"
+last_verified: 2026-10-02

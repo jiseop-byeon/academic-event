@@ -1,0 +1,66 @@
+id: neurips
+acronym: "NeurIPS"
+name: "Conference on Neural Information Processing Systems"
+organizer: "NeurIPS Foundation"
+fields: [ml, physical-ai]
+community: ml
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 371
+  h5_year: 2025
+frequency: annual
+paper_format: "9 content pages (+1 at camera-ready); references, appendix and checklist not counted"
+review:
+  blind: double
+  rebuttal: true
+  acceptance_rate: {value: 0.245, year: 2025, note: "5,290 of 21,575 valid main-track submissions"}
+proceedings: "Advances in Neural Information Processing Systems (NeurIPS Proceedings)"
+journal_track: "TMLR papers with a J2C Certification can be presented in the NeurIPS/ICML/ICLR Journal-to-Conference track"
+orientation:
+  contribution: -2
+  summary: "ML 최상위 학회로 메인 트랙은 새로운 알고리즘·이론적 통찰과 엄밀한 실험을 요구하며(본문 9쪽, OpenReview 이중맹검과 저자-리뷰어 토론), 시스템 통합만으로는 거의 채택되지 않는다. 2026년부터 Datasets & Benchmarks를 이은 'Evaluations & Datasets' 트랙이 새 모델 없이도 데이터셋·평가 프로토콜·벤치마크 기여를 받아주므로(익명화가 불가능한 데이터셋은 단일맹검 요청 가능), 건설 조작·인식 데이터셋이나 벤치마크는 이 트랙이 현실적인 경로다."
+  values: ["algorithmic novelty", "theoretical insight", "rigorous experiments", "evaluations & datasets track"]
+fit: 2
+take: "메인 트랙은 ML 방법론 기여가 없으면 어렵지만, 건설 조작 데이터셋·벤치마크를 만든다면 NeurIPS 2027 Evaluations & Datasets 트랙(5월 중순 마감 추정)을 진지하게 노려라."
+editions:
+  - year: 2026
+    status: confirmed
+    start: 2026-12-06
+    end: 2026-12-12
+    city: "Sydney"
+    country: AU
+    lat: -33.87
+    lon: 151.21
+    url: "https://neurips.cc/Conferences/2026"
+    deadlines:
+      - {kind: abstract, date: 2026-05-04, tz: "AoE"}
+      - {kind: paper, date: 2026-05-06, tz: "AoE"}
+      - {kind: rebuttal, date: 2026-08-03, tz: "AoE", label: "Author-reviewer-AC discussion Jul 27 – Aug 3"}
+      - {kind: notification, date: 2026-09-24, tz: "AoE"}
+      - {kind: other, date: 2026-10-06, tz: "UTC", time: "17:00", label: "Presentation site assignments"}
+    notes: "시드니 본회의(12/6–12)와 애틀랜타·파리 위성 행사(12/9–13)로 분산 개최. 메인 트랙과 Evaluations & Datasets 트랙의 마감·통보 일정은 같다. 채택 논문 저자는 9/30까지 개최지 선호를 제출했고 10/6에 발표 장소가 배정된다."
+  - year: 2027
+    status: estimated
+    deadlines:
+      - {kind: abstract, date: 2027-05-07, estimated: true}
+      - {kind: paper, date: 2027-05-11, estimated: true}
+    notes: "공식 Future Meetings 페이지에 '유럽'으로만 공지(도시·일정 미정). 마감은 2025(초록 5/11, 본문 5/15)·2026(5/4, 5/6) 패턴으로 5월 초중순을 추정했다."
+links:
+  home: "https://neurips.cc/Conferences/2026"
+  cfp: "https://neurips.cc/Conferences/2026/CallForPapers"
+  evaluations_datasets: "https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets"
+  future_meetings: "https://neurips.cc/Conferences/FutureMeetings"
+sources:
+  - "https://neurips.cc/Conferences/2026"
+  - "https://neurips.cc/Conferences/2026/Dates"
+  - "https://neurips.cc/Conferences/2026/CallForPapers"
+  - "https://neurips.cc/Conferences/2026/MainTrackHandbook"
+  - "https://neurips.cc/Conferences/2026/CallForEvaluationsDatasets"
+  - "https://neurips.cc/Conferences/FutureMeetings"
+  - "https://neurips.cc/Conferences/2025/Dates"
+  - "https://blog.neurips.cc/2025/09/30/reflections-on-the-2025-review-process-from-the-program-committee-chairs/"
+  - "https://jmlr.org/tmlr/"
+  - "https://portal.core.edu.au/conf-ranks/?search=NeurIPS&by=acronym&source=ICORE2026"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence"
+last_verified: 2026-10-02

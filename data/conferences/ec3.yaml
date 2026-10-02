@@ -1,0 +1,46 @@
+id: ec3
+acronym: "EC3"
+name: "European Conference on Computing in Construction"
+organizer: "European Council on Computing in Construction (EC³)"
+fields: [construction, robotics, vision, ml, hri]
+community: construction
+tier: 2
+frequency: annual
+paper_format: "Full paper up to 8 pages incl. figures and references (EC3 template); poster track: 2-page extended abstract (max 800 words)"
+review:
+  blind: double
+proceedings: "EC3 proceedings with DOI per paper; open access one month after the conference"
+journal_track: "Selected best papers invited to extend their work for Automation in Construction"
+orientation:
+  contribution: 1
+  summary: "유럽 건설 컴퓨팅 커뮤니티의 연례 학회로 데이터 센싱·인지, 산업화·자동화·로보틱스, 디지털 트윈·CPS, 휴먼-데이터 인터랙션 등의 트랙을 둔다. 풀페이퍼를 2인 이중맹검으로 심사하고 '수정 후 채택'·'포스터 전환' 판정이 있어 학회치고 심사가 꼼꼼한 편이다. 우수 논문은 Automation in Construction 확장 투고로 초청된다."
+  values: ["double-blind full papers", "industrialisation & robotics track", "AutCon invitation", "PhD poster track"]
+fit: 2
+take: "8쪽 이중맹검 풀페이퍼라 부담은 있지만 AutCon 초청 경로가 있으니, 2027-01-15 마감에 맞춰 자동화·로보틱스 트랙으로 시스템 검증 논문을 내볼 만하다."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-07-11
+    end: 2027-07-14
+    city: "Thessaloniki"
+    country: GR
+    lat: 40.64
+    lon: 22.94
+    url: "https://ec-3.org/conference/c2027/"
+    deadlines:
+      - {kind: abstract, date: 2026-10-30, label: "Optional abstract"}
+      - {kind: other, label: "Decision on abstracts", date: 2026-11-23}
+      - {kind: paper, date: 2027-01-15}
+      - {kind: notification, date: 2027-03-12, label: "First decision on papers"}
+      - {kind: registration, date: 2027-04-09, label: "Early-bird registration"}
+    notes: "CIB W78 컨퍼런스와 공동 개최하며 EC³ 서머스쿨이 7/5–9에 열림. 초록은 선택 사항이라 풀페이퍼만으로도 투고 가능. 첫 판정일·얼리버드 마감이 Key Dates 페이지(3/12, 4/9)와 2027 메인 페이지(3/5, 4/16)에서 다르게 표기돼 Key Dates 페이지 값을 기록함."
+links:
+  home: "https://ec-3.org/"
+  cfp: "https://ec-3.org/conference/c2027/submissions/call-for-papers/"
+sources:
+  - "https://ec-3.org/conference/c2027/"
+  - "https://ec-3.org/conference/c2027/key-dates-fees/"
+  - "https://ec-3.org/conference/c2027/submissions/instructions-and-templates/"
+  - "https://ec-3.org/conference/c2027/submissions/call-for-papers/"
+  - "https://ec-3.org/conferences/"
+last_verified: 2026-10-02

@@ -1,0 +1,47 @@
+id: amazon-far-applied-science-intern-2027
+company: "Amazon"
+org_type: bigtech
+team: "Amazon Frontier AI & Robotics (FAR)"
+title: "2027 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics"
+fields: [physical-ai, manipulation, robotics, vision]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks, full-time (40 h/week)"
+duration_weeks: [12, 12]
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+work_mode: onsite
+pay:
+  min: 156060
+  currency: USD
+  unit: year
+  source: posting
+  note: "샌프란시스코 기준 연 환산 기본급(공고 기재 단일 금액)"
+required:
+  - "Enrolled in a PhD"
+  - "Programming in Java, Python and C++ or JAX"
+  - "Science depth shown through publications or thesis work"
+  - "Full-time (40 h/week) for the whole internship; able to relocate"
+preferred:
+  - "Publications at NeurIPS, CVPR, ICRA, RSS, CoRL or ICLR"
+  - "Multimodal LLMs, world models, real2sim/sim2real, bimanual manipulation, end-to-end VLA models"
+  - "PyTorch or JAX"
+  - "Experimental design and statistical analysis"
+skills: [python, pytorch, jax, vla, foundation-models, world-models, reinforcement-learning, computer-vision, motion-planning, llm]
+responsibilities:
+  - "Develop scalable LLM and generative-AI methods for robotics"
+  - "Tackle research on robotic perception, manipulation and control with production-scale data"
+  - "Communicate findings across cross-functional teams"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학, 인턴 기간 전체 풀타임 근무와 근무지 이주가 조건. 근무지는 샌프란시스코 또는 시애틀."
+status: open
+posted: 2026-09-30
+apply_url: "https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics"
+fit: 3
+take: "VLA·양손 조작·sim2real을 전면에 둔 로봇 파운데이션 모델 팀의 박사 인턴이라 조작 연구와 직결되니 즉시 지원하라."
+notes: "공고 본문에 '2026년 5–9월 중 12주'라는 전년도 문구가 남아 있으나 제목과 게시일(2026-09-30)상 2027년 모집임. 직무 ID 10564600."
+sources:
+  - "https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics"
+  - "https://www.amazon.jobs/en/search.json?base_query=applied%20science%20internship&result_limit=100&sort=recent"
+last_verified: 2026-10-02

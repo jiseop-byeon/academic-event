@@ -1,0 +1,46 @@
+id: eccv
+acronym: "ECCV"
+name: "European Conference on Computer Vision"
+organizer: "European Computer Vision Association (ECVA)"
+fields: [vision, ml]
+community: vision
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 262
+  h5_year: 2025
+frequency: biennial
+paper_format: "14 pages excluding references, Springer LNCS style (15 pages at camera-ready); optional 1-page rebuttal (2026 rules)"
+review:
+  blind: double
+  rebuttal: true
+  acceptance_rate: {value: 0.275, year: 2026, note: "2,883 of 10,473 submissions (reported by WASP)"}
+proceedings: "Springer LNCS (open access via ECVA)"
+attendance: "~6,000 (2026, Malmö)"
+orientation:
+  contribution: -1
+  summary: "ECVA가 주관하는 격년(짝수 해) 최상위 비전 학회로 Springer LNCS 14쪽 형식, 이중맹검, 1쪽 rebuttal로 CVPR/ICCV와 같은 방법론 중심 기준을 적용한다. 응용 트랙이 없어 건설 현장 인식 논문은 방법이나 데이터셋의 일반적 기여로 승부해야 한다."
+  values: ["methodological novelty", "strong experiments", "LNCS long format"]
+fit: 2
+take: "ECCV 2026(말뫼)이 끝나 다음 기회는 2028년 3월경 마감이므로, 당장은 CVPR·ICCV를 우선하고 장기 계획에만 넣어 두면 된다."
+editions:
+  - year: 2028
+    status: estimated
+    deadlines:
+      - {kind: abstract, date: 2028-02-24, label: "Paper registration", estimated: true}
+      - {kind: paper, date: 2028-03-02, estimated: true}
+    notes: "개최지·일정 미발표(ECVA 사이트에도 아직 없음). ECCV 2024(등록 2/29, 제출 3/7)·2026(2/26, 3/5) 패턴, 즉 3월 첫 주 목요일 제출 마감을 기준으로 추정했다. 대회는 보통 9–10월 개최."
+links:
+  home: "https://eccv.ecva.net/"
+  ecva: "https://www.ecva.net/"
+sources:
+  - "https://eccv.ecva.net/"
+  - "https://eccv.ecva.net/Conferences/2026/Dates"
+  - "https://eccv.ecva.net/Conferences/2024/Dates"
+  - "https://eccv.ecva.net/Conferences/2026/SubmissionPolicies"
+  - "https://eccv.ecva.net/Conferences/2026"
+  - "https://wasp-sweden.org/wasp-researchers-contribute-to-eccv-2026/"
+  - "https://www.lunduniversity.lu.se/article/conference-brings-ai-researchers-around-world-together"
+  - "https://portal.core.edu.au/conf-ranks/?search=ECCV&by=acronym&source=ICORE2026"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
+last_verified: 2026-10-02

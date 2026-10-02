@@ -1,0 +1,35 @@
+id: autcon
+abbr: "AutCon"
+name: "Automation in Construction"
+publisher: "Elsevier"
+issn: "0926-5805"
+eissn: "1872-7891"
+fields: [construction, robotics, manipulation, navigation, vision, hri, ml]
+community: construction
+tier: 1
+metrics:
+  jif: {value: 12.6, year: 2025}
+  citescore: {value: 20.9, year: 2024}
+review:
+  first_decision_days: 1
+  speed_note: "저널 페이지(2026년 5월 기준) 중앙값: 투고→첫 결정 1일(데스크 리젝 포함), 심사 후 결정 55일, 투고→게재 승인 165일, 승인→온라인 게재 8일. 데스크 판단이 매우 빠르므로 초록·서론에서 건설 문제와 기여를 분명히 해야 한다."
+access: hybrid
+apc_usd: 5090
+conference_link: "EC3 2027 우수 논문은 Automation in Construction 확장 투고로 초청된다."
+orientation:
+  contribution: 1
+  summary: "건설 자동화·로보틱스·IT 분야 최상위 저널로, 실제 현장 데이터나 실험으로 검증된 시스템·방법론 논문이 주류다. 범용 알고리즘 신규성보다 건설 문제에 맞춘 새 접근과 정량 검증을 요구하며, 로봇 하드웨어·현장 실험 논문은 특히 환영받는다. 기존 딥러닝 모델을 단순 적용한 사례 연구는 데스크 리젝되기 쉽다."
+  values: ["construction-specific novelty", "field validation", "robotics welcome", "high selectivity"]
+fit: 3
+take: "건설 로봇 조작 연구의 최종 목표 저널이니, 현장급 실험과 베이스라인 정량 비교를 갖춘 첫 저널 논문을 이곳에 겨냥하자."
+openalex_id: "S172073041"
+links:
+  home: "https://www.sciencedirect.com/journal/automation-in-construction"
+sources:
+  - "https://web.archive.org/web/20260520013209/https://www.sciencedirect.com/journal/automation-in-construction"
+  - "https://www.elsevier.com/about/policies-and-standards/pricing"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://ec-3.org/conference/c2027/submissions/instructions-and-templates/"
+  - "https://www.bioxbio.com/journal/AUTOMAT-CONSTR"
+  - "https://api.openalex.org/sources/S172073041"
+last_verified: 2026-10-02

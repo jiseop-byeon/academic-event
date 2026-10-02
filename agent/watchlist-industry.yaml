@@ -1,0 +1,303 @@
+# Industry internship watchlist — big tech, industrial research labs, autonomy companies.
+# Feeds the daily collector. Every endpoint below was requested once on 2026-10-02.
+#
+# Fields
+#   ats        greenhouse | lever | ashby | workday | amazon | custom
+#   board      Greenhouse / Lever / Ashby board token (exact, case-sensitive as listed)
+#   workday    {host, tenant, site} -> POST https://<host>/wday/cxs/<tenant>/<site>/jobs
+#              body {"searchText": "<query>", "limit": 20, "offset": 0, "appliedFacets": {}};
+#              detail: GET https://<host>/wday/cxs/<tenant>/<site><externalPath>
+#   endpoint   the exact URL that was tested (public JSON API or HTML page)
+#   queries    search terms for search-style endpoints (workday, amazon, custom)
+#   browser    true = curl is blocked or the list is JS-rendered; needs a real browser session
+#   relevant_now  were relevant (robotics / physical AI / vision / autonomy, MS–PhD) internships open on 2026-10-02
+# Rules for the collector: public endpoints only — no login, no forms, never send an e-mail
+# address (not in headers, URLs or payloads).
+last_checked: 2026-10-02
+companies:
+  # ---------------- big tech ----------------
+  - name: "NVIDIA"
+    org_type: bigtech
+    careers: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    ats: workday
+    workday: {host: "nvidia.wd5.myworkdayjobs.com", tenant: "nvidia", site: "NVIDIAExternalCareerSite"}
+    endpoint: "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
+    queries: ["PhD Research Intern 2027", "intern robotics", "research intern 2027"]
+    relevant_now: true
+    note: "2027 박사 연구 인턴 다수 게시(Seattle Robotics Lab, GEAR, ASPIRE, Cosmos, DAIR 등). 상하이·타이베이 공고가 섞여 나오므로 위치 필터 필요."
+  - name: "Google DeepMind"
+    org_type: bigtech
+    careers: "https://deepmind.google/about/careers/"
+    ats: custom
+    endpoint: "https://www.google.com/about/careers/applications/jobs/results?q=student%20researcher&target_level=INTERN_AND_APPRENTICE"
+    queries: ["student researcher", "research intern"]
+    relevant_now: true
+    note: "DeepMind 채용은 Google Careers로 통합(Greenhouse 'deepmind' 보드는 404). 인턴은 Google 'Student Researcher, PhD' 공고로 DeepMind까지 매칭. HTML에 [\"<id>\",\"<title>\"] 튜플이 들어 있어 파싱 가능, 상세는 /jobs/results/<id>."
+  - name: "Google Research"
+    org_type: bigtech
+    careers: "https://www.google.com/about/careers/applications/jobs/results"
+    ats: custom
+    endpoint: "https://www.google.com/about/careers/applications/jobs/results?q=research%20intern&target_level=INTERN_AND_APPRENTICE"
+    queries: ["research intern", "student researcher"]
+    relevant_now: true
+    note: "Research Intern, PhD, Summer 2027(창 2027-02-26까지)과 Student Researcher, PhD, Winter-Summer 2027(창 2027-07-16까지) 게시 중. 게시일은 페이지에 없음."
+  - name: "Intrinsic (Alphabet)"
+    org_type: robotics
+    careers: "https://www.intrinsic.ai/careers"
+    ats: greenhouse
+    board: "intrinsicrobotics"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/intrinsicrobotics/jobs?content=true"
+    relevant_now: false
+    note: "19개 공고 모두 정규직(Grasping 엔지니어 등). 인턴 공고 없음."
+  - name: "Meta (FAIR / MSL / Reality Labs)"
+    org_type: bigtech
+    careers: "https://www.metacareers.com/jobsearch/"
+    ats: custom
+    endpoint: "https://www.metacareers.com/jobsearch/?teams[0]=Internship%20-%20PhD"
+    browser: true
+    relevant_now: true
+    note: "curl은 400 — 브라우저 렌더링 후 /graphql 응답(job_search_with_featured_jobs_v2.all_jobs)에서 목록 추출. 2026-10-02 박사 인턴 3건 중 'Research Scientist Intern, Robotics - MSL (PhD)'만 관련. 상세: /profile/job_details/<id>/."
+  - name: "Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126)"
+    org_type: bigtech
+    careers: "https://www.amazon.jobs/en/"
+    ats: amazon
+    endpoint: "https://www.amazon.jobs/en/search.json?base_query=applied%20science%20internship&result_limit=100&sort=recent"
+    queries: ["applied science internship", "robotics intern", "robotics applied scientist intern", "lab126 intern"]
+    relevant_now: true
+    note: "2027 FAR·CV 박사 인턴 2026-09-30 게시. Amazon Robotics 'Applied Scientist II Intern/Co-op' 2027판은 미게시(2026판은 2025-10-08 게시). base_query는 AND 검색에 가까워 여러 질의 필요."
+  - name: "Microsoft Research"
+    org_type: bigtech
+    careers: "https://apply.careers.microsoft.com/careers"
+    ats: custom
+    endpoint: "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=research%20intern&location=&start=0"
+    queries: ["research intern", "robotics intern", "embodied AI intern"]
+    browser: true
+    relevant_now: true
+    note: "Eightfold(PCSX) API는 브라우저 세션에서만 응답(curl 429/403). 상세: /api/pcsx/position_details?position_id=<id>&domain=microsoft.com. 현재 관련 공고는 MSR Cambridge(UK) 로보틱스 인턴뿐, 레드먼드 로보틱스 인턴은 미게시."
+  - name: "Apple"
+    org_type: bigtech
+    careers: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN"
+    ats: custom
+    endpoint: "https://jobs.apple.com/en-us/search?team=internships-STDNT-INTRN&location=united-states-USA"
+    browser: true
+    relevant_now: false
+    note: "학생 인턴 89건 중 미국 공고 0건, 로보틱스 관련 없음(취리히 ML 인턴 1건). 목록은 JS 렌더링."
+  - name: "Tesla (Optimus / Tesla AI)"
+    org_type: bigtech
+    careers: "https://www.tesla.com/careers/search/?type=intern"
+    ats: custom
+    endpoint: "https://www.tesla.com/cua-api/apps/careers/state"
+    browser: true
+    relevant_now: true
+    note: "curl은 403(봇 차단) — 브라우저 세션에서 state JSON(listings: id,t,l,dp,y; y=3이 인턴) 조회, 상세는 /cua-api/careers/job/<id>. Optimus 인턴 다수지만 대부분 졸업예정 2026–27년 조건."
+  - name: "OpenAI"
+    org_type: bigtech
+    careers: "https://jobs.ashbyhq.com/openai"
+    ats: ashby
+    board: "openai"
+    endpoint: "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true"
+    relevant_now: false
+    note: "828개 공고 중 인턴·로보틱스 인턴 없음."
+  - name: "Samsung Research America"
+    org_type: lab
+    careers: "https://www.sra.samsung.com/careers/"
+    ats: greenhouse
+    board: "samsungresearchamericainternship"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/samsungresearchamericainternship/jobs?content=true"
+    relevant_now: false
+    note: "인턴 보드에는 상시 인재풀 공고 1건뿐. 정규직은 별도 보드 'samsungresearchamerica'(로봇 지능 팀 채용 중)."
+  - name: "Samsung SAIT"
+    org_type: lab
+    careers: "https://www.samsungcareers.com/"
+    ats: custom
+    endpoint: "https://www.samsungcareers.com/"
+    browser: true
+    relevant_now: false
+    note: "JS 렌더링 국문 포털이라 이번에 공고 목록을 확인하지 못함 — 수동 확인 필요."
+  - name: "Sony AI"
+    org_type: lab
+    careers: "https://ai.sony/joinus/jobroles/"
+    ats: workday
+    workday: {host: "sonyglobal.wd1.myworkdayjobs.com", tenant: "sonyglobal", site: "SonyGlobalCareers"}
+    endpoint: "https://sonyglobal.wd1.myworkdayjobs.com/wday/cxs/sonyglobal/SonyGlobalCareers/jobs"
+    queries: ["Sony AI", "Sony Research internship", "robotics"]
+    relevant_now: false
+    note: "인턴은 오디오·음악 ML(Sony Research)뿐. 일본 공고는 별도 사이트 SonyJapanCareers."
+  - name: "Bosch Research / Bosch Center for AI"
+    org_type: lab
+    careers: "https://jobs.smartrecruiters.com/BoschGroup"
+    ats: custom
+    endpoint: "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=us&limit=100"
+    queries: ["country=us", "country=de"]
+    relevant_now: false
+    note: "SmartRecruiters 공개 API(q 파라미터는 사실상 무시되므로 country별 전체 조회 후 제목 필터). 미국 연구 인턴은 'Radar Sensing AI Research Intern'(피츠버그) 1건이며 영구 근무 허가자만 지원 가능."
+  - name: "Honda Research Institute USA"
+    org_type: lab
+    careers: "https://usa.honda-ri.com/careers"
+    ats: custom
+    endpoint: "https://usa.honda-ri.com/intern-positions"
+    relevant_now: true
+    note: "목록은 JS 렌더링, 각 공고 상세(/-/<slug>)는 서버 렌더링이라 curl로 읽힘. 2027-01-11 시작 3개월 인턴 다수(덱스터러스 조작, 임바디드 정책 학습, 힘 추정 등)."
+  - name: "Mitsubishi Electric Research Laboratories (MERL)"
+    org_type: lab
+    careers: "https://www.merl.com/employment/internship-openings"
+    ats: custom
+    endpoint: "https://www.merl.com/employment/internship-openings"
+    relevant_now: true
+    note: "서버 렌더링 HTML(공고 코드 앵커 #CI0314 등), 지원은 merl.clearcompany.com. 2026-10-02 기준 14건 중 로보틱스 조작 인턴 4건(월 6–8K USD)."
+  - name: "Disney Research"
+    org_type: lab
+    careers: "https://disney.wd5.myworkdayjobs.com/disneycareer"
+    ats: workday
+    workday: {host: "disney.wd5.myworkdayjobs.com", tenant: "disney", site: "disneycareer"}
+    endpoint: "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs"
+    queries: ["Disney Research", "robotics", "research intern"]
+    relevant_now: false
+    note: "로보틱스·연구 인턴 없음. Disney Research|Studios(취리히) 채용 페이지도 공고 없음."
+  - name: "Intel Labs"
+    org_type: bigtech
+    careers: "https://intel.wd1.myworkdayjobs.com/External"
+    ats: workday
+    workday: {host: "intel.wd1.myworkdayjobs.com", tenant: "intel", site: "External"}
+    endpoint: "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs"
+    queries: ["research intern", "robotics intern", "PhD intern"]
+    relevant_now: false
+    note: "박사 인턴은 반도체 공정·소프트웨어 위주, 로보틱스 연구 인턴 없음('Research Scientist Intern - Graphics, ML' 1건)."
+  - name: "Qualcomm"
+    org_type: bigtech
+    careers: "https://careers.qualcomm.com/careers"
+    ats: custom
+    endpoint: "https://careers.qualcomm.com/api/pcsx/search?domain=qualcomm.com&query=robotics%20intern&location=&start=0"
+    browser: true
+    relevant_now: false
+    note: "Eightfold(PCSX) — 브라우저 세션 필요(curl 403). 로보틱스 인턴은 중국(청두·베이징)뿐, 미국 관련 인턴 없음. 서울 인턴(자율주행 DL, 온디바이스 AI)은 있음."
+  - name: "Siemens Technology"
+    org_type: bigtech
+    careers: "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/"
+    ats: custom
+    endpoint: "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/robotics%20intern?folderOffset=0"
+    queries: ["robotics intern", "robot learning"]
+    relevant_now: false
+    note: "Avature 서버 렌더링(페이지당 6건, folderOffset으로 페이지 이동). 관련 학생직은 독일 Working Student(Physical AI 시뮬레이션)·이스라엘 파트타임뿐."
+  - name: "ABB"
+    org_type: bigtech
+    careers: "https://careers.abb/global/en/search-results"
+    ats: custom
+    endpoint: "https://careers.abb/global/en/search-results?keywords=robotics%20intern"
+    queries: ["robotics intern", "research intern"]
+    relevant_now: false
+    note: "Phenom 사이트 — HTML 내 eagerLoadRefineSearch JSON 파싱. 로보틱스 인턴은 상하이 2건뿐, 미국 연구 인턴 없음."
+  - name: "Hyundai Motor Group (incl. Robotics LAB)"
+    org_type: bigtech
+    careers: "https://talent.hyundai.com/apply/applyList.hc"
+    ats: custom
+    endpoint: "https://talent.hyundai.com/apply/applyList.hc"
+    browser: true
+    relevant_now: false
+    note: "인턴 필터 기준 진행 중 공고 0건(2026-10-02). Boston Dynamics는 로보틱스 기업 담당 수집 범위."
+  - name: "LG AI Research"
+    org_type: lab
+    careers: "https://www.lgresearch.ai/careers"
+    ats: custom
+    endpoint: "https://www.lgresearch.ai/careers"
+    browser: true
+    relevant_now: true
+    note: "목록은 JS 렌더링(4페이지), 상세는 /careers/view?seq=<n>. Physical Intelligence 랩 인턴 2건(Physical AI VLM-ER, 강화학습 로봇 제어) — 서울 근무."
+  - name: "NAVER LABS"
+    org_type: lab
+    careers: "https://recruit.naverlabs.com/"
+    ats: custom
+    endpoint: "https://careers.werecruit.io/en/naver-labs-europe/offers"
+    browser: true
+    relevant_now: false
+    note: "국내(recruit.naverlabs.com) 인턴 0건, NAVER LABS Europe(그르노블, WeRecruit) 정규직 5건뿐. 유럽 인턴은 보통 별도 게시되니 주기적 확인."
+  # ---------------- autonomy ----------------
+  - name: "Waymo"
+    org_type: autonomy
+    careers: "https://careers.withwaymo.com/jobs"
+    ats: greenhouse
+    board: "waymo"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/waymo/jobs?content=true"
+    relevant_now: true
+    note: "2027 Summer 인턴 40건 이상 게시(박사 시급 $85, 석사 $70). 제목이 '2027 Summer Intern, <degree>, <topic>' 형식이라 필터 쉬움."
+  - name: "Zoox"
+    org_type: autonomy
+    careers: "https://jobs.lever.co/zoox"
+    ats: lever
+    board: "zoox"
+    endpoint: "https://api.lever.co/v0/postings/zoox?mode=json"
+    relevant_now: false
+    note: "학생직은 'Contract Student Worker' 형태뿐이고 Summer 2027 인턴은 미게시."
+  - name: "Aurora"
+    org_type: autonomy
+    careers: "https://aurora.tech/careers"
+    ats: ashby
+    board: "aurora-operations-inc"
+    endpoint: "https://api.ashbyhq.com/posting-api/job-board/aurora-operations-inc?includeCompensation=true"
+    relevant_now: false
+    note: "92개 공고 중 인턴 없음. 보드 토큰은 aurora.tech 페이지의 ashbyOrgSlug 값."
+  - name: "Applied Intuition"
+    org_type: autonomy
+    careers: "https://www.appliedintuition.com/careers"
+    ats: ashby
+    board: "applied"
+    endpoint: "https://api.ashbyhq.com/posting-api/job-board/applied?includeCompensation=true"
+    relevant_now: true
+    note: "연구 그룹 로보틱스 연구 인턴 3건(RL·월드액션모델·하드웨어/시뮬, 시급 $65) 상시 게시(2026-02-13). 로보틱스 기업 담당과 중복될 수 있어 회사명으로 중복 제거 필요."
+  - name: "Kodiak Robotics"
+    org_type: autonomy
+    careers: "https://job-boards.greenhouse.io/kodiak"
+    ats: greenhouse
+    board: "kodiak"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/kodiak/jobs?content=true"
+    relevant_now: true
+    note: "Winter 2027(1월 시작) 인턴 — Motion Planning·Simulation·Controls 등. 학부·대학원 공통 엔지니어링 인턴이라 데이터 파일에는 미등록."
+  - name: "Nuro"
+    org_type: autonomy
+    careers: "https://job-boards.greenhouse.io/nuro"
+    ats: greenhouse
+    board: "nuro"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/nuro/jobs?content=true"
+    relevant_now: false
+    note: "인턴은 'Software Engineer, AI Platform - Intern'(2025-10 게시)과 비기술직뿐."
+  - name: "Motional"
+    org_type: autonomy
+    careers: "https://job-boards.greenhouse.io/motional"
+    ats: greenhouse
+    board: "motional"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/motional/jobs?content=true"
+    relevant_now: false
+    note: "인턴은 싱가포르 'Machine Learning Internship, Behaviors Research'(2026-01 게시) 1건."
+  - name: "Woven by Toyota"
+    org_type: autonomy
+    careers: "https://jobs.lever.co/woven-by-toyota"
+    ats: lever
+    board: "woven-by-toyota"
+    endpoint: "https://api.lever.co/v0/postings/woven-by-toyota?mode=json"
+    relevant_now: false
+    note: "142개 공고 중 인턴 없음."
+  - name: "May Mobility"
+    org_type: autonomy
+    careers: "https://job-boards.greenhouse.io/maymobility"
+    ats: greenhouse
+    board: "maymobility"
+    endpoint: "https://boards-api.greenhouse.io/v1/boards/maymobility/jobs?content=true"
+    relevant_now: false
+    note: "인턴 공고 없음."
+  # ---------------- research institutes ----------------
+  - name: "Toyota Research Institute"
+    org_type: lab
+    careers: "https://www.tri.global/careers"
+    ats: lever
+    board: "tri"
+    endpoint: "https://api.lever.co/v0/postings/tri?mode=json"
+    relevant_now: false
+    note: "12개 공고 중 인턴은 Winter 2027 Human-Centered AI 1건. TRI 안내상 여름 인턴은 가을에 오픈 — 10–11월 집중 감시. Lever categories.team이 'Internships - <season>' 형식."
+  - name: "RAI Institute (formerly Boston Dynamics AI Institute)"
+    org_type: lab
+    careers: "https://rai-inst.com/careers/"
+    ats: lever
+    board: "rai"
+    endpoint: "https://api.lever.co/v0/postings/rai?mode=json"
+    relevant_now: true
+    note: "공개 공고 4건 모두 취리히 인턴(상시 연구 인턴 ~6개월 포함). 미국 케임브리지 공고는 현재 없음."

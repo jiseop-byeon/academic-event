@@ -1,0 +1,37 @@
+id: rai-institute-zurich-research-internship-2027
+company: "RAI Institute (Robotics and AI Institute, formerly Boston Dynamics AI Institute)"
+org_type: lab
+team: "RAI Institute Zurich — Research"
+title: "Internship"
+fields: [robotics, manipulation, physical-ai]
+degree: [phd, ms]
+season: "Rolling (~6 months)"
+duration: "About 6 months, full-time"
+locations:
+  - {city: "Zurich", region: "ZH", country: CH, lat: 47.38, lon: 8.54}
+work_mode: onsite
+required:
+  - "MS or PhD student in a robotics-relevant field at a top university"
+  - "State and world estimation, control of dynamic systems, planning"
+  - "Python, C++ or C (or a track record in electronics/hardware design)"
+  - "Experience with physically interactive systems (locomotion and manipulation)"
+preferred:
+  - "Publications at CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, IJRR, RSS or similar"
+skills: [python, cpp, state-estimation, control, motion-planning, hardware]
+responsibilities:
+  - "Work with researchers on advancing robotic systems and co-author publications"
+  - "Design systems with model-based and data-driven techniques"
+  - "Develop algorithms and prototypes with engineers"
+citizenship: unknown
+eligibility_note: "취리히 상주, 약 6개월 풀타임. 공고에 국적·근무 허가 요건 명시 없음. CV·동기서(가능 기간 포함)·전체 성적표 제출."
+status: rolling
+posted: 2025-01-10
+apply_url: "https://jobs.lever.co/rai/c121ffe1-e462-4902-a32f-d4f4aec02bc0"
+fit: 2
+take: "보행·조작 물리 상호작용 연구로 최상위인 연구소지만 현재 인턴은 취리히 6개월짜리뿐이라 현지 장기 체류가 가능한 시기에만 노려라."
+notes: "2026-10-02 기준 RAI Institute 공개 공고는 모두 취리히 인턴 4건(이 상시 연구 인턴, Sensor Calibration & Integration Intern, Autonomous Agent Engineering Intern, Software Engineering)이며 미국 케임브리지 공고는 없음."
+sources:
+  - "https://jobs.lever.co/rai/c121ffe1-e462-4902-a32f-d4f4aec02bc0"
+  - "https://rai-inst.com/careers/"
+  - "https://api.lever.co/v0/postings/rai?mode=json"
+last_verified: 2026-10-02

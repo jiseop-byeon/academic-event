@@ -1,0 +1,48 @@
+id: l4dc
+acronym: "L4DC"
+name: "Learning for Dynamics and Control Conference"
+organizer: "L4DC organizing committee (2027 host: KTH Royal Institute of Technology)"
+fields: [ml, robotics, physical-ai]
+community: ml
+tier: 2
+rankings:
+  h5_index: 49
+  h5_year: 2025
+frequency: annual
+paper_format: "10 pages plus unlimited references (L4DC LaTeX template, 2026 rules); supplementary allowed but not reviewed"
+review:
+  blind: single
+proceedings: "PMLR (Proceedings of Machine Learning Research)"
+orientation:
+  contribution: -2
+  summary: "머신러닝·제어·최적화의 접점(동역학 모델 학습, 시스템 식별, 안전 강화학습, 물리 시스템 RL)을 다루는 단일 트랙 학회로, 10쪽(참고문헌 무제한)·단일맹검으로 심사하고 PMLR로 출판한다(2026 기준). 안정성·샘플 복잡도 같은 이론적 보장과 제어 관점의 엄밀함이 높이 평가되며, 로봇 실험은 가산점이지만 시스템 데모만으로는 부족하다. 채택 논문은 모두 포스터로 발표하고 일부만 구두 발표한다."
+  values: ["learning-based control", "theoretical guarantees", "dynamical systems", "single-track"]
+fit: 2
+take: "접촉이 많은 건설 조작에서 학습 기반 동역학·제어에 이론적 기여가 있다면 2026-11-13 마감에 맞춰 노릴 만한 작고 질 높은 학회다."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-06-16
+    end: 2027-06-18
+    city: "Stockholm"
+    country: SE
+    venue: "KTH Royal Institute of Technology"
+    lat: 59.33
+    lon: 18.07
+    url: "https://l4dc2027.control.ee.ethz.ch/"
+    deadlines:
+      - {kind: paper, date: 2026-11-13}
+      - {kind: notification, date: 2027-01-25}
+      - {kind: late-breaking, date: 2027-04-05}
+      - {kind: camera-ready, date: 2027-04-19}
+    notes: "제9회 L4DC. OpenReview에 L4DC LaTeX 템플릿으로 투고하며, 마감 시간대는 아직 공지되지 않았다(2025 대회는 AoE). Late-breaking results는 2026 기준 2쪽 비출판 포스터 트랙이다."
+links:
+  home: "https://l4dc2027.control.ee.ethz.ch/"
+  previous: "https://sites.google.com/usc.edu/l4dc2026/"
+sources:
+  - "https://l4dc2027.control.ee.ethz.ch/"
+  - "https://sites.google.com/usc.edu/l4dc2026/"
+  - "https://sites.google.com/usc.edu/l4dc2026/author-information"
+  - "https://sites.google.com/umich.edu/l4dc2025/"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Learning+for+Dynamics+and+Control"
+last_verified: 2026-10-02

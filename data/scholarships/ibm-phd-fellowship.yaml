@@ -1,0 +1,38 @@
+id: ibm-phd-fellowship
+name: "IBM PhD Fellowship Program"
+organizer: "IBM Research (University Relations)"
+org_type: industry
+type: fellowship
+fields: [ml]
+amount:
+  summary: "미국 대학 기준 1년 $40,000 (대학으로 지급) — 미국 외 국가는 $6,000–$25,000, IBM 인턴십은 필수 아님(지원 권장)"
+  value: 40000
+  currency: USD
+  unit: year
+  estimated: false
+duration: "1년 (가을·봄 두 학기 — 2025 회차는 2025 가을–2026 봄)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "전 세계 대학의 박사과정 풀타임 재학생 (수혜 기간 동안 같은 프로그램 유지)"
+  stage: "추천 시점에 예상 졸업일까지 2년 이내인 박사과정생 (박사 후반) — 1·2년차는 사실상 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학생 본인 지원 불가 — IBM 초청을 받은 박사 지도교수만 추천할 수 있고 학과장 의견서가 필요(2024년 기준 학과당 최대 3명·대학당 최대 4명). 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 시민권 요건 없음(법적 확인 목적의 거주·국적 정보만 수집), 미국 제재국 출신·소재 기관 학생 제외. 같은 기간 다른 기업·기관의 유사 펠로십 수혜자는 불가(학업 장학금 제외). 2024년 중점 분야: Semiconductor Technology, Quantum Computing, AI, Hybrid Cloud for AI, Security, Responsible Computing — 로보틱스는 없음. 공식 페이지는 2026-10 현재 2025 회차 기준이며 2026 회차 일정은 공개되지 않음."
+requirements: ["지도교수 추천·평가 의견서", "학과장 의견서", "학생 CV", "학위논문 연구 요약"]
+nomination: true
+awards_per_year: "2024년 24명 (전 세계, UT Austin 2명 포함)"
+cycle:
+  typical: "IBM이 초청한 교수에게만 추천 기간이 공지됨(공개 마감 없음) — 2024 회차는 8월 30일(ET) 추천 마감, 수상자는 해당 연도 4분기 확정, 그해 가을–이듬해 봄 학기분 지원"
+  deadlines:
+    - {kind: application, date: 2024-08-30, time: "23:59", tz: "ET", label: "2024년 IBM 추천 마감(참고)"}
+status: closed
+links:
+  home: "https://research.ibm.com/university/awards/fellowships.html"
+fit: 2
+take: "졸업 2년 이내·IBM 초청 교수 추천제라 지금은 대상이 아니고 로보틱스도 중점 분야가 아니니, 박사 4–5년차에 지도교수가 IBM 초청을 받은 경우에만 AI 축으로 추천을 요청하라."
+sources:
+  - "https://research.ibm.com/university/awards/fellowships.html"
+  - "https://research.ibm.com/university/awards"
+  - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/211255338/25+IBM+PhD+Fellowship+Program+Fall+2024"
+last_verified: 2026-10-02

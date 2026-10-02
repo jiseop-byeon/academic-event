@@ -1,0 +1,30 @@
+id: tri-research-intern-summer-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "TRI Robotics and other research divisions"
+title: "Summer 2027 Research Internships (not yet posted)"
+fields: [robotics, manipulation, physical-ai]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks (standard); start May–July"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: unknown
+skills: []
+responsibilities:
+  - "Join a multidisciplinary team on a research project with a dedicated mentor"
+  - "Some summer internships ask for a short proposal of what you would work on"
+citizenship: none
+eligibility_note: "TRI 인턴 안내: 보통 가을에 다음 해 여름 인턴 지원이 열리고 봄까지 대부분 충원, 첫 면접은 해당 멘토와 진행. 오퍼는 근무지·학위·이주 여부로 표준화되며 필요 시 HR이 취업 비자 절차를 안내한다고 명시."
+status: upcoming
+apply_url: "https://www.tri.global/tri-internship-program"
+fit: 3
+take: "조작·로봇 학습 비중이 큰 TRI 로보틱스 인턴은 가을 공고 직후 멘토 단위로 빠르게 차니, 지금 연구 요약과 제안서 초안을 준비해 두고 공고가 뜨는 즉시 지원하라."
+notes: "2026-10-02 기준 TRI Lever 보드에는 Winter 2027 인턴 1건(Human-Centered AI Research Intern)만 있고 로보틱스 Summer 2027 공고는 미게시. 오픈 시기는 TRI 안내문('가을 오픈') 기준."
+sources:
+  - "https://www.tri.global/tri-internship-program"
+  - "https://jobs.lever.co/tri"
+  - "https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f"
+last_verified: 2026-10-02

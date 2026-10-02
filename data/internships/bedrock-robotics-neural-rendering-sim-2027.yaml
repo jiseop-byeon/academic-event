@@ -1,0 +1,24 @@
+id: bedrock-robotics-neural-rendering-sim-2027
+company: "Bedrock Robotics"
+org_type: construction-robotics
+team: "Simulation"
+title: "2027 Internship Simulation Engineer, Neural Rendering"
+fields: [construction, vision, robotics]
+degree: [phd, ms, bs]
+season: "2027 (term not stated)"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+required: ["Pursuing a BS, MS or PhD in CS, computer graphics, robotics or related", "Strong Python and PyTorch", "3D graphics fundamentals (rendering pipelines, scene representations, camera models)", "Familiarity with NeRF / Gaussian splatting or related neural scene representations", "Comfort with messy real-world construction-site data"]
+preferred: ["Published work in neural rendering, novel view synthesis or differentiable rendering", "Simulation engines (Unreal, Unity, NVIDIA Isaac Sim)", "AV simulation or synthetic data generation", "C++ and GPU programming (CUDA, OpenGL, Vulkan)"]
+skills: [python, pytorch, neural-rendering, 3d-vision, simulation, isaac-sim, cpp, cuda]
+responsibilities: ["Implement and benchmark NeRF / 3D Gaussian splatting methods for realistic construction-site imagery in the simulation stack", "Integrate neural rendering outputs so perception and planning teams can train and test on them", "Quantify whether rendered scenes match fleet data and improve downstream autonomy"]
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+status: open
+posted: 2026-09-28
+apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/77759050-75f5-45ed-a3a8-35b665daaadc"
+fit: 2
+take: "건설 현장 real-to-sim 시뮬레이션 인턴으로 도메인은 맞지만 그래픽스 비중이 커서, neural rendering 경험이 있을 때만 보조 지원할 만하다."
+sources: ["https://jobs.ashbyhq.com/bedrock-robotics/77759050-75f5-45ed-a3a8-35b665daaadc", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
+last_verified: 2026-10-02

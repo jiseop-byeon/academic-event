@@ -1,0 +1,39 @@
+id: honda-ri-policy-learning-embodied-agents-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Policy Learning and Action Grounding for Multimodal Embodied Agents"
+fields: [physical-ai, robotics, manipulation, vision]
+degree: [phd]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "Enrolled in a PhD in CS, Robotics, EE/CE, ML or related"
+  - "Foundation in ML, deep learning, CV, robotics or multimodal learning"
+  - "Python with PyTorch or JAX"
+  - "Research in robot learning, embodied AI, imitation or reinforcement learning"
+preferred:
+  - "VLA models or world models; skill and action representations"
+  - "Robot manipulation, human-to-robot transfer, cross-embodiment learning"
+  - "Isaac Sim, MuJoCo, ManiSkill, RLBench, PyBullet or ROS"
+  - "Publications at CVPR, NeurIPS, ICLR, ICRA, CoRL or similar"
+skills: [python, pytorch, jax, imitation-learning, reinforcement-learning, vla, world-models, isaac-sim, mujoco, ros]
+responsibilities:
+  - "Formulate research on policy learning and action grounding for embodied agents"
+  - "Learn from human demonstrations, robot data, simulation and language"
+  - "Evaluate in simulation and/or on robotic platforms; publish and patent"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents"
+fit: 2
+take: "연구 질문을 지원자 전문성에 맞춰 함께 정한다고 명시해 사람 시연→로봇 전이 같은 자기 주제를 제안하기 좋지만, 덱스터러스 공고 다음 순위로 두라."
+notes: "공고번호 P25INT-69, 게시일 미표기."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

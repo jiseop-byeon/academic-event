@@ -1,0 +1,54 @@
+id: qualcomm-innovation-fellowship
+name: "Qualcomm Innovation Fellowship (QIF) North America"
+organizer: "Qualcomm (University Relations)"
+org_type: industry
+type: fellowship
+fields: [robotics, physical-ai, manipulation, navigation, vision, ml]
+amount:
+  summary: "팀(박사과정 2인)당 1년 $100,000 — 두 수상자가 균등 분할(1인당 $50,000), 학과로 지급돼 생활비·stipend·학비로 사용 + Qualcomm 엔지니어 멘토링"
+  value: 50000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "mentorship"]
+  estimated: false
+duration: "1년 (2027 회차는 2027–28 학년도)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "QIF 북미 참여 25개교(미국 23·캐나다 2, UT Austin 포함)의 EE·CS 및 관련 학과 박사과정 — 팀원 두 명 모두 참여 대학 소속이어야 함(서로 다른 학교도 가능)"
+  stage: "박사과정이면 학년 제한 없음(그해 가을 입학한 1년차도 지원 가능) — 펠로십 학년도 전체 기간 재학해야 하므로 그 전에 졸업 예정이면 불가, 박사후연구원 불가"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "반드시 박사과정 2인 1팀으로 지원(지도교수·학과·학교가 달라도 됨). 국적 제한 언급 없음. 대상이 'EE·CS 및 관련 학과'라 건설·토목 학과가 해당하는지는 명시돼 있지 않음 — ECE/CS 학생과 팀을 꾸리는 것이 안전. 대학 추천 불필요, 팀·학교별 제출 수 제한 없음. 학생 1명당 연 1개 상금만 수령 가능. 2027 관심 분야에 Physical AI(embodied AI, robot learning, manipulation, humanoids), 3D perception, computer vision 명시."
+requirements: ["1쪽 혁신 제안 초록 (1차)", "교수 추천서 1–2부", "두 학생의 CV", "QIF 공식 규정 서명본 (두 학생 모두)", "3쪽 제안서 + 참고문헌 1쪽 (1차 선정팀)", "결선 발표 슬라이드와 포스터 (결선팀)"]
+nomination: false
+awards_per_year: "북미 약 16–17팀 (2026년 16팀)"
+cycle:
+  typical: "매년 가을 공고 — 2027 회차는 9/21 오픈, 10/19 초록 마감, 12/1 제안서 마감, 1월 결선 발표, 3월 포스터 세션, 2027년 4월 최종 발표 (2026 회차는 2025/12/1 초록·2026/1/16 제안서 마감, 2026년 6월 발표)"
+  deadlines:
+    - {kind: other, date: 2026-10-09, time: "09:30", tz: "PT", label: "온라인 설명회 I"}
+    - {kind: other, date: 2026-10-12, time: "12:00", tz: "PT", label: "온라인 설명회 II"}
+    - {kind: application, date: 2026-10-19, time: "10:00", tz: "PT", label: "1차 지원 마감 (초록·추천서·CV)"}
+    - {kind: result, date: 2026-11-03, label: "1차 선정 통보 (11/3–11/11)"}
+    - {kind: other, date: 2026-12-01, time: "10:00", tz: "PT", label: "본 제안서(3쪽) 마감"}
+    - {kind: result, date: 2027-01-15, label: "결선 진출팀 발표 (1/15–1/20)"}
+    - {kind: other, date: 2027-02-12, time: "10:00", tz: "PT", label: "결선 발표자료 제출 마감"}
+    - {kind: interview, date: 2027-03-01, label: "결선 포스터 세션 (3/1–3/10)"}
+status: open
+apply_url: "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america"
+fit: 2
+take: "UT Austin이 참여 대학이고 2027 관심 분야에 Physical AI·manipulation이 명시돼 1년차도 지원 가능하니, ECE/CS 로봇 연구실 박사생과 2인 팀을 꾸려 10월 19일 초록 마감에 바로 도전하라."
+links:
+  home: "https://www.qualcomm.com/research/university-relations/innovation-fellowship"
+sources:
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america/timeline.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america/participating-universities.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america/areas-of-interest.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2027-north-america/faqs.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america/timeline.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america/faqs.model.json"
+  - "https://www.qualcomm.com/research/university-relations/innovation-fellowship/2026-north-america/winners.model.json"
+  - "https://advisingblog.ece.uw.edu/2024/11/05/qualcomm-innovation-fellowship-qif-2025-apply-by-12-2/"
+  - "https://www.ee.ucla.edu/industry-fellowships/"
+last_verified: 2026-10-02

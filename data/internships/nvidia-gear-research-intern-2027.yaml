@@ -1,0 +1,43 @@
+id: nvidia-gear-research-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — GEAR (Generalist Embodied Agent Research)"
+title: "PhD Research Intern, Generalist Embodied Agents Research - 2027"
+fields: [physical-ai, robotics, manipulation, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: remote
+pay:
+  min: 38
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위"
+required:
+  - "Pursuing a PhD in CS/CE, EE or related"
+  - "Python required; PyTorch, JAX or TensorFlow (C++ and CUDA a plus)"
+  - "Large-scale ML systems and compute infrastructure"
+  - "Hands-on training and publications in multimodal foundation models or robot learning"
+preferred:
+  - "Robot kinematics, dynamics and sensors; safe hardware operation"
+  - "Control methods such as PID, MPC and whole-body control"
+  - "MuJoCo or the Isaac simulation suite"
+skills: [python, pytorch, jax, cpp, cuda, foundation-models, vla, world-models, reinforcement-learning, imitation-learning, mujoco, isaac-sim, control]
+responsibilities:
+  - "Design AI models and algorithms for general-purpose humanoid robots and embodied agents"
+  - "Build large-scale training and inference for robot foundation models (GR00T line)"
+  - "Deploy models in physics simulation and on robot hardware"
+citizenship: none
+eligibility_note: "시민권 요건 없음. 근무지는 Santa Clara 또는 미국 내 원격(공고 근무지에 'US, Remote' 포함)."
+status: open
+posted: 2026-09-17
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generalist-Embodied-Agents-Research---2027_JR2025103"
+fit: 3
+take: "GR00T 휴머노이드 파운데이션 모델 팀이라 경쟁이 극심하지만 덱스터러스 조작·VLA 실적이 있으면 반드시 넣어야 할 최상위 타깃이다."
+notes: "공고에 최근 GEAR 논문(DreamDojo, EgoScale, DreamZero, SONIC)이 나열됨. '최소 2026-09-21까지 접수' 문구는 마감일이 아님. 요청번호 JR2025103."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generalist-Embodied-Agents-Research---2027_JR2025103"
+last_verified: 2026-10-02

@@ -1,0 +1,47 @@
+id: whc
+acronym: "WHC"
+name: "IEEE World Haptics Conference"
+organizer: "IEEE Technical Committee on Haptics and EuroHaptics Society (IEEE RAS-sponsored)"
+fields: [haptics, hri, manipulation]
+community: hri
+tier: 1
+frequency: biennial
+paper_format: "Long papers 8-12 pages + up to 3 pages of references; regular papers 4-6 pages + up to 2 pages of references (WHC 2025 rules)"
+review:
+  blind: double
+proceedings: "IEEE Xplore"
+journal_track: "IEEE Transactions on Haptics (ToH) papers can be presented at WHC via an intention-of-participation submission (WHC 2027: 2027-04-23, tentative)"
+orientation:
+  contribution: 0
+  summary: "햅틱 커뮤니티 최대 학회로 햅틱 장치, 촉각 센싱, 인간 지각 실험, 원격조작을 아우르며 장치 설계나 지각 실험 같은 '햅틱 고유의 기여'를 중시한다. 건설 contact-rich 조작에서의 힘·촉각 피드백 원격조작이나 촉각 센싱 기반 제어로 포장하면 잘 맞지만, 단순 로봇 조작 성능만으로는 햅틱 기여가 약하다는 평을 받기 쉽다."
+  values: ["haptic devices", "tactile sensing", "human perception", "teleoperation"]
+fit: 2
+take: "WHC 2027(보스턴, 1/29 마감 예정)은 촉각 센싱·햅틱 원격조작을 건설 조작에 접목한 결과가 있을 때 노릴 만한 2순위 무대."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-07-13
+    end: 2027-07-16
+    city: "Boston"
+    country: US
+    lat: 42.36
+    lon: -71.06
+    url: "https://2027.worldhaptics.org/"
+    deadlines:
+      - {kind: workshop-proposal, date: 2027-01-15, label: "workshop/tutorial expression of interest"}
+      - {kind: paper, date: 2027-01-29, label: "long and regular papers"}
+      - {kind: workshop-proposal, date: 2027-04-02, label: "workshop/tutorial full proposal"}
+      - {kind: notification, date: 2027-04-16}
+      - {kind: other, date: 2027-04-23, label: "intention of participation (ToH papers)"}
+      - {kind: other, date: 2027-04-30, label: "work-in-progress papers"}
+      - {kind: other, date: 2027-05-07, label: "hands-on demonstrations"}
+      - {kind: camera-ready, date: 2027-05-14}
+    notes: "공식 사이트의 모든 일정은 '잠정(tentative)'. 본문은 7/13–16, Important Dates 목록은 7/12–15로 표기가 엇갈려 본문 기준으로 입력함. 격년(홀수 해) 개최로 짝수 해에는 IEEE Haptics Symposium이 열린다."
+links:
+  home: "https://2027.worldhaptics.org/"
+sources:
+  - "https://2027.worldhaptics.org/"
+  - "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/"
+  - "https://2025.worldhaptics.org/papers-a/"
+  - "https://2025.worldhaptics.org/toh-papers-a/"
+last_verified: 2026-10-02

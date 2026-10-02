@@ -1,0 +1,35 @@
+id: lg-ai-research-physical-ai-intern-2027
+company: "LG AI Research"
+org_type: lab
+team: "Physical Intelligence Lab — Visual Understanding Tech cell"
+title: "Research Internship - Physical AI"
+fields: [physical-ai, vision, robotics]
+degree: [phd, ms]
+season: "Rolling (dates not stated)"
+locations:
+  - {city: "Seoul", region: "Seoul", country: KR, lat: 37.57, lon: 126.98}
+work_mode: unknown
+required:
+  - "Enrolled in an MS or PhD program in a related field"
+  - "Project experience in a related area"
+  - "Proficiency with deep learning frameworks"
+preferred:
+  - "Papers at top-tier conferences"
+  - "Training on large-scale infrastructure"
+  - "Large-scale dataset processing"
+skills: [foundation-models, llm, computer-vision, 3d-vision, vla]
+responsibilities:
+  - "Develop EXAONE-based VLMs for embodied reasoning (VLM-ER) toward robot control"
+  - "Research architectures for long-horizon planning, 3D spatial reasoning and efficient video VLMs"
+  - "Study efficient VLM-to-VLA transfer"
+citizenship: none
+eligibility_note: "공고에 국적 요건 없음. 근무지는 현재 마곡 본사가 아닌 양재(우면동) 오피스. 전형: 서류 → 온라인 코딩테스트·인성검사 → 비대면 기술면접."
+status: open
+apply_url: "https://www.lgresearch.ai/careers/view?seq=326"
+fit: 2
+take: "EXAONE 기반 embodied reasoning·VLA 전이를 다루는 국내 몇 안 되는 Physical AI 인턴이라 국내 근무가 가능한 기간에 노리기 좋은 선택지다."
+notes: "게시일·기간·급여 미기재. 같은 랩의 'Research/Engineering Internship - Reinforcement Learning'(EXAONE 기반 강화학습 로봇 제어)도 게시 중."
+sources:
+  - "https://www.lgresearch.ai/careers/view?seq=326"
+  - "https://www.lgresearch.ai/careers"
+last_verified: 2026-10-02
