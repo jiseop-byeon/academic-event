@@ -7,7 +7,7 @@ community: robotics
 tier: 3
 frequency: annual
 paper_format: "Extended abstract of about 3–4 pages in IEEE conference format, optional 2–3 min video; separate poster-only track"
-proceedings: "Accepted papers posted on the workshop website (non-archival)"
+proceedings: "Accepted papers posted on the workshop website; ICRA-edition papers also published (free download) by IAARC"
 journal_track: "Authors of selected papers invited to a special collection of the ASCE Journal of Computing in Civil Engineering (2026)"
 orientation:
   contribution: 1
@@ -27,4 +27,5 @@ sources:
   - "https://construction-robots.github.io/index2025.html"
   - "https://construction-robots.github.io/index2024.html"
   - "https://construction-robots.github.io/index2023.html"
+  - "https://www.iaarc.org/icra_workshop"
 last_verified: 2026-10-02
