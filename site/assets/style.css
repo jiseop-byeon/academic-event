@@ -458,6 +458,36 @@ main.wrap.wide { max-width: 1440px; }
   .md-list.open .md-body { display: flex; }
 }
 
+/* ---------- logo tiles ---------- */
+.logo { display: inline-flex; align-items: center; justify-content: center; flex: none; position: relative; overflow: hidden; vertical-align: middle; border-radius: 8px; }
+.logo-sm { width: 24px; height: 24px; border-radius: 6px; }
+.logo-md { width: 38px; height: 38px; }
+.logo-lg { width: 56px; height: 56px; border-radius: 12px; }
+.logo-img { background: #fff; border: 1px solid var(--rule); }
+.logo-img img { width: 76%; height: 76%; object-fit: contain; }
+.logo-mono { background: var(--cat-wash, var(--plane)); border: 1px solid color-mix(in srgb, var(--cat, var(--axis)) 45%, transparent); color: var(--text); font-weight: 750; letter-spacing: -0.03em; line-height: 1; text-align: center; white-space: nowrap; }
+.logo-sm.logo-mono { font-size: 9px; }
+.logo-sm.logo-mono[data-len="4"] { font-size: 8px; }
+.logo-sm.logo-mono[data-len="5"], .logo-sm.logo-mono[data-len="6"] { font-size: 6.5px; }
+.logo-md.logo-mono { font-size: 14px; }
+.logo-md.logo-mono[data-len="3"] { font-size: 12px; }
+.logo-md.logo-mono[data-len="4"] { font-size: 11px; }
+.logo-md.logo-mono[data-len="5"], .logo-md.logo-mono[data-len="6"] { font-size: 9px; }
+.logo-lg.logo-mono { font-size: 20px; }
+.logo-lg.logo-mono[data-len="3"] { font-size: 17px; }
+.logo-lg.logo-mono[data-len="4"] { font-size: 15px; }
+.logo-lg.logo-mono[data-len="5"], .logo-lg.logo-mono[data-len="6"] { font-size: 12px; }
+.logo-pip { position: absolute; right: 0; bottom: 0; width: 42%; height: 42%; background: #fff; border-top-left-radius: 4px; padding: 1px; object-fit: contain; box-shadow: -1px -1px 0 var(--rule); }
+.logo-sm .logo-pip { display: none; }
+.with-logo { display: inline-flex; align-items: flex-start; gap: 9px; min-width: 0; }
+.with-logo > span:last-child, .with-logo > a { min-width: 0; }
+table.data .with-logo { display: flex; }
+.detail-head > .logo { margin-top: 2px; }
+.md-row { grid-template-columns: 24px minmax(0, 1fr) auto; column-gap: 9px; }
+.md-logo { grid-row: 1 / span 2; align-self: center; line-height: 0; }
+.md-sub { grid-column: 2 / -1; }
+.pick-col li .with-logo { align-items: center; }
+
 /* planner */
 .planner-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
 

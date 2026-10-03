@@ -23,11 +23,12 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+import iconlib  # noqa: E402
 import validate  # noqa: E402
 
 DATA = pathlib.Path(os.environ.get("AER_DATA", ROOT / "data"))  # override for tests
 SITE = ROOT / "site"
-OUT = ROOT / "_site"
+OUT = pathlib.Path(os.environ.get("AER_OUT", ROOT / "_site"))  # local previews can build outside a synced folder
 SITE_URL = "https://jiseop-byeon.github.io/academic-event/"
 CATEGORIES = ("conferences", "journals", "internships", "scholarships", "programs")
 HOURS_PER_MONTH = 40 * 52 / 12
@@ -292,6 +293,22 @@ def main(argv: list[str]) -> int:
                               if c.get(k) not in (None, "")})
     companies.sort(key=lambda c: (not c.get("relevant_now"), c.get("org_type") or "", (c.get("name") or "").lower()))
 
+    icons = read_json(DATA / "auto" / "icons.json", {})
+    careers = iconlib.careers_map(companies)
+    def icon_for(h):
+        f = (icons.get(h) or {}).get("file") if h else None
+        return "icons/" + f if f else None
+    for cat in CATEGORIES:
+        for it in bundle[cat]:
+            ic = icon_for(iconlib.icon_host(cat, it, careers))
+            if ic:
+                it["icon"] = ic
+    for c in companies:
+        h = iconlib.host(c.get("careers"))
+        ic = icon_for(iconlib.ALIAS.get(h, h)) if iconlib.usable(h) else None
+        if ic:
+            c["icon"] = ic
+
     jobs = read_json(DATA / "auto" / "jobs.json", {"postings": []})
     curated_urls = {i.get("apply_url", "").rstrip("/") for i in bundle["internships"]}
     auto = [p for p in jobs.get("postings", []) if p.get("url", "").rstrip("/") not in curated_urls]
@@ -320,6 +337,8 @@ def main(argv: list[str]) -> int:
         shutil.rmtree(OUT)
     shutil.copytree(SITE, OUT)
     (OUT / ".nojekyll").write_text("")
+    if (DATA / "auto" / "icons").is_dir():
+        shutil.copytree(DATA / "auto" / "icons", OUT / "icons")
     (OUT / "data.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     stamp = now.strftime("%Y%m%dT%H%M%SZ")

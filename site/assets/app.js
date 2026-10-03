@@ -214,6 +214,23 @@
     }).join("") + "</ol>";
   }
   function shortName(s) { return String(s).replace(/\s*\(.*\)\s*$/, ""); }
+  // Logo tile: conferences and journals get their acronym (with the publisher's or site's icon as a pip);
+  // companies, scholarships and programs get the organization's icon, or initials when there is none.
+  function monoText(it, cat) {
+    var t = cat === "conferences" ? it.acronym : cat === "journals" ? it.abbr : cat === "internships" ? it.company : cat === "programs" ? it.name : cat === "companies" ? it.name : shortName(it.name || "");
+    t = String(t || "").trim();
+    if ((cat === "conferences" || cat === "journals") && t.replace(/\s/g, "").length <= 6) return t.replace(/\s/g, "");
+    var words = t.replace(/[^A-Za-z0-9가-힣 ]/g, " ").split(/\s+/).filter(function (w) { return w && !/^(of|and|the|for|in|on|at|de|la)$/i.test(w); });
+    var ini = words.map(function (w) { return w[0]; }).join("").toUpperCase();
+    return ini.slice(0, cat === "journals" ? 5 : 3) || t.slice(0, 2).toUpperCase();
+  }
+  function logo(it, cat, size) {
+    var mono = cat === "conferences" || cat === "journals";
+    if (!mono && it.icon) return '<span class="logo logo-' + (size || "md") + ' logo-img" aria-hidden="true"><img src="' + esc(it.icon) + '" alt="" loading="lazy" decoding="async"></span>';
+    var t = monoText(it, cat);
+    return '<span class="logo logo-' + (size || "md") + ' logo-mono cat-' + (cat === "companies" ? "internships" : cat) + '" data-len="' + Math.min(t.length, 6) + '" aria-hidden="true">' + esc(t) +
+      (mono && it.icon ? '<img class="logo-pip" src="' + esc(it.icon) + '" alt="" loading="lazy" decoding="async">' : "") + "</span>";
+  }
 
   var selFields = new Set(store.get("fields", []));
   var minFit = store.get("minFit", 2);
@@ -525,7 +542,7 @@
     var rows = list.map(function (x) {
       var r = cfg.row(x);
       return '<a class="md-row" href="#/' + cat + "/" + esc(x.id) + '"' + (x === cur ? ' aria-current="true"' : "") + ' data-text="' + esc(r.text.toLowerCase()) + '">' +
-        '<span class="md-title">' + r.title + '</span><span class="md-right">' + r.right + '</span><span class="md-sub">' + r.sub + "</span></a>";
+        '<span class="md-logo">' + logo(x, cat, "sm") + '</span><span class="md-title">' + r.title + '</span><span class="md-right">' + r.right + '</span><span class="md-sub">' + r.sub + "</span></a>";
     }).join("");
     main.innerHTML = '<div class="md">' +
       '<aside class="md-list cat-' + cat + '" aria-label="' + esc(label) + '">' +
@@ -647,9 +664,9 @@
       html += '<li class="item' + (extra ? " extra" : "") + '"' + (extra ? " hidden" : "") + ">" +
         '<span class="date">' + esc(fmtShort(e.date)) + " (" + dowName(x.getDay()) + ")</span>" +
         "<span>" + dday(e.date, e.estimated) + "</span>" +
-        '<span class="what"><a href="#/' + e.cat + "/" + esc(e.id) + '">' + (flags ? '<span class="flag" aria-hidden="true">' + flags + "</span>" : "") + esc(e.name) + '</a><span class="sub">' +
+        '<span class="what"><span class="with-logo">' + (findItem(e.cat, e.id) ? logo(findItem(e.cat, e.id), e.cat, "sm") : "") + '<span><a href="#/' + e.cat + "/" + esc(e.id) + '">' + (flags ? '<span class="flag" aria-hidden="true">' + flags + "</span>" : "") + esc(e.name) + '</a><span class="sub">' +
         catLabel(e.cat) + "<span>" + esc(evLabel(e)) + (e.tz ? " · " + esc((e.time ? e.time + " " : "") + e.tz) : "") + "</span>" +
-        (e.estimated ? '<span class="badge est">' + esc(L("estimated", "추정")) + "</span>" : "") + "</span></span>" +
+        (e.estimated ? '<span class="badge est">' + esc(L("estimated", "추정")) + "</span>" : "") + "</span></span></span></span>" +
         '<span class="fitcol">' + stars(e.fit) + "</span></li>";
       shown++;
     });
@@ -701,7 +718,7 @@
     var top = items.slice(0, 4);
     return '<div class="pick-col"><h3>' + catLabel(cat) + '</h3><ol>' + (top.length ? top.map(function (it) {
       var name = cat === "conferences" ? it.acronym : cat === "journals" ? it.abbr : cat === "internships" ? it.company + " · " + it.title : cat === "programs" ? it.name : shortName(it.name);
-      return '<li><a href="#/' + cat + "/" + esc(it.id) + '">' + esc(name) + "</a><p>" + esc(tx(it, "take")) + "</p></li>";
+      return '<li><span class="with-logo">' + logo(it, cat, "sm") + '<a href="#/' + cat + "/" + esc(it.id) + '">' + esc(name) + "</a></span><p>" + esc(tx(it, "take")) + "</p></li>";
     }).join("") : '<li class="muted">' + esc(L("No ★★★ items in this field.", "해당 분야의 ★★★ 항목이 없습니다.")) + "</li>") + "</ol></div>";
   }
 
@@ -750,7 +767,7 @@
     });
     out.innerHTML = '<div class="cards">' + sorted.map(function (c) {
       var n = confInfo(c).next, s = confInfo(c).nextSub, a = (c.review || {}).acceptance_rate;
-      return '<article class="card"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + " · Tier " + c.tier + "</span></div>" +
+      return '<article class="card"><div class="top">' + logo(c, "conferences", "md") + '<div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + " · Tier " + c.tier + "</span></div>" +
         '<h3><a href="#/conferences/' + esc(c.id) + '">' + esc(c.acronym) + '</a></h3><div class="small muted">' + esc(c.name) + "</div></div>" + stars(c.fit) + "</div>" +
         '<dl class="meta"><dt>' + esc(L("Next", "다음 개최")) + "</dt><dd>" + (n ? (n.start ? fmtRange(n.start, n.end) : n.year) + (n.status === "estimated" ? esc(L(" (est.)", " (추정)")) : "") + (n.city ? "<br>" + place(n) : "") : '<span class="faint">' + esc(L("TBA", "미정")) + "</span>") + "</dd>" +
         "<dt>" + esc(L("Deadline", "다음 제출")) + "</dt><dd>" + (s ? fmtDate(s.date) + " " + dday(s.date, s.est) + ' <small class="muted">' + esc(s.edition.year + " " + kindName(s.kind)) + "</small>" : '<span class="faint">' + esc(L("TBA", "미정")) + "</span>") + "</dd>" +
@@ -763,7 +780,7 @@
     if (narrow()) return confCards(out, list);
     var cols = [
       { key: "name", label: L("Venue", "학회"), cls: "name", sort: function (c) { return c.acronym.toLowerCase(); },
-        render: function (c) { return '<a href="#/conferences/' + esc(c.id) + '">' + esc(c.acronym) + "</a><small>" + esc(c.name) + "</small>"; } },
+        render: function (c) { return '<span class="with-logo">' + logo(c, "conferences", "sm") + '<span><a href="#/conferences/' + esc(c.id) + '">' + esc(c.acronym) + "</a><small>" + esc(c.name) + "</small></span></span>"; } },
       { key: "fields", label: L("Fields", "분야"), render: function (c) { return fieldTags(c.fields, 3); } },
       { key: "next", label: L("Next edition", "다음 개최"), sort: function (c) { var n = confInfo(c).next; return n && n.start ? n.start : null; },
         render: function (c) {
@@ -947,7 +964,7 @@
     if (!c) return notFound();
     document.title = c.acronym + " · " + L("Conferences", "학회") + " · Academic Event Radar";
     var info = confInfo(c), r = c.review || {}, rk = c.rankings || {};
-    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + "</span>" +
+    var html = '<div class="detail-head">' + logo(c, "conferences", "lg") + '<div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + "</span>" +
       '<span class="badge">' + esc(lab(TIER, c.tier)) + "</span>" + fieldTags(c.fields) + "</div>" +
       "<h1>" + esc(c.acronym) + '</h1><div class="full">' + esc(c.name) + ' <span class="muted">· ' + esc(c.organizer) + "</span></div></div>" +
       '<div class="detail-actions">' + (c.links && c.links.home ? '<a class="btn" href="' + esc(c.links.home) + '" target="_blank" rel="noopener">' + esc(L("Official site ↗", "공식 홈페이지 ↗")) + "</a>" : "") +
@@ -1057,7 +1074,7 @@
     var sorted = list.slice().sort(function (a, b) { return (jif(b) || 0) - (jif(a) || 0); });
     out.innerHTML = '<div class="cards">' + sorted.map(function (j) {
       var m = j.metrics || {};
-      return '<article class="card"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + " · " + esc(j.publisher) + "</span></div>" +
+      return '<article class="card"><div class="top">' + logo(j, "journals", "md") + '<div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + " · " + esc(j.publisher) + "</span></div>" +
         '<h3><a href="#/journals/' + esc(j.id) + '">' + esc(j.abbr) + '</a></h3><div class="small muted">' + esc(j.name) + "</div></div>" + stars(j.fit) + "</div>" +
         '<dl class="meta"><dt>IF</dt><dd>' + (m.jif ? "<b>" + m.jif.value + '</b> <small class="muted">' + m.jif.year + "</small>" : '<span class="faint">' + esc(L("none", "없음")) + "</span>") + "</dd>" +
         "<dt>" + esc(L("5-yr IF", "5년 IF")) + "</dt><dd>" + jif5Cell(j) + "</dd>" +
@@ -1072,7 +1089,7 @@
     if (narrow()) return journalCards(out, list);
     var cols = [
       { key: "name", label: L("Journal", "저널"), cls: "name", sort: function (j) { return j.abbr.toLowerCase(); },
-        render: function (j) { return '<a href="#/journals/' + esc(j.id) + '">' + esc(j.abbr) + "</a><small>" + esc(j.name) + " · " + esc(j.publisher) + "</small>"; } },
+        render: function (j) { return '<span class="with-logo">' + logo(j, "journals", "sm") + '<span><a href="#/journals/' + esc(j.id) + '">' + esc(j.abbr) + "</a><small>" + esc(j.name) + " · " + esc(j.publisher) + "</small></span></span>"; } },
       { key: "jif", label: "IF", num: true, desc: true, sort: function (j) { return jif(j); },
         render: function (j) { var m = (j.metrics || {}).jif; return m ? "<b>" + m.value + '</b> <small class="muted">' + m.year + "</small>" : '<span class="faint">' + esc(L("none", "없음")) + "</span>"; } },
       { key: "jif5", label: L("5-yr IF", "5년 IF"), num: true, desc: true, sort: function (j) { var m = (j.metrics || {}).jif_5y; return m ? m.value : null; }, render: jif5Cell },
@@ -1129,7 +1146,7 @@
     if (m.h_index) tiles += tile("h-index", m.h_index, "SCImago");
     if (m.h5_index && m.h5_index.value) tiles += tile("h5-index", m.h5_index.value, "Google Scholar " + (m.h5_index.year || ""));
     if (j.openalex && j.openalex.two_year_mean_citedness) tiles += tile(L("2-yr mean citations", "2년 평균 피인용"), j.openalex.two_year_mean_citedness.toFixed(2), esc(L("OpenAlex · auto-refreshed", "OpenAlex · 자동 갱신")));
-    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + "</span>" +
+    var html = '<div class="detail-head">' + logo(j, "journals", "lg") + '<div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + "</span>" +
       '<span class="badge">' + esc(lab(TIER, j.tier)) + "</span>" + fieldTags(j.fields) + "</div><h1>" + esc(j.abbr) + '</h1><div class="full">' + esc(j.name) + ' <span class="muted">· ' + esc(j.publisher) + "</span></div></div>" +
       '<div class="detail-actions">' + (j.links && j.links.home ? '<a class="btn" href="' + esc(j.links.home) + '" target="_blank" rel="noopener">' + esc(L("Journal site ↗", "저널 홈페이지 ↗")) + "</a>" : "") +
       (j.links && j.links.submit ? '<a class="btn primary" href="' + esc(j.links.submit) + '" target="_blank" rel="noopener">' + esc(L("Submit ↗", "투고하기 ↗")) + "</a>" : "") + "</div></div>" +
@@ -1209,7 +1226,7 @@
   function internCards(out, list, rerender, setSkill) {
     out.innerHTML = '<div class="cards">' + sortInterns(list).map(function (i) {
       var st = internStatus(i), loc = (i.locations || []).slice(0, 2).map(place).join("<br>") + ((i.locations || []).length > 2 ? ' <span class="muted">' + esc(L("+" + (i.locations.length - 2) + " more", "외 " + (i.locations.length - 2) + "곳")) + "</span>" : "");
-      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" +
+      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top">' + logo(i, "internships", "md") + '<div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" +
         (i.team ? "<span>· " + esc(i.team) + "</span>" : "") + "</div>" +
         '<h3><a href="#/internships/' + esc(i.id) + '">' + esc(i.company) + " — " + esc(i.title) + "</a></h3></div>" + stars(i.fit) + "</div>" +
         '<dl class="meta"><dt>' + esc(L("Where", "근무지")) + "</dt><dd>" + loc + (i.work_mode && i.work_mode !== "onsite" ? ' <span class="muted">· ' + esc(lab(MODE, i.work_mode)) + "</span>" : "") + "</dd>" +
@@ -1226,7 +1243,7 @@
   function internTable(out, list, rerender) {
     var cols = [
       { key: "company", label: L("Company · role", "회사 · 포지션"), cls: "name", sort: function (i) { return i.company.toLowerCase(); },
-        render: function (i) { return '<a href="#/internships/' + esc(i.id) + '">' + esc(i.company) + "</a><small>" + esc(i.title) + "</small>"; } },
+        render: function (i) { return '<span class="with-logo">' + logo(i, "internships", "sm") + '<span><a href="#/internships/' + esc(i.id) + '">' + esc(i.company) + "</a><small>" + esc(i.title) + "</small></span></span>"; } },
       { key: "type", label: L("Type", "유형"), sort: function (i) { return lab(ORG_TYPE, i.org_type); }, render: function (i) { return esc(lab(ORG_TYPE, i.org_type)); } },
       { key: "loc", label: L("Where", "근무지"), render: function (i) { return (i.locations || []).slice(0, 2).map(place).join("<br>"); } },
       { key: "season", label: L("When", "시기·기간"), render: function (i) { return esc(i.season) + (i.duration ? '<br><small class="muted">' + esc(i.duration) + "</small>" : ""); } },
@@ -1332,7 +1349,7 @@
       box.innerHTML = '<div class="table-wrap"><table class="data"><thead><tr><th scope="col">' + esc(L("Company", "회사")) + '</th><th scope="col">' + esc(L("Type", "유형")) + '</th><th scope="col">' + esc(L("Hiring interns now", "인턴 모집")) +
         '</th><th scope="col">' + esc(L("Notes", "메모")) + "</th></tr></thead><tbody>" + list.map(function (c) {
           var items = (c.items || []).filter(function (id) { return findItem("internships", id); });
-          return '<tr><td class="name">' + (c.careers ? '<a href="' + esc(c.careers) + '" target="_blank" rel="noopener">' + esc(c.name) + " ↗</a>" : esc(c.name)) + "</td>" +
+          return '<tr><td class="name"><span class="with-logo">' + logo(c, "companies", "sm") + "<span>" + (c.careers ? '<a href="' + esc(c.careers) + '" target="_blank" rel="noopener">' + esc(c.name) + " ↗</a>" : esc(c.name)) + "</span></span></td>" +
             "<td>" + esc(lab(ORG_TYPE, c.org_type)) + "</td>" +
             "<td>" + (c.relevant_now ? '<span class="badge open"><i class="ico"></i>' + esc(L("yes", "있음")) + "</span>" : '<span class="faint">' + esc(L("not now", "현재 없음")) + "</span>") +
             (items.length ? "<br>" + items.map(function (id) { return '<a href="#/internships/' + esc(id) + '" class="small">' + esc(findItem("internships", id).title) + "</a>"; }).join("<br>") : "") + "</td>" +
@@ -1363,7 +1380,7 @@
     document.title = i.company + " · " + L("Internships", "인턴십") + " · Academic Event Radar";
     var st = internStatus(i);
     function list(arr) { return arr && arr.length ? "<ul>" + arr.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : '<p class="faint">' + esc(L("Not in the posting", "공고에 없음")) + "</p>"; }
-    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" + statusBadge(st) + fieldTags(i.fields) + "</div>" +
+    var html = '<div class="detail-head">' + logo(i, "internships", "lg") + '<div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" + statusBadge(st) + fieldTags(i.fields) + "</div>" +
       "<h1>" + esc(i.title) + '</h1><div class="full"><b>' + esc(i.company) + "</b>" + (i.team ? ' <span class="muted">· ' + esc(i.team) + "</span>" : "") + "</div></div>" +
       '<div class="detail-actions"><a class="btn primary" href="' + esc(i.apply_url) + '" target="_blank" rel="noopener">' + esc(L("View posting · apply ↗", "공고 보기 · 지원 ↗")) + "</a></div></div>" +
       takeBox(i) + '<div class="detail"><div class="col-main">' +
@@ -1447,7 +1464,7 @@
     });
     out.innerHTML = '<div class="cards">' + sorted.map(function (s) {
       var st = scholInfo(s).status, e = s.eligibility || {};
-      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("scholarships") +
+      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top">' + logo(s, "scholarships", "md") + '<div class="grow"><div class="eyebrow">' + catLabel("scholarships") +
         "<span>" + esc(lab(SCH_ORG, s.org_type)) + " · " + esc(lab(SCH_TYPE, s.type)) + "</span></div>" +
         '<h3><a href="#/scholarships/' + esc(s.id) + '">' + esc(s.name) + '</a></h3><div class="small muted">' + esc(s.organizer) + "</div></div>" + stars(s.fit) + "</div>" +
         '<dl class="meta"><dt>' + esc(L("Amount", "금액")) + "</dt><dd>" + amountText(s.amount) + "</dd>" +
@@ -1461,7 +1478,7 @@
   function scholTable(out, list, rerender) {
     var cols = [
       { key: "name", label: L("Scholarship", "장학금"), cls: "name", sort: function (s) { return s.name.toLowerCase(); },
-        render: function (s) { return '<a href="#/scholarships/' + esc(s.id) + '">' + esc(s.name) + "</a><small>" + esc(s.organizer) + "</small>"; } },
+        render: function (s) { return '<span class="with-logo">' + logo(s, "scholarships", "sm") + '<span><a href="#/scholarships/' + esc(s.id) + '">' + esc(s.name) + "</a><small>" + esc(s.organizer) + "</small></span></span>"; } },
       { key: "type", label: L("Kind", "종류"), sort: function (s) { return lab(SCH_TYPE, s.type); }, render: function (s) { return esc(lab(SCH_ORG, s.org_type)) + '<br><small class="muted">' + esc(lab(SCH_TYPE, s.type)) + "</small>"; } },
       { key: "amount", label: L("Amount", "금액"), desc: true, sort: function (s) { return s.amount.usd_max || s.amount.usd || null; }, render: function (s) { return amountText(s.amount); } },
       { key: "next", label: L("Next deadline", "다음 마감"), sort: function (s) { var n = scholInfo(s).next; return n ? n.date : null; }, render: nextLine },
@@ -1527,7 +1544,7 @@
     document.title = shortName(s.name) + " · " + L("Scholarships", "장학금") + " · Academic Event Radar";
     var info = scholInfo(s), e = s.eligibility || {}, a = s.amount || {};
     var reqs = txl(s, "requirements");
-    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("scholarships") + "<span>" + esc(lab(SCH_ORG, s.org_type)) + " · " + esc(lab(SCH_TYPE, s.type)) + "</span>" + statusBadge(info.status) + "</div>" +
+    var html = '<div class="detail-head">' + logo(s, "scholarships", "lg") + '<div class="grow"><div class="eyebrow">' + catLabel("scholarships") + "<span>" + esc(lab(SCH_ORG, s.org_type)) + " · " + esc(lab(SCH_TYPE, s.type)) + "</span>" + statusBadge(info.status) + "</div>" +
       "<h1>" + esc(s.name) + '</h1><div class="full">' + esc(s.organizer) + "</div></div>" +
       '<div class="detail-actions">' + (s.apply_url ? '<a class="btn primary" href="' + esc(s.apply_url) + '" target="_blank" rel="noopener">' + esc(L("Apply ↗", "지원 페이지 ↗")) + "</a>" : "") + "</div></div>" +
       takeBox(s) + '<div class="detail"><div class="col-main">' +
@@ -1615,7 +1632,7 @@
     });
     out.innerHTML = '<div class="cards">' + sorted.map(function (x) {
       var st = progInfo(x).status, acts = txl(x, "activities");
-      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("programs") +
+      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top">' + logo(x, "programs", "md") + '<div class="grow"><div class="eyebrow">' + catLabel("programs") +
         "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span></div>" +
         '<h3><a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + '</a></h3><div class="small muted">' + esc(x.organizer) + "</div></div>" + stars(x.fit) + "</div>" +
         '<p class="small clamp" style="margin:0">' + esc(tx(x, "summary")) + "</p>" +
@@ -1630,7 +1647,7 @@
   function programTable(out, list, rerender) {
     var cols = [
       { key: "name", label: L("Program", "프로그램"), cls: "name", sort: function (x) { return x.name.toLowerCase(); },
-        render: function (x) { return '<a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + "</a><small>" + esc(x.organizer) + "</small>"; } },
+        render: function (x) { return '<span class="with-logo">' + logo(x, "programs", "sm") + '<span><a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + "</a><small>" + esc(x.organizer) + "</small></span></span>"; } },
       { key: "kind", label: L("Kind", "종류"), sort: function (x) { return lab(PKIND, x.kind); }, render: function (x) { return esc(lab(PKIND, x.kind)) + '<br><small class="muted">' + esc(lab(SCOPE, x.scope)) + "</small>"; } },
       { key: "commit", label: L("Time", "시간"), render: function (x) { return esc(tx(x, "commitment")); } },
       { key: "next", label: L("Next", "다음 일정"), sort: function (x) { var n = progInfo(x).next; return n ? n.date : null; }, render: progNext },
@@ -1645,7 +1662,7 @@
     document.title = x.name + " · " + L("Programs", "프로그램·대외활동") + " · Academic Event Radar";
     var info = progInfo(x), e = x.eligibility || {};
     function list(arr) { return arr && arr.length ? "<ul>" + arr.map(function (v) { return "<li>" + esc(v) + "</li>"; }).join("") + "</ul>" : ""; }
-    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("programs") + "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span>" + statusBadge(info.status) + fieldTags(x.fields) + "</div>" +
+    var html = '<div class="detail-head">' + logo(x, "programs", "lg") + '<div class="grow"><div class="eyebrow">' + catLabel("programs") + "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span>" + statusBadge(info.status) + fieldTags(x.fields) + "</div>" +
       "<h1>" + esc(x.name) + '</h1><div class="full">' + esc(x.organizer) + "</div></div>" +
       '<div class="detail-actions">' + (x.apply_url ? '<a class="btn primary" href="' + esc(x.apply_url) + '" target="_blank" rel="noopener">' + esc(L("Join / apply ↗", "참여·지원 ↗")) + "</a>" : "") + "</div></div>" +
       takeBox(x) + '<div class="detail"><div class="col-main">' +
@@ -1784,8 +1801,8 @@
         "<li><b>등급 Tier 1–2</b> — 자기 커뮤니티 안에서의 위상. 건설 학회의 Tier 1과 ML 학회의 Tier 1은 다른 잣대입니다.</li>" +
         "<li><b>IF·분위</b> — Clarivate JCR(연도 표기). 분위는 공식 페이지에 JCR 분위가 있으면 JCR, 없으면 Scopus CiteScore 분위. IEEE는 5년 IF를 공개하지 않습니다.</li>" +
         "<li><b>급여 월 환산</b> — 시급 × 40시간 × 52주 ÷ 12, 외화는 " + esc(DATA.meta.fx.date) + " 환율.</li></ul>") +
-      "<h2>" + esc(L("Caveat", "주의")) + "</h2><p>" + esc(L("Dates and terms change. Check each item's official page before you apply or submit. ≈ and dashed outlines mark dates estimated from past cycles.",
-        "날짜와 조건은 바뀝니다. 지원·투고 전에는 반드시 각 항목의 공식 페이지를 직접 확인하세요. ≈ 표시와 점선은 과거 일정으로 추정한 날짜입니다.")) + "</p>" +
+      "<h2>" + esc(L("Caveat", "주의")) + "</h2><p>" + esc(L("Dates and terms change. Check each item's official page before you apply or submit. ≈ and dashed outlines mark dates estimated from past cycles. Logos and site icons belong to their owners and are shown only to identify each item.",
+        "날짜와 조건은 바뀝니다. 지원·투고 전에는 반드시 각 항목의 공식 페이지를 직접 확인하세요. ≈ 표시와 점선은 과거 일정으로 추정한 날짜입니다. 로고와 사이트 아이콘은 각 소유자의 것이며 항목을 알아보기 위해서만 표시합니다.")) + "</p>" +
       "<h2>" + esc(L("Corrections", "오류 제보·기여")) + "</h2><p>" + L('Report a mistake as a <a href="' + REPO + '/issues/new" target="_blank" rel="noopener">GitHub issue</a>. Each item is one YAML file in <a href="' + REPO + '/tree/main/data" target="_blank" rel="noopener"><code>data/</code></a>.',
         '잘못된 정보는 <a href="' + REPO + '/issues/new" target="_blank" rel="noopener">GitHub 이슈</a>로 알려 주세요. 데이터는 <a href="' + REPO + '/tree/main/data" target="_blank" rel="noopener"><code>data/</code></a>의 YAML 한 파일이 한 항목입니다.') + "</p>" +
       "<h2>" + esc(L("Related", "관련")) + '</h2><ul><li><a href="https://jiseop-byeon.github.io/phd-wiki/">Physical AI Notes</a> — ' + esc(L("the study wiki for the same research direction", "같은 연구 방향의 학습 위키")) + '</li><li><a href="https://jiseop-byeon.github.io/">Jiseop Byeon</a></li></ul></div>');

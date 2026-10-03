@@ -1,0 +1,978 @@
+{
+ "1x.tech": {
+  "file": "1x.tech.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "2026.corl.org": {
+  "file": "2026.corl.org.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "2026.ieee-humanoids.org": {
+  "file": "2026.ieee-humanoids.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "2027.ieee-icra.org": {
+  "file": "2027.ieee-icra.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "2027.ieee-iros.org": {
+  "file": "2027.ieee-iros.org.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "2027.ieeecase.org": {
+  "file": "2027.ieeecase.org.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "2027.worldhaptics.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "aaai.org": {
+  "file": "aaai.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "acifoundation.org": {
+  "file": "acifoundation.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "acm.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "advancedconstructionrobotics.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "agilityrobotics.com": {
+  "file": "agilityrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ai.sony": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "algorithmic-robotics.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "amazon.jobs": {
+  "file": "amazon.jobs.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "amazon.science": {
+  "file": "amazon.science.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ambirobotics.com": {
+  "file": "ambirobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "anl.gov": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "annualreviews.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "apis-cor.com": {
+  "file": "apis-cor.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "appliedintuition.com": {
+  "file": "appliedintuition.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "apply.careers.microsoft.com": {
+  "file": "apply.careers.microsoft.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "apply.workable.com": {
+  "file": "apply.workable.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "apply2.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "asce.org": {
+  "file": "asce.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ashrae.org": {
+  "file": "ashrae.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ati.utexas.edu": {
+  "file": "ati.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "aurora.tech": {
+  "file": "aurora.tech.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bedrockrobotics.com": {
+  "file": "bedrockrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bentley.com": {
+  "file": "bentley.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bloomberg.com": {
+  "file": "bloomberg.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bostondynamics.com": {
+  "file": "bostondynamics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bridgingbarriers.utexas.edu": {
+  "file": "bridgingbarriers.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "buildots.com": {
+  "file": "buildots.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "caee.utexas.edu": {
+  "file": "caee.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "carbonrobotics.com": {
+  "file": "carbonrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.abb": {
+  "file": "careers.abb.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.hilti.group": {
+  "file": "careers.hilti.group.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.oshkoshcorp.com": {
+  "file": "careers.oshkoshcorp.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "careers.procore.com": {
+  "file": "careers.procore.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.qualcomm.com": {
+  "file": "careers.qualcomm.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.snap.com": {
+  "file": "careers.snap.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.toyota.com": {
+  "file": "careers.toyota.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "careers.withwaymo.com": {
+  "file": "careers.withwaymo.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "chi.acm.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "chi2027.acm.org": {
+  "file": "chi2027.acm.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "cisummit-crc.asce.org": {
+  "file": "cisummit-crc.asce.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "civrobotics.com": {
+  "file": "civrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "cloud.wikis.utexas.edu": {
+  "file": "cloud.wikis.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "cmaanet.org": {
+  "file": "cmaanet.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "construction-institute.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "construction-robotics.com": {
+  "file": "construction-robotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "construction-robots.github.io": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "corl.org": {
+  "file": "corl.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "deepmind.google": {
+  "file": "deepmind.google.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "deere.com": {
+  "file": "deere.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "diamondage.com": {
+  "file": "diamondage.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "dlenc.recruiter.co.kr": {
+  "file": "dlenc.recruiter.co.kr.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "doosanrobotics.ninehire.site": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "dustyrobotics.com": {
+  "file": "dustyrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "dyna.co": {
+  "file": "dyna.co.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "easychair.org": {
+  "file": "easychair.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ecva.net": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "eeml.eu": {
+  "file": "eeml.eu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "efds.fa.em5.oraclecloud.com": {
+  "file": "efds.fa.em5.oraclecloud.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "embodied-ai.org": {
+  "file": "embodied-ai.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "enotrans.org": {
+  "file": "enotrans.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "facctconference.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "fbr.com.au": {
+  "file": "fbr.com.au.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "fieldai.com": {
+  "file": "fieldai.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "figure.ai": {
+  "file": "figure.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "formic.co": {
+  "file": "formic.co.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "fraunhofer.de": {
+  "file": "fraunhofer.de.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "gatik.ai": {
+  "file": "gatik.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "geckorobotics.com": {
+  "file": "geckorobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "generalistai.com": {
+  "file": "generalistai.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "genesis.ai": {
+  "file": "genesis.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "google.com": {
+  "file": "google.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "gradcareer.utexas.edu": {
+  "file": "gradcareer.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "graduate.utexas.edu": {
+  "file": "graduate.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "gsenc.recruiter.co.kr": {
+  "file": "gsenc.recruiter.co.kr.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "hacktx.com": {
+  "file": "hacktx.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "hapticssymposium.org": {
+  "file": "hapticssymposium.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "hatci.com": {
+  "file": "hatci.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "hilti-trimble-challenge.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "houseofdesign.com": {
+  "file": "houseofdesign.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "hripioneers.org": {
+  "file": "hripioneers.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "humanrobotinteraction.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "i3ce2026.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "iaarc.org": {
+  "file": "iaarc.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "iclr.cc": {
+  "file": "iclr.cc.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "icml.cc": {
+  "file": "icml.cc.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "iconbuild.com": {
+  "file": "iconbuild.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "icvss.dmi.unict.it": {
+  "file": "icvss.dmi.unict.it.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieee-itsc.org": {
+  "file": "ieee-itsc.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieee-itss.org": {
+  "file": "ieee-itss.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieee-iv.org": {
+  "file": "ieee-iv.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieee-ras.org": {
+  "file": "ieee-ras.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieee.org": {
+  "file": "ieee.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ieeeismar.net": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "ieeevr.org": {
+  "file": "ieeevr.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ifml.institute": {
+  "file": "ifml.institute.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "ifrr.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "informs.org": {
+  "file": "informs.org.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "intrinsic.ai": {
+  "file": "intrinsic.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "inventionworks.engr.utexas.edu": {
+  "file": "inventionworks.engr.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "isrr2026.su.domains": {
+  "file": "isrr2026.su.domains.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "isttt2028.org": {
+  "file": "isttt2028.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ite.org": {
+  "file": "ite.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "iteris.com": {
+  "file": "iteris.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jlg.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "jmlr.org": {
+  "file": "jmlr.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jobs.apple.com": {
+  "file": "jobs.apple.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jobs.doosan.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "jobs.hp.com": {
+  "file": "jobs.hp.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jobs.siemens.com": {
+  "file": "jobs.siemens.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jobs.volvogroup.com": {
+  "file": "jobs.volvogroup.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "jpl.nasa.gov": {
+  "file": "jpl.nasa.gov.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "kajima.co.jp": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "kasf.org": {
+  "file": "kasf.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "kewazo.com": {
+  "file": "kewazo.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "kict.re.kr": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "kist.re.kr": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "kodiak.ai": {
+  "file": "kodiak.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "komatsu.jobs": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "ksea.org": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "lgresearch.ai": {
+  "file": "lgresearch.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "liebherr.com": {
+  "file": "liebherr.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "linksim.org": {
+  "file": "linksim.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "machinalabs.ai": {
+  "file": "machinalabs.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "machinelearning.apple.com": {
+  "file": "machinelearning.apple.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "magicleap.com": {
+  "file": "magicleap.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "merl.com": {
+  "file": "merl.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "metacareers.com": {
+  "file": "metacareers.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "microsoft.com": {
+  "file": "microsoft.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "mujin-corp.com": {
+  "file": "mujin-corp.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nationalacademies.org": {
+  "file": "nationalacademies.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nature.com": {
+  "file": "nature.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "neurips.cc": {
+  "file": "neurips.cc.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nianticspatial.com": {
+  "file": "nianticspatial.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nist.gov": {
+  "file": "nist.gov.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nlr.gov": {
+  "file": "nlr.gov.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "notraffic.com": {
+  "file": "notraffic.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "nuro.ai": {
+  "file": "nuro.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "obayashi.co.jp": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "oist.jp": {
+  "file": "oist.jp.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "okibo.com": {
+  "file": "okibo.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "openspace.ai": {
+  "file": "openspace.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ornl.gov": {
+  "file": "ornl.gov.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ouster.com": {
+  "file": "ouster.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "overseas.mofa.go.kr": {
+  "file": "overseas.mofa.go.kr.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "path-robotics.com": {
+  "file": "path-robotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "picklerobot.com": {
+  "file": "picklerobot.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "plus.ai": {
+  "file": "plus.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "pronto.ai": {
+  "file": "pronto.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "qualcomm.com": {
+  "file": "qualcomm.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "rai-inst.com": {
+  "file": "rai-inst.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "rainbow-robotics.com": {
+  "file": "rainbow-robotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "raiserobotics.ai": {
+  "file": "raiserobotics.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ras.ece.utexas.edu": {
+  "file": "ras.ece.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "recruit.hdec.co.kr": {
+  "file": "recruit.hdec.co.kr.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "recruit.naverlabs.com": {
+  "file": "recruit.naverlabs.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "research.ibm.com": {
+  "file": "research.ibm.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ro-man.org": {
+  "file": "ro-man.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "robotics.utexas.edu": {
+  "file": "robotics.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "roboticsconference.org": {
+  "file": "roboticsconference.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sagepub.com": {
+  "file": "sagepub.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "samsungcareers.com": {
+  "file": "samsungcareers.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sanctuary.ai": {
+  "file": "sanctuary.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "science.org": {
+  "file": "science.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sciencedirect.com": {
+  "file": "sciencedirect.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "shimz.co.jp": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "sigchi.submittable.com": {
+  "file": "sigchi.submittable.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sites.google.com": {
+  "file": "sites.google.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sites.utexas.edu": {
+  "file": "sites.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "skild.ai": {
+  "file": "skild.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "skydio.com": {
+  "file": "skydio.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "springer.com": {
+  "file": "springer.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "sra.samsung.com": {
+  "file": "sra.samsung.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "stackav.com": {
+  "file": "stackav.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "standardbots.com": {
+  "file": "standardbots.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "symbotic.com": {
+  "file": "symbotic.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "tacc.utexas.edu": {
+  "file": "tacc.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "takenaka.co.jp": {
+  "file": "takenaka.co.jp.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "talent.hyundai.com": {
+  "file": null,
+  "checked": "2026-10-03"
+ },
+ "tesla.com": {
+  "file": "tesla.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "texasinnovationcenter.utexas.edu": {
+  "file": "texasinnovationcenter.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "thecvf.com": {
+  "file": "thecvf.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "torc.ai": {
+  "file": "torc.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "tri.global": {
+  "file": "tri.global.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "trimble.com": {
+  "file": "trimble.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "tutorintelligence.com": {
+  "file": "tutorintelligence.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "twosigma.com": {
+  "file": "twosigma.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "usa.honda-ri.com": {
+  "file": "usa.honda-ri.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "utexas.campuslabs.com": {
+  "file": "utexas.campuslabs.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "viam.com": {
+  "file": "viam.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "waabi.ai": {
+  "file": "waabi.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "wayve.ai": {
+  "file": "wayve.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "webportalapp.com": {
+  "file": "webportalapp.com.png",
+  "source": "site",
+  "checked": "2026-10-03"
+ },
+ "wiley.com": {
+  "file": "wiley.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "zintellect.com": {
+  "file": "zintellect.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ }
+}
