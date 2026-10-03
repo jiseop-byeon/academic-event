@@ -1,0 +1,52 @@
+id: ieee-ras-tc-construction-robotics
+name: "IEEE RAS Technical Committee on Construction Robotics"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+scope: online
+kind: research-community
+audience: [phd, ms, bs]
+fields: [construction, robotics, manipulation, navigation, vision, hri]
+summary: "IEEE RAS 산하의 건설 로봇 기술위원회(TC)로, 비정형·급변하는 건설 현장에서의 인식, 조작·경로계획·내비게이션, 현장 매핑과 as-built 비교, 시공간 정합·변화 탐지, 안전한 인간-로봇 협업, 중장비 자동화, 작업자용 웨어러블 로봇을 주제로 한다. ICRA·IROS의 Future of Construction 워크숍과 Hilti의 Nothing Stands Still(NSS) 챌린지 같은 건설 데이터 챌린지를 알리고, 2025년에는 로드맵 논의와 학생 대표 모집을 진행했다."
+summary_en: "The IEEE RAS technical committee (TC) on construction robotics, covering perception in unstructured and fast-changing construction sites, manipulation, path planning and navigation, site mapping and as-built comparison, spatio-temporal registration and change detection, safe human–robot collaboration, heavy-equipment automation and wearable robots for workers. It promotes the Future of Construction workshops at ICRA and IROS and construction data challenges such as Hilti's Nothing Stands Still (NSS) challenge, and in 2025 it held a roadmap discussion and recruited student representatives."
+activities:
+  - "TC 메일링으로 워크숍·챌린지·데이터셋 소식 받기"
+  - "로드맵 실무그룹 참여: SLAM·현실 캡처 데이터셋, Future of Construction, 산학 협력, 정부 규제·안전 표준"
+  - "학생 대표(student representative) 공모 지원 (2025년 2월 공고)"
+  - "ICRA·IROS의 Future of Construction 워크숍 참여 (TC가 2025년 포스터상 후원, ICRA 2025 웰컴 키트 배포)"
+activities_en:
+  - "Get workshop, challenge and dataset news through the TC mailing"
+  - "Join the roadmap working groups: SLAM and reality-capture datasets, Future of Construction, industry–academia collaboration, government regulation and safety standards"
+  - "Apply when student representatives are recruited (call posted February 2025)"
+  - "Join the Future of Construction workshop at ICRA or IROS (the TC sponsored the 2025 poster awards and issued an ICRA 2025 welcome kit)"
+benefits:
+  - "건설 로봇 분야 핵심 연구자·기업(Hilti 등)과의 직접 연결"
+  - "워크숍 포스터상·챌린지 상금 같은 기회를 가장 먼저 접함 (NSS Challenge 2025 상금 총 US$5,000)"
+  - "분야 로드맵과 데이터셋 논의에 참여하며 연구 주제 발굴"
+benefits_en:
+  - "Direct links to the core researchers and companies (such as Hilti) in construction robotics"
+  - "First word on workshop poster awards and challenge prizes (NSS Challenge 2025: US$5,000 in prizes)"
+  - "Find research topics by joining the field's roadmap and dataset discussions"
+commitment: "가입 후 활동은 자율 — 소식 구독부터 실무그룹·학생 대표 활동까지"
+commitment_en: "Participation is up to you after joining — from following the news to working groups or a student-representative role"
+cost: {value: 0, currency: USD, note: "all RAS technical committees are free to join; an IEEE account (not IEEE membership) is needed"}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "RAS 기술위원회는 누구나 무료로 가입할 수 있으며 IEEE 회원이 아니어도 무료 IEEE 계정만 있으면 됨(IEEE 카탈로그에서 TC를 장바구니에 담아 $0로 결제). 국적 제한 없음."
+  notes_en: "Anyone can join RAS technical committees for free; IEEE membership is not required, only a free IEEE account (add the TC to the cart in the IEEE catalog and check out at $0). No nationality restriction."
+cycle:
+  typical: "상시 가입 — 주요 행사는 매년 ICRA(5–6월) 또는 IROS(9–10월)의 Future of Construction 워크숍과 봄철 Hilti 챌린지"
+  typical_en: "Join any time — the main yearly events are the Future of Construction workshop at ICRA (May–June) or IROS (September–October) and the Hilti challenge in spring"
+status: rolling
+apply_url: "https://www.ieee-ras.org/technical-committees/how-to-join-a-ras-technical-committee/"
+fit: 3
+take: "건설 로봇 연구 커뮤니티의 중심이니 지금 무료로 가입해 소식을 받고, 다음 학생 대표 모집이 열리면 지원해 Future of Construction 워크숍 조직진과 인연을 만들라."
+take_en: "This is the hub of the construction-robotics research community — join now for free to get the news, and apply when the next student-representative call opens to get to know the Future of Construction workshop organizers."
+links:
+  home: "https://www.ieee-ras.org/construction-robotics/"
+  join: "https://www.ieee-ras.org/technical-committees/how-to-join-a-ras-technical-committee/"
+sources:
+  - "https://www.ieee-ras.org/construction-robotics/"
+  - "https://www.ieee-ras.org/technical-committees/how-to-join-a-ras-technical-committee/"
+  - "https://www.ieee-ras.org/technical-committees/list-of-technical-committees/"
+  - "https://construction-robots.github.io/"
+last_verified: 2026-10-02

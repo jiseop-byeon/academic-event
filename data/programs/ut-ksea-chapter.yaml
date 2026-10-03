@@ -1,0 +1,60 @@
+id: ut-ksea-chapter
+name: "KSEA Chapter at the University of Texas (Korean-American Scientists and Engineers Association)"
+organizer: "KSEA Chapter at the University of Texas at Austin (registered student organization), with the KSEA Austin TX Chapter"
+scope: ut-austin
+kind: student-org
+audience: [phd, ms, bs]
+fields: [construction, robotics]
+summary: "재미한인과학기술자협회(KSEA)의 UT Austin 학생 지부로, 한국계·연대 학생과 STEM 분야 교수·전문가 사이의 소통, 학술·직업 협력, 문화 교류를 목표로 하며 KSEA 본부의 사명에 맞춰 경력 개발, 과학 교류, 지역사회 봉사를 지원한다(HornsLink 활동 단체). 웹사이트는 오스틴 지역 지부(KSEA Austin TX Chapter)와 함께 쓰며, 지역 지부는 매년 K-12 대상 수학·과학 경시대회(NMSC)를 연다. KSEA 회원 자격은 KSEA-KUSCO 대학원 장학금의 지원 요건이고, 본부는 매년 여름 UKC(US-Korea Conference)를 연다."
+summary_en: "The UT Austin student chapter of the Korean-American Scientists and Engineers Association (KSEA): it fosters communication, academic and career collaboration and cultural connection among Korean American and allied students, faculty and professionals in STEM, and supports career development, scientific exchange and community outreach in line with KSEA's national mission (an active HornsLink organization). It shares a website with the regional KSEA Austin TX Chapter, which runs a yearly math and science competition (NMSC) for K-12 students. KSEA membership is required for the KSEA-KUSCO graduate scholarship, and KSEA holds the UKC (US-Korea Conference) every summer."
+activities:
+  - "UT 지부 메일링 리스트와 인스타그램으로 행사 소식 받기"
+  - "한국계 STEM 학생·교수·전문가 네트워킹, 경력 개발·과학 교류 행사"
+  - "지역 봉사 — KSEA Austin 지부의 K-12 수학·과학 경시대회(NMSC) 운영 지원 (2024년 4월 6일, 오스틴 한인문화회관)"
+  - "KSEA 본부 행사 참여 — UKC(2026년 8월 5–8일 올랜도: 논문·발표, 창업 심포지엄 IES, 자원봉사)"
+activities_en:
+  - "Follow chapter news through the UT mailing list and Instagram"
+  - "Networking with Korean American STEM students, faculty and professionals; career-development and scientific-exchange events"
+  - "Community service — help run the KSEA Austin chapter's K-12 math and science competition (NMSC; April 6, 2024 at the Korean Culture Center of Austin)"
+  - "National KSEA events — UKC (August 5–8, 2026 in Orlando: paper presentations, the Innovation and Entrepreneurship Symposium, volunteering)"
+benefits:
+  - "오스틴 지역 한국계 과학기술인 네트워크"
+  - "KSEA 회원 자격 — KSEA-KUSCO 대학원 장학금(1인 $2,000) 지원 요건 충족"
+  - "UKC 발표·네트워킹을 통한 한미 산학 연결"
+benefits_en:
+  - "A network of Korean American scientists and engineers in Austin"
+  - "KSEA membership — meets the requirement for the KSEA-KUSCO graduate scholarship ($2,000 each)"
+  - "US–Korea academic and industry connections through UKC presentations and networking"
+commitment: "자율 — 행사 참여는 수시, 봄 경시대회·여름 UKC는 선택"
+commitment_en: "Flexible — events as you like; the spring competition and summer UKC are optional"
+cost: {value: 15, currency: USD, note: "KSEA 본부 대학원생 연회비 $15 (학부생 무료)", note_en: "KSEA national graduate membership $15 a year (free for undergraduates)"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "한국계와 연대(allied) 학생·교수·전문가 모두 참여 가능하며 국적 제한 없음. KSEA 본부 회원 가입(대학원생 $15)은 장학금 지원 등에 필요. UT Austin에는 HornsLink에 등록된 한인 대학원생회(KGSA)가 확인되지 않아, 한국계 STEM 대학원생 모임으로는 이 지부가 가장 가까움."
+  notes_en: "Open to Korean American and allied students, faculty and professionals, with no nationality restriction. National KSEA membership ($15 for graduate students) is needed for scholarships and similar benefits. No Korean graduate student association (KGSA) is registered on HornsLink at UT Austin, so this chapter is the closest group for Korean STEM graduate students."
+cycle:
+  typical: "연중 — 봄 K-12 경시대회(NMSC), 여름 UKC(2026년 8월 5–8일), KSEA 장학금은 봄 접수"
+  typical_en: "Year-round — the K-12 competition (NMSC) in spring, UKC in summer (August 5–8, 2026), KSEA scholarships in spring"
+status: ongoing
+apply_url: "https://utexas.campuslabs.com/engage/organization/ksea"
+fit: 2
+take: "한국계 과학기술인 네트워크와 KSEA-KUSCO 장학금 지원 자격(회원 필수)을 함께 얻을 수 있으니, UT 지부 메일링 리스트에 들고 KSEA 회원 가입($15)을 봄 장학금 마감 전에 마쳐 둬라."
+take_en: "It brings both a Korean American STEM network and eligibility for the KSEA-KUSCO scholarship (membership required) — join the UT chapter's mailing list and finish KSEA membership ($15) before the spring scholarship deadline."
+links:
+  hornslink: "https://utexas.campuslabs.com/engage/organization/ksea"
+  website: "https://sites.google.com/view/austin-ksea"
+  instagram: "https://www.instagram.com/ksea.texas/"
+  ksea: "https://www.ksea.org/"
+  ukc_2026: "https://ukc2026.ksea.org/"
+sources:
+  - "https://utexas.campuslabs.com/engage/organization/ksea"
+  - "https://sites.google.com/view/austin-ksea"
+  - "https://sites.google.com/view/austin-ksea/about-us/austin-chapter-%EC%86%8C%EA%B0%9C"
+  - "https://sites.google.com/view/austin-ksea/archive"
+  - "https://award.ksea.org/scholarships/scholarships-faqs"
+  - "https://award.ksea.org/scholarships/scholarships-for-graduates"
+  - "https://ukc2026.ksea.org/"
+  - "https://ukc2026.ksea.org/venue"
+last_verified: 2026-10-02

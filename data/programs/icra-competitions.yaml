@@ -1,0 +1,53 @@
+id: icra-competitions
+name: "ICRA Robot Competitions (ICRA 2027, Seoul)"
+organizer: "IEEE International Conference on Robotics and Automation (ICRA) — IEEE Robotics and Automation Society"
+scope: international
+kind: competition
+audience: [phd, ms, bs]
+fields: [robotics, manipulation, physical-ai, navigation]
+summary: "ICRA 본 학회 기간에 열리는 로봇 경진대회 묶음으로, 각 대회는 외부 조직위가 제안해 채택되며 대회별로 팀 등록·예선 규정이 따로 있다. ICRA 2027(서울 코엑스, 5/24–28)에서는 5월 25–27일에 경연이 열리고, 채택 대회 목록은 2026년 10월 31일 발표된다. ICRA 2026(빈)에는 Robotic Grasping and Manipulation Competition(11회), Legged Robot Challenges, AgiBot World Challenge 등 9개 대회가 열렸다."
+summary_en: "The set of robot competitions held during the ICRA conference; each one is proposed by an outside organizing team and has its own team registration and qualification rules. At ICRA 2027 (COEX, Seoul, May 24–28) the competitions run May 25–27, and the accepted competitions are announced on October 31, 2026. ICRA 2026 (Vienna) hosted nine, including the 11th Robotic Grasping and Manipulation Competition, the Legged Robot Challenges and the AgiBot World Challenge."
+activities:
+  - "대회별 웹사이트의 규정에 따라 팀 등록(예선이 있는 대회도 있음) 후 학회장 경연"
+  - "ICRA 2026 예시: 혼잡 환경 피킹·모바일 조작·인간-로봇 물체 전달(RGMC), 사족·휴머노이드 험지 주행(LRC), VLM+VLA·전신 제어(AgiBot), 의류 조작(LeHome), 1:10 자율주행 레이싱(RoboRacer)"
+  - "대회 전용 시상식과 전시 구역에서 결과 공개"
+activities_en:
+  - "Register a team under each competition's own rules (some have qualification rounds) and compete on site"
+  - "ICRA 2026 examples: picking in clutter, mobile manipulation and human–robot handover (RGMC), legged and humanoid terrain traversal (LRC), VLM+VLA and whole-body control (AgiBot), garment manipulation (LeHome), 1:10 autonomous racing (RoboRacer)"
+  - "Results shown in the competition area and a dedicated award ceremony"
+benefits:
+  - "실제 로봇 시스템을 표준 과제로 검증하고 다른 연구실과 성능 비교"
+  - "대회별 상금·시상 (대회마다 다름)"
+  - "ICRA 참가자와 기업 파트너에게 시스템을 보여 줄 기회"
+benefits_en:
+  - "Validate a real robot system on a standard task and benchmark against other labs"
+  - "Prizes and awards set by each competition"
+  - "Show your system to ICRA attendees and industry partners"
+commitment: "팀 단위 사전 준비(로봇·소프트웨어 구축, 대회별 예선) + 학회 중 현장 경연 (ICRA 2027: 5/25–27, 대회별 일정 상이)"
+commitment_en: "Team preparation ahead of time (building the robot and software, any qualification round) plus on-site competition during the conference (ICRA 2027: May 25–27; schedules vary by competition)"
+location: {city: "Seoul", country: KR, lat: 37.57, lon: 126.98}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "대회별 규정에 따름 — 보통 대학·기업 팀 누구나 참가 가능하며 국적 제한은 언급되지 않음. 실물 로봇이 필요한 대회가 많아 연구실 단위 참여가 일반적."
+  notes_en: "Rules vary by competition — typically open to university and industry teams, with no nationality restriction mentioned. Many require physical robots, so participation is usually at the lab level."
+cycle:
+  typical: "매년 ICRA에서 개최 — ICRA 2027은 대회 제안을 7/29–8/31 접수하고 10/31 채택 발표, 이후 대회별로 팀을 모집해 학회 중(5/25–27) 경연"
+  typical_en: "Held at every ICRA — for ICRA 2027, competition proposals were taken July 29–August 31 with acceptances on October 31; each competition then recruits teams for the on-site rounds during the conference (May 25–27)"
+  deadlines:
+    - {kind: other, date: 2026-10-31, label: "ICRA 2027 채택 대회 발표 — 이후 대회별 팀 모집", label_en: "ICRA 2027 accepted competitions announced — team calls follow per competition"}
+    - {kind: event, date: 2027-05-25, label: "ICRA 2027 경연 (서울 코엑스, 5/25–27)", label_en: "ICRA 2027 competitions (COEX, Seoul, May 25–27)"}
+status: upcoming
+apply_url: "https://2027.ieee-icra.org/contribute/call-for-competition/"
+fit: 2
+take: "ICRA 2027이 서울에서 열려 이동 부담이 적으니, 10/31 채택 목록이 나오면 RGMC처럼 조작·인간-로봇 전달 과제가 있는 대회를 골라 연구실 로봇으로 팀 참가를 검토하라."
+take_en: "ICRA 2027 is in Seoul, which makes travel easy — when the accepted list comes out on Oct 31, pick a competition with manipulation or human–robot handover tasks (like RGMC) and consider entering as a lab team."
+links:
+  home: "https://2027.ieee-icra.org/contribute/call-for-competition/"
+  past: "https://2026.ieee-icra.org/program/competitions/"
+  conference: "https://2027.ieee-icra.org/"
+sources:
+  - "https://2027.ieee-icra.org/contribute/call-for-competition/"
+  - "https://2027.ieee-icra.org/"
+  - "https://2026.ieee-icra.org/program/competitions/"
+last_verified: 2026-10-02

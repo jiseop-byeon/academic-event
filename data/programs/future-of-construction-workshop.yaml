@@ -1,0 +1,55 @@
+id: future-of-construction-workshop
+name: "Workshop on Future of Construction (ICRA / IROS)"
+organizer: "Co-organized by Mississippi State University, Georgia Tech, North Dakota State University, New York University and the University of Oxford"
+scope: international
+kind: research-community
+audience: [phd, ms, bs]
+fields: [construction, robotics, manipulation, navigation, vision, hri]
+summary: "2022년부터 매년 ICRA(2026년은 IROS)와 함께 열리는 건설 로봇 워크숍으로, 학계·산업계 연사 발표, 라이트닝 토크, 포스터 세션, 패널 토론과 (일부 회차) SLAM 챌린지 시상으로 구성된다. 3–4쪽 확장 초록의 논문 트랙과 기존 논문도 낼 수 있는 포스터 트랙이 있고, 우수 논문은 ASCE Journal of Computing in Civil Engineering 특별 컬렉션 투고 초청을 받는다. 5회는 IROS 2026(2026/9/27, 피츠버그)에서 열렸다."
+summary_en: "A construction-robotics workshop held every year since 2022 alongside ICRA (IROS in 2026), with talks from academia and industry, lightning talks, poster sessions, panels and, in some years, SLAM challenge awards. It has a paper track (3–4 page extended abstracts) and a poster-only track open to previously published work, and selected papers are invited to a special collection of the ASCE Journal of Computing in Civil Engineering. The 5th edition took place at IROS 2026 (September 27, 2026, Pittsburgh)."
+activities:
+  - "논문 트랙: 새로운 연구의 3–4쪽 확장 초록(IEEE 양식, 참고문헌 포함) 제출, 선택적으로 2–3분 영상"
+  - "포스터 트랙: 기존 게재 논문이나 새 연구를 포스터로 발표 (두 트랙 동시 제출 가능)"
+  - "학계·산업계 연사 강연, 패널 토론, 라이트닝 토크 참여"
+  - "회차에 따라 Hilti 건설 SLAM·NSS 챌린지 결과 발표와 시상"
+activities_en:
+  - "Paper track: submit a 3–4 page extended abstract of new work (IEEE format, references included), optionally with a 2–3 minute video"
+  - "Poster track: present a published paper or new work as a poster (you may submit to both tracks)"
+  - "Talks by academic and industry speakers, panels and lightning talks"
+  - "In some years, results and awards of the Hilti construction SLAM and NSS challenges"
+benefits:
+  - "건설 로봇 커뮤니티 핵심 연구자·기업(Hilti, XYZ Reality, Raise Robotics, Bedrock Robotics 등) 앞에서 발표"
+  - "포스터·연구상 상금 (IROS 2026 최우수 포스터 US$300·200, ICRA 2025 연구상 총 US$500과 포스터상 총 US$600)"
+  - "ASCE JCCE 특별 컬렉션 투고 초청 (선정 논문)"
+  - "채택 논문을 워크숍 사이트에 공개, 지난 논문은 IAARC에서 무료 열람"
+benefits_en:
+  - "Present in front of core researchers and companies in construction robotics (Hilti, XYZ Reality, Raise Robotics, Bedrock Robotics and others)"
+  - "Poster and research prizes (IROS 2026 best posters: US$300 and $200; ICRA 2025: US$500 in research awards and US$600 in poster awards)"
+  - "Invitation to extend selected papers for an ASCE JCCE special collection"
+  - "Accepted papers posted on the workshop site; past papers free to download from IAARC"
+commitment: "학회 약 1개월 전 OpenReview로 제출(IROS 2026: 8/31, ICRA 2025: 4/18), 채택 시 반나절–하루 워크숍 현장 발표 (포스터는 직접 인쇄)"
+commitment_en: "Submit on OpenReview about a month before the conference (IROS 2026: Aug 31; ICRA 2025: Apr 18); if accepted, present at the half-day to full-day workshop on site (bring your own printed poster)"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "누구나 제출 가능(학생 제한 없음). 논문 트랙은 게재·심사 중이 아닌 새 연구만, 포스터 트랙은 기존 논문도 가능. 비자 신청 때문에 조기 결과가 필요하면 주최 측에 요청할 수 있다고 안내. 현장 참석이 기본이며 줌 원격 시청 링크가 제공된 회차도 있음."
+  notes_en: "Anyone may submit (not limited to students). The paper track takes only new work that is not published or under review, while the poster track also accepts published papers. Authors who need an early decision for a visa application may ask the organizers. Attendance is in person, though some editions offered a Zoom link for remote viewing."
+cycle:
+  typical: "매년 ICRA(5월)나 IROS(9–10월)에 맞춰 개최 — 제출은 학회 약 1개월 전(2024: 4/12, 2025: 4/18, 2026: 8/31), 2주 뒤 통보. 6회 개최지는 아직 공지 전"
+  typical_en: "Held each year with ICRA (May) or IROS (September–October) — submissions about a month before the conference (2024: Apr 12; 2025: Apr 18; 2026: Aug 31), decisions two weeks later. The venue of the 6th edition has not been announced"
+status: upcoming
+apply_url: "https://construction-robots.github.io/"
+fit: 3
+take: "건설 로봇 연구를 로보틱스 커뮤니티에 처음 내보이기 가장 좋은 자리이니, 6회 공지가 뜨면 진행 중인 조작·인식 결과를 3–4쪽 초록이나 포스터로 내고 JCCE 특별 컬렉션 초청까지 노려라."
+take_en: "The best place to debut construction-robotics work in the robotics community — when the 6th edition is announced, submit ongoing manipulation or perception results as a 3–4 page abstract or poster and aim for the JCCE special-collection invitation."
+links:
+  home: "https://construction-robots.github.io/"
+  icra2025: "https://construction-robots.github.io/index2025.html"
+  papers: "https://www.iaarc.org/icra_workshop"
+sources:
+  - "https://construction-robots.github.io/"
+  - "https://construction-robots.github.io/index2025.html"
+  - "https://construction-robots.github.io/index2024.html"
+  - "https://www.iaarc.org/icra_workshop"
+  - "https://www.ieee-ras.org/construction-robotics/"
+last_verified: 2026-10-02

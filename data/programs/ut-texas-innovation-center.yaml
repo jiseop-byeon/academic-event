@@ -1,0 +1,61 @@
+id: ut-texas-innovation-center
+name: "Texas Innovation Center and Graduate Entrepreneurship Courses"
+organizer: "Texas Innovation Center (TXIC), Cockrell School of Engineering, The University of Texas at Austin"
+scope: ut-austin
+kind: entrepreneurship
+audience: [phd, ms]
+fields: [robotics, construction]
+summary: "UT의 공학·과학 연구를 시장으로 가져가는 Cockrell 공과대학의 창업 허브로, STEM 교수와 대학원생이 주 대상이다. ECJ–EER 연결 통로의 4,200 sq ft 코워킹 공간(대학원생 예약 가능), 기술사업화 워크숍·연사 시리즈·코칭, UT 연구 기반 스타트업을 위한 Startup-in-a-Box 상담, 교수용 개념증명(POC) 자금을 운영하며 35개 이상 스타트업(누적 투자 유치 3,500만 달러 이상)을 지원했다. 캠퍼스에는 스타트업 작업에 학점을 주는 Longhorn Startup 과목과 석·박사생 대상 Texas Venture Labs Startup Consulting Practicum도 있다."
+summary_en: "The Cockrell School's hub for taking UT engineering and science research to market, aimed mainly at STEM faculty and graduate students. It runs a 4,200 sq ft co-working space in the ECJ–EER corridor (bookable by graduate students), commercialization workshops, speaker series and coaching, Startup-in-a-Box consulting for startups built on UT research, and proof-of-concept funding for faculty, and has supported 35+ startups that raised $35M+. Elsewhere on campus, Longhorn Startup gives course credit for working on a startup, and the Texas Venture Labs Startup Consulting Practicum is open to master's and doctoral students."
+activities:
+  - "코워킹 공간 예약(평일 9–16시, UT 교수·연구자·대학원생 대상)과 Slack 커뮤니티"
+  - "기술사업화 워크숍, CEO·CTO 파이어사이드 챗, 상업화 전문가 오피스아워·코칭"
+  - "UT 연구 기반 스타트업이면 Startup-in-a-Box 상담 — IP 전략, 법인 설립, SBIR/STTR, 제품 설계, 하드웨어 양산 등"
+  - "창업 과목 — Longhorn Startup(세미나·랩, 스타트업 작업 학점 인정), Texas Venture Labs Startup Consulting Practicum(석·박사생이 스타트업 컨설팅 수행)"
+activities_en:
+  - "Book the co-working space (weekdays 9 a.m.–4 p.m., for UT faculty, researchers and graduate students) and join the Slack community"
+  - "Commercialization workshops, CEO and CTO fireside chats, office hours and coaching with commercialization experts"
+  - "Startup-in-a-Box consulting for startups based on UT research — IP strategy, incorporation, SBIR/STTR, product design, turnkey hardware manufacturing and more"
+  - "Startup courses — Longhorn Startup (seminar and lab; course credit for working on your startup) and the Texas Venture Labs Startup Consulting Practicum (master's and doctoral students consult for startups)"
+benefits:
+  - "연구 기반 창업의 단계별 지원과 동문·투자자 네트워크"
+  - "Pike Robotics(저장 탱크 검사 로봇) 같은 UT 로봇 스타트업 사례와 생태계"
+  - "CAEE Maseeh Innovation Competition 등 학과 창업 대회와의 연계"
+benefits_en:
+  - "Stage-by-stage support for research-based startups and an alumni and investor network"
+  - "An ecosystem with UT robotics startups such as Pike Robotics (storage-tank inspection robots)"
+  - "Links to department competitions such as the CAEE Maseeh Innovation Competition"
+commitment: "자율 — 행사·공간 이용은 수시, 창업 과목은 한 학기"
+commitment_en: "Flexible — events and the space as needed; startup courses take a semester"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "주 대상은 STEM 교수·대학원생이며 국적 제한 언급 없음. 코워킹 공간은 UT 교수·연구자·대학원생이 예약해 사용. Startup-in-a-Box는 UT의 진행 중인 연구에서 나온 스타트업·기술만 이용 가능. POC 자금(최대 $25,000)은 UT 교수·연구자 대상."
+  notes_en: "Aimed at STEM faculty and graduate students; no nationality restriction is mentioned. UT faculty, researchers and graduate students can reserve the co-working space. Startup-in-a-Box is only for startups and technologies based on active UT research. Proof-of-concept funding (up to $25,000) is for UT faculty and researchers."
+cycle:
+  typical: "연중 운영 — 행사는 수시 공지(2026년 10월 2일 기준 예정 행사 없음), 교수용 POC 자금은 봄 학기 공모(2026년 사전신청 2월 9일 마감)"
+  typical_en: "Year-round — events are announced as scheduled (none listed as of October 2, 2026); faculty proof-of-concept funding opens each spring (2026 pre-applications were due February 9)"
+status: ongoing
+apply_url: "https://texasinnovationcenter.utexas.edu/"
+fit: 2
+take: "건설 로봇 연구가 제품화에 가까워지면 Startup-in-a-Box 상담과 코워킹 공간을 쓰고, 그 전에는 Longhorn Startup이나 Texas Venture Labs 실습 과목으로 고객 검증 감각을 익혀 두라."
+take_en: "When construction-robotics work nears a product, use Startup-in-a-Box consulting and the co-working space; before that, build customer-validation instincts in Longhorn Startup or the Texas Venture Labs practicum."
+links:
+  home: "https://texasinnovationcenter.utexas.edu/"
+  spaces: "https://texasinnovationcenter.utexas.edu/about/our-spaces"
+  startup_in_a_box: "https://texasinnovationcenter.utexas.edu/startup-resources/startup-in-a-box"
+  events: "https://texasinnovationcenter.utexas.edu/programming/events"
+  texas_venture_labs: "https://www.mccombs.utexas.edu/centers-initiatives/brumley-institute/"
+  cockrell_entrepreneurship: "https://cockrell.utexas.edu/student-life/entrepreneurship/"
+sources:
+  - "https://texasinnovationcenter.utexas.edu/"
+  - "https://texasinnovationcenter.utexas.edu/about/our-spaces"
+  - "https://texasinnovationcenter.utexas.edu/startup-resources/startup-in-a-box"
+  - "https://texasinnovationcenter.utexas.edu/startup-resources/funding"
+  - "https://texasinnovationcenter.utexas.edu/programming"
+  - "https://texasinnovationcenter.utexas.edu/programming/events"
+  - "https://cockrell.utexas.edu/research/innovation-center/"
+  - "https://cockrell.utexas.edu/student-life/entrepreneurship/"
+  - "https://www.mccombs.utexas.edu/centers-initiatives/brumley-institute/"
+last_verified: 2026-10-02

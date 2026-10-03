@@ -1,0 +1,52 @@
+id: embodied-ai-workshop-challenges
+name: "Embodied AI Workshop Challenges (CVPR)"
+organizer: "Embodied AI Workshop organizers at the IEEE/CVF CVPR conference"
+scope: us
+kind: competition
+audience: [phd, ms, bs]
+fields: [physical-ai, manipulation, vision, robotics]
+summary: "CVPR에서 매년 열리는 Embodied AI 워크숍(2026년 7회, 덴버)의 벤치마크 챌린지와 2쪽 초록 포스터 세션으로, 비전·언어·그래픽스·로보틱스 연구자가 체화 지능 에이전트를 다룬다. 2026년 주제는 '체화 AI를 위한 월드 모델'이었고, 언어 지시 조작(ARNOLD), 시각-촉각 융합 양팔 조작(ManiSkill-ViTac), 데스크톱·모바일 조작(ManipArena) 등의 챌린지가 열려 각 1위에게 상금이 주어졌다. 2027년(8회 예상)은 CVPR 2027(시애틀, 6/20–25)에 맞춰 열릴 전망이다."
+summary_en: "The benchmark challenges and 2-page-abstract poster session of the Embodied AI Workshop held at CVPR every year (7th edition in Denver, 2026), where vision, language, graphics and robotics researchers meet on embodied agents. The 2026 theme was world models for embodied AI, with challenges including language-grounded manipulation (ARNOLD), vision–tactile bimanual manipulation (ManiSkill-ViTac) and desktop and mobile manipulation (ManipArena), each first-prize winner receiving a cash prize. The 2027 edition (expected to be the 8th) should follow CVPR 2027 (Seattle, June 20–25)."
+activities:
+  - "챌린지별 웹사이트에서 데이터·시뮬레이터(Isaac Sim 등) 또는 실물 로봇 평가로 참가, 5–6월 결과 제출"
+  - "2쪽 확장 초록(CVPR 양식, 비아카이브)을 내 포스터·스포트라이트 발표"
+  - "워크숍 당일 우승 방법 발표와 초청 강연·패널 참여"
+activities_en:
+  - "Enter a challenge through its own site using the provided data and simulators (such as Isaac Sim) or real-robot evaluation, with submissions in May–June"
+  - "Submit a 2-page extended abstract (CVPR format, non-archival) for a poster or spotlight talk"
+  - "Winning-method presentations, invited talks and panels on workshop day"
+benefits:
+  - "챌린지 1위 상금 (Logical Robotics 등 후원, 금액은 회차별)"
+  - "우승팀의 워크숍 발표 기회와 CVPR 커뮤니티 노출"
+  - "비아카이브 초록이라 이후 학회·저널 투고에 제약 없음"
+benefits_en:
+  - "Cash prizes for first-place challenge winners (sponsored by Logical Robotics and others; amounts vary)"
+  - "Winners may present at the workshop, with visibility in the CVPR community"
+  - "Abstracts are non-archival, so the work can still go to a conference or journal later"
+commitment: "챌린지별 일정에 따라 원격 개발·제출(결과 마감은 보통 5–6월); 초록 채택 시 저자 1명 이상 CVPR 현장 등록 필요"
+commitment_en: "Remote development and submissions on each challenge's schedule (results usually due in May–June); if an abstract is accepted, at least one author must register for CVPR in person"
+location: {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "챌린지·초록 모두 소속·국적 제한 언급 없음 — 챌린지별 세부 규정은 각 사이트 확인. 초록 채택 시 CVPR 규정상 저자 1명 이상이 현장 등록해야 하며, 초록은 익명화하지 않아도 됨."
+  notes_en: "Neither the challenges nor the abstracts mention affiliation or nationality limits — check each challenge's own rules. Under CVPR rules at least one author of an accepted abstract must register in person; abstracts need not be anonymized."
+cycle:
+  typical: "매년 CVPR(6월) 워크숍 — 챌린지 결과 제출 5–6월, 2쪽 초록 마감 5월 중·하순(2025: 5/23, 2026: 5/15), 워크숍 당일 시상. 워크숍 공지는 2–3월(2025: 3/31, 2026: 2/2)"
+  typical_en: "A CVPR (June) workshop every year — challenge submissions in May–June, 2-page abstracts due in mid-to-late May (2025: May 23; 2026: May 15), awards on workshop day. The workshop is announced in February or March (2025: Mar 31; 2026: Feb 2)"
+  deadlines:
+    - {kind: application, date: 2027-05-21, estimated: true, label: "2쪽 초록 제출 마감 (예상, 5월 중·하순) — 챌린지 마감은 대회별", label_en: "2-page abstract deadline (expected, mid-to-late May) — challenge deadlines vary"}
+    - {kind: event, date: 2027-06-20, label: "CVPR 2027 개막 (시애틀, 6/20–25) — 워크숍은 학회 기간 중", label_en: "CVPR 2027 opens (Seattle, Jun 20–25) — the workshop is held during the conference"}
+status: upcoming
+apply_url: "https://embodied-ai.org/"
+fit: 2
+take: "시각-촉각 조작 같은 챌린지는 contact-rich 조작 연구와 바로 이어지니, 2027년 2–3월 공지가 나오면 조작 계열 챌린지 하나를 골라 연구실 정책으로 벤치마크 결과를 내고 2쪽 초록도 함께 제출하라."
+take_en: "Challenges such as vision–tactile manipulation connect directly to contact-rich manipulation research — when the 2027 call appears around February–March 2027, pick one manipulation challenge, post a benchmark result with your lab's policy and submit a 2-page abstract too."
+links:
+  home: "https://embodied-ai.org/"
+  cvpr2026: "https://embodied-ai.org/cvpr2026/"
+sources:
+  - "https://embodied-ai.org/cvpr2026/"
+  - "https://embodied-ai.org/cvpr2025/"
+  - "https://cvpr.thecvf.com/Conferences/2027"
+last_verified: 2026-10-02

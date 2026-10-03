@@ -1,0 +1,50 @@
+id: ut-maseeh-innovation-competition
+name: "Maseeh Innovation Competition"
+organizer: "Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering (CAEE) with the Texas Innovation Center, The University of Texas at Austin"
+scope: ut-austin
+kind: competition
+audience: [phd, ms, bs]
+fields: [construction, transportation]
+summary: "CAEE가 Texas Innovation Center와 함께 2025–26학년도에 처음 연 다단계 창업 경진대회로, CAEE 학생이 McCombs 경영대 학생 등 캠퍼스 협력자와 팀을 이뤄 인프라 문제를 푸는 기술을 사업으로 발전시킨다. 가을 정보 세션·피칭·네트워킹 행사로 팀을 꾸리고, 1라운드(짧은 영상과 요약서)에서 결선 4팀을 골라 고객 발굴 자금 $1,000씩을 준 뒤, 3월 결선 라이브 피칭(투자자·창업가·교수 심사)에서 우승팀에 $6,000을 시상했다."
+summary_en: "A multi-stage startup competition that CAEE launched with the Texas Innovation Center in 2025–26: CAEE students team up with McCombs business students and other collaborators across campus to turn technologies for infrastructure problems into ventures. Teams form at fall information sessions and pitch and networking events; Round 1 (a short video and an executive summary) picks four finalists, who each receive $1,000 for customer discovery before the live final pitch in March to judges from venture capital, entrepreneurship and the faculty; the 2026 winner took $6,000."
+activities:
+  - "가을 정보 세션과 학생·교수 피칭·네트워킹 행사에서 팀 구성 (CAEE·McCombs 등 학제 간)"
+  - "1라운드: 짧은 영상과 executive summary 제출"
+  - "결선 진출 시 고객 발굴 자금 $1,000으로 시장 검증 후 투자자·창업가·동문 심사위원 앞에서 라이브 피칭"
+activities_en:
+  - "Form a team at the fall information session and the student and faculty pitch and networking events (CAEE, McCombs and other schools)"
+  - "Round 1: submit a short video and an executive summary"
+  - "As a finalist, use $1,000 for customer discovery, then pitch live to investors, entrepreneurs and alumni judges"
+benefits:
+  - "상금(2026년 우승 $6,000)과 멘토링"
+  - "교수·동문·산업계 리더·투자자와의 네트워킹 (2026년 심사위원에 National Instruments 공동창업자, Longhorn Ventures 관계자 등)"
+  - "연구 기술을 고객·시장 관점에서 정리하는 경험 — 우승팀은 SBIR 지원 등 다음 단계로 연결"
+benefits_en:
+  - "Prize money (2026 winner: $6,000) and mentorship"
+  - "Networking with faculty, alumni, industry leaders and investors (2026 judges included a National Instruments co-founder and a Longhorn Ventures representative)"
+  - "Practice framing research technology for customers and markets — the 2026 winners moved on to SBIR applications"
+commitment: "가을부터 이듬해 3월까지 몇 주 간격의 행사 — 정보 세션, 피칭 행사, 1라운드 제출, 결선 피칭"
+commitment_en: "Events spread from fall to March — information session, pitch events, the Round 1 submission and the final pitch"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "CAEE 학생(학부·대학원)과 교수가 중심이며 McCombs 등 다른 단과대 학생과 팀 구성 가능. 2026년 결선에는 학부생 팀과 교수·대학원생·박사후연구원 팀이 함께 올랐음. 국적 제한 언급 없음. 프로그램 책임: Javad Mohammadi 교수(CAEE)."
+  notes_en: "Built around CAEE students (undergraduate and graduate) and faculty, with teammates from McCombs and other schools welcome. The 2026 finalists ranged from undergraduate teams to teams of faculty, graduate students and postdocs. No nationality restriction is mentioned. Program lead: Professor Javad Mohammadi (CAEE)."
+cycle:
+  typical: "첫 회(2025–26): 가을 킥오프·네트워킹, 1라운드로 결선 4팀 선정, 2026년 3월 26일 결선 피칭 — 2026–27년 일정은 아직 공지되지 않음"
+  typical_en: "First edition (2025–26): fall kickoff and networking, four finalists chosen in Round 1, final pitch on March 26, 2026 — the 2026–27 schedule has not been announced"
+status: upcoming
+apply_url: "https://caee.utexas.edu/events/maseeh-innovation-competition/"
+fit: 2
+take: "연구실 기술을 건설·인프라 현장의 제품으로 풀어 보는 학과 내부 기회이니, 가을 정보 세션이 공지되면 McCombs 학생과 팀을 꾸려 1라운드 영상·요약서부터 준비하라."
+take_en: "An in-department chance to turn lab technology into a product for construction and infrastructure sites — when the fall information session is announced, team up with McCombs students and start on the Round 1 video and executive summary."
+links:
+  home: "https://caee.utexas.edu/events/maseeh-innovation-competition/"
+  news_2026_finals: "https://caee.utexas.edu/news/tx-filter-takes-home-inaugural-maseeh-innovation-competition-prize/"
+  texas_innovation_center: "https://texasinnovationcenter.utexas.edu/"
+sources:
+  - "https://caee.utexas.edu/events/maseeh-innovation-competition/"
+  - "https://caee.utexas.edu/news/a-new-civil-engineering-startup-ecosystem-takes-shape/"
+  - "https://caee.utexas.edu/news/tx-filter-takes-home-inaugural-maseeh-innovation-competition-prize/"
+last_verified: 2026-10-02

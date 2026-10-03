@@ -1,0 +1,51 @@
+id: ut-hacktx
+name: "HackTX"
+organizer: "Freetail Hackers (student organization at The University of Texas at Austin)"
+scope: ut-austin
+kind: competition
+audience: [phd, ms, bs]
+fields: [ml]
+summary: "UT Austin 학생 단체 Freetail Hackers가 매년 여는 24시간 해커톤으로, 전국의 학생이 오스틴에 모여 현장에서 프로젝트를 만들고 데모한다. 경험·전공과 무관하게 참가할 수 있고 참가비는 무료(와이파이·식사·기념품·작업 공간·상금 제공)이며, 팀은 최대 4명(현장 팀 매칭)이다. HackTX 26은 2026년 10월 24일 8시부터 25일 17시까지 UT 캠퍼스에서 대면으로 열린다 — 사전 지원은 9월 11일 마감됐지만 당일 선착순 현장 등록이 있고, 멘토와 자원봉사자도 모집한다."
+summary_en: "A 24-hour hackathon run every year by the UT Austin student organization Freetail Hackers, where students from across the country come to Austin to build and demo projects on site. No experience is required and all majors are welcome; it is free (Wi-Fi, meals, swag, workspace and prizes provided), with teams of up to four and team matching on the day. HackTX 26 runs from 8 a.m. October 24 to 5 p.m. October 25, 2026, in person on the UT campus — applications closed September 11, but there is first-come walk-in registration on the day, and mentors and volunteers are recruited too."
+activities:
+  - "해커로 참가 — 24시간 동안 현장에서 만든 프로젝트를 데모·심사 (챌린지별 상금, 미니 이벤트)"
+  - "멘토로 참여 — 학생 질문에 답하고 워크숍 제안"
+  - "자원봉사자로 행사 운영 지원"
+activities_en:
+  - "Compete as a hacker — demo a project built on site within 24 hours (challenge prizes and mini-events)"
+  - "Mentor — answer student questions and suggest workshops"
+  - "Volunteer to help run the event"
+benefits:
+  - "짧은 시간에 프로토타입을 완성하는 경험과 상금"
+  - "타 대학 학생·후원 기업과의 네트워킹"
+  - "대학원생에게 맞는 멘토 경험"
+benefits_en:
+  - "Practice finishing a prototype fast, plus prizes"
+  - "Networking with students from other universities and sponsor companies"
+  - "Mentoring experience suited to graduate students"
+commitment: "주말 이틀(10월 24일 8시–25일 17시), 멘토·자원봉사는 일부 시간만 가능"
+commitment_en: "One weekend (8 a.m. October 24 to 5 p.m. October 25); mentors and volunteers can give part of the time"
+cost: {value: 0, currency: USD, note: "참가 무료(식사·와이파이·기념품 제공), 교통비 지원 없음", note_en: "Free (meals, Wi-Fi and swag provided); no travel reimbursement"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "대학생이면 전공·경력 무관(유효한 대학 학생증과 만 18세 이상임을 증명하는 신분증 지참), 국적 제한 언급 없음. 모든 참가자는 MLH 행동강령 준수. 사전 지원을 놓쳤다면 당일 선착순 현장 등록(정원 도달 시 마감)."
+  notes_en: "Open to university students of any major or experience level (bring a valid university ID and an ID showing you are 18 or older); no nationality restriction is mentioned. Everyone follows the MLH Code of Conduct. If you missed the application, walk-in registration on the day is first come, first served until capacity."
+cycle:
+  typical: "매년 가을 — 8월 말 지원 시작, 9월 중순 마감, 10월 하순 주말 개최 (2026년: 8월 25일 시작, 9월 11일 마감, 10월 24–25일)"
+  typical_en: "Every fall — applications open in late August and close in mid-September, with the event on a late-October weekend (2026: opened August 25, closed September 11, event October 24–25)"
+  deadlines:
+    - {kind: event, date: 2026-10-24, label: "HackTX 26 (10월 24일 8시–25일 17시, UT 캠퍼스, 당일 현장 등록 가능)", label_en: "HackTX 26 (8 a.m. Oct 24 – 5 p.m. Oct 25, UT campus; walk-in registration on the day)"}
+status: upcoming
+apply_url: "https://hacktx.com/"
+fit: 1
+take: "건설 로봇 연구와 직접 관련은 적으니 참가자보다는 멘토로 하루 참여해 학부생 인맥과 빠른 프로토타이핑 감각을 얻는 정도로 활용하라."
+take_en: "Little direct link to construction-robotics research — join for a day as a mentor to meet undergraduates and keep fast-prototyping instincts rather than competing."
+links:
+  home: "https://hacktx.com/"
+  mentor_volunteer: "https://rodeo.freetailhackers.com/"
+  freetail_hackers: "https://freetailhackers.com"
+sources:
+  - "https://hacktx.com/"
+last_verified: 2026-10-02

@@ -1,0 +1,55 @@
+id: ut-ieee-ras
+name: "IEEE Robotics and Automation Society (RAS) — UT Austin Student Chapter"
+organizer: "UT IEEE RAS student organization (based in the Chandra Family Department of Electrical and Computer Engineering)"
+scope: ut-austin
+kind: student-org
+audience: [bs, ms, phd]
+fields: [robotics, navigation]
+summary: "1997년부터 ECE 학과를 거점으로 활동해 온 UT의 대표 로보틱스 학생 단체로, 7개 전공 100명 이상의 학생이 연구실 실습, 로봇 대회, 지역 홍보 활동을 한다. VEX U 팀(VEX AI 로보틱스 대회 2024·2025 세계 챔피언), RoboMaster 팀, 데모 로봇을 만드는 Demobots, 입문자용 Robotathon이 있으며, 전공·경험과 무관하게 언제든 가입할 수 있다(EER 0.822C)."
+summary_en: "UT's flagship robotics student organization, based in the ECE department since 1997: 100+ students from seven majors gain hands-on lab experience, compete in robotics competitions and do community outreach. It runs a VEX U team (VEX AI Robotics Competition world champion in 2024 and 2025), a RoboMaster team, Demobots (demo robots) and the beginner-friendly Robotathon, and anyone can join at any time regardless of major or experience (EER 0.822C)."
+activities:
+  - "VEX U·VEX AI 대회팀, RoboMaster 팀, 데모 로봇(Demobots: 체스봇·암봇·폴라그래프 등) 제작"
+  - "입문자용 Robotathon 참가 또는 운영 지원"
+  - "기업 파트너 테크톡·워크숍·친목 행사"
+activities_en:
+  - "VEX U and VEX AI competition teams, the RoboMaster team, and Demobots builds (chessbot, armbot, polargraph and others)"
+  - "Take part in or help run the beginner-friendly Robotathon"
+  - "Corporate partner tech talks, workshops and social events"
+benefits:
+  - "로봇에 열정 있는 학부생들과 만나는 통로 — 멘토링·테크톡 기회"
+  - "대회용 자율 로봇 하드웨어·소프트웨어 실전 경험"
+  - "경험이 없어도 환영하는 열린 커뮤니티와 Discord 채널"
+benefits_en:
+  - "A way to meet undergraduates passionate about robots — mentoring and tech-talk opportunities"
+  - "Hands-on experience with competition autonomous-robot hardware and software"
+  - "An open community that welcomes beginners, with Discord channels"
+commitment: "자율 — 위원회·대회 일정에 따라 다름"
+commitment_en: "Flexible — depends on the committee and competition schedule"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "전공·배경·경험과 무관하게 언제든 가입 가능(회원·출석·티셔츠 양식 작성), 국적 제한 언급 없음. 주로 학부생이 활동하는 단체라 대학원생은 멘토·연사 역할이 현실적. 비슷한 단체로 ECLAIR(학생 주도 로봇·AI 프로젝트 비용을 전액 지원)와 Texas Marine Robotics(자율 수상정 대회팀)가 있음."
+  notes_en: "Anyone can join at any time regardless of major, background or experience (fill in the membership, attendance and T-shirt form); no nationality restriction is mentioned. Members are mostly undergraduates, so mentoring or giving talks is the realistic role for graduate students. Similar groups: ECLAIR (covers all costs of student-led robotics and AI projects) and Texas Marine Robotics (autonomous surface vessel team)."
+cycle:
+  typical: "연중 가입 — 학기 초 위원회 킥오프, 가을 학기 Robotathon(과거 9월 시작·12월 마무리), 봄 대회 시즌"
+  typical_en: "Join any time — committee kickoffs at the start of each semester, the fall Robotathon (in past years launched in September and wrapped up in December), and spring competition season"
+status: ongoing
+apply_url: "http://ras.ece.utexas.edu/join.html"
+fit: 1
+take: "학부생 중심 단체라 직접 활동보다는 멘토나 테크톡 연사로 참여해 로봇에 열정 있는 학부생을 만나는 통로로 쓰라."
+take_en: "An undergraduate-centered group — rather than competing, join as a mentor or tech-talk speaker to meet undergraduates who are passionate about robots."
+links:
+  home: "http://ras.ece.utexas.edu/"
+  hornslink: "https://utexas.campuslabs.com/engage/organization/ieeeroboticsandautomationsociety"
+  github: "https://github.com/ut-ras"
+  eclair: "https://utexas.campuslabs.com/engage/organization/eclair"
+sources:
+  - "http://ras.ece.utexas.edu/"
+  - "http://ras.ece.utexas.edu/join.html"
+  - "http://ras.ece.utexas.edu/support.html"
+  - "http://ras.ece.utexas.edu/blog.html"
+  - "https://utexas.campuslabs.com/engage/organization/ieeeroboticsandautomationsociety"
+  - "https://utexas.campuslabs.com/engage/organization/eclair"
+  - "https://robotics.utexas.edu/news"
+last_verified: 2026-10-02

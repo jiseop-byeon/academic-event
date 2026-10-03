@@ -1,0 +1,55 @@
+id: eeml
+name: "Eastern European Machine Learning Summer School (EEML)"
+organizer: "EEML organizing committee (Diamond sponsor in 2024–2025: Google DeepMind)"
+scope: international
+kind: summer-school
+audience: [phd, ms, bs]
+fields: [ml]
+summary: "매년 7월 동유럽 도시를 옮겨 가며 열리는 딥러닝·강화학습 여름학교로, 기초부터 최신 주제까지 강의와 Colab 실습, 포스터 세션을 일주일간 진행한다. 지역 ML 커뮤니티를 알리려 동유럽에서 열리지만 전 세계 누구나 지원할 수 있고 합격률은 30% 미만이다. 2026년은 7/27–8/1 몬테네그로 체티녜, 2025년은 사라예보, 2024년은 노비사드에서 열렸다."
+summary_en: "A deep-learning and reinforcement-learning summer school held each July in a different Eastern European city, with a week of lectures from fundamentals to current topics, Colab labs and poster sessions. It is located in Eastern Europe to raise the visibility of local ML communities, but anyone worldwide may apply, and the acceptance rate is below 30%. 2026 was in Cetinje, Montenegro (Jul 27–Aug 1), 2025 in Sarajevo and 2024 in Novi Sad."
+activities:
+  - "딥러닝·강화학습 강의와 Python(JAX·PyTorch) Colab 실습"
+  - "지원 시 낸 연구·재현 프로젝트를 포스터로 발표 (선정자)"
+  - "연사·참가자와의 소셜 이벤트"
+activities_en:
+  - "Lectures on deep learning and reinforcement learning, with Python (JAX, PyTorch) labs in Colab"
+  - "Present the research or reproduction project from your application as a poster (if selected)"
+  - "Social events with speakers and participants"
+benefits:
+  - "Google DeepMind 등 정상급 연구자에게 듣는 DL·RL 집중 과정"
+  - "강의·실습 시간이 적힌 수료증 (ECTS 학점 산정용)"
+  - "경제적 필요에 따른 여행 지원 — 등록비 면제와 여행비 전액·일부, 필요 시 대학 기숙사 숙박"
+benefits_en:
+  - "An intensive DL and RL course from top researchers, including Google DeepMind"
+  - "A certificate listing lecture and lab hours (usable for ECTS credits)"
+  - "Need-based travel grants — registration waived and travel fully or partly covered, with university-dorm lodging if needed"
+commitment: "3월 말까지 확장 초록(연구·재현·논문 리뷰 등 택1)과 지원서 제출, 선정 시 7월 6일간 현장 참가"
+commitment_en: "An extended abstract (research, reproduction, paper review or similar options) and application by the end of March; if selected, six days on site in July"
+cost: {value: 100, currency: EUR, note: "2026 student registration fee (postdoc/faculty €150, industry €400), covering lectures, labs, most meals and social events; travel and lodging extra unless a travel grant is awarded"}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "만 18세 이상이면 지역·학생 여부와 무관하게 누구나 지원 가능하며 학생을 어느 정도 우선. 파이썬 경험과 선형대수·확률·기초 ML 지식을 기대함. 여행 지원은 성적이 아닌 재정 상황만으로 판단. 몬테네그로 등 개최국 입국 비자 필요 여부는 국적별로 확인."
+  notes_en: "Anyone 18 or older may apply regardless of location or student status, with some priority for students. Python experience and basic linear algebra, probability and ML are expected. Travel grants are decided on financial need only, not merit. Check whether your nationality needs a visa for the host country."
+cycle:
+  typical: "매년 3/31 전후 지원 마감(2025: 3/31→4/7 연장, 2026: 3/31 AoE), 5월 초·중순 통보, 6월 중순 등록, 7월 개최"
+  typical_en: "Applications close around March 31 each year (2025: Mar 31, extended to Apr 7; 2026: Mar 31 AoE), notification in early-to-mid May, registration from mid-June, school in July"
+  deadlines:
+    - {kind: application, date: 2027-03-31, estimated: true, label: "EEML 2027 지원 마감 (예상)", label_en: "EEML 2027 application deadline (expected)"}
+status: upcoming
+apply_url: "https://www.eeml.eu/"
+fit: 2
+take: "로봇 학습의 바탕인 딥러닝·강화학습을 일주일에 다지기 좋고 학생 등록비가 €100로 저렴하니, 2027년 3월 말(예상) 마감에 맞춰 재현 프로젝트 초록으로 지원하라."
+take_en: "A good week to firm up the deep learning and RL behind robot learning, with a low €100 student fee — apply by the expected end-of-March 2027 deadline with a reproduction-project abstract."
+links:
+  home: "https://www.eeml.eu/"
+  faq: "https://www.eeml.eu/faq"
+sources:
+  - "https://www.eeml.eu/"
+  - "https://www.eeml.eu/faq"
+  - "https://www.eeml.eu/registration"
+  - "https://www.eeml.eu/application"
+  - "https://www.eeml.eu/previous-editions/eeml2025/application"
+  - "https://www.eeml.eu/previous-editions/eeml2025"
+  - "https://www.eeml.eu/previous-editions/eeml2024"
+last_verified: 2026-10-02

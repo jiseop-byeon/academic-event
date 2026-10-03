@@ -1,0 +1,56 @@
+id: ieee-ras-student-membership
+name: "IEEE RAS Student Membership and Student Activities Committee (SAC)"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+scope: international
+kind: society
+audience: [phd, ms, bs]
+fields: [robotics, manipulation, navigation, physical-ai, hri]
+summary: "회원 1만 9천여 명의 로보틱스 대표 학회 IEEE RAS의 학생회원 제도와, 학생 활동을 맡는 Student Activities Committee(SAC)다. 회원은 T-RO·RA-L·T-ASE·RA Magazine 온라인 열람, 40개국 이상의 지역 챕터와 40여 개 기술위원회(TC) 참여 기회를 얻고, SAC는 ICRA·IROS·CASE에서 Lunch with Leaders 같은 학생 전용 행사를 연다. RAS 학회 트래블 그랜트와 Young Reviewers Program도 이 회원 자격과 연결된다."
+summary_en: "The student membership of IEEE RAS, robotics' main society with over 19,000 members, and its Student Activities Committee (SAC). Members get online access to T-RO, RA-L, T-ASE and RA Magazine, local chapters in 40+ countries and 40+ technical committees, while SAC runs student events such as Lunch with Leaders at ICRA, IROS and CASE. RAS conference travel grants and the Young Reviewers Program also build on this membership."
+activities:
+  - "ICRA·IROS·CASE의 SAC 행사: Lunch with Leaders, 학생 전용 커피 브레이크·소셜, Student's Evening, 사진 스캐빈저 헌트"
+  - "RAS 이사회(산업·출판·학회 활동 등)에서 학생 리에종으로 봉사 (공석 발생 시 공고)"
+  - "RAS Day 온라인 콘테스트(영상·사진·로고)와 분기별 Virtual Meetup Program"
+  - "지역 RAS 챕터·기술위원회 활동 참여"
+activities_en:
+  - "SAC events at ICRA, IROS and CASE: Lunch with Leaders, student coffee breaks and socials, the Student's Evening and a photo scavenger hunt"
+  - "Serve as a student liaison on RAS boards such as industrial, publications and conference activities (announced when positions open)"
+  - "RAS Day online contests (video, photo, logo) and the quarterly Virtual Meetup Program"
+  - "Join local RAS chapters and technical committees"
+benefits:
+  - "T-RO·T-ASE·RA-L·RA Magazine 온라인 열람, RAS Resource Center(강연·웨비나 영상)"
+  - "RAS Member Support Program 트래블 그랜트(ICRA·IROS·CASE) 지원 자격"
+  - "로보틱스 학계·산업계 리더와의 네트워킹, 진로·인턴십 정보"
+benefits_en:
+  - "Online access to T-RO, T-ASE, RA-L and RA Magazine, plus the RAS Resource Center (lectures and webinars)"
+  - "Eligibility for RAS Member Support Program travel grants (ICRA, IROS, CASE)"
+  - "Networking with robotics leaders in academia and industry, plus career and internship information"
+commitment: "연회비 납부 후 활동은 자율 — 학회 기간 SAC 행사 참석이나 온라인 콘테스트·밋업 참여"
+commitment_en: "Pay annual dues; participation is up to you — SAC events at conferences or online contests and meetups"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "무료 IEEE 계정을 만든 뒤 IEEE 사이트에서 RAS 회원으로 가입 — 회비와 IEEE 회원 동반 가입 조건은 IEEE 사이트 기준. 국적 제한 언급 없음(전 세계 회원). RAS 트래블 그랜트(MSP)는 RAS 회원인 학생 또는 개발도상국 회원이 해당 학회에서 채택 논문을 발표할 때만 신청 가능."
+  notes_en: "Create a free IEEE account, then join RAS through the IEEE site — dues and any requirement to hold IEEE membership as well are as listed there. No nationality restriction mentioned (members worldwide). RAS travel grants (MSP) are only for RAS members who are students or from developing countries and are presenting an accepted paper at the conference."
+cycle:
+  typical: "연중 가입·매년 갱신 — SAC 행사는 ICRA(5–6월)·IROS(9–10월)·CASE 기간에 열림"
+  typical_en: "Join any time and renew yearly — SAC events take place at ICRA (May–June), IROS (September–October) and CASE"
+  deadlines:
+    - {kind: event, date: 2027-05-24, label: "ICRA 2027 (서울, 5/24–28) — SAC 학생 행사", label_en: "ICRA 2027 (Seoul, May 24–28) — SAC student events"}
+status: rolling
+apply_url: "https://www.ieee-ras.org/membership/"
+fit: 3
+take: "ICRA·IROS 트래블 그랜트, Young Reviewers Program, 건설로봇 기술위원회 활동이 모두 RAS 회원 자격에 묶여 있으니, 첫 논문 투고 전에 RAS 학생회원으로 가입해 두는 것이 가장 기본적인 준비다."
+take_en: "ICRA/IROS travel grants, the Young Reviewers Program and construction-robotics TC activities all build on RAS membership — joining as a student member before your first submission is the most basic step."
+links:
+  home: "https://www.ieee-ras.org/students/"
+  membership: "https://www.ieee-ras.org/membership/"
+  virtual_meetup: "https://www.ieee-ras.org/students/virtual-meetup-program/"
+sources:
+  - "https://www.ieee-ras.org/students/"
+  - "https://www.ieee-ras.org/membership/"
+  - "https://www.ieee-ras.org/students/virtual-meetup-program/"
+  - "https://www.ieee-ras.org/membership/member-support-program/"
+  - "https://2026.ieee-icra.org/ras-events/"
+  - "https://www.ieee-ras.org/technical-committees/how-to-join-a-ras-technical-committee/"
+last_verified: 2026-10-02

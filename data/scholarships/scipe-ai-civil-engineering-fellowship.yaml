@@ -1,0 +1,54 @@
+id: scipe-ai-civil-engineering-fellowship
+name: "SCIPE AI in Civil Engineering Graduate Student Fellowship"
+organizer: "Chishiki-AI — UT Austin and TACC with Cornell (NSF award 2321040)"
+org_type: university
+type: fellowship
+fields: [construction, ml, robotics, vision]
+amount:
+  summary: "1년 장학금 $37,000(2회 분할) + 등록금 최대 $12,000 + 학회 발표·오스틴 방문 출장비"
+  summary_en: "$37,000 stipend for one year (two installments), up to $12,000 tuition, and travel to present at a conference and to visit Austin"
+  value: 37000
+  max: 49000
+  currency: USD
+  unit: year
+  covers: ["stipend", "tuition", "travel"]
+  estimated: false
+duration: "1년 (6월 1일 시작), 여름 TACC 레지던시 최소 1주"
+duration_en: "One year starting June 1, with at least one week of summer residency at TACC"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국 대학에 재학하며 미국에서 공부하는 박사과정생"
+  where_enrolled_en: "PhD students enrolled at a US institution and studying in the US"
+  stage: "3월 기준 대학원 1학년(정규 2학기)을 마쳤고 6월 기준 1년 이상 남아 있어야 함"
+  stage_en: "Completed one academic year (two full semesters) of graduate study by March, with at least one year left as of June"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "시민권과 무관하게 지원 가능(FAQ 명시). 연 1–3명 선발, 평생 1회 수혜. 지도교수가 연구 계획을 확인해야 함. NSF 지원이 2028년 8월 31일에 끝나 2027–28년 펠로십이 마지막 회차일 수 있음. 응용 예시에 건설 자동화와 극한 환경 로보틱스가 명시됨."
+  notes_en: "Open regardless of citizenship (stated in the FAQ). One to three awards a year; one award per person. The research advisor must affirm the research plan. The NSF award ends August 31, 2028, so the 2027–28 fellowship may be the last round. Automation in construction and robotics in extreme environments are listed as example application areas."
+requirements: ["개인·연구 기술서 (합계 3쪽 이내)", "추천서 2부 (1부는 연구 지도교수)", "NSF ETAP으로 온라인 제출"]
+requirements_en: ["Personal and research statements (3 pages total)", "Two letters of recommendation (one from the research advisor)", "Online submission through NSF ETAP"]
+nomination: false
+awards_per_year: "1–3명"
+cycle:
+  typical: "12월 초 접수 시작, 2–3월 마감(2025년 2월 7일, 2026년 3월 19일 23:59 ET), 4월 말 발표, 6월 1일 시작"
+  typical_en: "Applications open in early December and close in February–March (February 7, 2025; March 19, 2026 at 23:59 ET); fellows are announced at the end of April and start June 1"
+  deadlines:
+    - {kind: application, date: 2027-02-07, label: "2027–28 펠로십 마감 (미발표 — 과거 2/7·3/19 중 이른 날짜로 추정)", label_en: "2027–28 fellowship deadline (not announced — estimated from the earlier of the past dates, Feb 7 / Mar 19)", estimated: true}
+    - {kind: result, date: 2027-04-30, label: "선정 발표 (추정)", label_en: "Fellows announced (estimated)", estimated: true}
+status: upcoming
+apply_url: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+fit: 3
+take: "토목 박사생이 건설 자동화·로보틱스 AI로 받을 수 있는 드문 유학생 지원 가능 펠로십 — NSF 지원이 2028년 8월에 끝나 2027–28년이 마지막일 수 있으니, 3월 기준 2학기 이수 조건을 확인하고 12월 공고에 맞춰 지도교수 추천서를 미리 부탁해 두자."
+take_en: "A rare fellowship open to international PhD students for AI in construction automation and robotics within civil engineering — the NSF award ends in August 2028, so 2027–28 may be the last round; check the two-semesters-by-March rule and line up your advisor's letter before the December call."
+links:
+  home: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+  faq: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/faq"
+  community: "https://www.chishiki-ai.org/"
+sources:
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/faq"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/fellowship-application-instructions"
+  - "https://www.chishiki-ai.org/awardees/"
+  - "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321040"
+last_verified: 2026-10-02

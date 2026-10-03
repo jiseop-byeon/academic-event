@@ -1,0 +1,60 @@
+id: ut-texas-inventionworks
+name: "Texas Inventionworks (TIW) Makerspace"
+organizer: "Texas Inventionworks, Cockrell School of Engineering, The University of Texas at Austin"
+scope: ut-austin
+kind: entrepreneurship
+audience: [phd, ms, bs]
+fields: [robotics]
+summary: "EER 건물 National Instruments Center 0–1층에 있는 Cockrell 공과대학의 실습 교육 프로그램이자 메이커스페이스로, 손공구부터 컴퓨터 제어 산업 장비까지 갖춘 12개 구역에서 플라스틱·목재·직물·금속을 다룰 수 있다(FDM·SLA·SLS 3D 프린팅, 레이저 커팅, 납땜 등). Canvas에서 Culture & Community 모듈과 장비별 온라인+대면 교육을 마치면 쓸 수 있으며, 학기마다 재료비 프로젝트 그랜트($100–1,000), 장기 프로젝트용 작업대·사물함, 워크숍·빌드 나이트·경진대회를 운영한다."
+summary_en: "The Cockrell School's hands-on education program and makerspace on floors 0 and 1 of the National Instruments Center in EER: 12 areas with everything from hand tools to computer-controlled industrial equipment for plastics, wood, fabric and metal (FDM, SLA and SLS 3D printing, laser cutting, soldering and more). Students get access after the Culture & Community module and per-machine online plus in-person training on Canvas; each semester it offers project grants for materials ($100–1,000), workbenches and lockers for longer projects, and workshops, build nights and competitions."
+activities:
+  - "Canvas 등록 → Culture & Community 모듈 → 장비별 교육(온라인 + 대면) 후 장비 사용"
+  - "연구·수업·개인 프로젝트 시제품 제작 — 장기 프로젝트는 키카드 출입 작업대·사물함 신청"
+  - "매주 금요일 12–14시 Fab Friday(연사·디자인 워크숍·빌드), 기술 워크숍, 학기당 1–2회 빌드 나이트, 가을 학기 초 오픈하우스"
+  - "Texas RoboRumble(3파운드 전투 로봇, 1월–봄방학, 최대 6인 팀), SEC Make-a-thon(가을 학기 중반 2일)"
+activities_en:
+  - "Enroll on Canvas → Culture & Community module → per-machine training (online plus in person), then use the equipment"
+  - "Build prototypes for research, classes or personal projects — apply for a keycard-access workbench or a locker for longer projects"
+  - "Fab Friday every Friday 12–2 p.m. (speakers, design workshops, builds), skill workshops, build nights once or twice a semester, and a fall open house"
+  - "Texas RoboRumble (3-lb combat robots, January to spring break, teams of up to six) and the SEC Make-a-thon (two days in mid-fall)"
+benefits:
+  - "연구용 부품·시제품을 빠르게 만들 수 있는 장비와 교육"
+  - "학기별 프로젝트 그랜트 $100–1,000 (Maker Grant 포함)"
+  - "다학제 메이커 커뮤니티와 학생 직원의 동료 멘토링"
+benefits_en:
+  - "Equipment and training to turn out research parts and prototypes quickly"
+  - "Project grants of $100–1,000 each semester (including the Maker Grant)"
+  - "A multidisciplinary maker community with peer mentoring from student staff"
+commitment: "자율 — 학기 중 평일 10–18시 운영, 장비마다 교육 이수 필요"
+commitment_en: "Flexible — open weekdays 10 a.m.–6 p.m. during the semester; each machine requires training"
+cost: {note: "일부 재료 무료, 장비·재료 일부는 사용료 있음(장비 목록에 비용 등급 표기)", note_en: "Some materials are free; some equipment and materials carry a fee (cost tiers shown on the equipment list)"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "UT 학생이면 배경과 무관하게 이용 가능하며 국적 제한 언급 없음. Canvas 등록과 장비별 교육 이수가 필요. ECJ 목공실은 당분간 폐쇄."
+  notes_en: "Open to UT students of any background; no nationality restriction is mentioned. Canvas enrollment and per-machine training are required. The ECJ woodshop is closed until further notice."
+cycle:
+  typical: "학기 중 평일 10–18시 운영(대학 휴일 휴무), 매주 금요일 Fab Friday, 학기마다 프로젝트 그랜트 심사, RoboRumble은 1월–봄방학"
+  typical_en: "Open weekdays 10 a.m.–6 p.m. during the semester (closed on university holidays); Fab Friday weekly; project grants each semester; RoboRumble from January to spring break"
+status: ongoing
+apply_url: "https://inventionworks.engr.utexas.edu/get-to-work"
+fit: 2
+take: "건설 로봇 실험용 마운트·지그·엔드이펙터를 직접 만들 일이 생기니, 이번 학기 안에 Canvas 기본 교육과 3D 프린팅·레이저 커팅 교육을 끝내 두고 재료비는 학기별 프로젝트 그랜트로 충당하라."
+take_en: "Construction-robotics experiments will need custom mounts, jigs and end effectors — finish the Canvas basics and the 3D-printing and laser-cutting training this semester, and cover materials with the per-semester project grants."
+links:
+  home: "https://inventionworks.engr.utexas.edu/"
+  get_started: "https://inventionworks.engr.utexas.edu/get-to-work"
+  equipment: "https://inventionworks.engr.utexas.edu/about/resources/equipment"
+  have_an_idea: "https://inventionworks.engr.utexas.edu/get-to-work/have-an-idea"
+  events: "https://inventionworks.engr.utexas.edu/in-the-works/events-and-competitions"
+sources:
+  - "https://inventionworks.engr.utexas.edu/"
+  - "https://inventionworks.engr.utexas.edu/get-to-work"
+  - "https://inventionworks.engr.utexas.edu/get-to-work/get-trained"
+  - "https://inventionworks.engr.utexas.edu/get-to-work/have-an-idea"
+  - "https://inventionworks.engr.utexas.edu/about/resources"
+  - "https://inventionworks.engr.utexas.edu/about/resources/equipment"
+  - "https://inventionworks.engr.utexas.edu/in-the-works/events-and-competitions"
+  - "https://inventionworks.engr.utexas.edu/about/connect"
+last_verified: 2026-10-02

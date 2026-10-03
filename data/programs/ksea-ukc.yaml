@@ -1,0 +1,63 @@
+id: ksea-ukc
+name: "KSEA US-Korea Conference (UKC) with FIRE and SEED"
+organizer: "Korean-American Scientists and Engineers Association (KSEA)"
+scope: us
+kind: society
+audience: [phd, ms, bs]
+fields: [construction, robotics, transportation, ml]
+summary: "재미한인과학기술자협회(KSEA, 1971년 설립, 회원 6천여 명·지역 챕터 70곳)가 매년 8월 초 미국에서 여는 US-Korea Conference(UKC)로, 1,500명 이상이 모이는 한미 과학기술 교류의 장이다. 분야별 기술 심포지엄(TGS)에서 초록을 발표할 수 있고 'Infrastructure, Mobility & Robots' 클러스터가 인프라·스마트 모빌리티·로봇·자율 시스템을 다룬다. 학생·초기 경력자를 위한 FIRE 심포지엄과 박사과정생도 뽑는 SEED 멘토링 워크숍이 함께 열린다. 39회 UKC 2026은 8/5–8 올랜도에서 열렸다."
+summary_en: "The US-Korea Conference (UKC) held each early August in the US by the Korean-American Scientists and Engineers Association (KSEA; founded 1971, 6,000+ members, 70 local chapters), a meeting of 1,500+ people for US–Korea science and technology exchange. You can present an abstract in the Technical Group Symposiums (TGS), where the 'Infrastructure, Mobility & Robots' cluster covers infrastructure, smart mobility, robotics and autonomous systems. The FIRE symposium for students and early-career professionals and the SEED mentoring workshop, which also accepts PhD students, run alongside. The 39th UKC took place August 5–8, 2026, in Orlando."
+activities:
+  - "기술 심포지엄(TGS)에 연구 초록 제출 → 구두·포스터 발표 (2026: 'Infrastructure, Mobility & Robots' 클러스터는 구두 4세션·포스터 1세션)"
+  - "FIRE 심포지엄: 멘토링 라운드테이블, 노코드 AI Build Challenge, 5분 커리어 플래시 토크, 커리어 포스터 (TGS와 중복 지원 불가)"
+  - "SEED 워크숍(UKC 직전, 2026년은 8/4 오후–8/5 오후): 박사과정·박사후·신임 교원 70–80명과 멘토 약 15명의 진로·멘토링 프로그램"
+  - "플레너리 강연(2026: 노벨물리학상 수상자 William D. Phillips, NVIDIA 공동창업자 Chris Malachowsky), 한인 과학기술자 네트워킹"
+activities_en:
+  - "Submit a research abstract to the Technical Group Symposiums (TGS) for an oral or poster talk (2026: the 'Infrastructure, Mobility & Robots' cluster had four podium sessions and one poster session)"
+  - "FIRE symposium: mentoring roundtables, a no-code AI Build Challenge, 5-minute career flash talks and career posters (do not apply to both FIRE and TGS)"
+  - "SEED workshop (right before UKC; Aug 4 afternoon to Aug 5 afternoon in 2026): a career and mentoring program for 70–80 PhD students, postdocs and junior faculty with about 15 mentors"
+  - "Plenary talks (2026: Nobel laureate William D. Phillips and NVIDIA co-founder Chris Malachowsky) and networking with Korean-American scientists and engineers"
+benefits:
+  - "KSEA 회원 발표자 할인 등록비, FIRE 회원 발표자는 공유 객실 3박과 최대 US$400 교통비 지원"
+  - "SEED 참가자: 대학원생 등록비 US$50, 최대 US$200 교통비, 공유 객실 1박과 식사 제공"
+  - "한미 학계·산업계·국립연구소 인사와의 네트워크, KSEA-KUSCO 장학금 시상식도 UKC에서 진행"
+benefits_en:
+  - "Discounted registration for KSEA-member presenters; KSEA-member FIRE presenters get three nights of shared lodging and up to US$400 in travel support"
+  - "SEED participants: US$50 graduate-student registration, up to US$200 in travel support, one night of shared lodging and meals"
+  - "A network spanning US and Korean academia, industry and national labs; KSEA-KUSCO scholarships are also presented at UKC"
+commitment: "8월 초 3–4일 (SEED는 UKC 직전 하루 추가); TGS 초록·FIRE·SEED는 여름 전에 접수하고 6월에 결과 통보 (2026: TGS 6/7–12, FIRE 6월 말)"
+commitment_en: "Three to four days in early August (SEED adds about a day right before UKC); TGS abstracts, FIRE and SEED applications are taken before summer, with decisions in June (2026: TGS Jun 7–12, FIRE by the end of June)"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "국적 제한 언급 없음. FIRE는 대학원·학부생, 박사후연구원, 신임 교원, 경력 15년 이하 직장인 대상이며, 교통·숙박 지원은 KSEA 회원 발표자에게만 줌. SEED는 성과와 필요를 함께 보고 약 80명을 선발하며 교통비 지원에 KSEA 회원 자격과 이틀 전일 참석이 필요. KSEA 대학원생 연회비는 US$15."
+  notes_en: "No nationality restriction mentioned. FIRE is for graduate and undergraduate students, postdocs, junior faculty and professionals with up to 15 years of experience, and travel and lodging support goes only to KSEA-member presenters. SEED selects about 80 people on merit and need, and its travel support requires active KSEA membership and full attendance on both days. KSEA graduate-student dues are US$15 a year."
+cycle:
+  typical: "매년 8월 초 미국 내 개최지를 옮겨 개최 (2025: 8/5–9 애틀랜타, 2026: 8/5–8 올랜도); 초록·FIRE·SEED는 여름 전 접수, TGS 채택 통보는 6월 초(2026: 6/7–12)"
+  typical_en: "Every early August at a rotating US location (2025: Aug 5–9, Atlanta; 2026: Aug 5–8, Orlando); abstracts, FIRE and SEED applications before summer, TGS acceptances in early June (2026: Jun 7–12)"
+  deadlines:
+    - {kind: event, date: 2027-08-04, estimated: true, label: "UKC 2027 (예상, 8월 첫째 주 — 개최지 미정)", label_en: "UKC 2027 (expected first week of August — location not yet announced)"}
+status: upcoming
+apply_url: "https://ukc.ksea.org/"
+fit: 3
+take: "KSEA 회원(대학원생 연 $15)으로 가입해 KSEA-KUSCO 장학금과 함께 준비하고, 2027년 UKC 초록 접수 때 'Infrastructure, Mobility & Robots' 클러스터에 건설 로봇 초록을 내거나 SEED·FIRE에 지원해 교통·숙박 지원을 받으며 한인 과학기술자 네트워크를 넓혀라."
+take_en: "Join KSEA (graduate dues $15/year) and prepare alongside the KSEA-KUSCO scholarship; when UKC 2027 abstracts open, submit a construction-robotics abstract to UKC's 'Infrastructure, Mobility & Robots' cluster or apply to SEED or FIRE to get travel and lodging support while growing your network of Korean-American scientists and engineers."
+links:
+  home: "https://ukc.ksea.org/"
+  fire: "https://fire.ksea.org/"
+  seed: "https://seed.ksea.org/"
+sources:
+  - "https://ukc2026.ksea.org/about"
+  - "https://ukc2026.ksea.org/programs"
+  - "https://ukc2026.ksea.org/technicalclusterssection"
+  - "https://ukc2026.ksea.org/participationinfo"
+  - "https://ukc.ksea.org/"
+  - "https://fire.ksea.org/"
+  - "https://fire.ksea.org/cost-to-attend"
+  - "https://fire.ksea.org/application"
+  - "https://fire.ksea.org/presentation-avenues"
+  - "https://seed.ksea.org/home"
+  - "https://seed.ksea.org/registration/lodging-and-travel-support"
+  - "https://ukc2025.ksea.org/"
+  - "https://award.ksea.org/scholarships/scholarships-for-graduates"
+last_verified: 2026-10-02

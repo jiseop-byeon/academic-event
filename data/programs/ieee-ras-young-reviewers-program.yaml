@@ -1,0 +1,48 @@
+id: ieee-ras-young-reviewers-program
+name: "IEEE RAS Young Reviewers Program (YRP)"
+organizer: "IEEE Robotics and Automation Society (RAS)"
+scope: online
+kind: mentoring
+audience: [phd, ms]
+fields: [robotics]
+summary: "RAS의 젊은 회원에게 논문 심사의 모범 관행을 가르치는 멘토링 프로그램으로, 이미 리뷰를 맡은 시니어 리뷰어(SR)가 지원자 풀에서 키워드로 주니어 리뷰어(JR)를 골라 PaperPlaza로 들어온 실제 원고의 리뷰를 함께 쓴다. SR이 첨삭한 최종 리뷰는 YRP 참여 사실을 밝혀 PaperPlaza에 제출된다."
+summary_en: "A mentoring program that teaches RAS's young members best practices in peer review: a Senior Reviewer (SR) who has already accepted a review picks a Junior Reviewer (JR) from the applicant pool by keyword and writes the review of a real manuscript submitted through PaperPlaza together with them. The SR-revised final review is uploaded to PaperPlaza, noting the YRP involvement to the associate editor."
+activities:
+  - "JR로 등록하고 연구 키워드를 입력해 SR의 매칭을 기다림"
+  - "SR이 이메일로 보낸 원고를 읽고 리뷰 초안 작성, SR의 지도·수정 반영"
+  - "YRP가 제공하는 리뷰 가이드 문서·웨비나로 학습"
+  - "우수 JR은 ICRA·IROS의 RAS-YRP 행사 참여 (ICRA 2026: SAC·YRP 소셜 아워)"
+activities_en:
+  - "Register as a JR with research keywords and wait to be matched by an SR"
+  - "Read the manuscript the SR emails you, draft the review and revise it under the SR's guidance"
+  - "Learn from YRP review guides and webinars"
+  - "Top JRs join RAS-YRP events at ICRA and IROS (ICRA 2026: SAC and YRP Social Hour)"
+benefits:
+  - "PaperPlaza로 제출된 실제 RAS 원고로 익히는 심사 역량"
+  - "과정 수료 시 종합 평가 등급, 우수 JR에게 인증서·상"
+  - "시니어 연구자와의 멘토 관계"
+benefits_en:
+  - "Reviewing skills built on real manuscripts submitted to RAS through PaperPlaza"
+  - "An overall qualification grade on graduating; certificates and awards for top JRs"
+  - "A mentoring relationship with a senior researcher"
+commitment: "배정될 때마다 원고 1편 리뷰 (SR이 맡은 리뷰 마감 안에서), 소통은 이메일"
+commitment_en: "One manuscript review per assignment, within the SR's review deadline; communication by email"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "RAS의 젊은 회원(young members)을 위한 프로그램으로 소개됨 — 세부 자격(RAS 회원 필수 여부 등)은 공식 지원 페이지에서 확인. 국적 제한 언급 없음."
+  notes_en: "Described as a program for RAS's young members — check the official application page for exact requirements (such as whether RAS membership is mandatory). No nationality restriction mentioned."
+cycle:
+  typical: "상시 등록 — SR이 리뷰를 맡을 때마다 지원자 풀에서 JR을 선택해 배정"
+  typical_en: "Rolling registration — SRs pick JRs from the applicant pool whenever they take on a review"
+status: rolling
+apply_url: "https://apply2.org/ieee/apps/ras_yrp_jr"
+fit: 2
+take: "ICRA·IROS·RA-L에 논문을 낼 계획이라면 심사자의 시각을 미리 익히는 가장 직접적인 방법이니, 지금 JR로 등록해 조작·건설 로봇 키워드를 넣어 두라."
+take_en: "If you plan to submit to ICRA, IROS or RA-L, this is the most direct way to learn the reviewer's view early — register as a JR now with manipulation and construction-robotics keywords."
+links:
+  home: "https://www.ieee-ras.org/conferences-workshops/young-reviewers-program/"
+sources:
+  - "https://www.ieee-ras.org/conferences-workshops/young-reviewers-program/"
+  - "https://2026.ieee-icra.org/ras-events/"
+last_verified: 2026-10-02

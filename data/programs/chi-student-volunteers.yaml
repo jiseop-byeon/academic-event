@@ -1,0 +1,56 @@
+id: chi-student-volunteers
+name: "ACM CHI Student Volunteers (CHI 2027)"
+organizer: "ACM SIGCHI — CHI Conference on Human Factors in Computing Systems"
+scope: us
+kind: volunteer
+audience: [phd, ms, bs]
+fields: [hri, ar]
+summary: "CHI 학회 운영을 돕는 학생 자원봉사 프로그램으로, 약 20시간 근무하는 대신 학회 등록비 면제와 매일 아침·점심을 받는다. 해마다 약 180명을 CHISV 시스템(new.chisv.org)에서 추첨(60%)·위원 추천(20%)·경험자 선발(20%)·티셔츠 디자인 공모로 뽑는다. CHI 2027은 2027년 5월 10–14일 피츠버그에서 열린다."
+summary_en: "The student volunteer program that helps run the CHI conference: in exchange for about 20 hours of work, volunteers get a registration waiver plus breakfast and lunch every day. About 180 students are chosen each year through the CHISV system (new.chisv.org) by lottery (60%), committee recommendation (20%), experienced 'institutional knowledge' SVs (20%) and a T-shirt design contest. CHI 2027 takes place May 10–14, 2027, in Pittsburgh."
+activities:
+  - "배지 확인, 세션 진행 보조, 데모 설치, 참석자 안내 등 학회 운영 업무 (오전 6:30–오후 8시 사이 교대)"
+  - "학회 하루 전 SV 오리엔테이션 참석"
+  - "근무 외 시간에 세션 청강과 네트워킹"
+activities_en:
+  - "Conference operations such as badge checks, session support, demo setup and guiding attendees (shifts between 6:30 a.m. and 8 p.m.)"
+  - "An SV orientation the day before the conference"
+  - "Attend sessions and network outside your shifts"
+benefits:
+  - "학회 등록비 면제 (본 학회만, 워크숍·코스 제외)"
+  - "학회 기간 매일 아침·점심, SV 티셔츠, SV 감사 파티"
+  - "HCI 연구자·동료 학생과의 인맥 — 다수 SV가 CHI 논문 저자"
+benefits_en:
+  - "Registration fee waived (main conference only; workshops and courses not included)"
+  - "Breakfast and lunch every conference day, an SV T-shirt and the SV thank-you party"
+  - "Connections with HCI researchers and peers — many SVs are CHI authors themselves"
+commitment: "학회 주간에 최소 20시간 근무 + 하루 전 오리엔테이션; 숙박·교통은 본인 부담"
+commitment_en: "At least 20 hours of work during the conference week plus an orientation the day before; housing and travel are at your own expense"
+cost: {value: 0, currency: USD, note: "registration waived for SVs; housing and travel are not covered"}
+location: {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -79.99}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "CHI 직전 학년도에 최소 한 학기 이상 학생 신분이면 학부·석사·박사 모두 지원 가능. 반드시 CHISV 시스템에 등록해야 모든 선발 경로에 포함됨. 결과 발표 후 약 2주 안에 직접 수락하지 않으면 대기자에게 넘어가며, 학교 메일이 알림을 막는 경우가 많아 직접 확인해야 함. 국적 제한 언급 없음."
+  notes_en: "Undergraduate, master's and PhD students qualify if they held student status for at least one semester in the academic year before CHI. Enrolling in the CHISV system is required for every selection pathway. Accepted students must confirm within about two weeks of the announcement or the spot goes to the waitlist; institutional email often blocks the notices, so check the system yourself. No nationality restriction mentioned."
+cycle:
+  typical: "학회 전년 10월 중·하순 CHISV 추첨 등록 시작, 1월 하순 마감·결과 발표 (CHI 2025: 2024/10/25–2025/1/22, 1/27 발표 · CHI 2026: 2025/10/15–2026/1/23, 1/26 발표)"
+  typical_en: "CHISV lottery enrollment opens in mid-to-late October before the conference and closes in late January with results days later (CHI 2025: Oct 25, 2024–Jan 22, 2025, results Jan 27; CHI 2026: Oct 15, 2025–Jan 23, 2026, results Jan 26)"
+  deadlines:
+    - {kind: other, date: 2026-10-20, estimated: true, label: "CHI 2027 SV 추첨 등록 시작 (예상)", label_en: "CHI 2027 SV lottery enrollment opens (expected)"}
+    - {kind: application, date: 2027-01-22, estimated: true, label: "CHI 2027 SV 추첨 등록 마감 (예상)", label_en: "CHI 2027 SV lottery closes (expected)"}
+    - {kind: other, date: 2027-01-26, estimated: true, label: "선발 결과 발표 (예상)", label_en: "Results announced (expected)"}
+    - {kind: event, date: 2027-05-10, label: "CHI 2027 (피츠버그, 5/10–14)", label_en: "CHI 2027 (Pittsburgh, May 10–14)"}
+status: upcoming
+apply_url: "https://new.chisv.org/"
+fit: 1
+take: "HCI가 주 분야는 아니지만 추첨 등록만으로 CHI 2027(피츠버그) 등록비를 면제받을 수 있으니, AR·작업자 인터페이스 연구로 CHI에 갈 계획이 생기면 10월 하순 등록 오픈 때 CHISV에 미리 등록해 두라."
+take_en: "HCI is not the main field, but a lottery entry alone can waive CHI 2027 (Pittsburgh) registration — if AR or worker-interface work gives a reason to attend, enroll in CHISV when it opens in late October."
+links:
+  home: "https://chi2026.acm.org/2025/10/16/call-for-svs/"
+  conference: "https://chi2027.acm.org/"
+sources:
+  - "https://chi2026.acm.org/2025/10/16/call-for-svs/"
+  - "https://chi2025.acm.org/call-for-svs/"
+  - "https://chi2027.acm.org/"
+  - "https://chi2027.acm.org/category/general/sv/"
+last_verified: 2026-10-02

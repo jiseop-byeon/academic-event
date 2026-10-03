@@ -256,6 +256,7 @@ a.kpi:hover { border-color: var(--axis); background: var(--hover); }
 .card .take { font-size: 0.8125rem; color: var(--text-2); border-top: 1px solid var(--rule); padding-top: 8px; margin: 0; }
 .card .tags, .card .badge, .card a.inline, .card button { position: relative; z-index: 1; }
 .card.dim { opacity: 0.62; }
+.clamp { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 
 /* ---------- tables ---------- */
 .table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; }

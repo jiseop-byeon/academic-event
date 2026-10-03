@@ -1,0 +1,46 @@
+id: mlss
+name: "Machine Learning Summer School (MLSS) — Okinawa 2027"
+organizer: "MLSS series; MLSS 2027 hosted by OIST (organizers Makoto Yamada, Kenji Fukumizu, Masashi Sugiyama, Amedeo Roberto Esposito)"
+scope: international
+kind: summer-school
+audience: [phd, ms]
+fields: [ml]
+summary: "2002년 시작된 머신러닝 여름학교 시리즈로, 해마다 여러 도시에서 기초부터 최신 연구까지 핵심 ML 주제를 그 분야 대표 연구자들이 1–2주간 강의한다. 다음 회차는 2027년 3월 1–12일 일본 오키나와 온나촌의 OIST 컨퍼런스 센터에서 약 200명 규모로 열리며, ML 기술 배경이 탄탄한 석·박사생이 주 대상이다. 2026년에는 멜버른(2월), 뉴욕(6월), 튀빙겐(8–9월)에서 열렸다."
+summary_en: "A machine-learning summer school series started in 2002, held in different cities each year, where leading researchers teach core ML topics from fundamentals to the state of the art over one to two weeks. The next edition runs March 1–12, 2027, at the OIST Conference Center in Onna, Okinawa, Japan, for about 200 participants, mainly master's and PhD students with strong technical ML backgrounds. In 2026 it was held in Melbourne (February), New York (June) and Tübingen (August–September)."
+activities:
+  - "12일간 ML 핵심 주제 강의 (기초부터 최신 연구까지)"
+  - "전 세계 대학원생 약 200명과의 교류"
+activities_en:
+  - "Twelve days of lectures on core ML topics, from fundamentals to current research"
+  - "Networking with about 200 graduate students from around the world"
+benefits:
+  - "분야 대표 연구자에게 직접 배우는 집중 과정"
+  - "국제 ML 연구자 네트워크"
+benefits_en:
+  - "An intensive course taught directly by leading researchers"
+  - "An international network of ML researchers"
+commitment: "2027년 3월 1–12일(12일간) 오키나와 현장 참가"
+commitment_en: "Twelve days on site in Okinawa, March 1–12, 2027"
+location: {city: "Onna", region: "Okinawa", country: JP, lat: 26.50, lon: 127.85}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "ML 기술 배경이 탄탄한 석·박사생이 주 대상이며 뛰어난 학부생·교수·연구자·산업계 인력도 일부 선발. 파이썬과 선형대수·미적분·확률·통계 기초가 필요하고, 해외 지원자를 환영한다고 명시. 지원 마감·참가비는 아직 공식 페이지에 없음."
+  notes_en: "Mainly for master's and PhD students with strong technical ML backgrounds, with a limited number of exceptional undergraduates, faculty, researchers and industry professionals. Python plus foundations in linear algebra, calculus, probability and statistics are required, and international applicants are explicitly welcome. The application deadline and fees are not yet on the official page."
+cycle:
+  typical: "시리즈 전체로는 매년 1–3회 여러 대륙에서 개최 — 오키나와 회차는 2024년(3/4–15)에 이어 2027년(3/1–12) 개최"
+  typical_en: "As a series, one to three schools a year on different continents — the Okinawa edition follows 2024 (Mar 4–15) with 2027 (Mar 1–12)"
+  deadlines:
+    - {kind: event, date: 2027-03-01, label: "MLSS 2027 오키나와 (3/1–12, OIST)", label_en: "MLSS 2027 Okinawa (Mar 1–12, OIST)"}
+status: upcoming
+apply_url: "https://groups.oist.jp/cws/event/machine-learning-summer-school-2027"
+fit: 2
+take: "로봇 학습에 필요한 ML 기초를 12일간 다지기 좋은 대표 여름학교이니, OIST 페이지에 지원 일정이 올라오는지 이번 가을부터 확인해 2027년 3월 오키나와 회차에 지원하라."
+take_en: "A flagship school for building the ML foundations behind robot learning over twelve days — watch the OIST page this fall for the application timeline and apply to the March 2027 Okinawa edition."
+links:
+  home: "http://mlss.cc/"
+  mlss2027: "https://groups.oist.jp/cws/event/machine-learning-summer-school-2027"
+sources:
+  - "http://mlss.cc/"
+  - "https://groups.oist.jp/cws/event/machine-learning-summer-school-2027"
+last_verified: 2026-10-02

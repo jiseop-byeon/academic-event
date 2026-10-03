@@ -1,0 +1,58 @@
+id: icvss
+name: "International Computer Vision Summer School (ICVSS)"
+organizer: "University of Catania (school directors: Roberto Cipolla, University of Cambridge; Sebastiano Battiato and Giovanni Maria Farinella, University of Catania)"
+scope: international
+kind: summer-school
+audience: [phd, ms]
+fields: [vision, physical-ai, robotics]
+summary: "매년 7월 이탈리아 시칠리아에서 열리는 컴퓨터 비전 여름학교로, 학계·산업계 최정상 연구자의 강의를 약 100명의 사전 선발 참가자가 일주일간 듣는다. 2017년 IEEE PAMI Mark Everingham Prize를 받았고, 20회째인 2026년(7/5–11)은 '공간·물리 지능을 위한 컴퓨터 비전'을 주제로 Marco Pavone, Davide Scaramuzza, Cordelia Schmid, Antonio Torralba, Carlo Sferrazza(UT Austin) 등이 강의했다."
+summary_en: "A computer-vision summer school held every July in Sicily, Italy, where about 100 pre-selected participants spend a week in lectures by leading researchers from academia and industry. It received the IEEE PAMI Mark Everingham Prize in 2017; its 20th edition (July 5–11, 2026) focused on computer vision for spatial and physical intelligence, with lecturers including Marco Pavone, Davide Scaramuzza, Cordelia Schmid, Antonio Torralba and Carlo Sferrazza (UT Austin)."
+activities:
+  - "세계적 연구자들의 이론·실무 강의 (2026: 체화 시스템의 공간·물리 지능)"
+  - "참가 학생 포스터 발표, 일부는 짧은 구두 발표로 선정"
+  - "산업 세션 'Industry meets Student' — 2026년 Google, Meta Reality Labs, Qualcomm, Naver Labs, Toyota 등 참여"
+  - "리딩 그룹 경연과 국제 팀 에세이 대회(컴퓨터 비전의 사회적 영향)"
+activities_en:
+  - "Theory and practice lectures by world-leading researchers (2026: spatial and physical intelligence in embodied systems)"
+  - "Student posters, with some selected for short oral presentations"
+  - "An 'Industry meets Student' session — in 2026 with Google, Meta Reality Labs, Qualcomm, Naver Labs, Toyota and others"
+  - "A reading-group competition and an essay contest in international teams (the social impact of computer vision)"
+benefits:
+  - "최정상 비전·로봇 학습 연구자와의 일주일 밀착 교류"
+  - "최우수 박사생 장학금 €625, 최우수 발표상 €625"
+  - "에세이 대회 수상자는 Panasonic 샌프란시스코 R&D 연구소 인턴십 고려 대상"
+  - "강의 자료, 공항 셔틀, 사교 만찬 등이 참가비에 포함"
+benefits_en:
+  - "A week of close contact with leading vision and robot-learning researchers"
+  - "A €625 scholarship for the best PhD student and a €625 best-presentation prize"
+  - "Essay-contest winners are considered for an internship at Panasonic R&D labs in San Francisco"
+  - "Fee covers course materials, airport shuttle, social dinner and more"
+commitment: "7월 첫째 주 7일간 현장 합숙 (지정 호텔 숙박 필수), 포스터는 6월 중순까지 제출"
+commitment_en: "Seven days on site in the first week of July (staying at the designated hotel is required), posters submitted by mid-June"
+cost: {value: 625, currency: EUR, note: "2026 fee for academic master's and PhD students (other academics €850, others €1,050); accommodation at the designated hotel is extra"}
+location: {city: "Scicli", region: "Sicily", country: IT, lat: 36.79, lon: 14.71}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "석·박사생, 박사후연구원, 학계·산업계 연구자 모두 지원 가능하며 약 100명을 사전 선발. 지도교수 추천서 제출을 강력히 권장. 숙박은 지정 호텔(Hotel Village Baia Samuele)만 가능하고 예약 기간(5월)을 놓치면 참가가 보장되지 않음. 국적 제한 언급 없음."
+  notes_en: "Master's and PhD students, postdocs and academic or industry researchers may apply; about 100 participants are pre-selected. A reference letter is strongly encouraged. Lodging is only at the designated hotel (Hotel Village Baia Samuele), and missing the May booking window means a place cannot be guaranteed. No nationality restriction mentioned."
+cycle:
+  typical: "매년 4/1 지원 마감, 4/15 통보, 5월 중순 등록·참가비 납부, 7월 첫째 주 개최 (2025: 7/6–12, 2026: 7/5–11)"
+  typical_en: "Applications close April 1 each year, notification April 15, registration and payment by mid-May, school in the first week of July (2025: Jul 6–12; 2026: Jul 5–11)"
+  deadlines:
+    - {kind: application, date: 2027-04-01, estimated: true, label: "ICVSS 2027 지원 마감 (예상)", label_en: "ICVSS 2027 application deadline (expected)"}
+    - {kind: other, date: 2027-04-15, estimated: true, label: "선발 통보 (예상)", label_en: "Notification of acceptance (expected)"}
+    - {kind: registration, date: 2027-05-15, estimated: true, label: "등록·조기 납부 마감 (예상)", label_en: "Registration and early payment deadline (expected)"}
+    - {kind: event, date: 2027-07-04, estimated: true, label: "ICVSS 2027 개최 (예상, 7월 첫째 주)", label_en: "ICVSS 2027 (expected, first week of July)"}
+status: upcoming
+apply_url: "https://icvss.dmi.unict.it/icvss2026/"
+fit: 2
+take: "2026년처럼 체화·물리 지능 쪽 주제가 이어진다면 건설 현장 인식·조작 연구에 바로 쓸 만한 최고 수준의 비전 여름학교이니, 2027년 4/1 마감(예상)에 추천서와 함께 지원하라."
+take_en: "If the embodied and physical-intelligence focus of 2026 continues, this is a top-tier vision school directly useful for construction-site perception and manipulation — apply by the expected April 1, 2027 deadline with a reference letter."
+links:
+  home: "https://icvss.dmi.unict.it/icvss2026/"
+  previous: "https://icvss.dmi.unict.it/icvss2025/"
+sources:
+  - "https://icvss.dmi.unict.it/icvss2026/"
+  - "https://icvss.dmi.unict.it/icvss2025/"
+last_verified: 2026-10-02

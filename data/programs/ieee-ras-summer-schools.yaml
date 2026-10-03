@@ -1,0 +1,45 @@
+id: ieee-ras-summer-schools
+name: "IEEE RAS Technical Education Programs (RAS Summer and Seasonal Schools)"
+organizer: "IEEE Robotics and Automation Society (RAS) Educational Activities Board"
+scope: international
+kind: summer-school
+audience: [phd, ms, bs]
+fields: [robotics, manipulation, physical-ai, navigation, hri]
+summary: "IEEE RAS가 매년 심사해 재정 지원하는 전 세계 로보틱스 계절학교 묶음(RAS-TEP)으로, RAS 기술위원회의 추천을 받은 학교만 선정된다. 메인 트랙(최대 US$25,000 지원)은 초기 대학원생을 위한 연구 중심 내용을 다루며, 지원금은 RAS 학생회원의 참가비를 낮추는 데 쓰인다. 2026년에는 휴머노이드 로봇 학습(UCL 런던, 7월), 'Deformation in Robotics'(프랑스 릴, 6/29–7/3), 박사과정 대상 DRIMS(이탈리아 볼테라, 8/30–9/6) 등이 열렸다."
+summary_en: "IEEE RAS's yearly portfolio of financially supported robotics seasonal schools worldwide (RAS-TEP), selected by RAS and endorsed by RAS technical committees. The Main Track (up to US$25,000 in support) offers research-oriented content for early-stage graduate students, and the funding is used to lower costs for RAS student members. 2026 schools included Humanoid Robot Learning (UCL, London, July), 'Deformation in Robotics' (Lille, France, Jun 29–Jul 3) and the doctoral school DRIMS (Volterra, Italy, Aug 30–Sep 6)."
+activities:
+  - "RAS 페이지의 연도별 목록에서 학교를 골라 각 학교 사이트에서 개별 지원"
+  - "학교별 집중 강의·실습 (주제 예: 휴머노이드 로봇 학습, 변형체 로보틱스, 로봇 최적화, 협력 자율 에이전트)"
+  - "동료 대학원생·강사진과의 교류"
+activities_en:
+  - "Pick a school from RAS's yearly list and apply through that school's own site"
+  - "Intensive lectures and hands-on sessions, organized differently by each school (topics such as humanoid robot learning, deformable-object robotics, optimization for robotics, cooperative autonomous agents)"
+  - "Networking with fellow graduate students and instructors"
+benefits:
+  - "RAS 지원금 덕분에 RAS 학생회원 참가비 인하"
+  - "특정 로봇 주제를 1주일 안에 집중적으로 익힘"
+  - "유럽·아시아 등 다른 지역 연구실과의 인연"
+benefits_en:
+  - "Lower costs for RAS student members thanks to RAS funding"
+  - "An intensive week on one robotics topic"
+  - "Connections with labs in Europe, Asia and elsewhere"
+commitment: "대부분 학교별 약 4일–2주 현장 참가 (일부는 온라인·하이브리드)"
+commitment_en: "Mostly about four days to two weeks on site per school (some are virtual or hybrid)"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "학교마다 지원 자격·선발·참가비가 다름 — 메인 트랙은 초기 대학원생을 주 대상으로 함. RAS 지원금은 RAS 학생회원의 비용 절감에 쓰이므로 RAS 학생회원이면 유리. 해외 개최 학교는 비자·여행 경비를 스스로 챙겨야 함."
+  notes_en: "Eligibility, selection and fees differ by school — the Main Track mainly targets early-stage graduate students. RAS funding goes toward lowering costs for RAS student members, so membership helps. For schools abroad, visas and travel costs are your own responsibility."
+cycle:
+  typical: "RAS가 개최 제안을 심사해(2026년 제안 마감 4/15) 선정 학교를 연도별 목록으로 공개 — 2026년 학교는 연중 열렸고 연구 중심 학교는 주로 6–9월"
+  typical_en: "RAS reviews host proposals (2026 proposals were due April 15) and posts the selected schools as a yearly list — 2026 schools ran throughout the year, with the research-oriented ones mostly in June–September"
+status: upcoming
+apply_url: "https://www.ieee-ras.org/educational-resources-outreach/technical-education-programs/"
+fit: 2
+take: "조작·로봇 학습 계열 학교(예: 휴머노이드 로봇 학습, 변형체 로보틱스)는 연구에 바로 쓰이니, 2027년 목록이 올라오면 RAS 학생회원 할인을 받아 여름 학교 하나를 골라 지원하라."
+take_en: "Schools on manipulation and robot learning (for example humanoid robot learning or deformable-object robotics) feed directly into research — when the 2027 list is posted, pick one summer school and apply with the RAS student-member discount."
+links:
+  home: "https://www.ieee-ras.org/educational-resources-outreach/technical-education-programs/"
+sources:
+  - "https://www.ieee-ras.org/educational-resources-outreach/technical-education-programs/"
+last_verified: 2026-10-02

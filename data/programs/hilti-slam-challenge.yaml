@@ -1,0 +1,54 @@
+id: hilti-slam-challenge
+name: "Hilti Construction SLAM / Nothing Stands Still Challenge"
+organizer: "Hilti, with Trimble and the University of Oxford Dynamic Robot Systems Group (2026) and Stanford's Gradient Spaces group (NSS 2024–2025)"
+scope: online
+kind: competition
+audience: [phd, ms, bs]
+fields: [construction, navigation, vision, robotics]
+summary: "건설 장비 기업 Hilti가 2021년부터 매년 여는 건설 현장 데이터 벤치마크 챌린지로, 실제 공사 현장에서 수집한 데이터로 SLAM·측위 또는 시공 단계별 3D 점군 정합 성능을 겨룬다. 2021–2023년은 SLAM, 2024–2025년은 Nothing Stands Still(NSS, 다중 시점 시공간 점군 정합), 2026년은 Trimble·옥스퍼드와 360° 카메라·IMU·평면도 기반 SLAM 챌린지였다. 결과는 보통 ICRA의 Future of Construction 워크숍에서 발표·시상된다."
+summary_en: "A construction-site benchmark challenge run every year since 2021 by Hilti, in which teams compete on SLAM and localization, or on registering 3D point clouds across construction stages, using data captured on real job sites. 2021–2023 were SLAM challenges, 2024–2025 the Nothing Stands Still (NSS) multiway spatio-temporal point-cloud registration challenge, and 2026 a SLAM challenge with Trimble and Oxford using 360° camera, IMU and floor-plan priors. Results are usually presented and awarded at the Future of Construction workshop at ICRA."
+activities:
+  - "공개 데이터셋(실제 공사 현장)으로 알고리즘을 개발해 온라인 평가 서버에 결과 제출"
+  - "리더보드 경쟁 — 2026년은 SLAM과 평면도 기준 Localization 두 부문, 궤적 완성도와 위치 정확도로 채점"
+  - "상위 팀은 워크숍에서 방법 발표"
+activities_en:
+  - "Develop algorithms on the public dataset from real construction sites and submit results to the online evaluation server"
+  - "Compete on the leaderboard — in 2026, two categories (SLAM, and localization in the floor-plan frame), scored on trajectory completeness and position accuracy"
+  - "Top teams present their methods at the workshop"
+benefits:
+  - "상금 — NSS 2024: 우승 4,000 CHF·준우승 1,000 CHF, NSS 2025: 우승 US$4,000·준우승 US$1,000"
+  - "건설 현장 실데이터 벤치마크 성과로 논문·이력에 활용"
+  - "Hilti 연구진·건설 로봇 커뮤니티와의 연결"
+benefits_en:
+  - "Prize money — NSS 2024: 4,000 CHF for the winner and 1,000 CHF for the runner-up; NSS 2025: US$4,000 and US$1,000"
+  - "A real-construction-site benchmark result to use in papers and your CV"
+  - "Connections with Hilti researchers and the construction-robotics community"
+commitment: "약 2개월의 챌린지 기간(2024: 2/15–5/1, 2025: 3/6–5/7) 동안 원격으로 개발·제출, 수상 시 워크숍 발표"
+commitment_en: "Remote development and submissions over a roughly two-month window (2024: Feb 15–May 1; 2025: Mar 6–May 7), plus a workshop presentation if you win"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "공식 페이지에 참가 자격 제한(국적·소속)은 명시되어 있지 않음 — 상금 수령 등 세부 규정은 회차별 공지를 확인. 데이터는 CC BY-NC-SA 3.0(비상업적 이용) 라이선스."
+  notes_en: "The official pages state no eligibility limits on nationality or affiliation — check each edition's rules for details such as prize payment. Data are licensed CC BY-NC-SA 3.0 (non-commercial use)."
+cycle:
+  typical: "매년 봄 진행 — 2–3월 시작, 5월 초 종료, ICRA 워크숍에서 결과 발표 (2024: 2/15–5/1, 2025: 3/6–5/7). 2026 회차 종료 후에도 평가 서버는 계속 열려 있음"
+  typical_en: "Runs every spring — starts in February or March, ends in early May, results at the ICRA workshop (2024: Feb 15–May 1; 2025: Mar 6–May 7). The evaluation server stays open after the 2026 edition"
+  deadlines:
+    - {kind: other, date: 2027-03-01, estimated: true, label: "2027 챌린지 시작 (예상, 2–3월)", label_en: "2027 challenge opens (expected, February–March)"}
+    - {kind: application, date: 2027-05-05, estimated: true, label: "2027 챌린지 결과 제출 마감 (예상, 5월 초)", label_en: "2027 challenge submission deadline (expected, early May)"}
+status: upcoming
+apply_url: "https://hilti-trimble-challenge.com/"
+fit: 3
+take: "건설 현장 SLAM·점군 정합은 내비게이션 연구와 바로 맞닿는 실데이터 벤치마크이니, 지금 2026 평가 서버로 연습해 두고 2027년 봄 회차에 참가해 상금과 ICRA 워크숍 발표를 노려라."
+take_en: "Construction-site SLAM and point-cloud registration is a real-data benchmark right next to navigation research — practice on the still-open 2026 evaluation server now and enter the spring 2027 edition for prize money and an ICRA workshop talk."
+links:
+  home: "https://hilti-challenge.com/index.html"
+  nss2025: "https://www.nothing-stands-still.com/challenge_2025"
+sources:
+  - "https://hilti-challenge.com/index.html"
+  - "https://hilti-trimble-challenge.com/"
+  - "https://construction-robots.github.io/index2025.html"
+  - "https://construction-robots.github.io/index2024.html"
+  - "https://construction-robots.github.io/index2023.html"
+  - "https://www.ieee-ras.org/construction-robotics/"
+last_verified: 2026-10-02

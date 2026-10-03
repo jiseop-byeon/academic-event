@@ -1,0 +1,54 @@
+id: icra-iros-student-volunteers
+name: "ICRA / IROS Conference Volunteers"
+organizer: "ICRA and IROS organizing committees (IEEE Robotics and Automation Society)"
+scope: international
+kind: volunteer
+audience: [phd, ms, bs]
+fields: [robotics]
+summary: "로보틱스 양대 플래그십 학회인 ICRA·IROS가 회차별로 모집하는 학생 자원봉사로, 세션룸 운영 등을 돕는 대가로 등록비 면제 등 혜택을 준다. 다만 모집 방식은 개최지 조직위마다 달라 IROS 2026(피츠버그)은 8시간 봉사에 등록비를 면제했고, ICRA 2024(요코하마)는 해외 거주 박사생 약 20명에게 숙소를 제공했으며, ICRA 2026(빈)은 현지 기관 인력만 썼다. ICRA 2027(서울)·IROS 2027(피렌체)의 모집 공고는 아직 없다."
+summary_en: "Student volunteer calls run edition by edition at ICRA and IROS, robotics' two flagship conferences: in return for help such as staffing session rooms, volunteers get perks like free registration. The setup depends on each local committee: IROS 2026 (Pittsburgh) waived registration for 8 hours of work, ICRA 2024 (Yokohama) housed about 20 PhD students from outside Japan, and ICRA 2026 (Vienna) used only local organizations' staff. No call has been posted yet for ICRA 2027 (Seoul) or IROS 2027 (Florence)."
+activities:
+  - "세션룸 진행 보조, 등록 데스크·안내 등 학회 운영 업무"
+  - "봉사자 교육 세션 참석 (IROS 2026)"
+  - "근무 외 시간에 발표 청강 — ICRA 2024는 봉사자의 Late Breaking Results 포스터 발표도 허용"
+activities_en:
+  - "Conference operations such as session-room support, registration desks and guiding attendees"
+  - "A volunteer training session (IROS 2026)"
+  - "Attend talks outside your shifts — ICRA 2024 also let volunteers present a Late Breaking Results poster"
+benefits:
+  - "IROS 2026: 8시간 봉사로 등록비 면제, 봉사 중 식사, 티셔츠"
+  - "ICRA 2024: 2인 1실 숙소 4박과 점심 제공 (등록 불필요, 교통비는 본인 부담)"
+  - "로보틱스 연구자·동료 학생과의 네트워킹"
+benefits_en:
+  - "IROS 2026: free registration for 8 hours of volunteering, meals while volunteering and a T-shirt"
+  - "ICRA 2024: four nights of shared lodging and lunches (no registration needed; travel at your own expense)"
+  - "Networking with robotics researchers and fellow students"
+commitment: "학회 주간 중 최소 8시간(IROS 2026)부터 사흘 내내(ICRA 2024 세션룸 담당)까지 회차마다 다름"
+commitment_en: "Varies by edition — from at least 8 hours during the conference week (IROS 2026) to all three main days (ICRA 2024 session-room staff)"
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "회차별 조건이 다름 — IROS 2026은 18세 이상의 대학원생·학부생·교직원이면 지원 가능했지만 물류가 쉬운 지역(캐나다·미국) 기관을 우대하고 여행·숙박은 본인 부담. ICRA 2024는 일본 외 거주, 박사과정(또는 진학 예정), 지도교수 추천이 조건. 모집 인원이 차면 조기 마감됨."
+  notes_en: "Conditions change each edition — IROS 2026 accepted graduate and undergraduate students or academic staff aged 18+, with preference for institutions in easy-logistics locations (Canada, USA) and travel and lodging at the volunteer's expense; ICRA 2024 required residence outside Japan, PhD enrollment (or plans for one) and a supervisor's recommendation. Calls close early once shifts are filled."
+cycle:
+  typical: "공고 시점이 일정하지 않음 — ICRA 2024는 3/31 마감(학회 약 6주 전), IROS 2026은 8/24 마감(약 1개월 전, 정원 충족으로 조기 종료), ICRA 2026은 모집 없음; 학회 사이트의 Attend 메뉴를 확인"
+  typical_en: "No fixed schedule — ICRA 2024 closed March 31 (about six weeks before the conference), IROS 2026 closed August 24 (about a month before, ending early once full), ICRA 2026 recruited none; watch the Attend menu of each conference site"
+  deadlines:
+    - {kind: event, date: 2027-05-24, label: "ICRA 2027 (서울 코엑스, 5/24–28)", label_en: "ICRA 2027 (COEX, Seoul, May 24–28)"}
+    - {kind: event, date: 2027-09-26, label: "IROS 2027 (피렌체, 9/26–10/1)", label_en: "IROS 2027 (Florence, Sep 26–Oct 1)"}
+status: upcoming
+apply_url: "https://2027.ieee-icra.org/"
+fit: 2
+take: "ICRA 2027이 서울이라 현지 학생 위주로 모집될 가능성이 있으니 2027년 초부터 ICRA 2027 사이트의 Attend 메뉴를 확인하고, 등록비 부담이 큰 IROS 2027도 공고가 나면 바로 신청하라."
+take_en: "With ICRA 2027 in Seoul, recruiting may favor local students — check the Attend menu of the ICRA 2027 site from early 2027, and apply as soon as an IROS 2027 call appears, since registration there is expensive."
+links:
+  home: "https://2026.ieee-iros.org/attend/volunteer-opportunities/"
+  icra2024: "https://icra2024.xsrv.jp/announcement-call-for-student-volunteers-for-icra-2024/"
+  icra2026: "https://2026.ieee-icra.org/attend/volunteer/"
+sources:
+  - "https://2026.ieee-iros.org/attend/volunteer-opportunities/"
+  - "https://icra2024.xsrv.jp/announcement-call-for-student-volunteers-for-icra-2024/"
+  - "https://2026.ieee-icra.org/attend/volunteer/"
+  - "https://2027.ieee-icra.org/"
+  - "https://2027.ieee-iros.org/"
+last_verified: 2026-10-02

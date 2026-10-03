@@ -1,0 +1,59 @@
+id: trb-student-participation
+name: "TRB Annual Meeting and Standing Committees — student participation"
+organizer: "Transportation Research Board (TRB), National Academies of Sciences, Engineering, and Medicine"
+scope: us
+kind: society
+audience: [phd, ms, bs]
+fields: [transportation]
+summary: "미국 교통연구위원회(TRB)의 연차총회와 상임 기술위원회에 학생이 참여하는 길이다. 2027년 106회 총회(2027/1/10–14, 워싱턴 D.C.)는 500개 세션·워크숍의 발표 4,500건 이상과 상임위원회 회의 100개 이상이 열리며, 풀타임 학생은 할인 등록비(TRB Student Affiliate 조기 US$310)로 참가할 수 있다. MyTRB 계정으로 관심 상임위원회의 'Friend'로 등록하면 위원회 활동에 참여할 수 있고, 이는 위원 선임 때 고려 요소가 된다."
+summary_en: "The ways students take part in the Transportation Research Board's annual meeting and standing technical committees. The 106th Annual Meeting (January 10–14, 2027, Washington, D.C.) has 4,500+ presentations in 500 sessions and workshops plus 100+ standing-committee meetings, and full-time students register at a discount (TRB Student Affiliate early-bird US$310). With a MyTRB account you can sign up as a 'Friend' of the standing committees you care about and join their work, which TRB considers when filling committee member positions."
+activities:
+  - "연차총회 세션·포스터 청강과 발표 (논문은 전년 8월 1일 마감)"
+  - "총회 기간 상임 기술위원회 회의(100개 이상) 참석, MyTRB로 위원회 Friend 등록"
+  - "일요일·목요일 인터랙티브 워크숍 약 60개 (등록비에 포함)"
+  - "사흘간의 전시와 네트워킹"
+activities_en:
+  - "Attend and present in sessions and posters at the annual meeting (papers are due August 1 of the previous year)"
+  - "Attend standing-committee meetings during the meeting (100+) and sign up as a committee Friend through MyTRB"
+  - "About 60 interactive workshops on Sunday and Thursday (included with registration)"
+  - "Three days of exhibits and networking"
+benefits:
+  - "학생 할인 등록 — TRB Student Affiliate 조기 US$310, 비회원 학생 US$435 (일반 US$1,225)"
+  - "위원회 Friend 활동이 향후 위원 선임 때 고려 요소"
+  - "등록자는 Transportation Research Record 30일 무료 열람"
+  - "미국 교통 학계·DOT·업계 네트워크"
+benefits_en:
+  - "Student rates — TRB Student Affiliate early-bird US$310, non-member student US$435 (general US$1,225)"
+  - "Committee Friend activity is one factor TRB considers when filling member positions"
+  - "Registrants get 30 days of free access to the Transportation Research Record"
+  - "A network across US transportation academia, state DOTs and industry"
+commitment: "총회 5일(1월 둘째 주) 현장 참석, 위원회 Friend 활동은 자율"
+commitment_en: "Five days on site in the second week of January; committee Friend activity is up to you"
+cost: {value: 310, currency: USD, note: "TRB 2027 early-bird registration for TRB Student Affiliates (non-member students US$435); meals not included"}
+location: {city: "Washington", region: "DC", country: US, lat: 38.91, lon: -77.04}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "학생 요금은 총회 시점에 인가된 고등교육기관의 풀타임 학생(박사후연구원 제외)만 가능하며, 학교 이메일로 등록하고 유효한 학생증이 있어야 함. Student Affiliate 요금은 2027/1/1 이후까지 유효한 TRB 회원 자격 필요. 국적 제한 언급 없음."
+  notes_en: "Student rates are only for full-time students at an accredited post-secondary institution at the time of the meeting (no postdocs), registering with a school email address and holding a valid student ID. The Student Affiliate rate needs TRB membership current after January 1, 2027. No nationality restriction mentioned."
+cycle:
+  typical: "매년 1월 둘째 주 워싱턴 D.C.에서 총회 — 논문 전년 8/1 마감, 조기 등록 11월 중순(2026: 11/18), 호텔 블록 12월 하순까지; 위원회 Friend 등록은 상시"
+  typical_en: "Annual meeting in Washington, D.C., in the second week of January — papers due August 1 of the previous year, early-bird registration in mid-November (2026: Nov 18), hotel block until late December; committee Friend sign-up any time"
+  deadlines:
+    - {kind: registration, date: 2026-11-18, label: "TRB 2027 조기 등록 마감", label_en: "TRB 2027 early-bird registration deadline"}
+    - {kind: event, date: 2027-01-10, label: "106회 TRB 연차총회 (워싱턴 D.C., 1/10–14)", label_en: "106th TRB Annual Meeting (Washington, D.C., Jan 10–14)"}
+status: open
+apply_url: "https://www.nationalacademies.org/events/887/registration-2"
+fit: 2
+take: "노변 LiDAR·AR 보행자 안전 같은 교통 연구를 보여 줄 곳이니 11/18 조기 학생 등록으로 2027 총회에 가고, 관심 상임위원회(예: 자동화·안전 분야)에 Friend로 등록해 위원회 회의부터 얼굴을 알려라."
+take_en: "A venue for transportation work such as roadside LiDAR and AR pedestrian safety — register by the Nov 18 student early-bird for the 2027 meeting and sign up as a Friend of relevant standing committees (for example automation or safety) to start showing up at their meetings."
+links:
+  home: "https://www.nationalacademies.org/events/887"
+  committees: "https://nap.nationalacademies.org/resource/other/trb/standing-technical-committees/"
+sources:
+  - "https://www.nationalacademies.org/events/887"
+  - "https://www.nationalacademies.org/events/887/registration-2"
+  - "https://nap.nationalacademies.org/resource/other/trb/standing-technical-committees/"
+  - "https://www.nationalacademies.org/get-involved-with-the-transportation-research-board"
+  - "https://trb.secure-platform.com/a/page/TRBPaperReview"
+last_verified: 2026-10-02

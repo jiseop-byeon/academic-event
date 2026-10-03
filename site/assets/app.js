@@ -1511,7 +1511,7 @@
       return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("programs") +
         "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span></div>" +
         '<h3><a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + '</a></h3><div class="small muted">' + esc(x.organizer) + "</div></div>" + stars(x.fit) + "</div>" +
-        '<p class="small" style="margin:0">' + esc(tx(x, "summary")) + "</p>" +
+        '<p class="small clamp" style="margin:0">' + esc(tx(x, "summary")) + "</p>" +
         '<dl class="meta">' + (acts.length ? "<dt>" + esc(L("You can", "할 수 있는 일")) + "</dt><dd>" + esc(acts.slice(0, 2).join(" · ")) + "</dd>" : "") +
         (tx(x, "commitment") ? "<dt>" + esc(L("Time", "시간")) + "</dt><dd>" + esc(tx(x, "commitment")) + "</dd>" : "") +
         "<dt>" + esc(L("Next", "다음 일정")) + "</dt><dd>" + progNext(x) + "</dd>" +

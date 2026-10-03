@@ -1,0 +1,55 @@
+id: chi-student-research-competition
+name: "ACM CHI Student Research Competition (CHI 2027)"
+organizer: "ACM SIGCHI — CHI 2027 Conference on Human Factors in Computing Systems"
+scope: us
+kind: competition
+audience: [phd, ms, bs]
+fields: [hri, ar]
+summary: "CHI 2027(2027년 5월 10–14일, 피츠버그)에서 열리는 학생 연구 경진대회로, ACM Student Research Competition의 CHI 지부다. 학부·대학원 부문으로 나뉘며 대학원생은 단독 저자로 5쪽 확장 초록을 내고, 채택되면 학회장 포스터 발표와 심사위원 평가를 거쳐 수상자를 뽑는다. 채택 초록은 ACM Digital Library에 Extended Abstract로 실린다."
+summary_en: "The student research competition at CHI 2027 (May 10–14, 2027, Pittsburgh), CHI's branch of the ACM Student Research Competition. It has undergraduate and graduate categories; graduate students submit a single-author extended abstract of up to 5 pages, and accepted entries are judged on a poster presentation at the conference. Accepted abstracts are published as Extended Abstracts in the ACM Digital Library."
+activities:
+  - "HCI 주제의 진행 중·완료 연구를 5쪽 확장 초록(참고문헌 제외, ACM 단일 칼럼 양식)으로 제출"
+  - "채택 시 CHI 현장 포스터 발표 — 1차 심사는 포스터 세션에서 진행"
+  - "산업계·학계 심사위원 패널의 피드백"
+activities_en:
+  - "Submit ongoing or completed HCI research as an extended abstract of up to 5 pages (excluding references, ACM single-column template)"
+  - "If accepted, present a poster at CHI — the first judging round takes place at the poster session"
+  - "Get feedback from a panel of judges from industry and academia"
+benefits:
+  - "부문별 1–3위 상금 US$500·300·200, 메달, ACM 학생회원 1년(ACM Digital Library 포함)"
+  - "1위는 다른 ACM 학회 우승자들과 ACM SRC Grand Finals에서 경쟁"
+  - "ACM Digital Library에 Extended Abstract 게재 (ACM Open, APC 없음)"
+  - "CHI 커뮤니티에 연구를 알리고 발표력을 다듬는 기회"
+benefits_en:
+  - "Prizes of US$500, $300 and $200 for the top three in each category, a medal and a one-year ACM student membership with Digital Library access"
+  - "First-place winners advance to the ACM SRC Grand Finals against winners from other ACM conferences"
+  - "Publication as an Extended Abstract in the ACM Digital Library (ACM Open, no APC)"
+  - "Visibility in the CHI community and practice presenting your work"
+commitment: "1/21(AoE)까지 단독 저자 확장 초록 + 학생 신분 증빙 제출, 채택 시 3월까지 출판본(2단 4쪽) 준비, 5월 CHI 2027 현장 포스터 발표 (발표자 학회 등록 필수)"
+commitment_en: "A single-author extended abstract plus proof of student status by Jan 21 (AoE); if accepted, a publication-ready version (4 pages, double-column) by March and an in-person poster at CHI 2027 in May (the presenter must register for the conference)"
+location: {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -79.99}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "최초 마감일 기준 대학에 재학 중인 학생이면 지원 가능. 대학원(석·박사)은 단독 저자 개인 연구만 가능하고 지도교수는 공저자가 될 수 없음. 채택되면 발표자는 유효한 ACM 학생회원이어야 하고 CHI에 등록해야 함. 이 트랙 자체의 재정 지원은 없어 Gary Marsden Travel Award를 따로 신청하라고 안내. 국적 제한 언급 없음."
+  notes_en: "Open to students enrolled at a university or college at the time of the initial deadline. Graduate (master's or PhD) entries must be single-author individual projects, and advisors cannot be co-authors. If accepted, the presenter needs an active ACM student membership and CHI registration. The track provides no funding; students are pointed to the separate Gary Marsden Travel Awards. No nationality restriction mentioned."
+cycle:
+  typical: "매년 1월 하순 제출, 2월 중순 통보, 3월 출판본 마감, 4–5월 CHI 현장 경연"
+  typical_en: "Submissions in late January, notification in mid-February, publication-ready version in March, judging at CHI in April or May"
+  deadlines:
+    - {kind: application, date: 2027-01-21, tz: "AoE", label: "CHI 2027 SRC 확장 초록 제출 마감", label_en: "CHI 2027 SRC extended abstract deadline"}
+    - {kind: other, date: 2027-02-18, label: "채택 통보", label_en: "Notification"}
+    - {kind: other, date: 2027-03-18, tz: "AoE", label: "출판본(Publication-ready) 마감", label_en: "Publication-ready deadline"}
+    - {kind: event, date: 2027-05-10, label: "CHI 2027 (피츠버그, 5/10–14) 현장 경연", label_en: "CHI 2027 (Pittsburgh, May 10–14) — on-site competition"}
+status: upcoming
+apply_url: "https://chi2027.acm.org/authors/student-research-competition/"
+fit: 2
+take: "건설 작업자용 AR 인터페이스나 작업자-로봇 상호작용 연구를 단독 저자로 정리할 수 있다면, 1/21 마감 SRC가 CHI 본논문보다 문턱이 낮은 데뷔 경로이니 Gary Marsden 여행 지원(별도 마감)과 함께 노려라."
+take_en: "If AR interfaces for construction workers or worker–robot interaction work can be written up single-author, the SRC (deadline Jan 21) is a lower-barrier debut at CHI than a full paper — pair it with a Gary Marsden travel award (separate deadline)."
+links:
+  home: "https://chi2027.acm.org/authors/student-research-competition/"
+  conference: "https://chi2027.acm.org/"
+sources:
+  - "https://chi2027.acm.org/authors/student-research-competition/"
+  - "https://chi2027.acm.org/"
+last_verified: 2026-10-02

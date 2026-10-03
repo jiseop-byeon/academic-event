@@ -1,0 +1,59 @@
+id: ut-austin-technology-incubator
+name: "Austin Technology Incubator (ATI) — Student Associates, SEAL and Southwest I-Corps"
+organizer: "Austin Technology Incubator, The University of Texas at Austin"
+scope: ut-austin
+kind: entrepreneurship
+audience: [phd, ms, bs]
+fields: [transportation]
+summary: "UT Austin의 딥테크 스타트업 인큐베이터로 순환경제·에너지·푸드/애그테크·헬스케어·마이크로일렉트로닉스·모빌리티·물 분야 회원 기업을 지원한다. 학생에게는 회원 스타트업의 실제 과제를 맡는 ATI Student Associates·Fellows(선발제)와, ATI가 2009년 만들고 현재 LaunchPad가 운영하는 9주 여름 액셀러레이터 SEAL(학부·대학원·교수 팀)을 연결한다. ATI 프로그램 목록에는 UT Austin이 이끄는 NSF I-Corps Hub: Southwest도 있어, 연구 기반 아이디어의 고객 발굴 부트캠프 IdeaLaunch(다음 기수 2027년 1월 말)에 참여할 수 있다."
+summary_en: "UT Austin's deep-tech startup incubator, supporting member companies in circular economy, energy, food and agtech, healthcare, microelectronics, mobility and water. For students it offers ATI Student Associates and Fellows (selective roles on member startups' real projects) and links to SEAL, the nine-week summer accelerator for undergraduate, graduate and faculty teams that ATI founded in 2009 and the LaunchPad now runs. ATI's program list also includes the NSF I-Corps Hub: Southwest, led by UT Austin, whose IdeaLaunch customer-discovery bootcamp for research-based ideas starts its next cohort in late January 2027."
+activities:
+  - "ATI Student Associate·Fellow로 회원 딥테크 스타트업의 과제 수행 (선발제)"
+  - "SEAL 여름 액셀러레이터(9주) — 팀별 전문가 멘토 2–3명, 워크숍, 커뮤니티 리버스 피치, 계속·피벗·중단을 정하는 Decision Day"
+  - "Southwest I-Corps IdeaLaunch — 2–5인 팀, 전 세션 참석과 고객 인터뷰 30건 이상 (다음 기수 2027년 1월 말, 세부 일정은 1월 초 공지)"
+  - "TEXVMS 벤처 멘토링 서비스, ATI 팀이 가르치는 창업 실습 과목"
+activities_en:
+  - "Work on member deep-tech startups' projects as an ATI Student Associate or Fellow (selective)"
+  - "SEAL summer accelerator (nine weeks) — two or three expert mentors per team, workshops, a community reverse pitch and a Decision Day to go, pivot or stop"
+  - "Southwest I-Corps IdeaLaunch — teams of 2–5, attend every session and complete at least 30 customer-discovery interviews (next cohort late January 2027; details in early January)"
+  - "The TEXVMS venture mentoring service and entrepreneurship practicums taught by ATI staff"
+benefits:
+  - "딥테크 스타트업 현장 경험과 오래가는 비즈니스 네트워크"
+  - "연구 기반 아이디어의 시장성을 고객 인터뷰로 검증하는 NSF I-Corps 방법론"
+  - "SEAL 동문 기업 누적 투자 유치 1억 달러 등 검증된 액셀러레이터 생태계"
+benefits_en:
+  - "Hands-on deep-tech startup experience and a lasting business network"
+  - "The NSF I-Corps method for testing the market for research-based ideas through customer interviews"
+  - "A proven accelerator ecosystem (SEAL alumni companies have raised $100M)"
+commitment: "Student Associate는 회원사 과제 단위, SEAL은 여름 9주 전 과정, IdeaLaunch는 모든 워크숍과 고객 인터뷰 30건 이상"
+commitment_en: "Student Associates work per member-company project; SEAL runs nine weeks in summer; IdeaLaunch requires every workshop and 30+ customer interviews"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "Student Associates·Fellows는 전공·학위 과정과 무관하게 선발하며 국적 제한 언급 없음. SEAL은 UT 학부·대학원·교수 팀이 중심이고 타 대학·지역 창업자도 포함되며 LaunchPad에서 지원. IdeaLaunch는 연구·혁신 기술과 그 지식재산을 실시할 권리를 가진 2–5인 팀 대상."
+  notes_en: "Student Associates and Fellows are chosen regardless of degree program; no nationality restriction is mentioned. SEAL centers on UT undergraduate, graduate and faculty teams but also includes other universities and community founders, and applications go through the LaunchPad. IdeaLaunch is for teams of 2–5 with research or innovation expertise and the rights to practice the intellectual property."
+cycle:
+  typical: "Student Associates는 수시 선발, SEAL은 매년 여름(LaunchPad 공지), IdeaLaunch는 기수제(다음 기수 2027년 1월 말)"
+  typical_en: "Student Associates are recruited as needed; SEAL runs every summer (announced by the LaunchPad); IdeaLaunch runs in cohorts (next one late January 2027)"
+  deadlines:
+    - {kind: event, date: 2027-01-25, label: "Southwest I-Corps IdeaLaunch 다음 기수 시작 — '2027년 1월 말'로만 공지, 정확한 날짜는 1월 초 발표", label_en: "Southwest I-Corps IdeaLaunch next cohort — announced only as 'late January 2027'; exact dates come in early January", estimated: true}
+status: ongoing
+apply_url: "https://ati.utexas.edu/students/"
+fit: 1
+take: "ATI 주력 분야(에너지·모빌리티·물 등)는 건설 로봇과 거리가 있으니, 연구 기술의 시장성을 확인하고 싶을 때 2027년 1월 말 Southwest I-Corps IdeaLaunch 기수부터 검토하라."
+take_en: "ATI's focus sectors (energy, mobility, water and others) are far from construction robotics — when you want to test the market for a research technology, look first at the late-January 2027 Southwest I-Corps IdeaLaunch cohort."
+links:
+  home: "https://ati.utexas.edu/"
+  students: "https://ati.utexas.edu/students/"
+  seal: "https://ati.utexas.edu/seal/"
+  launchpad: "https://ati.utexas.edu/launchpad/"
+  southwest_icorps: "https://swicorps.org/idealaunch/"
+sources:
+  - "https://ati.utexas.edu/students/"
+  - "https://ati.utexas.edu/seal/"
+  - "https://ati.utexas.edu/launchpad/"
+  - "https://ati.utexas.edu/programs/"
+  - "https://swicorps.org/idealaunch/"
+  - "https://swicorps.org/who-we-are/"
+last_verified: 2026-10-02

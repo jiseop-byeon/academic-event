@@ -1,0 +1,55 @@
+id: asce-student-membership
+name: "ASCE Student Membership (graduate students)"
+organizer: "American Society of Civil Engineers (ASCE)"
+scope: us
+kind: society
+audience: [phd, ms, bs]
+fields: [construction, transportation]
+summary: "미국토목학회(ASCE)의 학생회원 제도로 연회비가 무료이며 대학원생도 가입할 수 있다. 인턴십·채용 포털, 장학금·대학원 펠로십 정보, 1:1 진로 상담인 ASCE Mentor Match, 웨비나, ASCE 산하 Institute(Construction Institute 등) 무료 가입을 제공하고, 대학원생 챕터를 새로 만들 수도 있다. 졸업하면 정회원으로 자동 전환돼 최대 18개월간 무료다."
+summary_en: "ASCE's student membership, free of dues and open to graduate students. It offers internship and job portals, scholarship and graduate-fellowship information, one-on-one career advice through ASCE Mentor Match, webinars and free membership in ASCE institutes (such as the Construction Institute), and students can start a graduate student chapter. On graduation, members are upgraded automatically to professional membership, free for up to 18 months."
+activities:
+  - "ASCE Mentor Match로 현업 토목 엔지니어에게 1:1 진로 조언 받기"
+  - "Construction Institute 등 ASCE Institute 무료 가입, ASCE 온라인 웨비나 수강"
+  - "학생·대학원생 챕터 활동, 학생 경진대회(Construction Institute 학생 심포지엄 대회 등) 참가"
+  - "ASCE 인턴십·채용 포털과 펠로십 공고 활용"
+activities_en:
+  - "Get one-on-one career advice from practicing civil engineers through ASCE Mentor Match"
+  - "Join ASCE institutes such as the Construction Institute for free and attend ASCE e-learning webinars"
+  - "Take part in student or graduate chapters and student competitions (such as the Construction Institute Student Symposium Competition)"
+  - "Use ASCE's internship and job portals and fellowship listings"
+benefits:
+  - "연회비 무료 (지역 섹션·브랜치 회비는 별도일 수 있음)"
+  - "대학원생 펠로십(Freeman 등)·장학금 정보와 지원 자격"
+  - "졸업 시 정회원 자동 전환, 최대 18개월 무료"
+  - "미국 토목·건설 업계 네트워크와 Younger Member Group 연결"
+benefits_en:
+  - "No dues (local section or branch dues may apply)"
+  - "Information on and eligibility for graduate fellowships (such as Freeman) and scholarships"
+  - "Automatic upgrade to professional membership on graduation, free for up to 18 months"
+  - "A network in US civil engineering and construction, with Younger Member Groups after graduation"
+commitment: "온라인 가입 후 활동은 자율"
+commitment_en: "Join online; participation is up to you"
+cost: {value: 0, currency: USD, note: "student membership is $0 per year; section or branch dues may apply"}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "학생이면 학부·대학원 모두 가입 가능하며 국적 제한 언급 없음. 북미 밖 거주자는 졸업 후 정회원 회비 할인 대상이 될 수 있음. ASCE 학생 경진대회 대부분은 학부 중심의 지역 심포지엄으로 운영됨."
+  notes_en: "Open to undergraduate and graduate students, with no nationality restriction mentioned. Members living outside North America may get discounted professional dues after graduation. Most ASCE student competitions run through undergraduate-focused regional symposia."
+cycle:
+  typical: "연중 가입 — 졸업일에 정회원으로 자동 전환"
+  typical_en: "Join any time — upgraded to professional membership automatically on your graduation date"
+status: rolling
+apply_url: "https://www.asce.org/membership/join"
+fit: 2
+take: "무료이고 Construction Institute 가입과 Mentor Match까지 따라오니 지금 학생회원으로 가입해 두고, ASCE 펠로십 지원과 i3CE·CRC 같은 ASCE 학회 활동의 발판으로 삼아라."
+take_en: "It is free and comes with Construction Institute membership and Mentor Match — join now as a student member and use it as a base for ASCE fellowship applications and ASCE venues such as i3CE and CRC."
+links:
+  home: "https://www.asce.org/communities/student-members"
+  join: "https://www.asce.org/membership/join"
+  resources: "https://www.asce.org/communities/student-members/resources"
+sources:
+  - "https://www.asce.org/membership/join"
+  - "https://www.asce.org/communities/student-members"
+  - "https://www.asce.org/communities/student-members/resources"
+  - "https://www.asce.org/communities/student-members/conferences"
+last_verified: 2026-10-02

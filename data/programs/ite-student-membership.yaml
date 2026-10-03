@@ -1,0 +1,51 @@
+id: ite-student-membership
+name: "ITE Student Membership and Student Chapters"
+organizer: "Institute of Transportation Engineers (ITE)"
+scope: us
+kind: society
+audience: [phd, ms, bs]
+fields: [transportation]
+summary: "교통 엔지니어 1만 8천여 명이 속한 ITE(Institute of Transportation Engineers)의 학생회원 제도로, 풀타임 학부·대학원생은 무료로 가입한다. 소속 District·Section을 통해 멘토링, 네트워킹 행사, 장학금을 이용하고, 학생 챕터 활동과 Sandbox Competition·Traffic Bowl·Safe System Approach 학생 대회, Daniel B. Fambro 학생 논문상 같은 경연에 참여할 수 있다."
+summary_en: "The student membership of the Institute of Transportation Engineers (ITE), a community of 18,000+ transportation professionals, free for full-time undergraduate and graduate students. Through your District and Section you get mentoring, networking events and scholarships, and you can join student chapters and contests such as the Sandbox Competition, the Traffic Bowl, the Safe System Approach Student Competition and the Daniel B. Fambro Student Paper Award."
+activities:
+  - "District·Section 행사에서 현업 교통 엔지니어와 멘토링·네트워킹"
+  - "학생 챕터 활동 (없으면 챕터 매뉴얼로 신설 가능)"
+  - "Sandbox Competition 학생 부문: 캠퍼스·지역의 People-Centered Mobility 계획 수립 (2026: 4/1 제출, 결선은 7월 ITE 연차총회)"
+  - "ITE International Collegiate Traffic Bowl, Safe System Approach 학생 대회, Fambro 학생 논문상"
+activities_en:
+  - "Mentoring and networking with practicing transportation engineers at District and Section events"
+  - "Student chapter activities (a new chapter can be started with the chapter manual)"
+  - "Sandbox Competition student track: a People-Centered Mobility plan for a campus or community (2026: entries due Apr 1, finals at the ITE Annual Meeting in July)"
+  - "The ITE International Collegiate Traffic Bowl, the Safe System Approach Student Competition and the Fambro Student Paper Award"
+benefits:
+  - "회비 무료"
+  - "교통 실무 네트워크(1만 8천여 명)와 District·Section 장학금"
+  - "학생 대회 결선 진출 시 ITE 연차총회 발표"
+benefits_en:
+  - "No dues"
+  - "A network of 18,000+ transportation professionals and District and Section scholarships"
+  - "A presentation at the ITE Annual Meeting for competition finalists"
+commitment: "온라인 가입 후 활동은 자율 — 대회 참가 시 팀 단위 준비"
+commitment_en: "Join online; participation is up to you — team preparation if you enter a competition"
+cost: {value: 0, currency: USD, note: "free for full-time undergraduate and graduate students"}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "풀타임 학부·대학원생이면 무료 가입 가능하며 국적 제한 언급 없음. 대회별 참가 자격(팀 구성, 챕터 소속 등)은 각 대회 규정을 확인."
+  notes_en: "Free for full-time undergraduate and graduate students, with no nationality restriction mentioned. Check each competition's rules for eligibility such as team makeup or chapter affiliation."
+cycle:
+  typical: "연중 가입 — Sandbox Competition은 11월 하순 참가 의향서, 4월 1일 학생 제출, 4월 말 결선 통보, 7월 연차총회 결선 (2026 회차 기준)"
+  typical_en: "Join any time — the Sandbox Competition takes expressions of interest in late November, student entries on April 1, finalist notices at the end of April and finals at the July Annual Meeting (2026 cycle)"
+status: rolling
+apply_url: "https://www.ite.org/membership/students/"
+fit: 1
+take: "교통안전 연구를 실무 교통 엔지니어 커뮤니티와 잇는 무료 통로라 가입만 해 두고, 노변 LiDAR·보행자 안전 주제가 맞으면 Safe System Approach 학생 대회 정도를 참고하라."
+take_en: "A free link between transportation-safety research and the practicing traffic-engineering community — just join, and look at the Safe System Approach Student Competition if roadside LiDAR or pedestrian-safety work fits."
+links:
+  home: "https://www.ite.org/membership/students/"
+  sandbox: "https://www.ite.org/membership/annual-sandbox-competition/"
+sources:
+  - "https://www.ite.org/membership/students/"
+  - "https://www.ite.org/membership/annual-sandbox-competition/"
+  - "https://www.ite.org/membership/awards1/"
+last_verified: 2026-10-02

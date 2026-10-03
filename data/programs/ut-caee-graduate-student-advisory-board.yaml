@@ -1,0 +1,59 @@
+id: ut-caee-graduate-student-advisory-board
+name: "CAEE Graduate Student Advisory Board (GsAB) and Department Graduate Events"
+organizer: "Fariborz Maseeh Department of Civil, Architectural and Environmental Engineering (CAEE), The University of Texas at Austin"
+scope: ut-austin
+kind: student-org
+audience: [phd, ms]
+fields: [construction, transportation]
+summary: "CAEE 대학원생을 대표하는 학생 자문위원회로, 학과장·대학원 어드바이저·교수 회의에 학생 의견을 전하고 GSA(Graduate Student Assembly)와 GEC에서 CAEE 학생을 대표한다. 동료 멘토링 프로그램과 전문성 개발·웰빙·친목 담당을 두고 워크숍·세미나, 학생 상담 시간, 오리엔테이션·리크루팅 행사를 운영하며, 학과 Student Townhall과 대학원 심포지엄·포스터 세션에도 참여한다. 학과 차원에서는 대학원생도 갈 수 있는 Industry Open House(CAEE 학생 대상 산업 교류 행사)와 CAEE Hackathon(대학원생은 멘토·자원봉사)이 열린다."
+summary_en: "The student advisory board that represents CAEE graduate students: it brings student views to the department chair, graduate advisors and faculty meetings and represents CAEE students in the Graduate Student Assembly (GSA) and GEC. With chairs for peer mentorship, professional development, well-being and social events, it runs workshops and seminars, student office hours, and orientation and recruitment events, and takes part in the department's Student Townhall, graduate symposium and poster sessions. At department level, graduate students can also attend the Industry Open House (industry networking for CAEE students) and support the CAEE Hackathon as mentors or volunteers."
+activities:
+  - "GsAB 동료 멘토링 프로그램 참여 (멘토 또는 멘티)"
+  - "GsAB 워크숍·세미나·상담 시간, 학과 Student Townhall, 대학원 심포지엄·포스터 세션"
+  - "GsAB 위원으로 활동 — 분야 대표, 전문성 개발·웰빙·친목·설문 담당 등 (대학원 코디네이터나 GsAB에 문의)"
+  - "학과 행사 — Industry Open House(이력서 지참 산업 교류), CAEE Hackathon 멘토·자원봉사"
+activities_en:
+  - "Join the GsAB peer mentorship program (as a mentor or mentee)"
+  - "GsAB workshops, seminars and office hours; the department Student Townhall, graduate symposium and poster sessions"
+  - "Serve on the GsAB — area representative or chair for professional development, well-being, social events or surveys (contact the graduate coordinator or the GsAB)"
+  - "Department events — the Industry Open House (bring a resume/CV) and mentoring or volunteering at the CAEE Hackathon"
+benefits:
+  - "학과 운영에 대학원생 의견을 반영하는 대표 경험 (교수 회의, 학과장 면담)"
+  - "CEPM 등 분야별 선후배 네트워크와 멘토링"
+  - "Industry Open House에서 토목·건축·환경 분야 기업 실무자와 진로·연구 대화"
+benefits_en:
+  - "Representation experience shaping department decisions (faculty meetings, meetings with the chair)"
+  - "A peer network and mentoring across areas such as CEPM"
+  - "Conversations about careers and research with civil, architectural and environmental engineering professionals at the Industry Open House"
+commitment: "자율 — 멘토링과 행사는 학기 중 수시, GsAB 위원은 정기 회의 참석"
+commitment_en: "Flexible — mentoring and events through the semester; GsAB members attend regular meetings"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "CAEE 대학원생 대상이며 국적 제한 언급 없음. Industry Open House는 CAEE 분야에 관심 있는 학부·대학원생 모두 참석 가능(등록 권장, 필수 아님). Hackathon 본선은 학부생 대상이고 대학원생은 멘토·자원봉사로 참여. 학과의 다른 대학원생 단체로는 ASCE UT 학생 지부(격주 수요일 18시 기업 발표·저녁 모임, 연회비 $25, 설계 경진 팀; 주로 학부생), ITE·ITS America(교통), ASCE Geo-Institute 대학원 지부가 있음."
+  notes_en: "For CAEE graduate students; no nationality restriction is mentioned. The Industry Open House is open to undergraduate and graduate students interested in CAEE fields (registration appreciated but not required). The Hackathon itself is for undergraduates; graduate students take part as mentors or volunteers. Other graduate student organizations in the department include the ASCE UT student chapter (company presentations with dinner every other Wednesday at 6 p.m., $25 yearly dues, design-competition teams; mostly undergraduates), ITE and ITS America (transportation) and the ASCE Geo-Institute graduate chapter."
+cycle:
+  typical: "학기 초 오리엔테이션·멘토링, 학기 중 워크숍·타운홀, 리크루팅 시즌 행사; Industry Open House와 Hackathon은 학과 공지 일정에 따름"
+  typical_en: "Orientation and mentoring at the start of each semester, workshops and townhalls during the term, recruitment-season events; the Industry Open House and Hackathon follow department announcements"
+status: ongoing
+apply_url: "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013203/CAEE+Graduate+Student+Advisory+Board+GsAB"
+fit: 2
+take: "같은 CEPM·토목 대학원 선배를 만나는 가장 빠른 길이니 GsAB 동료 멘토링에 신청하고, Industry Open House에는 건설 로봇 연구를 소개할 이력서를 들고 가라."
+take_en: "The fastest way to meet senior CEPM and civil graduate students — sign up for GsAB peer mentoring, and bring a resume that presents your construction-robotics work to the Industry Open House."
+links:
+  gsab: "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013203/CAEE+Graduate+Student+Advisory+Board+GsAB"
+  hornslink: "https://utexas.campuslabs.com/engage/organization/caee_gsab"
+  industry_open_house: "https://caee.utexas.edu/events/industry-open-house/"
+  hackathon: "https://caee.utexas.edu/events/caee-hackathon/"
+  grad_student_orgs: "https://caee.utexas.edu/academics/student-organizations/grad-student-organizations/"
+  asce_chapter: "https://sites.utexas.edu/asce/"
+sources:
+  - "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013203/CAEE+Graduate+Student+Advisory+Board+GsAB"
+  - "https://utexas.campuslabs.com/engage/organization/caee_gsab"
+  - "https://caee.utexas.edu/events/industry-open-house/"
+  - "https://caee.utexas.edu/events/caee-hackathon/"
+  - "https://caee.utexas.edu/events/"
+  - "https://caee.utexas.edu/academics/student-organizations/grad-student-organizations/"
+  - "https://sites.utexas.edu/asce/join/"
+last_verified: 2026-10-02
