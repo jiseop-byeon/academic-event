@@ -87,6 +87,11 @@
   "file": null,
   "checked": "2026-10-03"
  },
+ "anybotics.com": {
+  "file": "anybotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "apis-cor.com": {
   "file": "apis-cor.com.png",
   "source": "google-s2",
@@ -111,6 +116,11 @@
   "file": null,
   "checked": "2026-10-03"
  },
+ "apptronik.com": {
+  "file": "apptronik.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "asce.org": {
   "file": "asce.org.png",
   "source": "google-s2",
@@ -131,6 +141,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "autodesk.com": {
+  "file": "autodesk.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "bedrockrobotics.com": {
   "file": "bedrockrobotics.com.png",
   "source": "google-s2",
@@ -143,6 +158,16 @@
  },
  "bloomberg.com": {
   "file": "bloomberg.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bobcat.com": {
+  "file": "bobcat.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "bosch.com": {
+  "file": "bosch.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -161,9 +186,18 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "builtrobotics.com": {
+  "file": "builtrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "caee.utexas.edu": {
   "file": "caee.utexas.edu.png",
   "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "canvas.build": {
+  "file": null,
   "checked": "2026-10-03"
  },
  "carbonrobotics.com": {
@@ -211,6 +245,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "caterpillar.com": {
+  "file": "caterpillar.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "chi.acm.org": {
   "file": null,
   "checked": "2026-10-03"
@@ -237,6 +276,11 @@
  },
  "cmaanet.org": {
   "file": "cmaanet.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "co.bot": {
+  "file": "co.bot.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -268,8 +312,23 @@
   "source": "site",
   "checked": "2026-10-03"
  },
+ "dexterity.ai": {
+  "file": "dexterity.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "diamondage.com": {
   "file": "diamondage.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "diligentrobotics.com": {
+  "file": "diligentrobotics.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "disneyresearch.com": {
+  "file": "disneyresearch.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -278,8 +337,13 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
- "doosanrobotics.ninehire.site": {
+ "doosanrobotics.com": {
   "file": null,
+  "checked": "2026-10-03"
+ },
+ "doxel.ai": {
+  "file": "doxel.ai.png",
+  "source": "google-s2",
   "checked": "2026-10-03"
  },
  "dustyrobotics.com": {
@@ -370,6 +434,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "gm.com": {
+  "file": "gm.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "google.com": {
   "file": "google.com.png",
   "source": "google-s2",
@@ -382,6 +451,11 @@
  },
  "graduate.utexas.edu": {
   "file": "graduate.utexas.edu.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "gravisrobotics.com": {
+  "file": "gravisrobotics.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -421,6 +495,11 @@
  },
  "humanrobotinteraction.org": {
   "file": null,
+  "checked": "2026-10-03"
+ },
+ "hyundaimotorgroup.com": {
+  "file": "hyundaimotorgroup.com.png",
+  "source": "google-s2",
   "checked": "2026-10-03"
  },
  "i3ce2026.com": {
@@ -500,6 +579,11 @@
   "source": "site",
   "checked": "2026-10-03"
  },
+ "intel.com": {
+  "file": "intel.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "intrinsic.ai": {
   "file": "intrinsic.ai.png",
   "source": "google-s2",
@@ -530,10 +614,6 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
- "jlg.com": {
-  "file": null,
-  "checked": "2026-10-03"
- },
  "jmlr.org": {
   "file": "jmlr.org.png",
   "source": "google-s2",
@@ -542,10 +622,6 @@
  "jobs.apple.com": {
   "file": "jobs.apple.com.png",
   "source": "google-s2",
-  "checked": "2026-10-03"
- },
- "jobs.doosan.com": {
-  "file": null,
   "checked": "2026-10-03"
  },
  "jobs.hp.com": {
@@ -595,7 +671,7 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
- "komatsu.jobs": {
+ "komatsu.com": {
   "file": null,
   "checked": "2026-10-03"
  },
@@ -633,6 +709,16 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "maticrobots.com": {
+  "file": "maticrobots.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "maymobility.com": {
+  "file": "maymobility.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "merl.com": {
   "file": "merl.com.png",
   "source": "google-s2",
@@ -645,6 +731,21 @@
  },
  "microsoft.com": {
   "file": "microsoft.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "miovision.com": {
+  "file": "miovision.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "monumental.co": {
+  "file": "monumental.co.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "motional.com": {
+  "file": "motional.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -693,6 +794,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "nvidia.com": {
+  "file": "nvidia.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "obayashi.co.jp": {
   "file": null,
   "checked": "2026-10-03"
@@ -705,6 +811,11 @@
  "okibo.com": {
   "file": "okibo.com.png",
   "source": "site",
+  "checked": "2026-10-03"
+ },
+ "openai.com": {
+  "file": "openai.com.png",
+  "source": "google-s2",
   "checked": "2026-10-03"
  },
  "openspace.ai": {
@@ -732,6 +843,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "physicalintelligence.company": {
+  "file": "physicalintelligence.company.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "picklerobot.com": {
   "file": "picklerobot.com.png",
   "source": "google-s2",
@@ -739,6 +855,11 @@
  },
  "plus.ai": {
   "file": "plus.ai.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "promiserobotics.com": {
+  "file": "promiserobotics.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -782,6 +903,11 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "reframe.systems": {
+  "file": "reframe.systems.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "research.ibm.com": {
   "file": "research.ibm.com.png",
   "source": "google-s2",
@@ -799,6 +925,11 @@
  },
  "roboticsconference.org": {
   "file": "roboticsconference.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "ruggedrobotics.com": {
+  "file": "ruggedrobotics.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -824,6 +955,11 @@
  },
  "sciencedirect.com": {
   "file": "sciencedirect.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "seoulrobotics.org": {
+  "file": "seoulrobotics.org.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  },
@@ -891,8 +1027,9 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
- "talent.hyundai.com": {
-  "file": null,
+ "teleo.ai": {
+  "file": "teleo.ai.png",
+  "source": "google-s2",
   "checked": "2026-10-03"
  },
  "tesla.com": {
@@ -970,8 +1107,18 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
+ "woven.toyota": {
+  "file": "woven.toyota.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
  "zintellect.com": {
   "file": "zintellect.com.png",
+  "source": "google-s2",
+  "checked": "2026-10-03"
+ },
+ "zoox.com": {
+  "file": "zoox.com.png",
   "source": "google-s2",
   "checked": "2026-10-03"
  }

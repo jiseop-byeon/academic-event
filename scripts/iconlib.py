@@ -26,6 +26,24 @@ ALIAS = {
 }
 
 
+# Companies whose only links are job boards: their own site, for the logo (keys = company_key()).
+COMPANY_DOMAIN = {
+    "nvidia": "nvidia.com", "apptronik": "apptronik.com", "caterpillar": "caterpillar.com", "general motors": "gm.com",
+    "kodiak robotics": "kodiak.ai", "physical intelligence": "physicalintelligence.company", "anybotics": "anybotics.com",
+    "argonne national laboratory": "anl.gov", "autodesk": "autodesk.com", "bosch research": "bosch.com",
+    "built robotics": "builtrobotics.com", "canvas": "canvas.build", "collaborative robotics": "co.bot",
+    "dexterity": "dexterity.ai", "diligent robotics": "diligentrobotics.com", "disney research": "disneyresearch.com",
+    "doosan bobcat": "bobcat.com", "doosan robotics": "doosanrobotics.com", "doxel": "doxel.ai",
+    "gravis robotics": "gravisrobotics.com", "hyundai motor group": "hyundaimotorgroup.com", "intel labs": "intel.com",
+    "kict 한국건설기술연구원": "kict.re.kr", "kist 한국과학기술연구원": "kist.re.kr", "kajima": "kajima.co.jp",
+    "komatsu": "komatsu.com", "matic": "maticrobots.com", "may mobility": "maymobility.com", "miovision": "miovision.com",
+    "monumental": "monumental.co", "motional": "motional.com", "nuro": "nuro.ai", "obayashi": "obayashi.co.jp",
+    "openai": "openai.com", "promise robotics": "promiserobotics.com", "reframe systems": "reframe.systems",
+    "rugged robotics": "ruggedrobotics.com", "seoul robotics": "seoulrobotics.org", "shimizu": "shimz.co.jp",
+    "sony ai": "ai.sony", "teleo": "teleo.ai", "woven by toyota": "woven.toyota", "zoox": "zoox.com",
+}
+
+
 def host(url: str | None) -> str:
     h = urllib.parse.urlparse(url or "").netloc.lower().split(":")[0]
     return h[4:] if h.startswith("www.") else h
@@ -48,6 +66,14 @@ def careers_map(companies: list[dict]) -> dict[str, str]:
     return out
 
 
+def company_host(name: str, careers_url: str | None = None) -> str | None:
+    known = COMPANY_DOMAIN.get(company_key(name))
+    if known:
+        return known
+    h = host(careers_url)
+    return ALIAS.get(h, h) if usable(h) else None
+
+
 def icon_host(cat: str, item: dict, careers: dict[str, str] | None = None) -> str | None:
     links = item.get("links") or {}
     cands: list[str | None] = []
@@ -57,6 +83,9 @@ def icon_host(cat: str, item: dict, careers: dict[str, str] | None = None) -> st
     elif cat == "journals":
         cands.append(links.get("home"))
     elif cat == "internships":
+        known = COMPANY_DOMAIN.get(company_key(item.get("company", "")))
+        if known:
+            return known
         if careers:
             cands.append(careers.get(company_key(item.get("company", ""))))
         cands += [item.get("apply_url")] + list(item.get("sources") or [])

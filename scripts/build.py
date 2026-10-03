@@ -304,8 +304,7 @@ def main(argv: list[str]) -> int:
             if ic:
                 it["icon"] = ic
     for c in companies:
-        h = iconlib.host(c.get("careers"))
-        ic = icon_for(iconlib.ALIAS.get(h, h)) if iconlib.usable(h) else None
+        ic = icon_for(iconlib.company_host(c.get("name", ""), c.get("careers")))
         if ic:
             c["icon"] = ic
 

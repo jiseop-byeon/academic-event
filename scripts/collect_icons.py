@@ -46,9 +46,9 @@ def needed_hosts() -> list[str]:
     careers = iconlib.careers_map(companies)
     hosts = set()
     for c in companies:  # the Companies tab shows each tracked company's own mark
-        h = iconlib.host(c.get("careers"))
-        if iconlib.usable(h):
-            hosts.add(iconlib.ALIAS.get(h, h))
+        h = iconlib.company_host(c.get("name", ""), c.get("careers"))
+        if h:
+            hosts.add(h)
     for cat in CATEGORIES:
         for f in sorted((ROOT / "data" / cat).glob("*.yaml")):
             h = iconlib.icon_host(cat, yaml.safe_load(f.read_text(encoding="utf-8")) or {}, careers)
