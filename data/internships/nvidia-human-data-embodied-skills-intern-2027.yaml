@@ -3,7 +3,7 @@ company: "NVIDIA"
 org_type: bigtech
 team: "NVIDIA Research — Data-Driven AI for Robotics (DAIR)"
 title: "PhD Research Intern, Learning Embodied Skills from Human Data - 2027"
-fields: [physical-ai, manipulation, vision, robotics]
+fields: [physical-ai, manipulation, hri, vision, robotics]
 degree: [phd]
 season: "2027"
 locations:
@@ -16,6 +16,7 @@ pay:
   unit: hour
   source: posting
   note: "공고 기재 인턴 시급 범위"
+  note_en: "intern hourly range stated in the posting"
 required:
   - "Pursuing a PhD in CS, CE, EE, Robotics or related"
   - "Efficient use of coding agents for research prototyping"
@@ -32,12 +33,15 @@ responsibilities:
   - "Transfer human skills to humanoid loco-manipulation and dexterous manipulation"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 미국 Santa Clara 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Based in Santa Clara, US."
 status: open
 posted: 2026-09-21
 apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405"
 fit: 2
 take: "사람 시연 영상에서 조작 기술을 뽑는 방향은 숙련공 데이터를 쓰는 건설 조작 연구와 맞닿아 있으나 휴머노이드·캐릭터 모션 비중이 커서 2순위로 지원하라."
+take_en: "Extracting manipulation skills from human demonstration video connects with construction manipulation research that uses skilled-worker data, but humanoid and character motion dominate; apply as a second choice."
 notes: "요청번호 JR2025405. '최소 2026-09-25까지 접수' 문구는 마감일이 아님."
+notes_en: "Requisition JR2025405. The 'accepting applications until at least 2026-09-25' line is not a deadline."
 sources:
   - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405"
 last_verified: 2026-10-02

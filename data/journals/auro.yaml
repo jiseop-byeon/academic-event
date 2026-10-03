@@ -1,0 +1,33 @@
+id: auro
+abbr: "AuRo"
+name: "Autonomous Robots"
+publisher: "Springer Nature"
+issn: "0929-5593"
+eissn: "1573-7527"
+fields: [robotics, navigation, manipulation, physical-ai]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 6.0, year: 2025}
+  jif_5y: {value: 5.1, year: 2025}
+  citescore: {value: 13.6, year: 2025, quartile: Q1, category: "Artificial Intelligence", rank: "51/570"}
+  h5_index: {value: 45, year: 2025}
+access: hybrid
+orientation:
+  contribution: 0
+  summary: "자율 로봇의 이론과 응용을 다루는 Springer의 전통 있는 로보틱스 저널로, 계획·학습·인식·제어처럼 로봇의 자율성을 높이는 방법을 실험으로 검증한 논문이 중심이다. 2025년 게재 논문이 50편 안팎(OpenAlex 기준)으로 규모가 작다. 건설 응용은 자율성 측면의 방법론적 기여를 분명히 해야 한다."
+  summary_en: "A long-established Springer robotics journal on the theory and applications of autonomous robots, centred on experimentally validated methods that make robots more autonomous, such as planning, learning, perception and control. It is small, with about 50 papers published in 2025 (per OpenAlex). Construction applications need a clear methodological contribution to autonomy."
+  values: ["autonomy methods", "experimental validation", "planning and learning", "small volume"]
+fit: 2
+take: "RA-L 6쪽에 담기 어려운 자율 내비게이션·조작 방법론을 정리할 때 고려할 만한 2순위 로보틱스 저널이다."
+take_en: "A second-tier robotics option worth considering for autonomous navigation or manipulation methods that do not fit in RA-L's six pages."
+openalex_id: "S144091109"
+links:
+  home: "https://link.springer.com/journal/10514"
+sources:
+  - "https://www.bioxbio.com/journal/AUTON-ROBOT"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Autonomous+Robots"
+  - "https://api.openalex.org/sources?filter=issn:0929-5593"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S144091109,publication_year:2025&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=1015&page=journalapp&view=detail"
+last_verified: 2026-10-02

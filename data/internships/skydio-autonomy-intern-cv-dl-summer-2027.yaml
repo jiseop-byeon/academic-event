@@ -22,10 +22,12 @@ skills: [cpp, python, pytorch, computer-vision, 3d-vision, motion-planning, cont
 responsibilities: ["Own a research project with the core autonomy / computer-vision team", "Research, prototype and assess the feasibility of new autonomy approaches", "Characterize and quantify performance of core software and hardware components"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Verify로 근무 자격을 확인함."
+eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
 status: open
 posted: 2026-09-03
 apply_url: "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
 fit: 2
 take: "자율비행 드론의 CV/DL 연구 인턴으로 교량·인프라 점검 같은 건설 인접 분야의 perception·내비게이션 경험을 쌓을 수 있어, 지원 축 보강용으로 넣어볼 만하다."
+take_en: "A CV/DL research internship on autonomous drones that builds perception and navigation experience in construction-adjacent work such as bridge and infrastructure inspection; worth applying to strengthen the support track."
 sources: ["https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9", "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"]
 last_verified: 2026-10-02

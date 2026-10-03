@@ -6,16 +6,23 @@ fields: [hri, robotics]
 community: hri
 tier: 2
 rankings:
+  core: "B"
   h5_index: 34
   h5_year: 2025
 frequency: annual
+paper_format: "Initial submission 6-8 pages including references; final paper 6 pages plus up to 2 extra pages at $100 each; IEEE two-column template via PaperCept (RO-MAN 2026 rules)"
+review:
+  blind: single
 proceedings: "IEEE Xplore"
+journal_track: "RA-L papers can be presented at RO-MAN (2026: final accepted RA-L manuscript sent for proofing between 2025-09-01 and 2026-05-31)"
 orientation:
   contribution: 1
-  summary: "인간-로봇 상호작용 전반(소셜 로봇, 협업, 원격조작, 보조 로봇)을 폭넓게 받는 IEEE 계열 학회로, HRI보다 문턱이 낮아 시스템 구현과 소규모 사용자 평가를 갖춘 논문도 채택된다. 건설 작업자-로봇 협업, 작업자 의도 인식, 원격조작 인터페이스 같은 주제가 자연스럽게 맞는다."
-  values: ["human-robot collaboration", "social robotics", "user evaluation", "broad scope"]
+  summary: "IEEE RAS 계열의 HRI 학회로 소셜 로봇, 협업, 원격조작, 보조 로봇까지 폭넓게 받으며, HRI보다 문턱이 낮아 시스템 구현에 소규모 사용자 평가를 곁들인 논문도 채택된다(단일 익명, 최소 2인 심사). 2026년 프로그램에는 'Cognition, Intent & Embodied AI' 세션이 5개, 'Trust & Explainability' 세션이 3개 있었고 사람 활동 이해·제스처 인식·사람 상태 모니터링도 공식 주제라, 작업자·보행자의 자세·시선·궤적으로 의도를 예측하는 연구가 핵심 청중에게 닿는다. 다만 상호작용으로 이어지지 않는 순수 인식 정확도 개선은 범위가 애매하다는 평을 받기 쉽다."
+  summary_en: "An IEEE RAS HRI conference with a broad scope (social robots, collaboration, teleoperation, assistive robots) and a lower bar than HRI: system papers with a small user evaluation get in (single-blind, at least two reviewers). The 2026 program had five 'Cognition, Intent & Embodied AI' sessions and three 'Trust & Explainability' sessions, and understanding human activity, gesture recognition and monitoring human states are listed topics, so work that predicts worker or pedestrian intent from pose, gaze and trajectories reaches its core audience. Pure gains in recognition accuracy that never feed back into the interaction tend to be judged borderline in scope."
+  values: ["human-robot collaboration", "intent and activity recognition", "explainable HRI", "user evaluation", "broad scope"]
 fit: 2
-take: "RO-MAN 2027(캐나다 워털루)은 협업·원격조작 인터페이스 결과를 3월 중순 예상 마감에 맞춰 내기 좋은 HRI 계열 2순위 무대."
+take: "시선·제스처·동작으로 작업자 의도를 읽는 양방향 AR 인터페이스처럼 의도 예측을 실제 상호작용에 연결한 결과를 내기에 가장 현실적인 HRI 학회로, RO-MAN 2027(워털루) 논문 마감은 2027년 3월 중순으로 예상되며 RA-L 논문으로 발표하는 경로도 있다."
+take_en: "The most realistic HRI venue for intent prediction tied to real interaction, such as the two-way AR interface in which a robot reads worker intent from gaze, gestures and motion; the RO-MAN 2027 (Waterloo) paper deadline is expected in mid-March 2027, and RA-L papers can also be presented there."
 editions:
   - year: 2027
     status: estimated
@@ -26,14 +33,23 @@ editions:
     lat: 43.46
     lon: -80.52
     deadlines:
-      - {kind: paper, date: 2027-03-15, estimated: true}
-    notes: "ro-man.org에 2027 개최지(캐나다 온타리오주 워털루)만 공지됨. 일정은 최근 4회(8월 마지막 주) 패턴으로, 논문 마감은 2026(3/15, 연장 3/29)·2025(3/31) 회차를 바탕으로 추정. RO-MAN 2026(일본 기타큐슈, 8/24–28)은 종료."
+      - {kind: paper, date: 2027-03-15, tz: "PT", estimated: true}
+      - {kind: notification, date: 2027-05-31, estimated: true}
+      - {kind: late-breaking, date: 2027-06-11, tz: "PT", estimated: true, label: "late-breaking reports (2-4 pages incl. references; not in IEEE Xplore in 2026)"}
+    notes: "ro-man.org에는 2027년 개최지(캐나다 온타리오주 워털루)만 공지됐고 날짜·마감은 아직 없다. 개최 주간은 최근 2회(2025년 8/25–29, 2026년 8/24–28, 모두 8월 마지막 주), 논문 마감은 2025년(3/31)·2026년(3/15, 3/29로 연장), 결과 통보와 Late-Breaking Report 마감은 같은 두 회차 일정으로 추정했다. 2026년에는 투고 저자(또는 박사과정 고년차 같은 자격 있는 공저자)가 2편 이상 심사를 맡아야 했고, 하이브리드지만 저자 1인 이상 현장 참석이 원칙이었다. RO-MAN 2026(기타큐슈, 8/24–28)은 종료됐다."
+    notes_en: "ro-man.org only announces the 2027 location (Waterloo, Ontario, Canada); dates and deadlines are not out yet. The conference week is estimated from the last two editions (August 25-29, 2025 and August 24-28, 2026, both the last week of August), the paper deadline from 2025 (March 31) and 2026 (March 15, extended to March 29), and the notification and late-breaking-report dates from the same two cycles. In 2026 each submitting author (or a qualified co-author such as a senior PhD student) had to provide at least two reviews, and the conference was hybrid with at least one author expected in person. RO-MAN 2026 (Kitakyushu, August 24-28) is over."
 links:
   home: "https://ro-man.org/"
+  previous_cfp: "https://ro-man2026.org/papersubmission/"
 sources:
   - "https://ro-man.org/"
   - "https://ro-man2026.org/"
+  - "https://ro-man2026.org/papersubmission/"
+  - "https://ro-man2026.org/call-for-papers/"
+  - "https://ro-man2026.org/late-breaking-report-submission/"
+  - "https://ro-man2026.org/program-at-a-glance/"
+  - "https://ro-man2026.org/news/"
   - "https://ro-man2025.org/"
-  - "https://www.rsj.or.jp/en/event/international/roman.html"
-  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Humanoid+Robots"
+  - "https://portal.core.edu.au/conf-ranks/?search=RO-MAN&by=all&source=all"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Robot+and+Human+Interactive+Communication"
 last_verified: 2026-10-02

@@ -1,0 +1,61 @@
+id: iv
+acronym: "IV"
+name: "IEEE Intelligent Vehicles Symposium"
+organizer: "IEEE Intelligent Transportation Systems Society (ITSS)"
+fields: [transportation, navigation, vision, robotics, hri]
+community: transportation
+tier: 2
+rankings:
+  core: "B"
+  h5_index: 55
+  h5_year: 2025
+frequency: annual
+paper_format: "6 pages expected (the CFP says up to 6 including figures and references; the author guide allows up to 8 with 2 paid extra pages), IEEE double-column; optional anonymized video"
+review:
+  blind: double
+proceedings: "IEEE Xplore"
+journal_track: "Presentation-only track for papers published in 2025-2027 in T-IV, T-ITS, T-RO, TPAMI and other IEEE journals (requests by December 1, 2026; not reviewed again, not in the proceedings)"
+orientation:
+  contribution: 0
+  summary: "자율주행차와 차량-인프라 협력을 다루는 IEEE ITSS의 대표 심포지엄으로, 인지·센서 융합·측위·계획·제어부터 보행자 등 교통약자 보호와 HMI까지 지능형 차량 기술 전반을 6쪽 논문으로 받는다. 심사 지침상 새 접근법이나 강한 실험 결과 모두 기여로 인정되고, SOTA보다 낮은 성능만으로는 거절하지 않는다. 실차·실데이터 검증이 있는 논문이 강하며, 차량이 아닌 응용은 지능형 차량과의 연결고리를 분명히 해야 한다."
+  summary_en: "The IEEE ITS Society's flagship symposium on automated vehicles and vehicle-infrastructure cooperation, taking six-page papers across perception, sensor fusion, localization, planning and control, vulnerable-road-user protection and HMI. Its reviewer guidelines count either a new approach or strong experimental results as a contribution, and below-SOTA performance alone is not grounds for rejection. Papers validated on real vehicles or real data do best; applications outside vehicles need a clear link to intelligent vehicles."
+  values: ["real-vehicle validation", "perception and sensor fusion", "vulnerable road users", "concise six-page papers"]
+fit: 2
+take: "보행자 보호·스마트 인프라·다중 센서 융합 주제가 노변 LiDAR 연구와 맞닿아 있으니, 결과가 준비됐다면 11월 15일(AWST) 마감인 IV 2027(퍼스)에 내고, 아니면 3월 1일 마감인 ITSC 2027로 넘기자."
+take_en: "Its pedestrian-protection, smart-infrastructure and sensor-fusion topics overlap the roadside-LiDAR work — submit to IV 2027 in Perth (deadline November 15, AWST) if results are ready, otherwise move to ITSC 2027 (March 1)."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-06-15
+    end: 2027-06-18
+    city: "Perth"
+    country: AU
+    lat: -31.95
+    lon: 115.86
+    url: "https://ieee-iv.org/2027/"
+    deadlines:
+      - {kind: workshop-proposal, date: 2026-11-01, label: "workshop and tutorial proposals"}
+      - {kind: paper, date: 2026-11-15, tz: "AWST", time: "23:59"}
+      - {kind: other, date: 2026-12-01, label: "journal presentation requests"}
+      - {kind: notification, date: 2027-01-15}
+      - {kind: camera-ready, date: 2027-02-01, label: "camera-ready; presenting authors must be registered"}
+      - {kind: other, date: 2027-02-01, label: "workshop papers"}
+      - {kind: other, date: 2027-03-15, label: "industry track papers"}
+    notes: "제38회 IV로 서호주 퍼스에서 열린다. 논문 마감은 11/15 23:59 AWST(UTC+8)이고 첫 제출부터 이중 익명이며 영상도 익명화해야 한다. 워크숍 논문(2/1)과 산업 트랙(3/15)은 마감이 더 늦다. 다음 IV 2028은 2028년 6/27–30 바르셀로나 개최가 발표됐다."
+    notes_en: "The 38th IV, held in Perth, Western Australia. Papers are due November 15, 23:59 AWST (UTC+8); review is double-blind from the first submission and videos must be anonymized too. Workshop papers (February 1) and the industry track (March 15) close later. IV 2028 has been announced for Barcelona, June 27-30, 2028."
+links:
+  home: "https://ieee-iv.org/2027/"
+  cfp: "https://ieee-iv.org/2027/contributions/call-for-papers/"
+  authors: "https://ieee-iv.org/2027/contributions/information-for-authors/"
+  series: "https://ieee-iv.org/"
+sources:
+  - "https://ieee-iv.org/2027/"
+  - "https://ieee-iv.org/2027/contributions/call-for-papers/"
+  - "https://ieee-iv.org/2027/contributions/information-for-authors/"
+  - "https://ieee-iv.org/2027/contributions/call-for-journal-presentations/"
+  - "https://ieee-iv.org/2027/contributions/call-for-workshop-and-tutorials-proposals/"
+  - "https://ieee-iv.org/2027/contributions/reviews-guidelines/"
+  - "https://ieee-iv.org/"
+  - "https://portal.core.edu.au/conf-ranks/?search=Intelligent+Vehicles&by=all&source=all"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Intelligent+Vehicles+Symposium"
+last_verified: 2026-10-02

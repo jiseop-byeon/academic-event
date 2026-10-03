@@ -9,19 +9,24 @@ community: construction
 tier: 1
 metrics:
   jif: {value: 12.6, year: 2025}
-  citescore: {value: 20.9, year: 2024}
+  jif_5y: {value: 13.6, year: 2025}
+  citescore: {value: 22.7, year: 2025, quartile: Q1, category: "Civil and Structural Engineering", rank: "1/434"}
 review:
   first_decision_days: 1
   speed_note: "저널 페이지(2026년 5월 기준) 중앙값: 투고→첫 결정 1일(데스크 리젝 포함), 심사 후 결정 55일, 투고→게재 승인 165일, 승인→온라인 게재 8일. 데스크 판단이 매우 빠르므로 초록·서론에서 건설 문제와 기여를 분명히 해야 한다."
+  speed_note_en: "Medians on the journal page (as of May 2026): 1 day from submission to first decision (desk rejections included), 55 days to a post-review decision, 165 days from submission to acceptance, and 8 days from acceptance to online publication. Desk decisions are very fast, so the abstract and introduction must make the construction problem and the contribution clear."
 access: hybrid
 apc_usd: 5090
 conference_link: "EC3 2027 우수 논문은 Automation in Construction 확장 투고로 초청된다."
+conference_link_en: "Selected EC3 2027 papers are invited to submit extended versions to Automation in Construction."
 orientation:
   contribution: 1
   summary: "건설 자동화·로보틱스·IT 분야 최상위 저널로, 실제 현장 데이터나 실험으로 검증된 시스템·방법론 논문이 주류다. 범용 알고리즘 신규성보다 건설 문제에 맞춘 새 접근과 정량 검증을 요구하며, 로봇 하드웨어·현장 실험 논문은 특히 환영받는다. 기존 딥러닝 모델을 단순 적용한 사례 연구는 데스크 리젝되기 쉽다."
+  summary_en: "The top journal for construction automation, robotics and IT, dominated by system and method papers validated with real site data or experiments. It asks for new approaches tailored to construction problems and quantitative validation rather than general algorithmic novelty, and robot hardware and field-experiment papers are especially welcome. Case studies that simply apply existing deep learning models tend to be desk-rejected."
   values: ["construction-specific novelty", "field validation", "robotics welcome", "high selectivity"]
 fit: 3
 take: "건설 로봇 조작 연구의 최종 목표 저널이니, 현장급 실험과 베이스라인 정량 비교를 갖춘 첫 저널 논문을 이곳에 겨냥하자."
+take_en: "The ultimate target for construction robot manipulation research: aim your first journal paper here, with field-grade experiments and quantitative comparisons against baselines."
 openalex_id: "S172073041"
 links:
   home: "https://www.sciencedirect.com/journal/automation-in-construction"
@@ -32,4 +37,5 @@ sources:
   - "https://ec-3.org/conference/c2027/submissions/instructions-and-templates/"
   - "https://www.bioxbio.com/journal/AUTOMAT-CONSTR"
   - "https://api.openalex.org/sources/S172073041"
+  - "https://www.letpub.com.cn/index.php?journalid=1012&page=journalapp&view=detail"
 last_verified: 2026-10-02

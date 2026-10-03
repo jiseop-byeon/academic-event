@@ -136,6 +136,11 @@ small, .small { font-size: 0.8125rem; }
 .nav a:hover { background: var(--hover); color: var(--text); }
 .nav a[aria-current="page"] { color: var(--text); font-weight: 650; background: var(--hover); }
 .nav .cat-dot { width: 8px; height: 8px; }
+.lang-seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; height: 34px; }
+.lang-seg button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 0.8125rem; font-weight: 650; padding: 0 10px; cursor: pointer; }
+.lang-seg button + button { border-left: 1px solid var(--rule); }
+.lang-seg button:hover { color: var(--text); }
+.lang-seg button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
 .theme-btn { border: 1px solid var(--rule); background: transparent; color: var(--muted); border-radius: 6px; width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
 .theme-btn:hover { color: var(--text); }
 .theme-btn svg { width: 18px; height: 18px; }
@@ -399,6 +404,13 @@ g.row:hover .row-hover, g.row:focus-within .row-hover { opacity: 1; }
 .subscribe { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 code.url { font-size: 0.78rem; background: var(--plane); border: 1px solid var(--rule); border-radius: 6px; padding: 3px 7px; overflow-wrap: anywhere; }
 
+.tabs-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: -4px 0 14px; }
+.pipeline { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; margin: 6px 0 12px; }
+.pipe-step { flex: 1 1 150px; margin: 0 !important; }
+.pipe-step b { font-size: 0.875rem; }
+.pipe-step .small { margin-top: 4px; }
+.pipe-arrow { align-self: center; color: var(--faint); }
+
 /* planner */
 .planner-form { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
 
@@ -448,6 +460,10 @@ code.url { font-size: 0.78rem; background: var(--plane); border: 1px solid var(-
   .cal .ev { font-size: 0.66rem; padding: 0 3px; }
   input[type="search"] { min-width: 0; width: 100%; }
   .filters .group.search { flex-basis: 100%; }
+  /* chip groups become one swipeable row instead of a tall stack */
+  .filters .group { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; scrollbar-width: none; padding-bottom: 2px; }
+  .filters .group::-webkit-scrollbar { display: none; }
+  .filters .group .chip, .filters .group-label { flex: none; }
   .changelog li { grid-template-columns: 80px 1fr; }
 }
 @media print {

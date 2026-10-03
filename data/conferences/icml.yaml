@@ -2,7 +2,7 @@ id: icml
 acronym: "ICML"
 name: "International Conference on Machine Learning"
 organizer: "International Machine Learning Society (IMLS)"
-fields: [ml, physical-ai]
+fields: [ml, physical-ai, xai]
 community: ml
 tier: 1
 rankings:
@@ -20,9 +20,11 @@ journal_track: "TMLR papers with a J2C Certification can be presented in the Neu
 orientation:
   contribution: -2
   summary: "ML 알고리즘·이론 최상위 학회로 본문 8쪽(채택 시 +1쪽), 이중맹검, author response가 있으며 PMLR로 출판된다. 'application-driven ML'을 공식 토픽으로 두지만 여전히 ML 커뮤니티가 관심 가질 새로운 기법·문제 정의·데이터셋이어야 하고, 도메인 시스템 통합만으로는 어렵다. 4편 이상 투고한 저자는 리뷰어로 봉사해야 한다(2026 기준)."
+  summary_en: "The top conference for ML algorithms and theory, with an 8-page main text (+1 page if accepted), double-blind review and an author response, published in PMLR. It lists 'application-driven ML' as an official topic, but a paper must still offer a new technique, problem formulation or dataset that the ML community will care about, and domain systems integration alone is hard to get through. Authors who submit 4 or more papers must serve as reviewers (as of 2026)."
   values: ["algorithmic novelty", "theory", "application-driven ML"]
 fit: 1
 take: "건설 응용보다 접촉 동역학 학습·정책 학습 알고리즘 자체가 기여일 때만 의미 있는 타깃이며, 2027년 1월 말 마감(추정)에 맞출 원고가 없다면 건너뛰어도 된다."
+take_en: "A meaningful target only when the contribution is the contact-dynamics learning or policy learning algorithm itself rather than the construction application, and if there is no manuscript to fit the late-January 2027 deadline (estimated), it is fine to skip."
 editions:
   - year: 2027
     status: estimated
@@ -31,6 +33,7 @@ editions:
       - {kind: paper, date: 2027-01-28, estimated: true}
       - {kind: notification, date: 2027-04-30, estimated: true}
     notes: "공식 Future Meetings 페이지에 '남미'로만 공지(도시·일정 미정, 예년처럼 7월 개최 예상). 마감은 ICML 2025(초록 1/23, 본문 1/30, 통보 5/1)·2026(1/23, 1/28, 4/30) 패턴으로 추정했다. 2026 서울 대회(7/6–11)가 직전 대회다."
+    notes_en: "The official Future Meetings page lists only 'South America' (city and schedule undecided; a July conference is expected, as in past years). The deadlines are estimated from the ICML 2025 (abstract 1/23, full paper 1/30, notification 5/1) and 2026 (1/23, 1/28, 4/30) pattern. The 2026 Seoul conference (7/6–11) is the most recent one."
 links:
   home: "https://icml.cc/"
   future_meetings: "https://icml.cc/Conferences/FutureMeetings"

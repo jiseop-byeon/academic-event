@@ -13,13 +13,16 @@ proceedings: "Springer Proceedings in Advanced Robotics (SPAR)"
 orientation:
   contribution: 1
   summary: "실제 물리 실험으로 검증된 로봇 연구만 다루는 IFRR 격년 심포지엄으로, 이론보다 '실험에서 얻은 통찰'을 기술하는 6쪽 확장 초록 형식이다. 실제 자재·공구를 쓰는 건설 현장 contact-rich 실험 결과는 바로 이 학회가 원하는 유형이라 잘 받아들여진다."
+  summary_en: "A biennial IFRR symposium that covers only robotics research validated through real physical experiments, in a 6-page extended abstract format that describes 'insights gained from experiments' rather than theory. Results from contact-rich experiments on construction sites using real materials and tools are exactly the type this conference wants, so they are well received."
   values: ["physical experiments", "experimental insights", "field validation"]
 fit: 2
 take: "ISER는 현장 실험 결과를 6쪽 초록으로 부담 없이 공개할 수 있는 격년 무대 — 2027 회차 공지가 나오면 건설 현장 실험 데모를 들고 도전할 만하다."
+take_en: "ISER is a biennial venue where field experiment results can be shared without much burden in a 6-page abstract — once the 2027 edition is announced, it is worth taking a construction-site experiment demo and giving it a try."
 editions:
   - year: 2027
     status: estimated
     notes: "2023 치앙마이(11월), 2025 산타페(7/6–10)에 이어 2027 개최가 예상되나 IFRR 공식 공지 없음. 2025 회차는 학회 약 4개월 전(3/15) 확장 초록 마감."
+    notes_en: "A 2027 edition is expected, following 2023 Chiang Mai (November) and 2025 Santa Fe (7/6–10), but there is no official IFRR announcement. The 2025 edition had its extended abstract deadline (3/15) about 4 months before the conference."
 links:
   home: "http://www.ifrr.org/iser"
   cfp: "https://iser2025.org/call-for-papers/"

@@ -1,0 +1,35 @@
+id: ras
+abbr: "RAS"
+name: "Robotics and Autonomous Systems"
+publisher: "Elsevier"
+issn: "0921-8890"
+eissn: "1872-793X"
+fields: [robotics, manipulation, navigation, hri, physical-ai]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 6.0, year: 2025}
+  jif_5y: {value: 5.9, year: 2025}
+  citescore: {value: 10.5, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "41/390"}
+  h5_index: {value: 66, year: 2025}
+access: hybrid
+apc_usd: 2940
+orientation:
+  contribution: 0
+  summary: "Elsevier의 범용 로보틱스 저널로 인식·계획·제어·학습·HRI 등 넓은 주제를 다루며, 새 방법과 실험 검증을 갖춘 응용 지향 논문도 폭넓게 받는다. 2025년 게재 논문이 300편을 넘을 만큼(OpenAlex 기준) 규모가 커서 RA-L보다 문턱이 낮은 편으로 여겨진다."
+  summary_en: "Elsevier's general robotics journal covering a broad range of topics, including perception, planning, control, learning and HRI, and it readily accepts application-oriented papers with a new method and experimental validation. It is large, with more than 300 papers published in 2025 (per OpenAlex), and is generally seen as having a lower bar than RA-L."
+  values: ["broad scope", "methods with experiments", "application-oriented", "large volume"]
+fit: 2
+take: "RA-L·T-ASE에서 거절된 건설 조작·내비게이션 연구를 장편으로 보완해 낼 수 있는 무난한 백업 저널이지만, 영향력과 학회 연계는 그보다 약하다."
+take_en: "A solid backup journal for construction manipulation or navigation work rejected by RA-L or T-ASE, reworked into a longer paper, though its impact and conference links are weaker than theirs."
+openalex_id: "S133768115"
+links:
+  home: "https://www.sciencedirect.com/journal/robotics-and-autonomous-systems"
+sources:
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/ROBOT-AUTON-SYST"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:0921-8890"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S133768115,publication_year:2025&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=7312&page=journalapp&view=detail"
+last_verified: 2026-10-02

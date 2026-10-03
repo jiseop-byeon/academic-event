@@ -19,9 +19,11 @@ journal_track: "No joint RA-L+IROS submission since IROS 2026; published RA-M pa
 orientation:
   contribution: 0
   summary: "ICRA와 함께 로봇공학 양대 플래그십으로 심사 기준도 거의 같다(새 방법과 시스템 모두 수용, 실로봇 검증 중시). 3월 초 마감이라 ICRA(9월)와 반년 간격의 두 번째 기회가 되며, ICRA 탈락 논문을 리뷰 대응서와 함께 재투고하는 'ICRA-IROS transfer' 트랙이 있다. 건설 로봇 논문은 field·construction robotics 세션에서 무난히 받아들여지나, 현장 특수성을 넘어 일반화 가능한 방법론 기여를 분명히 해야 한다."
+  summary_en: "Together with ICRA, one of robotics' two flagship conferences, with nearly the same review criteria (both new methods and systems accepted, real-robot validation valued). With a deadline in early March it is a second chance half a year after ICRA (September), and there is an 'ICRA-IROS transfer' track for resubmitting papers rejected from ICRA together with an author response file. Construction robotics papers are accepted without much trouble in the field and construction robotics sessions, but they must make a generalizable methodological contribution clear beyond site-specific particulars."
   values: ["real-robot experiments", "broad scope", "methods and systems"]
 fit: 3
 take: "IROS 2027(피렌체)은 3/1 마감 — ICRA 2027을 놓친 지금, 건설 contact-rich 조작 첫 1저자 논문을 겨냥할 가장 가까운 플래그십이다."
+take_en: "IROS 2027 (Florence) has a 3/1 deadline — now that ICRA 2027 has been missed, it is the nearest flagship to target for a first first-author paper on construction contact-rich manipulation."
 editions:
   - year: 2027
     status: confirmed
@@ -36,6 +38,7 @@ editions:
     deadlines:
       - {kind: paper, date: 2027-03-01}
     notes: "공식 사이트에 아직 CFP가 없어 논문 마감(3/1)은 IEEE RAS 공식 행사 목록 기준(시간대 미표기). 참고로 IROS 2026은 3/2 마감, 6/16 통지, 7/16 최종본이었다. 2026부터 RA-L+IROS 동시 투고 옵션 폐지. 테마: 'Human-Centric Robots for Sustainable Life'."
+    notes_en: "The official site has no CFP yet, so the paper deadline (3/1) is based on the official IEEE RAS event listing (time zone not stated). For reference, IROS 2026 had a 3/2 deadline, 6/16 notification and 7/16 final version. The RA-L+IROS joint submission option was discontinued from 2026. Theme: 'Human-Centric Robots for Sustainable Life'."
 links:
   home: "https://2027.ieee-iros.org/"
 sources:

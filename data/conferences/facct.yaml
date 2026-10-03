@@ -1,0 +1,56 @@
+id: facct
+acronym: "FAccT"
+name: "ACM Conference on Fairness, Accountability, and Transparency"
+organizer: "ACM"
+fields: [xai, ml]
+community: ml
+tier: 1
+rankings:
+  h5_index: 103
+  h5_year: 2025
+frequency: annual
+paper_format: "Up to 14 pages excluding references (most papers 12-14), ACM single-column TAPS template, plus 1 page for ethics and other endmatter statements; 15 pages at the revision stage and for camera-ready"
+review:
+  blind: double
+  rebuttal: true
+  acceptance_rate: {value: 0.33, year: 2026, note: "325 of 985 full-paper submissions (official FAccT 2026 program chairs' report); 109 accepted in round one and 216 of 304 revise-and-resubmit papers accepted"}
+proceedings: "ACM Digital Library (archival papers; non-archival papers appear only as abstracts)"
+orientation:
+  contribution: 1
+  summary: "컴퓨터과학·법·사회과학·인문학이 함께하는 공정성·책임성·투명성 분야의 대표 학회로, 알고리즘 연구부터 감사(audit)·평가, 사용자 경험 연구, 법·정책, 규범 이론까지 받으며 해석 가능성·설명 가능성(XAI)과 시스템에 대한 부적절한 의존·과신이 공식 주제다. 새 알고리즘 자체보다 실제 사회기술 시스템과 사람에게 미치는 영향을 깊이 다루는지가 핵심이라, 사회적 맥락과의 연결이 약하거나 가상의 우려에만 머문 연구는 범위 밖으로 본다. 2026년부터 1차 결정에서 수정 후 재심사(Revise) 단계가 생겼고, 아카이브/비아카이브 투고를 고를 수 있다."
+  summary_en: "The flagship venue for fairness, accountability and transparency, bringing together computer science, law, the social sciences and the humanities; it takes algorithmic work, audits and evaluations, studies of human experience, law and policy, and normative theory, and interpretability/explainability (XAI) and inappropriate reliance on or over-trust in systems are listed topics. What matters is deep engagement with the impact on real sociotechnical systems and people rather than a new algorithm per se, so work weakly tied to social context or focused on purely hypothetical concerns is out of scope. Since 2026 the first-round decision can be Revise, followed by re-review, and authors can choose archival or non-archival submission."
+  values: ["sociotechnical impact", "interdisciplinary", "audits and evaluations", "revise and resubmit", "archival or non-archival"]
+fit: 1
+take: "작업자 시선·자세 추적의 감시 문제나 로봇 설명에 대한 작업자의 과신처럼 설명 가능한 AI(XAI)를 사회기술적 관점에서 다룰 때만 참고할 학회로, XAI 방법 자체가 기여라면 AAAI·NeurIPS가 낫고, FAccT 2027(포르투) 논문 마감은 11/3(초록 10/27)이다."
+take_en: "A venue for reference only when explainable AI (XAI) is studied from a sociotechnical angle, such as the surveillance concerns of tracking workers' gaze and pose or workers over-trusting robot explanations; if the contribution is an XAI method itself, AAAI or NeurIPS fits better. The FAccT 2027 (Porto) paper deadline is November 3 (abstracts October 27)."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-06-21
+    end: 2027-06-24
+    city: "Porto"
+    country: PT
+    lat: 41.15
+    lon: -8.61
+    url: "https://facctconference.org/2027/cfp.html"
+    deadlines:
+      - {kind: abstract, date: 2026-10-27, tz: "AoE", time: "23:59", label: "mandatory abstract and focus-area registration"}
+      - {kind: paper, date: 2026-11-03, tz: "AoE", time: "23:59"}
+      - {kind: other, date: 2026-12-22, label: "reviews and first-round decisions (accept / revise major or minor / reject)"}
+      - {kind: rebuttal, date: 2027-01-28, tz: "AoE", time: "23:59", label: "revision and rebuttal (Revise papers, up to 15 pages)"}
+      - {kind: notification, date: 2027-03-23, label: "final accept/reject decisions"}
+    notes: "제10회 FAccT. 비자 준비 시간을 확보하려고 2027년부터 마감이 1월에서 11월로 앞당겨졌다(2026년 회차는 1/13 마감). 초록·주제 영역을 10/27까지 등록하지 않으면 본논문을 낼 수 없고, 투고 시스템(OpenReview)은 10월에 열린다. CFP는 모든 저자에게 심사자 등록을 요구하며(따르지 않으면 데스크 리젝 가능), 아카이브(ACM DL 수록)와 비아카이브(초록만 수록) 중 하나를 투고 때 골라야 한다. 카메라레디 마감과 행사장은 아직 공지되지 않았다. FAccT 2026(몬트리올, 6/25–28)은 종료됐다."
+    notes_en: "10th FAccT. To give authors more time for visas, deadlines move from January to November starting in 2027 (the 2026 deadline was January 13). Papers without an abstract and focus-area registration by October 27 cannot be submitted, and the OpenReview submission system opens in October. The CFP requires every author to sign up to review (failing to do so can lead to desk rejection), and authors must choose archival (in the ACM DL) or non-archival (abstract only) at submission. The camera-ready deadline and the venue have not been announced. FAccT 2026 (Montréal, June 25-28) is over."
+links:
+  home: "https://facctconference.org/"
+  cfp: "https://facctconference.org/2027/cfp.html"
+  author_guide: "https://facctconference.org/2027/authorguide.html"
+sources:
+  - "https://facctconference.org/2027/cfp.html"
+  - "https://facctconference.org/2027/authorguide.html"
+  - "https://facctconference.org/"
+  - "https://facctconference.org/2026/index.html"
+  - "https://facct-blog.github.io/2026-06-22/review-process"
+  - "https://facct-blog.github.io/2026-06-24/submission-timeline"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Fairness,+Accountability,+and+Transparency"
+last_verified: 2026-10-02

@@ -1,0 +1,42 @@
+id: honda-ri-interaction-aware-behavior-planning-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (Mountain View)"
+title: "Research Intern: Semantic-Aware Interaction and Behavior Planning for Autonomous Driving"
+fields: [transportation, navigation, hri, robotics]
+degree: [phd]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: unknown
+required:
+  - "PhD candidate in robotics, CS, EE, ME or a related field"
+  - "Behavior planning, motion planning, decision making, RL, autonomous driving or multi-agent systems"
+  - "Developing and evaluating algorithms for robotic or autonomous systems"
+  - "Python and/or C++; PyTorch or TensorFlow"
+preferred:
+  - "Interaction-aware planning or decision making for autonomous vehicles or mobile robots"
+  - "Optimization-based planning (QP/NLP solvers, IPOPT, CasADi)"
+  - "Intent prediction, trajectory prediction, semantic reasoning or scene understanding"
+  - "ROS/ROS2, driving simulators, real-world driving datasets and closed-loop evaluation"
+skills: [python, cpp, pytorch, ros2, motion-planning, reinforcement-learning]
+responsibilities:
+  - "Use scene context, agent intent and interaction relations to make high-level driving decisions: proceed, yield, wait, reroute"
+  - "Integrate the methods with HRI's real-time navigation and motion-planning stack"
+  - "Evaluate in low-speed driving and parking scenarios, in simulation and on real-world data"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴."
+eligibility_note_en: "No citizenship requirement in the posting. Preferred start 2027-01-11 for 3 months — a during-semester internship."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-semantic-aware-interaction-and-behavior-planning-for-autonomous-driving"
+fit: 2
+take: "다른 도로 이용자의 의도와 상호작용을 읽어 진행·양보·대기·경로 변경을 결정하는 상호작용 인지 계획 과제라 충돌 회피·HRI 연구와 직결되니, 1월 시작이 가능하면 지원할 만하다."
+take_en: "Interaction-aware planning that reads other road users' intent and decides when to proceed, yield, wait or reroute — directly tied to collision-avoidance and HRI research; apply if a January start is possible."
+notes: "공고번호 P25INT-56, 게시일 미표기."
+notes_en: "Posting no. P25INT-56; posting date not shown."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-semantic-aware-interaction-and-behavior-planning-for-autonomous-driving"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

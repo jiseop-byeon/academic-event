@@ -6,30 +6,38 @@ type: research-grant
 fields: [construction]
 amount:
   summary: "최대 $20,000 (등록 확인 시 $10,000 + ASHRAE Society Meeting 참석 보고 후 $10,000), ASHRAE 학회 논문 발표 또는 STBE 저널 게재 시 $3,000 추가"
+  summary_en: "Up to $20,000 ($10,000 on enrollment verification + $10,000 after reporting attendance at an ASHRAE Society Meeting), plus $3,000 if the work is presented at an ASHRAE conference or published in the STBE journal"
   value: 20000
   currency: USD
   unit: one-time
   covers: ["research", "travel"]
 duration: "1년 (수상 다음 학년도)"
+duration_en: "1 year (the academic year after the award)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "전 세계 ASHRAE 지역의 대학원에 수상 다음 학년도 내내 풀타임 재학"
+  where_enrolled_en: "Full-time graduate study throughout the following academic year at a university in any ASHRAE region worldwide"
   stage: "대학원생 (석·박사), 지도교수의 지도 아래 ASHRAE 관련 학위논문·연구 수행"
+  stage_en: "Graduate students (MS/PhD) doing ASHRAE-related thesis research under a faculty advisor"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "HVAC&R 등 ASHRAE 관련 기술·주제의 연구여야 함. 국적 제한 없고 ASHRAE 회원 가입은 권장 사항이며, 지원금 일부는 수상 후 ASHRAE Winter/Annual Meeting 1회 참석 경비로 사용."
+  notes_en: "Research must address HVAC&R or another ASHRAE-related technology. No nationality restriction; ASHRAE membership is encouraged, and part of the grant covers attending one ASHRAE Winter/Annual Meeting after the award."
 requirements: ["GIA 지원서 (학생 작성 1–3쪽 + 지도교수 작성 4쪽)", "공식 성적증명서", "연구 계획 등 보충 자료"]
+requirements_en: ["GIA application (student part, 1–3 pages + advisor part, 4 pages)", "Official transcript", "Supporting material such as the research plan"]
 nomination: false
 awards_per_year: "연 10–25명"
 cycle:
   typical: "3월 1일 마감(2027년 회차 기준), 7월 중순 결과 통보·지급"
+  typical_en: "Deadline March 1 (2027 cycle); results and payment in mid-July"
   deadlines:
-    - {kind: application, date: 2027-03-01, tz: "ET", label: "지원 마감 (오전 8시 ET)"}
+    - {kind: application, date: 2027-03-01, tz: "ET", time: "08:00", label: "지원 마감 (오전 8시 ET)", label_en: "Application deadline (8 a.m. ET)"}
 status: open
 apply_url: "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program"
 fit: 1
 take: "HVAC&R·건물 에너지 등 ASHRAE 관련 연구 전용이라 건설 로봇 연구와 맞지 않는 참고용 항목이다."
+take_en: "Limited to HVAC&R and building-energy research tied to ASHRAE, so it does not fit construction robotics — listed for reference."
 links:
   home: "https://www.ashrae.org/technical-resources/research/graduate-student-grant-in-aid-award"
 sources:

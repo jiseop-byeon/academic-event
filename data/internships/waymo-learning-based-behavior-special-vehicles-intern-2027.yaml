@@ -16,6 +16,7 @@ pay:
   unit: hour
   source: posting
   note: "박사 인턴 시급(공고 기재)"
+  note_en: "PhD intern hourly rate (stated in the posting)"
 required:
   - "Pursuing a PhD in CS, Robotics or ML"
   - "RL, imitation learning or trajectory forecasting"
@@ -32,11 +33,13 @@ responsibilities:
   - "Build simulation benchmarks and counterfactual suites"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View."
 status: open
 posted: 2026-09-18
 apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8203191"
 fit: 2
 take: "RL·모방학습 정책을 특수 차량 거동에 적용하는 과제라 로봇 학습 역량이 그대로 통하니 웨이모 공고 중 1순위로 넣어라."
+take_en: "Applies RL and imitation-learning policies to special-vehicle behavior, so robot-learning skills transfer directly; make it the first choice among Waymo postings."
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8203191"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8203191"

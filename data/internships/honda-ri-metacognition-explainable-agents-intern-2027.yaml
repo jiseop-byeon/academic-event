@@ -1,0 +1,40 @@
+id: honda-ri-metacognition-explainable-agents-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US Cooperative Cognition Team (San Jose)"
+title: "Research Intern: Meta-Cognition and Internal Mechanisms for Multi-Modal Foundation Model-based Agent"
+fields: [xai, physical-ai, ml]
+degree: [phd, ms]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "PhD student in CS, ML or a related field (exceptional MS candidates with at least 1 year of research experience considered)"
+  - "Agentic AI systems, modern foundation models and their internal representations (hidden states, activations, embeddings)"
+  - "Open-source deep learning frameworks"
+preferred:
+  - "Representation learning, mechanistic interpretability or analysis of neural activations"
+  - "Probing, interpreting or steering model internals (activation analysis, feature attribution, circuit analysis)"
+  - "Robot learning, imitation or reinforcement learning, multimodal foundation models or vision-language-action models"
+skills: [python, pytorch, foundation-models, vla, llm]
+responsibilities:
+  - "Analyze, probe, interpret and manipulate internal representations of multimodal foundation models for self-assessment, uncertainty estimation and error detection"
+  - "Study inference-time and test-time scaling for vision-language and vision-language-action models to improve reasoning, planning and self-correction"
+  - "Design benchmarks for meta-cognitive capability, robustness and adaptation in long-horizon agentic tasks"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정생 대상(연구 경력 1년 이상의 뛰어난 석사과정생도 검토), 희망 시작일 2027-01-11, 기간 3개월."
+eligibility_note_en: "No citizenship requirement in the posting. For PhD students (exceptional MS students with 1+ year of research also considered); preferred start 2027-01-11, 3 months."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-meta-cognition-and-internal-mechanisms-for-multi-modal-foundation-model-based-agent"
+fit: 2
+take: "VLA 등 멀티모달 파운데이션 모델의 내부 표현을 해석해 에이전트가 스스로 오류와 불확실성을 판단하게 만드는 설명 가능한 AI(XAI) 과제라, 로봇 정책의 신뢰성을 해석 가능성 관점에서 다루고 싶다면 좋은 진입점이다."
+take_en: "Explainable AI (XAI) work that interprets the internals of multimodal foundation models, including VLAs, so agents can judge their own errors and uncertainty — a good entry point for tackling robot-policy reliability through interpretability."
+notes: "공고번호 P25INT-60, 게시일 미표기."
+notes_en: "Posting no. P25INT-60; posting date not shown."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-meta-cognition-and-internal-mechanisms-for-multi-modal-foundation-model-based-agent"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

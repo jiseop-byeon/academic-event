@@ -23,13 +23,16 @@ responsibilities:
   - "Design systems with model-based and data-driven techniques"
   - "Develop algorithms and prototypes with engineers"
 citizenship: unknown
-eligibility_note: "취리히 상주, 약 6개월 풀타임. 공고에 국적·근무 허가 요건 명시 없음. CV·동기서(가능 기간 포함)·전체 성적표 제출."
+eligibility_note: "취리히 상주, 약 6개월 풀타임. 공고에 국적·근무 허가 요건이 명시돼 있지 않아 스위스 근무 허가 필요 여부는 연구소에 확인 필요. CV·동기서(가능 기간 포함)·전체 성적표 제출."
+eligibility_note_en: "Onsite in Zurich, about 6 months full time. The posting states no nationality or work-permit requirement, so confirm with the institute whether Swiss work authorization is needed. Submit a CV, a motivation letter (with availability) and full transcripts."
 status: rolling
 posted: 2025-01-10
 apply_url: "https://jobs.lever.co/rai/c121ffe1-e462-4902-a32f-d4f4aec02bc0"
 fit: 2
 take: "보행·조작 물리 상호작용 연구로 최상위인 연구소지만 현재 인턴은 취리히 6개월짜리뿐이라 현지 장기 체류가 가능한 시기에만 노려라."
+take_en: "A top institute for locomotion and manipulation physical-interaction research, but the only internships now are 6 months in Zurich; aim for it only when a long stay there is possible."
 notes: "2026-10-02 기준 RAI Institute 공개 공고는 모두 취리히 인턴 4건(이 상시 연구 인턴, Sensor Calibration & Integration Intern, Autonomous Agent Engineering Intern, Software Engineering)이며 미국 케임브리지 공고는 없음."
+notes_en: "As of 2026-10-02 all of RAI Institute's public postings are four Zurich internships (this evergreen research internship, Sensor Calibration & Integration Intern, Autonomous Agent Engineering Intern, Software Engineering); none in Cambridge, US."
 sources:
   - "https://jobs.lever.co/rai/c121ffe1-e462-4902-a32f-d4f4aec02bc0"
   - "https://rai-inst.com/careers/"

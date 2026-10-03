@@ -6,31 +6,39 @@ type: scholarship
 fields: [any]
 amount:
   summary: "1회 $500–5,000 (지역 지부·심사에 따라 상이; STEM·Business 전공 GPA 3.5 이상 KIA 트랙은 증액 가능)"
+  summary_en: "One-time $500–5,000 (varies by regional chapter and review; can be higher on the KIA track for STEM/business majors with a GPA of 3.5+)"
   value: 500
   max: 5000
   currency: USD
   unit: one-time
 duration: "해당 학년도 1회 지급"
+duration_en: "Paid once for the given academic year"
 eligibility:
   nationality: ["any"]
   where_enrolled: "미국 내 학교에 해당 학년도 전체 기간 풀타임 재학(예정) — 학교 소재지 지역 지부로만 지원(텍사스 소재 학교는 남서부 지부 SWRC)"
+  where_enrolled_en: "Full-time enrollment (current or planned) at a US school for the whole academic year — apply only through the regional chapter where the school is located (Texas schools: Southwestern Regional Chapter, SWRC)"
   stage: "고등학생·학부생·대학원생(박사과정 포함) 모두 가능 — 이미 미국 대학원 박사과정에 재학 중인 1년차도 다음 학년도 재학을 이어가면 지원 가능"
+  stage_en: "High school, undergraduate and graduate students (including PhD) — a first-year PhD student who continues next academic year can apply"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "한국계(Korean heritage) 학생 대상이며 시민권 여부와 무관하게 한국 국적 유학생도 지원 가능. 누적 GPA 3.0 이상, 유학생·자립 학생은 재정 증빙 필요. 재정 필요도·학업성적·추천서·에세이·봉사/과외활동을 종합 평가."
+  notes: "한국계(Korean heritage) 학생 대상이며 시민권 여부와 무관하게 한국 국적 유학생도 지원 가능(SWRC 안내: 해당 학년도에 미국에 거주하면 시민권자·외국 국적자 모두 지원 가능). 누적 GPA 3.0 이상, 유학생·자립 학생은 재정 증빙 필요. 재정 필요도·학업성적·추천서·에세이·봉사/과외활동을 종합 평가."
+  notes_en: "For students of Korean heritage; Korean international students can apply regardless of citizenship (SWRC: anyone residing in the US during the school year, citizen or foreign national, is welcome). Cumulative GPA 3.0+; international and independent students must show proof of finances. Evaluated on financial need, academics, recommendation letters, essay and service/extracurriculars."
 requirements: ["온라인 지원서 (SmarterSelect)", "에세이", "추천서 (지원 마감일까지 제출)", "학업 성적 (누적 GPA 3.0 이상)", "재정 증빙 (유학생·자립 학생)"]
+requirements_en: ["Online application (SmarterSelect)", "Essay", "Recommendation letter(s), due by the application deadline", "Academic record (cumulative GPA 3.0+)", "Proof of finances (international and independent students)"]
 nomination: false
 awards_per_year: "2025년 전 지역 합계 $845,500 지급"
 cycle:
-  typical: "매년 봄 지역 지부별 온라인 접수, 6월 30일 지원서·추천서 마감, 늦어도 8월 15일까지 결과 통보 (다음 학년도분)"
+  typical: "매년 봄 지역 지부별 온라인 접수, 6월 30일 지원서·추천서 마감(SWRC는 오후 10:59 CDT), 늦어도 8월 15일까지 결과 통보 (다음 학년도분)"
+  typical_en: "Regional online applications each spring; applications and letters due June 30 (SWRC: 10:59 pm CDT), results by August 15 at the latest (for the next academic year)"
   deadlines:
-    - {kind: application, date: 2027-06-30, tz: "CT", estimated: true, label: "2027–28학년도분 지원서·추천서 마감(추정)"}
-    - {kind: result, date: 2027-08-15, estimated: true, label: "결과 통보 기한(추정)"}
+    - {kind: application, date: 2027-06-30, tz: "CT", time: "22:59", estimated: true, label: "2027–28학년도분 지원서·추천서 마감(추정)", label_en: "2027–28 application and letters deadline (estimated)"}
+    - {kind: result, date: 2027-08-15, estimated: true, label: "결과 통보 기한(추정)", label_en: "Results notification deadline (estimated)"}
 status: upcoming
 apply_url: "https://www.kasf.org/apply-swrc/"
 fit: 3
 take: "한국 국적 대학원생도 바로 지원할 수 있으니 2027년 6월 30일(추정) 마감에 맞춰 학교 소재지 지부(텍사스는 SWRC)로 에세이·추천서를 준비해 지원한다."
+take_en: "Korean graduate students can apply directly — prepare the essay and letters for the chapter where your school is (Texas: SWRC) and apply by the June 30, 2027 deadline (estimated)."
 links:
   home: "https://www.kasf.org/scholarships/"
 sources:

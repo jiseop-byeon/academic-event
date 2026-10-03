@@ -6,6 +6,7 @@ type: fellowship
 fields: [ml]
 amount:
   summary: "연 $45,000 생활비 + 학비 지원, 펠로십 기간 매년 여름 14주 유급 연구 인턴십(뉴욕 또는 런던) 포함"
+  summary_en: "$45,000/year stipend + tuition, plus a paid 14-week summer research internship (New York or London) in each fellowship year"
   value: 45000
   currency: USD
   unit: year
@@ -14,18 +15,26 @@ amount:
 eligibility:
   nationality: ["any"]
   where_enrolled: "다음 학년도에 박사과정 풀타임 재학 예정인 학생"
+  where_enrolled_en: "Students who will be full-time PhD students in the next academic year"
   stage: "다음 학년도 풀타임 박사과정생이면 지원 가능 — 확인한 자료(대학 펠로십 DB)에는 학년 제한이 명시돼 있지 않음, 공식 페이지에서 재확인 필요"
+  stage_en: "Anyone who will be a full-time PhD student next year — the sources checked (a university fellowship database) state no year restriction; re-check on the official page"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "유학생 지원 가능(open to international applicants). 펠로십 기간 다른 기업 펠로십 중복 수혜 불가(비기업 재원은 사안별 허용). 매년 여름 14주 인턴십(뉴욕/런던) 참여가 조건. 연구 주제: agentic AI, LLM reasoning, code generation, human-AI interaction, information retrieval, knowledge graphs, LLM post-training, multimodal models, summarization, time-series modeling, trustworthy AI — 로보틱스·비전 단독 주제는 없음. 공식 페이지(bloomberg.com)가 자동 접속을 차단해 UChicago 대학원 펠로십 DB로 확인함."
+  notes: "유학생 지원 가능(open to international applicants). 펠로십 기간 다른 기업 펠로십 중복 수혜 불가(비기업 재원은 사안별 허용). 매년 여름 14주 인턴십(뉴욕/런던) 참여가 조건. 2027–28 공모 주제: agentic AI·도구 사용, 에이전트 평가, 코드 생성, 효율적 모델, 인간–AI 협업, 검색·RAG, 요약·생성, 지식 그래프, LLM 사후학습, 멀티모달·문서 AI, 시계열·금융 AI, 신뢰 가능한 AI — 로보틱스·비전 단독 주제는 없음. 공식 페이지(bloomberg.com·techatbloomberg.com)가 자동 접속을 차단해 Bloomberg가 ACL 포털에 올린 공지와 UChicago 대학원 펠로십 DB로 확인함."
+  notes_en: "Open to international applicants. Cannot be combined with another corporate fellowship during the award (non-corporate funding considered case by case). A 14-week summer internship (New York/London) each year is a condition. Topics for the 2027–28 call: agentic AI and tool use, agent evaluation, code generation, efficient models, human-AI collaboration, retrieval and RAG, summarization and generation, knowledge graphs, LLM post-training, multimodal and document AI, time series and AI for finance, trustworthy AI — no robotics or stand-alone vision topic. The official pages (bloomberg.com, techatbloomberg.com) block automated access, so details were checked via Bloomberg's announcement on the ACL Portal and the UChicago fellowship database."
 cycle:
-  typical: "대학 펠로십 DB 기준 매년 가을(10–12월) 마감 — 정확한 접수 일정은 공식 페이지에서 확인 필요"
-status: upcoming
-fit: 2
-take: "주제가 LLM·정보검색·시계열 같은 금융 데이터과학 중심이고 매년 뉴욕/런던 14주 인턴십이 조건이라 접촉 기반 조작 연구로는 설득력이 약하니, 다른 로보틱스 펠로십보다 뒤로 미뤄라."
+  typical: "매년 가을 공모 — 2027–28 공모는 9월 초 공지, 2026년 9월 25일(AoE) 마감"
+  typical_en: "Fall call each year — the 2027–28 call was announced in early September and closed September 25, 2026 (AoE)"
+  deadlines:
+    - {kind: application, date: 2026-09-25, tz: "AoE", time: "23:59", label: "2027–28 지원 마감(지난 라운드)", label_en: "2027–28 application deadline (last round)"}
+status: closed
+fit: 1
+take: "2027–28 라운드(9월 25일 마감)는 끝났고, 주제가 LLM·검색·금융 데이터과학 중심에 매년 뉴욕/런던 14주 인턴십이 조건이라 접촉 기반 조작 연구와는 거리가 머니 참고용으로만 둬라."
+take_en: "The 2027–28 round (deadline Sep 25) is over, and the topics center on LLMs, retrieval and financial data science with a mandatory 14-week New York/London internship each year — far from contact-rich manipulation, so keep it for reference only."
 links:
   home: "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/"
 sources:
+  - "https://www.aclweb.org/portal/content/3-12686-applications-open-2027-2028-bloomberg-data-science-phd-fellowship"
   - "https://grad.uchicago.edu/fellowship/bloomberg-data-science-ph-d-fellowship/"
 last_verified: 2026-10-02

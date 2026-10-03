@@ -25,6 +25,7 @@ pay:
   unit: year
   source: posting
   note: "미국 연 환산 기본급 범위(공고 기재)"
+  note_en: "US annualized base-pay range (stated in the posting)"
 required:
   - "Enrolled in a PhD in CS or a related technical field"
   - "Experience in one area of CS (NLU, CV, ML, deep learning, optimization, etc.)"
@@ -41,12 +42,15 @@ responsibilities:
   - "Work with peers, managers and partner teams"
 citizenship: none
 eligibility_note: "시민권 요건 없음, 인턴 기간 미국 거주 필요. 공고가 '박사 수료 직전 학년(penultimate year)' 대상이라고 명시하고 그보다 저연차는 Student Researcher 공고로 안내."
+eligibility_note_en: "No citizenship requirement; must reside in the US during the internship. The posting targets PhD students in their penultimate year and directs earlier-stage students to the Student Researcher posting."
 status: open
 deadline: 2027-02-26
 apply_url: "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
 fit: 2
 take: "수료 직전 학년 대상 공고라 1년차에게는 Student Researcher가 정답이니, 이 공고는 넣더라도 보조로만 두라."
+take_en: "Targeted at PhD students in their penultimate year, so for a first-year the Student Researcher posting is the right one; treat this one as a backup at most."
 notes: "지원 창은 2027-02-26까지(조기 종료 가능), 결과 회신에 90일 이상 걸릴 수 있음. 근무지 후보 약 30곳(대표 도시만 기재). 게시일 비공개."
+notes_en: "The application window runs to 2027-02-26 (may close early); a response can take 90+ days. About 30 candidate locations (only the main cities listed). Posting date not shown."
 sources:
   - "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
 last_verified: 2026-10-02

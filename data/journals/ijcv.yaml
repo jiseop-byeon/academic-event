@@ -10,18 +10,23 @@ tier: 1
 metrics:
   jif: {value: 10.3, year: 2025}
   jif_5y: {value: 20.0, year: 2025}
+  citescore: {value: 17.8, year: 2025, quartile: Q1, category: "Computer Vision and Pattern Recognition", rank: "10/183"}
   h5_index: {value: 109, year: 2025}
 review:
   first_decision_days: 37
   speed_note: "Springer 공개 기준 투고에서 첫 결정까지 중앙값 37일로 빠른 편이다. 채택률은 공개되지 않는다."
+  speed_note_en: "Springer reports a median of 37 days from submission to first decision, which is fast. The acceptance rate is not published."
 access: hybrid
 conference_link: "ACCV 2026 수상 논문은 IJCV 특별호에 초청된다(ACCV 2026 공지)."
+conference_link_en: "ACCV 2026 award papers are invited to an IJCV special issue (per the ACCV 2026 announcement)."
 orientation:
   contribution: -1
   summary: "컴퓨터비전 전문 최상위 저널로 방법론의 깊이와 포괄적인 실험을 중시하며, CVPR·ICCV·ECCV 논문의 충실한 확장판과 특별호 초청 논문이 많이 실린다. 건설 현장 인식 연구도 비전 방법론으로서의 기여와 폭넓은 비교 실험을 갖추면 경쟁할 수 있다."
+  summary_en: "A top computer vision journal that values methodological depth and comprehensive experiments; many papers are thorough extensions of CVPR, ICCV and ECCV work or invited special-issue papers. Construction-site perception work can compete if it contributes as a vision method and includes broad comparative experiments."
   values: ["methodological depth", "comprehensive experiments", "extended conference work"]
 fit: 1
 take: "첫 결정 중앙값 37일로 빠르고 학회 논문 확장판을 환영해, 학회에서 발표한 건설 인식 연구를 저널로 확장할 때 1순위로 고려할 비전 저널이다."
+take_en: "With a fast 37-day median to first decision and a welcome for extended conference papers, it is the first vision journal to consider when turning presented construction perception work into a journal paper."
 openalex_id: "S25538012"
 links:
   home: "https://link.springer.com/journal/11263"
@@ -30,4 +35,6 @@ sources:
   - "https://accv2026.org/submissions/author-guidelines/"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
   - "https://api.openalex.org/sources?filter=issn:0920-5691"
+  - "https://www.bioxbio.com/journal/INT-J-COMPUT-VISION"
+  - "https://www.letpub.com.cn/index.php?journalid=3703&page=journalapp&view=detail"
 last_verified: 2026-10-02

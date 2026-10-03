@@ -22,10 +22,12 @@ skills: [python, cpp, imitation-learning, reinforcement-learning, control, found
 responsibilities: ["Design, implement and evaluate humanoid manipulation and loco-manipulation strategies", "Support data-collection pipelines for robotics foundation models", "Work toward a paper at a leading robotics conference or journal"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 전용. 본문에 'Fall 2026 internship' 문구가 남아 있어 정확한 근무 기간은 지원 시 확인 필요."
+eligibility_note_en: "No citizenship requirement in the posting. PhD students only. The body still mentions a 'Fall 2026 internship', so confirm the exact dates when applying."
 status: open
 posted: 2026-09-27
 apply_url: "https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba"
 fit: 2
 take: "여름 공고와 내용이 같지만 봄 학기 중 근무라 학기 일정을 비울 수 있을 때만 고려하고, 기본은 Summer 2027 공고로 지원하는 편이 낫다."
+take_en: "Same content as the summer posting but during the spring semester; consider it only if the semester can be cleared, and default to the Summer 2027 posting."
 sources: ["https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba", "https://api.lever.co/v0/postings/field-ai?mode=json"]
 last_verified: 2026-10-02

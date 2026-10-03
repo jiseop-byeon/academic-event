@@ -17,10 +17,13 @@ skills: []
 responsibilities: ["Research participation in CERL areas such as military installation and contingency-base sustainability, infrastructure resilience, smart materials and urban/stability operations"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 문구가 없음(같은 시기 ERDC EL·CHL 공고는 대부분 미국 시민 전용). 마감일 없이 충원 시까지, 즉시 임용 가능. 지원금은 학위 단계·전공·경력에 따라 CERL이 결정. 공고상 근무지는 'Location Varies'이며 CERL 본소는 일리노이주 Champaign."
+eligibility_note_en: "The posting has no citizenship language (most ERDC EL and CHL postings from the same period are US-citizen only). No deadline — open until filled, with immediate appointments possible. CERL sets the stipend by degree level, discipline and experience. Location is listed as 'Location Varies'; CERL headquarters is in Champaign, Illinois."
 status: open
 apply_url: "https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004"
 fit: 2
-take: "외국인도 지원 가능한 몇 안 되는 ERDC 건설공학연구소 박사 인턴이지만 공고 연구 분야에 로보틱스가 없으니, CERL 연구자와 건설 자동화 과제를 먼저 맞춘 경우에만 학기 중 파트타임으로 노려볼 만하다."
+take: "시민권 제한 문구가 없는 몇 안 되는 ERDC 건설공학연구소 인턴이지만 공고 연구 분야에 로보틱스가 없으니, CERL 연구자와 건설 자동화 과제를 먼저 맞춘 경우에만 학기 중 파트타임으로 노려볼 만하다."
+take_en: "One of the few ERDC construction-engineering lab postings without citizenship language, but robotics is not among the listed research areas; worth pursuing part-time during the semester only after agreeing on a construction-automation project with a CERL researcher."
 notes: "직전 Spring/Summer 공고(ERDC-CERL-2026-0001)는 2025-12-08 게시 — 2027년 Spring/Summer 공고도 비슷한 시기에 나올 수 있으나 한 번의 사례에 근거한 추정. duration_weeks의 최솟값은 공고에 명시되지 않아 1로 둠."
+notes_en: "The previous Spring/Summer posting (ERDC-CERL-2026-0001) went up on 2025-12-08; the 2027 Spring/Summer posting may appear around the same time, but that is an estimate from a single cycle. The posting gives no minimum duration, so duration_weeks starts at 1."
 sources: ["https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004", "https://www.erdc.usace.army.mil/Locations/CERL/"]
 last_verified: 2026-10-02

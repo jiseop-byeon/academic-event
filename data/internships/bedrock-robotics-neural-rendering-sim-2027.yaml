@@ -15,10 +15,12 @@ skills: [python, pytorch, neural-rendering, 3d-vision, simulation, isaac-sim, cp
 responsibilities: ["Implement and benchmark NeRF / 3D Gaussian splatting methods for realistic construction-site imagery in the simulation stack", "Integrate neural rendering outputs so perception and planning teams can train and test on them", "Quantify whether rendered scenes match fleet data and improve downstream autonomy"]
 citizenship: none
 eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students; only US work authorization is needed. Pay and duration are not stated."
 status: open
 posted: 2026-09-28
 apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/77759050-75f5-45ed-a3a8-35b665daaadc"
 fit: 2
 take: "건설 현장 real-to-sim 시뮬레이션 인턴으로 도메인은 맞지만 그래픽스 비중이 커서, neural rendering 경험이 있을 때만 보조 지원할 만하다."
+take_en: "A real-to-sim simulation internship for construction sites — the right domain, but graphics-heavy; apply as a backup only with neural-rendering experience."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/77759050-75f5-45ed-a3a8-35b665daaadc", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
 last_verified: 2026-10-02

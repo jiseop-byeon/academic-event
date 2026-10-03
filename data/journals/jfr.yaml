@@ -1,0 +1,33 @@
+id: jfr
+abbr: "JFR"
+name: "Journal of Field Robotics"
+publisher: "Wiley"
+issn: "1556-4959"
+eissn: "1556-4967"
+fields: [robotics, construction, navigation, manipulation, vision]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 5.1, year: 2025}
+  jif_5y: {value: 6.9, year: 2025}
+  citescore: {value: 9.4, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "51/390"}
+  h5_index: {value: 56, year: 2025}
+access: hybrid
+orientation:
+  contribution: 1
+  summary: "실외·비정형 환경에서 운용되는 로봇의 시스템 통합과 현장 검증을 중시하는 필드 로보틱스 저널로, 알고리즘 신규성이 크지 않아도 실제 현장 실험과 그로부터 얻은 교훈이 탄탄하면 받아들여진다. 시뮬레이션이나 실험실 실험만으로는 설득하기 어렵고, 시스템 설계 근거와 현장 성능 분석을 충실히 서술한 장편 논문이 많다."
+  summary_en: "A field robotics journal that values system integration and field validation of robots operating in outdoor and unstructured environments; papers without much algorithmic novelty are accepted if the real-world field experiments and lessons learned are solid. Simulation or lab experiments alone rarely convince, and many papers are long-form accounts of the system design rationale and field performance analysis."
+  values: ["field validation", "system integration", "lessons learned", "outdoor applications"]
+fit: 3
+take: "건설 현장에서 검증한 로봇 시스템 논문에 잘 맞는 전통적인 필드 로보틱스 저널로, 현장 실험 결과가 쌓이면 T-FR과 함께 유력한 투고처다."
+take_en: "A traditional field robotics journal well suited to robot systems validated on construction sites; once field results accumulate, it is a strong venue alongside T-FR."
+openalex_id: "S151299380"
+links:
+  home: "https://onlinelibrary.wiley.com/journal/15564967"
+sources:
+  - "https://www.bioxbio.com/journal/J-FIELD-ROBOT"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:1556-4959"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S151299380,publication_year:2025&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=4530&page=journalapp&view=detail"
+last_verified: 2026-10-02

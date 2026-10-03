@@ -1,0 +1,42 @@
+id: honda-ri-hand-pose-language-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Hand Pose-Language Representation Learning"
+fields: [hri, vision, ml]
+degree: [phd]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "Currently pursuing a PhD in CS, EE, robotics or a related field"
+  - "Hands-on deep learning for representation or multimodal learning, in Python and PyTorch"
+  - "Sequence modeling, egocentric video, human pose modeling, action recognition or LLMs"
+  - "Multimodal alignment research (e.g., CLIP-style vision-language models) and rigorous ML experiments"
+preferred:
+  - "Egocentric video understanding, human/hand pose estimation or temporal action segmentation"
+  - "Structured motion signals: 2D/3D keypoints, skeletal data, trajectories"
+  - "VLM/LLM pretraining or efficient fine-tuning (LoRA, adapters)"
+  - "Interest in human skill modeling, worker assistance and human-centered intelligent systems"
+skills: [python, pytorch, computer-vision, llm, foundation-models, 3d-vision]
+responsibilities:
+  - "Align hand pose, egocentric video and language with large multimodal datasets"
+  - "Build hand-pose encoders whose representations feed LLM-based reasoning and language-conditioned tasks"
+  - "Evaluate on error detection, action segmentation, skill estimation and dexterity assessment"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 대상, 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴."
+eligibility_note_en: "No citizenship requirement in the posting. For PhD students; preferred start 2027-01-11 for 3 months — a during-semester internship."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-hand-pose-language-representation-learning-1"
+fit: 2
+take: "손 자세를 언어 표현과 정렬해 숙련도·오류를 판단하는 과제로 공고가 작업자 보조와 인간 숙련 모델링을 직접 언급해, 건설 숙련공 시연 데이터나 작업자 의도 이해 연구로 이어가기 좋은 선택지다."
+take_en: "Aligns hand pose with language to judge skill and errors, and the posting names worker assistance and human skill modeling outright — a good path toward research on skilled-worker demonstrations and worker intent in construction."
+notes: "공고번호 P25INT-71, 게시일 미표기. 데이터에는 웨어러블 기기로 수집한 1인칭 영상·손 자세가 포함된다고 소개됨."
+notes_en: "Posting no. P25INT-71; posting date not shown. The posting says the data include egocentric video and hand pose captured with wearable devices."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-hand-pose-language-representation-learning-1"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

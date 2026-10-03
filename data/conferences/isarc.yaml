@@ -13,9 +13,11 @@ proceedings: "ISARC Proceedings (IAARC, open access, Scopus-indexed, ISSN 2413-5
 orientation:
   contribution: 2
   summary: "건설 자동화·로보틱스 전용 플래그십 학회로, 현장 적용·프로토타입 시연·사례 연구만으로도 게재가 가능하다. 논문마다 최소 2인이 심사한 뒤 점수 순위로 키노트·플레너리·병렬·포스터 발표를 배정하며, 2026년에는 리뷰 후 rebuttal·수정본 제출 단계가 있었다. 알고리즘 신규성보다 건설 문제 정의와 현장 검증의 설득력이 핵심 심사 포인트다."
+  summary_en: "The flagship conference dedicated to construction automation and robotics, where field applications, prototype demonstrations or case studies alone can be published. Each paper is reviewed by at least 2 reviewers, and keynote, plenary, parallel and poster presentations are then assigned by score rank; in 2026 there was a rebuttal and revised-submission stage after review. The key review points are the persuasiveness of the construction problem definition and the field validation rather than algorithmic novelty."
   values: ["construction robotics", "field validation", "case studies welcome", "open-access proceedings"]
 fit: 3
 take: "건설 로봇 조작 연구를 IAARC 커뮤니티에 처음 알리기에 가장 직접적인 무대이므로, 2026-12-10 풀페이퍼 마감에 맞춰 시스템·현장 실험 중심 논문을 반드시 내자."
+take_en: "The most direct stage for first presenting construction robot manipulation research to the IAARC community, so be sure to submit a paper centered on systems and field experiments for the 2026-12-10 full-paper deadline."
 editions:
   - year: 2027
     status: confirmed
@@ -32,6 +34,7 @@ editions:
       - {kind: other, label: "Reviews completed (revision phase)", date: 2027-02-01}
       - {kind: notification, date: 2027-03-14}
     notes: "제44회 ISARC, 북유럽 첫 개최(남덴마크대 SDU 주관, 주제: 연구실에서 현장으로). 초록 단계 없이 풀페이퍼로 바로 투고하며 CFP는 2026-10-07 공개 예정. 2026(싱가포르)에는 리뷰 코멘트 → rebuttal·수정본 → 최종 통보 → 카메라레디(5월 중순) 순이었으므로 2027년에도 2–3월 수정 단계가 예상됨. 카메라레디 마감은 아직 미공지."
+    notes_en: "The 44th ISARC and its first time in Northern Europe (hosted by SDU, the University of Southern Denmark; theme: from the lab to the field). Papers are submitted directly as full papers with no abstract stage, and the CFP is due to be released on 2026-10-07. In 2026 (Singapore) the sequence was review comments → rebuttal and revised version → final notification → camera-ready (mid-May), so a revision stage in February–March is expected in 2027 as well. The camera-ready deadline has not been announced yet."
 links:
   home: "https://www.iaarc.org/conference"
   cfp: "https://www.iaarc.org/isarc-2027"

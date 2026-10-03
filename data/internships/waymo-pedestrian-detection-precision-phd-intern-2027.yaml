@@ -1,0 +1,44 @@
+id: waymo-pedestrian-detection-precision-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Systems Engineering — Perception Systems Engineering"
+title: "2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision"
+fields: [transportation, vision, navigation]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "PhD intern hourly rate stated in the posting"
+required:
+  - "Currently pursuing a PhD in a technical field (engineering, physics, CS or similar)"
+  - "Software engineering fundamentals"
+  - "Familiarity with systems engineering, especially the flow from requirements to tests"
+preferred:
+  - "Handling large datasets and queries (SQL, Python) or automating test flows"
+  - "Fundamentals of an autonomous-vehicle stack, including the data pipeline from sensors to perception"
+  - "Experience in the autonomous-vehicle industry or similar automation"
+skills: [python, sql, computer-vision]
+responsibilities:
+  - "Write requirements and verification items for detection models that cover pedestrians near the vehicle"
+  - "Analyze logs and structured tests against those requirements and find false-positive clusters"
+  - "Run and triage evaluations to track release-over-release changes and show perception teams where headroom is"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 샌프란시스코 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in San Francisco; applicants are advised to apply to at most their top three roles."
+status: open
+posted: 2026-09-28
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8234670"
+fit: 2
+take: "차량 주변 보행자 검출의 요구사항과 검증 체계를 만드는 시스템 엔지니어링 과제라 연구보다는 평가 중심이지만, 보행자 안전·LiDAR 인식 경험을 그대로 살릴 수 있어 교통 축 지원처로 넣을 만하다."
+take_en: "Systems-engineering work that builds requirements and verification for detecting pedestrians near the vehicle — evaluation-heavy rather than research, but it draws directly on pedestrian-safety and LiDAR perception experience; a solid transportation-track application."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8234670"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8234670"
+last_verified: 2026-10-02

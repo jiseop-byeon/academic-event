@@ -22,10 +22,13 @@ skills: []
 responsibilities: ["Conduct thesis/dissertation-related research hosted by an ORNL mentor (e.g., MDF robotics, automation and controls)"]
 citizenship: none
 eligibility_note: "프로그램 페이지에 '시민권 요건 없음(No citizenship requirement)' 명시. 지원 전에 ORNL 멘토를 직접 찾아 지도교수와 연구 주제를 맞춰야 하며, 마감 없이 수시 심사. 문의는 ORISE 운영 메일로만 안내되어 있음."
+eligibility_note_en: "The program page states 'No citizenship requirement'. Before applying you must find an ORNL mentor yourself and align the research topic with your advisor; applications are reviewed on a rolling basis with no deadline. Inquiries are directed only to the ORISE program e-mail."
 status: rolling
 apply_url: "https://www.ornl.gov/content/graduate-research-ornl"
 fit: 2
 take: "시민권 제한 없이 박사과정생이 여러 학기 파견 연구를 할 수 있는 드문 국립연구소 경로라, MDF 로보틱스·자동화 그룹의 멘토를 먼저 찾아 지도교수와 공동 과제로 추진할 만하다."
+take_en: "A rare national-lab route with no citizenship restriction that lets PhD students do multi-semester research residencies; find a mentor in the MDF robotics and automation group first and set it up as a joint project with your advisor."
 notes: "ORNL의 다른 학생 프로그램인 RSI(Spring 2027 마감 2026-10-28)와 SCGSR은 미국 시민·영주권자 전용이라 제외. ORNL ECO 공고는 박사과정생을 GRO로 안내함."
+notes_en: "ORNL's other student programs, RSI (Spring 2027 deadline 2026-10-28) and SCGSR, are limited to US citizens and permanent residents and are excluded. ORNL's ECO posting directs PhD students to GRO."
 sources: ["https://www.ornl.gov/content/graduate-research-ornl", "https://www.ornl.gov/content/how-find-research-mentor-ornl", "https://www.ornl.gov/facility/mdf", "https://www.zintellect.com/Opportunity/Details/ORNL-ECO-2026", "https://www.zintellect.com/Opportunity/Details/ORNL-RSI-Spring-2027"]
 last_verified: 2026-10-02

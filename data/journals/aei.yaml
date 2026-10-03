@@ -9,19 +9,24 @@ community: construction
 tier: 1
 metrics:
   jif: {value: 11.5, year: 2025}
-  citescore: {value: 13.1, year: 2024}
+  jif_5y: {value: 11.2, year: 2025}
+  citescore: {value: 15.8, year: 2025, quartile: Q1, category: "Information Systems", rank: "29/519"}
 review:
   first_decision_days: 4
   speed_note: "저널 페이지(2026년 5월 기준) 중앙값: 투고→첫 결정 4일, 심사 후 결정 49일, 투고→게재 승인 125일, 승인→온라인 게재 9일."
+  speed_note_en: "Medians on the journal page (as of May 2026): 4 days from submission to first decision, 49 days to a post-review decision, 125 days from submission to acceptance, and 9 days from acceptance to online publication."
 access: hybrid
 apc_usd: 3920
 conference_link: "EG-ICE 우수 논문이 AEI 특집호로 초청되며, i3CE 2026 우수 논문도 AEI 특집호로 연결됐다."
+conference_link_en: "Selected EG-ICE papers are invited to an AEI special issue, and selected i3CE 2026 papers were also routed to an AEI special issue."
 orientation:
   contribution: 0
   summary: "건설·제조 등 공학 전반의 정보학(AI, 지식 표현, 디지털 트윈, 인간-기계 협업)을 다루는 상위 저널로, 건설 분야 논문 비중이 크다. AutCon보다 방법론·정보학적 기여를 더 중시해 새 모델이나 프레임워크와 탄탄한 실험을 함께 요구한다. 로봇 학습·HRC 등 로봇 논문도 꾸준히 실린다."
+  summary_en: "A top journal on engineering informatics (AI, knowledge representation, digital twins, human-machine collaboration) across construction, manufacturing and other fields, with a large share of construction papers. It puts more weight than AutCon on methodological and informatics contributions, expecting a new model or framework backed by solid experiments. Robotics papers, such as robot learning and HRC, appear regularly."
   values: ["informatics novelty", "rigorous experiments", "AI & digital twins", "construction-heavy"]
 fit: 3
 take: "조작 정책 학습이나 인지 모듈처럼 방법론 기여가 뚜렷한 결과는 AutCon과 함께 AEI를 1순위 후보로 두자."
+take_en: "For results with a clear methodological contribution, such as manipulation policy learning or perception modules, keep AEI alongside AutCon as a first-choice target."
 openalex_id: "S112141509"
 links:
   home: "https://www.sciencedirect.com/journal/advanced-engineering-informatics"
@@ -33,4 +38,5 @@ sources:
   - "https://www.i3ce2026.com/papers/02.html"
   - "https://www.bioxbio.com/journal/ADV-ENG-INFORM"
   - "https://api.openalex.org/sources/S112141509"
+  - "https://www.letpub.com.cn/index.php?journalid=206&page=journalapp&view=detail"
 last_verified: 2026-10-02

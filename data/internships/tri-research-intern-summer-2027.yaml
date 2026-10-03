@@ -18,11 +18,14 @@ responsibilities:
   - "Some summer internships ask for a short proposal of what you would work on"
 citizenship: none
 eligibility_note: "TRI 인턴 안내: 보통 가을에 다음 해 여름 인턴 지원이 열리고 봄까지 대부분 충원, 첫 면접은 해당 멘토와 진행. 오퍼는 근무지·학위·이주 여부로 표준화되며 필요 시 HR이 취업 비자 절차를 안내한다고 명시."
+eligibility_note_en: "From TRI's internship guide: applications for the next summer usually open in the fall and most slots fill by spring; the first interview is with the mentor. Offers are standardized by location, degree and relocation, and TRI states that HR guides the work-visa process when needed."
 status: upcoming
 apply_url: "https://www.tri.global/tri-internship-program"
 fit: 3
 take: "조작·로봇 학습 비중이 큰 TRI 로보틱스 인턴은 가을 공고 직후 멘토 단위로 빠르게 차니, 지금 연구 요약과 제안서 초안을 준비해 두고 공고가 뜨는 즉시 지원하라."
+take_en: "TRI robotics internships, heavy on manipulation and robot learning, fill quickly mentor by mentor right after the fall posting; prepare a research summary and draft proposal now and apply the moment it opens."
 notes: "2026-10-02 기준 TRI Lever 보드에는 Winter 2027 인턴 1건(Human-Centered AI Research Intern)만 있고 로보틱스 Summer 2027 공고는 미게시. 오픈 시기는 TRI 안내문('가을 오픈') 기준."
+notes_en: "As of 2026-10-02 TRI's Lever board has only one Winter 2027 internship (Human-Centered AI Research Intern); no Summer 2027 robotics posting yet. Opening time per TRI's guide ('opens in the fall')."
 sources:
   - "https://www.tri.global/tri-internship-program"
   - "https://jobs.lever.co/tri"

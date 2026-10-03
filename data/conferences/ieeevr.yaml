@@ -1,0 +1,71 @@
+id: ieeevr
+acronym: "IEEE VR"
+name: "IEEE Conference on Virtual Reality and 3D User Interfaces"
+organizer: "IEEE, IEEE Computer Society and IEEE Visualization and Graphics Technical Community (VGTC)"
+fields: [ar, haptics, hri]
+community: xr
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 52
+  h5_year: 2025
+frequency: annual
+paper_format: "4-9 pages of text, figures and tables (appendices count) plus at most 2 pages of references, IEEE VGTC conference format; double-blind; videos encouraged (IEEE VR 2027 rule)"
+review:
+  blind: double
+  rebuttal: false
+proceedings: "IEEE Xplore: top papers in a special issue of IEEE TVCG, the rest in the IEEE VR proceedings"
+journal_track: "A single unified review decides between an IEEE TVCG special-issue paper and a conference-only paper; conditionally accepted papers get one revision checked by their coordinator"
+orientation:
+  contribution: 0
+  summary: "VR·AR·MR과 3D 사용자 인터페이스 분야 최고 학회로, 방법론·기술·응용·시스템 네 범주 중 어느 기여든 받지만 모든 논문에 사용자 연구나 벤치마크 같은 평가를 요구한다. 응용 논문은 기존 아이디어를 새 문제에 어떻게 적용했는지와 그 효과를, 시스템 논문은 통합 과정의 교훈을 보여야 한다. VR/AR 문헌과의 연결이 약한 순수 비전·그래픽스 논문은 데스크 리젝될 수 있으며, 반박 없이 조건부 채택 후 수정본 확인으로 끝난다."
+  summary_en: "The top venue for VR, AR, MR and 3D user interfaces; it accepts methodological, technical, application or system contributions, but every paper must be evaluated through user studies or benchmarks. Application papers must show how existing ideas solve a new problem and how well; system papers must share lessons from integration. Pure vision or graphics papers with little engagement with VR/AR literature may be desk-rejected, and there is no rebuttal: conditional acceptance is followed by one checked revision."
+  values: ["user studies", "3D user interfaces", "TVCG journal track", "evaluation required"]
+fit: 2
+take: "2027 본논문 마감은 지났으니 건설 로봇 VR 원격조작 인터페이스나 AR 안전 경고를 사용자 실험으로 검증해 2028 대회(2027년 9월 초 마감 예상)를 노리고, 그 전에 12월 포스터·데모 트랙으로 먼저 선보이자."
+take_en: "The 2027 paper deadline has passed, so validate a VR teleoperation interface for construction robots or AR safety warnings with user studies for the 2028 conference (deadline expected in early September 2027), and show early results in the December poster or demo track first."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-02-27
+    end: 2027-03-03
+    city: "Melbourne"
+    country: AU
+    lat: -37.81
+    lon: 144.96
+    url: "https://ieeevr.org/2027/"
+    deadlines:
+      - {kind: abstract, date: 2026-08-24, tz: "AoE", time: "23:59"}
+      - {kind: paper, date: 2026-08-31, tz: "AoE", time: "23:59"}
+      - {kind: workshop-proposal, date: 2026-09-28, tz: "AoE", time: "23:59"}
+      - {kind: notification, date: 2026-11-30, label: "initial notification"}
+      - {kind: other, date: 2026-12-02, tz: "AoE", time: "23:59", label: "posters: title, abstract and authors"}
+      - {kind: other, date: 2026-12-07, tz: "AoE", time: "23:59", label: "posters: 2-page extended abstract; research demos"}
+      - {kind: other, date: 2026-12-31, tz: "AoE", time: "23:59", label: "revised papers (conditional accepts)"}
+      - {kind: notification, date: 2027-01-07, label: "final notification"}
+      - {kind: camera-ready, date: 2027-01-12, tz: "AoE"}
+    notes: "본논문(8/31)과 워크숍 제안(9/28)은 마감됐다. 남은 기회는 포스터(12/2 초록, 12/7 2쪽 확장 초록, 익명 심사), 연구 데모(12/7), 3DUI 콘테스트(12/16)다. 2026년부터 떨어진 논문을 포스터로 자동 전환하지 않으며, 박사 학위가 있는 공저자는 모두 심사에 참여해야 한다. 워크숍은 2/27–28에 열린다."
+    notes_en: "Papers (August 31) and workshop proposals (September 28) are closed. Still open: posters (abstract December 2, two-page extended abstract December 7, anonymized), research demos (December 7) and the 3DUI Contest (December 16). Since 2026 rejected papers are no longer moved to posters automatically, and every PhD-holding co-author must review. Workshops run February 27-28."
+  - year: 2028
+    status: estimated
+    deadlines:
+      - {kind: abstract, date: 2027-09-03, tz: "AoE", estimated: true}
+      - {kind: paper, date: 2027-09-10, tz: "AoE", estimated: true}
+    notes: "개최지·일정 미발표(보통 3월 개최). 본논문 마감은 최근 세 회차(2024/9/18, 2025/9/12, 2026/8/31, 초록은 1주 전)를 보고 9월 초로 추정했다."
+    notes_en: "Location and dates not announced (usually held in March). The paper deadline is estimated for early September from the last three cycles (2024-09-18, 2025-09-12, 2026-08-31, with abstracts a week earlier)."
+links:
+  home: "https://ieeevr.org/2027/"
+  cfp: "https://ieeevr.org/2027/contribute/papers/"
+  posters: "https://ieeevr.org/2027/contribute/posters/"
+sources:
+  - "https://ieeevr.org/2027/"
+  - "https://ieeevr.org/2027/contribute/papers/"
+  - "https://ieeevr.org/2027/contribute/posters/"
+  - "https://ieeevr.org/2027/contribute/workshops/"
+  - "https://ieeevr.org/2027/contribute/demos/"
+  - "https://ieeevr.org/2027/contribute/3dui-contest/"
+  - "https://ieeevr.org/2026/contribute/papers/"
+  - "https://ieeevr.org/2025/contribute/papers/"
+  - "https://portal.core.edu.au/conf-ranks/?search=Virtual+Reality&by=all&source=all"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction"
+last_verified: 2026-10-02

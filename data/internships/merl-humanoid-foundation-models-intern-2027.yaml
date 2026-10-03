@@ -18,6 +18,7 @@ pay:
   unit: month
   source: posting
   note: "공고 기재 월 급여 범위(6–8K/월)"
+  note_en: "monthly pay range stated in the posting (6–8K per month)"
 required:
   - "PhD student in ME, CS, EE or related"
   - "Hands-on research with VLA and/or multimodal foundation models for robotics"
@@ -35,11 +36,14 @@ responsibilities:
   - "Deploy on real humanoid platforms in warehouse and factory settings"
 citizenship: none
 eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+eligibility_note_en: "Common MERL posting language: employment requires full US work authorization and clearance to access export-controlled technology (an export license is obtained if needed), and MERL states it provides immigration support where needed. No citizenship restriction."
 status: open
 apply_url: "https://merl.clearcompany.com/careers/jobs/a44d264d-c064-cb6d-f22a-de22de85b2e2/apply"
 fit: 3
 take: "힘 제어 기반 접촉 조작과 자재 운반·공구 조작을 명시해 건설 현장 휴머노이드 시나리오와 가장 가깝지만 VLA·월드모델 실적을 요구하니 해당 결과를 갖춰 지원하라."
+take_en: "Names force-controlled contact manipulation, material handling and tool use — the closest to a construction-site humanoid scenario — but asks for a VLA / world-model track record, so apply once you have such results."
 notes: "게시일 미표기. 시작일·기간 유연."
+notes_en: "Posting date not shown. Flexible start and duration."
 sources:
   - "https://www.merl.com/employment/internship-openings#OR0313"
   - "https://merl.clearcompany.com/careers/jobs/a44d264d-c064-cb6d-f22a-de22de85b2e2/apply"

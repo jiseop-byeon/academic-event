@@ -24,10 +24,12 @@ skills: [python, pytorch, jax, foundation-models, isaac-sim, mujoco, ros, simula
 responsibilities: ["Apply research ideas to production problems for the NEO humanoid (evaluation, data engine, capability deployment)", "Build or improve data-engine components: log review and labeling tools, data cleaning, robotics benchmarks", "Deploy at least one new capability or infrastructure improvement to robots at customer sites"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 정규 인턴이 아닌 3–6개월 고정 계약직(Temporary) 레지던시로, 대학원생을 강하게 선호. 미국 내 근무 자격 필요."
+eligibility_note_en: "No citizenship requirement in the posting. A 3–6-month fixed-term (temporary) residency rather than a regular internship; graduate students strongly preferred. Requires authorization to work in the US."
 status: rolling
 posted: 2026-06-17
 apply_url: "https://jobs.ashbyhq.com/1x/5b2b4c73-13b5-46ca-8467-8024741a4b57"
 fit: 2
 take: "가정용 휴머노이드라 건설과는 거리가 있지만 월 $10K·3–6개월 동안 실제 배치 로봇의 데이터 엔진과 평가를 다뤄볼 수 있어, 여름 공백이 생기면 고려할 만하다."
+take_en: "A home humanoid is far from construction, but $10K a month for 3–6 months on the data engine and evaluation of deployed robots makes it worth considering if a summer slot opens up."
 sources: ["https://jobs.ashbyhq.com/1x/5b2b4c73-13b5-46ca-8467-8024741a4b57", "https://api.ashbyhq.com/posting-api/job-board/1x?includeCompensation=true"]
 last_verified: 2026-10-02

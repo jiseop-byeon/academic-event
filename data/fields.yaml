@@ -1,9 +1,11 @@
 # Field taxonomy. Every item's `fields:` list uses these keys (scholarships may also use `any`).
-# `color` is the chip color in light mode; the site derives the dark-mode color from it.
 fields:
   - key: construction
-    label: 건설
-    label_en: Construction
+    label: 건설·토목
+    label_en: Construction & civil
+  - key: transportation
+    label: 교통
+    label_en: Transportation
   - key: robotics
     label: 로보틱스
     label_en: Robotics
@@ -14,30 +16,47 @@ fields:
     label: 물체 조작
     label_en: Manipulation
   - key: navigation
-    label: 내비게이션
-    label_en: Navigation · SLAM
+    label: 내비게이션·SLAM
+    label_en: Navigation · SLAM · Sensor fusion
   - key: vision
     label: 컴퓨터 비전
     label_en: Computer vision
+  - key: ar
+    label: AR·XR
+    label_en: AR · XR
   - key: hri
-    label: HRI
-    label_en: Human–robot interaction
+    label: HRI·인간 의도
+    label_en: HRI · Human intent
   - key: haptics
     label: 햅틱스
     label_en: Haptics · Teleoperation
   - key: ml
     label: 머신러닝
     label_en: Machine learning
+  - key: xai
+    label: 설명 가능한 AI(XAI)
+    label_en: Explainable AI · Interpretability
 
 # Primary audience of a venue or journal: the lanes of the orientation chart.
 communities:
   - key: ml
-    label: ML · AI
+    label: ML·AI
+    label_en: ML · AI
   - key: vision
     label: 비전
+    label_en: Vision
   - key: robotics
     label: 로보틱스
+    label_en: Robotics
   - key: hri
-    label: HRI · 햅틱스
+    label: HRI·햅틱스
+    label_en: HRI · Haptics
+  - key: xr
+    label: AR·XR·HCI
+    label_en: AR · XR · HCI
+  - key: transportation
+    label: 교통
+    label_en: Transportation
   - key: construction
-    label: 건설 · AEC
+    label: 건설·토목
+    label_en: Construction & civil

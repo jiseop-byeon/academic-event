@@ -1,0 +1,33 @@
+id: ts
+abbr: "Transp. Sci."
+name: "Transportation Science"
+publisher: "INFORMS"
+issn: "0041-1655"
+eissn: "1526-5447"
+fields: [transportation]
+community: transportation
+tier: 1
+metrics:
+  jif: {value: 5.0, year: 2025}
+  jif_5y: {value: 6.2, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 10.0, year: 2025, quartile: Q1, category: "Transportation", rank: "28/169"}
+  h5_index: {value: 52, year: 2025}
+access: hybrid
+orientation:
+  contribution: -2
+  summary: "INFORMS 교통과학·물류 학회(TSL)의 대표 저널로, 운영과학(OR) 관점에서 모든 교통 수단의 계획·설계·운영 문제를 다루는 교통 분석 분야 최고 권위지다. 네트워크 균형, 차량 경로·스케줄링, 물류, 교통류 모형처럼 새 최적화 모형·알고리즘과 그 이론적 성질을 엄밀하게 보이는 논문이 중심이다. 실험·시스템 중심 연구는 방법론적 기여가 없으면 맞지 않는다."
+  summary_en: "The flagship journal of the INFORMS Transportation Science and Logistics (TSL) Society and the leading journal of transportation analysis from an operations-research angle, covering planning, design and operations across all modes. Papers center on new optimization models and algorithms (network equilibrium, vehicle routing and scheduling, logistics, traffic flow models) with rigorous theoretical properties. Experimental or system-driven work does not fit without a methodological contribution."
+  values: ["operations research", "optimization models and algorithms", "theoretical rigor", "INFORMS TSL flagship"]
+fit: 1
+take: "운영과학 기반 교통 이론 저널이라 건설 로봇·교통안전 시스템 연구와는 거리가 멀어 참고용이며, 투고 대상으로 삼을 필요는 없다."
+take_en: "An operations-research transportation journal, far from construction robotics or traffic-safety systems; keep it for reference rather than as a target."
+openalex_id: "S130252234"
+links:
+  home: "https://pubsonline.informs.org/journal/trsc"
+sources:
+  - "https://www.bioxbio.com/journal/TRANSPORT-SCI"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=7907"   # five-year IF there is crowd-sourced (LetPub users); scope text and Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Transportation+Science"
+  - "https://api.openalex.org/sources?filter=issn:0041-1655"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S130252234,publication_year:2024&group_by=open_access.oa_status"
+last_verified: 2026-10-02

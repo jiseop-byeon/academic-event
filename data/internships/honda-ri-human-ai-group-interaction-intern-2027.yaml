@@ -1,0 +1,41 @@
+id: honda-ri-human-ai-group-interaction-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Human-AI Group Interaction"
+fields: [hri]
+degree: [phd, ms]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "Enrolled in a master's or PhD program in HCI, human factors, cognitive science, psychology, CS, robotics or a related field"
+  - "Designing, conducting or analyzing human-subject, user or behavioral studies"
+  - "Experimental and survey design; quantitative analysis in Python, R or MATLAB"
+  - "Qualitative or mixed-methods analysis; research familiarity with human-AI collaboration"
+preferred:
+  - "Human-AI interaction, human-robot interaction, CSCW, team cognition or trust in automation"
+  - "Human-factors measures: trust, workload, usability, situation awareness"
+  - "Online studies (Prolific, Qualtrics, MTurk); Unity or web-based experiment systems"
+skills: [python, matlab]
+responsibilities:
+  - "Design and run online or in-person user studies of human-AI group collaboration"
+  - "Study how AI teammate roles (peer, facilitator, leader, observer) affect coordination, trust, workload and participation"
+  - "Turn mixed-methods findings into design implications for adaptive AI teammates"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석사·박사 재학생 대상, 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴."
+eligibility_note_en: "No citizenship requirement in the posting. For MS and PhD students; preferred start 2027-01-11 for 3 months — a during-semester internship."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-human-ai-group-interaction-1"
+fit: 2
+take: "사람과 AI 팀원의 협업을 사용자 실험으로 분석하는 HCI·인적요인 과제라 로봇을 직접 다루지는 않지만, HRI·AR 사용자 실험 경험을 신뢰·작업부하 연구로 넓히고 싶을 때 지원할 만하다."
+take_en: "HCI and human-factors work that studies how people collaborate with AI teammates through user studies — no robots involved, but worth applying if you want to extend HRI or AR user-study experience into research on trust and workload."
+notes: "공고번호 P25INT-64, 게시일 미표기."
+notes_en: "Posting no. P25INT-64; posting date not shown."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-human-ai-group-interaction-1"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

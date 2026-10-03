@@ -17,9 +17,11 @@ proceedings: "Proceedings of Machine Learning Research (PMLR)"
 orientation:
   contribution: -1
   summary: "로봇 학습(모방·강화학습, VLA, 로봇 foundation model) 중심의 단일 트랙 학회로, 학습 기반 방법의 새로움과 실로봇 검증을 동시에 요구한다. 고전 제어나 시스템 통합만으로는 범위 밖으로 보이기 쉽고, 건설 작업은 '새로운 contact-rich 과제·데이터 + 학습 정책의 일반화'로 제시해야 관심을 끈다. rebuttal은 1쪽, 사실 오류 지적에 한정된다."
+  summary_en: "A single-track conference centered on robot learning (imitation and reinforcement learning, VLA, robot foundation models) that demands both novelty in learning-based methods and real-robot validation. Classical control or systems integration alone tends to look out of scope, and construction work only draws interest when framed as 'a new contact-rich task and data + generalization of a learned policy'. The rebuttal is limited to 1 page and to pointing out factual errors."
   values: ["robot learning", "real-robot validation", "generalization", "open-source"]
 fit: 3
 take: "CoRL 2026은 오스틴(UT 홈그라운드)에서 11월에 열리니 청강·네트워킹은 필수이고, 투고는 2027년 5월 말 예상 마감에 학습 기반 건설 조작 결과로 노릴 것."
+take_en: "CoRL 2026 is held in Austin (UT's home turf) in November, so attending and networking are a must; for submission, aim at the expected late-May 2027 deadline with learning-based construction manipulation results."
 editions:
   - year: 2026
     status: confirmed
@@ -35,11 +37,13 @@ editions:
       - {kind: paper, date: 2026-05-28, tz: "AoE"}
       - {kind: camera-ready, date: 2026-10-12, tz: "AoE", time: "23:59"}
     notes: "논문 마감은 종료. 본회의 11/9–11, 워크숍 11/12(JW Marriott Austin 등). 투고 저자에게 리뷰 의무(reciprocal reviewing)가 있다."
+    notes_en: "Paper deadline has passed. Main conference 11/9–11, workshops 11/12 (JW Marriott Austin, etc.). Submitting authors have a reviewing obligation (reciprocal reviewing)."
   - year: 2027
     status: estimated
     deadlines:
       - {kind: paper, date: 2027-05-28, tz: "AoE", estimated: true}
     notes: "개최지·일정 미발표. 논문 마감은 2026(5/28 AoE) 기준 추정치이며, 과거 회차는 개최 시기에 따라 4월 말~6월 초로 변동해 왔다."
+    notes_en: "Location and schedule not yet announced. The paper deadline is an estimate based on 2026 (5/28 AoE); past deadlines have varied from late April to early June depending on when the conference was held."
 links:
   home: "https://www.corl.org/"
   cfp: "https://2026.corl.org/contributions/call-for-papers"

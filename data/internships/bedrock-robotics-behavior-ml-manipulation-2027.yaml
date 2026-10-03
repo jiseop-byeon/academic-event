@@ -15,11 +15,14 @@ skills: [python, pytorch, diffusion-policy, imitation-learning, vla, reinforceme
 responsibilities: ["Train diffusion / flow-matching behavior policies for autonomous excavators on real fleet demonstrations and simulated rollouts", "Build evaluation pipelines scoring task success, smoothness, safety margins and operator-likeness", "Investigate failure modes (distribution shift, mode collapse, out-of-distribution scenes) and propose fixes"]
 citizenship: none
 eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간·시작 시기는 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students; only US work authorization is needed. Pay, duration and start date are not stated."
 status: open
 posted: 2026-10-02
 apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c"
 fit: 3
 take: "40톤 굴착기의 굴삭·스윙·적재 동작을 diffusion policy로 학습하는 자리라 건설 contact-rich manipulation 연구와 정확히 겹치므로 이번 시즌 최우선으로 지원할 만하다."
+take_en: "Learning dig, swing and dump motions of a 40-ton excavator with diffusion policies overlaps exactly with contact-rich construction manipulation research — the top application of the season."
 notes: "Bedrock Robotics는 자율 굴착기를 실제 현장에 배치 중인 건설 자율화 스타트업. 2026-10-02 당일 게시된 공고."
+notes_en: "Bedrock Robotics is a construction-autonomy startup deploying autonomous excavators on real jobsites. Posted on 2026-10-02."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
 last_verified: 2026-10-02

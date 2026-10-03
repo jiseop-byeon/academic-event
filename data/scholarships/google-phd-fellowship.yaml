@@ -6,36 +6,45 @@ type: fellowship
 fields: [ml, vision]
 amount:
   summary: "연 $85,000 (학비·수수료, 생활비, 출장, 개인 장비 용도), 최대 2년 — 미국·캐나다 지역 기준"
+  summary_en: "$85,000 per year (tuition and fees, stipend, travel, personal equipment), up to 2 years — US & Canada rate"
   value: 85000
   currency: USD
   unit: year
   covers: ["tuition", "fees", "stipend", "living", "travel", "other"]
   estimated: false
 duration: "최대 2년"
+duration_en: "Up to 2 years"
 eligibility:
   nationality: ["any"]
   where_enrolled: "미국·캐나다의 인정된 연구중심 대학에서 CS 또는 인접 분야 박사과정 풀타임 재학 (펠로십 기간 내내 풀타임 유지)"
+  where_enrolled_en: "Full-time PhD students in CS or a related field at a recognized research university in the US or Canada (full time throughout the fellowship)"
   stage: "펠로십이 시작되는 학년도(가을) 전까지 박사과정 coursework를 마친 학생 — 보통 2년차 봄 추천·3년차 시작 시점, 1년차는 사실상 불가"
+  stage_en: "Students who will have finished PhD coursework before the fellowship's academic year (fall) — typically nominated in the spring of year 2 to start in year 3; first-years are effectively ineligible"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "학생 직접 지원 불가 — 대학 추천 필수(미국·캐나다는 대학당 최대 4명). 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 국적 제한 명시 없음. 구글 직원 가족, 유사 산업체 펠로십 수혜자, 과거 수혜자는 제외. 연구 분야에 로보틱스 항목은 없고 Machine Perception, ML & ML Foundations, HCI 등이 해당."
+  notes: "학생 직접 지원 불가 — 대학 추천 필수(미국·캐나다는 대학당 최대 4명), UT Austin에서는 대학원(Office of Graduate and Postdoctoral Studies)이 추천 대상자를 선정. 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 국적 제한 명시 없음. 구글 직원 가족, 유사 산업체 펠로십 수혜자, 과거 수혜자는 제외. 연구 분야에 로보틱스 항목은 없고 Machine Perception, ML & ML Foundations, HCI 등이 해당."
+  notes_en: "No direct applications — university nomination required (US & Canada: up to 4 per university); at UT Austin the Office of Graduate and Postdoctoral Studies selects the nominees. University nomination required — check the UT Austin internal deadline with the department/graduate office. No nationality restriction stated. Family of Google employees, holders of similar industry fellowships and past recipients are excluded. There is no robotics research area; Machine Perception, ML & ML Foundations, HCI and similar areas apply."
 requirements: ["CV (웹사이트·논문 링크 포함)", "연구/학위논문 제안서 (최대 3쪽, 참고문헌 제외)", "추천서 등 지역별 추가 서류"]
+requirements_en: ["CV (with website and paper links)", "Research/dissertation proposal (up to 3 pages, excluding references)", "Recommendation letters and other region-specific documents"]
 nomination: true
 cycle:
   typical: "매년 3–5월 대학 추천 접수 (2025년 4/10–5/15, 2026년 3/5–4/30), 8월 말까지 결과 통보, 10월 말까지 공개 발표"
+  typical_en: "University nominations each March–May (2025: Apr 10–May 15; 2026: Mar 5–Apr 30), decisions by the end of August, public announcement by the end of October"
   deadlines:
-    - {kind: application, date: 2026-04-30, label: "2026년 마감(참고)"}
-    - {kind: application, date: 2027-04-30, label: "2027년 대학 추천 마감(추정)", estimated: true}
-    - {kind: result, date: 2027-08-31, label: "선정 통보(추정)", estimated: true}
+    - {kind: application, date: 2026-04-30, label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
+    - {kind: application, date: 2027-04-30, label: "2027년 대학 추천 마감(추정)", label_en: "2027 university nomination deadline (estimated)", estimated: true}
+    - {kind: result, date: 2027-08-31, label: "선정 통보(추정)", label_en: "Selection notice (estimated)", estimated: true}
 status: upcoming
 apply_url: "https://research.google/programs-and-events/phd-fellowship/"
 fit: 2
 take: "coursework를 끝내는 2년차 봄(2028년 3–4월) 학과 추천을 목표로, 로보틱스 분야가 없으니 Machine Perception/ML 축으로 제안서를 쓸 수 있도록 그 전까지 1저자 논문 2편을 확보하라."
+take_en: "Target a nomination in the spring of year 2 (March–April 2028), once coursework is done; with no robotics area, have two first-author papers by then so the proposal can be framed as Machine Perception/ML."
 links:
   home: "https://research.google/programs-and-events/phd-fellowship/"
 sources:
   - "https://research.google/programs-and-events/phd-fellowship/"
+  - "https://graduate.utexas.edu/funding/fellowships/externally-funded"
   - "https://gradstudies.virginia.edu/google-22"
   - "https://grad.gatech.edu/events/google-phd-fellowship-internal-call-nominations-2026"
   - "https://research.arizona.edu/sponsors/google"

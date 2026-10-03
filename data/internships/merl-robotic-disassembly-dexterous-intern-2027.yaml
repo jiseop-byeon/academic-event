@@ -18,6 +18,7 @@ pay:
   unit: month
   source: posting
   note: "공고 기재 월 급여 범위(6–8K/월)"
+  note_en: "monthly pay range stated in the posting (6–8K per month)"
 required:
   - "Current PhD student"
   - "Research in robot learning, manipulation and perception"
@@ -30,11 +31,14 @@ responsibilities:
   - "Experiment on robot platforms and publish at top venues"
 citizenship: none
 eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+eligibility_note_en: "Common MERL posting language: employment requires full US work authorization and clearance to access export-controlled technology (an export license is obtained if needed), and MERL states it provides immigration support where needed. No citizenship restriction."
 status: open
 apply_url: "https://merl.clearcompany.com/careers/jobs/bff24001-5489-2b5f-fff3-87abfad75207/apply"
 fit: 3
 take: "OR0298과 같은 분해 프로젝트의 덱스터러스·sim-to-real 축이라 시뮬레이션 기반 조작 정책 경험이 있으면 두 공고 모두 지원하라."
+take_en: "The dexterous / sim-to-real side of the same disassembly project as OR0298; with simulation-based manipulation-policy experience, apply to both."
 notes: "게시일 미표기. 지원 시 CV와 관련 논문 목록 제출."
+notes_en: "Posting date not shown. Submit a CV and a list of relevant publications."
 sources:
   - "https://www.merl.com/employment/internship-openings#OR0329"
   - "https://merl.clearcompany.com/careers/jobs/bff24001-5489-2b5f-fff3-87abfad75207/apply"

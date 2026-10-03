@@ -1,0 +1,34 @@
+id: rcim
+abbr: "RCIM"
+name: "Robotics and Computer-Integrated Manufacturing"
+publisher: "Elsevier"
+issn: "0736-5845"
+eissn: "1879-2537"
+fields: [robotics, manipulation, hri, ml]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 12.3, year: 2025}
+  jif_5y: {value: 12.9, year: 2025}
+  citescore: {value: 27.6, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "5/390"}
+  h5_index: {value: 100, year: 2025}
+access: hybrid
+apc_usd: 5060
+orientation:
+  contribution: 1
+  summary: "제조 분야 로보틱스·자동화의 대표 저널로, 로봇 가공·조립, 인간-로봇 협업, 디지털 트윈, 스마트 제조 시스템처럼 산업 현장 적용을 겨냥한 연구를 싣는다. 실제 생산 공정에 가까운 실험과 시스템 통합을 중시하며, Impact Factor 12.3으로 로보틱스 관련 저널 중 최상위권이다. 건설 연구는 프리패브·로봇 시공처럼 제조 공정에 가까운 문제로 풀면 받아들여지기 쉽다."
+  summary_en: "The flagship journal for robotics and automation in manufacturing, publishing research aimed at industrial deployment, such as robotic machining and assembly, human-robot collaboration, digital twins and smart manufacturing systems. It values experiments close to real production processes and system integration, and its Impact Factor of 12.3 places it among the top robotics-related journals. Construction research is more readily accepted when framed as a manufacturing-like problem, such as prefabrication or robotic construction."
+  values: ["industrial applications", "system integration", "human-robot collaboration", "digital twin"]
+fit: 2
+take: "프리패브 조립이나 로봇 가공처럼 제조에 가까운 건설 조작 문제라면 높은 지표를 노릴 수 있는 저널이지만, 현장 시공 중심 연구라면 AutCon이 더 맞다."
+take_en: "For manufacturing-like construction manipulation problems such as prefab assembly or robotic machining, this is a high-impact option; for on-site construction research, AutCon is a better fit."
+openalex_id: "S118216261"
+links:
+  home: "https://www.sciencedirect.com/journal/robotics-and-computer-integrated-manufacturing"
+sources:
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/ROBOT-CIM-INT-MANUF"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:0736-5845"
+  - "https://www.letpub.com.cn/index.php?journalid=7313&page=journalapp&view=detail"
+last_verified: 2026-10-02

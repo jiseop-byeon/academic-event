@@ -1,0 +1,46 @@
+id: t-ase
+abbr: "T-ASE"
+name: "IEEE Transactions on Automation Science and Engineering"
+publisher: "IEEE (Robotics and Automation Society)"
+issn: "1545-5955"
+eissn: "1558-3783"
+fields: [robotics, manipulation, construction]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 7.9, year: 2025}
+  citescore: {value: 10.3, year: 2025}
+  h5_index: {value: 83, year: 2025}
+review:
+  blind: double
+  acceptance_rate: 0.29
+  speed_note: "RAS 공식 페이지 기준 채택률 약 29%, 투고→첫 결정 평균 3개월 미만, 투고→온라인 게재 평균 9개월 미만이다. 2025년 투고는 4,300편을 넘었고, 수정 후 재투고(Revise and Resubmit) 결정은 한 번만 허용된다."
+  speed_note_en: "Per the official RAS page, the acceptance rate is about 29%, submission to first decision averages under three months, and submission to online publication averages under nine months. Submissions exceeded 4,300 in 2025, and only one revise-and-resubmit decision is allowed."
+access: hybrid
+apc_usd: 2800
+length: "Regular: IEEE double-column; mandatory overlength charge of $175 per page beyond 12 typeset pages (communication items: beyond 6). Every paper needs a 100-300 word Note to Practitioners."
+article_types: ["regular", "communication item", "review/tutorial"]
+conference_link: "채택된 정규 논문(서베이·커뮤니케이션 제외)은 ICRA 2027(2027-05-24~28), IROS 2027, CASE 2027(2027-08-23~27) 중 한 곳에서 발표할 수 있다. 학회 투고 마감 전 270일 안에 채택된 논문이 대상이며 ICRA 2027 저널 이관 마감은 2026-12-31이다. 자동화 분야 자매 학회인 CASE와 특히 가깝다."
+conference_link_en: "Accepted regular papers (not surveys or communication items) can be presented at one of ICRA 2027 (2027-05-24 to 28), IROS 2027 or CASE 2027 (2027-08-23 to 27). Papers accepted within 270 days before the conference submission deadline are eligible, and the ICRA 2027 journal-transfer deadline is 2026-12-31. It is especially close to CASE, its sister conference in automation."
+orientation:
+  contribution: 0
+  summary: "자동화 과학·공학의 대표 저널로 알고리즘·이론과 함께 시스템·사례 연구도 받으며, 모든 논문에 산업 실무자를 위한 Note to Practitioners(100–300단어)를 요구할 만큼 실용적 파급력을 중시한다. 저널 범위에 건설이 명시돼 있어 건설 자동화·로봇 시스템 논문이 자연스럽게 받아들여지지만, 효율·품질·신뢰성 개선을 정량적으로 보여야 한다."
+  summary_en: "The flagship journal of automation science and engineering, accepting system and case studies alongside algorithms and theory; it values practical impact enough to require a Note to Practitioners (100–300 words) for industry readers in every paper. Construction is named in its scope, so construction automation and robot system papers fit naturally, but they must show quantitative gains in efficiency, quality or reliability."
+  values: ["practical impact", "Note to Practitioners", "methods and systems", "construction in scope"]
+fit: 3
+take: "건설을 명시적 범위로 둔 RAS 저널이라 접촉 조작 시스템을 방법론과 정량 검증으로 묶은 장편 논문에 잘 맞고, 채택률 약 29%에 ICRA·CASE 발표 기회도 있어 RA-L 다음 단계로 노릴 만하다."
+take_en: "An RAS journal with construction explicitly in scope, well suited to long papers that pair a contact-rich manipulation system with methodology and quantitative validation; with an acceptance rate of about 29% and the chance to present at ICRA or CASE, it is a natural next step after RA-L."
+openalex_id: "S34881539"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856"
+  society: "https://www.ieee-ras.org/publications/t-ase/"
+  submit: "https://publishingportal.ieee.org/app/publication-venue?id=J-8856"
+  guide: "https://www.ieee-ras.org/publications/t-ase/information-for-authors/"
+sources:
+  - "https://www.ieee-ras.org/publications/t-ase/"
+  - "https://www.ieee-ras.org/publications/t-ase/information-for-authors/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=8856"
+  - "https://www.bioxbio.com/journal/IEEE-T-AUTOM-SCI-ENG"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:1545-5955"
+last_verified: 2026-10-02

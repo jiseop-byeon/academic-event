@@ -19,9 +19,11 @@ proceedings: "CVF Open Access and IEEE Xplore"
 orientation:
   contribution: -1
   summary: "CVPR과 같은 CVF 규정(8쪽+참고문헌, 이중맹검, 1쪽 rebuttal)으로 운영되는 격년(홀수 해) 최상위 비전 학회로, 평가 기준도 CVPR과 사실상 같아 방법론적 신규성과 강한 정량 실험이 핵심이다. 응용 트랙이 없어 건설 현장 인식 논문은 일반적인 비전 문제로서의 기여를 분명히 보여야 한다."
+  summary_en: "A top vision conference held biennially (in odd years) under the same CVF rules as CVPR (8 pages plus references, double-blind, 1-page rebuttal); its evaluation criteria are effectively the same as CVPR's, so methodological novelty and strong quantitative experiments are what count. With no application track, construction-site perception papers must clearly show a contribution as a general vision problem."
   values: ["methodological novelty", "strong quantitative results", "thorough ablations"]
 fit: 2
 take: "마감이 2027년 3월 초(추정)라 CVPR 2027 결과(2027-02-25)를 받은 뒤 리뷰를 반영해 재투고하기 좋은 일정이므로, 인식 파트 논문이 있다면 홍콩 대회를 계획에 넣어라."
+take_en: "The deadline is in early March 2027 (estimated), a schedule that suits resubmitting after receiving the CVPR 2027 result (2027-02-25) and incorporating the reviews, so if you have a perception paper, put the Hong Kong conference in your plan."
 editions:
   - year: 2027
     status: confirmed
@@ -37,6 +39,7 @@ editions:
       - {kind: abstract, date: 2027-03-01, label: "Paper registration", estimated: true}
       - {kind: paper, date: 2027-03-05, estimated: true}
     notes: "공식 마감일은 아직 미발표. ICCV 2023(3/8)·2025(3/7) 제출 마감 패턴으로 3월 첫 주를 추정했으며, 2027년은 10월 초 개최라 더 앞당겨질 수 있다. 공식 Dates 페이지는 아직 이전 대회 템플릿 상태다."
+    notes_en: "The official deadline has not been announced yet. The first week of March is estimated from the ICCV 2023 (3/8) and 2025 (3/7) submission deadline pattern, and since the 2027 conference is held in early October, the deadline could come earlier still. The official Dates page is still showing the previous conference's template."
 links:
   home: "https://iccv.thecvf.com/Conferences/2027"
   cvf: "https://www.thecvf.com/"

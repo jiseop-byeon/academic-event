@@ -1,0 +1,42 @@
+id: scirobotics
+abbr: "Sci. Robot."
+name: "Science Robotics"
+publisher: "American Association for the Advancement of Science (AAAS)"
+eissn: "2470-9476"
+fields: [robotics, manipulation, physical-ai, navigation, hri]
+community: robotics
+tier: 1
+metrics:
+  jif: {value: 25.5, year: 2025}
+  jif_5y: {value: 33.3, year: 2025}
+  citescore: {value: 32.1, year: 2025, quartile: Q1, category: "Artificial Intelligence", rank: "9/570"}
+  h5_index: {value: 106, year: 2025}
+review:
+  first_decision_days: 8
+  acceptance_rate: 0.078
+  speed_note: "AAAS 공개 자료(2025년): 투고 859편 중 19.3%가 외부 심사로 넘어갔고 채택률은 7.8%다. 중앙값은 투고→첫 결정 8일, 심사 후 첫 결정 65.5일, 투고→채택 276.5일, 채택→온라인 게재 28일이다. 편집진이 심층 심사 대상으로 고른 논문만 외부 심사위원 2명 이상에게 보내며, 거절되더라도 Science Advances 등 AAAS 자매지로 이관을 제안받을 수 있다."
+  speed_note_en: "AAAS figures for 2025: 19.3% of 859 submissions were sent for external review and 7.8% were accepted. Medians: 8 days from submission to first decision, 65.5 days to the first post-review decision, 276.5 days from submission to acceptance, and 28 days from acceptance to online publication. Only papers the editors select for in-depth review go to two or more external referees, and rejected papers may be offered a transfer to AAAS sister journals such as Science Advances."
+access: subscription
+length: "Research Article: up to 8,000 words (excluding references) and up to 8 figures, tables and/or movies, plus supplementary materials; Review (invited): up to 5,000 words; Viewpoint (invited): up to 3,500 words; Focus: up to 1,000 words"
+article_types: ["research article", "review (invited)", "viewpoint (invited)", "focus", "eLetter"]
+orientation:
+  contribution: 0
+  summary: "AAAS가 발행하는 Science 계열 로보틱스 저널로, 로봇 분야 전반에서 넓은 과학적 의의와 파급력이 있는 결과를 싣는다. 완성된 시스템·새 부품·소재·소프트웨어 등 형태는 열려 있지만 편집진이 의의를 기준으로 대부분을 데스크에서 거르므로, 실제 환경 실증과 강한 서사가 필요하다. 건설 로봇이라면 현장 작업을 실질적으로 바꾸는 수준의 실증이 있어야 경쟁할 수 있다."
+  summary_en: "The Science family's robotics journal, published by AAAS, featuring results of broad scientific significance and impact across robotics. It is open to many forms, from complete systems to new components, materials or software, but the editors filter most papers at the desk on significance, so real-world demonstrations and a strong narrative are needed. Construction robots can compete only with demonstrations that substantially change on-site work."
+  values: ["broad significance", "complete systems", "real-world demonstration", "editorial selectivity"]
+fit: 2
+take: "실제 건설 현장에서 검증된 접촉 조작 시스템처럼 파급력이 큰 결과가 나왔을 때 노릴 장기 목표 저널이며, 박사 초반의 연구 결과는 RA-L·T-RO가 맞다."
+take_en: "A long-term target for high-impact results, such as a contact-rich manipulation system validated on real construction sites; early-PhD results belong in RA-L or T-RO."
+openalex_id: "S4210213233"
+links:
+  home: "https://www.science.org/journal/scirobotics"
+  submit: "https://cts.sciencemag.org"
+  guide: "https://www.science.org/content/page/science-robotics-information-authors"
+sources:
+  - "https://web.archive.org/web/20260709025207/https://www.science.org/content/page/journal-metrics-overview"
+  - "https://web.archive.org/web/20250523060122/https://www.science.org/content/page/science-robotics-information-authors"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:2470-9476"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S4210213233,publication_year:2025&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=10583&page=journalapp&view=detail"
+last_verified: 2026-10-02

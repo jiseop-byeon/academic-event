@@ -24,11 +24,14 @@ responsibilities:
   - "Study efficient VLM-to-VLA transfer"
 citizenship: none
 eligibility_note: "공고에 국적 요건 없음. 근무지는 현재 마곡 본사가 아닌 양재(우면동) 오피스. 전형: 서류 → 온라인 코딩테스트·인성검사 → 비대면 기술면접."
+eligibility_note_en: "No nationality requirement in the posting. The workplace is currently the Yangjae (Umyeon-dong) office, not the Magok headquarters. Process: documents, then an online coding test and personality test, then a remote technical interview."
 status: open
 apply_url: "https://www.lgresearch.ai/careers/view?seq=326"
 fit: 2
 take: "EXAONE 기반 embodied reasoning·VLA 전이를 다루는 국내 몇 안 되는 Physical AI 인턴이라 국내 근무가 가능한 기간에 노리기 좋은 선택지다."
+take_en: "One of the few physical-AI internships in Korea, on EXAONE-based embodied reasoning and VLA transfer — a good option for a period when working in Korea is possible."
 notes: "게시일·기간·급여 미기재. 같은 랩의 'Research/Engineering Internship - Reinforcement Learning'(EXAONE 기반 강화학습 로봇 제어)도 게시 중."
+notes_en: "Posting date, duration and pay not stated. The same lab also lists 'Research/Engineering Internship - Reinforcement Learning' (EXAONE-based RL robot control)."
 sources:
   - "https://www.lgresearch.ai/careers/view?seq=326"
   - "https://www.lgresearch.ai/careers"

@@ -1,0 +1,49 @@
+id: t-mech
+abbr: "T-Mech"
+name: "IEEE/ASME Transactions on Mechatronics"
+publisher: "IEEE and ASME (IES, RAS, ASME DSCD)"
+issn: "1083-4435"
+eissn: "1941-014X"
+fields: [robotics, manipulation, haptics]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 6.3, year: 2025}
+  jif_5y: {value: 7.1, year: 2025}
+  citescore: {value: 13.9, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "24/390"}
+  h5_index: {value: 81, year: 2025}
+review:
+  blind: single
+  speed_note: "단일 익명 심사. PC 외 하드웨어를 포함한 실험 장치로 검증하지 않은 원고는 즉시 거절(Immediate Reject)된다. 일반 투고의 심사 기간·채택률은 저자 안내에 공개돼 있지 않다."
+  speed_note_en: "Single-anonymous review. Manuscripts not validated on an experimental setup with hardware beyond a PC are rejected immediately (Immediate Reject). Review times and acceptance rates for regular submissions are not given in the author information."
+access: hybrid
+apc_usd: 2800
+length: "Regular: 8 pages (up to 12 at US$200 per extra page; first submissions over 11 pages are returned without review); short: 4 pages (up to 6); letter: 2 pages (up to 3); review/tutorial: up to 16 pages; perspective: 2-4 pages"
+article_types: ["regular", "short", "letter", "review/tutorial", "perspective", "focused section"]
+conference_link: "2027 TMECH/AIM Emerging Topics Focused Section: 2026-10-01~2026-12-23 투고(8쪽 이내), 2027-02-22 첫 결정, 2027-04-23 최종 결정. 채택 논문은 AIM 2027(캐나다 Calgary)에서 발표한 뒤 2027년 8월호에 실리고, 거절되면 AIM 2027 일반 논문 심사로 넘어간다. 일반 투고로 채택된 논문도 AIM의 TMECH 발표 세션에 초청된다."
+conference_link_en: "2027 TMECH/AIM Emerging Topics Focused Section: submissions 2026-10-01 to 2026-12-23 (up to 8 pages), first decision 2027-02-22, final decision 2027-04-23. Accepted papers are presented at AIM 2027 (Calgary, Canada) and then appear in the August 2027 issue; rejected ones move to AIM 2027 regular-paper review. Papers accepted through regular submission are also invited to TMECH presentation sessions at AIM."
+orientation:
+  contribution: 0
+  summary: "기계·전자·제어를 통합한 메카트로닉스 시스템의 대표 저널로, 새 이론·설계·제어 기법을 반드시 실제 하드웨어 실험으로 검증해야 한다. 액추에이터·센서·엔드이펙터 설계와 힘·운동 제어 논문이 많고, 시뮬레이션만 있는 원고는 바로 거절된다. 건설 응용은 새로운 공구·그리퍼 설계나 접촉 제어를 실험으로 보여 주면 자연스럽게 받아들여진다."
+  summary_en: "The flagship journal for mechatronic systems integrating mechanics, electronics and control; new theory, designs and control methods must be validated in real hardware experiments. Papers on actuator, sensor and end-effector design and on force and motion control are common, and simulation-only manuscripts are rejected outright. Construction applications fit naturally when they demonstrate a new tool or gripper design or contact control experimentally."
+  values: ["hardware experiments mandatory", "design and control", "theory with practice", "mechatronic integration"]
+fit: 2
+take: "건설용 엔드이펙터·공구 설계와 힘 제어처럼 하드웨어 실험이 핵심인 결과에 잘 맞으며, 12월 23일 마감 TMECH/AIM Focused Section을 쓰면 저널 게재와 AIM 발표를 함께 노릴 수 있다."
+take_en: "A good fit for results built on hardware experiments, such as construction end-effector or tool design and force control; through the TMECH/AIM Focused Section (deadline December 23) you can aim for journal publication and an AIM presentation together."
+openalex_id: "S13961689"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3516"
+  society: "http://www.ieee-asme-mechatronics.info/"
+  submit: "https://publishingportal.ieee.org/app/publication-venue?id=J-3516"
+  guide: "http://www.ieee-asme-mechatronics.info/information-for-authors/"
+  focused_sections: "http://www.ieee-asme-mechatronics.info/focus-sections/"
+sources:
+  - "http://www.ieee-asme-mechatronics.info/"
+  - "http://www.ieee-asme-mechatronics.info/information-for-authors/"
+  - "http://www.ieee-asme-mechatronics.info/focus-sections/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=3516"
+  - "https://www.bioxbio.com/journal/IEEE-ASME-T-MECH"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:1083-4435"
+  - "https://www.letpub.com.cn/index.php?journalid=3433&page=journalapp&view=detail"
+last_verified: 2026-10-02

@@ -193,6 +193,39 @@ def amazon(c):
 
 FETCH = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "workday": workday, "amazon": amazon}
 
+# Community-maintained list of internship postings (public GitHub repo, refreshed several times a
+# day) — the broad net that company boards alone miss. Graduate-level, on-topic, no citizenship rule.
+SIMPLIFY = "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json"
+SIMPLIFY_TOPIC = re.compile(
+    r"robot|perception|computer vision|\bvision\b|autonom|self-driving|slam|locali[sz]ation|mapping|embodied|"
+    r"manipulat|grasp|reinforcement|imitation|motion planning|\bcontrols?\b|mechatronic|haptic|teleoperat|"
+    r"simulation|lidar|sensor fusion|\b3d\b|point cloud|construction|civil|structural|geotech|transportation|"
+    r"traffic|transit|infrastructure|augmented reality|virtual reality|mixed reality|\bar\b|\bvr\b|\bxr\b|"
+    r"spatial computing|physical ai|humanoid|drone|\buav\b", re.I)
+
+
+def simplify():
+    r = requests.get(SIMPLIFY, headers=UA, timeout=90)
+    r.raise_for_status()
+    for x in r.json():
+        if not x.get("active") or not x.get("is_visible", True):
+            continue
+        degrees = x.get("degrees") or []
+        if degrees and not any(g in ("PhD", "Master's") for g in degrees):
+            continue
+        title = x.get("title", "")
+        if not SIMPLIFY_TOPIC.search(title) or OFFSCOPE.search(title):
+            continue
+        if "citizenship" in (x.get("sponsorship") or "").lower():
+            continue
+        yield {
+            "company": x.get("company_name"), "title": title.strip(),
+            "location": "; ".join((x.get("locations") or [])[:3]), "url": x.get("url"),
+            "posted": iso((x.get("date_posted") or 0) * 1000) if x.get("date_posted") else None,
+            "degrees": degrees, "terms": x.get("terms") or [],
+            "matched": sorted({m.group(0).lower() for m in SIMPLIFY_TOPIC.finditer(title)})[:6],
+        }
+
 
 def normalize(c: dict) -> dict:
     """Accept the spellings the watchlists use: `board` or `token`; Workday as top-level keys or a `workday:` map."""
@@ -249,12 +282,21 @@ def main(argv: list[str]) -> int:
             errors.append({"company": c.get("name"), "ats": ats, "error": f"{type(exc).__name__}: {str(exc)[:160]}"})
         time.sleep(0.5)
 
+    n_boards = len(postings)
+    try:
+        for p in simplify():
+            if p["url"] and p["url"] not in postings and (not p["posted"] or p["posted"] >= cutoff):
+                postings[p["url"]] = {"id": "simplify:" + p["url"].rstrip("/").rsplit("/", 1)[-1][:60],
+                                      "org_type": "", "pay": None, "source": "simplify", **p}
+    except Exception as exc:
+        errors.append({"company": "SimplifyJobs list", "ats": "github", "error": f"{type(exc).__name__}: {str(exc)[:160]}"})
+
     items = sorted(postings.values(), key=lambda p: (p.get("posted") or "", p["company"] or ""), reverse=True)
     result = {
         "collected_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "boards_polled": polled, "postings": items[:400], "errors": errors,
+        "boards_polled": polled, "postings": items[:900], "errors": errors,
     }
-    print(f"polled {polled} boards: {len(items)} relevant internship postings, {len(errors)} errors")
+    print(f"polled {polled} boards: {n_boards} postings; SimplifyJobs list: {len(items) - n_boards} more; {len(errors)} errors")
     for e in errors:
         print(f"  ! {e['company']} ({e['ats']}): {e['error']}")
     if not args.dry_run:

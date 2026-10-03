@@ -24,10 +24,12 @@ skills: [python, cpp, pytorch, computer-vision, slam, sensor-fusion, state-estim
 responsibilities: ["Research and benchmark CV / deep-learning methods (detection, segmentation, pose, anomaly detection) on production data", "Develop SLAM / localization for warehouse robots with sensor fusion and probabilistic state estimation", "Deploy software on robot hardware and present results internally and at academic venues"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 상태 차별 금지 명시). 유효한 운전면허, 최대 10% 출장, 개인 신용카드로 경비 선결제 요건이 있음. 이주 요건 충족 시 교통·주거 지원."
+eligibility_note_en: "No citizenship requirement in the posting (the EEO statement prohibits discrimination by citizenship status). Requires a valid driver's license, up to 10% travel and paying expenses up front on a personal credit card. Travel and housing support if relocation criteria are met."
 status: open
 posted: 2026-09-22
 apply_url: "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964"
 fit: 2
 take: "창고 물류 로봇의 비전·SLAM 인턴이라 건설과 직접 연결되진 않지만 MS/PhD 대상에 급여가 명시돼 있어, perception 지원 축을 다지는 안정적인 보조 지원처로 넣을 만하다."
+take_en: "Vision and SLAM for warehouse robots — not directly tied to construction, but MS/PhD-level with posted pay; a solid backup for building the perception support track."
 sources: ["https://www.symbotic.com/careers/jobs/R7964/", "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964"]
 last_verified: 2026-10-02

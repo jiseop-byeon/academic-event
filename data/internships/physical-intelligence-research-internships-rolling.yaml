@@ -12,10 +12,12 @@ work_mode: onsite
 skills: [vla, foundation-models, imitation-learning, pytorch]
 citizenship: unknown
 eligibility_note: "공고 본문이 'Internships' 한 단어뿐이라 학위·기간·급여·자격 요건이 전혀 명시되지 않음. 학위(PhD)와 skills 태그는 연구팀 성격에 따른 추정. 회사 홈페이지(pi.website)는 봇 확인 화면이 떠서 열람하지 못함."
+eligibility_note_en: "The posting body is the single word 'Internships', so degree, duration, pay and eligibility are not stated at all. The degree (PhD) and skill tags are inferred from the research team. The company homepage (pi.website) shows a bot check and could not be read."
 status: rolling
 posted: 2024-08-24
 apply_url: "https://jobs.ashbyhq.com/physicalintelligence/f020ff1a-4b4c-4415-8434-2da5010a7076"
 fit: 3
 take: "π0 계열 VLA로 조작 foundation model 분야를 이끄는 회사라 manipulation 연구자에게 최상위 타깃이지만, 상시 공고에 정보가 거의 없으니 대표 논문과 실로봇 데모를 갖춘 뒤 지원하는 편이 낫다."
+take_en: "The company leading manipulation foundation models with the π0 family of VLAs — a top target for a manipulation researcher, but the evergreen posting says almost nothing, so apply once you have a signature paper and real-robot demos."
 sources: ["https://jobs.ashbyhq.com/physicalintelligence/f020ff1a-4b4c-4415-8434-2da5010a7076", "https://api.ashbyhq.com/posting-api/job-board/physicalintelligence?includeCompensation=true"]
 last_verified: 2026-10-02

@@ -2,7 +2,7 @@ id: hri
 acronym: "HRI"
 name: "ACM/IEEE International Conference on Human-Robot Interaction"
 organizer: "ACM and IEEE (ACM SIGCHI, ACM SIGAI, IEEE RAS)"
-fields: [hri, robotics]
+fields: [hri, robotics, xai]
 community: hri
 tier: 1
 rankings:
@@ -18,9 +18,11 @@ proceedings: "ACM Digital Library (open access; optional IEEE Xplore indexing)"
 orientation:
   contribution: 0
   summary: "HRI 분야 최상위 학회로, 엄밀한 사용자 연구(통계·연구윤리 절차)와 인간 중심 설계 기여를 가장 높이 산다. 건설 현장의 작업자-로봇 협업(신뢰, 안전, 작업 분담)을 실제 작업자 대상 실험으로 보이면 독특한 응용으로 환영받지만, 사용자 연구 없이 로봇 성능만 보이면 범위 밖으로 판단된다."
+  summary_en: "The top conference in the HRI field, it values most rigorous user studies (statistics, research-ethics procedures) and human-centered design contributions. Showing worker-robot collaboration on construction sites (trust, safety, task allocation) through experiments with real workers is welcomed as a distinctive application, but showing only robot performance without a user study is judged out of scope."
   values: ["user studies", "human-centered design", "statistical rigor", "interdisciplinary"]
 fit: 2
 take: "HRI는 작업자-로봇 협업을 실제 사용자 실험으로 다룰 때만 노릴 2순위 — 2027 본논문은 마감됐으니 12/8 Late-Breaking Report로 초기 결과를 내 보는 것이 현실적."
+take_en: "HRI is a No. 2 priority, to be aimed at only when worker-robot collaboration is studied with real user experiments; the 2027 full-paper deadline has passed, so the realistic move is to present early results as a 12/8 Late-Breaking Report."
 editions:
   - year: 2027
     status: confirmed
@@ -43,6 +45,7 @@ editions:
       - {kind: late-breaking, date: 2026-12-08, tz: "AoE", time: "23:59", label: "late-breaking reports (2-4 pages, archival)"}
       - {kind: camera-ready, date: 2026-12-18, tz: "AoE", label: "full papers"}
     notes: "본논문(9/18) 마감 종료. 남은 기회: 워크숍 제안 10/5, HRI Pioneers 10/18, 비디오·데모 11/20, Late-Breaking Report 12/8(2–4쪽, ACM DL 수록, 대면 포스터 발표 필수). 테마 'Innovative HRI'."
+    notes_en: "The full-paper (9/18) deadline has passed. Remaining opportunities: workshop proposals 10/5, HRI Pioneers 10/18, videos and demos 11/20, Late-Breaking Reports 12/8 (2–4 pages, included in the ACM DL, in-person poster presentation required). Theme: 'Innovative HRI'."
   - year: 2028
     status: estimated
     deadlines:
@@ -50,6 +53,7 @@ editions:
       - {kind: paper, date: 2027-09-17, tz: "AoE", estimated: true}
       - {kind: notification, date: 2027-11-30, estimated: true}
     notes: "개최지·일정 미발표(통상 3월 개최). 본논문 마감은 최근 3회(2024년 10/1, 2025년 9/30, 2026년 9/18)로 앞당겨지는 추세라 가장 이른 패턴으로 추정했다."
+    notes_en: "Location and schedule not announced (usually held in March). The full-paper deadline has been moving earlier over the last 3 editions (10/1 in 2024, 9/30 in 2025, 9/18 in 2026), so it is estimated from the earliest pattern."
 links:
   home: "https://humanrobotinteraction.org/2027/"
   cfp: "https://humanrobotinteraction.org/2027/full-papers/"

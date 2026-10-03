@@ -119,6 +119,8 @@ def common(r: Report, d: dict, cat: str) -> None:
     if need(r, d, "fit", int) and d["fit"] not in (1, 2, 3):
         r.err("`fit` must be 1, 2 or 3")
     need(r, d, "take", str)
+    if not isinstance(d.get("take_en"), str):
+        r.warn("no `take_en` (English) — English is the site's main language")
     if need(r, d, "sources", list):
         for s in d["sources"]:
             if not is_url(s):
@@ -229,9 +231,12 @@ def check_journal(r: Report, d: dict) -> None:
     else:
         for k in ("jif", "jif_5y", "citescore", "sjr"):
             v = m.get(k)
-            if v is not None and not (isinstance(v, dict) and isinstance(v.get("value"), (int, float)) and isinstance(v.get("year"), int)):
+            if v is None:
+                continue
+            quartile_only = k == "citescore" and isinstance(v, dict) and v.get("quartile") and "value" not in v
+            if not (isinstance(v, dict) and (quartile_only or isinstance(v.get("value"), (int, float))) and isinstance(v.get("year"), int)):
                 r.err(f"metrics.{k} must be {{value: number, year: YYYY}}")
-        for k in ("jcr_quartile", "sjr"):
+        for k in ("jcr_quartile", "sjr", "citescore"):
             v = m.get(k) or {}
             q = v.get("value") if k == "jcr_quartile" else v.get("quartile")
             if v and q is not None and q not in ("Q1", "Q2", "Q3", "Q4"):

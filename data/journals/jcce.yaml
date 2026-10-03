@@ -10,19 +10,23 @@ tier: 2
 metrics:
   jif: {value: 5.8, year: 2025}
   jif_5y: {value: 6.8, year: 2025}
-  citescore: {value: 8.6, year: 2025}
+  citescore: {value: 8.6, year: 2025, quartile: Q1, category: "Civil and Structural Engineering", rank: "60/434"}
 access: hybrid
 conference_link: "i3CE 2026 우수 논문 JCCE 특집호 초청, IROS 2026 Future of Construction 워크숍 선정 논문 JCCE special collection 초청."
+conference_link_en: "Selected i3CE 2026 papers are invited to a JCCE special issue, and selected papers from the IROS 2026 Future of Construction workshop are invited to a JCCE special collection."
 orientation:
   contribution: 1
   summary: "ASCE 컴퓨팅 분과가 후원하는 격월간지로 AI·비전·로보틱스·BIM·디지털 트윈을 토목·건설에 적용한 연구를 싣는다. 새 계산 방법과 건설 데이터 기반 검증의 조합을 기대하지만 AutCon보다 문턱이 낮고, 공동 편집장(Yong K. Cho, Nora El-Gohary) 중 Yong K. Cho가 건설 로보틱스 연구자라 로봇 논문이 낯설지 않은 저널이다."
+  summary_en: "A bimonthly journal sponsored by ASCE's computing division, publishing AI, vision, robotics, BIM and digital-twin research applied to civil engineering and construction. It expects a new computational method validated on construction data, but the bar is lower than AutCon's; of its co-editors-in-chief (Yong K. Cho and Nora El-Gohary), Yong K. Cho is a construction robotics researcher, so robotics papers are familiar territory."
   values: ["computing methods for civil engineering", "data-driven validation", "robotics friendly", "ASCE community"]
 fit: 3
 take: "AutCon 다음으로 가장 현실적인 1순위 저널이니, i3CE 발표 후 확장하거나 특집호(i3CE·Future of Construction 연계)를 통해 첫 저널 논문을 내기에 좋다."
+take_en: "After AutCon, the most realistic first-choice journal: a good place for a first journal paper, either by extending an i3CE paper or through the special issues linked to i3CE and Future of Construction."
 openalex_id: "S176637136"
 links:
   home: "https://ascelibrary.org/journal/jccee5"
 sources:
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=4376"
   - "https://web.archive.org/web/20260831131049/https://ascelibrary.org/journal/jccee5"
   - "https://web.archive.org/web/20260718201352/https://ascelibrary.org/journal/jccee5"
   - "https://www.i3ce2026.com/papers/02.html"

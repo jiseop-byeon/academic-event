@@ -42,6 +42,23 @@ SCHOL_KIND = {
     "application": "지원 마감", "internal": "학내 추천 마감", "recommendation": "추천서 마감",
     "interview": "면접", "result": "결과 발표", "other": "기타",
 }
+KIND_EN = {
+    "abstract": "Abstract deadline", "paper": "Paper deadline", "supplementary": "Supplementary deadline",
+    "rebuttal": "Rebuttal", "notification": "Notification", "camera-ready": "Camera-ready",
+    "workshop-proposal": "Workshop proposals", "late-breaking": "Late-breaking deadline",
+    "registration": "Registration deadline", "other": "Other", "application": "Application deadline",
+    "internal": "Internal (university) deadline", "recommendation": "Recommendation letters due",
+    "interview": "Interview", "result": "Results", "internship-deadline": "Application deadline", "event": "Conference",
+}
+HANGUL = re.compile(r"[\uac00-\ud7a3]")
+
+
+def labels(d: dict, kind: str, ko_default: str) -> tuple[str, str]:
+    """(Korean label, English label) for a deadline."""
+    lab = d.get("label")
+    ko = lab or ko_default
+    en = d.get("label_en") or (lab if lab and not HANGUL.search(lab) else KIND_EN.get(kind, kind))
+    return ko, en
 # Kinds that ask the owner to submit something; these go into deadlines.ics and the dashboard.
 ACTION_KINDS = {"abstract", "paper", "late-breaking", "application", "internal", "recommendation",
                 "internship-deadline"}  # workshop proposals stay in all-events.ics only
@@ -116,10 +133,12 @@ def build_events(b: dict) -> list[dict]:
         for e in c.get("editions", []):
             name = f'{c["acronym"]} {e["year"]}'
             est_edition = e.get("status") == "estimated"
+            countries = [e["country"]] if e.get("country") else []
             for d in e.get("deadlines", []):
+                ko, en = labels(d, d["kind"], CONF_KIND[d["kind"]])
                 ev.append({
                     "date": d["date"], "cat": "conferences", "id": c["id"], "name": name, "short": c["acronym"],
-                    "kind": d["kind"], "label": d.get("label") or CONF_KIND[d["kind"]],
+                    "kind": d["kind"], "label": ko, "label_en": en, "countries": countries,
                     "estimated": bool(d.get("estimated") or est_edition),
                     "tz": d.get("tz"), "time": d.get("time"), "fit": c["fit"], "fields": c["fields"],
                     "url": e.get("url") or (c.get("links") or {}).get("home"),
@@ -128,16 +147,18 @@ def build_events(b: dict) -> list[dict]:
                 place = ", ".join(x for x in (e.get("city"), e.get("country")) if x)
                 ev.append({
                     "date": e["start"], "end": e.get("end"), "cat": "conferences", "id": c["id"],
-                    "name": name, "short": c["acronym"], "kind": "event", "label": "개최", "place": place,
+                    "name": name, "short": c["acronym"], "kind": "event", "label": "개최", "label_en": "Conference",
+                    "place": place, "countries": countries,
                     "estimated": est_edition, "fit": c["fit"], "fields": c["fields"],
                     "url": e.get("url") or (c.get("links") or {}).get("home"),
                 })
     for s in b["scholarships"]:
         for d in (s.get("cycle") or {}).get("deadlines", []):
+            ko, en = labels(d, d["kind"], SCHOL_KIND[d["kind"]])
             ev.append({
                 "date": d["date"], "cat": "scholarships", "id": s["id"], "name": s["name"],
-                "short": re.sub(r"\s*\(.*\)\s*$", "", s["name"]),
-                "kind": d["kind"], "label": d.get("label") or SCHOL_KIND[d["kind"]],
+                "short": re.sub(r"\s*\(.*\)\s*$", "", s["name"]), "countries": [],
+                "kind": d["kind"], "label": ko, "label_en": en,
                 "estimated": bool(d.get("estimated")), "tz": d.get("tz"), "fit": s["fit"],
                 "fields": s["fields"], "url": s.get("apply_url") or (s.get("links") or {}).get("home"),
             })
@@ -146,7 +167,8 @@ def build_events(b: dict) -> list[dict]:
             ev.append({
                 "date": i["deadline"], "cat": "internships", "id": i["id"],
                 "name": f'{i["company"]} — {i["title"]}', "short": i["company"], "kind": "internship-deadline",
-                "label": "지원 마감", "estimated": False, "fit": i["fit"], "fields": i["fields"],
+                "label": "지원 마감", "label_en": "Application deadline", "estimated": False,
+                "countries": sorted({l["country"] for l in i.get("locations", []) if l.get("country")}), "fit": i["fit"], "fields": i["fields"],
                 "url": i.get("apply_url"),
             })
     ev.sort(key=lambda x: (x["date"], x["cat"], x["name"]))
@@ -184,15 +206,15 @@ def write_ics(events: list[dict], path: pathlib.Path, name: str, stamp: str) -> 
     for e in events:
         start = dt.date.fromisoformat(e["date"])
         end = dt.date.fromisoformat(e.get("end") or e["date"]) + dt.timedelta(days=1)
-        mark = " (추정)" if e.get("estimated") else ""
-        summary = f'{e["name"]} · {e["label"]}{mark}'
+        mark = " (est.)" if e.get("estimated") else ""
+        summary = f'{e["name"]} · {e.get("label_en") or e["label"]}{mark}'
         desc = []
         if e.get("place"):
             desc.append(e["place"])
         if e.get("time") or e.get("tz"):
-            desc.append("마감 시각: " + " ".join(x for x in (e.get("time"), e.get("tz")) if x))
+            desc.append("Due: " + " ".join(x for x in (e.get("time"), e.get("tz")) if x))
         if e.get("estimated"):
-            desc.append("과거 일정으로 추정한 날짜 — 공식 발표를 확인하세요.")
+            desc.append("Estimated from past cycles — check the official announcement. / 과거 일정으로 추정한 날짜")
         desc.append(f'{SITE_URL}#/{e["cat"]}/{e["id"]}')
         lines += [
             "BEGIN:VEVENT",
@@ -247,6 +269,14 @@ def main(argv: list[str]) -> int:
         if j.get("openalex_id") in openalex:
             j["openalex"] = openalex[j["openalex_id"]]
 
+    companies = []
+    for wl in sorted((ROOT / "agent").glob("watchlist*.yaml")):
+        doc = yaml.safe_load(wl.read_text(encoding="utf-8")) or {}
+        for c in (doc.get("companies") if isinstance(doc, dict) else doc) or []:
+            companies.append({k: c.get(k) for k in ("name", "org_type", "careers", "ats", "relevant_now", "note", "note_en", "items")
+                              if c.get(k) not in (None, "")})
+    companies.sort(key=lambda c: (not c.get("relevant_now"), c.get("org_type") or "", (c.get("name") or "").lower()))
+
     jobs = read_json(DATA / "auto" / "jobs.json", {"postings": []})
     curated_urls = {i.get("apply_url", "").rstrip("/") for i in bundle["internships"]}
     auto = [p for p in jobs.get("postings", []) if p.get("url", "").rstrip("/") not in curated_urls]
@@ -265,6 +295,7 @@ def main(argv: list[str]) -> int:
         "communities": taxonomy["communities"],
         **bundle,
         "auto_jobs": auto,
+        "companies": jsonable(companies),
         "events": events,
         "changelog": changelog,
         "skill_links": skill_links,
@@ -280,8 +311,8 @@ def main(argv: list[str]) -> int:
     keep_from = (now.date() - dt.timedelta(days=60)).isoformat()  # calendars need little history
     recent = [e for e in events if (e.get("end") or e["date"]) >= keep_from]
     action = [e for e in recent if e["kind"] in ACTION_KINDS]
-    n1 = write_ics(action, OUT / "deadlines.ics", "Academic Event Radar · 마감", stamp)
-    n2 = write_ics(recent, OUT / "all-events.ics", "Academic Event Radar · 전체 일정", stamp)
+    n1 = write_ics(action, OUT / "deadlines.ics", "Academic Event Radar · Deadlines", stamp)
+    n2 = write_ics(recent, OUT / "all-events.ics", "Academic Event Radar · All events", stamp)
 
     counts = ", ".join(f"{len(bundle[c])} {c}" for c in CATEGORIES)
     print(f"built _site/: {counts}, {len(auto)} auto-collected postings; ics: {n1} deadlines, {n2} events")

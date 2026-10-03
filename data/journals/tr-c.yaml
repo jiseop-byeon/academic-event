@@ -1,0 +1,39 @@
+id: tr-c
+abbr: "TR-C"
+name: "Transportation Research Part C: Emerging Technologies"
+publisher: "Elsevier"
+issn: "0968-090X"
+eissn: "1879-2359"
+fields: [transportation, navigation, vision, ml]
+community: transportation
+tier: 1
+metrics:
+  jif: {value: 8.4, year: 2025}
+  jif_5y: {value: 10.5, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 15.4, year: 2025, quartile: Q1, category: "Transportation", rank: "9/169"}
+  h5_index: {value: 114, year: 2025}
+access: hybrid
+apc_usd: 3900
+conference_link: "ISTTT 채택 논문은 Transportation Research 시리즈 특집호로 출판된다(ISTTT26은 Part A·B·C·E)."
+conference_link_en: "Papers selected for ISTTT are published in Transportation Research special issues (ISTTT26 used Parts A, B, C and E)."
+orientation:
+  contribution: -1
+  summary: "신기술이 교통 시스템의 계획·설계·운영·제어·유지관리에 미치는 영향을 다루는 교통 분야 최상위 저널로, 저널 스스로 '지적 중심은 기술이 아니라 교통 쪽'이라고 밝힌다. 운영과학·제어·복잡계 네트워크·컴퓨터과학·AI의 정량 방법을 결합해 모니터링·효율·안전·신뢰성 개선을 실데이터나 시뮬레이션으로 엄밀하게 보인 논문이 주류이며, 자율주행·ITS·보행자 등 저속 교통수단도 범위에 들고 대규모 데이터셋 공개를 특히 장려한다. 교통 문제와의 연결이 약한 일반 ML·인지 논문이나 단순 적용 사례는 경쟁력이 낮다."
+  summary_en: "A top transportation journal on how emerging technologies affect the planning, design, operation, control and maintenance of transportation systems; it states that its intellectual core is on the transportation side, not the technology side. Most papers combine quantitative methods from operations research, control, complex networks, computer science and AI and rigorously show gains in monitoring, efficiency, safety or reliability with real data or simulation; automated vehicles, ITS, and pedestrians and soft modes are in scope, and releasing large-scale datasets is especially encouraged. Generic ML or perception papers with a weak link to a transportation problem, or plain application case studies, struggle."
+  values: ["transportation-side contribution", "methodological rigor", "real-data validation", "open datasets"]
+fit: 2
+take: "노변 LiDAR 인지와 보행자-차량 충돌 위험 판단을 새 방법론으로 정식화하고 실데이터로 검증하면 노릴 교통 분야 최상위 저널이며, 단순 시스템 구축 보고라면 T-ITS나 학회가 더 맞다."
+take_en: "The top transportation journal to aim at once roadside-LiDAR perception and pedestrian-vehicle conflict assessment are cast as a new method and validated on real data; a plain system-build report fits T-ITS or a conference better."
+openalex_id: "S64511102"
+links:
+  home: "https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies"
+sources:
+  - "https://shop.elsevier.com/journals/transportation-research-part-c-emerging-technologies/0968-090X"
+  - "https://www.bioxbio.com/journal/TRANSPORT-RES-C-EMER"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=7903"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release
+  - "https://www.elsevier.com/about/policies-and-standards/pricing"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "http://www.isttt2026.vtk.ed.tum.de/call.html"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_transportation"
+  - "https://api.openalex.org/sources?filter=issn:0968-090X"
+last_verified: 2026-10-02

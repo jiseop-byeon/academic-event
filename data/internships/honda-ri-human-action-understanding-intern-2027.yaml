@@ -1,0 +1,40 @@
+id: honda-ri-human-action-understanding-intern-2027
+company: "Honda Research Institute USA"
+org_type: lab
+team: "HRI-US (San Jose)"
+title: "Research Intern: Human Action Understanding from Long Videos"
+fields: [hri, vision, ml]
+degree: [phd, ms]
+season: "Winter/Spring 2027"
+start: "2027-01"
+duration: "3 months (desired start 2027-01-11)"
+locations:
+  - {city: "San Jose", region: "CA", country: US, lat: 37.34, lon: -121.89}
+work_mode: unknown
+required:
+  - "Enrolled in an MS or PhD program in computer vision, ML, robotics, AI or a closely related field"
+  - "Multimodal LLMs for video understanding; video encoders (VideoMAE, LaViLa, TimeSformer) or fine-tuning"
+  - "Clean, reproducible PyTorch code and awareness of model efficiency (latency, memory, throughput)"
+preferred:
+  - "Procedural untrimmed video: temporal action segmentation, detection or anticipation"
+  - "Self-supervised or contrastive representation learning"
+  - "Multi-view and multimodal learning (egocentric/exocentric views, hand and body pose)"
+skills: [python, pytorch, computer-vision, llm, foundation-models]
+responsibilities:
+  - "Temporal action segmentation and recognition in long, untrimmed egocentric and exocentric procedural videos"
+  - "Cross-view learning and alignment of hand and body pose with video, including online/streaming inference"
+  - "Efficient, deployable video models through distillation and lightweight architectures, with rigorous benchmarking"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석사·박사 재학생 대상, 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴."
+eligibility_note_en: "No citizenship requirement in the posting. For MS and PhD students; preferred start 2027-01-11 for 3 months — a during-semester internship."
+status: open
+apply_url: "https://usa.honda-ri.com/-/research-intern-human-action-understanding-from-long-videos"
+fit: 2
+take: "긴 절차형 작업 영상에서 사람의 행동을 분할·인식·예측하는 과제라 건설 작업자의 행동 이해와 의도 추정에 바로 응용할 수 있으니, 비디오 이해 실적이 있으면 1월 시작 인턴으로 노려볼 만하다."
+take_en: "Segmenting, recognizing and anticipating human actions in long procedural videos — directly applicable to understanding construction workers' activities and intent; worth targeting as a January-start internship if you have video-understanding results."
+notes: "공고번호 P25INT-58, 게시일 미표기. 같은 연구소의 'Proficiency Estimation in Procedural Videos'(P25INT-62)도 게시 중."
+notes_en: "Posting no. P25INT-58; posting date not shown. HRI-US also lists 'Proficiency Estimation in Procedural Videos' (P25INT-62)."
+sources:
+  - "https://usa.honda-ri.com/-/research-intern-human-action-understanding-from-long-videos"
+  - "https://usa.honda-ri.com/intern-positions"
+last_verified: 2026-10-02

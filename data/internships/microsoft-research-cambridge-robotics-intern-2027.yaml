@@ -17,6 +17,7 @@ pay:
   unit: month
   source: posting
   note: "공고 기재 월 기본급"
+  note_en: "monthly base pay stated in the posting"
 required:
   - "Enrolled in (or recently completed) a PhD in CS, Robotics, ME/EE or related"
   - "Expertise in kinematics, dynamics or motion control"
@@ -32,13 +33,16 @@ responsibilities:
   - "Develop Real2Sim and Sim2Real strategies for robot model learning and motion planning on a custom robot"
   - "Run simulation and real-world experiments for datacenter automation"
 citizenship: unknown
-eligibility_note: "영국 케임브리지 대면 근무. 공고에 국적·근무 허가 조건 명시 없음."
+eligibility_note: "영국 케임브리지 대면 근무. 공고에 국적·근무 허가 조건이 명시돼 있지 않아 영국 근무 허가 필요 여부는 리크루터 확인 필요."
+eligibility_note_en: "Onsite in Cambridge, UK. The posting states no nationality or work-permit condition, so confirm with the recruiter whether UK work authorization is needed."
 status: open
 posted: 2026-09-10
 apply_url: "https://apply.careers.microsoft.com/careers/job/1970393556991724"
 fit: 2
 take: "커스텀 로봇의 real2sim·제어를 직접 만지는 실전형 과제라 조작·제어 역량을 보여주기 좋지만 영국 근무라 보조 타깃으로 두라."
+take_en: "Hands-on real2sim and control work on custom robots — good for showing manipulation and control skills, but UK-based, so keep it as a secondary target."
 notes: "같은 랩의 'Cambridge Residency Program - Robotics'(2026-09-22 게시)도 열려 있음. MSR 레드먼드의 로보틱스 연구 인턴 공고는 2026-10-02 기준 미게시."
+notes_en: "The same lab's 'Cambridge Residency Program - Robotics' (posted 2026-09-22) is also open. No MSR Redmond robotics research internship is posted as of 2026-10-02."
 sources:
   - "https://apply.careers.microsoft.com/careers/job/1970393556991724"
 last_verified: 2026-10-02

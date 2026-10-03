@@ -1,0 +1,49 @@
+id: gm-av-simulation-aiml-phd-intern-summer-2027
+company: "General Motors"
+org_type: autonomy
+team: "GM Autonomous Vehicles — Simulation"
+title: "2027 Summer Intern – AI/ML Engineer, Autonomous Vehicles: Simulation (PhD)"
+fields: [transportation, navigation, vision, ml]
+degree: [phd]
+season: "Summer 2027"
+start: "2027-05"
+duration: "Summer 2027 (start May 24 or June 14, 2027)"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: hybrid
+pay:
+  min: 12300
+  max: 14600
+  currency: USD
+  unit: month
+  source: posting
+  note: "posted monthly base range; one-time relocation stipend for eligible students"
+required:
+  - "Full-time PhD student in CS, ML, AI, robotics, engineering or a related STEM field"
+  - "At least one more quarter/semester of school remaining after the internship"
+  - "Demonstrated AI/ML research depth (publications, projects or equivalent)"
+  - "Python and PyTorch, TensorFlow or JAX; available full time, 40 hours per week"
+preferred:
+  - "Research in autonomous vehicles, ADAS, robotics, computer vision or embodied AI"
+  - "Foundation models, transformers, diffusion or vision-language models"
+  - "Multimodal learning on camera, lidar or radar data"
+  - "Trajectory prediction, behavior or motion planning, perception or mapping; C++ or CUDA"
+skills: [python, pytorch, jax, cpp, cuda, simulation, foundation-models, lidar, motion-planning]
+responsibilities:
+  - "Research and prototype ML for perception, prediction, planning or decision-making on large-scale multimodal driving and sensor data"
+  - "Validate models through simulation, testing, performance analysis and failure-case investigation"
+  - "Integrate prototypes into autonomous-vehicle systems and contribute to publications"
+citizenship: none
+eligibility_note: "공고에 시민권·비자 관련 제한 문구 없음(EEO 문구에 시민권 상태 차별 금지 명시). 인턴 종료 후 최소 한 학기(쿼터)가 남아 있어야 하며, 주 3일 이상 Sunnyvale 사무실 출근."
+eligibility_note_en: "No citizenship or visa restriction in the posting (its EEO statement covers citizenship status). At least one more term of school must remain after the internship; hybrid, at least three days a week in the Sunnyvale office."
+status: open
+posted: 2026-10-01
+apply_url: "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511"
+fit: 2
+take: "GM 자율주행 조직에서 인식·예측·계획 모델을 대규모 주행 데이터와 시뮬레이션으로 검증하는 폭넓은 박사 인턴이고 월 $12.3–14.6K로 보수도 높아, 교통 축 연구 인턴으로 넣을 만하다."
+take_en: "A broad PhD internship in GM's autonomous-vehicle organization, validating perception, prediction and planning models with large-scale driving data and simulation, and well paid ($12.3–14.6K a month) — a good transportation-track research application."
+notes: "요청번호 JR-202621511. 같은 날 'AI/ML Engineer, Autonomous Vehicle: Simulation'(JR-202621508)과 'Machine Learning Engineer, AV/AI Platform' 등 GM AV 인턴 공고가 함께 게시됨."
+notes_en: "Requisition JR-202621511. Other GM AV internships, such as 'AI/ML Engineer, Autonomous Vehicle: Simulation' (JR-202621508) and 'Machine Learning Engineer, AV/AI Platform', were posted around the same day."
+sources:
+  - "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511"
+last_verified: 2026-10-02

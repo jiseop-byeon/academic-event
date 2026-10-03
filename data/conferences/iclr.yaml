@@ -2,7 +2,7 @@ id: iclr
 acronym: "ICLR"
 name: "International Conference on Learning Representations"
 organizer: "ICLR Board"
-fields: [ml, physical-ai]
+fields: [ml, physical-ai, xai]
 community: ml
 tier: 1
 rankings:
@@ -20,9 +20,11 @@ journal_track: "TMLR papers with a J2C Certification can be presented in the Neu
 orientation:
   contribution: -2
   summary: "딥러닝·표현학습 방법론 중심 학회로 리뷰와 저자-리뷰어 토론이 OpenReview에 모두 공개되고(거절·철회 논문도 공개 유지), 새로운 방법과 엄밀한 ablation이 핵심이다. 로봇 학습(정책 학습, world model 등) 논문은 ML 전반에 통하는 통찰이 있어야 하고 건설 응용 자체는 가산점이 거의 없다. 2027년부터 저자당 20편 제한과 함께, 리뷰어 자격이 있는 공저자가 한 명도 없는 논문은 저자 1인당 1편까지만 허용된다."
+  summary_en: "A conference centered on deep learning and representation learning methodology, where reviews and author-reviewer discussions are all public on OpenReview (kept public even for rejected or withdrawn papers), and new methods and rigorous ablations are what matter. Robot learning papers (policy learning, world models, etc.) need insights that carry over to ML in general, and a construction application earns almost no bonus points by itself. From 2027, in addition to the limit of 20 papers per author, papers with no reviewer-eligible co-author are limited to 1 paper per author."
   values: ["representation learning", "methodological novelty", "open review", "thorough ablations"]
 fit: 1
 take: "로봇 학습 방법에 일반적인 ML 통찰이 있을 때만 도전할 곳이며, 첫 투고라면 리뷰어 자격이 있는 지도교수·선배를 공저자로 넣어야 편수 제한에 걸리지 않는다."
+take_en: "Worth attempting only when a robot learning method carries general ML insight, and for a first submission, include a reviewer-eligible advisor or senior colleague as a co-author so as not to run into the paper-count limit."
 editions:
   - year: 2027
     status: confirmed
@@ -42,12 +44,14 @@ editions:
       - {kind: rebuttal, date: 2026-11-18, label: "Author-reviewer discussion Nov 5 – Nov 18"}
       - {kind: notification, date: 2026-12-16}
     notes: "본회의 4/26–28, 워크숍 4/29–30. 개최지는 공식 홈페이지의 Moscone Center 이미지 캡션과 워크숍 공모문(San Francisco) 기준이며 Dates 페이지에는 아직 '장소 추후 공지' 문구가 남아 있다. 논문 투고는 9/25에 마감됐고, 카메라레디 안내는 2027년 2월 중순 발송 예정."
+    notes_en: "Main conference 4/26–28, workshops 4/29–30. The location is based on the Moscone Center image caption on the official homepage and the workshop call (San Francisco), while the Dates page still carries the wording 'location to be announced'. Paper submission closed on 9/25, and camera-ready instructions are due to be sent in mid-February 2027."
   - year: 2028
     status: estimated
     deadlines:
       - {kind: abstract, date: 2027-09-17, estimated: true}
       - {kind: paper, date: 2027-09-24, estimated: true}
     notes: "개최지·일정 미발표. ICLR 2026(초록 9/19, 본문 9/24)·2027(9/18, 9/25) 패턴으로 추정했다."
+    notes_en: "Location and schedule not announced. Estimated from the ICLR 2026 (abstract 9/19, full paper 9/24) and 2027 (9/18, 9/25) pattern."
 links:
   home: "https://iclr.cc/Conferences/2027"
   cfp: "https://iclr.cc/Conferences/2027/CallForPapers"

@@ -1,0 +1,33 @@
+id: arcras
+abbr: "ARCRAS"
+name: "Annual Review of Control, Robotics, and Autonomous Systems"
+publisher: "Annual Reviews"
+eissn: "2573-5144"
+fields: [robotics, physical-ai, ml]
+community: robotics
+tier: 1
+metrics:
+  jif: {value: 14.6, year: 2025}
+  jif_5y: {value: 18.2, year: 2025}
+  jcr_quartile: {value: Q1, category: "Robotics", year: 2025}
+  citescore: {value: 34.8, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "1/390"}
+access: open-access
+article_types: ["review"]
+orientation:
+  contribution: 0
+  summary: "제어·로보틱스·자율 시스템 분야의 이론·응용 발전을 종합하는 연간 리뷰 저널로, 역학·최적화·머신러닝·신경과학 등과의 접점까지 다룬다. 원저 연구가 아니라 분야를 정리하는 권위 있는 종설만 실으며, JCR 2026(2025년 데이터)에서 로보틱스 48종 중 3위, 자동화·제어 88종 중 2위다. Subscribe to Open 방식으로 2023–2025년 권호가 모두 무료 공개됐다."
+  summary_en: "An annual review journal that synthesizes theoretical and applied advances in control, robotics and autonomous systems, including their interfaces with dynamics, optimization, machine learning and neuroscience. It publishes only authoritative reviews that take stock of a field, not original research, and ranks 3rd of 48 in Robotics and 2nd of 88 in Automation & Control Systems in JCR 2026 (2025 data). Under Subscribe to Open, all 2023–2025 volumes are free to read."
+  values: ["comprehensive reviews", "authoritative synthesis", "control and robotics", "open access via S2O"]
+fit: 1
+take: "투고 대상이라기보다 접촉 조작·로봇 학습 분야의 흐름을 빠르게 파악하는 필독 리뷰 저널로 활용하자."
+take_en: "Treat it less as a submission target than as a must-read review journal for quickly catching up on contact-rich manipulation and robot learning."
+openalex_id: "S4210191328"
+links:
+  home: "https://www.annualreviews.org/content/journals/control"
+sources:
+  - "https://web.archive.org/web/20260930215900/https://www.annualreviews.org/content/journals/control"
+  - "https://web.archive.org/web/20260702210041/https://www.annualreviews.org/about/impact-factors"
+  - "https://web.archive.org/web/20260911070318/https://www.annualreviews.org/S2O"
+  - "https://api.openalex.org/sources/S4210191328"
+  - "https://www.letpub.com.cn/index.php?journalid=39371&page=journalapp&view=detail"
+last_verified: 2026-10-02

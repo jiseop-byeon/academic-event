@@ -15,10 +15,12 @@ skills: [cpp, rust, cuda, pytorch, vla, llm, embedded]
 responsibilities: ["Integrate LLM and VLA models into the onboard Rust middleware alongside perception, planning and control", "Profile and optimize inference on NVIDIA Jetson Thor (TensorRT, vLLM, ExecuTorch)", "Validate optimizations on autonomous heavy machinery at test sites"]
 citizenship: none
 eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students; only US work authorization is needed. Pay and duration are not stated."
 status: open
 posted: 2026-09-10
 apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8"
 fit: 2
 take: "건설기계 위에서 VLA를 실시간으로 돌리는 경험은 귀하지만 Rust/CUDA 시스템 역량이 핵심이라, 해당 스킬이 없다면 같은 회사의 Behavior ML 포지션을 우선하는 편이 낫다."
+take_en: "Running VLAs in real time on construction machines is rare experience, but Rust/CUDA systems skills are the core; without them, prioritize the same company's Behavior ML roles."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
 last_verified: 2026-10-02

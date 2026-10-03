@@ -14,9 +14,11 @@ apc_usd: 4500
 orientation:
   contribution: -1
   summary: "토목·인프라 분야 계산 지능 저널로 딥러닝·최적화·신호처리 등 방법론적 신규성을 강하게 요구한다. 손상 탐지·구조 건전성 모니터링·교통·비전 분야 논문이 많고, 기존 모델을 응용한 시스템 통합 논문은 통과가 어렵다. 2026년부터 Elsevier로 옮기며 완전 오픈액세스(APC USD 4,500)로 바뀌었다."
+  summary_en: "A computational intelligence journal for civil and infrastructure engineering that demands strong methodological novelty in deep learning, optimization, signal processing and similar methods. Damage detection, structural health monitoring, transportation and vision papers are common, while system-integration papers that apply existing models rarely get through. It moved to Elsevier in 2026 and became fully open access (APC USD 4,500)."
   values: ["algorithmic novelty", "computational intelligence", "infrastructure & vision", "high selectivity"]
 fit: 2
 take: "새 학습·인지 알고리즘을 제안할 때만 노릴 저널이고, 완전 OA 전환으로 APC가 4,500달러이니 연구실 예산을 확인한 뒤 결정하자."
+take_en: "Aim here only when proposing a new learning or perception algorithm; since the switch to full open access the APC is USD 4,500, so check the lab budget before deciding."
 openalex_id: "S206927758"
 links:
   wiley_archive: "https://onlinelibrary.wiley.com/journal/14678667"

@@ -1,0 +1,73 @@
+id: ismar
+acronym: "ISMAR"
+name: "IEEE International Symposium on Mixed and Augmented Reality"
+organizer: "IEEE Computer Society"
+fields: [ar, vision, navigation]
+community: xr
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 37
+  h5_year: 2025
+frequency: annual
+paper_format: "Main body 4-9 pages, at most 11 pages including references (review papers may add one page of references), IEEE VGTC conference style, anonymized (ISMAR 2026 rule)"
+review:
+  blind: double
+  rebuttal: true
+proceedings: "IEEE Xplore: journal-track papers in a special issue of IEEE TVCG, conference papers in the ISMAR proceedings"
+journal_track: "A single unified review decides whether an accepted paper becomes an IEEE TVCG special-issue journal paper or an ISMAR conference paper"
+orientation:
+  contribution: 0
+  summary: "AR·MR·VR 분야 최고 학회로, 추적·정합·센서 융합·디스플레이 같은 핵심 기술부터 상호작용, 인지, 응용까지 폭넓게 다룬다. 심사 지침은 이론·방법·엔지니어링·설계·평가 중 어느 쪽이든 분명하고 강한 기여를 요구하며, 응용 논문은 단순한 소프트웨어 구현이 아니라 구체적인 대상 분야의 사용 사례와 그에 맞는 평가를 갖춰야 한다. 한 번의 통합 심사(반박 포함)로 TVCG 저널 논문과 학회 논문을 함께 가린다."
+  summary_en: "The top AR/MR/VR conference, spanning core technology such as tracking, registration, sensor fusion and displays as well as interaction, perception and applications. Reviewers look for a clear, strong contribution in theory, methods, engineering, design or evaluation; application papers need a concrete use case in a target domain and a fitting evaluation, not just a software implementation. One unified review with a rebuttal decides between TVCG journal papers and conference papers."
+  values: ["user studies", "tracking and registration", "TVCG journal track", "applications with a concrete domain"]
+fit: 2
+take: "노변 LiDAR 기반 AR 충돌 경고나 건설 현장 AR 인터페이스를 사용자 실험으로 검증하면 노릴 AR 최고 학회이니, 2027년 고베 대회의 3월 중순(예상) 마감을 목표로 삼자."
+take_en: "The top AR venue to aim at once the roadside-LiDAR AR collision warnings or a construction-site AR interface are validated with user studies — target the Kobe 2027 deadline, expected in mid-March."
+editions:
+  - year: 2026
+    status: confirmed
+    start: 2026-10-05
+    end: 2026-10-09
+    city: "Bari"
+    country: IT
+    venue: "The Nicolaus Hotel"
+    lat: 41.12
+    lon: 16.87
+    url: "https://www.ieeeismar.net/2026/"
+    deadlines:
+      - {kind: abstract, date: 2026-03-09, tz: "AoE", time: "23:59"}
+      - {kind: paper, date: 2026-03-16, tz: "AoE", time: "23:59"}
+      - {kind: rebuttal, date: 2026-05-31, tz: "AoE", time: "23:59", label: "reviews released May 24"}
+      - {kind: notification, date: 2026-06-22, tz: "AoE"}
+      - {kind: camera-ready, date: 2026-07-21, tz: "AoE"}
+      - {kind: other, date: 2026-09-04, tz: "AoE", label: "paper presentation video"}
+    notes: "제25회 ISMAR. 논문 216편, 포스터 126편, 워크숍 22개 규모로 열리며 모든 마감이 지났다. 2026년부터 반박 1회의 단일 심사로 바뀌었고 논문을 포스터로 바로 돌리는 옵션은 없어졌다. 직후 10/10–11 같은 도시에서 ACM SUI 2026이 열린다."
+    notes_en: "The 25th ISMAR, with 216 papers, 126 posters and 22 workshops; every deadline has passed. From 2026 review is a single cycle with one rebuttal, and papers can no longer be redirected straight to posters. ACM SUI 2026 follows in the same city on October 10-11."
+  - year: 2027
+    status: estimated
+    city: "Kobe"
+    country: JP
+    lat: 34.69
+    lon: 135.20
+    url: "https://www.ieeeismar.net/2027/"
+    deadlines:
+      - {kind: abstract, date: 2027-03-08, tz: "AoE", estimated: true}
+      - {kind: paper, date: 2027-03-15, tz: "AoE", estimated: true}
+    notes: "고베 개최는 공식 발표됐지만 일정·장소·마감은 아직 미정이다. 마감은 직전 두 회차(2025년 4/11, 2026년 3/16, 초록은 1주 전)를 보고 2026년 패턴으로 추정했으며 4월 초까지 늦춰질 수 있다."
+    notes_en: "Kobe is officially announced, but dates, venue and deadlines are not. The deadlines follow the 2026 pattern (the last two cycles closed April 11, 2025 and March 16, 2026, with abstracts a week earlier) and could slip to early April."
+links:
+  home: "https://www.ieeeismar.net/2026/"
+  cfp: "https://www.ieeeismar.net/2026/call-for-papers/"
+  next: "https://www.ieeeismar.net/2027/"
+sources:
+  - "https://www.ieeeismar.net/2026/"
+  - "https://www.ieeeismar.net/2026/call-for-papers/"
+  - "https://www.ieeeismar.net/2026/guidelines/reviewing-guidelines"
+  - "https://www.ieeeismar.net/2026/guidelines/writing-good-ismar-paper"
+  - "https://www.ieeeismar.net/2026/venue/"
+  - "https://www.ieeeismar.net/2027/"
+  - "https://www.ieeeismar.net/2025/contribute/papers"
+  - "https://portal.core.edu.au/conf-ranks/?search=ISMAR&by=all&source=all"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Mixed+and+Augmented+Reality"
+last_verified: 2026-10-02

@@ -1,0 +1,34 @@
+id: thri
+abbr: "THRI"
+name: "ACM Transactions on Human-Robot Interaction"
+publisher: "ACM"
+eissn: "2573-9522"
+fields: [hri, robotics]
+community: hri
+tier: 1
+metrics:
+  jif_5y: {value: 7.4, year: 2025}
+  citescore: {value: 10.1, year: 2025, quartile: Q1, category: "Human-Computer Interaction", rank: "40/196"}
+  h5_index: {value: 44, year: 2025}
+access: hybrid
+conference_link: "HRI 2027(ACM 주관 연도) 프로그램 위원회는 학회 게재에는 이르지 못했지만 가능성 있는 논문을 THRI Revision Option으로 추천할 수 있다. 추천받으면 30일 안에 THRI 양식으로 바꿔 기존 심사 의견과 함께 투고하고, 약 1개월의 편집 검토 뒤 수정본이 일반 THRI 심사를 밟는다."
+conference_link_en: "The HRI 2027 program committee (an ACM-run year) can recommend promising papers that fell short of acceptance for the THRI Revision Option. A recommended paper is reformatted for THRI and submitted with its earlier reviews within 30 days; after about a month of editorial review, the revision goes through regular THRI review."
+orientation:
+  contribution: 0
+  summary: "ACM이 발행하는 HRI 분야 대표 저널로, 인간-로봇 상호작용의 설계·알고리즘·시스템과 함께 엄밀한 사용자 연구(human-subject study)를 중시한다. 공학·심리·디자인을 아우르는 학제적 독자층을 겨냥하므로 로봇 기술 자체보다 사람과의 상호작용에서 무엇을 새로 알게 됐는지를 실험으로 보여야 한다. 건설 현장의 작업자-로봇 협업 연구는 실제 작업자 대상 연구가 있으면 경쟁력이 크다."
+  summary_en: "ACM's flagship HRI journal, valuing rigorous human-subject studies alongside the design, algorithms and systems of human-robot interaction. It targets an interdisciplinary readership spanning engineering, psychology and design, so papers must show experimentally what was newly learned about interaction with people rather than the robot technology itself. Worker-robot collaboration research on construction sites is highly competitive when it includes studies with actual workers."
+  values: ["human-subject studies", "interdisciplinary", "interaction design", "HRI conference link"]
+fit: 2
+take: "건설 작업자와 로봇의 협업·인터페이스를 사용자 연구로 검증한 결과가 나오면 노릴 HRI 대표 저널이며, HRI 학회에서 떨어져도 Revision Option으로 이어 갈 수 있다."
+take_en: "The flagship HRI journal to aim for once you have user-study-validated results on collaboration or interfaces between construction workers and robots; a paper rejected at the HRI conference can still continue through the Revision Option."
+openalex_id: "S4210193251"
+links:
+  home: "https://dl.acm.org/journal/thri"
+  hri_revision_option: "https://humanrobotinteraction.org/2027/thri-revision-option-process/"
+sources:
+  - "https://humanrobotinteraction.org/2027/thri-revision-option-process/"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Transactions+on+Human-Robot+Interaction"
+  - "https://api.openalex.org/sources?filter=issn:2573-9522"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S4210193251,publication_year:2026&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=27144&page=journalapp&view=detail"
+last_verified: 2026-10-02

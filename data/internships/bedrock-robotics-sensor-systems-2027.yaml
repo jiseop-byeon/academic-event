@@ -1,0 +1,38 @@
+id: bedrock-robotics-sensor-systems-2027
+company: "Bedrock Robotics"
+org_type: construction-robotics
+team: "Systems / Sensors"
+title: "2027 Internship Sensor Systems Engineer"
+fields: [construction, navigation, robotics]
+degree: [phd, ms, bs]
+season: "2027 (term not stated)"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in mechanical, electrical, physics, mechatronics, robotics, CS or a similar discipline"
+  - "3D geometry, coordinate frames and transforms"
+  - "Python for analysis and tooling; enough CAD to reason about where hardware goes"
+  - "Willingness to test sensor configurations at mock construction sites"
+preferred:
+  - "Device physics, ray tracing, rendering or coverage simulation"
+  - "Autonomous-vehicle sensor suites"
+  - "Heavy equipment or off-road machinery"
+skills: [python, 3d-vision, cad, simulation, hardware]
+responsibilities:
+  - "Own sensor selection and placement analysis for a new machine platform: coverage, occlusion and blind spots"
+  - "Build tooling that models field of view, range and coverage geometry, and run trade studies on cost, durability and mounting"
+  - "Prototype mounts, validate coverage on real machines and turn the analysis into sensor requirements"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. BS·MS·PhD 재학생 모두 지원 가능. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students. Pay and duration are not stated."
+status: open
+posted: 2026-09-10
+apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/d7da851b-55c2-45d4-bf8b-aa879282f25c"
+fit: 2
+take: "자율 건설기계의 센서 선정·배치·사각지대를 분석하는 시스템 인턴이라 연구보다는 엔지니어링이지만, LiDAR 배치·커버리지 분석 경험을 건설 현장 자율화로 연결할 수 있어 Bedrock 지원 시 함께 넣을 만하다."
+take_en: "A systems internship analyzing sensor selection, placement and blind spots on autonomous construction machines — engineering rather than research, but it links LiDAR placement and coverage analysis to jobsite autonomy; add it when applying to Bedrock."
+sources:
+  - "https://jobs.ashbyhq.com/bedrock-robotics/d7da851b-55c2-45d4-bf8b-aa879282f25c"
+  - "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"
+last_verified: 2026-10-02

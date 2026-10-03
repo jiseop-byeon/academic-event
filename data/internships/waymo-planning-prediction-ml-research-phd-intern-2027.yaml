@@ -1,0 +1,44 @@
+id: waymo-planning-prediction-ml-research-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Software Engineering — Predictive Planning (PrePlan)"
+title: "2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction"
+fields: [transportation, navigation, hri, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "PhD intern hourly rate stated in the posting"
+required:
+  - "Pursuing a PhD in CS, machine learning, robotics or a related field"
+  - "Deep learning or reinforcement learning"
+  - "TensorFlow, JAX or PyTorch with Python and C/C++"
+  - "Strong analytical and debugging skills"
+preferred:
+  - "Publications at ICML, NeurIPS, CVPR, ICCV, ECCV, ICLR, IROS, CoRL, ACL or EMNLP"
+  - "Prior research or software industry experience, including internships"
+skills: [python, cpp, jax, pytorch, deep-learning, reinforcement-learning, motion-planning]
+responsibilities:
+  - "Research, implement and evaluate generative models for planning and prediction in JAX"
+  - "Run ML experiments and produce thoroughly tested code"
+  - "Bring new research concepts to research, product and engineering teams"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; applicants are advised to apply to at most their top three roles."
+status: open
+posted: 2026-09-28
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8237997"
+fit: 2
+take: "주변 교통 참여자의 미래 상태를 예측하고 주행을 계획하는 생성모델 연구라 의도·궤적 예측(HRI) 축과 맞닿아 있으니, 생성모델·예측 논문이 있으면 웨이모 공고 중 상위로 지원할 만하다."
+take_en: "Generative-model research that predicts the future state of the scene and plans the vehicle's behavior — close to the intent and trajectory-prediction (HRI) track; with generative-model or prediction papers, rank it high among the Waymo postings."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8237997"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8237997"
+last_verified: 2026-10-02

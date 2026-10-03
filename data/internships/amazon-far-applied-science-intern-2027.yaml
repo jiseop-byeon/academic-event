@@ -18,6 +18,7 @@ pay:
   unit: year
   source: posting
   note: "샌프란시스코 기준 연 환산 기본급(공고 기재 단일 금액)"
+  note_en: "annualized base pay for San Francisco (single figure in the posting)"
 required:
   - "Enrolled in a PhD"
   - "Programming in Java, Python and C++ or JAX"
@@ -35,12 +36,15 @@ responsibilities:
   - "Communicate findings across cross-functional teams"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학, 인턴 기간 전체 풀타임 근무와 근무지 이주가 조건. 근무지는 샌프란시스코 또는 시애틀."
+eligibility_note_en: "No citizenship requirement in the posting. Must be enrolled in a PhD program, work full time for the whole internship and relocate. Location: San Francisco or Seattle."
 status: open
 posted: 2026-09-30
 apply_url: "https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics"
 fit: 3
 take: "VLA·양손 조작·sim2real을 전면에 둔 로봇 파운데이션 모델 팀의 박사 인턴이라 조작 연구와 직결되니 즉시 지원하라."
+take_en: "A PhD internship on a robot foundation-model team that leads with VLA, bimanual manipulation and sim2real — directly tied to manipulation research, so apply now."
 notes: "공고 본문에 '2026년 5–9월 중 12주'라는 전년도 문구가 남아 있으나 제목과 게시일(2026-09-30)상 2027년 모집임. 직무 ID 10564600."
+notes_en: "The body still carries last year's wording ('12 weeks between May and September 2026'), but the title and posting date (2026-09-30) make it the 2027 cycle. Job ID 10564600."
 sources:
   - "https://www.amazon.jobs/en/jobs/10564600/2027-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics-frontier-ai-robotics"
   - "https://www.amazon.jobs/en/search.json?base_query=applied%20science%20internship&result_limit=100&sort=recent"

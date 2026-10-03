@@ -1,0 +1,44 @@
+id: waabi-research-internship-coop-rolling
+company: "Waabi"
+org_type: autonomy
+team: "Research"
+title: "Research Internship/Co-op"
+fields: [transportation, navigation, vision, ml]
+degree: [phd, ms, bs]
+season: "Rolling (internship or co-op, dates not stated)"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+  - {city: "Toronto", region: "ON", country: CA, lat: 43.65, lon: -79.38}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 55
+  currency: USD
+  unit: hour
+  source: posting
+  note: "US hourly range; the Canadian range is CAD 45–60 per hour"
+required:
+  - "Bachelor's, MS or PhD studies in CS, engineering, AI, ML, computer vision, robotics or a similar field"
+  - "Research or software engineering experience through internships, projects, papers or coding competitions"
+  - "Linear algebra, calculus and probability"
+  - "Python and/or C++"
+skills: [python, cpp, computer-vision, motion-planning, control, simulation]
+responsibilities:
+  - "Lead or contribute to AV research in perception, prediction, motion planning, controls, simulation, mapping or localization"
+  - "Design, implement, train and optimize new algorithms on self-driving vehicles and production systems"
+  - "Publish at ML, computer vision and robotics venues and release open-source projects"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 차별 금지 명시). 근무지는 토론토·샌프란시스코 또는 미국 내 원격이며, 지원 시 최신 성적표를 이력서와 함께 제출해야 함."
+eligibility_note_en: "No citizenship requirement in the posting (its EEO statement covers citizenship). Work is in Toronto, San Francisco or remote within the US; up-to-date transcripts must be submitted with the résumé."
+status: rolling
+posted: 2025-12-18
+apply_url: "https://jobs.lever.co/waabi/0fd4e30b-9bd1-4b53-9043-6088457363cb"
+fit: 2
+take: "AI 중심 방식으로 자율주행 트럭·로보택시를 개발하는 회사의 상시 연구 인턴이라 인식·예측·계획 중 원하는 주제로 논문을 노릴 수 있으니, 교통 축 보조 지원처로 넣어 둘 만하다."
+take_en: "An evergreen research internship at a company taking an AI-first approach to self-driving trucks and robotaxis — you can aim for papers in perception, prediction or planning; keep it as a secondary transportation-track application."
+notes: "같은 보드의 '2026 Intern, PhD Research Scientist'(박사 전용, 미국 시급 $60, 토론토·피츠버그·샌프란시스코)도 아직 열려 있음. 두 공고 모두 2025-12-18 게시라 2027년 채용 여부를 확인할 것."
+notes_en: "The same board still lists '2026 Intern, PhD Research Scientist' (PhD only, US $60/h; Toronto, Pittsburgh, San Francisco). Both postings date from 2025-12-18, so confirm 2027 hiring."
+sources:
+  - "https://jobs.lever.co/waabi/0fd4e30b-9bd1-4b53-9043-6088457363cb"
+  - "https://api.lever.co/v0/postings/waabi?mode=json"
+last_verified: 2026-10-02

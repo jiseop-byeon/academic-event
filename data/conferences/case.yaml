@@ -17,9 +17,11 @@ journal_track: "Accepted T-ASE, RA-L, T-RO, RA-M and RA-P papers can be presente
 orientation:
   contribution: 1
   summary: "IEEE RAS 3대 플래그십 중 자동화 쪽 학회로, 제조·물류·건설 등 실제 공정에 로봇과 자동화를 통합하고 정량적으로 검증한 논문을 환영한다. 알고리즘 신규성은 적당해도 되며, 건설 공정 자동화(시공 작업 로봇화, BIM·디지털 트윈 연계 작업 계획)는 'automation in construction' 주제로 자연스럽게 받아들여진다."
+  summary_en: "As the automation-side conference among the 3 IEEE RAS flagships, it welcomes papers that integrate robotics and automation into real processes such as manufacturing, logistics and construction and validate them quantitatively. Modest algorithmic novelty is acceptable, and construction process automation (robotizing building tasks, task planning linked to BIM and digital twins) is readily accepted under the 'automation in construction' topic."
   values: ["system integration", "industrial automation", "real-world validation", "optimization"]
 fit: 3
 take: "CASE 2027(린츠, 3/1 마감)은 건설 공정 자동화 시스템 논문을 ICRA보다 낮은 문턱으로 RAS 플래그십 무대에 올릴 수 있는 현실적 1순위 후보."
+take_en: "CASE 2027 (Linz, 3/1 deadline) is the realistic No. 1 candidate: it lets a construction process automation systems paper reach an RAS flagship stage at a lower bar than ICRA."
 editions:
   - year: 2027
     status: confirmed
@@ -40,6 +42,7 @@ editions:
       - {kind: notification, date: 2027-05-15}
       - {kind: camera-ready, date: 2027-06-15, label: "final paper and author registration"}
     notes: "23회째. 공식 Key Dates 기준(시간대 미표기). 페이지 규정은 CASE 2026 CFP 기준이며 2027 CFP는 아직 미게시."
+    notes_en: "23rd edition. Based on the official Key Dates (time zone not stated). Page limits follow the CASE 2026 CFP; the 2027 CFP has not been posted yet."
 links:
   home: "https://2027.ieeecase.org/"
   cfp: "https://2027.ieeecase.org/key-dates/"

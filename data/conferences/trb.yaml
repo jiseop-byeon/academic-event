@@ -1,0 +1,65 @@
+id: trb
+acronym: "TRB"
+name: "Transportation Research Board Annual Meeting"
+organizer: "Transportation Research Board (TRB), National Academies of Sciences, Engineering, and Medicine"
+fields: [transportation, construction]
+community: transportation
+tier: 1
+frequency: annual
+paper_format: "Full paper only (no abstract-only submissions), max 20 pages including title page, structured abstract (max 300 words: Objectives, Methods, Findings, Novelty, Practical Applications), references, figures and tables; single column, Times New Roman 10 pt, line numbers; no appendices or supplementary material; Chicago author-date references (2027 rules)"
+review:
+  blind: single
+  rebuttal: false
+  acceptance_rate: {value: 0.5, year: 2027, note: "approximate: TRB states it receives about 6,000 paper submissions a year and the program features more than 3,000 accepted papers"}
+proceedings: "No indexed proceedings: accepted papers (or only their structured abstracts) are posted in the Annual Meeting Online Program for registered attendees"
+journal_track: "Choosing 'Presentation and Publication' lets the Transportation Research Record (TRR) Editorial Board pull the paper into a separate TRR journal review"
+orientation:
+  contribution: 2
+  summary: "모든 교통 수단을 아우르는 세계 최대 교통 학회로, 1월 워싱턴 DC에서 약 6,000편 투고 중 절반가량을 발표로 채택한다. 전 논문 심사지만 새 알고리즘보다 교통 현장의 문제 정의, 데이터에 근거한 결과, 실무·정책 적용성을 중시하며, 구조화 초록에 신규성과 실무 적용을 따로 적어야 한다. 위원회 범위를 벗어나거나 신규성·실무 적용이 약하면 데스크 리젝될 수 있다."
+  summary_en: "The largest transportation meeting in the world, covering every mode; each January in Washington, DC it accepts about half of roughly 6,000 submitted papers for presentation. Every paper is reviewed in full, but reviewers weigh a clear transportation problem, data-backed results and practical or policy value over algorithmic novelty, and the structured abstract must state novelty and practical applications separately. Papers outside the standing committees' scope, or weak on novelty or practical use, can be desk-rejected."
+  values: ["practical application", "empirical evidence", "policy relevance", "all transportation modes"]
+fit: 2
+take: "노변 LiDAR·AR 보행자 충돌 방지 같은 교통안전 연구를 발표하기에 가장 자연스러운 무대이니, 2027년 8월 1일(AoE) 마감 예정인 TRB 2028에 현장 실험 결과로 투고하고 TRR 게재 심사도 함께 신청하자."
+take_en: "The most natural stage for transportation-safety work such as the roadside-LiDAR AR collision warnings — submit field results to TRB 2028 (deadline expected 2027-08-01 AoE) and opt into TRR publication review as well."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-01-10
+    end: 2027-01-14
+    city: "Washington, D.C."
+    country: US
+    venue: "Walter E. Washington Convention Center and Marriott Marquis"
+    lat: 38.91
+    lon: -77.04
+    url: "https://www.nationalacademies.org/events/887"
+    deadlines:
+      - {kind: paper, date: 2026-08-01, tz: "AoE", time: "23:59", label: "full paper (submission site open July 1 - August 1)"}
+      - {kind: registration, date: 2026-11-18, label: "early-bird registration"}
+      - {kind: other, date: 2026-11-20, label: "accepted papers: choose full paper or structured abstract only for the online program"}
+    notes: "106회 연차 회의. 논문 접수(7/1–8/1)와 심사(9/15까지)는 끝났고 발표 채택 결정은 10월 초에 통보된다. 2027년부터 구조화 초록, 최대 20쪽, Chicago 저자-연도 인용이 의무화됐다. 워크숍은 첫날과 마지막 날 열린다."
+    notes_en: "106th Annual Meeting. Submission (July 1 - August 1) and review (through September 15) are over; presentation decisions go out in early October. New in 2027: a mandatory structured abstract, a 20-page cap and Chicago author-date references. Workshops run on the first and last days."
+  - year: 2028
+    status: announced
+    start: 2028-01-09
+    end: 2028-01-13
+    city: "Washington, D.C."
+    country: US
+    lat: 38.91
+    lon: -77.04
+    deadlines:
+      - {kind: paper, date: 2027-08-01, tz: "AoE", estimated: true}
+    notes: "107회 연차 회의. 일정(1/9–13)은 ECTRI·PCI 행사 목록 기준이며 TRB 공식 사이트에는 아직 없다. 논문 마감은 해마다 같은 7/1–8/1 접수 창구로 추정했다."
+    notes_en: "107th Annual Meeting. The dates (January 9-13) come from the ECTRI and PCI event listings and are not yet on the official TRB site. The paper deadline assumes the usual July 1 - August 1 submission window."
+links:
+  home: "https://www.nationalacademies.org/events/887"
+  cfp: "https://trb.secure-platform.com/a/page/TRBPaperReview"
+  roles: "https://www.nationalacademies.org/events/887/roles-and-resources"
+sources:
+  - "https://www.nationalacademies.org/events/887"
+  - "https://www.nationalacademies.org/events/887/roles-and-resources"
+  - "https://trb.secure-platform.com/a/page/TRBPaperReview"
+  - "https://trb.secure-platform.com/a/page/TRBPaperReview/trbamfaq"
+  - "https://trb.secure-platform.com/a/page/TRBPaperReview/TRBAMReviewerGuide"
+  - "https://www.ectri.org/event/2028-trb-annual-meeting/"
+  - "https://www.pci.org/PCI/PCI/News-Events/Event_Display.aspx?EventKey=TRB28"
+last_verified: 2026-10-02

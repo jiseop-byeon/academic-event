@@ -1,0 +1,45 @@
+id: merl-multimodal-sensing-understanding-intern-2027
+company: "Mitsubishi Electric Research Laboratories (MERL)"
+org_type: lab
+team: "MERL Computational Sensing (host: Perry Wang)"
+title: "ST0238: Internship - Multi-Modal Sensing and Understanding"
+fields: [vision, navigation, ml]
+degree: [phd]
+season: "Flexible start (rolling)"
+start: "flexible"
+duration: "About 3 months, flexible start"
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: onsite
+pay:
+  min: 6000
+  max: 8000
+  currency: USD
+  unit: month
+  source: posting
+  note: "monthly pay range stated in the posting (6–8K per month)"
+required:
+  - "Physical sensing across RF (radar, UWB, Wi-Fi), infrared, LiDAR and event cameras, including FMCW/MIMO radar, Doppler signatures and radar point clouds"
+  - "Transformer- and diffusion-based detection frameworks (DETR, DiffusionDet)"
+  - "Text, visual and multimodal semantic understanding and reasoning"
+  - "Multi-sensor datasets (nuScenes, Waymo Open, Argoverse) and radar datasets (MMVR, HIBER, RT-Pose, K-Radar)"
+  - "Python with PyTorch/JAX, GPU cluster jobs; publications at CVPR, ICCV, ECCV, NeurIPS, ICLR or ICML"
+skills: [python, pytorch, jax, lidar, sensor-fusion, computer-vision, foundation-models]
+responsibilities:
+  - "Fundamental research on algorithms that understand, explain and act on multi-sensor data (RF, infrared, LiDAR, event camera)"
+  - "Bridge detection, segmentation and tracking with higher-level semantic understanding and reasoning"
+  - "Design experiments on MERL's in-house testbeds and prepare patents and publications"
+citizenship: none
+eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+eligibility_note_en: "Common MERL posting language: employment requires full US work authorization and clearance to access export-controlled technology (an export license is obtained if needed), and MERL states it provides immigration support where needed. No citizenship restriction."
+status: open
+apply_url: "https://merl.clearcompany.com/careers/jobs/5b5a8899-71d5-adab-fbe4-0ef527e247f9/apply"
+fit: 2
+take: "레이더·LiDAR·이벤트 카메라를 아우르는 멀티모달 센싱 인지 연구라 도로변 LiDAR 기반 보행자 인식 같은 교통 센싱 연구와 결이 맞으니, 레이더 경험까지 갖췄다면 지원할 만하다."
+take_en: "Multimodal perception research spanning radar, LiDAR and event cameras — in line with traffic-sensing work such as roadside-LiDAR pedestrian detection; worth applying if you also have radar experience."
+notes: "게시일 미표기. 공고에 학위 요건이 없어 상위 학회 논문 실적 요구를 근거로 박사 수준으로 기재."
+notes_en: "Posting date not shown. The posting states no degree requirement; listed as PhD level based on its top-venue publication requirement."
+sources:
+  - "https://www.merl.com/employment/internship-openings#ST0238"
+  - "https://merl.clearcompany.com/careers/jobs/5b5a8899-71d5-adab-fbe4-0ef527e247f9/apply"
+last_verified: 2026-10-02

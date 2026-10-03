@@ -1,0 +1,46 @@
+id: waymo-conflict-behavior-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Systems Engineering — Conflict Behavior"
+title: "2027 Summer Intern, MS/PhD, Conflict Behavior"
+fields: [transportation, hri, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 70
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "hourly: MS $70, PhD $85 (stated in the posting)"
+required:
+  - "Pursuing an MS or PhD in CS, engineering, physics, statistics, data science or a related quantitative field"
+  - "Python and/or C++"
+  - "Analyzing, wrangling and visualizing large-scale datasets"
+  - "Analytical and statistical skills for validating quantitative models"
+preferred:
+  - "SQL"
+  - "Autonomous vehicles, robotics, crash-safety analysis or human driving-behavior modeling"
+  - "Rare-event modeling, anomaly detection or highly imbalanced datasets"
+  - "Machine learning and statistical evaluation fundamentals"
+skills: [python, cpp, sql]
+responsibilities:
+  - "Calibrate and validate physical-reachability and safety-margin metrics against expert human evaluations to quantify proactive caution"
+  - "Analyze large-scale real and simulated driving logs to evaluate model accuracy and characterize edge cases"
+  - "Feed quantitative safety signals into automated event triage and release-readiness workflows"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; applicants are advised to apply to at most their top three roles."
+status: open
+posted: 2026-09-17
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8210138"
+fit: 2
+take: "충돌 위험·안전 여유 지표를 사람 전문가 판단에 맞춰 검증하는 교통안전 분석 과제라, 보행자·운전자 충돌 회피 연구의 상충(conflict) 분석 감각을 그대로 쓸 수 있어 교통 축에서 우선 지원할 만하다."
+take_en: "Traffic-safety analysis that validates collision-risk and safety-margin metrics against expert human judgment — conflict-analysis skills from pedestrian and driver collision-avoidance research carry over directly, so it is a priority on the transportation track."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8210138"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8210138"
+last_verified: 2026-10-02

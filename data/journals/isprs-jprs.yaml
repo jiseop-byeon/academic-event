@@ -1,0 +1,38 @@
+id: isprs-jprs
+abbr: "ISPRS J. Photogramm."
+name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+publisher: "Elsevier (for the International Society for Photogrammetry and Remote Sensing, ISPRS)"
+issn: "0924-2716"
+eissn: "1872-8235"
+fields: [vision, navigation, construction]
+community: vision
+tier: 1
+metrics:
+  jif: {value: 12.9, year: 2025}
+  jif_5y: {value: 15.0, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 21.0, year: 2025, quartile: Q1, category: "Engineering (miscellaneous)", rank: "7/300"}
+  h5_index: {value: 113, year: 2025}
+access: hybrid
+apc_usd: 3800
+conference_link: "ISPRS 학술대회 발표를 바탕으로 한 논문도 의미 있는 기여로 인정되면 게재한다."
+conference_link_en: "Papers based on ISPRS meeting presentations are published when they are judged significant contributions."
+orientation:
+  contribution: 0
+  summary: "ISPRS의 공식 저널로 사진측량, 원격탐사, 공간정보, 컴퓨터 비전 분야 최상위 저널이다. 항공·지상·모바일 레이저 스캐닝, 센서 보정·정합, 점군 처리, 3차원 재구성·매핑, 디지털 트윈, 근거리 계측까지 센서·이론·시스템·응용을 폭넓게 다룬다. 이론 논문은 응용을, 시스템·응용 논문은 이론적 배경을 갖추길 권하며, 새 분야의 혁신적 응용과 학제적 연구를 특히 반긴다."
+  summary_en: "The official ISPRS journal and a top venue for photogrammetry, remote sensing, spatial information and computer vision. It spans sensors, theory, systems and applications: airborne, terrestrial and mobile laser scanning, sensor calibration and orientation, point-cloud processing, 3D reconstruction and mapping, digital twins and close-range metrology. Theory papers are expected to include applications and system or application papers a theoretical background, and innovative applications in new fields and interdisciplinary work are especially welcome."
+  values: ["LiDAR and point clouds", "theory with applications", "3D reconstruction and mapping", "interdisciplinary"]
+fit: 2
+take: "건설 현장 LiDAR 점군 처리, 센서 정합, SLAM 기반 매핑·디지털 트윈 연구가 이론적 배경과 함께 나오면 노릴 상위 저널이며, 로봇 조작 자체보다는 인지·매핑 결과를 내기에 맞다."
+take_en: "A top journal for construction-site LiDAR point-cloud processing, sensor registration and SLAM-based mapping or digital twins backed by theory; better suited to perception and mapping results than to robot manipulation itself."
+openalex_id: "S173339282"
+links:
+  home: "https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing"
+  shop: "https://shop.elsevier.com/journals/isprs-journal-of-photogrammetry-and-remote-sensing/0924-2716"
+sources:
+  - "https://shop.elsevier.com/journals/isprs-journal-of-photogrammetry-and-remote-sensing/0924-2716"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/ISPRS-J-PHOTOGRAMM"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3999"   # five-year IF there is crowd-sourced (LetPub users); Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Photogrammetry+and+Remote+Sensing"
+  - "https://api.openalex.org/sources?filter=issn:0924-2716"
+last_verified: 2026-10-02

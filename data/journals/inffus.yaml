@@ -1,0 +1,37 @@
+id: inffus
+abbr: "Inf. Fusion"
+name: "Information Fusion"
+publisher: "Elsevier"
+issn: "1566-2535"
+eissn: "1872-6305"
+fields: [ml, navigation, vision, xai]
+community: ml
+tier: 2
+metrics:
+  jif: {value: 17.4, year: 2025}
+  jif_5y: {value: 19.9, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 26.7, year: 2025, quartile: Q1, category: "Signal Processing", rank: "1/203"}
+  h5_index: {value: 143, year: 2025}
+access: hybrid
+apc_usd: 4130
+article_types: ["original paper", "letter to the editors", "invited review"]
+orientation:
+  contribution: -1
+  summary: "다중 센서·다중 소스·다중 프로세스 정보 융합을 한데 모은 이 분야 대표 저널로, 아키텍처·알고리즘·응용 중 하나 이상에 초점을 둔 논문을 싣는다. 데이터·영상·특징·결정 수준 융합, 분산 센서 네트워크, 불완전·불확실한 환경에서의 융합 학습, 상황 인식 등을 다루며 로보틱스와 교통도 응용 분야로 명시돼 있다. 기초 이론 분석과 실제 문제 적용 모두 환영하지만, 융합 방법 자체의 일반적 기여가 있어야 한다."
+  summary_en: "The leading journal that gathers multi-sensor, multi-source and multi-process information fusion in one forum, publishing papers that stress architectures, algorithms or applications. It covers data, image, feature and decision-level fusion, distributed sensor networks, fusion learning under imperfect or uncertain information and situation awareness, and lists robotics and transportation among its applications. Both theoretical analyses and real-world applications are welcome, but the fusion method itself needs a general contribution."
+  values: ["fusion architectures and algorithms", "multi-sensor systems", "theory and applications", "high impact"]
+fit: 2
+take: "LiDAR·카메라·IMU 등 다중 센서 융합 방법이 건설·교통 응용을 넘어 일반적인 기여를 가질 때만 노릴 만한 고영향 저널이며, 응용 중심 결과라면 T-ITS나 AutCon이 더 적합하다."
+take_en: "A high-impact journal worth aiming at only when a LiDAR-camera-IMU fusion method contributes beyond its construction or traffic application; application-driven results fit T-ITS or AutCon better."
+openalex_id: "S7560371"
+links:
+  home: "https://www.sciencedirect.com/journal/information-fusion"
+  shop: "https://shop.elsevier.com/journals/information-fusion/1566-2535"
+sources:
+  - "https://shop.elsevier.com/journals/information-fusion/1566-2535"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/INFORM-FUSION"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3563"   # five-year IF there is crowd-sourced (LetPub users); Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Information+Fusion"
+  - "https://api.openalex.org/sources?filter=issn:1566-2535"
+last_verified: 2026-10-02

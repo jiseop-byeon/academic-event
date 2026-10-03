@@ -1,0 +1,76 @@
+id: chi
+acronym: "CHI"
+name: "ACM CHI Conference on Human Factors in Computing Systems"
+organizer: "ACM SIGCHI"
+fields: [ar, hri, haptics, xai]
+community: xr
+tier: 1
+rankings:
+  core: "A*"
+  h5_index: 139
+  h5_year: 2025
+frequency: annual
+paper_format: "No page limit: 5,000-8,000 words encouraged, under 5,000 counts as a short paper, over 12,000 desk-rejected unless justified; abstract max 150 words; ACM single-column template for review; anonymized (CHI 2027 rule)"
+review:
+  blind: double
+  rebuttal: true
+  acceptance_rate: {value: 0.253, year: 2026, note: "1,705 conditionally accepted of 6,730 completed submissions (official CHI 2026 papers-track statistics)"}
+proceedings: "ACM Digital Library, fully open access under ACM Open (CHI 2027 APC: $500 for ACM/SIG members, $750 otherwise, unless the author's institution participates in ACM Open)"
+orientation:
+  contribution: 1
+  summary: "HCI 분야 최대·최고 학회로, 실증 연구, 시스템·인터페이스, 설계, 방법론, 이론 등 어떤 유형이든 독창성·중요성·타당성·연구 품질·명료성을 기준으로 평가한다. 알고리즘의 새로움보다 사람에 대해 무엇을 새로 알게 됐는지와 엄밀한 사용자 연구가 핵심이며, 1차 심사 후 일정 점수 이상이면 수정 후 재투고(revise and resubmit) 기회를 준다. 관련 HCI 문헌에 자리 잡지 못하거나 방법론 설명이 크게 부족하면 데스크 리젝될 수 있다."
+  summary_en: "The largest and most prestigious HCI conference; empirical studies, systems and interfaces, design, methods and theory are all judged on originality, significance, validity, research quality and clarity. What counts is what the work reveals about people, backed by rigorous user studies, more than algorithmic novelty; papers above a score threshold after round one get a revise-and-resubmit. Work not situated in the relevant HCI literature, or grossly thin on methodological detail, may be desk-rejected."
+  values: ["user studies", "human-centered insight", "revise and resubmit", "broad HCI scope"]
+fit: 2
+take: "보행자·운전자용 AR 경고나 작업자-로봇 인터페이스를 사람 중심 연구로 깊게 파고들 때만 노릴 곳이니, 2027 본논문은 마감됐으므로 2027년 9월 초(예상) 마감인 CHI 2028(케이프타운)을 염두에 두고 그 전에 1월 21일 포스터 트랙을 활용하자."
+take_en: "Worth aiming at only when AR warnings for pedestrians and drivers, or worker-robot interfaces, are studied in depth from a human-centered angle — the 2027 paper deadline has passed, so keep CHI 2028 in Cape Town (deadline expected early September 2027) in mind and use the January 21 poster track first."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-05-10
+    end: 2027-05-14
+    city: "Pittsburgh"
+    country: US
+    venue: "David L. Lawrence Convention Center"
+    lat: 40.44
+    lon: -80.00
+    url: "https://chi2027.acm.org/"
+    deadlines:
+      - {kind: paper, date: 2026-09-10, tz: "AoE", time: "23:59", label: "papers incl. videos and supplementary material (no abstract deadline)"}
+      - {kind: workshop-proposal, date: 2026-10-01, tz: "AoE"}
+      - {kind: other, date: 2026-11-05, label: "reviews released; revise-and-resubmit window opens"}
+      - {kind: other, date: 2026-12-03, tz: "AoE", label: "revised paper resubmission"}
+      - {kind: notification, date: 2026-12-17}
+      - {kind: other, date: 2027-01-21, tz: "AoE", label: "posters (up to 4 pages), interactive demos, Student Research Competition"}
+      - {kind: camera-ready, date: 2027-02-18, tz: "AoE", label: "publication-ready papers"}
+      - {kind: registration, date: 2027-03-04, label: "author registration and presentation video"}
+    notes: "본논문(9/10)과 워크숍 제안(10/1)은 마감됐다. 남은 투고 기회는 1/21 포스터(최대 4쪽)·인터랙티브 데모·학생 연구 경진대회다. 모든 저자에게 심사 의무가 있으며, ORCID가 필수이고 프로필의 DBLP 항목도 채워야 한다(없으면 n/a). 주제는 '다리(bridges)'."
+    notes_en: "Papers (September 10) and workshop proposals (October 1) are closed. Still open on January 21: posters (up to 4 pages), interactive demos and the Student Research Competition. Every author must be available to review, must have an ORCID and must fill in the DBLP field of their profile (n/a if none). The theme is 'bridges'."
+  - year: 2028
+    status: announced
+    start: 2028-05-06
+    end: 2028-05-12
+    city: "Cape Town"
+    country: ZA
+    lat: -33.92
+    lon: 18.42
+    url: "https://chi2028.acm.org/"
+    deadlines:
+      - {kind: paper, date: 2027-09-09, tz: "AoE", estimated: true}
+    notes: "공식 사이트에는 케이프타운, 2028년 5/6–12만 공지됐다. 논문 마감은 최근 두 회차(2025/9/11, 2026/9/10, 둘 다 9월 둘째 주 목요일) 패턴으로 추정했다."
+    notes_en: "The official site only lists Cape Town, May 6-12, 2028. The paper deadline is estimated from the last two cycles (2025-09-11 and 2026-09-10, both on the second Thursday of September)."
+links:
+  home: "https://chi2027.acm.org/"
+  cfp: "https://chi2027.acm.org/authors/papers/"
+  posters: "https://chi2027.acm.org/authors/posters/"
+sources:
+  - "https://chi2027.acm.org/"
+  - "https://chi2027.acm.org/authors/papers/"
+  - "https://chi2027.acm.org/authors/posters/"
+  - "https://chi2027.acm.org/authors/workshops/"
+  - "https://chi2027.acm.org/authors/interactive-demos/"
+  - "https://chi2028.acm.org/"
+  - "https://chi2026.acm.org/2026/02/06/insights-into-the-papers-track-post-pc-meeting-outcomes/"
+  - "https://portal.core.edu.au/conf-ranks/?search=Human+Factors+in+Computing&by=all&source=all"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_humancomputerinteraction"
+last_verified: 2026-10-02

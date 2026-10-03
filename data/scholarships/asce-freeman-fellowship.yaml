@@ -6,31 +6,39 @@ type: fellowship
 fields: [construction]
 amount:
   summary: "$2,500–$5,000 수준 (기금 수익에 따라 매년 결정), 수혜자에게 일시 지급"
+  summary_en: "About $2,500–$5,000 (set each year from endowment income), paid to the recipient as a lump sum"
   value: 2500
   max: 5000
   currency: USD
   unit: one-time
   covers: ["tuition", "research", "living"]
 duration: "1회 일시 지급 (이전 수혜자도 재지원 가능)"
+duration_en: "One-time payment (previous recipients may reapply)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "대학원 토목공학 과정 재학 (학교 소재지 제한 명시 없음)"
+  where_enrolled_en: "Enrolled in a graduate civil engineering program (no restriction on school location stated)"
   stage: "정규 대학원 교육을 계속할 대학원생 (석·박사)"
+  stage_en: "Graduate students (MS/PhD) continuing formal graduate education"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "지원·수상 시점에 ASCE 회원(등급 무관)이어야 하며, 수리공학(hydraulic engineering) 분야 학생 지원이 목적. 국적 제한 명시 없음."
+  notes_en: "Must be an ASCE member (any grade) at application and award; intended for students in hydraulic engineering. No nationality restriction stated."
 requirements: ["지도교수 서명이 있는 연락처 양식", "500단어 개인 에세이", "연간 예산 명세서", "기관 서명이 있는 연구 설명서", "추천서 2부 이상 (1부는 교수)", "공식 성적증명서", "이력서 (1–2쪽)"]
+requirements_en: ["Contact-information form signed by the faculty advisor", "500-word personal essay", "Annual budget statement", "Research description signed by the institution", "At least two recommendation letters (one from a faculty member)", "Official transcript", "Résumé (1–2 pages)"]
 nomination: false
 awards_per_year: "연 최대 3명"
 cycle:
   typical: "매년 1월 15일 마감, 봄에 선정 통보"
+  typical_en: "Deadline January 15 each year; recipients notified in spring"
   deadlines:
-    - {kind: application, date: 2027-01-15, label: "지원 마감"}
+    - {kind: application, date: 2027-01-15, label: "지원 마감", label_en: "Application deadline"}
 status: upcoming
 apply_url: "https://www.asce.org/career-growth/awards-and-honors/fellowships/freeman-fellowship/application-form"
 fit: 1
 take: "수리공학(hydraulic engineering) 학생 전용이라 건설 로봇 연구와 맞지 않는 참고용 항목이다."
+take_en: "Reserved for hydraulic-engineering students, so it does not match construction robotics — listed for reference."
 links:
   home: "https://www.asce.org/career-growth/awards-and-honors/fellowships/freeman-fellowship"
 sources:

@@ -12,9 +12,11 @@ journal_track: "Outstanding full papers invited to special issues of ASCE JCCE a
 orientation:
   contribution: 1
   summary: "ASCE의 연례 컴퓨팅 학회로 AI, 로보틱스·자동화, 비전, 디지털 트윈·BIM을 건설에 적용한 연구가 중심이다. 초록 선제출 후 8쪽 풀페이퍼로 심사하며, 범용 알고리즘 신규성보다 건설 문제에 맞춘 계산 방법과 검증 실험이 있으면 충분하다. 2026년에는 우수 논문을 JCCE·AEI 특집호로 초청했다."
+  summary_en: "ASCE's annual computing conference, centered on research that applies AI, robotics and automation, vision, and digital twins and BIM to construction. Papers are reviewed as 8-page full papers after an abstract is submitted first, and a computational method tailored to a construction problem plus validation experiments is enough, without general-purpose algorithmic novelty. In 2026, outstanding papers were invited to JCCE and AEI special issues."
   values: ["computing for construction", "robotics & automation track", "abstract-first", "journal special issues"]
 fit: 3
 take: "건설 로봇·인지 연구를 ASCE 컴퓨팅 커뮤니티에 내기 가장 좋은 연례 학회이니, 2027년 공지가 나오면 11월 전후 초록 마감에 맞춰 8쪽 논문을 준비하자."
+take_en: "The best annual venue for presenting construction robotics and perception research to the ASCE computing community, so once the 2027 announcement comes out, prepare an 8-page paper in time for the abstract deadline around November."
 editions:
   - year: 2027
     status: estimated
@@ -22,6 +24,7 @@ editions:
       - {kind: abstract, date: 2026-11-15, estimated: true}
       - {kind: paper, date: 2027-01-15, estimated: true}
     notes: "2026-10-02 기준 i3CE 2027 개최지·일정 미발표. 2024 피츠버그(CMU), 2025 뉴올리언스(5/11–14, LSU), 2026 인천 송도(6/14–17, 서울대 주관)로 매년 늦봄–여름 개최. 초록 마감(원 일정)은 2024-12-01(2025 대회), 2025-11-01→11-15 연장(2026 대회), 풀페이퍼는 2024-12-15→2025-01-13, 2026-02-01→02-15였으므로 위 날짜는 추정치. ASCE 컴퓨팅 분과가 ASCE2027(2027-03, 필라델피아)에 참여하므로 별도 i3CE 2027 개최 여부도 공지로 확인 필요."
+    notes_en: "As of 2026-10-02, the i3CE 2027 location and schedule have not been announced. It is held every year in late spring to summer: 2024 Pittsburgh (CMU), 2025 New Orleans (5/11–14, LSU), 2026 Incheon Songdo (6/14–17, hosted by Seoul National University). Abstract deadlines (original schedule) were 2024-12-01 (2025 conference) and 2025-11-01→11-15 (extended; 2026 conference), and full papers were 2024-12-15→2025-01-13 and 2026-02-01→02-15, so the dates above are estimates. Because the ASCE computing division is taking part in ASCE2027 (2027-03, Philadelphia), whether a separate i3CE 2027 will be held also needs to be confirmed through announcements."
 links:
   home: "https://www.i3ce2026.com/"
   cfp: "https://www.i3ce2026.com/papers/01.html"

@@ -20,9 +20,11 @@ attendance: "~6,000 (2026, Malmö)"
 orientation:
   contribution: -1
   summary: "ECVA가 주관하는 격년(짝수 해) 최상위 비전 학회로 Springer LNCS 14쪽 형식, 이중맹검, 1쪽 rebuttal로 CVPR/ICCV와 같은 방법론 중심 기준을 적용한다. 응용 트랙이 없어 건설 현장 인식 논문은 방법이나 데이터셋의 일반적 기여로 승부해야 한다."
+  summary_en: "A top vision conference run biennially (in even years) by the ECVA; with the Springer LNCS 14-page format, double-blind review and a 1-page rebuttal, it applies the same method-centered standard as CVPR/ICCV. With no application track, construction-site perception papers have to compete on a general contribution of a method or dataset."
   values: ["methodological novelty", "strong experiments", "LNCS long format"]
 fit: 2
 take: "ECCV 2026(말뫼)이 끝나 다음 기회는 2028년 3월경 마감이므로, 당장은 CVPR·ICCV를 우선하고 장기 계획에만 넣어 두면 된다."
+take_en: "ECCV 2026 (Malmö) is over and the next chance has a deadline around March 2028, so put CVPR and ICCV first for now and keep this only in the long-term plan."
 editions:
   - year: 2028
     status: estimated
@@ -30,6 +32,7 @@ editions:
       - {kind: abstract, date: 2028-02-24, label: "Paper registration", estimated: true}
       - {kind: paper, date: 2028-03-02, estimated: true}
     notes: "개최지·일정 미발표(ECVA 사이트에도 아직 없음). ECCV 2024(등록 2/29, 제출 3/7)·2026(2/26, 3/5) 패턴, 즉 3월 첫 주 목요일 제출 마감을 기준으로 추정했다. 대회는 보통 9–10월 개최."
+    notes_en: "Location and schedule not announced (not on the ECVA site yet either). Estimated from the ECCV 2024 (registration 2/29, submission 3/7) and 2026 (2/26, 3/5) pattern, i.e., a submission deadline on the Thursday of the first week of March. The conference is usually held in September–October."
 links:
   home: "https://eccv.ecva.net/"
   ecva: "https://www.ecva.net/"

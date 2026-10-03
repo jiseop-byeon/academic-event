@@ -1,4 +1,9 @@
-# Newest first. The update agent adds one entry per run (see agent/AGENT.md).
+# Newest first. The update agent adds one entry per run (see agent/AGENT.md), in Korean and English.
+- date: 2026-10-02
+  by: "owner review"
+  summary: "범위 재정비: 교통·AR·SLAM/센서퓨전 분야 추가, 명문 학회·Q1 저널만 남김, 장학금·인턴십을 미국 대학 한국인 유학생 대학원생 기준으로 재선별, 영어 기본 + 한국어 전환"
+  summary_en: "Re-scoped: added transportation, AR and SLAM/sensor-fusion; kept only prestigious venues and Q1 journals; re-screened scholarships and internships for Korean international graduate students at US universities; English first with a Korean toggle"
 - date: 2026-10-02
   by: "initial research (6 agents)"
   summary: "사이트 개설: 학회·저널·인턴십·장학금 초기 데이터 수집"
+  summary_en: "Site launched: first pass of conferences, journals, internships and scholarships"

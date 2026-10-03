@@ -12,10 +12,12 @@ work_mode: onsite
 skills: [motion-planning, computer-vision, cpp, python]
 citizenship: none
 eligibility_note: "향후 인턴 공고 알림을 받기 위한 상시 등록 페이지로 학위·기간·급여 요건은 미기재. 일본 근무이며 공고에 비자 스폰서십·항공권·이사비·주거 지원이 명시됨. 영어 진행(Internship (English))."
+eligibility_note_en: "A standing registration page for future internship openings; no degree, duration or pay requirements are listed. Work is in Japan, and the posting mentions visa sponsorship, flights, relocation and housing support. Conducted in English ('Internship (English)')."
 status: rolling
 posted: 2024-12-11
 apply_url: "https://jobs.lever.co/mujininc/183f0b44-9ff0-4be1-8392-e4b439d25ab5"
 fit: 2
 take: "팔레타이징·피킹·트럭 하역 같은 산업용 조작을 모션플래닝·비전으로 푸는 회사라 manipulation 실무 경험에 도움이 되니, 미리 등록해 두고 구체 공고가 뜨면 바로 지원할 만하다."
+take_en: "Mujin solves industrial manipulation — palletizing, picking, truck unloading — with motion planning and vision, which is useful hands-on manipulation experience; register early and apply as soon as a specific posting appears."
 sources: ["https://jobs.lever.co/mujininc/183f0b44-9ff0-4be1-8392-e4b439d25ab5", "https://api.lever.co/v0/postings/mujininc?mode=json"]
 last_verified: 2026-10-02

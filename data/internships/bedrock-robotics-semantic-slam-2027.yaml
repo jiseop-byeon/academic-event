@@ -15,10 +15,12 @@ skills: [python, pytorch, slam, 3d-vision, point-cloud, lidar, sensor-fusion, st
 responsibilities: ["Prototype learned SLAM / mapping (place recognition, odometry, depth completion, neural occupancy) for autonomous excavators", "Fuse lidar and camera segmentation into consistent 3D semantic maps of changing terrain (dig material, haul roads, spoil piles)", "Benchmark against classical baselines on fleet data and deliver a documented prototype"]
 citizenship: none
 eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students; only US work authorization is needed. Pay and duration are not stated."
 status: open
 posted: 2026-09-25
 apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760"
 fit: 3
 take: "굴삭으로 지형이 계속 변하는 건설 현장의 시맨틱 매핑·위치추정 과제라 perception·내비게이션 지원 축을 건설 맥락에서 키울 수 있어 manipulation 포지션의 대안으로 함께 지원할 만하다."
+take_en: "Semantic mapping and localization on construction sites whose terrain keeps changing as it is dug — builds the perception/navigation support track in a construction context; apply alongside the manipulation role."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
 last_verified: 2026-10-02

@@ -1,0 +1,48 @@
+id: ram
+abbr: "RA-M"
+name: "IEEE Robotics & Automation Magazine"
+publisher: "IEEE (Robotics and Automation Society)"
+issn: "1070-9932"
+eissn: "1558-223X"
+fields: [robotics, manipulation, navigation, hri]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 9.8, year: 2025}
+  jif_5y: {value: 8.4, year: 2025}
+  citescore: {value: 9.3, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "55/390"}
+  h5_index: {value: 39, year: 2025}
+review:
+  blind: double
+  speed_note: "2025년 7월 1일 이후 신규 투고부터 이중 익명 심사를 한다. 첫 결정을 90일 안에 돌려주는 것을 목표로 하며, 두 번째 'revise and resubmit' 결정은 없다. 편집장은 서울대 Frank C. Park 교수다."
+  speed_note_en: "New submissions since 1 July 2025 get double-anonymous review. The goal is a first decision within 90 days, and there is no second 'revise and resubmit' decision. The editor-in-chief is Prof. Frank C. Park of Seoul National University."
+access: hybrid
+apc_usd: 2045
+length: "Research article: max 9 magazine pages (about 4,500 words), max 20 references (except surveys), max 10 figures; USD 250 per page beyond 9, up to 7 extra pages"
+article_types: ["research article", "survey/review/tutorial", "column", "special issue"]
+conference_link: "채택된 RAM 논문은 RAS 학회 한 곳에서 발표할 수 있다(채택 후 270일 안에 이관). ICRA 2027 저널 이관 마감은 2026-12-31이며, RAM 페이지의 학회별 이관 기간 표는 아직 2025–26년 기준이다."
+conference_link_en: "An accepted RAM paper can be presented at one RAS conference (transfer within 270 days of acceptance). The ICRA 2027 journal-transfer deadline is 2026-12-31; the per-conference transfer-window table on the RAM page still shows 2025–26."
+orientation:
+  contribution: 1
+  summary: "RAS의 대표 매거진으로, 연구 결과를 기술적 세부보다 개념 중심으로 읽기 쉽게 풀어 쓴 논문과 서베이·튜토리얼·칼럼을 싣는다. 9쪽·참고문헌 20개 이내 형식이라 새 알고리즘의 엄밀한 검증보다 시스템 전체 그림, 현장 적용의 교훈, 분야 전망을 분명히 전달하는 글이 환영받는다."
+  summary_en: "RAS's flagship magazine, publishing accessible, concept-driven write-ups of research results rather than technical detail, along with surveys, tutorials and columns. With limits of nine pages and 20 references, articles that clearly convey the big picture of a system, lessons from field deployment or the outlook for a field are welcomed over rigorous validation of a new algorithm."
+  values: ["accessible writing", "system overviews", "tutorials and surveys", "broad readership"]
+fit: 2
+take: "건설 로봇 시스템을 여러 편의 연구로 완성한 뒤 현장 교훈과 전망을 정리하는 개관 논문을 낼 곳이며, 박사 초반의 연구 결과 발표처로는 맞지 않다."
+take_en: "The place for an overview article on field lessons and outlook once a construction robot system has been completed over several studies; not a venue for early-PhD research results."
+openalex_id: "S132261465"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100"
+  society: "https://www.ieee-ras.org/publications/ram/"
+  submit: "http://ras.papercept.net/journals/ra-mag/scripts/login.pl"
+  guide: "https://www.ieee-ras.org/publications/ram/information-for-authors/"
+sources:
+  - "https://www.ieee-ras.org/publications/ram/"
+  - "https://www.ieee-ras.org/publications/ram/information-for-authors/"
+  - "https://www.ieee-ras.org/publications/ram/information-for-authors/presenting-your-ram-paper-at-ieee-ras-conferences/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=100"
+  - "https://www.bioxbio.com/journal/IEEE-ROBOT-AUTOM-MAG"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Robotics+%26+Automation+Magazine"
+  - "https://api.openalex.org/sources?filter=issn:1070-9932"
+  - "https://www.letpub.com.cn/index.php?journalid=3350&page=journalapp&view=detail"
+last_verified: 2026-10-02

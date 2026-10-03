@@ -16,9 +16,11 @@ proceedings: "IEEE Xplore"
 orientation:
   contribution: 0
   summary: "휴머노이드·전신 제어·loco-manipulation 커뮤니티의 대표 학회로, 하드웨어 설계·제어·학습 시스템을 고르게 받는다. 건설 현장의 휴머노이드·양팔 작업(자재 운반, 공구 사용)으로 프레이밍하면 관심을 받지만, 고정형 매니퓰레이터의 일반 조작 연구는 범위가 어긋나 보일 수 있다."
+  summary_en: "The flagship conference of the humanoid, whole-body control and loco-manipulation community, it accepts hardware design, control and learning systems evenly. Framing the work as humanoid or dual-arm tasks on construction sites (material transport, tool use) draws interest, but general manipulation research on fixed manipulators may look off-scope."
   values: ["whole-body control", "humanoid hardware", "loco-manipulation", "human-like skills"]
 fit: 2
 take: "Humanoids는 건설 작업을 휴머노이드·양팔 플랫폼으로 풀 때만 의미 있는 2순위 — 2026 산타클라라 회차는 마감됐으니 2027 공지를 기다릴 것."
+take_en: "Humanoids is a No. 2 priority that makes sense only when construction tasks are tackled on a humanoid or dual-arm platform; the 2026 Santa Clara edition's deadline has passed, so wait for the 2027 announcement."
 editions:
   - year: 2026
     status: confirmed
@@ -36,9 +38,11 @@ editions:
       - {kind: notification, date: 2026-10-06}
       - {kind: camera-ready, date: 2026-10-26}
     notes: "논문 마감 종료(382편 투고). 12/6 공개 포럼, 12/7 워크숍·튜토리얼, 12/8–9 논문 발표. NIST와 함께 loco-manipulation 챌린지를 연다."
+    notes_en: "Paper deadline has passed (382 submissions). 12/6 open forum, 12/7 workshops and tutorials, 12/8–9 paper presentations. A loco-manipulation challenge is being held together with NIST."
   - year: 2027
     status: estimated
     notes: "개최지·일정 미발표. 마감은 개최 시기에 따라 크게 달라(2025 서울 회차 5/15, 2026 회차 7/27) 날짜를 추정하지 않음."
+    notes_en: "Location and schedule not announced. The deadline varies greatly with the timing of the conference (5/15 for the 2025 Seoul edition, 7/27 for 2026), so no date is estimated."
 links:
   home: "https://2026.ieee-humanoids.org/"
   cfp: "https://2026.ieee-humanoids.org/call-for-papers/"

@@ -24,8 +24,14 @@ and OpenAlex citation stats. Your job is the part that needs judgment: verify, c
    source and note it. Do not download files to disk.
 4. **Never publish** anything about the owner's visa, immigration status or career plans.
    Eligibility is written generically ("미국 대학 재학 중인 비시민권자 지원 가능").
-5. Korean for `summary`, `take`, `notes`, `speed_note`, `eligibility_note` and scholarship
-   text; English for names, titles and skill tags. Double-quote free text.
+5. **English is the site's main language, Korean the second.** Every Korean free-text field gets
+   an English twin with the `_en` suffix (`take_en`, `orientation.summary_en`, `notes_en`, …; the
+   full list is in `agent/SCHEMA.md`). Names, titles and skill tags stay English. Double-quote free text.
+8. **Scope.** Only prestigious venues and Q1 journals that a graduate student in the field knows;
+   internships at MS/PhD level open to international students; scholarships a Korean international
+   graduate student at a US university can apply for (civil, engineering, CS; transportation incl.).
+   Fields: construction & civil (incl. transportation), robotics, physical AI, manipulation,
+   navigation/SLAM/sensor fusion, computer vision, AR/XR, HRI, haptics, ML.
 6. Judgment fields (`tier`, `orientation.contribution`, `fit`, `take`) follow the anchors in
    `agent/SCHEMA.md`. Keep them consistent with the existing files; change one only with a reason.
 7. Touch only `data/` (and `agent/watchlist*.yaml` when a job-board token is wrong).
@@ -54,7 +60,7 @@ and OpenAlex citation stats. Your job is the part that needs judgment: verify, c
    `-industry`) after testing the endpoint once.
 5. `python3 scripts/validate.py` — fix every ERROR. Then `python3 scripts/build.py` must succeed.
 6. Add one entry at the **top** of `data/changelog.yaml`:
-   `- {date: YYYY-MM-DD, by: "weekly agent", summary: "한국어 한 줄: 추가 N · 수정 N · 마감 처리 N · 주요 변경"}`.
+   `- {date: YYYY-MM-DD, by: "weekly agent", summary: "한국어 한 줄: 추가 N · 수정 N · 마감 처리 N · 주요 변경", summary_en: "the same line in English"}`.
 7. Commit and push to `main`:
    `git add data agent && git commit -m "data: weekly update YYYY-MM-DD" && git push`.
    The push triggers the deploy. If the push is rejected, `git pull --rebase` and push again.
@@ -65,7 +71,9 @@ and OpenAlex citation stats. Your job is the part that needs judgment: verify, c
 - Conferences: the series site's "Call for Papers" / "Important Dates" page; IEEE RAS
   conference list (ieee-ras.org/conferences-workshops); CVF (thecvf.com) for CVPR/ICCV/WACV.
 - Journals: the journal homepage shows Impact Factor and CiteScore (the June JCR release reports
-  the previous year's values); SCImago for SJR quartile; Elsevier pages show days to first decision.
+  the previous year's values); SCImago for SJR quartile (it often answers 403 to automated
+  fetches — then leave the quartile empty rather than guess); MDPI pages print the JCR quartile;
+  Elsevier pages show days to first decision.
 - Internships: summer PhD internships open Aug–Nov and close Jan–Mar; big tech often posts one
   generic "Research Intern (PhD)" requisition per year.
 - Scholarships: Korean foundations announce in spring and fall on their own sites; industry

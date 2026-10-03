@@ -1,0 +1,38 @@
+id: tr-b
+abbr: "TR-B"
+name: "Transportation Research Part B: Methodological"
+publisher: "Elsevier"
+issn: "0191-2615"
+eissn: "1879-2367"
+fields: [transportation]
+community: transportation
+tier: 1
+metrics:
+  jif: {value: 6.5, year: 2025}
+  jif_5y: {value: 7.9, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 10.7, year: 2025, quartile: Q1, category: "Transportation", rank: "21/169"}
+  h5_index: {value: 71, year: 2025}
+access: hybrid
+apc_usd: 3460
+conference_link: "ISTTT 채택 논문은 Transportation Research 시리즈 특집호로 출판된다(ISTTT26은 Part A·B·C·E)."
+conference_link_en: "Papers selected for ISTTT are published in Transportation Research special issues (ISTTT26 used Parts A, B, C and E)."
+orientation:
+  contribution: -2
+  summary: "교통 분야의 방법론 전문 최상위 저널로, 수학적 분석이 필요한 교통류, 네트워크 설계·분석, 제어·스케줄링, 최적화, 대기행렬, 물류, 통계·계량경제 모형 등을 다룬다. 교통 시스템의 중요한 문제에서 출발해 새 모형이나 해법을 수학적으로 전개하고 증명·분석하는 논문이 중심이며, 응용 사례나 시스템 구현만으로는 게재되기 어렵다."
+  summary_en: "The top methodological journal in transportation, covering problems that need mathematical analysis: traffic flow, network design and analysis, control and scheduling, optimization, queueing, logistics, and statistical or econometric models. Papers typically start from an important transportation problem and develop, prove and analyze a new model or solution method; application cases or system builds alone rarely get in."
+  values: ["mathematical analysis", "new models and solution methods", "theoretical rigor", "ISTTT special issues"]
+fit: 1
+take: "수학적 교통 방법론 저널이라 응용 시스템 중심인 지금 연구와는 거리가 있으니 참고용으로 두고, 보행자-차량 상호작용을 새 수리 모형으로 다룰 때만 고려하자."
+take_en: "A mathematical transportation-methods journal, far from the current system-oriented work; keep it for reference and consider it only if pedestrian-vehicle interaction is tackled with a new mathematical model."
+openalex_id: "S96305778"
+links:
+  home: "https://www.sciencedirect.com/journal/transportation-research-part-b-methodological"
+sources:
+  - "https://shop.elsevier.com/journals/transportation-research-part-b-methodological/0191-2615"
+  - "https://www.bioxbio.com/journal/TRANSPORT-RES-B-METH"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=7902"   # five-year IF there is crowd-sourced (LetPub users); Scopus CiteScore table (June 2026 release)
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "http://www.isttt2026.vtk.ed.tum.de/call.html"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_transportation"
+  - "https://api.openalex.org/sources?filter=issn:0191-2615"
+last_verified: 2026-10-02

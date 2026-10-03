@@ -6,30 +6,38 @@ type: fellowship
 fields: [construction]
 amount:
   summary: "$10,000 교육 stipend (등록금·주거·도서·재료) + ACI Convention 2회 참가 경비 지원"
+  summary_en: "$10,000 educational stipend (tuition, housing, books, supplies) + paid travel to two ACI Conventions"
   value: 10000
   currency: USD
   unit: one-time
   covers: ["tuition", "living", "books", "travel"]
 duration: "1학년도 (2027년 가을학기–2028년 봄학기)"
+duration_en: "One academic year (fall 2027–spring 2028)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "미국 또는 캐나다 인가 대학에서 콘크리트 관련 학위과정에 풀타임 재학 (수여 연도 기준)"
+  where_enrolled_en: "Full-time enrollment in a concrete-related degree program at an accredited university in the US or Canada during the award year"
   stage: "학부생·대학원생 모두 지원 가능, 2027–28학년도 동안 풀타임 재학해야 함"
+  stage_en: "Undergraduate and graduate students; must be enrolled full time throughout the 2027–28 academic year"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "국적 요건 명시 없음 (영어 능력 필요). 추천(endorsement) 2부 중 1부는 반드시 ACI 회원이어야 하며, 학위·연구가 콘크리트와 관련돼야 함."
+  notes: "국적 요건 명시 없음 (영어 능력 필요). 추천(endorsement) 2부 중 1부는 반드시 ACI 회원이어야 하며, 학위·연구가 콘크리트와 관련돼야 함. 이번 회차는 펠로십($10,000)·장학금($5,000) 등 총 50명을 선발함."
+  notes_en: "No nationality requirement stated (English proficiency needed). One of the two endorsements must come from an ACI member, and the degree/research must be concrete-related. This cycle offers 50 awards in total, including fellowships ($10,000) and scholarships ($5,000)."
 requirements: ["이력서", "진로 관심 에세이 (500단어)", "영문 성적증명서 (4.0 만점 기준)", "추천(endorsement) 2부 — 1부는 ACI 회원"]
+requirements_en: ["Résumé", "Career-interest essay (500 words)", "Transcripts in English (4.0 scale)", "Two endorsements — one from an ACI member"]
 nomination: false
 awards_per_year: "2026–27년 펠로십 29명·장학금 14명 (36개 기관)"
 cycle:
   typical: "매년 7월 1일 접수 시작, 11월 1일 마감, 2월 첫 주 결선 통보, 4월 초 최종 통보"
+  typical_en: "Opens July 1 each year and closes November 1; finalists notified in the first week of February, final notification in early April"
   deadlines:
-    - {kind: application, date: 2026-11-01, tz: "ET", label: "지원 마감 (오후 11:59 ET)"}
+    - {kind: application, date: 2026-11-01, tz: "ET", time: "23:59", label: "지원 마감 (오후 11:59 ET)", label_en: "Application deadline (11:59 p.m. ET)"}
 status: open
 apply_url: "https://www.acifoundation.org/scholarships"
 fit: 2
 take: "국적 제한 없이 미국 대학 대학원생이 지원할 수 있으니 콘크리트 시공 로봇(철근 결속·타설·표면 마감) 연구로 엮어 ACI 회원 추천을 확보한 뒤 11월 1일 마감에 지원하라."
+take_en: "Open to graduate students at US universities regardless of nationality — frame a concrete-construction robotics project (rebar tying, placement, surface finishing), secure an ACI-member endorsement and apply by November 1."
 links:
   home: "https://www.acifoundation.org/scholarships"
 sources:

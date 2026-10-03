@@ -16,6 +16,7 @@ pay:
   unit: hour
   source: posting
   note: "박사 인턴 시급(공고 기재)"
+  note_en: "PhD intern hourly rate (stated in the posting)"
 required:
   - "Pursuing a PhD in CS, Robotics, ML, EE or related"
   - "Strong publication record at top AI/ML or robotics venues"
@@ -32,11 +33,13 @@ responsibilities:
   - "Publish findings via technical reports or papers where possible"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; applicants are advised to apply to at most their top three roles."
 status: open
 posted: 2026-10-02
 apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8243732"
 fit: 2
 take: "월드 액션 모델은 로봇 조작 파운데이션 모델과 기술 축이 같아 확산·월드모델 결과가 있다면 경쟁력 있는 2순위 지원처다."
+take_en: "World action models share a technical core with robot-manipulation foundation models; with diffusion or world-model results, it is a competitive second-tier choice."
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8243732"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8243732"

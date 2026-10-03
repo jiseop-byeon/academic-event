@@ -1,0 +1,52 @@
+id: isttt
+acronym: "ISTTT"
+name: "International Symposium on Transportation and Traffic Theory"
+organizer: "ISTTT International Advisory Committee (IAC); ISTTT27 hosted by The University of Queensland and The University of Sydney"
+fields: [transportation]
+community: transportation
+tier: 1
+frequency: biennial
+paper_format: "Two stages: an extended abstract first (2,000-3,000 words in ISTTT26; ISTTT27 templates to come), then a full paper with no page limit, written to the length and style of a Transportation Research journal article"
+proceedings: "No separate proceedings: selected papers are published in special issues of Transportation Research journals (ISTTT26: Parts A, B, C and E; ISTTT27 journals to be confirmed)"
+journal_track: "Every selected paper goes into a Transportation Research special issue after a journal-style review with one revision round"
+orientation:
+  contribution: -2
+  summary: "1959년부터 이어진 교통·교통류 이론 분야 최고 권위의 심포지엄으로, 교통류 이론, 네트워크 균형, 교통 제어, 수요·행동 모형처럼 이론과 방법론의 깊이를 가장 중시한다. 확장 초록 심사, 전체 논문 심사, 수정의 3단계를 거쳐 구두 발표 36편과 일부 포스터만 뽑고, 채택 논문은 Transportation Research 특별호에 실린다. 시스템 구현이나 사례 연구만으로는 경쟁력이 없다."
+  summary_en: "The most prestigious symposium in transportation and traffic theory, running since 1959; it prizes theoretical and methodological depth in traffic flow theory, network equilibrium, traffic control, and demand and behavior modeling. Through three stages (extended-abstract screening, full-paper review and a revision) it selects only 36 podium papers plus some posters, and accepted papers appear in Transportation Research special issues. A system build or case study alone does not compete."
+  values: ["theoretical depth", "mathematical modeling", "36 podium papers", "Transportation Research special issue"]
+fit: 1
+take: "교통 이론 최고 학회라 참고용으로 지켜볼 곳이며, 보행자-차량 상호작용을 다루는 새 이론 모형이 생길 때만 2027년 1월 15일 확장 초록 마감을 노려 볼 만하다."
+take_en: "The top venue in traffic theory, worth watching for reference; consider the January 15, 2027 extended-abstract deadline only if a new theoretical model of pedestrian-vehicle interaction emerges."
+editions:
+  - year: 2028
+    status: confirmed
+    start: 2028-07-03
+    end: 2028-07-06
+    city: "Brisbane"
+    country: AU
+    venue: "GHD Auditorium, Advanced Engineering Building, University of Queensland St Lucia campus"
+    lat: -27.47
+    lon: 153.03
+    url: "https://www.isttt2028.org/"
+    deadlines:
+      - {kind: abstract, date: 2027-01-15, label: "extended abstract (hard deadline)"}
+      - {kind: notification, date: 2027-04-01, label: "decision on the extended abstract"}
+      - {kind: paper, date: 2027-08-01, label: "full paper"}
+      - {kind: other, date: 2027-11-01, label: "first-round reviews"}
+      - {kind: other, date: 2028-01-15, label: "revised paper"}
+      - {kind: notification, date: 2028-03-15, label: "final notification"}
+    notes: "제27회 ISTTT. 7/2 사전 행사, 7/3–6 본행사이며 퀸즐랜드대·시드니대가 공동 주최한다. 확장 초록 마감(2027/1/15)은 연장 없는 마감으로 공지됐고, 초록 양식과 전체 논문 지침은 아직 나오지 않았다. 직전 ISTTT26(2026년 7월 뮌헨)은 마감을 두 차례 연장했었다."
+    notes_en: "The 27th ISTTT: a pre-symposium day on July 2, then July 3-6, co-hosted by the University of Queensland and the University of Sydney. The extended-abstract deadline (2027-01-15) is announced as a hard deadline; abstract templates and full-paper guidelines are not out yet. The previous ISTTT26 (Munich, July 2026) extended its deadlines twice."
+links:
+  home: "https://www.isttt2028.org/"
+  cfp: "https://www.isttt2028.org/submissions"
+  previous: "http://www.isttt2026.vtk.ed.tum.de/"
+sources:
+  - "https://www.isttt2028.org/"
+  - "https://www.isttt2028.org/submissions"
+  - "https://www.isttt2028.org/venue"
+  - "https://www.isttt2028.org/committee"
+  - "http://www.isttt2026.vtk.ed.tum.de/call.html"
+  - "http://www.isttt2026.vtk.ed.tum.de/news.html"
+  - "https://web.archive.org/web/20241213024236/https://limos.engin.umich.edu/isttt25/"
+last_verified: 2026-10-02

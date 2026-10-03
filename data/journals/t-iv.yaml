@@ -1,0 +1,42 @@
+id: t-iv
+abbr: "T-IV"
+name: "IEEE Transactions on Intelligent Vehicles"
+publisher: "IEEE (Intelligent Transportation Systems Society)"
+issn: "2379-8858"
+eissn: "2379-8904"
+fields: [transportation, navigation, vision, robotics, hri]
+community: transportation
+tier: 2
+metrics:
+  citescore: {value: 19.9, year: 2025, quartile: Q1, category: "Automotive Engineering", rank: "3/143"}
+  h5_index: {value: 85, year: 2025}
+review:
+  blind: single
+  speed_note: "최소 2명의 심사위원이 단일 익명으로 심사한다. 첫 결정까지 기간과 채택률은 공개돼 있지 않다. LetPub에 따르면 2026년 9월 24일 기준 Web of Science(SCIE)에서 'On Hold' 상태라 2026년 6월 JCR에 영향력 지수가 없다."
+  speed_note_en: "At least two reviewers under single-anonymous review. Time to first decision and acceptance rate are not published. According to LetPub, as of 2026-09-24 the journal is 'On Hold' in Web of Science (SCIE), so it has no impact factor in the June 2026 JCR."
+access: hybrid
+apc_usd: 2495
+length: "Regular 10 pages, practitioner 6, survey 18, perspectives/letters/communications normally 5; extra pages $175 each"
+article_types: ["regular", "practitioner", "survey", "perspective", "letter", "communication"]
+conference_link: "IV 2027의 저널 발표 트랙에서 2025–2027년 게재된 T-IV 논문을 발표할 수 있다(재심사 없음, 2026년 12월 1일까지 신청)."
+conference_link_en: "T-IV papers published in 2025-2027 can be presented through the IV 2027 journal-presentation track (no new review; requests by December 1, 2026)."
+orientation:
+  contribution: 0
+  summary: "자율주행을 중심으로 도로 환경의 지능형 차량을 다루는 IEEE ITSS 저널로, 혁신적 연구 개념과 응용 결과, 중요한 이론적 발견과 응용 사례 연구를 함께 싣는다. 인지·측위·계획·제어와 사람-차량 상호작용 논문이 많고, 실무자 논문 유형도 있다. 다만 Web of Science에서 'On Hold' 상태(LetPub 기준)라 2026년 JCR 영향력 지수가 없어, 평가 기준에 따라 실적 가치가 낮게 매겨질 수 있다."
+  summary_en: "The IEEE ITS Society's journal on intelligent vehicles in road environments, especially automated driving, publishing innovative research concepts and application results alongside significant theoretical findings and application case studies. Perception, localization, planning, control and human-vehicle interaction dominate, and there is a practitioner-paper type. However, it is 'On Hold' in Web of Science (per LetPub) and has no 2026 JCR impact factor, so some evaluators may discount it."
+  values: ["automated vehicles", "perception and planning", "application case studies", "WoS on hold"]
+fit: 2
+take: "보행자 보호·노변 인지 연구와 주제는 잘 맞지만 Web of Science 'On Hold' 상태가 풀릴 때까지는 T-ITS를 우선 고려하고, 투고 전에 등재 상태를 다시 확인하자."
+take_en: "Topically a good match for pedestrian-protection and roadside-perception work, but prefer T-ITS until its Web of Science 'On Hold' status is lifted, and recheck the indexing status before submitting."
+openalex_id: "S4210199657"
+links:
+  home: "https://ieee-itss.org/pub/t-iv/"
+  xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857"
+  submit: "https://ieee.atyponrex.com/journal/t-iv"
+sources:
+  - "https://ieee-itss.org/pub/t-iv/"
+  - "https://ieee-iv.org/2027/contributions/call-for-journal-presentations/"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=27111"   # Scopus CiteScore table (June 2026 release); JCR absence and SCIE 'On Hold' warning (checked by LetPub 2026-09-24)
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_transportation"
+  - "https://api.openalex.org/sources?filter=issn:2379-8858"
+last_verified: 2026-10-02

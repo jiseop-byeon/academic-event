@@ -13,9 +13,11 @@ proceedings: "Springer Proceedings in Advanced Robotics (SPAR)"
 orientation:
   contribution: -1
   summary: "IFRR가 주관하는 격년 소규모 단일 트랙 심포지엄(약 40편)으로, 새 연구 영역을 여는 선구적 연구나 기존 분야의 권위 있는 리뷰를 높이 산다. 건설 로봇은 '새로운 연구 영역 개척' 관점의 비전과 실험 결과를 함께 제시할 때 의미가 있으며, 박사 초년생의 초기 결과보다는 성숙한 연구 프로그램에 어울린다."
+  summary_en: "A small biennial single-track symposium (about 40 papers) run by the IFRR, it highly values pioneering research that opens a new research area and authoritative reviews of established fields. Construction robotics is meaningful here when presented with both a vision from the perspective of 'pioneering a new research area' and experimental results, and it suits a mature research program rather than the early results of an early-stage PhD student."
   values: ["pioneering research", "visionary perspectives", "single-track", "small and selective"]
 fit: 1
 take: "ISRR은 연구가 무르익은 박사 후반에 비전 논문으로 노릴 무대 — 지금은 2026 말라카 회차 프로그램을 동향 파악용으로 참고하는 정도면 충분."
+take_en: "ISRR is a venue to aim for with a vision paper in the later PhD years, once the research has matured — for now it is enough to consult the 2026 Malacca program to follow trends."
 editions:
   - year: 2026
     status: confirmed
@@ -32,9 +34,11 @@ editions:
       - {kind: notification, date: 2026-08-01}
       - {kind: camera-ready, date: 2026-09-15, label: "revised submission"}
     notes: "논문 마감 종료. 약 40편 단일 트랙, 참석 인원 제한(저자·초청자 우선). arXiv 공개는 허용되나 타 학회·저널 동시 투고 금지."
+    notes_en: "Paper deadline has passed. A single track of about 40 papers, with limited attendance (authors and invitees first). Posting on arXiv is allowed, but simultaneous submission to other conferences or journals is prohibited."
   - year: 2028
     status: estimated
     notes: "격년 개최(2022 제네바, 2024 롱비치, 2026 말라카)로 2028 회차가 예상되나 개최지·일정 미발표."
+    notes_en: "Held biennially (2022 Geneva, 2024 Long Beach, 2026 Malacca), so a 2028 edition is expected, but the location and schedule have not been announced."
 links:
   home: "https://isrr2026.su.domains/"
   cfp: "https://isrr2026.su.domains/call-for-papers/"

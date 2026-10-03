@@ -1,52 +1,59 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Academic Event Radar</title>
-<meta name="description" content="건설 Physical AI·로보틱스·컴퓨터 비전 연구자를 위한 학회·저널·인턴십·장학금 레이더. 에이전트가 공식 페이지를 확인해 매주 갱신합니다.">
+<meta name="description" content="Conferences, journals, internships and scholarships for construction physical AI, robotics, computer vision, transportation and AR — checked by agents and updated weekly.">
 <meta property="og:title" content="Academic Event Radar">
-<meta property="og:description" content="학회 마감·개최지, 저널 IF·성향, 인턴십 급여·요구 스킬, 장학금 자격·마감을 한곳에.">
+<meta property="og:description" content="Conference deadlines and host cities, journal impact factors and orientation, internship pay and skills, scholarship eligibility and deadlines.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jiseop-byeon.github.io/academic-event/">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="alternate" type="text/calendar" title="마감 캘린더" href="deadlines.ics">
+<link rel="alternate" type="text/calendar" title="Deadlines" href="deadlines.ics">
 <link rel="stylesheet" href="assets/style.css">
 <script>
-  /* apply a saved theme before first paint */
-  try { var t = JSON.parse(localStorage.getItem("aer.theme")); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  /* apply a saved theme and language before first paint */
+  try {
+    var t = JSON.parse(localStorage.getItem("aer.theme")); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    if (JSON.parse(localStorage.getItem("aer.lang")) === "ko") document.documentElement.lang = "ko";
+  } catch (e) {}
 </script>
 </head>
 <body>
-<a class="skip" href="#main">본문으로 건너뛰기</a>
+<a class="skip" href="#main" data-en="Skip to content" data-ko="본문으로 건너뛰기">Skip to content</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="#/">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><circle cx="16" cy="16" r="9.5" fill="none" stroke="var(--bg)" stroke-width="1.6" opacity=".55"/><circle cx="16" cy="16" r="5" fill="none" stroke="var(--bg)" stroke-width="1.6" opacity=".8"/><path d="M16 16 L24.5 9.5" stroke="var(--bg)" stroke-width="1.8" stroke-linecap="round"/><circle cx="21.5" cy="11.8" r="2.1" fill="#eb6834"/></svg>
-      <span>Academic Event Radar <small>학회 · 저널 · 인턴십 · 장학금</small></span>
+      <span>Academic Event Radar</span>
     </a>
     <span class="header-spacer"></span>
-    <nav class="nav" aria-label="주 메뉴">
-      <a href="#/" data-route="">대시보드</a>
-      <a href="#/conferences" data-route="conferences"><i class="cat-dot cat-conferences"></i>학회</a>
-      <a href="#/journals" data-route="journals"><i class="cat-dot cat-journals"></i>저널</a>
-      <a href="#/internships" data-route="internships"><i class="cat-dot cat-internships"></i>인턴십</a>
-      <a href="#/scholarships" data-route="scholarships"><i class="cat-dot cat-scholarships"></i>장학금</a>
-      <a href="#/calendar" data-route="calendar">캘린더</a>
-      <a href="#/about" data-route="about">소개</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-route="" data-en="Dashboard" data-ko="대시보드">Dashboard</a>
+      <a href="#/conferences" data-route="conferences"><i class="cat-dot cat-conferences"></i><span data-en="Conferences" data-ko="학회">Conferences</span></a>
+      <a href="#/journals" data-route="journals"><i class="cat-dot cat-journals"></i><span data-en="Journals" data-ko="저널">Journals</span></a>
+      <a href="#/internships" data-route="internships"><i class="cat-dot cat-internships"></i><span data-en="Internships" data-ko="인턴십">Internships</span></a>
+      <a href="#/scholarships" data-route="scholarships"><i class="cat-dot cat-scholarships"></i><span data-en="Scholarships" data-ko="장학금">Scholarships</span></a>
+      <a href="#/calendar" data-route="calendar" data-en="Calendar" data-ko="캘린더">Calendar</a>
+      <a href="#/about" data-route="about" data-en="About" data-ko="소개">About</a>
     </nav>
-    <button type="button" class="theme-btn" id="theme-btn" aria-label="테마 바꾸기"></button>
+    <div class="lang-seg" role="group" aria-label="Language / 언어">
+      <button type="button" data-lang-btn="en" aria-pressed="true" title="English">EN</button>
+      <button type="button" data-lang-btn="ko" aria-pressed="false" title="한국어">한</button>
+    </div>
+    <button type="button" class="theme-btn" id="theme-btn" aria-label="Theme"></button>
   </div>
 </header>
-<main id="main" class="wrap" tabindex="-1"><p class="loading">불러오는 중…</p></main>
+<main id="main" class="wrap" tabindex="-1"><p class="loading">Loading…</p></main>
 <footer class="site-footer wrap">
   <span id="foot-meta"></span>
   <a href="https://github.com/jiseop-byeon/academic-event">GitHub</a>
-  <a href="https://github.com/jiseop-byeon/academic-event/issues/new">오류 제보</a>
+  <a href="https://github.com/jiseop-byeon/academic-event/issues/new" data-en="Report a mistake" data-ko="오류 제보">Report a mistake</a>
   <a href="https://jiseop-byeon.github.io/phd-wiki/">Physical AI Notes</a>
   <a href="https://jiseop-byeon.github.io/">Jiseop Byeon</a>
-  <span>지원·투고 전에는 공식 페이지를 직접 확인하세요.</span>
+  <span data-en="Check the official page before you apply or submit." data-ko="지원·투고 전에는 공식 페이지를 직접 확인하세요.">Check the official page before you apply or submit.</span>
 </footer>
 <script src="assets/world.js" defer></script>
 <script src="assets/charts.js" defer></script>

@@ -1,0 +1,33 @@
+id: ijrr
+abbr: "IJRR"
+name: "The International Journal of Robotics Research"
+publisher: "SAGE Publishing"
+issn: "0278-3649"
+eissn: "1741-3176"
+fields: [robotics, manipulation, navigation, physical-ai]
+community: robotics
+tier: 1
+metrics:
+  jif: {value: 7.7, year: 2025}
+  jif_5y: {value: 9.8, year: 2025}
+  citescore: {value: 12.2, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "30/390"}
+  h5_index: {value: 71, year: 2025}
+access: hybrid
+orientation:
+  contribution: -1
+  summary: "로보틱스 최고 권위의 장편 저널로, 학회 논문 여러 편 분량의 연구를 이론·알고리즘·실험까지 완결된 형태로 정리한 논문을 싣는다. 주요 학회 논문을 크게 확장한 장편 논문이 많고 심사가 길고 엄격한 편이다. 건설 응용은 그 자체보다 일반적인 로보틱스 원리를 드러내는 깊이 있는 연구로 풀어내야 한다."
+  summary_en: "Robotics' most prestigious long-form journal, publishing complete accounts of research worth several conference papers, from theory and algorithms through experiments. Many papers are major extensions of top conference work, and review is long and rigorous. Construction applications must be framed as in-depth studies that reveal general robotics principles rather than as applications in their own right."
+  values: ["long-form comprehensive work", "theoretical depth", "rigorous experiments", "extended conference work"]
+fit: 2
+take: "박사 후반에 건설 접촉 조작 연구를 여러 편의 결과로 묶어 장편으로 완결할 때 노릴 곳이며, 빠른 발표와 학회 발표 연계가 필요하면 T-RO·RA-L이 낫다."
+take_en: "Aim here late in the PhD, when several results on contact-rich construction manipulation can be combined into one complete long-form paper; if you need fast publication and a conference presentation, T-RO or RA-L is better."
+openalex_id: "S73484101"
+links:
+  home: "https://journals.sagepub.com/home/ijr"
+sources:
+  - "https://www.bioxbio.com/journal/INT-J-ROBOT-RES"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:0278-3649"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S73484101,publication_year:2025&group_by=open_access.oa_status"
+  - "https://www.letpub.com.cn/index.php?journalid=3879&page=journalapp&view=detail"
+last_verified: 2026-10-02

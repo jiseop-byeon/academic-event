@@ -17,9 +17,11 @@ journal_track: "IEEE Transactions on Haptics (ToH) papers can be presented as po
 orientation:
   contribution: 0
   summary: "WHC가 없는 짝수 해에 북미에서 열리는 IEEE 햅틱 학회로, WHC와 같은 장치·촉각 센싱·지각·원격조작 주제를 다루되 규모가 작고 데모·Work-in-Progress 참여 기회가 많다. 건설 조작용 힘 피드백 원격조작이나 촉각 센서 연구를 햅틱 커뮤니티에 소개하는 용도로 맞지만, 로봇 조작 성능만으로는 기여가 약하게 보인다."
+  summary_en: "The IEEE haptics conference held in North America in even years, when there is no WHC; it covers the same topics as WHC (devices, tactile sensing, perception, teleoperation) but is smaller, with plenty of chances to take part through demos and Work-in-Progress. It suits introducing force-feedback teleoperation or tactile sensor research for construction manipulation to the haptics community, but robot manipulation performance alone looks like a weak contribution."
   values: ["haptic devices", "tactile sensing", "human perception", "hands-on demos"]
 fit: 1
 take: "Haptics Symposium은 WHC와 번갈아 열리는 북미 햅틱 학회로 다음 회차가 2028년이라, 당장은 WHC 2027을 우선하고 이것은 참고용으로만 둘 것."
+take_en: "Haptics Symposium is a North American haptics conference that alternates with WHC and its next edition is in 2028, so put WHC 2027 first for now and keep this one for reference only."
 editions:
   - year: 2028
     status: estimated
@@ -27,6 +29,7 @@ editions:
       - {kind: paper, date: 2027-10-13, tz: "AoE", estimated: true}
       - {kind: notification, date: 2027-12-19, estimated: true}
     notes: "2026 회차(네바다 리노, 3/29–4/1)는 종료. 개최지 미발표. 마감은 2024 회차(2023년 10/23, 연장)와 2026 회차(2025년 10/13 AoE, 통지 12/19) 패턴으로 추정."
+    notes_en: "The 2026 edition (Reno, Nevada, 3/29–4/1) has ended. Location not announced. Deadlines are estimated from the pattern of the 2024 edition (10/23 in 2023, extended) and the 2026 edition (10/13 AoE in 2025, notification 12/19)."
 links:
   home: "https://hapticssymposium.org/"
   cfp: "https://2026.hapticssymposium.org/presenting/papers/"

@@ -6,25 +6,32 @@ type: fellowship
 fields: [ml, vision, robotics]
 amount:
   summary: "2년간 학비·생활비·수수료 지원 (대학당 연 $1.1M 배정, 1인당 금액은 대학별 상이) + AWS 클라우드 크레딧 + Amazon 연구자 멘토링"
+  summary_en: "Two years of tuition, stipend and fees (about $1.1M per university per year; the per-student amount varies by university) + AWS cloud credits + mentoring by an Amazon scientist"
   covers: ["tuition", "stipend", "fees", "research", "mentorship"]
 duration: "2년 (2025–26, 2026–27 학년도)"
+duration_en: "2 years (academic years 2025–26 and 2026–27)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "9개 파트너 대학(CMU, JHU, MIT, Stanford, UC Berkeley, UCLA, UIUC, UT Austin, UW) 박사과정 재학생"
+  where_enrolled_en: "PhD students at the nine partner universities (CMU, JHU, MIT, Stanford, UC Berkeley, UCLA, UIUC, UT Austin, UW)"
   stage: "학년 조건 미공개 — 각 대학이 자체 기준으로 선발"
+  stage_en: "No year requirement published — each university selects by its own criteria"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "학생 공개 지원 절차 없음 — 대학이 Amazon 가이드(실용 AI 문제에 큰 임팩트)에 따라 선발하며 UT Austin은 2025년 1기 15명 선정. 학교 내부 추천 필요 — UT Austin 내부 마감은 학과/대학원에 확인. 국적 제한 명시 없음. UT Austin–Amazon Science Hub(Cockrell 소재)는 별도로 학년도 단위 1년 Ph.D. 펠로십을 자문위원회 선발로 운영(2023·2024·2025–26 기수)하며, 2025–26 명단에 CEPM(건설) 박사과정생의 해체 현장 로봇 연구가 포함됨. 현 프로그램 재원은 2026–27 학년도까지이며 후속 기수는 미발표."
+  notes_en: "No public student application — universities select fellows following Amazon's guidance (high impact on practical AI problems); UT Austin named 15 fellows in the first cohort (2025). University nomination required — check the UT Austin internal deadline with the department/graduate office. No nationality restriction stated. Separately, the UT Austin–Amazon Science Hub (housed in Cockrell) runs one-year, academic-year PhD fellowships chosen by its board of advisors (2023, 2024 and 2025–26 cohorts); the 2025–26 list includes a CEPM (construction) PhD student building robots for decommissioning sites. Current program funding runs through 2026–27 and no follow-on cohort has been announced."
 nomination: true
 awards_per_year: "전국 100명 이상(9개 대학), UT Austin 15명 (2025년 1기)"
 cycle:
   typical: "2025년 가을 대학별 선발 후 10월 21일 1기 발표, 2년(2025–26·2026–27) 지원 — 후속 기수 모집 미발표"
+  typical_en: "Universities selected fellows in fall 2025 and the first cohort was announced on October 21, 2025, funded for two years (2025–26, 2026–27) — no follow-on cohort announced"
   deadlines:
-    - {kind: result, date: 2025-10-21, label: "1기 펠로 발표(참고)"}
+    - {kind: result, date: 2025-10-21, label: "1기 펠로 발표(참고)", label_en: "First cohort announced (reference)"}
 status: closed
 fit: 2
 take: "공개 모집이 없으니 지도교수를 통해 UT–Amazon Science Hub 펠로십 선발 시기를 확인하고, 건설 현장 로봇 조작 연구로 Science Hub 추천을 받는 경로를 노려라."
+take_en: "There is no open call — ask your advisor when the UT–Amazon Science Hub fellowship selects, and aim for a Science Hub nomination with your construction-site robot manipulation research."
 links:
   home: "https://www.amazon.science/news/amazon-launches-68-million-ai-phd-fellowship-program"
   ut_science_hub: "https://sciencehub.utexas.edu/funding/"

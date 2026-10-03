@@ -1,0 +1,56 @@
+id: itsc
+acronym: "ITSC"
+name: "IEEE International Conference on Intelligent Transportation Systems"
+organizer: "IEEE Intelligent Transportation Systems Society (ITSS)"
+fields: [transportation, navigation, vision, ml, hri]
+community: transportation
+tier: 2
+rankings:
+  h5_index: 50
+  h5_year: 2025
+frequency: annual
+paper_format: "6 pages expected, up to 8 with 2 extra pages at a charge, IEEE double-column; the limit includes references and appendices (ITSC 2026 rule; the 2027 author page is still under construction)"
+review:
+  blind: double
+proceedings: "IEEE Xplore"
+journal_track: "Accepted papers presented at the conference are eligible for the journal special issues arranged for it (ITSC 2026 rule)"
+orientation:
+  contribution: 0
+  summary: "IEEE ITSS의 대표 연례 학회로, 교통 이론·데이터 기반 모델링·시뮬레이션부터 현장 실험과 실제 배치까지 지능형 교통 전반을 다룬다. 6쪽 IEEE 논문을 이중 익명으로 심사하며, 심사 지침상 새 접근법이나 탄탄한 실험 결과 모두 기여로 인정되고 SOTA보다 낮은 성능만으로는 떨어뜨리지 않는다. 자율주행·협력 주행, 인지·센싱, 교통안전 논문이 많고, 2026년에는 산업 기여를 위한 별도 트랙도 운영됐다."
+  summary_en: "The flagship annual conference of the IEEE ITS Society, covering intelligent transportation from theory, data-driven modeling and simulation to field tests and real deployments. Six-page IEEE papers get double-blind review; the reviewer guidelines count either a new approach or strong experimental results as a contribution, and below-SOTA performance alone is not grounds for rejection. Automated and cooperative driving, sensing and perception, and traffic safety dominate, and 2026 ran a dedicated industry track."
+  values: ["field tests", "connected and automated vehicles", "sensing and perception", "traffic safety"]
+fit: 2
+take: "노변 LiDAR 인지와 AR 경고를 묶은 교통안전 시스템을 6쪽 논문으로 내기 좋은 IEEE 학회이니, 2027년 3월 1일 마감인 ITSC 2027(보스턴)을 현장 실험 결과로 노려 보자."
+take_en: "A good IEEE venue for a six-page paper on a traffic-safety system that pairs roadside-LiDAR perception with AR warnings — aim at ITSC 2027 in Boston (deadline 2027-03-01) with field results."
+editions:
+  - year: 2027
+    status: confirmed
+    start: 2027-09-21
+    end: 2027-09-24
+    city: "Boston"
+    country: US
+    lat: 42.36
+    lon: -71.06
+    url: "https://ieee-itsc.org/2027/"
+    deadlines:
+      - {kind: other, date: 2026-12-01, label: "submission site opens"}
+      - {kind: other, date: 2027-02-01, label: "special session proposals"}
+      - {kind: workshop-proposal, date: 2027-03-01, label: "workshop and tutorial proposals"}
+      - {kind: paper, date: 2027-03-01, label: "regular and special session papers"}
+      - {kind: notification, date: 2027-05-01}
+      - {kind: camera-ready, date: 2027-05-31}
+    notes: "30회 기념 대회로, 1997년 첫 ITSC가 열린 보스턴으로 돌아간다. 공식 사이트에 마감 시각과 저자 안내는 아직 없으며, 2026년(나폴리)에는 3/1 23:59 PT 마감, 이중 익명 심사, 6쪽(+유료 2쪽) 규정이었다. 학회 전날에 워크숍·튜토리얼이 열린다."
+    notes_en: "The 30th edition returns to Boston, where the first ITSC was held in 1997. The official site does not yet give the deadline time or author instructions; in 2026 (Naples) the deadline was March 1, 23:59 PT, with double-blind review and 6 pages plus 2 paid pages. Workshops and tutorials run on a pre-conference day."
+links:
+  home: "https://ieee-itsc.org/2027/"
+  cfp: "https://ieee-itsc.org/2027/contributions/call-for-papers/"
+  society: "https://ieee-itss.org/conf/itsc/"
+sources:
+  - "https://ieee-itsc.org/2027/"
+  - "https://ieee-itsc.org/2027/contributions/call-for-papers/"
+  - "https://ieee-itsc.org/2027/contributions/reviews-guidelines/"
+  - "https://ieee-itsc.org/2026/contributions/information-for-authors/"
+  - "https://ieee-itsc.org/2026/contributions/call-for-papers/"
+  - "https://ieee-itsc.org/2026/welcome-message-from-the-conference-chairs/"
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Intelligent+Transportation+Systems"
+last_verified: 2026-10-02

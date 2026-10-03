@@ -22,10 +22,12 @@ skills: [python, cpp, imitation-learning, reinforcement-learning, control, found
 responsibilities: ["Design, implement and evaluate humanoid manipulation and loco-manipulation strategies", "Support data-collection pipelines and embodiment-agnostic representations for robotics foundation models", "Work toward a paper at a leading robotics conference or journal"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 전용. 제목은 Summer 2027이지만 본문에 'Fall 2026 internship' 문구가 남아 있어 실제 기간은 지원 시 확인 필요."
+eligibility_note_en: "No citizenship requirement in the posting. PhD students only. The title says Summer 2027 but the body still mentions a 'Fall 2026 internship' — confirm the actual dates when applying."
 status: open
 posted: 2026-09-27
 apply_url: "https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820"
 fit: 3
 take: "박사과정 전용·논문 게재를 목표로 하는 humanoid manipulation 인턴이라 contact-rich 조작 연구와 직결되고 시급($40–60)도 공개돼 있어 여름 인턴 1순위 후보로 지원할 만하다."
+take_en: "A PhD-only humanoid-manipulation internship aimed at publications — directly tied to contact-rich manipulation research, with posted pay ($40–60/h); a first-choice summer application."
 sources: ["https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820", "https://api.lever.co/v0/postings/field-ai?mode=json"]
 last_verified: 2026-10-02

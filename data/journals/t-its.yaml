@@ -1,0 +1,45 @@
+id: t-its
+abbr: "T-ITS"
+name: "IEEE Transactions on Intelligent Transportation Systems"
+publisher: "IEEE (Intelligent Transportation Systems Society)"
+issn: "1524-9050"
+eissn: "1558-0016"
+fields: [transportation, navigation, vision, ml, hri]
+community: transportation
+tier: 1
+metrics:
+  jif: {value: 9.1, year: 2025}
+  jif_5y: {value: 10.4, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 20.5, year: 2025, quartile: Q1, category: "Automotive Engineering", rank: "2/143"}
+  h5_index: {value: 163, year: 2025}
+review:
+  blind: single
+  speed_note: "최소 2명의 심사위원이 단일 익명으로 심사하며, 2022년부터 심사는 최대 3라운드(수정 기회 2번)로 제한되고 2차 수정 이후에는 대폭 수정(major revision)을 요구하지 않는다. 첫 결정까지 기간과 채택률은 공개돼 있지 않다."
+  speed_note_en: "At least two reviewers under single-anonymous review; since 2022 a submission gets at most three review rounds (two revisions), with no major revisions after the second round. Time to first decision and acceptance rate are not published."
+access: hybrid
+apc_usd: 2495
+length: "Suggested: regular 10 pages, short 6, practitioner 6, survey 18; up to 6 extra pages at $175 each"
+article_types: ["regular", "short", "practitioner", "survey"]
+conference_link: "IV 2027의 저널 발표 트랙에서 2025–2027년 게재된 T-ITS 논문을 발표할 수 있다(재심사 없음, 2026년 12월 1일까지 신청)."
+conference_link_en: "T-ITS papers published in 2025-2027 can be presented through the IV 2027 journal-presentation track (no new review; requests by December 1, 2026)."
+orientation:
+  contribution: 0
+  summary: "현대 교통 시스템의 센싱·통신·제어·계획·구현을 아우르는 IEEE 지능형 교통 분야 대표 저널로, Google Scholar 교통 분야 h5 지수 1위다. 모델링·시뮬레이션부터 AI·데이터 분석까지 방법은 열려 있지만 교통 시스템에 대한 분명한 적용을 보여야 하며, 실무자 논문(practitioner paper) 유형도 있어 현장 배치 연구도 받는다. 일반 비전·ML 논문을 교통 데이터에 적용만 한 원고는 적용 기여가 약하면 거절되기 쉽다."
+  summary_en: "IEEE's flagship journal for intelligent transportation, spanning sensing, communications, control, planning and deployment, and ranked first by Google Scholar h5-index in transportation. Methods are open, from modeling and simulation to AI and data analytics, but papers must show a clear application to transportation systems; a practitioner-paper type also welcomes deployment work. Generic vision or ML papers merely run on traffic data tend to be rejected if the application contribution is thin."
+  values: ["clear transportation application", "sensing and perception", "deployment-friendly", "high visibility"]
+fit: 2
+take: "노변 LiDAR 인지와 AR 경고 시스템을 실제 교차로 데이터로 검증한 결과를 저널로 낼 때 가장 현실적인 교통 분야 상위 저널이며, 채택 후 IV 저널 트랙으로 발표까지 이어갈 수 있다."
+take_en: "The most realistic top transportation journal for roadside-LiDAR perception and AR warnings validated on real intersection data, and an accepted paper can then be presented through the IV journal track."
+openalex_id: "S144771191"
+links:
+  home: "https://ieee-itss.org/pub/t-its/"
+  xplore: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979"
+  submit: "https://ieee.atyponrex.com/journal/t-its"
+sources:
+  - "https://ieee-itss.org/pub/t-its/"
+  - "https://ieee-iv.org/2027/contributions/call-for-journal-presentations/"
+  - "https://www.bioxbio.com/journal/IEEE-T-INTELL-TRANSP"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3398"   # five-year IF there is crowd-sourced (LetPub users); Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_transportation"
+  - "https://api.openalex.org/sources?filter=issn:1524-9050"
+last_verified: 2026-10-02

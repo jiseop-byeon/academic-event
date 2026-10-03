@@ -1,0 +1,45 @@
+id: waymo-human-behavior-analytics-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo Safety — Human Behavior Analytics (HBA)"
+title: "2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics"
+fields: [transportation, hri, xai, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "PhD intern hourly rate stated in the posting"
+required:
+  - "Strong research background and expertise in cognitive science and/or neuroscience"
+  - "Expertise in contemporary AI and machine learning"
+  - "Strong documented computational skills (math and coding)"
+  - "Actively enrolled in a PhD program"
+preferred:
+  - "Research experience in mechanistic interpretability"
+skills: [python, deep-learning]
+responsibilities:
+  - "Survey the state of the art in digital neuroscience / cognitive science and mechanistic interpretability"
+  - "Model aspects of human driving behavior that data-driven ML models usually miss, such as collision avoidance, road-user interaction and visual behavior"
+  - "Show how the internal mechanisms of these models can be interpreted and explained"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 차별 금지 명시). 박사과정 재학생 전용, 마운틴뷰 하이브리드 근무."
+eligibility_note_en: "No citizenship requirement in the posting (its EEO statement covers citizenship). PhD students only; hybrid in Mountain View."
+status: open
+posted: 2026-09-14
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8197899"
+fit: 2
+take: "사람 운전자의 충돌 회피·상호작용 행동을 모델링하고 그 내부 메커니즘을 설명하는 과제라 인간 의도와 설명 가능한 AI(XAI)를 교통안전에 잇는 드문 자리지만, 인지과학·신경과학 연구 배경을 요구하니 해당 경험이 있을 때 지원하라."
+take_en: "Models human drivers' collision-avoidance and interaction behavior and explains the models' internal mechanisms — a rare role joining human intent and explainable AI (XAI) in traffic safety, but it asks for a cognitive-science or neuroscience research background, so apply if you have one."
+notes: "HBA 팀은 Waymo Safety 소속으로 외부 학계와의 공동연구도 활발하다고 공고에 소개됨."
+notes_en: "The posting describes HBA as part of Waymo Safety, with extensive research collaborations with academic partners."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8197899"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8197899"
+last_verified: 2026-10-02

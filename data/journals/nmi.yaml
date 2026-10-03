@@ -3,26 +3,30 @@ abbr: "Nat. Mach. Intell."
 name: "Nature Machine Intelligence"
 publisher: "Springer Nature (Nature Portfolio)"
 eissn: "2522-5839"
-fields: [ml, robotics, physical-ai]
+fields: [ml, robotics, physical-ai, xai]
 community: ml
 tier: 1
 metrics:
   jif: {value: 29.8, year: 2025}
   jif_5y: {value: 36.0, year: 2025}
   sjr: {value: 6.902, year: 2025}
+  citescore: {year: 2025, quartile: Q1, category: "Human-Computer Interaction", rank: "2/196"}
   h5_index: {value: 130, year: 2025}
 review:
   first_decision_days: 10
   speed_note: "투고→첫 편집 결정 중앙값 10일(대부분 전문 에디터의 데스크 단계 판단), 투고→채택 중앙값 231일. 채택률은 공개되지 않는다."
+  speed_note_en: "Median 10 days from submission to first editorial decision (mostly desk-stage decisions by professional editors) and 231 days from submission to acceptance. The acceptance rate is not published."
 access: hybrid
 length: "Article: main text up to 3,500 words, up to 6 display items, about 50 references"
 article_types: ["article", "analysis", "review", "perspective", "reusability report"]
 orientation:
   contribution: 0
   summary: "Nature 계열의 ML·AI·로보틱스 저널로 학제적 파급력과 넓은 독자층에 대한 의의를 가장 중시하며, 전문 에디터가 데스크 단계에서 대부분을 거른다. 실제 환경에서 검증된 로봇 학습이나 과학·공학 문제를 바꾸는 AI 응용이 실릴 수 있지만, 본문 3,500단어·그림 6개 안에 강한 서사로 압축해야 한다."
+  summary_en: "A Nature Portfolio journal for ML, AI and robotics that prizes interdisciplinary impact and significance to a broad readership above all; professional editors filter out most submissions at the desk. Robot learning validated in real environments, or AI applications that change scientific and engineering problems, can get in, but must be compressed into a strong narrative of 3,500 words and six display items."
   values: ["broad significance", "interdisciplinary impact", "real-world validation"]
 fit: 2
 take: "실제 건설 현장에서 검증된 조작·로봇 학습처럼 학제적 파급력이 큰 결과가 나왔을 때 노릴 장기 목표 저널이다."
+take_en: "A long-term target for results with broad interdisciplinary impact, such as manipulation or robot learning validated on real construction sites."
 openalex_id: "S2912241403"
 links:
   home: "https://www.nature.com/natmachintell/"
@@ -30,6 +34,7 @@ links:
   guide: "https://www.nature.com/natmachintell/submission-guidelines"
   metrics: "https://www.nature.com/natmachintell/journal-impact"
 sources:
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=11172"
   - "https://www.nature.com/natmachintell/journal-impact"
   - "https://www.nature.com/natmachintell/content"
   - "https://www.nature.com/natmachintell/our-publishing-models"

@@ -3,7 +3,7 @@ company: "Honda Research Institute USA"
 org_type: lab
 team: "HRI-US (San Jose)"
 title: "Research Intern: Vision-Based Assessment of Human Proficiency and Skill Through Force Estimation"
-fields: [vision, haptics, ml]
+fields: [vision, hri, haptics, ml]
 degree: [phd, ms]
 season: "Winter/Spring 2027"
 start: "2027-01"
@@ -28,11 +28,14 @@ responsibilities:
   - "Develop vision-based force estimation baselines and proficiency metrics"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월. 본인이 피험자로 데이터 수집에 참여해야 함."
+eligibility_note_en: "No citizenship requirement in the posting. Preferred start 2027-01-11, 3 months. The intern must take part in data collection as a participant."
 status: open
 apply_url: "https://usa.honda-ri.com/-/research-intern-vision-based-assessment-of-human-proficiency-and-skill-through-force-estimation"
 fit: 2
 take: "영상만으로 작업자의 힘과 숙련도를 추정하는 과제라 건설 숙련공 작업 분석·시연 데이터 수집에 바로 응용되니, 센서 리그 구축 경험이 있으면 지원할 가치가 크다."
+take_en: "Estimating a worker's force and skill from video alone applies directly to analyzing skilled construction trades and collecting demonstrations; well worth applying with sensor-rig building experience."
 notes: "공고번호 P25INT-72, 게시일 미표기."
+notes_en: "Posting no. P25INT-72; posting date not shown."
 sources:
   - "https://usa.honda-ri.com/-/research-intern-vision-based-assessment-of-human-proficiency-and-skill-through-force-estimation"
   - "https://usa.honda-ri.com/intern-positions"

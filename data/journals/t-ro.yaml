@@ -1,0 +1,47 @@
+id: t-ro
+abbr: "T-RO"
+name: "IEEE Transactions on Robotics"
+publisher: "IEEE (Robotics and Automation Society)"
+issn: "1552-3098"
+eissn: "1941-0468"
+fields: [robotics, manipulation, navigation]
+community: robotics
+tier: 1
+metrics:
+  jif: {value: 11.1, year: 2025}
+  jif_5y: {value: 12.9, year: 2025}
+  citescore: {value: 20.0, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "12/390"}
+  h5_index: {value: 98, year: 2025}
+review:
+  blind: double
+  speed_note: "2025년 1월부터 이중 익명 심사를 한다. 데스크 리젝은 투고 후 3주 이내에 내리도록 규정돼 있고, 조건부 채택(CR/CC)이면 60일 안에 수정본을 내야 한다. 첫 결정까지 기간과 채택률은 저자 안내 페이지에 공개돼 있지 않다."
+  speed_note_en: "Double-anonymous review since January 2025. Desk rejections must be issued within three weeks of submission, and a conditional accept (CR/CC) requires a revision within 60 days. Time to first decision and the acceptance rate are not given on the author information page."
+access: hybrid
+apc_usd: 2800
+length: "Regular: up to 18 pages at first submission, final max 20 pages ($175/page beyond 12); survey: max 20 pages (charge beyond 14, proposal to EiC first); communication item: max 4 pages. No supplementary files."
+article_types: ["regular", "survey", "communication item"]
+conference_link: "채택된 정규 논문은 RAS 학회에서 발표할 수 있다: ICRA 2027(이관 기간 2026-03-01~2026-12-31), IROS 2027·CASE 2027(2026-08-01~2027-04-30), Humanoids 2027(2026-10-01~2027-06-30). 채택 후 270일 안에 이관해야 하며 한 학회에서만 발표한다."
+conference_link_en: "Accepted regular papers can be presented at an RAS conference: ICRA 2027 (transfer window 2026-03-01 to 2026-12-31), IROS 2027 and CASE 2027 (2026-08-01 to 2027-04-30), Humanoids 2027 (2026-10-01 to 2027-06-30). The transfer must happen within 270 days of acceptance, and a paper is presented at one conference only."
+orientation:
+  contribution: -1
+  summary: "로보틱스 전 분야의 최상위 저널로 이론·설계·알고리즘·실험을 아우르는 '주요 진전'을 요구하며, 기존 학회 논문을 살짝 확장한 원고는 받지 않는다. 이중 익명 심사에 보충자료도 받지 않아 본문만으로 설득해야 한다. 건설 응용 논문은 응용 자체보다 접촉이 많은 조작처럼 일반화 가능한 방법론적 기여와 철저한 실로봇 실험을 보여야 경쟁력이 있다."
+  summary_en: "The top journal across robotics, demanding 'major advances' spanning theory, design, algorithms and experiments; lightly extended conference papers are not accepted. Review is double-anonymous and no supplementary material is accepted, so the main text alone must convince. Construction application papers are competitive only if they show a generalizable methodological contribution, such as contact-rich manipulation, and thorough real-robot experiments, rather than the application itself."
+  values: ["major advances", "theory and experiments", "real-robot validation", "no supplementary material"]
+fit: 3
+take: "건설 접촉 조작에서 일반화 가능한 새 방법과 실로봇 검증이 쌓였을 때 노릴 최고 목표 저널이며, 채택되면 ICRA·IROS 발표 기회도 함께 얻는다."
+take_en: "The top target once you have a generalizable new method for contact-rich construction manipulation with solid real-robot validation; acceptance also brings the chance to present at ICRA or IROS."
+openalex_id: "S144620930"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860"
+  society: "https://www.ieee-ras.org/publications/t-ro/"
+  submit: "http://ras.papercept.net/journals/tro/scripts/login.pl"
+  guide: "https://www.ieee-ras.org/publications/t-ro/t-ro-information-for-authors/"
+sources:
+  - "https://www.ieee-ras.org/publications/t-ro/"
+  - "https://www.ieee-ras.org/publications/t-ro/t-ro-information-for-authors/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=8860"
+  - "https://www.bioxbio.com/journal/IEEE-T-ROBOT"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:1552-3098"
+  - "https://www.letpub.com.cn/index.php?journalid=3417&page=journalapp&view=detail"
+last_verified: 2026-10-02

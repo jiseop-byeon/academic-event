@@ -3,12 +3,34 @@
 One YAML file per item: `data/<category>/<id>.yaml`, where `<id>` is the file name
 (lowercase ASCII, words joined by `-`). `python3 scripts/validate.py` checks every rule below.
 
+Scope (owner's decision, 2026-10-02)
+
+- **Only prestigious venues and Q1 journals** — the ones every graduate student in the field knows.
+  No regional, second-tier or predatory venues. A journal must be Q1: JCR quartile from an official
+  page, or else the Scopus CiteScore quartile (record it as `metrics.citescore.quartile` with its
+  `category`). Fields covered: construction & civil (incl. transportation), robotics, physical AI,
+  manipulation, navigation/SLAM/sensor fusion, computer vision, AR/XR, HRI and human intent, haptics, ML,
+  explainable AI (XAI) and interpretability.
+- **Scholarships**: only ones a Korean national enrolled as an international *graduate* student at
+  a US university can apply for — civil, engineering or computer science (transportation included).
+  Leave out US-citizen-only, undergraduate-only and pre-enrollment-only programs.
+- **Internships**: MS/PhD level, open to international students (no US-citizen / US-person
+  requirement), in the fields above.
+
+Language: **English is the site's main language; Korean is the second.** Every Korean free-text
+field has an English twin with the suffix `_en`: `take_en`, `orientation.summary_en`,
+`editions[].notes_en`, `review.speed_note_en`, `conference_link_en`, `eligibility_note_en`,
+scholarship `amount.summary_en`, `duration_en`, `eligibility.where_enrolled_en`,
+`eligibility.stage_en`, `eligibility.notes_en`, `requirements_en`, `cycle.typical_en`, and a
+deadline's `label_en` when its `label` is Korean. Watchlist entries get `note_en`.
+
 General rules
 
 - Dates are `YYYY-MM-DD`. A month-only date (internship `start`) is the string `"YYYY-MM"`.
 - Double-quote every free-text string.
-- `fields:` uses the keys in `data/fields.yaml`: construction, robotics, physical-ai,
-  manipulation, navigation, vision, hri, haptics, ml (scholarships may use `any`).
+- `fields:` uses the keys in `data/fields.yaml`: construction, transportation, robotics,
+  physical-ai, manipulation, navigation, vision, ar, hri (incl. human intent), haptics, ml, xai
+  (explainable AI / interpretability) (scholarships may use `any`).
 - `country:` is an ISO 3166-1 alpha-2 code (`US`, `KR`, `AT`, `JP`, `DE`, …).
 - `lat`/`lon`: city centre, two decimals.
 - Omit a key you could not verify. Never write placeholders such as `"N/A"`, `"TBD"` or `null`.
@@ -30,7 +52,8 @@ Shared judgment scales (the editor's opinion; keep them consistent across items)
   `0` both a new method and a strong system are accepted (ICRA, IROS, RA-L) ·
   `+1` system integration and real-world validation valued; modest algorithmic novelty is fine
   (CASE, JFR, ISER) · `+2` an application, case study or deployed system is enough (ISARC, ASCE CRC).
-- `community` — the primary audience: `ml`, `vision`, `robotics`, `hri` (also haptics), `construction`.
+- `community` — the primary audience: `ml`, `vision`, `robotics`, `hri` (also haptics), `xr`
+  (AR/VR/HCI), `transportation`, `construction`.
 - `fit` — relevance to the site owner, 1…3. The owner is a Korean PhD student in civil/construction
   engineering at a US university (UT Austin, PhD year 1), working on construction physical AI:
   contact-rich manipulation in construction (core), navigation and HRI (support), with perception.
@@ -128,7 +151,7 @@ metrics:                        # each key optional; year = the data year (JCR 2
   jif: {value: 10.5, year: 2024}
   jif_5y: {value: 11.2, year: 2024}
   jcr_quartile: {value: Q1, category: "Robotics", year: 2024}
-  citescore: {value: 17.6, year: 2024}
+  citescore: {value: 17.6, year: 2024, quartile: Q1, category: "Control and Systems Engineering", rank: "5/390"}
   sjr: {value: 3.1, quartile: Q1, category: "Computer Science Applications", year: 2024}
   h_index: 234                  # SCImago h-index
   h5_index: {value: 120, year: 2025}            # Google Scholar Metrics (useful where there is no JIF)

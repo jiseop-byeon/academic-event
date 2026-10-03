@@ -16,6 +16,7 @@ pay:
   unit: hour
   source: posting
   note: "석사 $70, 박사 $85 시급(공고 기재)"
+  note_en: "hourly: MS $70, PhD $85 (stated in the posting)"
 required:
   - "PhD in CS, Robotics or similar, or MS with a strong publication record"
   - "Python"
@@ -29,12 +30,15 @@ responsibilities:
   - "Train and evaluate on Waymo driving logs with large-scale ML infrastructure"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View."
 status: open
 posted: 2026-09-25
 apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8227411"
 fit: 2
 take: "3D 인식·occupancy 실적이 있으면 해볼 만하지만 조작 중심 연구와는 거리가 있어 보조 지원처로 두라."
+take_en: "Worth a try with 3D perception or occupancy results, but far from manipulation-centered research; keep it as a backup."
 notes: "같은 시기 'PhD, Machine Learning, Computer Vision' 인턴 2건(데이터 큐레이션·VLM 라벨링 중심, 시급 $85)도 열려 있음."
+notes_en: "Two 'PhD, Machine Learning, Computer Vision' internships from the same period (data curation and VLM labeling, $85/h) are also open."
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8227411"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8227411"

@@ -5,6 +5,9 @@
   "use strict";
   var NS = "http://www.w3.org/2000/svg";
   var active = [];
+  function L(en, ko) { return window.AER_LANG === "ko" ? ko : en; }
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function monthTick(m) { return L(MON[m.getMonth()], (m.getMonth() + 1) + "월"); }
 
   function svg(tag, attrs, parent) {
     var n = document.createElementNS(NS, tag);
@@ -100,7 +103,7 @@
     g.appendChild(el("h3", null, opts.title));
     if (opts.subtitle) g.appendChild(el("p", null, opts.subtitle));
     head.appendChild(g);
-    var btn = el("button", "view-btn", "표로 보기");
+    var btn = el("button", "view-btn", L("Table view", "표로 보기"));
     btn.type = "button";
     head.appendChild(btn);
     fig.appendChild(head);
@@ -144,7 +147,7 @@
       if (showTable && !tbl.firstChild) tbl.appendChild(renderTable(opts.table()));
       tbl.hidden = !showTable;
       outer.hidden = showTable;
-      btn.textContent = showTable ? "차트로 보기" : "표로 보기";
+      btn.textContent = showTable ? L("Chart view", "차트로 보기") : L("Table view", "표로 보기");
       if (!showTable) entry.draw(true);
     });
     return fig;
@@ -207,7 +210,7 @@
       var x = X(m), jan = m.getMonth() === 0;
       svg("line", { x1: x, x2: x, y1: top - 6, y2: H - 6, class: "grid-line" }, root);
       if (jan) svg("line", { x1: x, x2: x, y1: top - 18, y2: H - 6, class: "ax-line" }, root);
-      if (i % every === 0 || jan) text(root, x + 3, top - 9, (m.getMonth() + 1) + "월", "tick-label");
+      if (i % every === 0 || jan) text(root, x + 3, top - 9, monthTick(m), "tick-label");
       if (jan || i === 0) text(root, x + 3, top - 22, String(m.getFullYear()), "tick-label", { "font-weight": 650 });
     });
     svg("line", { x1: x0, x2: x1, y1: top - 4, y2: top - 4, class: "ax-line" }, root);
@@ -251,7 +254,7 @@
     if (opts.today && opts.today >= opts.start && opts.today <= opts.end) {
       var tx = X(opts.today);
       svg("line", { x1: tx, x2: tx, y1: top - 4, y2: H - 4, class: "today-line" }, root);
-      text(root, tx + 3, H - 1, "오늘", "today-label");
+      text(root, tx + 3, H - 1, L("Today", "오늘"), "today-label");
     }
     return root;
   }
@@ -287,8 +290,8 @@
       svg("line", { x1: X(v), x2: X(v), y1: top - 4, y2: H - bottom + 2, class: v === 0 ? "ax-line" : "grid-line" }, root);
       text(root, X(v), H - 8, (v > 0 ? "+" : "") + v, "tick-label", { "text-anchor": "middle" });
     });
-    text(root, x0, top - 12, "← 알고리즘·이론", "tick-label", { "font-weight": 650 });
-    text(root, x1, top - 12, "시스템·응용 →", "tick-label", { "text-anchor": "end", "font-weight": 650 });
+    text(root, x0, top - 12, L("← algorithm · theory", "← 알고리즘·이론"), "tick-label", { "font-weight": 650 });
+    text(root, x1, top - 12, L("system · application →", "시스템·응용 →"), "tick-label", { "text-anchor": "end", "font-weight": 650 });
     lanes.forEach(function (l, i) {
       var ly = laneY[l.key];
       if (i > 0) svg("line", { x1: 0, x2: w, y1: ly, y2: ly, class: "grid-line" }, root);
@@ -383,7 +386,7 @@
   function worldMap(div, w, hosts, points, opts) {
     opts = opts || {};
     var W = window.WORLD;
-    if (!W) { div.appendChild(el("p", "muted", "지도를 불러오지 못했습니다.")); return null; }
+    if (!W) { div.appendChild(el("p", "muted", L("The map could not be loaded.", "지도를 불러오지 못했습니다."))); return null; }
     var k = w / W.w, H = Math.round(W.h * k);
     var root = svg("svg", { width: w, height: H, viewBox: "0 0 " + W.w + " " + W.h, role: "img", "aria-label": opts.aria || "world map" }, div);
     var land = svg("g", null, root);
@@ -453,7 +456,7 @@
     if (opts.today) {
       var tx = X(opts.today.getTime());
       svg("line", { x1: tx, x2: tx, y1: cy - 26, y2: cy + 30, class: "today-line" }, root);
-      text(root, tx + 3, H - 4, "오늘", "today-label");
+      text(root, tx + 3, H - 4, L("Today", "오늘"), "today-label");
     }
     return root;
   }

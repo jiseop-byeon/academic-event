@@ -18,6 +18,7 @@ pay:
   unit: month
   source: posting
   note: "공고 기재 월 급여 범위(6–8K/월)"
+  note_en: "monthly pay range stated in the posting (6–8K per month)"
 required:
   - "Graduate student with research experience in robotics, embodied AI, ML or CV"
   - "PyTorch or JAX; strong Python"
@@ -34,11 +35,14 @@ responsibilities:
   - "Learning from demonstrations and teleoperation; sim-to-real deployment"
 citizenship: none
 eligibility_note: "공고 공통 문구: 미국 내 완전한 근무 자격과 수출통제 대상 기술 접근 허가가 고용 조건(필요 시 수출 라이선스 취득)이며 MERL이 필요한 경우 이민 관련 지원을 제공한다고 명시. 시민권 제한 문구는 없음."
+eligibility_note_en: "Common MERL posting language: employment requires full US work authorization and clearance to access export-controlled technology (an export license is obtained if needed), and MERL states it provides immigration support where needed. No citizenship restriction."
 status: open
 apply_url: "https://merl.clearcompany.com/careers/jobs/e620640e-7cf0-5449-b4b3-b5b90dbadbd9/apply"
 fit: 3
 take: "조립·공구 사용·덱스터러스 조작을 휴머노이드로 푸는 과제라 건설 작업 조작과 문제 설정이 거의 같으니 바로 지원하라."
+take_en: "Assembly, tool use and dexterous manipulation on humanoids — nearly the same problem setting as construction-task manipulation, so apply now."
 notes: "게시일 미표기. 시작일 유연, 목표는 CoRL·RSS·ICRA 등 논문 게재."
+notes_en: "Posting date not shown. Flexible start; the goal is publication at CoRL, RSS, ICRA or similar."
 sources:
   - "https://www.merl.com/employment/internship-openings#CI0314"
   - "https://merl.clearcompany.com/careers/jobs/e620640e-7cf0-5449-b4b3-b5b90dbadbd9/apply"

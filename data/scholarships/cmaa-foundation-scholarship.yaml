@@ -6,23 +6,31 @@ type: scholarship
 fields: [construction]
 amount:
   summary: "연 1–4명 선정, 장학금 총액 연 최대 $10,000 (1인당 금액 비공개); 수혜 후 2년 내 CMIT(Construction Manager-in-Training) 자격 응시료 지원"
+  summary_en: "1–4 awards a year with total scholarship value capped at $10,000/year (per-award amount not published); the CMIT (Construction Manager-in-Training) exam fee is covered within two years of the award"
 duration: "1년 (1회 추가 재지원 가능)"
+duration_en: "1 year (one additional reapplication allowed)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "미국 소재·미국 지역 인증기관 인가 대학(2년제·4년제)에서 건설관리 진로로 이어지는 과정(건설관리·건설기술·건설공학·건설과학·건축·토목공학 등) 재학"
+  where_enrolled_en: "Enrolled at a regionally accredited US college or university (2- or 4-year) in a program leading to construction management (construction management, construction technology/engineering/science, architecture, civil engineering, etc.)"
   stage: "중등 이후 교육을 최소 1학년도 이수하고 학위 취득까지 최소 1학년도가 남은 학부·대학원생"
+  stage_en: "Undergraduate or graduate students who have completed at least one year of post-secondary study and have at least one academic year left before their degree"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "국적 요건 명시 없음. 건설관리(CM) 진로 의지가 핵심 심사 기준이며 CMAA 학생지부 회원, ASC 회원교 재학생, ABET 인증 CM 과정 재학생을 우대함(공개된 재단 지침 기준). 같은 재단이 Erica Lynn First Generation Scholarship(1세대 대학생, 대학원생 가능), Francis M. Keville Scholarship(여성), Fellows Scholarship도 운영하며 2026년 회차는 모두 마감됨."
+  notes_en: "No nationality requirement stated. Commitment to construction management (CM) is a key criterion; CMAA student-chapter members, students at ASC member schools and ABET-accredited CM programs are preferred (per the published foundation guidelines). The foundation also runs the Erica Lynn First Generation Scholarship (first-generation students; graduate students eligible), the Francis M. Keville Scholarship (women) and a Fellows Scholarship — all 2026 cycles are closed."
 requirements: ["지원서 (연락처·재학·활동·경력)", "서명한 확인서 (attestation)", "에세이 (1,200단어 이내: 진로 계획·CM 커리어 의지)", "추천서 2부 (1부는 교수)", "전 재학 기관 성적증명서"]
+requirements_en: ["Application form (contact, enrollment, activities, experience)", "Signed attestation", "Essay (up to 1,200 words on goals and commitment to CM)", "Two recommendation letters (one from a faculty member)", "Transcripts from all institutions attended"]
 nomination: false
 awards_per_year: "연 1–4명 (2023년엔 재단 장학금 전체 5명)"
 cycle:
   typical: "연 1회 모집 (2023년 회차는 4월 30일 마감); 2026년 회차는 마감됐고 2027년 일정은 미공지"
+  typical_en: "One call a year (the 2023 round closed April 30); the 2026 round is closed and the 2027 schedule is not yet posted"
 status: upcoming
 fit: 2
 take: "국적 제한은 없지만 연 1–4명·총 $10,000 규모에 건설관리(CM) 진로 의지가 핵심 심사 기준이라, 2027년 공고가 나오면 현장 자동화의 CM 활용 관점 에세이로 지원할 보조 후보다."
+take_en: "No nationality restriction, but with 1–4 awards, a $10,000 total and CM commitment as the key criterion, it is a secondary option — when the 2027 call appears, apply with an essay on how site automation serves construction management."
 links:
   home: "https://cmaanet.org/foundation"
 sources:

@@ -16,9 +16,11 @@ skills: [python, pytorch, jax, ros2, reinforcement-learning, imitation-learning,
 responsibilities: ["Design, implement and improve RL and IL algorithms for dexterous manipulation", "Improve sample efficiency and scalability of existing implementations", "Build training and data-collection pipelines for physical robot deployment"]
 citizenship: local-work-permit
 eligibility_note: "캐나다 밴쿠버 현지 근무라 캐나다 취업 허가가 필요함. 공고에 급여·근무 허가·게시일이 명시되지 않음. 시작 시기와 기간은 유연."
+eligibility_note_en: "Onsite in Vancouver, Canada, so Canadian work authorization is needed; the posting itself states no pay, work-permit condition or posting date. Start date and duration are flexible."
 status: open
 apply_url: "https://careers.kula.ai/sanctuary-ai/33158-machine-learning-research-intern-reinforcement-imitation-learning"
 fit: 2
 take: "dexterous manipulation용 RL/IL 연구 인턴이라 주제는 핵심과 맞지만 캐나다 현지 근무 허가가 필요해, 허가 절차를 감당할 수 있을 때만 지원할 만하다."
+take_en: "An RL/IL research internship for dexterous manipulation — on the core topic, but it needs Canadian work authorization; apply only if the permit process is manageable."
 sources: ["https://careers.kula.ai/sanctuary-ai/33158-machine-learning-research-intern-reinforcement-imitation-learning", "https://careers.kula.ai/sanctuary-ai"]
 last_verified: 2026-10-02

@@ -10,14 +10,16 @@ tier: 2
 metrics:
   jif: {value: 5.5, year: 2025}
   jif_5y: {value: 5.8, year: 2025}
-  citescore: {value: 8.2, year: 2025}
+  citescore: {value: 8.2, year: 2025, quartile: Q1, category: "Building and Construction", rank: "35/258"}
 access: hybrid
 orientation:
   contribution: 1
   summary: "ASCE 건설연구소(CI)가 후원하는 월간 CEM 대표 저널로 공정·계약·안전·생산성·인력·기술 도입을 폭넓게 다룬다. 설문·사례·데이터 분석 같은 실증 연구가 주류이고 기술 논문도 받지만, 기술 자체보다 건설 관리·생산성에 대한 함의를 분명히 보여 줘야 한다. 순수 로봇 제어·조작 논문은 범위에서 벗어나기 쉽다."
+  summary_en: "The flagship monthly CEM journal sponsored by ASCE's Construction Institute (CI), covering scheduling, contracts, safety, productivity, workforce and technology adoption. Empirical studies such as surveys, case studies and data analyses dominate; technical papers are accepted but must show clear implications for construction management and productivity rather than for the technology itself. Pure robot control or manipulation papers are likely to fall outside its scope."
   values: ["construction management relevance", "empirical studies", "practical implications", "ASCE community"]
 fit: 2
 take: "로봇 기술 논문보다는 로봇 도입의 생산성·안전 효과나 현장 적용 분석처럼 관리 측면 결과가 나올 때 노릴 저널이다."
+take_en: "Aim here for management-side results, such as the productivity and safety effects of adopting robots or analyses of field deployment, rather than for robot technology papers."
 openalex_id: "S2764777209"
 links:
   home: "https://ascelibrary.org/journal/jcemd4"
@@ -26,4 +28,5 @@ sources:
   - "https://web.archive.org/web/20260701165820/https://ascelibrary.org/journal/jcemd4"
   - "https://www.bioxbio.com/journal/J-CONSTR-ENG-M"
   - "https://api.openalex.org/sources/S2764777209"
+  - "https://www.letpub.com.cn/index.php?journalid=4378&page=journalapp&view=detail"
 last_verified: 2026-10-02

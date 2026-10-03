@@ -24,6 +24,7 @@ pay:
   unit: year
   source: posting
   note: "시애틀 기준 연 환산 기본급(공고 기재 단일 금액)"
+  note_en: "annualized base pay for Seattle (single figure in the posting)"
 required:
   - "Enrolled in a PhD"
   - "Programming in Java, Python, C or C++"
@@ -39,12 +40,15 @@ responsibilities:
   - "Deploy computer vision solutions to production with cross-functional teams"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학, 풀타임·이주 가능 조건. 근무지는 시애틀 외 다수 도시 중 배정."
+eligibility_note_en: "No citizenship requirement in the posting. Must be enrolled in a PhD program and able to work full time and relocate. Location is assigned among Seattle and several other cities."
 status: open
 posted: 2026-09-30
 apply_url: "https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting"
 fit: 2
 take: "팀 배정이 랜덤에 가까운 일반 CV 풀이라 로봇 팀에 걸릴 확률은 낮으니, 3D 인식·현장 영상 실적이 있을 때 FAR 공고와 함께 보조로 넣어라."
+take_en: "A general CV pool with near-random team matching, so the odds of landing a robotics team are low; apply as a backup alongside the FAR posting if you have 3D perception or site-video results."
 notes: "직무 ID 10564601. 같은 날 RL & Optimization, Gen AI 등 다른 박사 과학 인턴 풀 공고도 게시됨."
+notes_en: "Job ID 10564601. Other PhD science intern pool postings (RL & Optimization, Gen AI and more) went up the same day."
 sources:
   - "https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting"
 last_verified: 2026-10-02

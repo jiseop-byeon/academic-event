@@ -3,7 +3,7 @@ company: "Bedrock Robotics"
 org_type: construction-robotics
 team: "Behavior ML"
 title: "2027 Internship Behavior Machine Learning Engineer, World Models"
-fields: [construction, physical-ai, ml, robotics]
+fields: [construction, physical-ai, hri, ml, robotics]
 degree: [phd, ms, bs]
 season: "2027 (term not stated)"
 locations:
@@ -15,10 +15,12 @@ skills: [python, pytorch, world-models, foundation-models, reinforcement-learnin
 responsibilities: ["Train and evaluate world models on real fleet data from autonomous excavators (soil dynamics, machine interactions, people on site)", "Run architecture explorations and ablations and build evaluation harnesses", "Connect model outputs to planning and control with the Behavior and Controls teams"]
 citizenship: none
 eligibility_note: "공고에 시민권·영주권 요건이 없음. BS·MS·PhD 재학생 모두 지원 가능하며 미국 내 근무 자격만 있으면 됨. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Open to BS, MS and PhD students; only US work authorization is needed. Pay and duration are not stated."
 status: open
 posted: 2026-09-10
 apply_url: "https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1"
 fit: 3
 take: "굴삭으로 계속 바뀌는 토사·장비·작업자 상황을 예측하는 world model은 건설 physical AI의 핵심 난제라, manipulation 정책 포지션과 함께 묶어 지원할 만하다."
+take_en: "A world model that predicts soil, machines and workers as excavation reshapes the site is a core problem of construction physical AI; apply together with the manipulation-policy role."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
 last_verified: 2026-10-02

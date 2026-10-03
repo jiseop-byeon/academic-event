@@ -6,30 +6,38 @@ type: travel-grant
 fields: [robotics, physical-ai, manipulation, ml]
 amount:
   summary: "무료 등록 + 주최 측이 예약·결제하는 호텔(수혜자 2인 1실) + 항공·교통비 US$500 (CoRL 2026 기준; 2025년은 US$1,000 단위 부분 지원)"
+  summary_en: "Free registration + a hotel room booked and paid by the organizers (shared with another awardee) + US$500 toward airfare and travel (CoRL 2026; partial support in US$1,000 units in 2025)"
   value: 500
   currency: USD
   unit: one-time
   covers: ["registration", "lodging", "travel"]
 duration: "CoRL 학회 1회 참가"
+duration_en: "One CoRL conference"
 eligibility:
   nationality: ["any"]
   where_enrolled: "제한 없음"
+  where_enrolled_en: "No restriction"
   stage: "학생 및 초기 경력 연구자"
+  stage_en: "Students and early-career researchers"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "비용 부담 때문에 현장 참석이 어려운 학생·초기 연구자를 돕는 취지이며 논문 채택·국적 요건은 명시되지 않음. 별도로 CoRL 2025는 학생 자원봉사자(6–8시간 이상 봉사)에게 본 학회 등록비를 면제함."
+  notes_en: "Meant for students and early-career researchers for whom cost is a barrier to attending in person; no paper-acceptance or nationality requirement stated. Separately, CoRL 2025 waived main-conference registration for student volunteers (6–8+ hours of service)."
 requirements: ["온라인 신청서 (약 12–15분 소요)"]
+requirements_en: ["Online application form (about 12–15 minutes)"]
 nomination: false
 cycle:
   typical: "학회 5–6주 전 마감, 마감 1–2주 뒤 결과 통보 (2025: 8/15 마감·9/27 개최, 2026: 10/5 마감·11/9 개최)"
+  typical_en: "Deadline 5–6 weeks before the conference, decisions 1–2 weeks later (2025: Aug 15 deadline, Sep 27 conference; 2026: Oct 5 deadline, Nov 9 conference)"
   deadlines:
-    - {kind: application, date: 2026-10-05, tz: "AoE", time: "23:59", label: "CoRL 2026(오스틴, 11/9–12) 트래블 그랜트 신청 마감"}
-    - {kind: result, date: 2026-10-15, label: "CoRL 2026 선정 결과 통보"}
+    - {kind: application, date: 2026-10-05, tz: "AoE", time: "23:59", label: "CoRL 2026(오스틴, 11/9–12) 트래블 그랜트 신청 마감", label_en: "CoRL 2026 (Austin, Nov 9–12) travel grant deadline"}
+    - {kind: result, date: 2026-10-15, label: "CoRL 2026 선정 결과 통보", label_en: "CoRL 2026 decisions"}
 status: open
 apply_url: "https://2026.corl.org/attending/inclusion-at-corl"
 fit: 3
 take: "마감(10월 5일 AoE)이 사흘 남았으니 오늘 신청 — CoRL 2026이 오스틴에서 열려 항공·숙박보다 무료 등록이 핵심 혜택이다."
+take_en: "The deadline (Oct 5 AoE) is three days away, so apply today — CoRL 2026 is in Austin, so the free registration matters more than airfare or lodging."
 links:
   home: "https://2026.corl.org/attending/inclusion-at-corl"
 sources:

@@ -19,6 +19,7 @@ pay:
   unit: month
   source: posting
   note: "미국 월 기본급 범위(공고 기재)"
+  note_en: "US monthly base-pay range (stated in the posting)"
 required:
   - "PhD (in progress) in CS, CE, AI, Robotics, CV, ML or related"
   - "Research in robotics, embodied AI, sim-to-real, learning from demonstration, RL, dexterous manipulation, VLMs or related"
@@ -36,11 +37,14 @@ responsibilities:
   - "Build and benchmark new capabilities with intermediate milestones"
 citizenship: none
 eligibility_note: "시민권 요건 없음 — 입사 시점에 고용 국가의 근무 허가를 확보·유지하는 것이 조건. 학위 과정 복귀 예정자 우대."
+eligibility_note_en: "No citizenship requirement — must obtain and maintain work authorization in the country of employment at hire. Preference for candidates returning to their degree program afterwards."
 status: open
 apply_url: "https://www.metacareers.com/profile/job_details/1940312740718917/"
 fit: 3
 take: "덱스터러스·모바일 조작과 촉각 멀티모달을 명시한 MSL 로보틱스 박사 인턴이라 직결 타깃이니 1저자 로봇 논문을 앞세워 바로 지원하라."
+take_en: "An MSL robotics PhD internship that names dexterous and mobile manipulation and multimodal touch — a direct target; lead with first-author robotics papers and apply now."
 notes: "게시일 비공개(JS 렌더링 페이지에서 확인). 2026-10-02 기준 Meta의 'Internship - PhD' 공고는 3건뿐이고 Reality Labs 로보틱스 인턴은 미게시."
+notes_en: "Posting date not shown (read from a JS-rendered page). As of 2026-10-02 Meta has only three 'Internship - PhD' postings, and no Reality Labs robotics internship is posted."
 sources:
   - "https://www.metacareers.com/profile/job_details/1940312740718917/"
   - "https://www.metacareers.com/jobsearch/?teams[0]=Internship%20-%20PhD"

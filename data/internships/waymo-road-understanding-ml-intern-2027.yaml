@@ -16,6 +16,7 @@ pay:
   unit: hour
   source: posting
   note: "박사 인턴 시급(공고 기재)"
+  note_en: "PhD intern hourly rate (stated in the posting)"
 required:
   - "Pursuing a PhD in CS, Robotics, EE, ML or related"
   - "Python with PyTorch, JAX or TensorFlow"
@@ -32,11 +33,13 @@ responsibilities:
   - "Benchmark topological accuracy and analyze failure cases"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View."
 status: open
 posted: 2026-09-23
 apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8224746"
 fit: 2
 take: "공사 구간(construction zone) 처리까지 다루는 도로 이해 과제라 건설 맥락을 살릴 여지는 있지만 조작 연구와 멀어 보조로만 지원하라."
+take_en: "Road understanding that includes handling construction zones leaves room to use the construction angle, but it is far from manipulation research; apply only as a backup."
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8224746"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8224746"

@@ -20,9 +20,11 @@ attendance: "~12,200 registrants (2026)"
 orientation:
   contribution: -1
   summary: "컴퓨터 비전 최상위 학회로, 새로운 방법론과 공개 벤치마크에서의 정량적 우위, 철저한 ablation을 가장 높이 산다. 별도의 응용·데이터셋 트랙이 없어 건설 현장 인식 논문도 같은 기준으로 심사되므로 '건설에 적용했다'만으로는 novelty 부족·baseline 비교 부족 지적을 받기 쉽고, 새 데이터셋·벤치마크라면 규모와 일반화 가능한 문제 정의가 필요하다."
+  summary_en: "The top computer vision conference, it values most a new methodology, a quantitative edge on public benchmarks, and thorough ablations. With no separate application or dataset track, construction-site perception papers are reviewed by the same standard, so 'we applied it to construction' alone easily draws comments about insufficient novelty and baseline comparisons; a new dataset or benchmark needs scale and a problem definition that generalizes."
   values: ["methodological novelty", "SOTA benchmark results", "large-scale datasets", "thorough ablations"]
 fit: 2
 take: "조작이 핵심인 지금 1순위 타깃은 아니지만, 건설 현장 인식 데이터셋·벤치마크를 일반화 가능한 방법과 묶어 낼 수 있다면 2026-11-16 마감에 도전할 가치가 있다."
+take_en: "Not the No. 1 target now that manipulation is the core focus, but worth a shot at the 2026-11-16 deadline if a construction-site perception dataset or benchmark can be paired with a generalizable method."
 editions:
   - year: 2027
     status: confirmed
@@ -42,6 +44,7 @@ editions:
       - {kind: rebuttal, date: 2027-02-01, tz: "AoE", label: "Rebuttal period Jan 25 – Feb 1"}
       - {kind: notification, date: 2027-02-25, tz: "AoE"}
     notes: "워크숍·튜토리얼 6/20–21, 본회의 6/22–25(CVPR 2027 Dates 페이지 기준). CVF 메인 페이지와 CVPR 2026 폐막 보도자료는 6/20–24로 표기해 종료일이 하루 다르다. 제출 마감은 연장 없음이 명시돼 있고, 모든 저자는 초청 시 리뷰어·AC로 봉사해야 한다. 카메라레디 마감은 아직 공지되지 않았다."
+    notes_en: "Workshops and tutorials 6/20–21, main conference 6/22–25 (per the CVPR 2027 Dates page). The CVF main page and the CVPR 2026 closing press release give 6/20–24, so the end date differs by one day. The submission deadline is explicitly stated to have no extension, and all authors must serve as reviewers or ACs when invited. The camera-ready deadline has not been announced yet."
 links:
   home: "https://cvpr.thecvf.com/Conferences/2027"
   cfp: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"

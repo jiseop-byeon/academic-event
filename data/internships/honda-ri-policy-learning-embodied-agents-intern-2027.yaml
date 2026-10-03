@@ -28,11 +28,14 @@ responsibilities:
   - "Evaluate in simulation and/or on robotic platforms; publish and patent"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월."
+eligibility_note_en: "No citizenship requirement in the posting. Preferred start 2027-01-11, 3 months."
 status: open
 apply_url: "https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents"
 fit: 2
 take: "연구 질문을 지원자 전문성에 맞춰 함께 정한다고 명시해 사람 시연→로봇 전이 같은 자기 주제를 제안하기 좋지만, 덱스터러스 공고 다음 순위로 두라."
+take_en: "The posting says the research question is shaped around the candidate's expertise, which makes it easy to propose your own topic such as human-demonstration-to-robot transfer; rank it after the dexterous-manipulation posting."
 notes: "공고번호 P25INT-69, 게시일 미표기."
+notes_en: "Posting no. P25INT-69; posting date not shown."
 sources:
   - "https://usa.honda-ri.com/-/research-intern-policy-learning-and-action-grounding-for-multimodal-embodied-agents"
   - "https://usa.honda-ri.com/intern-positions"

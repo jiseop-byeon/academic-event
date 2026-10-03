@@ -1,0 +1,40 @@
+id: tvcg
+abbr: "TVCG"
+name: "IEEE Transactions on Visualization and Computer Graphics"
+publisher: "IEEE Computer Society"
+issn: "1077-2626"
+eissn: "1941-0506"
+fields: [ar, vision, haptics]
+community: xr
+tier: 1
+metrics:
+  jif: {value: 6.8, year: 2025}
+  jif_5y: {value: 6.8, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 10.0, year: 2025, quartile: Q1, category: "Computer Graphics and Computer-Aided Design", rank: "14/131"}
+  h5_index: {value: 94, year: 2025}
+access: hybrid
+conference_link: "IEEE VR·ISMAR·IEEE VIS·PacificVis의 저널 트랙 채택 논문이 TVCG 특집호로 출판된다. VR과 ISMAR는 한 번의 통합 심사로 TVCG 논문과 학회 논문을 가른다."
+conference_link_en: "Journal-track papers accepted at IEEE VR, ISMAR, IEEE VIS and PacificVis are published in TVCG special issues; VR and ISMAR decide between TVCG and conference papers in one unified review."
+orientation:
+  contribution: -1
+  summary: "컴퓨터 그래픽스·시각화·가상현실 분야의 대표 월간 저널로, 렌더링, 기하 처리, 애니메이션, 인지·상호작용·사용자 인터페이스, 햅틱스, VR·AR·MR, 첨단 디스플레이 등을 다룬다. 중요한 연구 결과와 새 기법을 엄밀한 평가(사용자 연구 포함)와 함께 요구하며, AR·VR 연구자는 대개 IEEE VR이나 ISMAR의 저널 트랙을 거쳐 TVCG에 게재한다."
+  summary_en: "The leading monthly journal for computer graphics, visualization and virtual reality, covering rendering, geometry processing, animation, perception, interaction and user interfaces, haptics, VR/AR/MR and advanced displays. It expects important results and new techniques backed by rigorous evaluation, including user studies, and AR/VR researchers usually reach it through the journal tracks of IEEE VR or ISMAR."
+  values: ["new techniques", "rigorous evaluation", "VR/ISMAR journal track", "graphics and visualization"]
+fit: 2
+take: "AR 연구를 저널로 남기려면 TVCG에 직접 내기보다 ISMAR(3월)이나 IEEE VR(9월)의 저널 트랙에 투고해 TVCG 특집호를 노리는 편이 일반적이고 효율적이다."
+take_en: "To publish AR work in a journal, the usual and efficient route is the journal track of ISMAR (March) or IEEE VR (September), aiming at a TVCG special issue, rather than a direct submission."
+openalex_id: "S84775595"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945"
+  csdl: "https://www.computer.org/csdl/journal/tg"
+  vgtc_journal_track: "https://tc.computer.org/vgtc/publications/journal/"
+sources:
+  - "https://tc.computer.org/vgtc/publications/journal/"
+  - "https://ieeevr.org/2027/contribute/papers/"
+  - "https://www.ieeeismar.net/2026/call-for-papers/"
+  - "https://www.bioxbio.com/journal/IEEE-T-VIS-COMPUT-GR"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=3427"   # five-year IF there is crowd-sourced (LetPub users); scope text and Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computergraphics"
+  - "https://api.openalex.org/sources?filter=issn:1077-2626"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S84775595,publication_year:2025&group_by=open_access.oa_status"
+last_verified: 2026-10-02

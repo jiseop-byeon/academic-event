@@ -1,0 +1,42 @@
+id: applied-intuition-3d-vision-self-driving-research-intern-rolling
+company: "Applied Intuition"
+org_type: autonomy
+team: "Applied Intuition Research Group"
+title: "Research Intern - 3D Vision and Generation, Self-Driving"
+fields: [vision, transportation, ml]
+degree: [phd, ms]
+season: "Rolling (dates not stated)"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 65
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "hourly rate stated in the posting"
+required:
+  - "Current PhD (or MSc) student in ML, computer vision and graphics, or robotics"
+  - "1+ year of research experience in autonomy, self-driving or a related field"
+  - "Strong research skills; works independently and collaboratively"
+skills: [3d-vision, computer-vision, world-models, foundation-models]
+responsibilities:
+  - "Research 3D/world-action foundation models, multimodal pretraining and feed-forward Gaussian splatting"
+  - "Apply world foundation models to autonomous driving, alongside fundamental 3D vision and generation topics"
+  - "Co-author papers for top-tier conferences"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(연방 계약업체 EEO 문구만 기재). 서니베일 사무실 상주."
+eligibility_note_en: "No citizenship requirement in the posting (only federal-contractor EEO language). Onsite at the Sunnyvale office."
+status: rolling
+posted: 2026-02-13
+apply_url: "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4"
+fit: 2
+take: "자율주행용 3D 비전·피드포워드 가우시안 스플래팅·월드모델 연구라 교통 축의 인식 연구로 의미가 있으니, 3D 재구성·생성 실적이 있을 때 지원할 만하다."
+take_en: "3D vision, feed-forward Gaussian splatting and world-model research for self-driving — meaningful perception work on the transportation track; apply if you have 3D reconstruction or generation results."
+notes: "2026-02-13 게시된 상시 공고라 지원 전 2027년 채용 여부 확인 필요. 같은 그룹에 'Reinforcement Learning, Self-Driving' 연구 인턴(2024-09 게시)도 남아 있음."
+notes_en: "An evergreen posting from 2026-02-13; confirm 2027 hiring before applying. The group's 'Reinforcement Learning, Self-Driving' research internship (posted 2024-09) is also still listed."
+sources:
+  - "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4"
+  - "https://api.ashbyhq.com/posting-api/job-board/applied?includeCompensation=true"
+last_verified: 2026-10-02

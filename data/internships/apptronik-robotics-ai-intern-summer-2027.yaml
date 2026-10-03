@@ -15,11 +15,14 @@ skills: [cpp, python, ros, ros2, computer-vision, lidar, sensor-fusion, slam, st
 responsibilities: ["Perception & sensing: computer vision, LiDAR, sensor fusion, SLAM, state estimation", "Control & dynamics: motion planning, trajectory optimization, reinforcement learning, actuation", "Software systems or hardware design: ROS/ROS 2, C++, Python, embedded RTOS, mechatronics"]
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. IROS 2026 연계 인재풀 공고로 Summer 2027 인턴·신입·경력을 함께 받으며, 개별 직무와 조건은 이후 리크루터 연락으로 정해짐. IROS에 가지 않아도 지원 가능."
+eligibility_note_en: "No citizenship requirement in the posting. An IROS 2026 talent-pool posting that takes Summer 2027 interns together with new-grad and experienced hires; the specific role and terms are set later by a recruiter. You can apply without attending IROS."
 status: open
 posted: 2026-09-23
 apply_url: "https://boards.greenhouse.io/apptronik/jobs/6206626004?gh_jid=6206626004"
 fit: 3
 take: "UT Austin과 같은 도시의 휴머노이드(Apollo) 회사가 2027 여름 인턴을 모으는 인재풀 공고라, 조작·인지 연구 이력을 담은 CV를 바로 넣어 둘 만하다."
+take_en: "A talent-pool posting from the Austin humanoid (Apollo) company — same city as UT Austin — collecting Summer 2027 interns; worth submitting a CV with manipulation and perception research now."
 notes: "Apptronik은 2026년 여름에도 인턴 공고를 운영함(levels.fyi에 Summer 2026 Software Engineer 인턴 공고 링크 기록)."
+notes_en: "Apptronik also ran internships in Summer 2026 (levels.fyi lists a Summer 2026 Software Engineer intern posting)."
 sources: ["https://boards.greenhouse.io/apptronik/jobs/6206626004?gh_jid=6206626004", "https://boards-api.greenhouse.io/v1/boards/apptronik/jobs?content=true", "https://www.levels.fyi/internships/"]
 last_verified: 2026-10-02

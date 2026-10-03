@@ -1,0 +1,36 @@
+id: aap
+abbr: "AAP"
+name: "Accident Analysis & Prevention"
+publisher: "Elsevier"
+issn: "0001-4575"
+eissn: "1879-2057"
+fields: [transportation, construction]
+community: transportation
+tier: 1
+metrics:
+  jif: {value: 7.4, year: 2025}
+  jif_5y: {value: 8.0, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 12.1, year: 2025, quartile: Q1, category: "Safety, Risk, Reliability and Quality", rank: "12/282"}
+  h5_index: {value: 90, year: 2025}
+access: hybrid
+apc_usd: 4600
+orientation:
+  contribution: 1
+  summary: "사고로 인한 상해·피해를 사전 단계부터 직후 단계까지 폭넓게 다루는 안전 분야 대표 저널로, 교통사고가 중심이지만 다른 현장의 사고도 범위에 든다. 사고에 영향을 주는 사람·환경·차량 요인, 대책의 설계·시행·효과 평가, 사고 데이터의 모형화·통계 분석, 안전 정책을 주로 싣는다. 새 알고리즘보다 실제 데이터나 실험으로 안전 효과를 엄밀하게 보이는 것이 핵심이다."
+  summary_en: "A leading safety journal covering accidental injury and damage from the pre-injury to the immediate post-injury phase; transportation crashes dominate, but accidents at other sites are in scope too. It publishes human, environmental and vehicle factors behind crashes, the design, implementation and evaluation of countermeasures, modeling and statistical analysis of crash data, and safety policy. Showing a safety effect rigorously with real data or experiments matters more than a new algorithm."
+  values: ["countermeasure evaluation", "crash data analysis", "human factors", "safety impact"]
+fit: 2
+take: "노변 LiDAR·AR 충돌 경고를 '대책'으로 보고 실험이나 현장 데이터로 안전 효과(충돌 위험 지표 감소 등)를 입증하면 노릴 만한 안전 분야 상위 저널이며, 건설 현장 사고 예방 연구도 범위에 든다."
+take_en: "A top safety journal to aim at once the roadside-LiDAR AR collision warnings are framed as a countermeasure and their safety effect (e.g., fewer conflicts) is shown with experiments or field data; construction-site accident prevention is in scope too."
+openalex_id: "S188336720"
+links:
+  home: "https://www.sciencedirect.com/journal/accident-analysis-and-prevention"
+  shop: "https://shop.elsevier.com/journals/accident-analysis-and-prevention/0001-4575"
+sources:
+  - "https://shop.elsevier.com/journals/accident-analysis-and-prevention/0001-4575"
+  - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
+  - "https://www.bioxbio.com/journal/ACCIDENT-ANAL-PREV"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=11334"   # five-year IF there is crowd-sourced (LetPub users); Scopus CiteScore table (June 2026 release)
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_transportation"
+  - "https://api.openalex.org/sources?filter=issn:0001-4575"
+last_verified: 2026-10-02

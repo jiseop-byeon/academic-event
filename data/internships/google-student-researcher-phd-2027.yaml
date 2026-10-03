@@ -27,6 +27,7 @@ pay:
   unit: year
   source: posting
   note: "미국 연 환산 기본급 범위(공고 기재)"
+  note_en: "US annualized base-pay range (stated in the posting)"
 required:
   - "Enrolled in a PhD (CS, Statistics, Applied Math, OR, Natural Sciences or related) during the engagement"
   - "Experience in one area of CS such as CV, ML, deep learning or HCI"
@@ -43,12 +44,15 @@ responsibilities:
   - "Matched to a host team across Google Research, Google DeepMind, Cloud and more"
 citizenship: none
 eligibility_note: "시민권 요건 없음. 참여 기간 동안 미국 거주 필수(일부 미국·캐나다 내 원격 허용). 학년 제한이 없고, 공고가 저연차 박사과정은 Research Intern 대신 이 공고로 지원하라고 안내."
+eligibility_note_en: "No citizenship requirement. Must reside in the US during the appointment (some remote work within the US/Canada allowed). No year-of-study limit; the posting tells early-stage PhD students to apply here instead of the Research Intern posting."
 status: open
 deadline: 2027-07-16
 apply_url: "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027"
 fit: 3
 take: "Google DeepMind 로보틱스까지 이 공고 하나로 매칭되고 저연차 박사를 명시적으로 받으니, 지원과 동시에 GDM 로보틱스 연구자에게 직접 호스트 의사를 타진하라."
+take_en: "This single posting also matches into Google DeepMind robotics and explicitly takes early-stage PhD students; apply and, at the same time, ask GDM robotics researchers directly whether they would host."
 notes: "지원 창은 2027-07-16까지(프로젝트가 차면 조기 종료), 프로젝트 승인 시마다 수시 검토라 결과까지 수개월 걸릴 수 있음. 시작은 보통 2027년 1–8월. 근무지 후보는 Austin 포함 25곳 이상(대표 도시만 기재). 게시일 비공개."
+notes_en: "The application window runs to 2027-07-16 (closes early once projects fill); applications are reviewed as projects are approved, so a result can take months. Starts usually fall between January and August 2027. 25+ candidate locations including Austin (only the main cities listed). Posting date not shown."
 sources:
   - "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027"
   - "https://deepmind.google/about/careers/"

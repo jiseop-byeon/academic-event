@@ -28,11 +28,14 @@ responsibilities:
   - "Benchmark against baselines on hardware and in simulation"
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴이라 학업 일정과의 조율이 필요."
+eligibility_note_en: "No citizenship requirement in the posting. Preferred start 2027-01-11 for 3 months — a during-semester internship that has to be coordinated with coursework."
 status: open
 apply_url: "https://usa.honda-ri.com/-/research-intern-memory-representation-for-dexterous-manipulation"
 fit: 3
 take: "다지 로봇손의 장기·접촉 과다 조작을 촉각 포함 멀티모달로 다루는 과제라 핵심 연구와 정확히 겹치니 1월 시작이 가능하면 최우선으로 지원하라."
+take_en: "Long-horizon, contact-rich manipulation with a multi-fingered hand using multimodal input including touch — an exact match for the core research; make it the top priority if a January start is possible."
 notes: "공고번호 P25INT-68, 게시일 미표기. 공고 페이지의 지원 양식 또는 공고에 안내된 이메일로 접수."
+notes_en: "Posting no. P25INT-68; posting date not shown. Apply through the form on the posting page or the e-mail address given in the posting."
 sources:
   - "https://usa.honda-ri.com/-/research-intern-memory-representation-for-dexterous-manipulation"
   - "https://usa.honda-ri.com/intern-positions"

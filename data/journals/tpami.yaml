@@ -4,23 +4,27 @@ name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 publisher: "IEEE Computer Society"
 issn: "0162-8828"
 eissn: "1939-3539"
-fields: [vision, ml]
+fields: [vision, ml, xai]
 community: vision
 tier: 1
 metrics:
   jif: {value: 20.4, year: 2025}
-  citescore: {value: 41.1, year: 2025}
+  jif_5y: {value: 22.6, year: 2025}
+  citescore: {value: 41.1, year: 2025, quartile: Q1, category: "Computer Vision and Pattern Recognition", rank: "2/183"}
   h5_index: {value: 217, year: 2025}
 review:
   speed_note: "심사 기간과 채택률은 공식적으로 공개되지 않는다. 월간 발행이며, 현 편집장은 서울대 이경무(Kyoung Mu Lee) 교수다."
+  speed_note_en: "Review times and the acceptance rate are not officially published. It is published monthly, and the current editor-in-chief is Prof. Kyoung Mu Lee of Seoul National University."
 access: hybrid
 apc_usd: 2800
 orientation:
   contribution: -1
   summary: "패턴인식·컴퓨터비전·머신러닝 분야의 최고 권위 저널로, 학회 수준을 넘는 방법론적 깊이와 광범위한 실험을 갖춘 논문, 학회 논문을 크게 확장한 저널판, 영향력 있는 서베이가 주로 실린다. 건설 응용 논문은 방법론의 일반성을 보여야 하며, 응용 시스템 중심 논문은 적합하지 않다."
+  summary_en: "The most prestigious journal in pattern recognition, computer vision and machine learning, mainly publishing papers with methodological depth and extensive experiments beyond conference level, substantially extended journal versions of conference papers, and influential surveys. Construction application papers must show methodological generality; papers centred on application systems are a poor fit."
   values: ["methodological depth", "extensive experiments", "extended conference work", "surveys"]
 fit: 1
 take: "인식 연구를 학회 논문 여러 편으로 쌓은 뒤 확장판을 낼 때 고려할 곳이며, 박사 초반의 1차 타깃은 아니다."
+take_en: "Consider it for an extended version once your perception research has built up across several conference papers; not a first target early in the PhD."
 openalex_id: "S199944782"
 links:
   home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
@@ -32,4 +36,6 @@ sources:
   - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=34"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
   - "https://api.openalex.org/sources?filter=issn:0162-8828"
+  - "https://www.bioxbio.com/journal/IEEE-T-PATTERN-ANAL"
+  - "https://www.letpub.com.cn/index.php?journalid=3411&page=journalapp&view=detail"
 last_verified: 2026-10-02

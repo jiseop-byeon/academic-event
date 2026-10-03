@@ -1,0 +1,45 @@
+id: ra-l
+abbr: "RA-L"
+name: "IEEE Robotics and Automation Letters"
+publisher: "IEEE (Robotics and Automation Society)"
+eissn: "2377-3766"
+fields: [robotics, manipulation, navigation, physical-ai, vision, hri]
+community: robotics
+tier: 2
+metrics:
+  jif: {value: 5.3, year: 2025}
+  jif_5y: {value: 6.3, year: 2025}
+  citescore: {value: 10.5, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "40/390"}
+  h5_index: {value: 132, year: 2025}
+review:
+  blind: double
+  speed_note: "첫 결정(채택·거절·수정 후 재투고)은 투고 후 3개월 안에 나오고, 수정본은 30일 안에 다시 내야 하며 연장은 없다. 최종 결정은 5개월 안, 게재 또는 거절은 6개월 안이 원칙이고 투고→온라인 게재는 평균 약 4개월이다. 채택률은 공개되지 않는다."
+  speed_note_en: "The first decision (accept, reject, or revise and resubmit) comes within three months of submission, and a revision must be resubmitted within 30 days with no extensions. The policy is a final decision within five months and publication or rejection within six; submission to online publication averages about four months. The acceptance rate is not published."
+access: hybrid
+apc_usd: 2800
+length: "6 pages in IEEE two-column format including figures and references, up to 2 extra pages at $175 each (max 8); no appendices beyond 8 pages; videos and code welcome as multimedia"
+article_types: ["letter", "survey"]
+conference_link: "IROS는 2026년부터 RA-L+IROS 공동 투고 옵션을 없앴지만, 채택된 RA-L 논문(서베이 제외)은 이관 기간 안에 RAS 학회에서 발표할 수 있다: ICRA 2027(2026-03-01~2026-12-31), IROS 2027·CASE 2027(2026-08-01~2027-04-30), Humanoids 2027(2026-10-01~2027-06-30) 등. 채택 후 270일 안에 이관해야 하며 한 학회에서만 발표한다."
+conference_link_en: "IROS dropped the joint RA-L+IROS submission option in 2026, but accepted RA-L papers (except surveys) can still be presented at an RAS conference within its transfer window: ICRA 2027 (2026-03-01 to 2026-12-31), IROS 2027 and CASE 2027 (2026-08-01 to 2027-04-30), Humanoids 2027 (2026-10-01 to 2027-06-30), and others. The transfer must happen within 270 days of acceptance, and a paper is presented at one conference only."
+orientation:
+  contribution: 0
+  summary: "로보틱스·자동화 전 분야의 빠른 단편 저널로, 새 방법과 완성도 높은 시스템·응용 사례를 모두 받으며 채택 논문을 ICRA·IROS·CASE에서 발표할 수 있어 사실상 학회 논문처럼 쓰인다. 6쪽 안에 기여와 실험을 압축해야 하고 수정 기회가 한 번뿐이라, 관련 연구 대비 신규성과 실로봇 검증이 약하면 바로 거절된다."
+  summary_en: "A fast short-paper journal covering all of robotics and automation that accepts both new methods and polished systems or application studies; accepted papers can be presented at ICRA, IROS or CASE, so it effectively works like a conference paper. Contributions and experiments must fit in six pages and there is only one chance to revise, so papers with weak novelty over related work or weak real-robot validation are rejected outright."
+  values: ["concise contributions", "fast decisions", "real-robot experiments", "conference presentation option"]
+fit: 3
+take: "건설 접촉 조작 연구의 첫 저널 논문으로 가장 현실적인 목표이며, 채택되면 ICRA·IROS 발표까지 이어지니 학회 마감에 맞춘 투고 대신 RA-L을 기본 경로로 삼자."
+take_en: "The most realistic target for a first journal paper on contact-rich construction manipulation; acceptance also leads to an ICRA or IROS presentation, so make RA-L the default route instead of submitting to conference deadlines."
+openalex_id: "S4210169774"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369"
+  society: "https://www.ieee-ras.org/publications/ra-l/"
+  submit: "https://ras.papercept.net/journals/ral/scripts/login.pl"
+  guide: "https://www.ieee-ras.org/publications/ra-l/ra-l-information-for-authors/"
+sources:
+  - "https://www.ieee-ras.org/publications/ra-l/"
+  - "https://www.ieee-ras.org/publications/ra-l/ra-l-information-for-authors/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=7083369"
+  - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
+  - "https://api.openalex.org/sources?filter=issn:2377-3766"
+  - "https://www.letpub.com.cn/index.php?journalid=10953&page=journalapp&view=detail"
+last_verified: 2026-10-02
