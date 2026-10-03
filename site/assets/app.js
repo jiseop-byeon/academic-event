@@ -406,6 +406,7 @@
     });
     if (path !== lastPath) window.scrollTo(0, 0);
     lastPath = path;
+    main.classList.toggle("wide", !!parts[1]);
     var pages = {
       "": dashboard, conferences: parts[1] ? confDetail : conferences, journals: parts[1] ? journalDetail : journals,
       internships: parts[1] ? internDetail : internships, scholarships: parts[1] ? scholDetail : scholarships,
@@ -416,6 +417,147 @@
   }
   function notFound() { page(L("Page not found", "페이지를 찾을 수 없습니다"), '<a href="#/">' + esc(L("Back to the dashboard", "대시보드로 돌아가기")) + "</a>"); }
   function findItem(cat, id) { return (DATA[cat] || []).filter(function (x) { return x.id === id; })[0]; }
+
+  /* ================= shared filters (list pages and the master–detail sidebar) ================= */
+  function confMatch(c) {
+    var n = confInfo(c).next || {};
+    return matchFields(c) && (!confState.community || c.community === confState.community) &&
+      (!confState.tier || String(c.tier) === confState.tier) && (!confState.ctry || n.country === confState.ctry) &&
+      (!confState.q || matchText(Object.assign({ city: n.city, ctry: n.country ? country(n.country) : "" }, c), confState.q, ["acronym", "name", "organizer", "city", "ctry"]));
+  }
+  function journalMatch(j) {
+    return matchFields(j) && (!jState.community || j.community === jState.community) && (!jState.access || j.access === jState.access) &&
+      matchText(j, jState.q, ["abbr", "name", "publisher"]);
+  }
+  function internMatch(i) {
+    var st = internStatus(i);
+    return matchFields(i) && (!iState.types.size || iState.types.has(i.org_type)) &&
+      (iState.status === "all" || (iState.status === "open" ? st === "open" : st !== "closed")) &&
+      (!iState.degree || (i.degree || []).indexOf(iState.degree) >= 0) &&
+      (!iState.ctry || (i.locations || []).some(function (l) { return l.country === iState.ctry; })) &&
+      (!iState.citizen || i.citizenship === "none") &&
+      (!iState.skill || (i.skills || []).indexOf(iState.skill) >= 0) &&
+      matchText(i, iState.q, ["company", "title", "team", "skills", "required", "preferred"]);
+  }
+  function scholMatch(s) {
+    var e = s.eligibility || {}, st = scholInfo(s).status;
+    return (!sState.orgs.size || sState.orgs.has(s.org_type)) && (!sState.types.size || sState.types.has(s.type)) &&
+      (!sState.korean || e.korean_ok) && (!sState.intl || e.international_in_us_ok) && (!sState.noNom || !s.nomination) &&
+      (sState.status === "all" || st !== "closed") && matchText(s, sState.q, ["name", "organizer"]);
+  }
+  function progMatch(x) {
+    var e = x.eligibility || {}, st = progInfo(x).status;
+    return matchFields(x) && (!pState.scopes.size || pState.scopes.has(x.scope)) && (!pState.kinds.size || pState.kinds.has(x.kind)) &&
+      (!pState.audience || (x.audience || []).indexOf(pState.audience) >= 0) && (!pState.intl || e.international_ok) &&
+      (pState.status === "all" || st !== "closed") && matchText(x, pState.q, ["name", "organizer", "summary", "summary_en"]);
+  }
+  function byDate(get) {
+    return function (a, b) { var x = get(a), y = get(b); return (x ? d(x.date) : 9e15) - (y ? d(y.date) : 9e15); };
+  }
+
+  /* ================= master–detail: the category list stays on the left of a detail page ================= */
+  var MD = {
+    conferences: {
+      label: ["Conferences", "학회"], name: function (c) { return c.acronym; },
+      match: function (c) { return confMatch(c); },
+      filtered: function () { return selFields.size || confState.community || confState.tier || confState.ctry || confState.q; },
+      order: function (l) { return l.slice().sort(byDate(function (c) { return confInfo(c).nextSub; })); },
+      row: function (c) {
+        var n = confInfo(c).next || {}, s = confInfo(c).nextSub;
+        return { title: (n.country ? '<span class="flag" aria-hidden="true">' + flag(n.country) + "</span>" : "") + esc(c.acronym), right: stars(c.fit),
+          sub: s ? esc(fmtShort(s.date)) + " " + dday(s.date, s.est) + " · " + esc(kindName(s.kind)) : '<span class="faint">' + esc(L("deadline TBA", "마감 미정")) + "</span>",
+          text: c.acronym + " " + c.name + " " + (n.city || "") };
+      },
+    },
+    journals: {
+      label: ["Journals", "저널"], name: function (j) { return j.abbr; },
+      match: function (j) { return journalMatch(j); },
+      filtered: function () { return selFields.size || jState.community || jState.access || jState.q; },
+      order: function (l) { return l.slice().sort(function (a, b) { return (jif(b) || 0) - (jif(a) || 0); }); },
+      row: function (j) {
+        var qi = quartileInfo(j), m = (j.metrics || {}).jif;
+        return { title: esc(j.abbr), right: m ? '<span class="num">IF ' + m.value + "</span>" : "",
+          sub: esc([qi ? qi.q : "", j.publisher].filter(Boolean).join(" · ")), text: j.abbr + " " + j.name + " " + j.publisher };
+      },
+    },
+    internships: {
+      label: ["Internships", "인턴십"], name: function (i) { return i.company; },
+      match: function (i) { return internMatch(i); },
+      filtered: function () { return selFields.size || iState.types.size || iState.status !== "active" || iState.degree || iState.ctry || iState.citizen || iState.skill || iState.q; },
+      order: function (l) { return sortInterns(l); },
+      row: function (i) {
+        return { title: esc(i.company), right: '<span class="badge ' + esc(internStatus(i)) + ' mini"><i class="ico"></i></span>',
+          sub: esc(i.title), text: i.company + " " + i.title + " " + (i.team || "") };
+      },
+    },
+    scholarships: {
+      label: ["Scholarships", "장학금"], name: function (s) { return shortName(s.name); },
+      match: function (s) { return scholMatch(s); },
+      filtered: function () { return sState.orgs.size || sState.types.size || sState.korean || sState.intl || sState.noNom || sState.status !== "active" || sState.q; },
+      order: function (l) { return l.slice().sort(function (a, b) { return byDate(function (s) { return scholInfo(s).next; })(a, b) || b.fit - a.fit; }); },
+      row: function (s) {
+        var n = scholInfo(s).next;
+        return { title: esc(shortName(s.name)), right: stars(s.fit),
+          sub: n ? esc(fmtShort(n.date)) + " " + dday(n.date, n.estimated) + " · " + esc(dlLabel(n)) : '<span class="faint">' + esc(L("next call TBA", "다음 공고 대기")) + "</span>",
+          text: s.name + " " + s.organizer };
+      },
+    },
+    programs: {
+      label: ["Programs", "프로그램·대외활동"], name: function (x) { return x.name; },
+      match: function (x) { return progMatch(x); },
+      filtered: function () { return selFields.size || pState.scopes.size || pState.kinds.size || pState.audience || pState.intl || pState.status !== "active" || pState.q; },
+      order: function (l) { return l.slice().sort(function (a, b) { return b.fit - a.fit || byDate(function (x) { return progInfo(x).next; })(a, b); }); },
+      row: function (x) {
+        return { title: esc(x.name), right: stars(x.fit), sub: esc(lab(PKIND, x.kind) + " · " + lab(SCOPE, x.scope)), text: x.name + " " + x.organizer };
+      },
+    },
+  };
+  var mdSearch = {}, mdScroll = {};
+  // Builds the two-pane shell for a detail page and returns the element the detail renders into.
+  function masterDetail(cat, id) {
+    var cfg = MD[cat];
+    var list = cfg.order((DATA[cat] || []).filter(cfg.match));
+    var cur = findItem(cat, id);
+    if (cur && list.indexOf(cur) < 0) list.unshift(cur);  // keep the open item visible even if filtered out
+    var idx = list.indexOf(cur);
+    var prev = idx > 0 ? list[idx - 1] : null, next = idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null;
+    var label = LANG === "ko" ? cfg.label[1] : cfg.label[0];
+    var rows = list.map(function (x) {
+      var r = cfg.row(x);
+      return '<a class="md-row" href="#/' + cat + "/" + esc(x.id) + '"' + (x === cur ? ' aria-current="true"' : "") + ' data-text="' + esc(r.text.toLowerCase()) + '">' +
+        '<span class="md-title">' + r.title + '</span><span class="md-right">' + r.right + '</span><span class="md-sub">' + r.sub + "</span></a>";
+    }).join("");
+    main.innerHTML = '<div class="md">' +
+      '<aside class="md-list cat-' + cat + '" aria-label="' + esc(label) + '">' +
+      '<button type="button" class="md-toggle" aria-expanded="false">' + esc(label + " · " + list.length) + " ▾</button>" +
+      '<div class="md-body"><div class="md-head"><div class="md-headline"><a href="#/' + cat + '">← ' + esc(L("Full list", "전체 목록")) + "</a>" +
+      '<span class="muted small">' + list.length + (cfg.filtered() ? esc(L(" · filtered", " · 필터 적용")) : "") + "</span></div>" +
+      '<input type="search" class="md-search" placeholder="' + esc(L("Find in this list", "목록에서 찾기")) + '" aria-label="' + esc(L("Find in this list", "목록에서 찾기")) + '" value="' + esc(mdSearch[cat] || "") + '"></div>' +
+      '<nav class="md-items">' + rows + "</nav></div></aside>" +
+      '<div class="md-main"><div class="md-nav">' +
+      '<a class="md-crumb" href="#/' + cat + '">' + esc(label) + "</a>" +
+      '<span class="md-step">' + (prev ? '<a class="btn" href="#/' + cat + "/" + esc(prev.id) + '" title="' + esc(L("Previous", "이전")) + '">‹ ' + esc(cfg.name(prev)) + "</a>" : "") +
+      (next ? '<a class="btn" href="#/' + cat + "/" + esc(next.id) + '" title="' + esc(L("Next", "다음")) + '">' + esc(cfg.name(next)) + " ›</a>" : "") + "</span></div>" +
+      '<div class="md-detail"></div></div></div>';
+    var aside = main.querySelector(".md-list"), items = main.querySelector(".md-items"), input = main.querySelector(".md-search");
+    function applySearch() {
+      var q = (input.value || "").toLowerCase().trim();
+      mdSearch[cat] = input.value;
+      items.querySelectorAll(".md-row").forEach(function (r) { r.hidden = !!q && r.getAttribute("data-text").indexOf(q) < 0; });
+    }
+    input.addEventListener("input", applySearch);
+    applySearch();
+    items.scrollTop = mdScroll[cat] || 0;
+    items.addEventListener("scroll", function () { mdScroll[cat] = items.scrollTop; }, { passive: true });
+    var act = items.querySelector('[aria-current="true"]');
+    if (act && (act.offsetTop < items.scrollTop || act.offsetTop + act.offsetHeight > items.scrollTop + items.clientHeight))
+      items.scrollTop = Math.max(0, act.offsetTop - items.clientHeight / 3);
+    main.querySelector(".md-toggle").addEventListener("click", function (e) {
+      var open = aside.classList.toggle("open");
+      e.currentTarget.setAttribute("aria-expanded", open);
+    });
+    return main.querySelector(".md-detail");
+  }
 
   /* ================= dashboard ================= */
   function dashboard() {
@@ -591,14 +733,7 @@
     main.appendChild(out);
     render();
 
-    function items() {
-      return DATA.conferences.filter(function (c) {
-        var n = confInfo(c).next || {};
-        return matchFields(c) && (!confState.community || c.community === confState.community) &&
-          (!confState.tier || String(c.tier) === confState.tier) && (!confState.ctry || n.country === confState.ctry) &&
-          (!confState.q || matchText(Object.assign({ city: n.city, ctry: n.country ? country(n.country) : "" }, c), confState.q, ["acronym", "name", "organizer", "city", "ctry"]));
-      });
-    }
+    function items() { return DATA.conferences.filter(confMatch); }
     function render() {
       Charts.reset();
       var list = items();
@@ -812,8 +947,7 @@
     if (!c) return notFound();
     document.title = c.acronym + " · " + L("Conferences", "학회") + " · Academic Event Radar";
     var info = confInfo(c), r = c.review || {}, rk = c.rankings || {};
-    var html = '<div class="crumbs"><a href="#/conferences">' + esc(L("Conferences", "학회")) + "</a> / " + esc(c.acronym) + "</div>" +
-      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + "</span>" +
+    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("conferences") + "<span>" + esc(commName(c.community)) + "</span>" +
       '<span class="badge">' + esc(lab(TIER, c.tier)) + "</span>" + fieldTags(c.fields) + "</div>" +
       "<h1>" + esc(c.acronym) + '</h1><div class="full">' + esc(c.name) + ' <span class="muted">· ' + esc(c.organizer) + "</span></div></div>" +
       '<div class="detail-actions">' + (c.links && c.links.home ? '<a class="btn" href="' + esc(c.links.home) + '" target="_blank" rel="noopener">' + esc(L("Official site ↗", "공식 홈페이지 ↗")) + "</a>" : "") +
@@ -856,7 +990,7 @@
       "<dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(c) + "</dd></dl></section>" +
       (c.links ? '<section class="panel"><h2>' + esc(L("Links", "링크")) + "</h2>" + linkList(c.links) + "</section>" : "") +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(c.sources) + "</section></aside></div>";
-    main.innerHTML = html;
+    masterDetail("conferences", c.id).innerHTML = html;
     upcoming.forEach(function (e, i) {
       var div = main.querySelector('[data-edition="' + i + '"]');
       var marks = (e.deadlines || []).filter(function (dl) { return ["abstract", "paper", "notification", "camera-ready", "rebuttal"].indexOf(dl.kind) >= 0; }).map(function (dl) {
@@ -891,10 +1025,7 @@
     render();
     function render() {
       Charts.reset();
-      var list = DATA.journals.filter(function (j) {
-        return matchFields(j) && (!jState.community || j.community === jState.community) && (!jState.access || j.access === jState.access) &&
-          matchText(j, jState.q, ["abbr", "name", "publisher"]);
-      });
+      var list = DATA.journals.filter(journalMatch);
       count.textContent = list.length + L(" journals", "개 저널");
       out.replaceChildren();
       if (!list.length) { out.innerHTML = empty(); return; }
@@ -998,8 +1129,7 @@
     if (m.h_index) tiles += tile("h-index", m.h_index, "SCImago");
     if (m.h5_index && m.h5_index.value) tiles += tile("h5-index", m.h5_index.value, "Google Scholar " + (m.h5_index.year || ""));
     if (j.openalex && j.openalex.two_year_mean_citedness) tiles += tile(L("2-yr mean citations", "2년 평균 피인용"), j.openalex.two_year_mean_citedness.toFixed(2), esc(L("OpenAlex · auto-refreshed", "OpenAlex · 자동 갱신")));
-    var html = '<div class="crumbs"><a href="#/journals">' + esc(L("Journals", "저널")) + "</a> / " + esc(j.abbr) + "</div>" +
-      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + "</span>" +
+    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("journals") + "<span>" + esc(commName(j.community)) + "</span>" +
       '<span class="badge">' + esc(lab(TIER, j.tier)) + "</span>" + fieldTags(j.fields) + "</div><h1>" + esc(j.abbr) + '</h1><div class="full">' + esc(j.name) + ' <span class="muted">· ' + esc(j.publisher) + "</span></div></div>" +
       '<div class="detail-actions">' + (j.links && j.links.home ? '<a class="btn" href="' + esc(j.links.home) + '" target="_blank" rel="noopener">' + esc(L("Journal site ↗", "저널 홈페이지 ↗")) + "</a>" : "") +
       (j.links && j.links.submit ? '<a class="btn primary" href="' + esc(j.links.submit) + '" target="_blank" rel="noopener">' + esc(L("Submit ↗", "투고하기 ↗")) + "</a>" : "") + "</div></div>" +
@@ -1021,7 +1151,7 @@
       "<dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(j) + "</dd></dl></section>" +
       (j.links ? '<section class="panel"><h2>' + esc(L("Links", "링크")) + "</h2>" + linkList(j.links) + "</section>" : "") +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(j.sources) + "</section></aside></div>";
-    main.innerHTML = html;
+    masterDetail("journals", j.id).innerHTML = html;
   }
 
   /* ================= internships ================= */
@@ -1053,18 +1183,7 @@
     main.appendChild(out);
     render();
 
-    function items() {
-      return DATA.internships.filter(function (i) {
-        var st = internStatus(i);
-        return matchFields(i) && (!iState.types.size || iState.types.has(i.org_type)) &&
-          (iState.status === "all" || (iState.status === "open" ? st === "open" : st !== "closed")) &&
-          (!iState.degree || (i.degree || []).indexOf(iState.degree) >= 0) &&
-          (!iState.ctry || (i.locations || []).some(function (l) { return l.country === iState.ctry; })) &&
-          (!iState.citizen || i.citizenship === "none") &&
-          (!iState.skill || (i.skills || []).indexOf(iState.skill) >= 0) &&
-          matchText(i, iState.q, ["company", "title", "team", "skills", "required", "preferred"]);
-      });
-    }
+    function items() { return DATA.internships.filter(internMatch); }
     function render() {
       Charts.reset();
       var list = items();
@@ -1244,8 +1363,7 @@
     document.title = i.company + " · " + L("Internships", "인턴십") + " · Academic Event Radar";
     var st = internStatus(i);
     function list(arr) { return arr && arr.length ? "<ul>" + arr.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul>" : '<p class="faint">' + esc(L("Not in the posting", "공고에 없음")) + "</p>"; }
-    var html = '<div class="crumbs"><a href="#/internships">' + esc(L("Internships", "인턴십")) + "</a> / " + esc(i.company) + "</div>" +
-      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" + statusBadge(st) + fieldTags(i.fields) + "</div>" +
+    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("internships") + "<span>" + esc(lab(ORG_TYPE, i.org_type)) + "</span>" + statusBadge(st) + fieldTags(i.fields) + "</div>" +
       "<h1>" + esc(i.title) + '</h1><div class="full"><b>' + esc(i.company) + "</b>" + (i.team ? ' <span class="muted">· ' + esc(i.team) + "</span>" : "") + "</div></div>" +
       '<div class="detail-actions"><a class="btn primary" href="' + esc(i.apply_url) + '" target="_blank" rel="noopener">' + esc(L("View posting · apply ↗", "공고 보기 · 지원 ↗")) + "</a></div></div>" +
       takeBox(i) + '<div class="detail"><div class="col-main">' +
@@ -1270,7 +1388,7 @@
       '<aside class="col-side"><section class="panel"><h2>' + esc(L("At a glance", "한눈에")) + '</h2><dl class="kv"><dt>' + esc(L("Fit", "적합도")) + "</dt><dd>" + stars(i.fit) + "</dd><dt>" + esc(L("Status", "상태")) + "</dt><dd>" + statusBadge(st) +
       "</dd><dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(i) + "</dd></dl></section>" +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(i.sources) + "</section></aside></div>";
-    main.innerHTML = html;
+    masterDetail("internships", i.id).innerHTML = html;
   }
 
   /* ================= scholarships ================= */
@@ -1297,12 +1415,7 @@
     render();
     function render() {
       Charts.reset();
-      var list = DATA.scholarships.filter(function (s) {
-        var e = s.eligibility || {}, st = scholInfo(s).status;
-        return (!sState.orgs.size || sState.orgs.has(s.org_type)) && (!sState.types.size || sState.types.has(s.type)) &&
-          (!sState.korean || e.korean_ok) && (!sState.intl || e.international_in_us_ok) && (!sState.noNom || !s.nomination) &&
-          (sState.status === "all" || st !== "closed") && matchText(s, sState.q, ["name", "organizer"]);
-      });
+      var list = DATA.scholarships.filter(scholMatch);
       count.textContent = list.length + L(" programs", "개");
       out.replaceChildren();
       if (!list.length) { out.innerHTML = empty(); return; }
@@ -1414,8 +1527,7 @@
     document.title = shortName(s.name) + " · " + L("Scholarships", "장학금") + " · Academic Event Radar";
     var info = scholInfo(s), e = s.eligibility || {}, a = s.amount || {};
     var reqs = txl(s, "requirements");
-    var html = '<div class="crumbs"><a href="#/scholarships">' + esc(L("Scholarships", "장학금")) + "</a> / " + esc(shortName(s.name)) + "</div>" +
-      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("scholarships") + "<span>" + esc(lab(SCH_ORG, s.org_type)) + " · " + esc(lab(SCH_TYPE, s.type)) + "</span>" + statusBadge(info.status) + "</div>" +
+    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("scholarships") + "<span>" + esc(lab(SCH_ORG, s.org_type)) + " · " + esc(lab(SCH_TYPE, s.type)) + "</span>" + statusBadge(info.status) + "</div>" +
       "<h1>" + esc(s.name) + '</h1><div class="full">' + esc(s.organizer) + "</div></div>" +
       '<div class="detail-actions">' + (s.apply_url ? '<a class="btn primary" href="' + esc(s.apply_url) + '" target="_blank" rel="noopener">' + esc(L("Apply ↗", "지원 페이지 ↗")) + "</a>" : "") + "</div></div>" +
       takeBox(s) + '<div class="detail"><div class="col-main">' +
@@ -1438,7 +1550,7 @@
       "<dt>" + esc(L("Nomination", "대학 추천")) + "</dt><dd>" + esc(s.nomination ? L("Required", "필요") : L("Not needed", "불필요")) + "</dd><dt>" + esc(L("Fields", "분야")) + "</dt><dd>" + fieldTags(s.fields) + "</dd><dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(s) + "</dd></dl></section>" +
       (s.links ? '<section class="panel"><h2>' + esc(L("Links", "링크")) + "</h2>" + linkList(s.links) + "</section>" : "") +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(s.sources) + "</section></aside></div>";
-    main.innerHTML = html;
+    masterDetail("scholarships", s.id).innerHTML = html;
     var div = document.getElementById("sch-strip");
     var marks = info.dls.map(function (x) { return { date: x.date, label: dlLabel(x), short: fmtShort(x.date), type: x.kind === "result" ? "ring" : "dot", est: x.estimated }; });
     if (marks.length >= 1) {
@@ -1472,12 +1584,7 @@
     main.appendChild(out);
     render();
     function render() {
-      var list = all.filter(function (x) {
-        var e = x.eligibility || {}, st = progInfo(x).status;
-        return matchFields(x) && (!pState.scopes.size || pState.scopes.has(x.scope)) && (!pState.kinds.size || pState.kinds.has(x.kind)) &&
-          (!pState.audience || (x.audience || []).indexOf(pState.audience) >= 0) && (!pState.intl || e.international_ok) &&
-          (pState.status === "all" || st !== "closed") && matchText(x, pState.q, ["name", "organizer", "summary", "summary_en"]);
-      });
+      var list = all.filter(progMatch);
       count.textContent = list.length + L(" programs", "개");
       out.replaceChildren();
       if (!list.length) { out.innerHTML = empty(); return; }
@@ -1538,8 +1645,7 @@
     document.title = x.name + " · " + L("Programs", "프로그램·대외활동") + " · Academic Event Radar";
     var info = progInfo(x), e = x.eligibility || {};
     function list(arr) { return arr && arr.length ? "<ul>" + arr.map(function (v) { return "<li>" + esc(v) + "</li>"; }).join("") + "</ul>" : ""; }
-    var html = '<div class="crumbs"><a href="#/programs">' + esc(L("Programs", "프로그램·대외활동")) + "</a> / " + esc(x.name) + "</div>" +
-      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("programs") + "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span>" + statusBadge(info.status) + fieldTags(x.fields) + "</div>" +
+    var html = '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("programs") + "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span>" + statusBadge(info.status) + fieldTags(x.fields) + "</div>" +
       "<h1>" + esc(x.name) + '</h1><div class="full">' + esc(x.organizer) + "</div></div>" +
       '<div class="detail-actions">' + (x.apply_url ? '<a class="btn primary" href="' + esc(x.apply_url) + '" target="_blank" rel="noopener">' + esc(L("Join / apply ↗", "참여·지원 ↗")) + "</a>" : "") + "</div></div>" +
       takeBox(x) + '<div class="detail"><div class="col-main">' +
@@ -1560,7 +1666,7 @@
       "</dd><dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(x) + "</dd></dl></section>" +
       (x.links ? '<section class="panel"><h2>' + esc(L("Links", "링크")) + "</h2>" + linkList(x.links) + "</section>" : "") +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(x.sources) + "</section></aside></div>";
-    main.innerHTML = html;
+    masterDetail("programs", x.id).innerHTML = html;
     var div = document.getElementById("prog-strip");
     if (div) {
       var marks = info.dls.map(function (dl) { return { date: dl.date, label: dlLabel(Object.assign({}, dl, { kind: "program-" + dl.kind })), short: fmtShort(dl.date), type: dl.kind === "event" ? "ring" : "dot", est: dl.estimated }; });
