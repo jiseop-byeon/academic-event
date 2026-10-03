@@ -29,7 +29,7 @@ DATA = pathlib.Path(os.environ.get("AER_DATA", ROOT / "data"))  # override for t
 SITE = ROOT / "site"
 OUT = ROOT / "_site"
 SITE_URL = "https://jiseop-byeon.github.io/academic-event/"
-CATEGORIES = ("conferences", "journals", "internships", "scholarships")
+CATEGORIES = ("conferences", "journals", "internships", "scholarships", "programs")
 HOURS_PER_MONTH = 40 * 52 / 12
 
 CONF_KIND = {
@@ -49,7 +49,10 @@ KIND_EN = {
     "registration": "Registration deadline", "other": "Other", "application": "Application deadline",
     "internal": "Internal (university) deadline", "recommendation": "Recommendation letters due",
     "interview": "Interview", "result": "Results", "internship-deadline": "Application deadline", "event": "Conference",
+    "program-application": "Application deadline", "program-registration": "Registration deadline",
+    "program-nomination": "Nomination deadline", "program-event": "Event", "program-other": "Other",
 }
+PROGRAM_KIND = {"application": "지원 마감", "registration": "등록 마감", "nomination": "추천 마감", "event": "행사", "other": "기타"}
 HANGUL = re.compile(r"[\uac00-\ud7a3]")
 
 
@@ -61,7 +64,8 @@ def labels(d: dict, kind: str, ko_default: str) -> tuple[str, str]:
     return ko, en
 # Kinds that ask the owner to submit something; these go into deadlines.ics and the dashboard.
 ACTION_KINDS = {"abstract", "paper", "late-breaking", "application", "internal", "recommendation",
-                "internship-deadline"}  # workshop proposals stay in all-events.ics only
+                "internship-deadline", "program-application", "program-registration", "program-nomination"}
+# workshop proposals and program events stay in all-events.ics only
 
 
 def jsonable(o):
@@ -161,6 +165,17 @@ def build_events(b: dict) -> list[dict]:
                 "kind": d["kind"], "label": ko, "label_en": en,
                 "estimated": bool(d.get("estimated")), "tz": d.get("tz"), "fit": s["fit"],
                 "fields": s["fields"], "url": s.get("apply_url") or (s.get("links") or {}).get("home"),
+            })
+    for p in b.get("programs", []):
+        loc = p.get("location") or {}
+        for d in (p.get("cycle") or {}).get("deadlines", []):
+            kind = "program-" + d["kind"]
+            ko, en = labels(d, kind, PROGRAM_KIND.get(d["kind"], d["kind"]))
+            ev.append({
+                "date": d["date"], "cat": "programs", "id": p["id"], "name": p["name"], "short": p["name"],
+                "kind": kind, "label": ko, "label_en": en, "estimated": bool(d.get("estimated")),
+                "fit": p["fit"], "fields": p["fields"], "countries": [loc["country"]] if loc.get("country") else [],
+                "url": p.get("apply_url") or (p.get("links") or {}).get("home"),
             })
     for i in b["internships"]:
         if i.get("deadline"):

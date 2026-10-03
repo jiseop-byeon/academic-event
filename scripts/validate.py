@@ -19,7 +19,7 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = pathlib.Path(os.environ.get("AER_DATA", ROOT / "data"))  # override for tests
-CATEGORIES = ("conferences", "journals", "internships", "scholarships")
+CATEGORIES = ("conferences", "journals", "internships", "scholarships", "programs")
 
 _taxonomy = yaml.safe_load((DATA / "fields.yaml").read_text(encoding="utf-8"))
 FIELD_KEYS = {f["key"] for f in _taxonomy["fields"]}
@@ -34,6 +34,7 @@ PLACEHOLDERS = {"n/a", "na", "tbd", "tba", "unknown", "none", "null", "-", "?"}
 CONF_DEADLINE_KINDS = {"abstract", "paper", "supplementary", "rebuttal", "notification",
                        "camera-ready", "workshop-proposal", "late-breaking", "registration", "other"}
 SCHOL_DEADLINE_KINDS = {"application", "internal", "recommendation", "interview", "result", "other"}
+PROGRAM_DEADLINE_KINDS = {"application", "registration", "nomination", "event", "other"}
 
 
 class Report:
@@ -331,7 +332,38 @@ def check_scholarship(r: Report, d: dict) -> None:
         r.err("apply_url or links.home must be a URL")
 
 
+def check_program(r: Report, d: dict) -> None:
+    common(r, d, "programs")
+    for k in ("name", "organizer", "summary"):
+        need(r, d, k, str)
+    enum(r, d, "scope", {"ut-austin", "us", "international", "online"})
+    enum(r, d, "kind", {"research-community", "seminar", "student-org", "certificate", "doctoral-consortium",
+                        "summer-school", "competition", "society", "entrepreneurship", "volunteer", "mentoring"})
+    if need(r, d, "audience", list):
+        for g in d["audience"]:
+            if g not in ("phd", "ms", "bs"):
+                r.err(f"audience `{g}` not in phd/ms/bs")
+    for k in ("activities", "benefits"):
+        if k in d and not isinstance(d[k], list):
+            r.err(f"{k} must be a list")
+    if "location" in d:
+        check_place(r, d["location"], "location")
+    e = d.get("eligibility")
+    if not isinstance(e, dict):
+        r.err("`eligibility` mapping is required")
+    else:
+        for k in ("international_ok", "ut_only"):
+            if not isinstance(e.get(k), bool):
+                r.err(f"eligibility.{k} (true/false) is required")
+    c = d.get("cycle") or {}
+    check_deadlines(r, c.get("deadlines", []), PROGRAM_DEADLINE_KINDS, "cycle.deadlines")
+    enum(r, d, "status", {"open", "upcoming", "rolling", "ongoing", "closed"})
+    if not is_url(d.get("apply_url") or (d.get("links") or {}).get("home")):
+        r.err("apply_url or links.home must be a URL")
+
+
 CHECKERS = {
+    "programs": check_program,
     "conferences": check_conference,
     "journals": check_journal,
     "internships": check_internship,

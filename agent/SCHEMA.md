@@ -277,3 +277,52 @@ last_verified: 2026-10-02
 
 Scholarship deadline `kind`: `application`, `internal` (university nomination), `recommendation`,
 `interview`, `result`, `other` (with `label:`).
+
+## Program / activity — `data/programs/<id>.yaml`
+
+Things a graduate student can *join* rather than apply to as a job or award: campus research
+communities and seminar series, student organizations, certificate (portfolio) programs, doctoral
+consortia, summer schools, competitions, society student programs, entrepreneurship programs,
+volunteer roles. One file per program.
+
+```yaml
+id: texas-robotics
+name: "Texas Robotics"
+organizer: "The University of Texas at Austin"
+scope: ut-austin              # ut-austin | us | international | online
+kind: research-community      # research-community | seminar | student-org | certificate | doctoral-consortium |
+                              # summer-school | competition | society | entrepreneurship | volunteer | mentoring
+audience: [phd, ms]           # phd | ms | bs — who can take part
+fields: [robotics, physical-ai, hri]
+summary: "한국어 2–3문장: 무엇인가"
+summary_en: "English twin"
+activities: ["한국어: 할 수 있는 일, 1–4개"]
+activities_en: ["English twin"]
+benefits: ["한국어: 얻는 것 (네트워킹, 연구 협업, 자금, 이력)"]
+benefits_en: ["English twin"]
+commitment: "한국어: 시간·빈도 (예: 매주 금요일 세미나, 1주 집중)"
+commitment_en: "English twin"
+cost: {value: 0, currency: USD, note: "free for UT students"}    # optional
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}   # omit for online
+eligibility:
+  international_ok: true      # can an international graduate student at a US university join?
+  ut_only: true               # limited to UT Austin students?
+  notes: "한국어"
+  notes_en: "English twin"
+cycle:
+  typical: "한국어: 보통 언제 (예: 매 학기 초 모집)"
+  typical_en: "English twin"
+  deadlines:
+    - {kind: application, date: 2026-11-15, label: "...", label_en: "...", estimated: true}
+    - {kind: event, date: 2027-04-10, label_en: "Texas Robotics Symposium"}
+status: ongoing               # open | upcoming | rolling | ongoing | closed
+apply_url: "https://..."      # where to join / apply
+fit: 3
+take: "한국어 한 문장"
+take_en: "English twin"
+links: {home: "https://..."}
+sources: ["https://..."]
+last_verified: 2026-10-02
+```
+
+Program deadline `kind`: `application`, `registration`, `nomination`, `event`, `other` (with `label`).

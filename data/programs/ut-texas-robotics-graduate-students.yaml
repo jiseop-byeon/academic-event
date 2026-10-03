@@ -1,0 +1,55 @@
+id: ut-texas-robotics-graduate-students
+name: "Texas Robotics Graduate Students (TRGS)"
+organizer: "Texas Robotics Graduate Students, The University of Texas at Austin"
+scope: ut-austin
+kind: student-org
+audience: [phd, ms]
+fields: [robotics, physical-ai, hri]
+summary: "Texas Robotics 소속 대학원생들의 학생 조직으로, 로보틱스와 관련 분야를 공부하는 대학원생의 커뮤니티 형성과 전문성 개발 행사를 열고 교수진과 대학원생 사이의 창구 역할을 한다. 여러 학과·연구실이 모이는 다학제 조직이며, 오스틴 지역 로봇 산업과의 교류를 넓히는 것도 목표로 한다."
+summary_en: "The student organization of Texas Robotics graduate students: it runs community-building and professional-development events for graduate students in robotics and related fields and acts as the liaison between faculty and the graduate student body. It is multidisciplinary, drawing on many departments and labs, and aims to connect UT robotics with the robotics industry in and around Austin."
+activities:
+  - "매주 월요일 13시 AHG 2.124 회의실 정기 모임"
+  - "로봇 기업 방문(네트워킹·리크루팅) 행사"
+  - "연구실 대항 행사 — 로봇 핼러윈 코스튬 대회, 트리비아 런치, 체스·마리오카트 대회(Crystal Cup 점수제), 아이스크림 소셜"
+  - "봉사·지역사회 참여 활동 우선 안내, Texas Robotics Slack"
+activities_en:
+  - "Weekly meetings on Mondays at 13:00 in the AHG 2.124 conference room"
+  - "Visits to robotics companies for networking and recruiting"
+  - "Lab-versus-lab events — robot Halloween costume contest, trivia lunch, chess and Mario Kart tournaments (Crystal Cup points), ice-cream social"
+  - "First word on volunteer and community-engagement opportunities; the Texas Robotics Slack"
+benefits:
+  - "여러 학과 로보틱스 대학원생과의 인맥 (무료 음식 행사)"
+  - "Texas Robotics 교수진·직원과의 직접 소통 창구"
+  - "로봇 기업 방문을 통한 채용 접점"
+benefits_en:
+  - "A network of robotics graduate students across departments (events with free food)"
+  - "A direct line to Texas Robotics faculty and staff"
+  - "Recruiting contacts through robotics company visits"
+commitment: "매주 월요일 13시 정기 모임 참석(가입 요건), 행사는 학기 중 수시"
+commitment_en: "Weekly Monday 13:00 meeting (a membership requirement); events throughout the semester"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "Texas Robotics에 소속(affiliated)된 UT Austin 대학원생이 대상이며 국적 제한 언급 없음. 가입 요건은 주간 모임 참석. Slack 워크스페이스나 TRGS 메일링 리스트로 행사 소식을 받을 수 있음."
+  notes_en: "For UT Austin graduate students affiliated with Texas Robotics; no nationality restriction is mentioned. Membership requires attending the weekly meeting. Event news goes out on the Slack workspace and the TRGS mailing list."
+cycle:
+  typical: "학기 중 매주 월요일 모임, 가을(아이스크림 소셜·로봇 핼러윈)과 봄(토너먼트·트리비아 런치) 행사"
+  typical_en: "Weekly Monday meetings during the semester; fall events (ice-cream social, robot Halloween) and spring events (tournaments, trivia lunch)"
+status: ongoing
+apply_url: "https://sites.utexas.edu/trgs/contact-us/"
+fit: 2
+take: "토목 학과에서는 로봇 동료를 만나기 어려우니, 월요일 모임과 기업 방문 행사로 로보틱스 연구실 대학원생들과 관계를 쌓아 두면 장비·데이터 협업과 산업 연결에 도움이 된다."
+take_en: "Robotics peers are scarce in a civil engineering department — Monday meetings and company visits build ties with robotics lab students that pay off in equipment and data collaborations and industry contacts."
+links:
+  home: "https://sites.utexas.edu/trgs/"
+  events: "https://sites.utexas.edu/trgs/category/events/"
+  mission: "https://sites.utexas.edu/trgs/constitution/"
+sources:
+  - "https://robotics.utexas.edu/graduate"
+  - "https://robotics.utexas.edu/events"
+  - "https://sites.utexas.edu/trgs/"
+  - "https://sites.utexas.edu/trgs/constitution/"
+  - "https://sites.utexas.edu/trgs/contact-us/"
+  - "https://sites.utexas.edu/trgs/category/events/"
+last_verified: 2026-10-02

@@ -124,6 +124,18 @@ def main(argv):
         if why:
             work["scholarships"].append((f.stem, why))
 
+    work["programs"] = []
+    for f, p in load("programs"):
+        why = []
+        dls = (p.get("cycle") or {}).get("deadlines") or []
+        future = [x for x in dls if as_date(x.get("date")) and as_date(x["date"]) >= today]
+        if dls and not future and p.get("status") not in ("ongoing", "rolling"):
+            why.append("every listed date has passed — add the next cycle (estimated if not announced)")
+        if age(p.get("last_verified")) > 60:
+            why.append(f"last verified {p.get('last_verified')}")
+        if why:
+            work["programs"].append((f.stem, why))
+
     jobs = {}
     try:
         jobs = json.loads((DATA / "auto" / "jobs.json").read_text(encoding="utf-8"))

@@ -1,0 +1,64 @@
+id: ut-texas-robotics
+name: "Texas Robotics"
+organizer: "The University of Texas at Austin (Cockrell School of Engineering and College of Natural Sciences)"
+scope: ut-austin
+kind: research-community
+audience: [phd, ms, bs]
+fields: [robotics, physical-ai, manipulation, navigation, hri]
+summary: "UT Austin의 학과 횡단 로보틱스 연구·교육 조직으로, 항공우주(ASE)·컴퓨터과학(CS)·전기컴퓨터(ECE)·기계(ME) 등의 핵심 교수 17명과 협력 교수 40명, 대학원생 약 150명이 참여한다. 장기 자율성, 로봇 조작, 의료 로봇, HRI가 주력 분야이며, 모션캡처 스튜디오·중량 로봇 베이·제작 공간을 갖춘 Anna Hiss Gymnasium(약 55,000 sq ft)이 거점이다. 협력 교수 명단에는 CAEE의 Christian Claudel, Zoltan Nagy 교수도 있다."
+summary_en: "UT Austin's cross-departmental robotics research and education organization: 17 core and 40 affiliated faculty from Aerospace (ASE), Computer Science, ECE, Mechanical Engineering and other units, and about 150 graduate students. Its focus areas are long-term autonomy, robot manipulation, medical robotics and HRI, and its hub is the renovated Anna Hiss Gymnasium (about 55,000 sq ft, with a motion-capture studio, a heavy-robotics bay and fabrication spaces). CAEE professors Christian Claudel and Zoltan Nagy are on the affiliated-faculty list."
+activities:
+  - "학기 중 격주 화요일 정오 Texas Robotics Portfolio Seminar Series(대면·온라인) 참석·발표"
+  - "Texas Robotics Talks와 FAI 공동 초청 강연 (녹화 영상 공개)"
+  - "연례 심포지엄 — 2026년 3월 3–4일 Texas Symposium on Machine Learning, Responsible AI & Robotics (ML Lab·Good Systems 공동 주최, 포스터 세션·네트워킹 리셉션)"
+  - "대학원생 조직 TRGS 모임, Texas Robotics Slack, 산업 파트너의 기업 방문·리크루팅 행사"
+activities_en:
+  - "Attend and present at the Texas Robotics Portfolio Seminar Series — every other Tuesday at noon during the semester, in person and online"
+  - "Texas Robotics Talks and joint FAI invited talks (recordings posted online)"
+  - "Annual symposium — March 3–4, 2026: Texas Symposium on Machine Learning, Responsible AI & Robotics (co-hosted with the ML Lab and Good Systems; poster session and networking reception)"
+  - "TRGS graduate-student meetings, the Texas Robotics Slack, and industry partners' company visits and recruiting events"
+benefits:
+  - "학과를 넘어선 로보틱스 교수·연구실 네트워크와 공동연구 기회"
+  - "산업 파트너(Amazon, Google, Meta, Samsung, Doosan Robotics, Yaskawa, Nuro, Dell 등)와의 접점 — 산업제휴 프로그램(IAP)에는 레쥬메 북, 커리어페어, 기업 투어, 연례 네트워킹 행사, 대학원 세미나 참석이 포함"
+  - "Anna Hiss Gymnasium의 제작 시설 4곳, 1,200 sq ft 모션캡처 스튜디오, 위험 환경용 Heavy Robotics Bay 등 연구 인프라"
+benefits_en:
+  - "A robotics faculty and lab network across departments, with collaboration opportunities"
+  - "Contact with industry partners (Amazon, Google, Meta, Samsung, Doosan Robotics, Yaskawa, Nuro, Dell and others) — the Industrial Affiliates Program (IAP) includes a resume book, career fairs, company tours, yearly networking events and attendance at the graduate seminar series"
+  - "Research infrastructure in Anna Hiss Gymnasium: four fabrication facilities, a 1,200 sq ft motion-capture studio and a Heavy Robotics Bay for hazardous-environment robots"
+commitment: "자율 참여 — 포트폴리오 세미나는 학기 중 격주 화요일 12시(학기당 5–7회), TRGS 모임은 매주 월요일 13시(AHG 2.124), 심포지엄은 연 1회 이틀"
+commitment_en: "Voluntary — portfolio seminars every other Tuesday at 12:00 during the semester (5–7 per semester), TRGS meetings every Monday at 13:00 (AHG 2.124), and a two-day symposium once a year"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "UT Austin 학생 대상이며 국적 제한은 언급되지 않음. 포트폴리오 세미나는 Texas Robotics 대학원생을 위한 행사로 안내되며, 토목 등 다른 학과 학생도 로보틱스 연구 지도교수가 있으면 포트폴리오 프로그램을 통해 정식으로 참여할 수 있음. 심포지엄은 사전 등록하면 학외 인사도 참석 가능."
+  notes_en: "For UT Austin students; no nationality restriction is mentioned. The portfolio seminar is described as an event for Texas Robotics graduate students; students from other departments, civil engineering included, can join formally through the portfolio program if they have a faculty supervisor for robotics research. The symposium is open to outside attendees who register."
+cycle:
+  typical: "연중 운영 — 학기 중 격주 화요일 포트폴리오 세미나(2026년 가을학기는 9월 1일 시작), 최근 심포지엄은 3월 초(2025년 3월 4–6일 AI x Robotics Research Symposium, 2026년 3월 3–4일 공동 심포지엄)"
+  typical_en: "Year-round — portfolio seminar every other Tuesday during the semester (fall 2026 began September 1); recent symposia were in early March (AI x Robotics Research Symposium, March 4–6, 2025; joint symposium, March 3–4, 2026)"
+  deadlines:
+    - {kind: event, date: 2026-10-13, label: "포트폴리오 세미나 (9월 1일 시작 격주 화요일 일정에서 계산한 날짜)", label_en: "Portfolio Seminar (date computed from the every-other-Tuesday schedule that began September 1)", estimated: true}
+    - {kind: event, date: 2027-03-02, label: "연례 AI·로보틱스 심포지엄 — 2027년 일정 미발표, 2025·2026년 패턴으로 3월 초 추정", label_en: "Annual AI + robotics symposium — 2027 date not announced; early March estimated from the 2025 and 2026 editions", estimated: true}
+status: ongoing
+apply_url: "https://robotics.utexas.edu/graduate"
+fit: 3
+take: "건설 로봇·HRI 연구에 가장 직접 닿는 캠퍼스 커뮤니티이니, 격주 화요일 포트폴리오 세미나와 Slack·TRGS로 로봇 연구실과 산업 파트너에게 얼굴을 알리고, 3월 심포지엄 포스터 세션에서 건설 현장 적용 연구를 보여 줘라."
+take_en: "The campus community closest to construction robotics and HRI — use the biweekly Tuesday portfolio seminar, Slack and TRGS to get known in the robotics labs and among industry partners, and show construction-site work at the March symposium's poster session."
+links:
+  home: "https://robotics.utexas.edu/"
+  events: "https://robotics.utexas.edu/events"
+  talks: "https://robotics.utexas.edu/research/talks"
+  industry: "https://robotics.utexas.edu/industry"
+  symposium_2026: "https://cvent.utexas.edu/event/Symposium2026/summary"
+sources:
+  - "https://robotics.utexas.edu/"
+  - "https://robotics.utexas.edu/about"
+  - "https://robotics.utexas.edu/events"
+  - "https://robotics.utexas.edu/graduate"
+  - "https://robotics.utexas.edu/industry"
+  - "https://robotics.utexas.edu/research/talks"
+  - "https://robotics.utexas.edu/people"
+  - "https://cvent.utexas.edu/event/Symposium2026/summary"
+  - "https://news.utexas.edu/2026/03/20/leaders-in-ai-robotics-and-ethical-innovation-come-together-at-ut-austin/"
+  - "https://robotics.utexas.edu/news/301"
+last_verified: 2026-10-02

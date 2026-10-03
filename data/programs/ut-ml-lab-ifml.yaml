@@ -1,0 +1,63 @@
+id: ut-ml-lab-ifml
+name: "Machine Learning Laboratory and NSF AI Institute for Foundations of Machine Learning (IFML)"
+organizer: "The University of Texas at Austin — Machine Learning Laboratory / NSF AI Institute for Foundations of Machine Learning"
+scope: ut-austin
+kind: seminar
+audience: [phd, ms, bs]
+fields: [ml, vision]
+summary: "ML Lab은 60명 이상의 교수·연구자가 참여하는 UT Austin의 머신러닝 연구 허브로, 2020년 NSF가 지정한 AI Institute인 IFML(UW·Stanford·Wichita State 등 공동), Center for Generative AI(TACC가 운영하는 H100 600개 규모 Vista GPU 클러스터), Good Systems 등을 아우른다. IFML은 학기 중 금요일 정오 GDC 6.302에서 IFML Seminar(Zoom 병행)를 열고 녹화 영상을 공개하며, 매년 연구 심포지엄을 연다(2026년 10월 1–2일, 'Machine Learning towards Superintelligence')."
+summary_en: "The ML Lab is UT Austin's machine-learning research hub of 60+ faculty and scientists, spanning IFML (an NSF AI Institute designated in 2020, with UW, Stanford, Wichita State and others), the Center for Generative AI (the Vista GPU cluster of 600 NVIDIA H100s hosted by TACC) and Good Systems. IFML runs the IFML Seminar on Fridays at noon in GDC 6.302 (also on Zoom) during the semester, posts the recordings, and holds a yearly research symposium (October 1–2, 2026: 'Machine Learning towards Superintelligence')."
+activities:
+  - "IFML Seminar — 학기 중 금요일 12–13시, GDC 6.302와 Zoom (2026년 가을 8/28, 9/11, 9/18 개최)"
+  - "IFML Research Symposium(2026년 10월 1–2일, Mulva Auditorium), ML Lab 가을 AI 연구 심포지엄(2025년 11월 5일), 봄 공동 심포지엄(2026년 3월 3–4일) 참석"
+  - "녹화된 IFML 세미나·튜토리얼 시청 (예: Sanjay Shakkottai의 확산 모델 이미지 생성 튜토리얼)"
+  - "ML Lab Matching Event — 학부·석사생이 ML 연구실과 매칭되는 행사 (2026년 10월 16일, GDC Atrium)"
+activities_en:
+  - "IFML Seminar — Fridays 12–1 p.m. during the semester, GDC 6.302 and Zoom (fall 2026 talks on Aug 28, Sep 11 and Sep 18)"
+  - "Attend the IFML Research Symposium (October 1–2, 2026, Mulva Auditorium), the ML Lab Fall AI Research Symposium (November 5, 2025) and the spring joint symposium (March 3–4, 2026)"
+  - "Watch recorded IFML seminars and tutorials (e.g., Sanjay Shakkottai's tutorial on diffusion models for image generation)"
+  - "ML Lab Matching Event — undergraduate and master's students match with ML research teams (October 16, 2026, GDC Atrium)"
+benefits:
+  - "로봇 학습·물리 AI의 바탕이 되는 ML 기초(확산 모델, 강화학습, 강건 통계, 파운데이션 모델)의 최신 연구를 가까이에서 접함"
+  - "Google DeepMind, Microsoft Research, Stanford 등 외부 연사와 UT ML 교수진과의 접점"
+  - "세미나 녹화 영상 아카이브로 놓친 강연도 시청 가능"
+benefits_en:
+  - "Close-up access to current work on the ML foundations behind robot learning and physical AI (diffusion models, reinforcement learning, robust statistics, foundation models)"
+  - "Contact with outside speakers from Google DeepMind, Microsoft Research, Stanford and others, and with UT ML faculty"
+  - "A recording archive, so missed talks can be watched later"
+commitment: "자율 — 금요일 점심 세미나 1시간, 심포지엄은 1–2일"
+commitment_en: "Drop-in — one-hour Friday lunch seminars; symposia last one or two days"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "세미나는 공개 행사(Zoom 링크를 공지에 게시), 심포지엄은 사전 등록. 국적 제한 언급 없음. Matching Event는 학부·석사생 대상이며 박사생 대상 행사는 아님."
+  notes_en: "Seminars are public (Zoom links are posted with each announcement); symposia need registration. No nationality restriction is mentioned. The Matching Event is for undergraduate and master's students, not PhD students."
+cycle:
+  typical: "학기 중 금요일 정오 IFML Seminar, 가을(10–11월) IFML·ML Lab 심포지엄, 봄(3월 초) Texas Robotics·Good Systems와 공동 심포지엄"
+  typical_en: "IFML Seminar on Fridays at noon during the semester; IFML and ML Lab symposia in the fall (October–November); a joint symposium with Texas Robotics and Good Systems in early spring (March)"
+  deadlines:
+    - {kind: event, date: 2026-10-16, label: "ML Lab Matching Event (학부·석사생 대상, 14–16시, GDC Atrium)", label_en: "ML Lab Matching Event (for undergraduate and master's students; 2–4 p.m., GDC Atrium)"}
+    - {kind: event, date: 2027-03-02, label: "봄 공동 심포지엄 (Texas Robotics·Good Systems와) — 2027년 일정 미발표, 3월 초 추정", label_en: "Spring joint symposium (with Texas Robotics and Good Systems) — 2027 date not announced; early March estimated", estimated: true}
+status: ongoing
+apply_url: "https://www.ifml.institute/events"
+fit: 2
+take: "금요일 점심 IFML 세미나는 로봇 학습에 쓰이는 ML 기초(확산 모델·강화학습·강건 추정)를 따라잡는 가장 값싼 방법이니 관련 주제만 골라 듣고, 가을·봄 심포지엄에서 ML 교수진과 접점을 만들어라."
+take_en: "The Friday-noon IFML seminar is the cheapest way to keep up with the ML foundations behind robot learning (diffusion models, RL, robust estimation) — pick the relevant topics and use the fall and spring symposia to meet ML faculty."
+links:
+  home: "https://ml.utexas.edu/"
+  ifml: "https://www.ifml.institute/"
+  recorded_talks: "https://www.ifml.institute/recorded-talks"
+  ifml_symposium_2026: "https://www.ifml.institute/events/ifml-research-symposium-2026"
+  matching_event_2026: "https://ai.utexas.edu/events/2026-10-16/machine-learning-lab-matching-event-2026"
+sources:
+  - "https://ml.utexas.edu/"
+  - "https://ml.utexas.edu/events"
+  - "https://ml.utexas.edu/center-for-generative-ai"
+  - "https://www.ifml.institute/"
+  - "https://www.ifml.institute/events"
+  - "https://www.ifml.institute/events/ifml-research-symposium-2026"
+  - "https://www.ifml.institute/events/ifml-seminar-091826-robust-quantum-estimation"
+  - "https://ai.utexas.edu/events/2026-10-16/machine-learning-lab-matching-event-2026"
+  - "https://cvent.utexas.edu/event/Symposium2026/summary"
+last_verified: 2026-10-02

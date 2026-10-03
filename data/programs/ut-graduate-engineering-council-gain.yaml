@@ -1,0 +1,60 @@
+id: ut-graduate-engineering-council-gain
+name: "Graduate Engineering Council (GEC) and GAIN — Graduate and Industry Networking"
+organizer: "Graduate Engineering Council, Cockrell School of Engineering, The University of Texas at Austin"
+scope: ut-austin
+kind: student-org
+audience: [phd, ms]
+fields: [construction, robotics, physical-ai]
+summary: "GEC는 Cockrell 공과대학 대학원생을 대표해 공과대학·대학 본부에 의견을 전하는 학생 조직으로, 학술·네트워킹·친목·웰빙·멘토링 행사를 열며 회비 없이 누구나 참여할 수 있다. 대표 행사인 GAIN(Graduate and Industry Networking)은 매년 1월 말 EER에서 열리며, 대학원생 연구 포스터 세션과 3분 논문 발표(3MT) 대회, 기업 발표·네트워킹으로 기업 리크루터와 대학원생 연구를 연결한다."
+summary_en: "GEC represents Cockrell School graduate students to the school and university administration and runs academic, networking, social, well-being and mentorship events, with no dues and open to everyone. Its flagship event, GAIN (Graduate and Industry Networking), is held at EER every late January: a graduate research poster session, a three-minute thesis (3MT) competition, industry talks and networking that connect recruiters with graduate research."
+activities:
+  - "GAIN 포스터 세션 발표 — 초록 250단어(그림 없음) 중 60편 선정, 포스터 36×48인치, 교수 심사위원·기업 방문자 Q&A로 포스터상 결정"
+  - "GAIN 3분 논문 발표(3MT) 대회 — 15편 선정, 우승자 상금"
+  - "GAIN 기업 발표·네트워킹 세션, 초록 제출자 대상 믹서와 시상식"
+  - "GEC 학술·네트워킹·친목·마음챙김 행사 참여, 학과 대표·임원 활동"
+activities_en:
+  - "Present at the GAIN poster session — 60 posters chosen from 250-word abstracts (no figures); 36×48-inch posters; awards decided by faculty judges and visiting employers through Q&A"
+  - "The GAIN three-minute thesis (3MT) competition — 15 talks selected, with an award or cash prize for the winner"
+  - "GAIN industry talks and networking, plus a mixer and awards ceremony for abstract submitters"
+  - "GEC academic, networking, social and mindfulness events; serve as a department representative or officer"
+benefits:
+  - "공학 대학원생을 찾는 기업 리크루터와 교수 앞에서 연구 발표 — 산학 협력·채용 접점"
+  - "포스터상, 3MT 상금 등 수상 경력"
+  - "회비 없는 공과대학 대학원생 커뮤니티와 대표 활동 경험"
+benefits_en:
+  - "Present research to faculty and to recruiters looking for engineering graduate students — industry collaboration and hiring contacts"
+  - "Awards such as poster prizes and the 3MT cash prize"
+  - "A no-dues community of engineering graduate students and representative leadership experience"
+commitment: "GAIN은 1월 말 하루(초록은 약 2주 전 마감), GEC 행사는 자율 참여"
+commitment_en: "GAIN is one day in late January (abstracts due about two weeks before); GEC events are optional"
+cost: {value: 0, currency: USD, note: "GEC는 회비 없음, 누구나 참여 가능", note_en: "GEC charges no dues or fees; everyone is welcome"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "Cockrell 공과대학 대학원생 대상이며 국적 제한 언급 없음. 이전 GAIN 참가자는 그 뒤로 상당한 진전이 있을 때만 초록을 다시 낼 수 있음. 발표하지 않고 참석만 하는 학생도 사전 등록 권장."
+  notes_en: "For Cockrell School graduate students; no nationality restriction is mentioned. Past GAIN presenters may submit again only after significant new progress. Students attending without presenting are encouraged to register ahead."
+cycle:
+  typical: "GAIN은 매년 1월 마지막 주 무렵(2024년 1월 30일, 2025년 1월 29일, 2026년 1월 28일, EER), 초록 마감은 행사 약 2주 전(2026년 1월 16일)"
+  typical_en: "GAIN is held around the last week of January (January 30, 2024; January 29, 2025; January 28, 2026; EER), with abstracts due about two weeks earlier (January 16, 2026)"
+  deadlines:
+    - {kind: application, date: 2027-01-15, label: "GAIN 2027 초록 마감 (2026년 1월 16일 기준 추정)", label_en: "GAIN 2027 abstract deadline (estimated from January 16, 2026)", estimated: true}
+    - {kind: event, date: 2027-01-27, label: "GAIN 2027 (2024–2026년 1월 말 패턴으로 추정, EER)", label_en: "GAIN 2027 (estimated from the late-January pattern of 2024–2026; EER)", estimated: true}
+status: upcoming
+apply_url: "https://sites.utexas.edu/gain/student-registration/"
+fit: 2
+take: "1월 말 GAIN에서 건설 로봇 연구 포스터나 3분 발표를 하면 교수 심사위원과 공학 대학원생을 찾는 기업에 연구를 한 번에 보여줄 수 있으니, 1월 중순 초록 마감(250단어)에 맞춰 준비하라."
+take_en: "A poster or 3MT talk on construction-robotics work at GAIN in late January shows your research to faculty judges and to companies recruiting engineering graduate students in one go — have the 250-word abstract ready for the mid-January deadline."
+links:
+  home: "https://sites.utexas.edu/gain/"
+  gec: "https://sites.utexas.edu/gec/"
+  past_events: "https://sites.utexas.edu/gain/past-events/"
+sources:
+  - "https://sites.utexas.edu/gain/"
+  - "https://sites.utexas.edu/gain/student-registration/"
+  - "https://sites.utexas.edu/gain/past-events/gain-2025/"
+  - "https://sites.utexas.edu/gain/past-events/gain-2024/"
+  - "https://sites.utexas.edu/gec/"
+  - "https://caee.utexas.edu/academics/student-organizations/grad-student-organizations/"
+  - "https://cockrell.utexas.edu/student-life/career-services/career-fairs/"
+last_verified: 2026-10-02

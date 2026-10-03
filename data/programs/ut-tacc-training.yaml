@@ -1,0 +1,63 @@
+id: ut-tacc-training
+name: "TACC Training, Institutes and Student Programs"
+organizer: "Texas Advanced Computing Center (TACC), The University of Texas at Austin — Office of the Vice President for Research"
+scope: ut-austin
+kind: summer-school
+audience: [phd, ms, bs]
+fields: [ml, physical-ai]
+summary: "학계에서 가장 강력한 슈퍼컴퓨터들(Frontera, Vista, Stampede3, Lonestar6 등)을 운영하는 UT Austin 연구 컴퓨팅 센터로, 입문부터 고급까지 온라인·대면 교육(병렬 프로그래밍, GPU, 머신러닝)과 여름 집중 과정인 TACC Institute, UT 정규 과목(대학원생은 Portfolio in Scientific Computation 취득 가능)을 운영한다. 대학원생 대상 유급 프로그램으로 SGX3 여름 인턴십이 있고, 토목 분야 AI 박사생을 위한 SCIPE 펠로십(Chishiki-AI)도 TACC가 운영한다. Frontera Fellowship은 종료됐다."
+summary_en: "UT Austin's research computing center, home to the most powerful supercomputers in academia (Frontera, Vista, Stampede3, Lonestar6 and others). It offers online and in-person training from introductory to advanced (parallel programming, GPUs, machine learning), summer TACC Institutes, and UT courses taught by TACC staff (graduate students can earn a Portfolio in Scientific Computation). Paid programs for graduate students include the SGX3 summer internship, and TACC also runs the SCIPE fellowship for PhD students working on AI in civil engineering (Chishiki-AI). The Frontera Fellowship has ended."
+activities:
+  - "학기 중 온라인·대면 단기 교육 — 2026년 10월 6–13일 Applied Parallel Programming(가을), 10월 6일 NERSC Multi-GPU Bootcamp(온라인)"
+  - "여름 TACC Institute(대면, 식사 제공, 수료증) — 2026년 Machine Learning Institute 7월 20–24일, Applied Parallel Programming 6월 15–19일"
+  - "TACC 연구자가 가르치는 UT 과목(SDS 374C/394C 병렬 프로그래밍, SDS 335/394 Scientific and Technical Computing 등) — 대학원생은 Portfolio in Scientific Computation 취득"
+  - "SGX3 여름 인턴십 — 대학원생, 9주 풀타임, $6,300, 사이언스 게이트웨이 소프트웨어 개발 (2026년 모집은 2월 28일 마감)"
+activities_en:
+  - "Short online and in-person courses during the semester — Applied Parallel Programming Fall 2026 (October 6–13), NERSC Multi-GPU Bootcamp (online, October 6)"
+  - "Summer TACC Institutes (in person, meals included, certificate of attendance) — in 2026, Machine Learning Institute July 20–24 and Applied Parallel Programming June 15–19"
+  - "UT courses taught by TACC researchers (SDS 374C/394C Parallel Programming, SDS 335/394 Scientific and Technical Computing and others) — graduate students can earn a Portfolio in Scientific Computation"
+  - "SGX3 summer internship — graduate students, 9 weeks full time, $6,300, science-gateway software development (the 2026 round closed February 28)"
+benefits:
+  - "로봇 학습·대규모 시뮬레이션에 필요한 HPC·GPU 실무 (Slurm, MPI, CUDA, 컨테이너)"
+  - "Vista(NVIDIA H100 600개) 등 학계 최대급 AI 자원을 다루는 TACC 전문가와의 연결"
+  - "Institute 수료증, TACC YouTube 교육 영상 아카이브"
+benefits_en:
+  - "Hands-on HPC and GPU skills for robot learning and large-scale simulation (Slurm, MPI, CUDA, containers)"
+  - "Contact with TACC experts who run some of academia's largest AI resources, such as Vista (600 NVIDIA H100s)"
+  - "Institute certificates of attendance and the TACC training video archive on YouTube"
+commitment: "온라인 교육은 몇 시간–1주, 여름 Institute는 5일 대면, 정규 과목은 한 학기"
+commitment_en: "Online training runs from a few hours to a week; summer Institutes are five days in person; courses take a semester"
+cost: {note: "Institute는 유료 — 학계·STAR·산업 파트너별 요금이 다름", note_en: "Institutes charge a fee — pricing differs for academic, STAR and industry participants"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "교육과 Institute는 전 세계 연구자에게 열려 있으며 국적 제한 언급 없음. SGX3 인턴십은 컴퓨터과학·컴퓨터공학 등 관련 전공 대학원생 대상이며 오스틴 현장 근무. REU 등 일부 프로그램은 학부생 전용. Frontera Fellowship은 더 이상 운영하지 않음."
+  notes_en: "Training and Institutes are open to researchers worldwide, with no nationality restriction mentioned. The SGX3 internship is for graduate students in computer science, computer engineering or related fields and is in person in Austin. Some programs, such as the REUs, are undergraduate-only. The Frontera Fellowship is no longer offered."
+cycle:
+  typical: "학기 중 온라인·대면 단기 교육 수시, 5–7월 여름 Institute(봄에 등록), SGX3 인턴십은 가을 공고 후 2월 말 마감"
+  typical_en: "Short courses throughout the semester; summer Institutes in May–July (registration in spring); the SGX3 internship is announced in the fall and closes at the end of February"
+  deadlines:
+    - {kind: event, date: 2026-10-06, label: "Applied Parallel Programming 가을 교육 (10월 6–13일)", label_en: "TACC Training — Applied Parallel Programming Fall 2026 (October 6–13)"}
+status: ongoing
+apply_url: "https://tacc.utexas.edu/use-tacc/training/"
+fit: 2
+take: "로봇 학습·대규모 시뮬레이션을 돌리려면 TACC 자원 사용법이 기본기이니 학기 중 단기 교육으로 Slurm·GPU·병렬 프로그래밍을 익히고, 여름 Machine Learning Institute는 연구실 예산으로 참가를 검토하라."
+take_en: "Knowing how to use TACC is a basic skill for robot learning and large-scale simulation — learn Slurm, GPUs and parallel programming in the semester short courses, and consider the summer Machine Learning Institute on lab funds."
+links:
+  home: "https://tacc.utexas.edu/"
+  training: "https://tacc.utexas.edu/use-tacc/training/"
+  institutes: "https://tacc.utexas.edu/use-tacc/training/institutes"
+  student_programs: "https://tacc.utexas.edu/education/undergraduates-graduates/"
+  courses: "https://tacc.utexas.edu/education/undergraduates-graduates/academic-courses"
+  sgx3_internship: "https://tacc.utexas.edu/about/internships/sgx3-summer-program/"
+sources:
+  - "https://tacc.utexas.edu/use-tacc/training/"
+  - "https://tacc.utexas.edu/use-tacc/training/institutes"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/academic-courses"
+  - "https://tacc.utexas.edu/about/internships/sgx3-summer-program/"
+  - "https://frontera-portal.tacc.utexas.edu/fellowship/"
+  - "https://ml.utexas.edu/center-for-generative-ai"
+  - "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/"
+last_verified: 2026-10-02

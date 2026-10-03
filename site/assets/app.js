@@ -31,14 +31,22 @@
   }
   function lab(map, k) { var v = map[k]; return v ? (LANG === "ko" ? v[1] : v[0]) : k; }
 
-  var CATS = { conferences: ["Conferences", "학회"], journals: ["Journals", "저널"], internships: ["Internships", "인턴십"], scholarships: ["Scholarships", "장학금"] };
-  var ACTION = { abstract: 1, paper: 1, "late-breaking": 1, application: 1, internal: 1, recommendation: 1, "internship-deadline": 1 };
+  var CATS = { conferences: ["Conferences", "학회"], journals: ["Journals", "저널"], internships: ["Internships", "인턴십"], scholarships: ["Scholarships", "장학금"], programs: ["Programs", "프로그램·대외활동"] };
+  var ACTION = { abstract: 1, paper: 1, "late-breaking": 1, application: 1, internal: 1, recommendation: 1, "internship-deadline": 1,
+    "program-application": 1, "program-registration": 1, "program-nomination": 1 };
+  var SCOPE = { "ut-austin": ["UT Austin", "UT Austin"], us: ["United States", "미국"], international: ["International", "국제"], online: ["Online", "온라인"] };
+  var PKIND = {
+    "research-community": ["Research community", "연구 커뮤니티"], seminar: ["Seminar series", "세미나"], "student-org": ["Student organization", "학생 단체"],
+    certificate: ["Certificate / portfolio", "인증·포트폴리오 과정"], "doctoral-consortium": ["Doctoral consortium", "박사과정 컨소시엄"],
+    "summer-school": ["Summer school", "서머스쿨"], competition: ["Competition", "대회·챌린지"], society: ["Society program", "학회 학생 프로그램"],
+    entrepreneurship: ["Entrepreneurship", "창업·메이커"], volunteer: ["Volunteer", "자원봉사"], mentoring: ["Mentoring", "멘토링"],
+  };
   var ORG_TYPE = {
     bigtech: ["Big tech", "빅테크"], robotics: ["Robotics startup", "로봇 스타트업"], "construction-robotics": ["Construction robotics", "건설 로봇"],
     "construction-tech": ["Construction tech", "건설 테크"], construction: ["Construction firm", "건설사"], autonomy: ["Autonomy & mobility", "자율주행·모빌리티"],
     lab: ["Research lab", "연구소·국책"],
   };
-  var STATUS = { open: ["Open", "모집 중"], upcoming: ["Opening soon", "모집 예정"], rolling: ["Rolling", "상시 모집"], closed: ["Closed", "마감"] };
+  var STATUS = { open: ["Open", "모집 중"], upcoming: ["Opening soon", "모집 예정"], rolling: ["Rolling", "상시 모집"], ongoing: ["Ongoing", "상시 운영"], closed: ["Closed", "마감"] };
   var SCH_ORG = {
     "korean-foundation": ["Korean foundation", "한국 재단"], "korean-government": ["Korean government", "한국 정부"], industry: ["Industry", "기업"],
     "us-government": ["US government", "미국 정부"], society: ["Professional society", "학회·협회"], university: ["University", "대학"], other: ["Other", "기타"],
@@ -63,6 +71,8 @@
     "late-breaking": ["Late-breaking", "LBR 마감"], registration: ["Registration", "등록 마감"], other: ["Other", "기타"],
     application: ["Application", "지원 마감"], internal: ["Internal deadline", "학내 추천 마감"], recommendation: ["Letters due", "추천서 마감"],
     interview: ["Interview", "면접"], result: ["Results", "결과 발표"], "internship-deadline": ["Application", "지원 마감"], event: ["Conference", "개최"],
+    "program-application": ["Application", "지원 마감"], "program-registration": ["Registration", "등록 마감"], "program-nomination": ["Nomination", "추천 마감"],
+    "program-event": ["Event", "행사"], "program-other": ["Other", "기타"],
   };
   var UNIT = { hour: ["hr", "시간"], week: ["wk", "주"], month: ["mo", "월"], year: ["yr", "년"], total: ["total", "총액"], "one-time": ["one-time", "1회"] };
 
@@ -366,6 +376,18 @@
     return s._i;
   }
   function jif(j) { var m = (j.metrics || {}).jif; return m ? m.value : null; }
+  function progInfo(p) {
+    if (p._i) return p._i;
+    var dls = ((p.cycle || {}).deadlines || []).slice().sort(function (a, b) { return d(a.date) - d(b.date); });
+    var future = dls.filter(function (x) { return days(x.date) >= 0; });
+    var status = p.status;
+    if (status !== "ongoing" && status !== "rolling") {
+      if (dls.length && !future.length) status = "closed";
+      else if (status === "closed" && future.length) status = "upcoming";
+    }
+    p._i = { dls: dls, next: future[0] || null, status: status };
+    return p._i;
+  }
   function isIEEE(j) { return /IEEE/.test(j.publisher || ""); }
 
   /* ================= router ================= */
@@ -387,6 +409,7 @@
     var pages = {
       "": dashboard, conferences: parts[1] ? confDetail : conferences, journals: parts[1] ? journalDetail : journals,
       internships: parts[1] ? internDetail : internships, scholarships: parts[1] ? scholDetail : scholarships,
+      programs: parts[1] ? programDetail : programs,
       calendar: calendar, about: about,
     };
     (pages[top] || notFound)(q, parts[1] && decodeURIComponent(parts[1]));
@@ -452,6 +475,9 @@
         })) +
         pickCol("scholarships", schols.filter(function (s) { return s.fit === 3; }).sort(function (a, b) {
           var x = scholInfo(a).next, y = scholInfo(b).next; return (x ? d(x.date) : 9e15) - (y ? d(y.date) : 9e15);
+        })) +
+        pickCol("programs", (DATA.programs || []).filter(matchFields).filter(function (x) { return x.fit === 3; }).sort(function (a, b) {
+          var x = progInfo(a).next, y = progInfo(b).next; return (x ? d(x.date) : 9e15) - (y ? d(y.date) : 9e15);
         })) + "</div></section>";
 
       var log = (DATA.changelog || []).slice(0, 8);
@@ -497,7 +523,7 @@
   function yearMap(ev) {
     var months = [];
     for (var i = 0; i < 12; i++) months.push(new Date(TODAY.getFullYear(), TODAY.getMonth() + i, 1));
-    var cats = ["conferences", "internships", "scholarships"];
+    var cats = ["conferences", "internships", "scholarships", "programs"];
     var cell = {};
     ev.forEach(function (e) {
       var x = d(e.date), k = e.cat + "|" + x.getFullYear() + "-" + x.getMonth();
@@ -521,7 +547,7 @@
       wide += '<div class="yl">' + catLabel(cat) + "</div>" + months.map(function (m) { return '<div class="yc">' + chips(cat, m) + "</div>"; }).join("");
     });
     wide += "</div>";
-    var narrowMap = '<div class="yearmap narrow" style="grid-template-columns:64px repeat(3,minmax(0,1fr))"><div class="yh"></div>' +
+    var narrowMap = '<div class="yearmap narrow" style="grid-template-columns:56px repeat(4,minmax(0,1fr))"><div class="yh"></div>' +
       cats.map(function (c) { return '<div class="yh">' + catLabel(c) + "</div>"; }).join("");
     months.forEach(function (m, i) {
       narrowMap += '<div class="yl">' + monthLabel(m, i) + "</div>" + cats.map(function (c) { return '<div class="yc">' + chips(c, m) + "</div>"; }).join("");
@@ -532,7 +558,7 @@
   function pickCol(cat, items) {
     var top = items.slice(0, 4);
     return '<div class="pick-col"><h3>' + catLabel(cat) + '</h3><ol>' + (top.length ? top.map(function (it) {
-      var name = cat === "conferences" ? it.acronym : cat === "journals" ? it.abbr : cat === "internships" ? it.company + " · " + it.title : shortName(it.name);
+      var name = cat === "conferences" ? it.acronym : cat === "journals" ? it.abbr : cat === "internships" ? it.company + " · " + it.title : cat === "programs" ? it.name : shortName(it.name);
       return '<li><a href="#/' + cat + "/" + esc(it.id) + '">' + esc(name) + "</a><p>" + esc(tx(it, "take")) + "</p></li>";
     }).join("") : '<li class="muted">' + esc(L("No ★★★ items in this field.", "해당 분야의 ★★★ 항목이 없습니다.")) + "</li>") + "</ol></div>";
   }
@@ -1422,8 +1448,130 @@
     } else div.remove();
   }
 
+  /* ================= programs & activities ================= */
+  var pState = { scopes: new Set(), kinds: new Set(), audience: "", intl: false, status: "active", q: "", sort: { key: "next", dir: 1 } };
+  function programs(q) {
+    document.title = L("Programs", "프로그램·대외활동") + " · Academic Event Radar";
+    var view = q.get("view") || "cards";
+    var all = DATA.programs || [];
+    page(L("Programs & activities", "프로그램·대외활동"), L(
+      "Things to join beyond your lab — UT Austin research communities, seminars, certificate programs and student organizations, plus doctoral consortia, summer schools, competitions and society programs open to graduate students in the US.",
+      "연구실 밖에서 참여할 수 있는 것들 — UT Austin의 연구 커뮤니티·세미나·인증 과정·학생 단체, 그리고 미국 대학원생이 참여할 수 있는 박사과정 컨소시엄·서머스쿨·대회·학회 학생 프로그램."));
+    var bar = filtersBar();
+    fieldChips(bar, all, render);
+    var sc = {}, kc = {};
+    all.forEach(function (x) { sc[x.scope] = (sc[x.scope] || 0) + 1; kc[x.kind] = (kc[x.kind] || 0) + 1; });
+    chipSet(bar, L("Where", "범위"), Object.keys(SCOPE).filter(function (k) { return sc[k]; }).map(function (k) { return { value: k, label: lab(SCOPE, k), count: sc[k] }; }), pState.scopes, render);
+    chipSet(bar, L("Kind", "종류"), Object.keys(PKIND).filter(function (k) { return kc[k]; }).map(function (k) { return { value: k, label: lab(PKIND, k), count: kc[k] }; }), pState.kinds, render);
+    selectBox(bar, L("Audience", "대상"), [{ value: "", label: L("All", "전체") }, { value: "phd", label: "PhD" }, { value: "ms", label: "MS" }, { value: "bs", label: L("Undergraduate", "학부") }], pState.audience, function (v) { pState.audience = v; render(); });
+    selectBox(bar, L("Status", "상태"), [{ value: "active", label: L("Open, ongoing or soon", "참여 가능(모집·상시·예정)") }, { value: "all", label: L("Include closed", "마감 포함 전체") }], pState.status, function (v) { pState.status = v; render(); });
+    toggleBox(bar, L("Open to international students", "유학생 참여 가능"), pState.intl, function (v) { pState.intl = v; render(); });
+    searchBox(bar, L("Search program or organizer", "프로그램·주최 검색"), pState.q, function (v) { pState.q = v; render(); });
+    var count = tabs("programs", [{ key: "cards", label: L("Cards", "카드") }, { key: "table", label: L("Table", "표") }], view);
+    var out = node("<div></div>");
+    main.appendChild(out);
+    render();
+    function render() {
+      var list = all.filter(function (x) {
+        var e = x.eligibility || {}, st = progInfo(x).status;
+        return matchFields(x) && (!pState.scopes.size || pState.scopes.has(x.scope)) && (!pState.kinds.size || pState.kinds.has(x.kind)) &&
+          (!pState.audience || (x.audience || []).indexOf(pState.audience) >= 0) && (!pState.intl || e.international_ok) &&
+          (pState.status === "all" || st !== "closed") && matchText(x, pState.q, ["name", "organizer", "summary", "summary_en"]);
+      });
+      count.textContent = list.length + L(" programs", "개");
+      out.replaceChildren();
+      if (!list.length) { out.innerHTML = empty(); return; }
+      (view === "table" ? programTable : programCards)(out, list, render);
+    }
+  }
+  function progNext(x) {
+    var n = progInfo(x).next;
+    if (!n) return '<span class="faint">' + esc(tx(x.cycle || {}, "typical") || L("Ongoing", "상시")) + "</span>";
+    return '<span class="nowrap">' + fmtDate(n.date) + "</span> " + dday(n.date, n.estimated) + ' <small class="muted">' + esc(dlLabel(n)) + "</small>";
+  }
+  function progBadges(x) {
+    var e = x.eligibility || {}, out = [];
+    out.push('<span class="badge' + (e.international_ok ? " open" : " closed") + '"><i class="ico"></i>' + esc(e.international_ok ? L("International students OK", "유학생 가능") : L("Not open to international students", "유학생 불가")) + "</span>");
+    if (e.ut_only) out.push('<span class="badge"><i class="ico"></i>' + esc(L("UT Austin students", "UT Austin 학생 대상")) + "</span>");
+    out.push('<span class="badge"><i class="ico"></i>' + esc((x.audience || []).map(function (a) { return a === "bs" ? L("Undergrad", "학부") : a.toUpperCase(); }).join(" · ")) + "</span>");
+    return '<span class="tags">' + out.join("") + "</span>";
+  }
+  function costText(c) {
+    if (!c) return "";
+    var v = typeof c.value === "number" ? (c.value === 0 ? L("Free", "무료") : money(c.value, c.currency || "USD")) : "";
+    return esc([v, tx(c, "note")].filter(Boolean).join(" · "));
+  }
+  function programCards(out, list) {
+    var sorted = list.slice().sort(function (a, b) {
+      var x = progInfo(a).next, y = progInfo(b).next;
+      return b.fit - a.fit || (x ? d(x.date) : 9e15) - (y ? d(y.date) : 9e15);
+    });
+    out.innerHTML = '<div class="cards">' + sorted.map(function (x) {
+      var st = progInfo(x).status, acts = txl(x, "activities");
+      return '<article class="card' + (st === "closed" ? " dim" : "") + '"><div class="top"><div class="grow"><div class="eyebrow">' + catLabel("programs") +
+        "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span></div>" +
+        '<h3><a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + '</a></h3><div class="small muted">' + esc(x.organizer) + "</div></div>" + stars(x.fit) + "</div>" +
+        '<p class="small" style="margin:0">' + esc(tx(x, "summary")) + "</p>" +
+        '<dl class="meta">' + (acts.length ? "<dt>" + esc(L("You can", "할 수 있는 일")) + "</dt><dd>" + esc(acts.slice(0, 2).join(" · ")) + "</dd>" : "") +
+        (tx(x, "commitment") ? "<dt>" + esc(L("Time", "시간")) + "</dt><dd>" + esc(tx(x, "commitment")) + "</dd>" : "") +
+        "<dt>" + esc(L("Next", "다음 일정")) + "</dt><dd>" + progNext(x) + "</dd>" +
+        (x.cost ? "<dt>" + esc(L("Cost", "비용")) + "</dt><dd>" + costText(x.cost) + "</dd>" : "") + "</dl>" +
+        progBadges(x) + '<div style="display:flex;gap:8px;align-items:center">' + statusBadge(st) + "</div>" +
+        '<p class="take">' + esc(tx(x, "take")) + "</p></article>";
+    }).join("") + "</div>";
+  }
+  function programTable(out, list, rerender) {
+    var cols = [
+      { key: "name", label: L("Program", "프로그램"), cls: "name", sort: function (x) { return x.name.toLowerCase(); },
+        render: function (x) { return '<a href="#/programs/' + esc(x.id) + '">' + esc(x.name) + "</a><small>" + esc(x.organizer) + "</small>"; } },
+      { key: "kind", label: L("Kind", "종류"), sort: function (x) { return lab(PKIND, x.kind); }, render: function (x) { return esc(lab(PKIND, x.kind)) + '<br><small class="muted">' + esc(lab(SCOPE, x.scope)) + "</small>"; } },
+      { key: "commit", label: L("Time", "시간"), render: function (x) { return esc(tx(x, "commitment")); } },
+      { key: "next", label: L("Next", "다음 일정"), sort: function (x) { var n = progInfo(x).next; return n ? n.date : null; }, render: progNext },
+      { key: "elig", label: L("Who", "대상"), render: progBadges },
+      { key: "fit", label: L("Fit", "적합도"), desc: true, sort: function (x) { return x.fit; }, render: function (x) { return stars(x.fit); } },
+    ];
+    sortableTable(out, cols, list, pState, rerender, function (x) { return progInfo(x).status === "closed" ? "dim" : ""; });
+  }
+  function programDetail(q, id) {
+    var x = findItem("programs", id);
+    if (!x) return notFound();
+    document.title = x.name + " · " + L("Programs", "프로그램·대외활동") + " · Academic Event Radar";
+    var info = progInfo(x), e = x.eligibility || {};
+    function list(arr) { return arr && arr.length ? "<ul>" + arr.map(function (v) { return "<li>" + esc(v) + "</li>"; }).join("") + "</ul>" : ""; }
+    var html = '<div class="crumbs"><a href="#/programs">' + esc(L("Programs", "프로그램·대외활동")) + "</a> / " + esc(x.name) + "</div>" +
+      '<div class="detail-head"><div class="grow"><div class="eyebrow">' + catLabel("programs") + "<span>" + esc(lab(PKIND, x.kind)) + " · " + esc(lab(SCOPE, x.scope)) + "</span>" + statusBadge(info.status) + fieldTags(x.fields) + "</div>" +
+      "<h1>" + esc(x.name) + '</h1><div class="full">' + esc(x.organizer) + "</div></div>" +
+      '<div class="detail-actions">' + (x.apply_url ? '<a class="btn primary" href="' + esc(x.apply_url) + '" target="_blank" rel="noopener">' + esc(L("Join / apply ↗", "참여·지원 ↗")) + "</a>" : "") + "</div></div>" +
+      takeBox(x) + '<div class="detail"><div class="col-main">' +
+      '<section class="panel"><h2>' + esc(L("What it is", "소개")) + "</h2><p>" + esc(tx(x, "summary")) + "</p>" +
+      (txl(x, "activities").length ? "<h3>" + esc(L("What you can do", "할 수 있는 일")) + "</h3>" + list(txl(x, "activities")) : "") +
+      (txl(x, "benefits").length ? '<h3 style="margin-top:10px">' + esc(L("What you get", "얻는 것")) + "</h3>" + list(txl(x, "benefits")) : "") + "</section>" +
+      (info.dls.length ? '<section class="panel"><h2>' + esc(L("Dates", "일정")) + '</h2><div class="chart dl-timeline" id="prog-strip"></div><div class="table-wrap" style="margin-top:6px"><table class="data"><thead><tr><th scope="col">' + esc(L("What", "구분")) +
+        '</th><th scope="col">' + esc(L("Date", "날짜")) + '</th><th scope="col">' + esc(L("Countdown", "남은 기간")) + "</th></tr></thead><tbody>" +
+        info.dls.map(function (dl) { return "<tr><td>" + esc(dlLabel(Object.assign({}, dl, { kind: "program-" + dl.kind }))) + '</td><td class="nowrap">' + fmtDate(dl.date, true) + "</td><td>" + dday(dl.date, dl.estimated) + "</td></tr>"; }).join("") +
+        "</tbody></table></div>" + (tx(x.cycle || {}, "typical") ? '<p class="muted small" style="margin-top:8px">' + esc(L("Usual cycle: ", "보통 주기: ") + tx(x.cycle, "typical")) + "</p>" : "") + "</section>"
+        : (tx(x.cycle || {}, "typical") ? '<section class="panel"><h2>' + esc(L("When", "일정")) + "</h2><p>" + esc(tx(x.cycle, "typical")) + "</p></section>" : "")) +
+      '<section class="panel"><h2>' + esc(L("Who can join", "참여 대상")) + "</h2>" + progBadges(x) + '<dl class="kv" style="margin-top:10px">' +
+      (tx(x, "commitment") ? "<dt>" + esc(L("Time", "시간")) + "</dt><dd>" + esc(tx(x, "commitment")) + "</dd>" : "") +
+      (x.cost ? "<dt>" + esc(L("Cost", "비용")) + "</dt><dd>" + costText(x.cost) + "</dd>" : "") +
+      (x.location && x.location.city ? "<dt>" + esc(L("Where", "장소")) + "</dt><dd>" + place(x.location) + "</dd>" : "") +
+      (tx(e, "notes") ? "<dt>" + esc(L("Notes", "메모")) + "</dt><dd>" + esc(tx(e, "notes")) + "</dd>" : "") + "</dl></section></div>" +
+      '<aside class="col-side"><section class="panel"><h2>' + esc(L("At a glance", "한눈에")) + '</h2><dl class="kv"><dt>' + esc(L("Fit", "적합도")) + "</dt><dd>" + stars(x.fit) + "</dd><dt>" + esc(L("Status", "상태")) + "</dt><dd>" + statusBadge(info.status) +
+      "</dd><dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(x) + "</dd></dl></section>" +
+      (x.links ? '<section class="panel"><h2>' + esc(L("Links", "링크")) + "</h2>" + linkList(x.links) + "</section>" : "") +
+      '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(x.sources) + "</section></aside></div>";
+    main.innerHTML = html;
+    var div = document.getElementById("prog-strip");
+    if (div) {
+      var marks = info.dls.map(function (dl) { return { date: dl.date, label: dlLabel(Object.assign({}, dl, { kind: "program-" + dl.kind })), short: fmtShort(dl.date), type: dl.kind === "event" ? "ring" : "dot", est: dl.estimated }; });
+      var drawIt = function () { div.replaceChildren(); Charts.deadlineStrip(div, div.clientWidth || 600, marks, { today: TODAY, color: "var(--prog)" }); };
+      drawIt();
+      window.addEventListener("resize", debounce(drawIt, 150));
+    }
+  }
+
   /* ================= calendar ================= */
-  var calState = { month: null, cats: new Set(["conferences", "internships", "scholarships"]), all: false, ctrs: new Set() };
+  var calState = { month: null, cats: new Set(["conferences", "internships", "scholarships", "programs"]), all: false, ctrs: new Set() };
   function calendar(q) {
     document.title = L("Calendar", "캘린더") + " · Academic Event Radar";
     page(L("Calendar", "캘린더"), L("Every deadline by month. Subscribe and it lands in your phone or Google Calendar, updating with the site.",
@@ -1438,7 +1586,7 @@
         "마감 캘린더: 논문·초록·지원·학내 추천 마감만. 전체 일정: 결과 발표·최종본·학회 개최까지. 주소 ")) + '<code class="url">' + esc(ics) + "</code></p></section>");
     var bar = filtersBar();
     fieldChips(bar, DATA.events, draw);
-    chipSet(bar, L("Kind", "종류"), ["conferences", "internships", "scholarships"].map(function (c) { return { value: c, label: lab(CATS, c) }; }), calState.cats, draw);
+    chipSet(bar, L("Kind", "종류"), ["conferences", "internships", "scholarships", "programs"].map(function (c) { return { value: c, label: lab(CATS, c) }; }), calState.cats, draw);
     var cc = {};
     DATA.events.forEach(function (e) { (e.countries || []).forEach(function (c) { cc[c] = (cc[c] || 0) + 1; }); });
     var ctrList = Object.keys(cc).sort(function (a, b) { return cc[b] - cc[a] || country(a).localeCompare(country(b)); });
@@ -1515,8 +1663,10 @@
         "<li><b>검증·빌드</b> — <code>scripts/validate.py</code>가 스키마를 검사하고, 통과한 데이터만 사이트와 캘린더로 나갑니다.</li></ul>") +
       "<h2>" + esc(L("What is listed", "무엇을 싣나")) + "</h2>" + L(
         "<ul><li><b>Conferences and journals</b> — only the prestigious ones a graduate student in the field would know; journals must be Q1.</li>" +
-        "<li><b>Internships</b> — MS/PhD roles open to international students.</li><li><b>Scholarships</b> — programs a Korean international graduate student at a US university can apply for (civil, engineering, computer science).</li></ul>",
-        "<ul><li><b>학회·저널</b> — 분야 대학원생이면 아는 명문만. 저널은 Q1만.</li><li><b>인턴십</b> — 유학생이 지원할 수 있는 석·박사 포지션.</li><li><b>장학금</b> — 미국 대학의 한국인 유학생 대학원생(토목·공학·컴퓨터공학)이 지원할 수 있는 프로그램.</li></ul>") +
+        "<li><b>Internships</b> — MS/PhD roles open to international students.</li><li><b>Scholarships</b> — programs a Korean international graduate student at a US university can apply for (civil, engineering, computer science).</li>" +
+        "<li><b>Programs & activities</b> — things to join beyond the lab: UT Austin research communities, seminars, certificates and student organizations; doctoral consortia, summer schools, competitions and society programs.</li></ul>",
+        "<ul><li><b>학회·저널</b> — 분야 대학원생이면 아는 명문만. 저널은 Q1만.</li><li><b>인턴십</b> — 유학생이 지원할 수 있는 석·박사 포지션.</li><li><b>장학금</b> — 미국 대학의 한국인 유학생 대학원생(토목·공학·컴퓨터공학)이 지원할 수 있는 프로그램.</li>" +
+        "<li><b>프로그램·대외활동</b> — 연구실 밖에서 참여할 것: UT Austin 연구 커뮤니티·세미나·인증 과정·학생 단체, 박사과정 컨소시엄·서머스쿨·대회·학회 학생 프로그램.</li></ul>") +
       "<h2>" + esc(L("How to read the ratings", "판단 기준")) + "</h2>" + L(
         "<ul><li><b>Fit ★1–3</b> — for the site owner (a Korean PhD student in construction physical AI at a US university): ★★★ direct target · ★★ relevant · ★ reference.</li>" +
         "<li><b>Orientation −2…+2</b> — what counts as a contribution: −2 needs a new algorithm or theory (ICML, WAFR) · −1 new method first (CVPR, CoRL, T-RO) · 0 balanced (ICRA, IROS, RA-L) · +1 system integration and real-world validation valued (CASE, JFR) · +2 an application or case study is enough (ISARC, CRC).</li>" +
@@ -1600,6 +1750,8 @@
       DATA = data;
       data.fields.forEach(function (f) { FIELD[f.key] = f; });
       data.communities.forEach(function (c) { COMM[c.key] = c; });
+      var progLink = document.querySelector('.nav a[data-route="programs"]');
+      if (progLink) progLink.hidden = !(data.programs || []).length;  // no empty menu entry
       applyLangChrome();
       route();
     }).catch(function (e) {

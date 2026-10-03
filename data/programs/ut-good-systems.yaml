@@ -1,0 +1,68 @@
+id: ut-good-systems
+name: "Good Systems — Ethical AI Grand Challenge"
+organizer: "The University of Texas at Austin — Bridging Barriers research grand challenges"
+scope: ut-austin
+kind: research-community
+audience: [phd, ms, bs]
+fields: [xai, hri, robotics, transportation]
+summary: "사회에 이로운 AI 기술 설계를 목표로 한 UT Austin의 학제 간 연구 그랜드 챌린지로, 28개 학과의 연구자 147명이 공정성, 공공 카메라와 프라이버시, 정보 무결성, 스마트 시티, 로봇과의 공존(Living and Working with Robots), 스마트 수공구와 일의 미래 등 6개 핵심 프로젝트를 수행해 왔다. 2026–27학년도가 그랜드 챌린지의 마지막 해이며 CAEE의 Chandra Bhat 교수가 의장을 맡았다. 로봇 프로젝트는 2026년 8월 발표된 NSF 과학기술센터 Center for Human and Robot Co-Adaptation(5년, 3,000만 달러)으로 이어졌다."
+summary_en: "UT Austin's interdisciplinary research grand challenge on designing AI that benefits society: 147 researchers from 28 departments have run six core projects — AI fairness, ethics in public cameras, information integrity, smart cities, Living and Working with Robots, and smart hand tools and the future of work. 2026–27 is the grand challenge's final year, chaired by CAEE professor Chandra Bhat. The robots project grew into the NSF Science and Technology Center for Human and Robot Co-Adaptation (five years, $30 million), announced in August 2026."
+activities:
+  - "매년 봄 심포지엄 참석·포스터 발표 — 2026년부터 ML Lab·Texas Robotics와 공동 개최(2026년 3월 3–4일, 655명 참석)"
+  - "참여 교수의 연구실을 통해 핵심 프로젝트(Living and Working with Robots, Smart Hand Tools 등)나 2026년 시드 그랜트 팀에 학생 연구원으로 참여"
+  - "공개 행사 — 2026년 10월 15일 다큐멘터리 'Running With Scissors: AI and the Race for the Future' 상영·Q&A"
+  - "학부·대학원 대상 윤리적 AI 교육 프로그램(4개 이상, MS in AI 필수 과목 포함)과 팟캐스트 'Generation AI'"
+activities_en:
+  - "Attend the annual spring symposium and present a poster — co-hosted with the ML Lab and Texas Robotics since 2026 (March 3–4, 2026; 655 attendees)"
+  - "Join a core project (Living and Working with Robots, Smart Hand Tools and others) or a 2026 seed-grant team as a student researcher through a participating faculty member's lab"
+  - "Public events — screening and Q&A of the documentary 'Running With Scissors: AI and the Race for the Future' on October 15, 2026"
+  - "Ethical AI education programs for undergraduate and graduate students (4+, including a required course for the MS in AI) and the 'Generation AI' podcast"
+benefits:
+  - "윤리·신뢰 관점의 HRI 연구 네트워크 — Joydeep Biswas, Luis Sentis, Peter Stone, Junfeng Jiao 등 로봇 프로젝트 교수진"
+  - "작업자 안전을 위한 스마트 수공구(용접 등 숙련 기능직) 연구 — 건설 작업자 보조 연구와 맞닿음"
+  - "City of Austin, MITRE, NIST AI Safety Institute 등 25개 이상 파트너 기관과의 접점"
+benefits_en:
+  - "An HRI research network with an ethics and trust lens — robots-project faculty such as Joydeep Biswas, Luis Sentis, Peter Stone and Junfeng Jiao"
+  - "Smart-hand-tool research for worker safety in skilled trades such as welding — close to construction-worker assistance research"
+  - "Contact with 25+ partner organizations, including the City of Austin, MITRE and the NIST AI Safety Institute"
+commitment: "자율 — 행사 참석은 자유, 연구 참여는 프로젝트·지도교수에 따라 다름"
+commitment_en: "Flexible — events are drop-in; research involvement depends on the project and faculty member"
+cost: {value: 0, currency: USD, note: "심포지엄은 무료·공개 행사", note_en: "The symposium is free and open to the public"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "심포지엄과 공개 행사는 누구나 참석 가능(국적 제한 없음). 핵심 프로젝트·시드 그랜트는 UT 교수 팀 중심이며 학생은 참여 교수의 연구실을 통해 합류. 그랜드 챌린지는 2026–27학년도로 마무리되므로 이후 체제는 변동 가능."
+  notes_en: "The symposium and public events are open to anyone (no nationality restriction). Core projects and seed grants are run by UT faculty teams; students join through a participating faculty member's lab. The grand challenge wraps up in 2026–27, so its structure after that may change."
+cycle:
+  typical: "매년 봄 심포지엄(2022년 4월 7–8일, 2025년 봄, 2026년 3월 3–4일 공동 심포지엄), 공개 강연·행사는 수시"
+  typical_en: "Annual spring symposium (April 7–8, 2022; spring 2025; joint symposium March 3–4, 2026), with public talks and events through the year"
+  deadlines:
+    - {kind: event, date: 2026-10-15, label: "다큐멘터리 상영·Q&A 'AI and the Race for the Future' (18:00–20:30)", label_en: "Documentary screening and Q&A: AI and the Race for the Future (6–8:30 p.m.)"}
+    - {kind: event, date: 2027-03-02, label: "연례 봄 심포지엄 — 2027년 일정 미발표, 최근 패턴으로 3월 초 추정", label_en: "Annual spring symposium — 2027 date not announced; early March estimated from recent editions", estimated: true}
+status: ongoing
+apply_url: "https://bridgingbarriers.utexas.edu/good-systems"
+fit: 2
+take: "윤리·신뢰 관점의 HRI와 작업자 안전 연구가 건설 로봇 연구의 사회적 영향 논리를 보강해 주니, 봄 심포지엄 포스터 세션에 참여하고 여기서 출발한 NSF 로봇 공존 센터(Center for Human and Robot Co-Adaptation)의 참여 기회를 지켜보라."
+take_en: "Its HRI-with-ethics and worker-safety work strengthens the societal-impact case for construction robotics — present at the spring symposium poster session and watch for openings at the NSF Center for Human and Robot Co-Adaptation that grew out of it."
+links:
+  home: "https://bridgingbarriers.utexas.edu/good-systems"
+  events: "https://bridgingbarriers.utexas.edu/good-systems/events"
+  symposium: "https://bridgingbarriers.utexas.edu/good-systems/annual-symposium"
+  robots_project: "https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots"
+  smart_tools_project: "https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone"
+  get_involved: "https://app.smartsheet.com/b/form/82e7f3d982724f05a53eb7d8d7f8c01e"
+sources:
+  - "https://bridgingbarriers.utexas.edu/good-systems"
+  - "https://bridgingbarriers.utexas.edu/good-systems/events"
+  - "https://bridgingbarriers.utexas.edu/good-systems/annual-symposium"
+  - "https://bridgingbarriers.utexas.edu/good-systems/annual-symposium/2025"
+  - "https://bridgingbarriers.utexas.edu/good-systems/annual-symposium/2026"
+  - "https://bridgingbarriers.utexas.edu/good-systems/partnerships"
+  - "https://bridgingbarriers.utexas.edu/good-systems/projects"
+  - "https://bridgingbarriers.utexas.edu/good-systems/projects/living-and-working-with-robots"
+  - "https://bridgingbarriers.utexas.edu/good-systems/projects/making-smart-tools-work-for-everyone"
+  - "https://bridgingbarriers.utexas.edu/news/changing-chairs"
+  - "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/"
+  - "https://ai.utexas.edu/news/2026/ai-ethics-documentary-ethics-unwrapped-features-good-systems-researchers"
+last_verified: 2026-10-02

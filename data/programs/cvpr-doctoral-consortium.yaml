@@ -1,0 +1,52 @@
+id: cvpr-doctoral-consortium
+name: "CVPR Doctoral Consortium"
+organizer: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+scope: us
+kind: doctoral-consortium
+audience: [phd]
+fields: [vision]
+summary: "CVPR 기간 중 열리는 박사과정 멘토링 행사로, 졸업을 앞두었거나 막 졸업한 컴퓨터 비전 박사에게 연구 관심사가 맞는 중견 연구자를 멘토로 한 명씩 배정해 연구와 진로를 상담하게 한다. 참가자는 현장 행사에서 학위 연구 또는 최근 논문 한 편을 포스터로 발표한다. CVPR 2027은 2027년 6월 20–25일 시애틀에서 열린다."
+summary_en: "A mentoring event held during CVPR in which each computer-vision PhD student who is about to finish (or has just finished) is paired with a senior researcher, matched by preference or research interests, to discuss ongoing research and career plans. Participants present a poster on their thesis or one recent paper at the in-person event. CVPR 2027 takes place June 20–25, 2027, in Seattle."
+activities:
+  - "배정된 멘토와의 1:1 연구·진로 상담 (현장 행사)"
+  - "학위 연구 또는 최근 논문 1편 포스터 발표"
+  - "다른 참가 학생·멘토들과의 교류"
+activities_en:
+  - "One-on-one research and career discussion with an assigned mentor at the in-person event"
+  - "A poster on your thesis research or one recent paper"
+  - "Networking with other participating students and mentors"
+benefits:
+  - "비전 분야 중견 연구자 멘토와의 연결"
+  - "여행 지원(금액 미정, 등록비 면제와 일부 여행 경비가 포함될 가능성 — 학회 후 실비 환급)"
+  - "졸업 시점의 연구 홍보 기회"
+benefits_en:
+  - "A connection to a senior mentor in computer vision"
+  - "Travel awards (amount to be determined; likely a registration waiver plus partial travel funding, reimbursed after the conference)"
+  - "Visibility for your work around graduation"
+commitment: "CV, 1쪽 진술서, 졸업(예정)일을 확인하는 지도교수 서명 서한, Google Scholar 링크를 PDF 하나로 OpenReview에 제출; 선정 시 CVPR 기간 중 DC 행사(2025년은 2시간)에 현장 참석"
+commitment_en: "Submit a CV, a one-page statement, a signed advisor letter confirming the (expected) graduation date and a Google Scholar link as one PDF on OpenReview; if accepted, attend the in-person DC event during CVPR (two hours in 2025)"
+location: {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "컴퓨터 비전 연구를 하며 박사 학위 취득 전후 6개월 이내인 학생만 지원 가능 — 1·2년차는 해당하지 않음. 지원자가 많으면 제출 자료와 졸업 시점, 기관·연구 분야의 다양성을 고려해 선발. 국적 제한 언급 없으며, 미국 외 기관 소속자를 위한 환급 안내가 별도로 있음."
+  notes_en: "Only students doing computer-vision research who are within six months (before or after) of receiving their doctorate may apply — early-stage PhD students are not eligible. If not all applicants can be supported, selection weighs the materials, graduation date and diversity of institutions and research areas. No nationality restriction mentioned; reimbursement instructions are provided separately for non-US institutions."
+cycle:
+  typical: "매년 3월 말–4월 중순 OpenReview 접수(2025: 3/23, 2026: 4/13), 약 2주 뒤 통보, 6월 CVPR 기간 중 행사"
+  typical_en: "Applications on OpenReview between late March and mid-April each year (2025: Mar 23; 2026: Apr 13), notification about two weeks later, event during CVPR in June"
+  deadlines:
+    - {kind: application, date: 2027-03-31, estimated: true, label: "CVPR 2027 DC 지원 마감 (예상, 보통 3월 말–4월 중순)", label_en: "CVPR 2027 DC application deadline (expected; usually late March to mid-April)"}
+    - {kind: event, date: 2027-06-20, label: "CVPR 2027 개막 (시애틀, 6/20–25) — DC는 학회 기간 중 개최", label_en: "CVPR 2027 opens (Seattle, Jun 20–25) — the DC is held during the conference"}
+status: upcoming
+apply_url: "https://cvpr.thecvf.com/Conferences/2027"
+fit: 1
+take: "졸업 전후 6개월 이내만 지원할 수 있어 지금은 해당이 없고, 건설 현장 인식 연구로 졸업을 앞둔 시점에 멘토 연결과 연구 홍보용으로 기억해 둘 항목이다."
+take_en: "Only students within six months of graduating may apply, so it does not apply now — keep it in mind for the months around graduation as a way to meet a mentor and showcase construction-site perception work."
+links:
+  home: "https://cvpr.thecvf.com/Conferences/2026/CallForDoctoralConsortium"
+  conference: "https://cvpr.thecvf.com/Conferences/2027"
+sources:
+  - "https://cvpr.thecvf.com/Conferences/2026/CallForDoctoralConsortium"
+  - "https://cvpr.thecvf.com/Conferences/2025/CallForDoctoralConsortium"
+  - "https://cvpr.thecvf.com/Conferences/2027"
+last_verified: 2026-10-02

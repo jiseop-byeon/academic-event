@@ -1,0 +1,66 @@
+id: ut-chishiki-ai
+name: "Chishiki-AI — AI in Civil Engineering Community and SCIPE Fellowship"
+organizer: "The University of Texas at Austin and Texas Advanced Computing Center (TACC), with Cornell University — NSF award 2321040"
+scope: ut-austin
+kind: research-community
+audience: [phd, ms, bs]
+fields: [construction, ml, vision, robotics]
+summary: "토목·환경공학(CEE)에 AI를 접목하는 사이버인프라 전문가 커뮤니티를 만드는 NSF 지원 프로젝트(700만 달러)로, UT Austin(PI Krishna Kumar, Co-PI Ellen Rathje)과 TACC(Daniel Stanzione)가 Cornell과 함께 이끈다. 회원 등록, AI/ML 웨비나 시리즈(DesignSafe 공동), 온라인 과정(Scientific ML, 건물 손상 분류 CNN), 연구 서밋을 운영하며, 미국 대학 박사생에게 1년짜리 SCIPE AI in Civil Engineering Graduate Student Fellowship(연 $37,000 + 등록금 최대 $12,000)을 준다. 펠로십의 응용 예시에 건설 자동화와 극한 환경 로보틱스가 명시돼 있다."
+summary_en: "An NSF-funded ($7 million) project building a community of cyberinfrastructure professionals who bring AI into civil and environmental engineering (CEE), led by UT Austin (PI Krishna Kumar, co-PI Ellen Rathje) and TACC (Daniel Stanzione) with Cornell. It runs a membership list, an AI/ML webinar series (with DesignSafe), online courses (Scientific ML, CNNs for building-damage classification) and research summits, and awards the one-year SCIPE AI in Civil Engineering Graduate Student Fellowship ($37,000 stipend plus up to $12,000 tuition) to PhD students at US institutions. Automation in construction and robotics in extreme environments are listed as example application areas."
+activities:
+  - "SCIPE 대학원 펠로십 지원 — 1년(6월 1일 시작), 소속 대학에서 연구하며 온라인 과정·웨비나 수강, 여름 TACC 레지던시(최소 1주) 참여"
+  - "Chishiki-AI 회원 등록 후 펠로십·과정·교육 소식 받기"
+  - "AI/ML in Engineering 웨비나(정오, 온라인)와 온라인 과정 수강"
+  - "연구 서밋 참여 — 2024년 4월 4–5일 TACC 서밋은 건설 자동화의 AI·사이버인프라를 5대 주제 중 하나로 다룸"
+activities_en:
+  - "Apply for the SCIPE graduate fellowship — one year starting June 1; fellows stay at their home institution, take online courses and webinars, and spend at least a week in residence at TACC in the summer"
+  - "Register as a Chishiki-AI member to get news on fellowships, courses and training"
+  - "Join the AI/ML in Engineering webinars (noon, online) and the online courses"
+  - "Take part in research summits — the April 4–5, 2024 summit at TACC had AI and cyberinfrastructure in construction automation as one of its five themes"
+benefits:
+  - "펠로십: $37,000 장학금(2회 분할), 등록금 최대 $12,000, 커뮤니티 행사·학회 발표 출장비, 오스틴 방문비"
+  - "TACC 슈퍼컴퓨팅 자원과 전문가 지원을 받는 토목 AI 연구 네트워크"
+  - "토목 AI 분야의 전국 동료 펠로·교수진과의 교류 (2026년 펠로: Johns Hopkins, University of Houston 등)"
+benefits_en:
+  - "Fellowship: $37,000 stipend (two installments), up to $12,000 tuition, travel to present at a community event or conference, paid visits to Austin"
+  - "A civil-engineering AI research network backed by TACC supercomputing and staff"
+  - "Exchange with fellows and faculty in civil-engineering AI nationwide (2026 fellows came from Johns Hopkins, the University of Houston and others)"
+commitment: "회원·웨비나는 자율, 펠로십은 1년(6월–5월)에 여름 TACC 레지던시 최소 1주"
+commitment_en: "Membership and webinars are optional; the fellowship runs one year (June–May) with at least one week of summer residency at TACC"
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "펠로십은 미국 대학에 재학하며 미국에서 공부하는 박사생이면 시민권과 무관하게 지원 가능(FAQ 명시). 3월 기준 대학원 1학년(2개 정규 학기)을 마쳤고 6월 기준 1년 이상 남아 있어야 하며, 연구 지도교수가 연구 계획을 확인해야 함. 연 1–3명 선발, 평생 1회 수혜. 서류: 개인·연구 기술서(합계 3쪽 이내), 추천서 2부(1부는 지도교수), NSF ETAP으로 제출. NSF 지원 기간이 2028년 8월 31일까지라 2027–28년 펠로십이 마지막 회차일 수 있음."
+  notes_en: "Fellowship: PhD students enrolled at a US institution and studying in the US may apply regardless of citizenship (stated in the FAQ). Applicants must have completed one academic year (two full semesters) by March and have at least one year left as of June, and the research advisor must affirm the research plan. One to three awards a year; one award per person. Materials: personal and research statements (3 pages total), two letters (one from the research advisor), submitted through NSF ETAP. The NSF award runs through August 31, 2028, so the 2027–28 fellowship may be the last round."
+cycle:
+  typical: "12월 초 접수 시작, 2–3월 마감(2025년 2월 7일, 2026년 3월 19일 23:59 ET), 4월 말 발표, 6월 1일 펠로십 시작"
+  typical_en: "Applications open in early December and close in February–March (February 7, 2025; March 19, 2026 at 23:59 ET); fellows announced at the end of April; the fellowship starts June 1"
+  deadlines:
+    - {kind: other, date: 2026-12-02, label: "2027–28 펠로십 접수 시작 (2025년 12월 2일 기준 추정)", label_en: "2027–28 fellowship applications open (estimated from December 2, 2025)", estimated: true}
+    - {kind: application, date: 2027-02-07, label: "2027–28 펠로십 마감 — 미발표, 과거 2월 7일·3월 19일 중 이른 날짜로 보수적 추정", label_en: "2027–28 fellowship deadline — not announced; conservative estimate using the earlier of the past dates (Feb 7, Mar 19)", estimated: true}
+status: upcoming
+apply_url: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+fit: 3
+take: "토목 소속 박사생이 건설 자동화·로보틱스 AI로 받을 수 있는 드문 유학생 지원 가능 펠로십인데 NSF 지원이 2028년 8월에 끝나 2027–28년이 마지막 회차일 수 있으니, 2027년 3월 기준 2학기 이수 조건을 채우는지 지금 확인하고 회원 등록·웨비나로 커뮤니티에 먼저 이름을 알려 둬라."
+take_en: "A rare fellowship open to international PhD students for AI in construction automation and robotics within civil engineering, but the NSF award ends in August 2028, so 2027–28 may be the last round — check now whether you meet the two-full-semesters-by-March-2027 rule, and register as a member and join the webinars in the meantime."
+links:
+  home: "https://www.chishiki-ai.org/"
+  fellowship: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+  fellowship_instructions: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/fellowship-application-instructions"
+  faq: "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/faq"
+  webinars: "https://www.chishiki-ai.org/webinar/"
+  membership: "https://utexas.qualtrics.com/jfe/form/SV_6JxWhRmLmsq4Ram"
+sources:
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/faq"
+  - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/fellowship-application-instructions"
+  - "https://www.chishiki-ai.org/"
+  - "https://www.chishiki-ai.org/about/"
+  - "https://www.chishiki-ai.org/team/"
+  - "https://www.chishiki-ai.org/posts/2024-news-fellowships/"
+  - "https://www.chishiki-ai.org/posts/2024-research-summit/"
+  - "https://www.chishiki-ai.org/webinar/"
+  - "https://www.chishiki-ai.org/awardees/"
+  - "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321040"
+last_verified: 2026-10-02

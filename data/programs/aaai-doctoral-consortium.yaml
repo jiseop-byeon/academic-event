@@ -1,0 +1,59 @@
+id: aaai-doctoral-consortium
+name: "AAAI/SIGAI Doctoral Consortium (AAAI-27)"
+organizer: "Association for the Advancement of Artificial Intelligence (AAAI) and ACM SIGAI"
+scope: international
+kind: doctoral-consortium
+audience: [phd]
+fields: [ml, xai]
+summary: "AAAI-27 본 학회 직전(2027년 2월 16–17일, 몬트리올)에 열리는 이틀짜리 박사과정 워크숍(32회째)으로, 선발된 박사생이 학위 연구를 발표하고 AI 분야 중견 연구자 패널·멘토에게 연구 방향과 진로 조언을 받는다. AI의 모든 주제와 방법론을 대상으로 하며, 모든 참가자는 현장 참석해야 한다."
+summary_en: "A two-day PhD workshop (the 32nd edition) held right before AAAI-27 (February 16–17, 2027, Montréal), where selected doctoral students present their thesis research and get feedback on research directions and career paths from a panel of established AI researchers and mentors. Any AI topic or methodology is welcome; all participants must attend in person."
+activities:
+  - "2쪽 학위 연구 요약(AAAI 2단 양식, 참고문헌 포함)을 바탕으로 한 발표와 패널 피드백"
+  - "DC 기간의 멘토로 희망하는 AAAI 커뮤니티 연구자를 최대 5명까지 추천 가능"
+  - "동료 박사생과의 이틀간 교류, 초청 강연·패널 토론 참여"
+  - "AAAI-27 본 학회 행사 참여"
+activities_en:
+  - "Present your thesis based on a 2-page summary (AAAI two-column format, references included) and get panel feedback"
+  - "Suggest up to five people in the AAAI community you would like as your mentor during the DC"
+  - "Two days with fellow PhD students, invited talks and panel discussions"
+  - "Take part in the AAAI-27 main conference"
+benefits:
+  - "참가 학생 AAAI-27 등록비 면제"
+  - "재원과 지도교수 의견에 따라 여행 경비 일부 지원 (선정 후 개별 제안)"
+  - "학위 연구에 대한 중견 연구자들의 피드백과 학계·산업계 진로 조언"
+  - "AI 분야 박사생 네트워크"
+benefits_en:
+  - "Complimentary AAAI-27 registration for participants"
+  - "Possible travel funding depending on available funds and the advisor's input (offers made after acceptance)"
+  - "Feedback on the thesis from senior researchers and advice on academic, industry and other careers"
+  - "A network of AI PhD students"
+commitment: "지원서 6쪽(표지 1·학위 연구 요약 2·CV 2·자기소개서 1쪽)을 10/13(AoE)까지 제출, 선정 시 2027년 2월 16–17일 이틀 전체 현장 참석 (원격 발표 불가)"
+commitment_en: "A 6-page application (1-page cover sheet, 2-page thesis summary, 2-page CV, 1-page personal statement) by Oct 13 (AoE); if accepted, in-person attendance for the full two days, February 16–17, 2027 (no virtual presentations)"
+cost: {value: 0, currency: USD, note: "complimentary AAAI-27 registration for participants; travel and lodging only partly funded, depending on funds"}
+location: {city: "Montréal", region: "QC", country: CA, lat: 45.50, lon: -73.57}
+eligibility:
+  international_ok: true
+  ut_only: false
+  notes: "현재 박사과정생이면 누구나 지원할 수 있고 전 세계의 지원을 장려한다고 명시. 지도교수에게 보충 정보 양식(학위 진행 상황, 참가 이유, 지원 가능 재정 수준)이 이메일로 요청되며 추천서는 받지 않음. 심사 기준에 '연구 진척의 증거(게재 논문·기술 보고서)'가 포함돼 학위 연구가 구체화된 학생에게 유리. 국적 제한 언급 없음."
+  notes_en: "Any current PhD student may apply, and applications from all parts of the world are encouraged. The advisor is emailed a supplementary information form (thesis progress, why the student should attend, level of financial support available); recommendation letters are not accepted. Review criteria include evidence of research progress (published papers or technical reports), which favors students whose thesis is well defined. No nationality restriction mentioned."
+cycle:
+  typical: "매년 AAAI 본 학회 직전에 개최 — 지원 마감은 10월 중순(AAAI-27: 2026/10/13 AoE), 11월 중순 선정 통보, 11월 하순 재정 지원 통보, 12월 초 카메라레디"
+  typical_en: "Held right before the AAAI conference each year — applications close in mid-October (AAAI-27: October 13, 2026, AoE), acceptance in mid-November, funding decisions in late November, camera-ready in early December"
+  deadlines:
+    - {kind: application, date: 2026-10-13, tz: "AoE", label: "AAAI-27 DC 지원서 제출 마감", label_en: "AAAI-27 DC application package deadline"}
+    - {kind: other, date: 2026-11-14, label: "선정 통보", label_en: "Acceptance notification"}
+    - {kind: other, date: 2026-11-23, label: "재정 지원 통보", label_en: "Funding notification"}
+    - {kind: other, date: 2026-12-05, label: "학위 연구 요약 카메라레디 마감", label_en: "Camera-ready thesis summary due"}
+    - {kind: event, date: 2027-02-16, label: "AAAI-27 Doctoral Consortium (2/16–17, 몬트리올)", label_en: "AAAI-27 Doctoral Consortium (Feb 16–17, Montréal)"}
+status: open
+apply_url: "https://easychair.org/conferences/?conf=aaai27dc"
+fit: 1
+take: "AI 전반의 박사 연구 피드백 자리라 건설 로봇 연구의 주 무대가 아니고 '연구 진척'이 심사 기준이므로, 10/13 마감은 참고만 하고 학위 연구가 구체화된 뒤 XAI·인간 의도 예측 결과가 쌓이면 지원을 검토하라."
+take_en: "A general-AI venue for thesis feedback rather than a main stage for construction robotics, and research progress is a review criterion — treat the Oct 13 deadline as reference only and consider applying once the thesis is well defined and XAI or human-intent results have accumulated."
+links:
+  home: "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/"
+  conference: "https://aaai.org/conference/aaai/aaai-27/"
+sources:
+  - "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/"
+  - "https://aaai.org/conference/aaai/aaai-27/"
+last_verified: 2026-10-02

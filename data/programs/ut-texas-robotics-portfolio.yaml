@@ -1,0 +1,56 @@
+id: ut-texas-robotics-portfolio
+name: "Graduate Portfolio Program in Robotics (Certification of Expertise)"
+organizer: "Texas Robotics, The University of Texas at Austin — Graduate Portfolio Steering Committee"
+scope: ut-austin
+kind: certificate
+audience: [phd, ms]
+fields: [robotics, physical-ai, manipulation, navigation, hri]
+summary: "UT Austin 석·박사 학위 성적표에 로보틱스 'Certification of Expertise'를 표기해 주는 대학원 포트폴리오(인증) 프로그램이다. 로보틱스 과목 12학점 이수, 로보틱스 연구 수행, Texas Robotics Portfolio Research Seminar 참석·발표를 채우면 받으며, 학생 주도의 학과 횡단 로보틱스 연구 커뮤니티를 만드는 것이 목적이다. 학위 과정에 추가 비용·기간이 들지 않는다."
+summary_en: "A graduate portfolio (certificate) program that adds a robotics 'Certification of Expertise' to a UT Austin master's or doctoral transcript. Students earn it by taking 12 credit hours of robotics courses, doing robotics research and attending and presenting at the Texas Robotics Portfolio Research Seminar; the aim is a student-led, interdisciplinary robotics research community. It adds no cost or time to the degree."
+activities:
+  - "로보틱스 과목 4개(12학점) 이수 — 서로 다른 학과의 핵심(core) 과목 2개 포함, 같은 학과 과목은 최대 2개, 최소 3개 학과"
+  - "Texas Robotics Portfolio Research Seminar 참석(프로그램 기간 중 최소 10회) 및 매년 1회 발표"
+  - "지도교수 아래에서 로보틱스 연구 수행 후 이수 증빙 양식 제출"
+activities_en:
+  - "Take four robotics courses (12 credit hours) — including two core courses from different departments, no more than two from one department, and at least three departments overall"
+  - "Attend the Texas Robotics Portfolio Research Seminar (at least 10 times over the program) and present once a year"
+  - "Do robotics research under a faculty supervisor, then submit the proof-of-completion form"
+benefits:
+  - "석·박사 성적표에 로보틱스 'Certification of Expertise' 표기"
+  - "ASE·CS·ECE·ME 등 여러 학과 로보틱스 학생·교수와의 정기적 교류와 발표 경험"
+  - "승인 과목 목록에 CE 397 Control Theory for Smart Infrastructure, CE 397 Sensors and Signal Interpretation 등 토목 과목도 포함"
+benefits_en:
+  - "A robotics 'Certification of Expertise' on the master's or doctoral transcript"
+  - "Regular exchange and presentation practice with robotics students and faculty from ASE, CS, ECE, ME and other departments"
+  - "The approved-course list includes civil engineering courses such as CE 397 Control Theory for Smart Infrastructure and CE 397 Sensors and Signal Interpretation"
+commitment: "학위 과정 안에서 과목 4개(12학점), 세미나 최소 10회 참석(학기당 5–7회 개최)과 연 1회 발표 — 추가 학기 불필요"
+commitment_en: "Four courses (12 credit hours) within the degree, at least 10 seminars attended (5–7 are held per semester) and one presentation a year — no extra semesters"
+cost: {value: 0, currency: USD, note: "학위 과정에 추가 비용·기간 없음", note_en: "No additional cost or time added to the degree"}
+location: {city: "Austin", region: "TX", country: US, lat: 30.28, lon: -97.74}
+eligibility:
+  international_ok: true
+  ut_only: true
+  notes: "UT Austin 대학원 과정에 이미 재학 중인 학생만 대상(국적 제한 언급 없음). 대학원 1–2년차에 지원해야 하며(사정이 있으면 예외 요청 가능), 예상 졸업 최소 두 학기 전까지 지원. 로보틱스 연구 지도교수가 있어야 하며 사례별로 선발. 지원 서류: 지원서, 500단어 연구 계획서, 지도교수 지지서."
+  notes_en: "Only for students already enrolled in a UT Austin graduate program (no nationality restriction mentioned). Apply during the first or second year of graduate study (exceptions can be requested for extenuating circumstances) and at least two semesters before expected graduation. A faculty supervisor for robotics research is required; admission is case by case. Materials: application form, 500-word research statement, letter of support from the research supervisor."
+cycle:
+  typical: "수시 접수(롤링 심사) — 우선 마감 가을학기 8월 31일, 봄학기 1월 31일"
+  typical_en: "Rolling review — priority deadlines August 31 (fall semester) and January 31 (spring semester)"
+  deadlines:
+    - {kind: application, date: 2027-01-31, label: "봄학기 우선 마감 (수시 접수)", label_en: "Spring-semester priority deadline (rolling applications)"}
+    - {kind: application, date: 2027-08-31, label: "가을학기 우선 마감 (수시 접수)", label_en: "Fall-semester priority deadline (rolling applications)"}
+status: rolling
+apply_url: "https://utexas.qualtrics.com/jfe/form/SV_1GkHXpa4JzBAa0K"
+fit: 3
+take: "1–2년차에만 지원할 수 있으니 지도교수 지지서와 500단어 연구 계획서를 준비해 2027년 1월 31일 우선 마감 전에 내고, CE 397 과목과 HRI·로봇 조작 핵심 과목을 섞어 3개 학과 이상으로 12학점을 짜라."
+take_en: "You can only apply in years one or two — get a supervisor's support letter and a 500-word research statement in before the January 31, 2027 priority deadline, and plan 12 credit hours across at least three departments that mix CE 397 courses with HRI and robot-manipulation core courses."
+links:
+  home: "https://robotics.utexas.edu/graduate"
+  courses: "https://robotics.utexas.edu/node/149"
+  steering_committee: "https://robotics.utexas.edu/steeringcommittee"
+  completion_form: "https://utexas.qualtrics.com/jfe/form/SV_4VqupvHli09VfGS"
+sources:
+  - "https://robotics.utexas.edu/graduate"
+  - "https://robotics.utexas.edu/node/149"
+  - "https://robotics.utexas.edu/steeringcommittee"
+  - "https://robotics.utexas.edu/events"
+last_verified: 2026-10-02
