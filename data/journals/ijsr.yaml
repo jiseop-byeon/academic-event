@@ -14,11 +14,11 @@ metrics:
 access: hybrid
 orientation:
   contribution: 1
-  summary: "Springer가 발행하는 소셜 로보틱스 전문 저널로, 사람과 사회적으로 상호작용하는 로봇의 설계·행동·평가를 다룬다. 사용자 연구 중심의 HRI 논문이 가장 많고 서비스 로봇, 로봇 윤리, 도덕·감정 판단의 심리, 고령자·자폐 아동 대상 응용이 자주 실리며, Scopus에서 HCI와 함께 철학·사회심리로도 분류될 만큼 학제적이라 알고리즘 성능보다 사람이 로봇을 어떻게 지각하고 반응하는지에 대한 실증이 중심이다. 사용자 의도·신념 추론처럼 의도를 다루는 논문도 실리지만 산업용 협동로봇 연구는 소수이고 건설 현장 연구는 거의 없다."
-  summary_en: "Springer's specialist journal for social robotics, covering the design, behavior and evaluation of robots that interact socially with people. HRI papers built on user studies dominate, with frequent work on service robots, robot ethics, the psychology of moral and emotional judgment, and applications for older adults and autistic children; it is interdisciplinary enough that Scopus also files it under philosophy and social psychology besides HCI, so evidence on how people perceive and respond to robots matters more than algorithm performance. Papers on intent, such as inferring user intent and beliefs, do appear, but industrial collaborative-robot studies are few and construction-site studies are nearly absent."
+  summary: "Springer가 발행하는 소셜 로보틱스 전문 저널로, 사람과 사회적으로 상호작용하는 로봇의 설계·행동·평가를 다룬다. OpenAlex 기준으로 사용자 연구 중심의 HRI 논문이 가장 많고 서비스 로봇, 로봇 윤리, 도덕·감정 판단의 심리, 고령자·자폐 아동 대상 응용이 자주 실리며, Scopus에서 HCI와 함께 철학·사회심리로도 분류될 만큼 학제적이라 알고리즘 성능보다 사람이 로봇을 어떻게 지각하고 반응하는지에 대한 실증이 중심이다. 사용자 의도·신념 추론처럼 의도를 다루는 논문도 실리지만 산업용 협동로봇 연구는 소수이고 건설 현장 연구는 거의 없다."
+  summary_en: "Springer's specialist journal for social robotics, covering the design, behavior and evaluation of robots that interact socially with people. By OpenAlex counts, HRI papers built on user studies dominate, with frequent work on service robots, robot ethics, the psychology of moral and emotional judgment, and applications for older adults and autistic children; it is interdisciplinary enough that Scopus also files it under philosophy and social psychology besides HCI, so evidence on how people perceive and respond to robots matters more than algorithm performance. Papers on intent, such as inferring user intent and beliefs, do appear, but industrial collaborative-robot studies are few and construction-site studies are nearly absent."
   values: ["user studies", "social and psychological aspects", "interdisciplinary", "social robot design"]
 fit: 1
-take: "건설 작업자가 의도를 읽는 로봇을 어떻게 받아들이고 신뢰하는지처럼 사회적·심리적 측면을 사용자 연구로 다룰 때만 참고할 소셜 로보틱스 저널로, 공학적인 의도 예측 결과라면 THMS나 RO-MAN이 더 맞다."
+take: "건설 작업자가 자신의 의도를 읽는 로봇을 어떻게 받아들이고 신뢰하는지처럼 사회적·심리적 측면을 사용자 연구로 다룰 때만 참고할 소셜 로보틱스 저널로, 공학적인 의도 예측 결과라면 THMS나 RO-MAN이 더 맞다."
 take_en: "A social-robotics journal for reference only when you study social and psychological aspects with user studies, such as how construction workers accept and trust a robot that reads their intent; engineering results on intent prediction fit THMS or RO-MAN better."
 openalex_id: "S168738021"
 links:

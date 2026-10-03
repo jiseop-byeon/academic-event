@@ -24,8 +24,8 @@ conference_link: "AAAI-27 저널 트랙: 2024-01-01~2026-10-31에 AIJ에 게재�
 conference_link_en: "AAAI-27 Journal Track: AIJ papers published between 2024-01-01 and 2026-10-31 and not previously presented at a major AI conference such as AAAI or IJCAI can be submitted by 2026-10-30 for a poster (some get orals) at AAAI-27 in Montréal."
 orientation:
   contribution: -2
-  summary: "1970년 창간된 AI 전 분야의 대표 저널로, IJCAI 산하 AIJ Division이 편집을 맡고 Elsevier가 발행한다. 새 문제 정식화나 새 방법을 증명·실험으로 완결성 있게 보여야 하며, 응용 논문도 기존 기법을 또 다른 분야에 적용한 수준이 아니라 새로운 AI 방법이 응용 성능을 어떻게 끌어올리는지를 원리적으로 보이고 깊이 평가해야 한다. Miller의 사회과학 관점 XAI 논문('Explanation in artificial intelligence: Insights from the social sciences')과 설명 가능한 AI(XAI) 특별호를 낸 XAI의 대표 무대이며, 페이지 제한은 없지만 20–30쪽 분량의 완결된 원고가 권장된다."
-  summary_en: "The premier journal for all of AI since 1970, edited by the IJCAI AIJ Division and published by Elsevier. Papers must present a new problem formulation or method completely, with proofs or experiments; application papers must show in a principled way, with in-depth evaluation, how a new AI method advances performance rather than apply conventional techniques to yet another domain. It is a leading home for explainable AI (XAI), having published Miller's widely cited 'Explanation in artificial intelligence: Insights from the social sciences' and a special issue on XAI, and it has no page limit, though complete manuscripts of 20-30 pages are recommended."
+  summary: "1970년 창간된 AI 전 분야의 대표 저널로, IJCAI 산하 AIJ Division이 편집을 맡고 Elsevier가 발행한다. 새 문제 정식화나 새 방법을 증명·실험으로 완결성 있게 보여야 하며, 응용 논문도 기존 기법을 또 다른 분야에 적용한 수준이 아니라 새로운 AI 방법이 응용 성능을 어떻게 끌어올리는지를 원리적으로 보이고 깊이 평가해야 한다. 저널 소개의 범위 목록에 explainable AI가 명시돼 있고 Miller의 사회과학 관점 XAI 논문('Explanation in artificial intelligence: Insights from the social sciences')과 설명 가능한 AI(XAI) 특별호를 낸 XAI의 대표 무대이며, 페이지 제한은 없지만 20–30쪽 분량의 완결된 원고가 권장된다."
+  summary_en: "The premier journal for all of AI since 1970, edited by the IJCAI AIJ Division and published by Elsevier. Papers must present a new problem formulation or method completely, with proofs or experiments; application papers must show in a principled way, with in-depth evaluation, how a new AI method advances performance rather than apply conventional techniques to yet another domain. It is a leading home for explainable AI (XAI): explainable AI is named in its scope list, and it published Miller's widely cited 'Explanation in artificial intelligence: Insights from the social sciences' and a special issue on XAI; it has no page limit, though complete manuscripts of 20-30 pages are recommended."
   values: ["completeness and rigor", "novel AI methods", "broad AI scope", "explainable AI"]
 fit: 1
 take: "작업자·보행자 의도 예측에서 출발한 XAI 방법을 일반 AI 문제로 정식화하고 증명이나 폭넓은 실험으로 완결했을 때만 노릴 최상위 AI 저널로, 첫 결정까지 평균 약 20주가 걸리고 단순 응용 보고는 받지 않으니 장기 목표로 두자."
@@ -47,7 +47,7 @@ sources:
   - "https://aij.ijcai.org/organization-and-governance/"
   - "https://aaai.org/conference/aaai/aaai-27/journal-track-call-for-papers/"
   - "https://www.bioxbio.com/journal/ARTIF-INTELL"
-  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=892"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=892"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release; scope list (incl. explainable AI) copied from the Elsevier journal page, which blocks bots
   - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Artificial+Intelligence"
   - "https://api.openalex.org/sources?filter=issn:0004-3702"
   - "https://api.openalex.org/works?filter=primary_location.source.id:S196139623,title.search:explanation%20in%20artificial%20intelligence%20insights%20from%20the%20social%20sciences"

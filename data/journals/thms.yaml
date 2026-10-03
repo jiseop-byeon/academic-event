@@ -22,9 +22,9 @@ length: "Regular paper: 10 pages; technical correspondence: 5 pages; survey: 15 
 article_types: ["regular", "technical correspondence", "survey"]
 orientation:
   contribution: 0
-  summary: "IEEE SMC 학회의 인간-기계 시스템 저널로 인지 인간공학, 시스템 시험·평가, 사람의 정보 처리, 인간-로봇·인간-자동화 상호작용을 다루며, 사람을 루프에 넣은 시스템을 설계하고 피험자 실험으로 검증한 논문이 주류다. 시선·제스처·근전도 기반 의도 인식, VR/AR 인터페이스, 공유 제어처럼 기계가 사람의 상태와 의도를 읽고 반응하는 주제가 잘 맞고, 사람 요인 평가 없이 알고리즘 성능만 보이면 범위에서 벗어나기 쉽다."
-  summary_en: "The IEEE SMC Society's journal for human-machine systems, covering cognitive ergonomics, system test and evaluation, human information processing, and human-robot and human-automation interaction; most papers design a human-in-the-loop system and validate it with human-subject experiments. Topics in which a machine reads and responds to human state and intent, such as gaze-, gesture- or EMG-based intent recognition, VR/AR interfaces and shared control, fit well, while algorithm performance without any human-factors evaluation tends to fall outside its scope."
-  values: ["human-in-the-loop systems", "human-subject experiments", "cognitive ergonomics", "intent and gesture recognition"]
+  summary: "IEEE SMC 학회의 인간-기계 시스템 저널로, 공식 범위는 인지 인간공학, 시스템 시험·평가, 시스템·조직 속 사람의 정보 처리다. OpenAlex 기준으로 인간-자동화 상호작용·안전 논문이 가장 많고 EEG·BCI, 시선 추적, 촉각, 근전도, 손 제스처 인식, 자세·행동 인식, 원격조작·햅틱, VR이 뒤따라, 기계가 사람의 상태와 의도를 읽고 반응하는 주제가 잘 맞는다. 사람을 루프에 넣은 시스템과 그 평가가 중심이어서 사람 요인 평가 없이 알고리즘 성능만 보이면 범위에서 벗어나기 쉽다."
+  summary_en: "The IEEE SMC Society's journal for human-machine systems; its official scope is cognitive ergonomics, system test and evaluation, and human information processing in systems and organizations. By OpenAlex counts, human-automation interaction and safety papers are the most common, followed by EEG and brain-computer interfaces, gaze tracking, touch, EMG, hand-gesture recognition, pose and action recognition, teleoperation and haptics, and VR, so topics in which a machine reads and responds to human state and intent fit well. Human-in-the-loop systems and their evaluation are central, so algorithm performance without any human-factors evaluation tends to fall outside its scope."
+  values: ["human-in-the-loop systems", "human-factors evaluation", "cognitive ergonomics", "gaze, gesture and intent recognition"]
 fit: 2
 take: "시선·제스처·동작으로 작업자 의도를 읽는 양방향 AR 인터페이스나 보행자용 AR 충돌 경고를 피험자 실험으로 검증했을 때 노릴 만한 저널로, HRI 전문지인 THRI보다 공학 시스템·인간공학 관점의 원고에 열려 있다."
 take_en: "A journal to aim for once the two-way AR interface that reads worker intent from gaze, gestures and motion, or AR collision warnings for pedestrians, is validated in human-subject experiments; it is more open to engineering-system and human-factors manuscripts than the HRI-specialist THRI."
@@ -42,4 +42,5 @@ sources:
   - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9468"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release
   - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Transactions+on+Human-Machine+Systems"
   - "https://api.openalex.org/sources?filter=issn:2168-2291"
+  - "https://api.openalex.org/sources/S2476799526"
 last_verified: 2026-10-02

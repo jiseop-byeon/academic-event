@@ -83,7 +83,8 @@ def main(argv):
         if jif and jif.get("year", 0) < jcr_year:
             why.append(f"JIF is from {jif.get('year')}; JCR {jcr_year + 1} release ({jcr_year} values) should be out")
         m = j.get("metrics") or {}
-        if not ((m.get("jcr_quartile") or {}).get("value") or (m.get("sjr") or {}).get("quartile")):
+        if not ((m.get("jcr_quartile") or {}).get("value") or (m.get("sjr") or {}).get("quartile")
+                or (m.get("citescore") or {}).get("quartile")):
             why.append("no quartile — fill jcr_quartile or sjr.quartile if a reachable source shows it (never infer it from the JIF)")
         if age(j.get("last_verified")) > 180:
             why.append(f"last verified {j.get('last_verified')}")
