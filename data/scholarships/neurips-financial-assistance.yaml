@@ -1,0 +1,43 @@
+id: neurips-financial-assistance
+name: "NeurIPS 2026 Financial Assistance"
+organizer: "Neural Information Processing Systems Foundation (NeurIPS)"
+org_type: society
+type: travel-grant
+fields: [ml]
+amount:
+  summary: "무료 등록(현장 또는 온라인) + 배정 도시(시드니·애틀랜타·파리) 숙박 선결제 — 항공·현지 교통·식비·일비는 미지원"
+  summary_en: "Complimentary registration (in person or virtual) + prepaid accommodation in the assigned city (Sydney, Atlanta or Paris) — flights, local transport, meals and per diem are not covered"
+  covers: ["registration", "lodging"]
+duration: "NeurIPS 2026 1회 (시드니 본 행사 12/6–12, 애틀랜타·파리 위성 행사 12/9–13)"
+duration_en: "NeurIPS 2026 only (Sydney main event Dec 6–12; Atlanta and Paris satellites Dec 9–13)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음"
+  where_enrolled_en: "No restriction"
+  stage: "누구나 지원 가능 — 채택된 NeurIPS 연구의 주요 기여자인 학생·초기 박사후연구원 우선"
+  stage_en: "Anyone may apply — students and junior postdocs who are primary contributors to accepted NeurIPS work get priority"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "접근성 필요, 재정적 어려움, 첫 참가 여부, NeurIPS 봉사 등을 종합 평가하며 논문 저자가 아니거나 워크숍 등 다른 트랙 기여자도 지원 가능. NeurIPS.cc 계정과 OpenReview 프로필 ID가 필요하고 1인 1지원. 실제 참석 가능한 도시만 고르며 마감 후 변경 불가, 수상은 양도 불가. 별도로 시드니·애틀랜타 자원봉사자(약 4시간 근무 2회)는 등록비를 환불받음(숙박 미제공)."
+  notes_en: "Evaluated holistically on accessibility needs, financial hardship, first-time attendance and service to NeurIPS; non-authors and contributors to workshops or other tracks may apply. Requires a NeurIPS.cc account and an OpenReview profile ID; one application per person. Choose only cities you can realistically attend — selections are final after the deadline and awards are non-transferable. Separately, volunteers in Sydney and Atlanta (two shifts of about 4 hours) get their registration refunded (no hotel)."
+requirements: ["Financial Assistance 신청서 (NeurIPS.cc 계정 로그인)", "OpenReview 프로필 ID", "참석 가능 도시 선택과 불가 사유"]
+requirements_en: ["Financial Assistance application (NeurIPS.cc account)", "OpenReview profile ID", "Feasible locations, with reasons for any you cannot attend"]
+nomination: false
+cycle:
+  typical: "학회 약 3개월 전 접수 — 2026년은 9/7 오픈, 10/6 마감, 10/14까지 통보"
+  typical_en: "Opens about three months before the conference — 2026: opened Sep 7, closes Oct 6, decisions by Oct 14"
+  deadlines:
+    - {kind: application, date: 2026-10-06, tz: "AoE", time: "23:59", label: "신청 마감", label_en: "Application deadline"}
+    - {kind: result, date: 2026-10-14, tz: "AoE", time: "23:59", label: "결과 통보 기한", label_en: "Notification by"}
+status: open
+apply_url: "https://neurips.cc/Conferences/2026/FinancialAssistance"
+fit: 2
+take: "마감(10월 6일 AoE)이 나흘 남았으니 NeurIPS 2026에 채택 논문이나 워크숍 발표가 있으면 애틀랜타 위성 행사를 선택지에 넣어 바로 신청하라 — 항공비는 지원되지 않는다."
+take_en: "The deadline (Oct 6 AoE) is four days away — if you have an accepted NeurIPS 2026 paper or workshop contribution, apply now and include the Atlanta satellite among your locations; airfare is not covered."
+links:
+  home: "https://neurips.cc/Conferences/2026/FinancialAssistance"
+sources:
+  - "https://neurips.cc/Conferences/2026/FinancialAssistance"
+  - "https://neurips.cc/Conferences/2026"
+last_verified: 2026-10-02

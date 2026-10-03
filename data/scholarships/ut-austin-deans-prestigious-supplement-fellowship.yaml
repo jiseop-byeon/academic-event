@@ -1,0 +1,47 @@
+id: ut-austin-deans-prestigious-supplement-fellowship
+name: "Dean's Prestigious Supplement Fellowship"
+organizer: "The University of Texas at Austin — Office of Graduate and Postdoctoral Studies"
+org_type: university
+type: fellowship
+fields: [any]
+amount:
+  summary: "$1,000 + 다음 학년도 등록금을 주(州) 거주자 요율로 낼 수 있는 자격이 주어질 수 있음 (건강보험·학비 보조는 없음)"
+  summary_en: "$1,000, and it may entitle the student to pay in-state tuition rates in the coming academic year (no health-insurance or tuition assistance)"
+  value: 1000
+  currency: USD
+  unit: one-time
+  covers: ["stipend"]
+duration: "다음 학년도 (1회)"
+duration_en: "The coming academic year (one-time)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "UT Austin 대학원 재학생"
+  where_enrolled_en: "UT Austin graduate students"
+  stage: "규모가 크고(보통 $15,000 이상) 경쟁적·권위 있는 외부 전액 펠로십을 받게 되는 학생"
+  stage_en: "Students who will hold a large (typically $15,000 or more), competitive, prestigious external full fellowship"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "학생이 직접 신청할 수 없고 학과 graduate adviser/coordinator가 EASI의 Graduate Awards System으로 추천하며, graduate adviser의 추천 서한과 외부 펠로십 수여 통지서를 올려야 함. 국적 제한 언급 없음. 외부 대형 펠로십을 받으면 함께 요청할 보조 장학."
+  notes_en: "Students cannot apply directly — the department's graduate adviser/coordinator nominates through the Graduate Awards System in EASI, uploading a supporting letter from the graduate adviser and the external award letter. No nationality restriction mentioned. A supplement to request once you win a large external fellowship."
+requirements: ["학과 추천 (Graduate Awards System)", "graduate adviser 추천 서한", "외부 펠로십 수여 통지서 사본"]
+requirements_en: ["Department nomination (Graduate Awards System)", "Supporting letter from the graduate adviser", "Copy of the external award letter"]
+nomination: true
+cycle:
+  typical: "연 2회 학과 추천 창구 — 2026년 11/23–12/11, 2027년 6/1–7/9"
+  typical_en: "Two department nomination windows a year — Nov 23–Dec 11, 2026 and Jun 1–Jul 9, 2027"
+  deadlines:
+    - {kind: internal, date: 2026-12-11, label: "학과 추천 마감 (1차 창구, 11/23 오픈)", label_en: "Department nomination deadline (window 1, opens Nov 23)"}
+    - {kind: internal, date: 2027-07-09, label: "학과 추천 마감 (2차 창구, 6/1 오픈)", label_en: "Department nomination deadline (window 2, opens Jun 1)"}
+status: upcoming
+apply_url: "https://graduate.utexas.edu/funding/fellowships/grad-school/deans-supplement"
+fit: 2
+take: "외부 대형 펠로십(보통 $15,000 이상)을 받게 되면 graduate coordinator에게 바로 추천을 요청하라 — $1,000에 더해 주 거주자 등록금 요율이 적용될 수 있어 실익이 크다."
+take_en: "If you win a large external fellowship (typically $15,000+), ask the graduate coordinator to nominate you right away — beyond the $1,000, it may qualify you for in-state tuition rates."
+links:
+  home: "https://graduate.utexas.edu/funding/fellowships/grad-school/deans-supplement"
+sources:
+  - "https://graduate.utexas.edu/funding/fellowships/grad-school/deans-supplement"
+  - "https://graduate.utexas.edu/funding/fellowships/grad-school/deadlines"
+  - "https://graduate.utexas.edu/funding/fellowships/grad-fellows"
+last_verified: 2026-10-02

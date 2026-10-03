@@ -6,27 +6,35 @@ type: award
 fields: [robotics, physical-ai]
 amount:
   summary: "RSS Pioneers 워크숍과 RSS 본 학회의 등록비·숙박·교통비 일부 지원 (2025년 공고 기준, 금액 비공개)"
+  summary_en: "Partial support for registration, lodging and travel for the RSS Pioneers workshop and the main RSS conference (per the 2025 call; amounts not published)"
   covers: ["registration", "lodging", "travel"]
 duration: "1일 워크숍 (RSS 개막 전날) + RSS 본 학회 참가"
+duration_en: "One-day workshop (the day before RSS opens) + the main RSS conference"
 eligibility:
   nationality: ["any"]
   where_enrolled: "제한 없음 (전 세계 대학·연구기관)"
+  where_enrolled_en: "No restriction (universities and research institutes worldwide)"
   stage: "박사과정 고년차 또는 교수·산업체 리더 직위가 없는 초기 경력 연구자 (졸업 임박 박사과정생과 학위 취득 2년 이내 연구자 우선)"
+  stage_en: "Senior PhD students or early-career researchers without a faculty or industry-leadership position (PhD students close to graduating and researchers within two years of their degree are prioritized)"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
   notes: "과거 Pioneers 참가자는 재지원 불가 (이전 미선정자는 재지원 가능). 논문 채택은 요건이 아니며, 매년 전 세계 우수 초기 연구자 코호트를 뽑는 경쟁 선발 프로그램."
+  notes_en: "Past Pioneers cannot reapply (earlier unsuccessful applicants may). Paper acceptance is not required; it is a competitive program that selects a cohort of top early-career researchers from around the world each year."
 requirements: ["연구 계획서 (본문 2쪽 + 참고문헌, 익명화)", "지원 동기서 (500단어 이내)", "CV", "대표 논문 또는 프리프린트 1편", "교수의 1쪽 지지 서한 (Letter of Support)", "마감 후 다른 지원자의 연구 계획서 2–3편 동료 심사"]
+requirements_en: ["Research statement (2 pages + references, anonymized)", "Motivation statement (≤500 words)", "CV", "One representative paper or preprint", "1-page letter of support from a faculty member", "Peer review of 2–3 other applicants' research statements after the deadline"]
 nomination: false
 cycle:
   typical: "매년 1월 중하순 접수 시작, 2월 중순 마감(2024: 2/9, 2025: 2/14 연장, 2026: 2/20), 4월 하순 결과 통보, RSS 개막 전날 워크숍"
+  typical_en: "Opens in mid-to-late January and closes in mid-February (2024: Feb 9; 2025: Feb 14, extended; 2026: Feb 20), results in late April, workshop the day before RSS opens"
   deadlines:
-    - {kind: application, date: 2027-02-15, tz: "AoE", estimated: true, label: "RSS Pioneers 2027 신청 마감 (예상)"}
-    - {kind: result, date: 2027-04-26, tz: "AoE", estimated: true, label: "RSS Pioneers 2027 결과 통보 (예상)"}
-    - {kind: other, date: 2027-07-05, estimated: true, label: "RSS Pioneers 2027 워크숍 — RSS 2027(아테네, 7/6–11) 개막 전날 (예상)"}
+    - {kind: application, date: 2027-02-15, tz: "AoE", estimated: true, label: "RSS Pioneers 2027 신청 마감 (예상)", label_en: "RSS Pioneers 2027 deadline (expected)"}
+    - {kind: result, date: 2027-04-26, tz: "AoE", estimated: true, label: "RSS Pioneers 2027 결과 통보 (예상)", label_en: "RSS Pioneers 2027 results (expected)"}
+    - {kind: other, date: 2027-07-05, estimated: true, label: "RSS Pioneers 2027 워크숍 — RSS 2027(아테네, 7/6–11) 개막 전날 (예상)", label_en: "RSS Pioneers 2027 workshop — the day before RSS 2027 (Athens, Jul 6–11) opens (expected)"}
 status: upcoming
 fit: 2
 take: "박사 1년차는 대상이 아니므로 졸업 1–2년 전 RSS·CoRL급 1저자 실적을 갖춘 뒤 지원 — 선정 자체가 로보틱스 커뮤니티에서 손꼽히는 이력이 된다."
+take_en: "Not for first-years — apply 1–2 years before graduating, once you have RSS/CoRL-level first-author work; being selected is itself one of the most visible credentials in robotics."
 links:
   home: "https://sites.google.com/view/rsspioneers2026/"
 sources:

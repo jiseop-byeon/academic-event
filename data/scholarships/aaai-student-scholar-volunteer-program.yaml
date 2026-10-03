@@ -1,0 +1,43 @@
+id: aaai-student-scholar-volunteer-program
+name: "AAAI-27 Student Scholar Volunteer Program"
+organizer: "Association for the Advancement of Artificial Intelligence (AAAI)"
+org_type: society
+type: travel-grant
+fields: [ml]
+amount:
+  summary: "부분 여행 경비 지원 + 무료 등록 (금액 비공개)"
+  summary_en: "Partial travel support + complimentary registration (amounts not published)"
+  covers: ["travel", "registration"]
+duration: "AAAI-27 1회 (2027년 2/16–23, 몬트리올)"
+duration_en: "AAAI-27 only (Feb 16–23, 2027, Montréal)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "대학 풀타임 학부·대학원생"
+  where_enrolled_en: "Full-time undergraduate or graduate students at colleges and universities"
+  stage: "학부·석사·박사"
+  stage_en: "Undergraduate, master's and PhD"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "AAAI 회원이어야 하고, 학회 프로그램에 논문을 제출했으며 지도교수 추천서가 있어야 함. 신청이 예산을 넘으면 채택 논문이 있는 학생, 그다음 학회에 참여하는 학생을 우선. 선정자는 학회 자원봉사를 하며, 재신청자는 이전 수혜 때의 봉사·보고 의무를 이행했어야 함. 선정 통보 전에 등록하면 무료 등록 혜택을 잃고 환불되지 않음. 국적 제한 언급 없음."
+  notes_en: "Must be an AAAI member, have submitted paper(s) to the conference program and have a letter from the faculty advisor. If requests exceed funds, students with an accepted technical paper come first, then students otherwise participating in the conference. Recipients volunteer at the conference, and repeat applicants must have met earlier volunteer and reporting duties. Registering before notification forfeits the free registration, with no refund. No nationality restriction mentioned."
+requirements: ["온라인 신청서", "학회 제출 논문 정보", "지도교수 추천서", "AAAI 회원 자격"]
+requirements_en: ["Online application", "Details of paper(s) submitted to the conference", "Faculty advisor's recommendation letter", "AAAI membership"]
+nomination: false
+cycle:
+  typical: "학회 약 2개월 반 전 5일간 접수 — AAAI-27은 2026/11/30 오전 12:01 ET 오픈, 12/4 오후 11:59 ET 마감"
+  typical_en: "A five-day window about 2.5 months before the conference — AAAI-27: opens Nov 30, 2026 at 12:01 AM ET and closes Dec 4 at 11:59 PM ET"
+  deadlines:
+    - {kind: other, date: 2026-11-30, tz: "ET", time: "00:01", label: "신청 접수 시작", label_en: "Applications open"}
+    - {kind: application, date: 2026-12-04, tz: "ET", time: "23:59", label: "신청 마감", label_en: "Application deadline"}
+status: upcoming
+apply_url: "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/"
+fit: 1
+take: "AI 일반 학회라 건설 로봇 연구의 주 무대는 아니므로, AAAI-27에 논문을 냈을 때만 11/30–12/4 접수 창구에 신청할 참고용 항목이다."
+take_en: "A general AI venue rather than a main stage for construction robotics — apply in the Nov 30–Dec 4 window only if you submitted a paper to AAAI-27; listed for reference."
+links:
+  home: "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/"
+sources:
+  - "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/"
+  - "https://aaai.org/conference/aaai/aaai-27/"
+last_verified: 2026-10-02

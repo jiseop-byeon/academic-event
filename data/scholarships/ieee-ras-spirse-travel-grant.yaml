@@ -1,0 +1,43 @@
+id: ieee-ras-spirse-travel-grant
+name: "IEEE RAS SPIRSE Travel Grants (Students Participating in IEEE Robotic Standardization Efforts)"
+organizer: "IEEE Robotics and Automation Society (RAS) — Industrial Activities Board"
+org_type: society
+type: travel-grant
+fields: [robotics, hri]
+amount:
+  summary: "연 3명, 1인당 최대 $3,000 (항공·호텔·학회 등록비, IEEE 규정 내) + IEEE·RAS 회원 자격 무료 제공"
+  summary_en: "Three grants a year, each up to $3,000 (flights, hotel and conference registration within IEEE guidelines) + complimentary IEEE and RAS memberships"
+  value: 3000
+  currency: USD
+  unit: one-time
+  covers: ["travel", "lodging", "registration"]
+duration: "RAS 플래그십 학회(ICRA·IROS 등) 1회 참가"
+duration_en: "One RAS flagship conference (ICRA, IROS, etc.)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음"
+  where_enrolled_en: "No restriction"
+  stage: "학생 (학부생 우선)"
+  stage_en: "Students (undergraduates get priority)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "IEEE 회원이 아니어도 지원 가능. 채택 논문이 없어 학회에 갈 수 없었을 학생을 우선함. 선정자는 표준화 조정 회의(열릴 경우)와 최소 1개 표준 작업반 회의(예: P3107 HRI 용어 표준, P3108 HRI 인간 대상 연구 권고안)에 참여하고 2–3쪽 보고서를 내야 함. 공식 페이지에 학회별 접수 마감일은 명시되지 않음."
+  notes_en: "IEEE membership is not required to apply. Priority goes to students who would not otherwise attend (e.g., no accepted paper). Recipients must join the full-day standards coordination meeting (if scheduled) and at least one standards working-group meeting (e.g., P3107 HRI terminology, P3108 recommended practices for HRI human-subject studies) and submit a 2–3 page report. The official page does not list per-conference application deadlines."
+requirements: ["온라인 신청서 (RAS Smartsheet 양식)", "학회 후 2–3쪽 참가 보고서"]
+requirements_en: ["Online application (RAS Smartsheet form)", "2–3 page report after the conference"]
+nomination: false
+awards_per_year: "연 3명"
+cycle:
+  typical: "RAS가 매년 플래그십 학회 참가용 예산을 배정 — 학회별 마감일은 공식 페이지에 미기재"
+  typical_en: "RAS sets aside funds every year for flagship-conference attendance — per-conference deadlines are not listed on the official page"
+status: upcoming
+apply_url: "https://www.ieee-ras.org/industry-government/standards/students-participating-in-ieee-robotic-standardization-efforts/"
+fit: 2
+take: "채택 논문 없이도 ICRA·IROS 참가 경비(최대 $3,000)를 받을 수 있으니, HRI 표준(P3107·P3108) 작업반에 관심이 있다면 ICRA 2027(서울) 참가용 신청 시기를 RAS 페이지에서 확인하라."
+take_en: "It covers up to $3,000 to attend ICRA or IROS without an accepted paper — if the HRI standards groups (P3107, P3108) interest you, watch the RAS page for when to apply for ICRA 2027 (Seoul)."
+links:
+  home: "https://www.ieee-ras.org/industry-government/standards/students-participating-in-ieee-robotic-standardization-efforts/"
+sources:
+  - "https://www.ieee-ras.org/industry-government/standards/students-participating-in-ieee-robotic-standardization-efforts/"
+last_verified: 2026-10-02

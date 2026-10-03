@@ -3,7 +3,7 @@
 # Big tech and corporate research labs are tracked separately.
 #
 # Checked 2026-10-02 without any login or email address: every greenhouse / lever / ashby / workday
-# endpoint below (and the Rippling, Gem and Eightfold JSON endpoints) was called once and returned the
+# endpoint below (and the Rippling, Gem, Eightfold and Workable JSON endpoints) was called once and returned the
 # board; custom HTML pages were read once (some by a helper agent in the same session).
 #   greenhouse: GET  https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true
 #   lever:      GET  https://api.lever.co/v0/postings/{token}?mode=json          (token is case-sensitive)
@@ -16,6 +16,7 @@
 # relevant_now: a relevant PhD/MS-level robotics, manipulation, physical-AI, perception, navigation,
 # HRI, simulation or construction-automation internship was open on 2026-10-02.
 # items: data/internships/<id>.yaml files written from this company's postings.
+# note / note_en: Korean note and its English twin (English is the site's main language).
 last_checked: 2026-10-02
 companies:
   # --- Robotics / physical-AI startups -------------------------------------------------------
@@ -25,7 +26,8 @@ companies:
     ats: greenhouse
     token: "figureai"
     relevant_now: false
-    note: "인턴은 'Electrical Engineering Intern [Fall 2026]', 'Special Projects Intern [Fall 2026]'뿐. 학기 단위로 인턴을 올리는 회사라 [Summer 2027] AI·로보틱스 인턴 게시 여부를 주시. (greenhouse 'figure'는 다른 회사인 핀테크 Figure)"
+    note: "인턴은 'Electrical Engineering Intern [Fall 2026]', 'Special Projects Intern [Fall 2026]', 'Supply Chain Analytics Intern [Winter 2027]'(2026-10-02 게시)뿐. 학기 단위로 인턴을 올리는 회사라 [Summer 2027] AI·로보틱스 인턴 게시 여부를 주시. (greenhouse 'figure'는 다른 회사인 핀테크 Figure)"
+    note_en: "Internships are only 'Electrical Engineering Intern [Fall 2026]', 'Special Projects Intern [Fall 2026]' and 'Supply Chain Analytics Intern [Winter 2027]' (posted 2026-10-02). Figure posts internships term by term, so watch for [Summer 2027] AI/robotics internships. (Greenhouse 'figure' is a different company, the fintech Figure.)"
   - name: "Agility Robotics"
     org_type: robotics
     careers: "https://www.agilityrobotics.com/careers"
@@ -33,6 +35,7 @@ companies:
     token: "agilityrobotics"
     relevant_now: false
     note: "공고 78건 중 인턴 없음."
+    note_en: "No internships among 78 postings."
   - name: "1X"
     org_type: robotics
     careers: "https://www.1x.tech/careers"
@@ -41,6 +44,7 @@ companies:
     relevant_now: true
     items: ["1x-ai-residency-rolling"]
     note: "AI Residency(3–6개월, 월 $10K) 상시 공고. 제조·CNC 인턴은 무관."
+    note_en: "Evergreen AI Residency posting (3–6 months, $10K a month). The manufacturing and CNC internships are not relevant."
   - name: "Physical Intelligence"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/physicalintelligence"
@@ -49,6 +53,7 @@ companies:
     relevant_now: true
     items: ["physical-intelligence-research-internships-rolling"]
     note: "2024-08 게시된 상시 'Research Internships' 공고. 'Mechatronics Intern'(2027년 1–5월, 학부 co-op 대상)도 있음. 홈페이지는 봇 확인 화면이라 API만 사용."
+    note_en: "Evergreen 'Research Internships' posting from 2024-08. There is also a 'Mechatronics Intern' (January–May 2027, aimed at undergraduate co-ops). The homepage shows a bot check, so only the API is used."
   - name: "Skild AI"
     org_type: robotics
     careers: "https://www.skild.ai/career"
@@ -56,6 +61,7 @@ companies:
     token: "skildai-careers"
     relevant_now: false
     note: "인턴은 'Content Creator (Intern)'뿐. 토큰은 홈페이지 JS 번들에서 확인."
+    note_en: "The only internship is 'Content Creator (Intern)'. The token was found in the homepage JS bundle."
   - name: "Dexterity"
     org_type: robotics
     careers: "https://jobs.lever.co/dexterity"
@@ -63,6 +69,7 @@ companies:
     token: "dexterity"
     relevant_now: false
     note: "인턴 공고 없음."
+    note_en: "No internship postings."
   - name: "Apptronik"
     org_type: robotics
     careers: "https://boards.greenhouse.io/apptronik"
@@ -71,6 +78,7 @@ companies:
     relevant_now: true
     items: ["apptronik-robotics-ai-intern-summer-2027"]
     note: "'IROS 2026 - Robotics & AI Talent' 인재풀 공고에서 Summer 2027 인턴 모집 명시(Austin·Sunnyvale). 개별 인턴 공고가 따로 올라오는지 주시."
+    note_en: "The 'IROS 2026 - Robotics & AI Talent' talent-pool posting explicitly recruits Summer 2027 interns (Austin, Sunnyvale). Watch for separate internship postings."
   - name: "Sanctuary AI"
     org_type: robotics
     careers: "https://sanctuary.ai/careers/"
@@ -79,6 +87,7 @@ companies:
     relevant_now: true
     items: ["sanctuary-ai-ml-research-intern-rl-il-flexible"]
     note: "Kula ATS(HTML, 'Co-op/Internship' 섹션). 공고 URL 형식 /sanctuary-ai/<id>-<slug>. ashby 'sanctuary'는 다른 회사(부동산)."
+    note_en: "Kula ATS (HTML, 'Co-op/Internship' section). Posting URLs look like /sanctuary-ai/<id>-<slug>. Ashby 'sanctuary' is a different company (real estate)."
   - name: "Field AI"
     org_type: robotics
     careers: "https://www.fieldai.com/careers"
@@ -87,6 +96,7 @@ companies:
     relevant_now: true
     items: ["field-ai-humanoid-manipulation-summer-2027", "field-ai-humanoid-manipulation-spring-2027", "field-ai-simulation-sim-to-real-intern-2027"]
     note: "Boston R&D의 PhD humanoid manipulation 인턴(Spring/Summer 2027)과 Irvine 시뮬레이션 인턴. 공고 97건이라 'Internship' commitment로 필터."
+    note_en: "PhD humanoid-manipulation internships at Boston R&D (Spring/Summer 2027) and a simulation internship in Irvine. 97 postings, so filter by the 'Internship' commitment."
   - name: "Collaborative Robotics"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/cobot"
@@ -94,6 +104,7 @@ companies:
     token: "cobot"
     relevant_now: false
     note: "인턴 없음(데이터 수집 오퍼레이터·엔지니어 공고만)."
+    note_en: "No internships (only data-collection operator and engineer postings)."
   - name: "Mujin"
     org_type: robotics
     careers: "https://mujin-corp.com/careers/"
@@ -102,6 +113,7 @@ companies:
     relevant_now: true
     items: ["mujin-internship-tokyo-rolling"]
     note: "도쿄 본사 인턴 상시 등록 공고(영어, 비자 지원). 'Internship (English)' commitment로 새 인턴 공고 감시."
+    note_en: "Standing internship registration posting for the Tokyo HQ (in English, with visa support). Watch the 'Internship (English)' commitment for new internship postings."
   - name: "Machina Labs"
     org_type: robotics
     careers: "https://machinalabs.ai/careers"
@@ -109,6 +121,7 @@ companies:
     token: "MachinaLabs"
     relevant_now: false
     note: "'Robotic Process Engineer, Intern'(2025-11 게시)은 인턴 종료 1년 내 졸업 예정자 대상이라 박사 초년차와 무관. 토큰 대소문자 구분."
+    note_en: "'Robotic Process Engineer, Intern' (posted 2025-11) targets students graduating within a year of the internship, so it does not fit an early-stage PhD student. The token is case-sensitive."
   - name: "Boston Dynamics"
     org_type: robotics
     careers: "https://bostondynamics.com/careers/"
@@ -117,6 +130,7 @@ companies:
     relevant_now: false
     items: ["boston-dynamics-internship-2027"]
     note: "현재 인턴 공고 없음. 커리어 페이지에 'Internship recruiting season kicks off in the new year' — 2027년 초 공고 예상. searchText 'intern'은 internal 등과 퍼지 매칭되니 제목 필터 필수."
+    note_en: "No internship postings now. The careers page says 'Internship recruiting season kicks off in the new year', so postings are expected in early 2027. searchText 'intern' fuzzy-matches words like 'internal', so filter titles."
   - name: "Diligent Robotics"
     org_type: robotics
     careers: "https://job-boards.greenhouse.io/diligentrobotics"
@@ -124,6 +138,7 @@ companies:
     token: "diligentrobotics"
     relevant_now: false
     note: "인턴 없음. (greenhouse 'diligent'는 다른 회사)"
+    note_en: "No internships. (Greenhouse 'diligent' is a different company.)"
   - name: "Path Robotics"
     org_type: robotics
     careers: "https://www.path-robotics.com/careers"
@@ -131,6 +146,7 @@ companies:
     token: "pathrobotics"
     relevant_now: false
     note: "인턴 없음. 2026-09-30에 'Early Career & University Relations Recruiter' 채용 공고가 올라와 인턴 프로그램 재개 가능성 있음(용접 로봇 = 접촉 작업)."
+    note_en: "No internships. An 'Early Career & University Relations Recruiter' opening posted on 2026-09-30 suggests the internship program may restart (welding robots = contact tasks)."
   - name: "Gecko Robotics"
     org_type: robotics
     careers: "https://www.geckorobotics.com/careers"
@@ -138,6 +154,7 @@ companies:
     token: "gecko-robotics"
     relevant_now: false
     note: "Summer 2027 인턴(AI/ML NYC $50–90/h, Embedded, Test & Reliability)이 열려 있으나 AI/ML 인턴은 2027-12~2028-05 졸업 예정자 대상·NDT 데이터 위주라 제외."
+    note_en: "Summer 2027 internships are open (AI/ML in NYC at $50–90/h, Embedded, Test & Reliability), but the AI/ML internship targets students graduating between 2027-12 and 2028-05 and centers on NDT data, so it is excluded."
   - name: "ANYbotics"
     org_type: robotics
     careers: "https://jobs.lever.co/anybotics"
@@ -145,14 +162,16 @@ companies:
     token: "anybotics"
     relevant_now: false
     note: "취리히 'Software Engineer Intern - Industrialization'(2026-09-30) 등 SWE 인턴만. 스위스 근무 허가 필요."
+    note_en: "Only SWE internships such as 'Software Engineer Intern - Industrialization' in Zurich (2026-09-30). Requires a Swiss work permit."
   - name: "Symbotic"
     org_type: robotics
     careers: "https://www.symbotic.com/careers/jobs/"
     ats: workday
     workday: {host: "symbotic.wd504.myworkdayjobs.com", tenant: "symbotic", site: "Symbotic"}
     relevant_now: true
-    items: ["symbotic-robot-perception-intern-summer-2027", "symbotic-phd-applied-scientist-routing-intern-summer-2027"]
-    note: "Summer 2027 인턴·co-op 다수(Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing 등). 회사 페이지 URL은 /careers/jobs/R<번호>/."
+    items: ["symbotic-robot-perception-intern-summer-2027"]
+    note: "Summer 2027 인턴·co-op 다수(Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing 등). Routing 인턴 파일은 적합도 1(창고 다중 로봇 경로계획)이라 2026-10-02 삭제. 회사 페이지 URL은 /careers/jobs/R<번호>/."
+    note_en: "Many Summer 2027 internships and co-ops (Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing, etc.). The Routing internship file was deleted on 2026-10-02 as fit 1 (warehouse multi-robot path planning). Company page URLs look like /careers/jobs/R<number>/."
   - name: "Dyna Robotics"
     org_type: robotics
     careers: "https://www.dyna.co/careers"
@@ -161,6 +180,7 @@ companies:
     relevant_now: true
     items: ["dyna-robotics-research-internship-rolling"]
     note: "상시 'Research Internship' 공고(2026-06 게시)."
+    note_en: "Evergreen 'Research Internship' posting (posted 2026-06)."
   - name: "Genesis AI"
     org_type: robotics
     careers: "https://genesis.ai/careers"
@@ -168,6 +188,7 @@ companies:
     token: "genesis"
     relevant_now: false
     note: "인턴 없음(분야별 상시 공고만). lever·greenhouse 'genesis'는 다른 회사."
+    note_en: "No internships (only evergreen postings by area). Lever and Greenhouse 'genesis' are different companies."
   - name: "The Bot Company"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/thebotcompany"
@@ -175,6 +196,7 @@ companies:
     token: "thebotcompany"
     relevant_now: false
     note: "인턴 없음(7개 분야 상시 공고)."
+    note_en: "No internships (evergreen postings in seven areas)."
   - name: "Rainbow Robotics (레인보우로보틱스)"
     org_type: robotics
     careers: "https://rainbow-robotics.com/%ec%b1%84%ec%9a%a9/%ec%b1%84%ec%9a%a9%ea%b3%b5%ea%b3%a0/"
@@ -182,6 +204,7 @@ companies:
     endpoint: "https://rainbow-robotics.com/%ec%b1%84%ec%9a%a9/%ec%b1%84%ec%9a%a9%ea%b3%b5%ea%b3%a0/"
     relevant_now: false
     note: "자체 채용 페이지(약 50건, 5페이지) 모두 정규직·계약직. '인턴' 필터만 있고 인턴 공고 없음. 인재 Pool 등록 페이지 별도."
+    note_en: "Own careers page (about 50 postings over 5 pages), all full-time or contract. There is an 'intern' filter but no internship postings. A separate talent-pool registration page exists."
   - name: "Doosan Robotics (두산로보틱스)"
     org_type: robotics
     careers: "https://doosanrobotics.ninehire.site/recruit"
@@ -189,6 +212,7 @@ companies:
     endpoint: "https://doosanrobotics.ninehire.site/recruit"
     relevant_now: false
     note: "Ninehire 채용 사이트 16건 중 인턴 없음. '[박사 상시모집]' 로봇 R&D 정규직 7건과 AI/SW·Robot R&D 인재풀만 있음."
+    note_en: "No internships among 16 postings on the Ninehire site — only seven full-time robot R&D roles under '[PhD rolling recruitment]' plus AI/SW and robot R&D talent pools."
   - name: "Skydio"
     org_type: robotics
     careers: "https://www.skydio.com/careers"
@@ -197,20 +221,25 @@ companies:
     relevant_now: true
     items: ["skydio-autonomy-intern-cv-dl-summer-2027"]
     note: "Summer 2027 Autonomy CV/DL 인턴(San Mateo, 대학원 $53/h)과 취리히 PhD Autonomy 인턴(스위스 근무 허가 필요, 파일 미작성)."
+    note_en: "Summer 2027 Autonomy CV/DL internship (San Mateo, $53/h for graduate students) and a PhD Autonomy internship in Zurich (Swiss work permit required; no file written)."
   - name: "Kodiak Robotics"
     org_type: autonomy
     careers: "https://kodiak.ai/careers"
     ats: greenhouse
     token: "kodiak"
     relevant_now: true
-    note: "Winter 2027(1월 시작, 12–16주) 인턴: Motion Planning·Simulation·Controls 등, 'Internships' 부서. 트럭 자율주행이라 파일은 작성하지 않음."
+    items: ["kodiak-motion-planning-intern-winter-2027"]
+    note: "Winter 2027(1월 시작, 12–16주) 인턴: Motion Planning·Simulation·Controls·Mission Planning 등, 'Internships' 부서. 교통이 범위에 포함되어 Motion Planning 인턴 파일 작성(2026-10-02). 민감 직무는 U.S. person 확인이 필요할 수 있다는 회사 공통 조항이 있음."
+    note_en: "Winter 2027 internships (January start, 12–16 weeks) in Motion Planning, Simulation, Controls, Mission Planning and more, under the 'Internships' department. With transportation now in scope, a file was written for the Motion Planning internship (2026-10-02). A company-wide clause says sensitive roles may require U.S. person verification."
   - name: "Waabi"
     org_type: autonomy
     careers: "https://waabi.ai/careers/"
     ats: lever
     token: "waabi"
-    relevant_now: false
-    note: "'2026 Intern, PhD Research Scientist'(2025-12 게시, 미국 $60/h)만 남아 있음. 2027년판 공고 게시 여부 주시."
+    relevant_now: true
+    items: ["waabi-research-internship-coop-rolling"]
+    note: "상시 'Research Internship/Co-op'(학사~박사, 미국 $40–55/h, 토론토·SF·미국 원격)과 '2026 Intern, PhD Research Scientist'(미국 $60/h) 모두 2025-12 게시분이 아직 열려 있음. 2027년판 공고 게시 여부 주시."
+    note_en: "The evergreen 'Research Internship/Co-op' (BS to PhD; US $40–55/h; Toronto, SF, remote US) and '2026 Intern, PhD Research Scientist' (US $60/h), both posted 2025-12, are still open. Watch for 2027 editions."
   - name: "Nuro"
     org_type: autonomy
     careers: "https://nuro.ai/careers"
@@ -218,6 +247,7 @@ companies:
     token: "nuro"
     relevant_now: false
     note: "인턴은 Social Media, Software Engineer AI Platform뿐."
+    note_en: "The only internships are Social Media and Software Engineer, AI Platform."
   - name: "Wayve"
     org_type: autonomy
     careers: "https://wayve.ai/careers/"
@@ -225,6 +255,7 @@ companies:
     token: "wayve"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Formic"
     org_type: robotics
     careers: "https://formic.co/careers"
@@ -232,6 +263,7 @@ companies:
     token: "formic"
     relevant_now: false
     note: "'2026 Internship'(Chicago·SF) 공고만 남아 있음."
+    note_en: "Only the '2026 Internship' postings (Chicago, SF) remain."
   - name: "Nimble Robotics"
     org_type: robotics
     careers: "https://job-boards.greenhouse.io/nimblerobotics"
@@ -239,6 +271,7 @@ companies:
     token: "nimblerobotics"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Standard Bots"
     org_type: robotics
     careers: "https://standardbots.com/careers"
@@ -246,6 +279,7 @@ companies:
     token: "standardbots"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Tutor Intelligence"
     org_type: robotics
     careers: "https://www.tutorintelligence.com/careers"
@@ -253,6 +287,7 @@ companies:
     token: "tutorintelligence"
     relevant_now: false
     note: "'Robotics Research Scientist Intern (Winter/Spring 2026)'(2025-11 게시)만 남아 있음. 다음 시즌 공고 주시."
+    note_en: "Only 'Robotics Research Scientist Intern (Winter/Spring 2026)' (posted 2025-11) remains. Watch for next season's posting."
   - name: "Generalist AI"
     org_type: robotics
     careers: "https://generalistai.com/careers"
@@ -260,6 +295,7 @@ companies:
     token: "generalist"
     relevant_now: false
     note: "인턴 없음(Research Assistant 등 정규 공고만)."
+    note_en: "No internships (only regular postings such as Research Assistant)."
   - name: "Sunday Robotics"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/sunday"
@@ -267,6 +303,7 @@ companies:
     token: "sunday"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Matic"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/maticrobots"
@@ -274,6 +311,7 @@ companies:
     token: "maticrobots"
     relevant_now: false
     note: "인턴은 'Robotics Customer Success Intern'뿐."
+    note_en: "The only internship is 'Robotics Customer Success Intern'."
   - name: "Viam"
     org_type: robotics
     careers: "https://www.viam.com/careers"
@@ -281,6 +319,7 @@ companies:
     token: "viamrobotics"
     relevant_now: false
     note: "'Software Engineering Intern (Summer 2027)'(NYC)만 있어 연구형 아님."
+    note_en: "Only 'Software Engineering Intern (Summer 2027)' (NYC), which is not research-oriented."
   - name: "Intrinsic"
     org_type: robotics
     careers: "https://www.intrinsic.ai/careers"
@@ -288,6 +327,7 @@ companies:
     token: "intrinsicrobotics"
     relevant_now: false
     note: "인턴 없음. (Alphabet 계열 — 빅테크 담당 목록과 중복 여부 확인)"
+    note_en: "No internships. (Alphabet company — check for duplication with the big-tech watchlist.)"
   - name: "Reflex Robotics"
     org_type: robotics
     careers: "https://jobs.ashbyhq.com/reflexrobotics"
@@ -295,6 +335,7 @@ companies:
     token: "reflexrobotics"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Ambi Robotics"
     org_type: robotics
     careers: "https://www.ambirobotics.com/careers"
@@ -302,6 +343,7 @@ companies:
     token: "ambirobotics"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Pickle Robot"
     org_type: robotics
     careers: "https://picklerobot.com/careers"
@@ -309,6 +351,7 @@ companies:
     token: "picklerobot"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Carbon Robotics"
     org_type: robotics
     careers: "https://carbonrobotics.com/job-openings"
@@ -316,6 +359,7 @@ companies:
     token: "carbonrobotics"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Torc Robotics"
     org_type: autonomy
     careers: "https://torc.ai/careers/"
@@ -323,6 +367,7 @@ companies:
     token: "torcrobotics"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Stack AV"
     org_type: autonomy
     careers: "https://stackav.com/join"
@@ -330,6 +375,71 @@ companies:
     token: "stackav"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
+  # --- Transportation: autonomous trucking and traffic / roadside sensing (autonomy) ---------
+  - name: "PlusAI"
+    org_type: autonomy
+    careers: "https://plus.ai/careers"
+    ats: custom
+    endpoint: "https://apply.workable.com/api/v1/widget/accounts/plusai"
+    relevant_now: false
+    note: "커리어 페이지는 JS 렌더링이라 공고 목록을 읽지 못함. Workable 'plusai' 계정은 공개 공고 0건이고 greenhouse·lever·ashby의 'plusai'·'plus' 토큰은 없음 — 실제 ATS 미확인."
+    note_en: "The careers page is JS-rendered, so its job list could not be read. The Workable 'plusai' account lists 0 public jobs, and there are no Greenhouse, Lever or Ashby boards under 'plusai' or 'plus' — the actual ATS is unverified."
+  - name: "Gatik"
+    org_type: autonomy
+    careers: "https://gatik.ai/careers/"
+    ats: custom
+    relevant_now: false
+    note: "gatik.ai/careers가 archive.gatik.ai로 리디렉트되며 403(봇 차단) — 우회하지 않음. greenhouse·lever·ashby·Workable 'gatik' 토큰 없음. 미확인."
+    note_en: "gatik.ai/careers redirects to archive.gatik.ai and returns 403 (bot block) — not bypassed. No Greenhouse, Lever, Ashby or Workable board under 'gatik'. Unverified."
+  - name: "Derq"
+    org_type: autonomy
+    careers: "https://apply.workable.com/derq/"
+    ats: custom
+    endpoint: "https://apply.workable.com/api/v1/widget/accounts/derq"
+    relevant_now: false
+    note: "Workable 공개 위젯 JSON. 5건(마케팅·ITS 지역 영업), 인턴 없음. derq.com/careers는 404."
+    note_en: "Workable public widget JSON. 5 postings (marketing, regional ITS sales), no internships. derq.com/careers returns 404."
+  - name: "NoTraffic"
+    org_type: autonomy
+    careers: "https://notraffic.com/careers/"
+    ats: custom
+    endpoint: "https://apply.workable.com/api/v1/widget/accounts/notraffic"
+    relevant_now: false
+    note: "커리어 페이지는 403(봇 차단) — 우회하지 않음. Workable 'notraffic' 계정은 공개 공고 0건이라 현재 쓰는 ATS는 미확인."
+    note_en: "The careers page returns 403 (bot block) — not bypassed. The Workable 'notraffic' account lists 0 public jobs, so the ATS currently in use is unverified."
+  - name: "Miovision"
+    org_type: autonomy
+    careers: "https://jobs.ashbyhq.com/miovision"
+    ats: ashby
+    token: "miovision"
+    relevant_now: false
+    note: "19건 모두 정규직(키치너·캐나다 원격·미국), 인턴 없음."
+    note_en: "All 19 postings are full-time (Kitchener, Canada remote, US); no internships."
+  - name: "Iteris"
+    org_type: autonomy
+    careers: "https://www.iteris.com/careers"
+    ats: custom
+    endpoint: "https://jobs.dayforcehcm.com/iteris/CANDIDATEPORTAL"
+    relevant_now: false
+    note: "Dayforce 채용 포털(JS 렌더링)이라 curl로 공고 목록을 읽지 못함 — 미확인."
+    note_en: "Dayforce candidate portal (JS-rendered), so curl could not read the job list — unverified."
+  - name: "Seoul Robotics"
+    org_type: autonomy
+    careers: "https://job-boards.greenhouse.io/seoulrobotics"
+    ats: greenhouse
+    token: "seoulrobotics"
+    relevant_now: false
+    note: "12건(서울·판교) 모두 정규직·전문연구요원, 인턴 없음."
+    note_en: "All 12 postings (Seoul, Pangyo) are full-time or Korean alternative-service researcher roles; no internships."
+  - name: "Ouster"
+    org_type: autonomy
+    careers: "https://ouster.com/company/careers"
+    ats: custom
+    endpoint: "https://ouster.applytojob.com/apply"
+    relevant_now: false
+    note: "JazzHR(applytojob) HTML. 28건, 인턴 없음."
+    note_en: "JazzHR (applytojob) HTML. 28 postings, no internships."
   # --- Construction robotics / construction tech -------------------------------------------
   - name: "Bedrock Robotics"
     org_type: construction-robotics
@@ -337,8 +447,9 @@ companies:
     ats: ashby
     token: "bedrock-robotics"
     relevant_now: true
-    items: ["bedrock-robotics-behavior-ml-manipulation-2027", "bedrock-robotics-world-models-2027", "bedrock-robotics-semantic-slam-2027", "bedrock-robotics-neural-rendering-sim-2027", "bedrock-robotics-ml-inference-2027"]
-    note: "'2027 Internship' 13건(2026-09-10부터 순차 게시). 하드웨어·센서·V&V·Fleet SWE·Safety·Product 인턴은 파일 미작성. 공고에 급여·기간 미기재."
+    items: ["bedrock-robotics-behavior-ml-manipulation-2027", "bedrock-robotics-world-models-2027", "bedrock-robotics-semantic-slam-2027", "bedrock-robotics-neural-rendering-sim-2027", "bedrock-robotics-ml-inference-2027", "bedrock-robotics-sensor-systems-2027"]
+    note: "'2027 Internship' 13건(2026-09-10부터 순차 게시). 하드웨어·센서 테스트·V&V·Fleet SWE·Safety(Lean 형식 검증)·Product 인턴은 파일 미작성. 공고에 급여·기간 미기재."
+    note_en: "13 '2027 Internship' postings (rolled out from 2026-09-10). No files for the hardware, sensor-test, V&V, fleet SWE, safety (Lean formal methods) and product internships. Pay and duration are not stated."
   - name: "Built Robotics"
     org_type: construction-robotics
     careers: "https://jobs.ashbyhq.com/built-robotics"
@@ -346,6 +457,7 @@ companies:
     token: "built-robotics"
     relevant_now: false
     note: "인턴 없음(7건, 원격 엔지니어 위주)."
+    note_en: "No internships (7 postings, mostly remote engineers)."
   - name: "Dusty Robotics"
     org_type: construction-robotics
     careers: "https://www.dustyrobotics.com/careers"
@@ -353,12 +465,14 @@ companies:
     endpoint: "https://api.rippling.com/platform/api/ats/v1/board/dusty-robotics-inc/jobs"
     relevant_now: false
     note: "Rippling ATS(JSON). 4건, 인턴 없음. 홈페이지의 옛 greenhouse 링크는 사용 안 함."
+    note_en: "Rippling ATS (JSON). 4 postings, no internships. The old Greenhouse link on the homepage is not used."
   - name: "Canvas"
     org_type: construction-robotics
     careers: "https://www.jlg.com/en/canvas"
     ats: custom
     relevant_now: false
     note: "canvas.build가 JLG(Oshkosh) 페이지로 리디렉트 — 인수됨. 채용은 Oshkosh 항목 참고."
+    note_en: "canvas.build redirects to a JLG (Oshkosh) page — acquired. See the Oshkosh entry for hiring."
   - name: "Oshkosh / JLG"
     org_type: construction-tech
     careers: "https://careers.oshkoshcorp.com/us/en/home"
@@ -366,13 +480,15 @@ companies:
     workday: {host: "oshkoshcorporation.wd5.myworkdayjobs.com", tenant: "oshkoshcorporation", site: "Oshkosh"}
     relevant_now: true
     note: "Summer 2027 'Autonomy & Active Safety Engineering Intern'(Pittsburgh·Oshkosh, BS/MS, $18–37/h), Pratt Miller 'Autonomy Intern - Summer 2027'(MS/PhD 우대), 방산(Frederick, MD) 자율 인턴. 박사·건설 적합도가 낮아 파일 미작성."
+    note_en: "Summer 2027 'Autonomy & Active Safety Engineering Intern' (Pittsburgh, Oshkosh; BS/MS; $18–37/h), Pratt Miller 'Autonomy Intern - Summer 2027' (MS/PhD preferred) and a defense autonomy internship (Frederick, MD). Low fit for a PhD in construction, so no file."
   - name: "Civ Robotics"
     org_type: construction-robotics
     careers: "https://www.civrobotics.com/careers"
     ats: custom
     endpoint: "https://api.gem.com/job_board/v0/civrobotics-com/job_posts/"
     relevant_now: false
-    note: "Gem ATS(greenhouse 호환 JSON). 인턴 없음. greenhouse 'civ' 보드는 비어 있음(무관)."
+    note: "Gem ATS(greenhouse 호환 JSON). 6건(Robotics Software Developer, Physical AI Engineer 등), 인턴 없음. greenhouse 'civ' 보드는 비어 있음(무관)."
+    note_en: "Gem ATS (Greenhouse-compatible JSON). 6 postings (Robotics Software Developer, Physical AI Engineer and others), no internships. The Greenhouse 'civ' board is empty (unrelated)."
   - name: "Pronto (incl. SafeAI)"
     org_type: construction-robotics
     careers: "https://pronto.ai/"
@@ -380,6 +496,7 @@ companies:
     token: "pronto"
     relevant_now: false
     note: "safeai.ai가 pronto.ai로 리디렉트(통합). 24건 중 인턴 없음."
+    note_en: "safeai.ai redirects to pronto.ai (merged). No internships among 24 postings."
   - name: "Teleo"
     org_type: construction-robotics
     careers: "https://jobs.lever.co/teleo"
@@ -387,36 +504,42 @@ companies:
     token: "teleo"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "Raise Robotics"
     org_type: construction-robotics
     careers: "https://raiserobotics.ai/careers/"
     ats: custom
     relevant_now: false
     note: "모든 공고를 LinkedIn에 게시. 2026-10-02 기준 Senior Mechatronics Engineer 1건, 인턴 없음."
+    note_en: "Posts all openings on LinkedIn. As of 2026-10-02, one Senior Mechatronics Engineer opening and no internships."
   - name: "Okibo"
     org_type: construction-robotics
     careers: "https://okibo.com/"
     ats: custom
     relevant_now: false
     note: "홈페이지에서 채용 페이지·ATS를 찾지 못함."
+    note_en: "No careers page or ATS found on the homepage."
   - name: "Advanced Construction Robotics"
     org_type: construction-robotics
     careers: "https://www.advancedconstructionrobotics.com/"
     ats: custom
     relevant_now: false
     note: "2026-10-02 사이트 접속 불가(connection refused). 미확인."
+    note_en: "Site unreachable on 2026-10-02 (connection refused). Unverified."
   - name: "Construction Robotics (SAM/MULE)"
     org_type: construction-robotics
     careers: "https://www.construction-robotics.com/"
     ats: custom
     relevant_now: false
     note: "홈페이지에 채용 링크 없음."
+    note_en: "No careers link on the homepage."
   - name: "FBR"
     org_type: construction-robotics
     careers: "https://www.fbr.com.au/"
     ats: custom
     relevant_now: false
     note: "홈페이지에 채용 링크 없음(/view/careers는 404)."
+    note_en: "No careers link on the homepage (/view/careers returns 404)."
   - name: "Monumental"
     org_type: construction-robotics
     careers: "https://jobs.ashbyhq.com/monumental"
@@ -424,6 +547,7 @@ companies:
     token: "monumental"
     relevant_now: false
     note: "암스테르담, 인턴 없음."
+    note_en: "Amsterdam; no internships."
   - name: "Rugged Robotics"
     org_type: construction-robotics
     careers: "https://job-boards.greenhouse.io/ruggedrobotics"
@@ -431,12 +555,14 @@ companies:
     token: "ruggedrobotics"
     relevant_now: false
     note: "1건(Robotic Operations Technician), 인턴 없음."
+    note_en: "1 posting (Robotic Operations Technician), no internships."
   - name: "Kewazo"
     org_type: construction-robotics
     careers: "https://www.kewazo.com/company#career"
     ats: custom
     relevant_now: false
     note: "홈페이지 career 섹션(/career-opening/<slug>)에 영업·필드·전기 엔지니어만, 인턴 없음."
+    note_en: "The homepage career section (/career-opening/<slug>) lists only sales, field and electrical-engineer roles; no internships."
   - name: "Reframe Systems"
     org_type: construction-robotics
     careers: "https://jobs.ashbyhq.com/reframesystems"
@@ -444,12 +570,14 @@ companies:
     token: "reframesystems"
     relevant_now: false
     note: "'Mechanical Engineer (Spring 2027 Co-op)'(Andover, MA)만 — 로보틱스 연구형 아님."
+    note_en: "Only 'Mechanical Engineer (Spring 2027 Co-op)' (Andover, MA) — not robotics research."
   - name: "House of Design"
     org_type: construction-robotics
     careers: "https://www.houseofdesign.com/"
     ats: custom
     relevant_now: false
     note: "2026-10-02 사이트 접속 실패(connection reset). 미확인."
+    note_en: "Site failed to load on 2026-10-02 (connection reset). Unverified."
   - name: "Promise Robotics"
     org_type: construction-robotics
     careers: "https://jobs.lever.co/promiserobotics"
@@ -457,12 +585,14 @@ companies:
     token: "promiserobotics"
     relevant_now: false
     note: "에드먼턴·캘거리 생산직 위주, 인턴 없음."
+    note_en: "Mostly production roles in Edmonton and Calgary; no internships."
   - name: "Diamond Age"
     org_type: construction-robotics
     careers: "https://diamondage.com/"
     ats: custom
     relevant_now: false
-    note: "HTTP 429로 확인 불가."
+    note: "2026-10-02 재확인: 홈페이지는 열리지만 채용 페이지·공고 링크가 없음(같은 날 오전에는 HTTP 429)."
+    note_en: "Rechecked 2026-10-02: the homepage loads but has no careers page or job links (it returned HTTP 429 earlier the same day)."
   - name: "ICON"
     org_type: construction-robotics
     careers: "https://www.iconbuild.com/careers"
@@ -470,12 +600,14 @@ companies:
     token: "iconcareers"
     relevant_now: false
     note: "Austin 본사 68건 중 인턴 없음. 토큰은 커리어 페이지 스크립트의 BOARD_TOKEN. (ashby 'icon'은 다른 회사)"
+    note_en: "No internships among 68 postings at the Austin HQ. The token is the BOARD_TOKEN in the careers-page script. (Ashby 'icon' is a different company.)"
   - name: "Apis Cor"
     org_type: construction-robotics
     careers: "https://apis-cor.com/careers"
     ats: custom
     relevant_now: false
     note: "채용 페이지에 공고 목록 없음(/join 안내만)."
+    note_en: "No job list on the careers page (only a /join note)."
   - name: "Gravis Robotics"
     org_type: construction-robotics
     careers: "https://jobs.lever.co/gravisrobotics"
@@ -483,6 +615,7 @@ companies:
     token: "gravisrobotics"
     relevant_now: false
     note: "자율 굴착기(취리히·Austin). 인턴 없음, Austin에 Field Robotics Engineer 공고."
+    note_en: "Autonomous excavators (Zurich, Austin). No internships; a Field Robotics Engineer opening in Austin."
   - name: "Doxel"
     org_type: construction-tech
     careers: "https://jobs.lever.co/doxel"
@@ -490,6 +623,7 @@ companies:
     token: "doxel"
     relevant_now: false
     note: "인턴 없음."
+    note_en: "No internships."
   - name: "OpenSpace"
     org_type: construction-tech
     careers: "https://www.openspace.ai/careers"
@@ -497,6 +631,7 @@ companies:
     token: "openspace"
     relevant_now: false
     note: "4건, 인턴 없음."
+    note_en: "4 postings, no internships."
   - name: "Buildots"
     org_type: construction-tech
     careers: "https://buildots.com/careers/"
@@ -504,12 +639,14 @@ companies:
     endpoint: "https://buildots.com/careers/"
     relevant_now: false
     note: "자체 페이지(Comeet 기반 ID). 40여 건 중 인턴 없음."
+    note_en: "Own page (Comeet-based IDs). No internships among about 40 postings."
   - name: "Hilti"
     org_type: construction-tech
     careers: "https://careers.hilti.group/en"
     ats: custom
     relevant_now: false
     note: "careers.hilti.group가 403(봇 차단)이라 확인하지 못함 — 우회하지 않음."
+    note_en: "careers.hilti.group returns 403 (bot block), so it could not be checked — not bypassed."
   - name: "Trimble"
     org_type: construction-tech
     careers: "https://www.trimble.com/en/our-company/careers"
@@ -517,14 +654,15 @@ companies:
     workday: {host: "trimble.wd1.myworkdayjobs.com", tenant: "trimble", site: "TrimbleCareers"}
     relevant_now: false
     note: "인턴은 SWE·PM·HW/SW Testing·12-Month Geospatial 등 일반 직무뿐."
+    note_en: "Internships are only general roles: SWE, PM, HW/SW testing, 12-month geospatial and similar."
   - name: "Autodesk"
     org_type: construction-tech
     careers: "https://autodesk.wd1.myworkdayjobs.com/Ext"
     ats: workday
     workday: {host: "autodesk.wd1.myworkdayjobs.com", tenant: "autodesk", site: "Ext"}
-    relevant_now: true
-    items: ["autodesk-research-phd-researcher-hci-2027"]
-    note: "Autodesk Research 2027 Research Internship Program(16주, 2027-05-24~09-10)의 첫 공고(HCI & Visualization)가 2026-10-01 게시. 'PhD Researcher' 검색으로 로보틱스 공고 추가 여부 감시."
+    relevant_now: false
+    note: "Autodesk Research 2027 Research Internship Program(16주, 2027-05-24~09-10)의 공고는 아직 HCI & Visualization 'PhD Researcher'(2026-10-01)뿐이라 적합도 1로 파일 삭제(2026-10-02). 'PhD Researcher' 검색으로 로보틱스·제조 공고 추가 여부 감시."
+    note_en: "The only posting so far in the Autodesk Research 2027 Research Internship Program (16 weeks, 2027-05-24 to 09-10) is the HCI & Visualization 'PhD Researcher' (2026-10-01); its file was deleted as fit 1 on 2026-10-02. Search 'PhD Researcher' to catch robotics or manufacturing postings."
   - name: "HP (SitePrint)"
     org_type: construction-tech
     careers: "https://jobs.hp.com/"
@@ -532,6 +670,7 @@ companies:
     workday: {host: "hp.wd5.myworkdayjobs.com", tenant: "hp", site: "ExternalCareerSite"}
     relevant_now: false
     note: "'SitePrint' 검색 0건, 로보틱스 인턴 없음."
+    note_en: "'SitePrint' search returns 0; no robotics internships."
   - name: "Caterpillar"
     org_type: construction-tech
     careers: "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers"
@@ -540,13 +679,15 @@ companies:
     relevant_now: true
     items: ["caterpillar-autonomy-intelligent-systems-intern-summer-2027"]
     note: "'2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering'(게시 2026-09-04~11-08). 비자 스폰서십 불가 명시."
+    note_en: "'2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering' (posted 2026-09-04 to 11-08). States that visa sponsorship is not available."
   - name: "John Deere"
     org_type: construction-tech
     careers: "https://www.deere.com/en-us/our-company/careers"
     ats: custom
     endpoint: "https://johndeere.eightfold.ai/api/pcsx/search?domain=johndeere.com&query=intern&start=0&num=20"
     relevant_now: false
-    note: "Eightfold PCSX JSON(무인증). 2027 인턴은 제조·전동화·제품·데이터 등이고 자율·로보틱스 인턴 없음."
+    note: "Eightfold PCSX JSON(무인증). 2027 인턴은 제조·전동화·제품·데이터 등이고 자율·로보틱스 인턴 없음(2026-10-02 재확인)."
+    note_en: "Eightfold PCSX JSON (no auth). 2027 internships are in manufacturing, electrification, product, data and similar; no autonomy or robotics internships (rechecked 2026-10-02)."
   - name: "Komatsu"
     org_type: construction-tech
     careers: "https://komatsu.jobs/"
@@ -554,6 +695,7 @@ companies:
     endpoint: "https://komatsu.jobs/search/?q=intern&locale=en_US"
     relevant_now: false
     note: "SuccessFactors 사이트가 JS 렌더링이라 검색 결과를 읽지 못함 — 미확인."
+    note_en: "The SuccessFactors site renders results with JS, so search results could not be read — unverified."
   - name: "Volvo CE"
     org_type: construction-tech
     careers: "https://jobs.volvogroup.com/"
@@ -561,6 +703,7 @@ companies:
     endpoint: "https://jobs.volvogroup.com/search/?q=intern&locale=en_US"
     relevant_now: false
     note: "SuccessFactors(HTML). 스웨덴 석사 thesis 과제(자율주행 센서퓨전 등)와 학부 인턴뿐."
+    note_en: "SuccessFactors (HTML). Only Swedish master's thesis projects (e.g., autonomous-driving sensor fusion) and undergraduate internships."
   - name: "Doosan Bobcat"
     org_type: construction-tech
     careers: "https://jobs.doosan.com/bobcat/content/Students/?locale=en_US"
@@ -568,12 +711,30 @@ companies:
     endpoint: "https://jobs.doosan.com/search/?q=intern&locale=en_US"
     relevant_now: false
     note: "SuccessFactors(HTML). 'Student Experience' 인턴·co-op은 학부생 대상(Embedded SW, Innovation Accelerated 등)."
+    note_en: "SuccessFactors (HTML). 'Student Experience' internships and co-ops target undergraduates (Embedded SW, Innovation Accelerated, etc.)."
   - name: "Liebherr"
     org_type: construction-tech
     careers: "https://www.liebherr.com/en-int/careers/careers-5370600"
     ats: custom
     relevant_now: false
     note: "자체 채용 포털 — 이번에는 세부 확인하지 않음."
+    note_en: "Own careers portal — not checked in detail this time."
+  - name: "Procore"
+    org_type: construction-tech
+    careers: "https://careers.procore.com/"
+    ats: custom
+    endpoint: "https://careers.procore.com/jobs/search?query=intern"
+    relevant_now: false
+    note: "자체 채용 사이트(Greenhouse 기반, HTML의 data-job-url 파싱, page 파라미터로 페이지 이동). 'intern' 검색 69건 중 인턴·co-op 공고 없음. procore.com/careers는 404."
+    note_en: "Own careers site (Greenhouse-backed; parse data-job-url in the HTML, page through with the page parameter). No internship or co-op among 69 results for 'intern'. procore.com/careers returns 404."
+  - name: "Bentley Systems"
+    org_type: construction-tech
+    careers: "https://www.bentley.com/company/careers/"
+    ats: workday
+    workday: {host: "bentleysystems.wd5.myworkdayjobs.com", tenant: "bentleysystems", site: "bentley"}
+    relevant_now: false
+    note: "Workday. 'intern' 퍼지 검색 50건이 모두 정규직이고 인턴 없음, 'PhD' 검색 0건."
+    note_en: "Workday. The fuzzy 'intern' search returns 50 postings, all full-time, with no internships; 'PhD' returns 0."
   # --- Korean / Japanese contractors (construction) -----------------------------------------
   - name: "Samsung C&T E&C (삼성물산 건설부문)"
     org_type: construction
@@ -582,48 +743,56 @@ companies:
     endpoint: "https://www.samsungcareers.com/hr/"
     relevant_now: false
     note: "삼성 통합 채용 사이트에 건설부문 공고 없음. 연구개발 직군 상시 인재 등록만."
+    note_en: "No construction-division postings on Samsung's integrated careers site; only a standing talent registration for R&D roles."
   - name: "Hyundai E&C (현대건설)"
     org_type: construction
     careers: "https://recruit.hdec.co.kr/#/JobPosting"
     ats: custom
     relevant_now: false
     note: "경력 공고 18건뿐, 신입/인턴 카테고리 공고 없음. 인재 Pool 상시 등록."
+    note_en: "Only 18 experienced-hire postings; nothing in the new-grad/intern category. Standing talent-pool registration."
   - name: "DL E&C (DL이앤씨)"
     org_type: construction
     careers: "https://dlenc.recruiter.co.kr/career/job"
     ats: custom
     relevant_now: false
     note: "recruiter.co.kr 기반, 진행 중 공고 없음. 인턴 채용 유형 자체가 안내되지 않음."
+    note_en: "recruiter.co.kr-based; no open postings. No internship hiring track is described at all."
   - name: "GS E&C (GS건설)"
     org_type: construction
     careers: "https://gsenc.recruiter.co.kr/career/apply"
     ats: custom
     relevant_now: false
     note: "recruiter.co.kr 기반, 5건 모두 마감(최근: 2026 하반기 신입 09-07~09-20). 인턴·R&D 공고 없음."
+    note_en: "recruiter.co.kr-based; all 5 postings closed (latest: 2026 second-half new-grad hiring, 09-07 to 09-20). No internship or R&D postings."
   - name: "Shimizu (清水建設)"
     org_type: construction
     careers: "https://www.shimz.co.jp/saiyou/recruitment/internship/"
     ats: custom
     relevant_now: false
     note: "2028년 졸업 대상 여름 인턴(技術研究所·NOVARE '研究' 트랙 3–4일, 2026-08~09)은 종료. 일본어·일본 신졸 채용 연계형. 2026년 공지는 05-22 게시."
+    note_en: "The summer internship for 2028 graduates (Institute of Technology / NOVARE 'research' track, 3–4 days, 2026-08 to 09) has ended. Japanese-language and tied to Japanese new-graduate hiring. The 2026 notice was posted on 05-22."
   - name: "Kajima (鹿島建設)"
     org_type: construction
     careers: "https://www.kajima.co.jp/prof/recruit/new/internship/index.html"
     ats: custom
     relevant_now: false
     note: "2028 졸업 대상 직종별 일본어 프로그램(1–5일, MyPage 등록). 연구소·로보틱스 트랙 없음."
+    note_en: "Japanese-language programs by job type for 2028 graduates (1–5 days, MyPage registration). No research-institute or robotics track."
   - name: "Obayashi (大林組)"
     org_type: construction
     careers: "https://www.obayashi.co.jp/recruit/graduate/"
     ats: custom
     relevant_now: false
     note: "2028 OBAYASHI Internship은 일본어 단기 세미나·현장 견학형(예: 土木 현장 세미나 2026-08~2027-01)."
+    note_en: "The 2028 OBAYASHI Internship is a short Japanese-language seminar and site-visit format (e.g., a civil-engineering site seminar, 2026-08 to 2027-01)."
   - name: "Takenaka (竹中工務店)"
     org_type: construction
     careers: "https://www.takenaka.co.jp/recruit/"
     ats: custom
     relevant_now: false
     note: "CAPTCHA(봇 확인)가 떠서 확인하지 못함 — 우회하지 않음."
+    note_en: "A CAPTCHA (bot check) appeared, so it could not be checked — not bypassed."
   # --- Government / national labs (lab) ------------------------------------------------------
   - name: "NIST Engineering Laboratory"
     org_type: lab
@@ -632,6 +801,7 @@ companies:
     endpoint: "https://prep.umd.edu/"
     relevant_now: false
     note: "SURF는 학부생·미국 시민/영주권자 전용(2027년 신청 2027년 1월 말 마감), GMSE 대학원 펠로우십은 미국 시민 전용(매년 8월 말~12월 초 접수). PREP은 파트너 대학(예: UMD 게시판) 경유 채용이며 UT Austin은 파트너 아님. 외국인은 Foreign Guest Researcher(대부분 외부 재원)로만 가능. Intelligent Systems Division에 로봇 파지·조작 연구 공고(PREP0005092, post-master's)가 있음."
+    note_en: "SURF is for undergraduates who are US citizens or permanent residents (2027 applications close in late January 2027); the GMSE graduate fellowship is US-citizen only (applications each year from late August to early December). PREP hires through partner universities (e.g., the UMD board), and UT Austin is not a partner. Foreign nationals can join only as Foreign Guest Researchers (mostly externally funded). The Intelligent Systems Division has a robot grasping/manipulation research posting (PREP0005092, post-master's)."
   - name: "Oak Ridge National Laboratory (ORNL)"
     org_type: lab
     careers: "https://www.ornl.gov/content/graduate-research-ornl"
@@ -639,7 +809,8 @@ companies:
     endpoint: "https://www.zintellect.com/Opportunity/Details/ORNL-RSI-Spring-2027"
     relevant_now: true
     items: ["ornl-graduate-research-gro-rolling"]
-    note: "GRO는 시민권 요건 없음·수시 심사(멘토 선확보, 월 $3,800 + 주거 $1,000). RSI(Spring 2027 마감 2026-10-28)·SCGSR은 미국 시민/영주권자 전용. Summer 2027 RSI 공고는 아직 없음(Zintellect의 ORNL-RSI-Summer-2027 형식 주시)."
+    note: "GRO는 시민권 요건 없음·수시 심사(멘토 선확보, 월 $3,800 + 주거 $1,000). RSI(Spring 2027 마감 2026-10-28)·SCGSR은 미국 시민/영주권자 전용. Summer 2027 RSI 공고는 아직 없음(Zintellect의 ORNL-RSI-Summer-2027 형식 주시). jobs.ornl.gov(SuccessFactors) 'intern' 검색에는 학생 인턴이 없고 학생 과정은 ORISE/Zintellect 경유."
+    note_en: "GRO has no citizenship requirement and rolling review (secure a mentor first; $3,800 a month plus $1,000 for housing). RSI (Spring 2027 deadline 2026-10-28) and SCGSR are for US citizens and permanent residents only. No Summer 2027 RSI posting yet (watch for ORNL-RSI-Summer-2027 on Zintellect). The jobs.ornl.gov (SuccessFactors) 'intern' search lists no student internships — student programs go through ORISE/Zintellect."
   - name: "US Army ERDC"
     org_type: lab
     careers: "https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004"
@@ -648,21 +819,22 @@ companies:
     relevant_now: true
     items: ["erdc-cerl-orise-research-internship-fall-winter-2026"]
     note: "ORISE/Zintellect의 ERDC 공고 9건 중 EL·CHL 7건은 미국 시민 전용(ERDC-EL-2026-0004는 로보틱스 포함이나 학사·석사·시민 전용). CERL Fall/Winter 공고만 시민권 문구 없음. CERL Spring/Summer 공고는 직전 사이클에 2025-12-08 게시(ERDC-CERL-2026-0001)."
+    note_en: "Of nine ERDC postings on ORISE/Zintellect, the seven EL and CHL ones are US-citizen only (ERDC-EL-2026-0004 includes robotics but is BS/MS and citizens only). Only the CERL Fall/Winter posting has no citizenship language. The previous cycle's CERL Spring/Summer posting went up on 2025-12-08 (ERDC-CERL-2026-0001)."
   - name: "NASA Jet Propulsion Laboratory (JPL)"
     org_type: lab
     careers: "https://www.jpl.nasa.gov/edu/internships/"
     ats: custom
-    relevant_now: true
-    items: ["nasa-jpl-visiting-student-research-program-rolling"]
-    note: "JVSRP(외국인 가능, 외부 재원 월 $2,400 이상 필요, 연중 접수)만 해당. JPLSIP(여름)·Year-Round 인턴은 미국 시민/영주권자 전용이며 2027 일정 미게시(2026 사이클 마감 2026-03-13)."
+    relevant_now: false
+    note: "JVSRP(외국인 가능하나 월 $2,400 이상 외부 재원 필요, 연중 접수)만 해당했으나 자비 방문연구라 적합도 1로 파일 삭제(2026-10-02). JPLSIP(여름)·Year-Round 인턴은 미국 시민/영주권자 전용이며 2027 일정 미게시(2026 사이클 마감 2026-03-13)."
+    note_en: "Only JVSRP applied (open to foreign nationals, but needs external funding of at least $2,400 a month; year-round intake); as a self-funded visiting program its file was deleted as fit 1 on 2026-10-02. JPLSIP (summer) and the year-round internships are for US citizens and permanent residents only, and the 2027 schedule is not posted (the 2026 cycle closed on 2026-03-13)."
   - name: "Fraunhofer-Gesellschaft"
     org_type: lab
     careers: "https://www.fraunhofer.de/en/jobs-and-career/students1.html"
     ats: custom
     endpoint: "https://jobs.fraunhofer.de/search/?q=Robot&locale=en_US&optionsFacetsDD_customfield1=Praktikum"
-    relevant_now: true
-    items: ["fraunhofer-iosb-mobile-machines-pflichtpraktikum-2026"]
-    note: "SuccessFactors(HTML). 로봇 관련 Praktikum 4건(IPA 'Robotik und Konstruktion' ref. 63121 등). 대부분 독일 학적·Pflichtpraktikum·독일어 조건이 있어 미국 박사과정생에게는 사실상 해당 없음."
+    relevant_now: false
+    note: "SuccessFactors(HTML). 로봇 관련 Praktikum 4건(IPA 'Robotik und Konstruktion' ref. 63121 등). 대부분 독일 학적·Pflichtpraktikum·독일어 조건이라 미국 박사과정생에게는 해당 없음 — IOSB 이동식 작업기계 Pflichtpraktikum 파일은 범위 밖(학사·석사, 적합도 1)으로 2026-10-02 삭제."
+    note_en: "SuccessFactors (HTML). Four robotics-related Praktikum postings (e.g., IPA 'Robotik und Konstruktion', ref. 63121). Most require German enrollment (Pflichtpraktikum) and German, so they do not apply to US PhD students; the IOSB mobile-machines Pflichtpraktikum file was deleted on 2026-10-02 as out of scope (BS/MS, fit 1)."
   - name: "KICT 한국건설기술연구원"
     org_type: lab
     careers: "https://www.kict.re.kr/announcementRecruitWeb/getAnnouncementRecruitList.es?mid=a10513030000"
@@ -670,11 +842,27 @@ companies:
     endpoint: "https://www.kict.re.kr/announcementRecruitWeb/getAnnouncementRecruitList.es?mid=a10513030000"
     relevant_now: false
     note: "2026년 5차 학생연구원·인턴 모집(2026-09-08~09-18 접수, 11-01 입사)은 마감. 학생연구원은 '국내 대학원 석·박사 재학생' 대상이라 해외 대학 재학생 불가. 해당 회차에 로봇 분야 없음."
+    note_en: "The 5th 2026 student-researcher/intern round (applications 2026-09-08 to 09-18, start 11-01) has closed. Student researchers must be 'MS/PhD students at domestic graduate schools', so students at foreign universities are ineligible. No robotics field in that round."
   - name: "KIST 한국과학기술연구원"
     org_type: lab
     careers: "https://kist.re.kr/ko/notice/recruiting-students.do"
     ats: custom
     endpoint: "https://kist.re.kr/ko/notice/recruiting-students.do"
     relevant_now: false
-    items: ["kist-student-researcher-january-2027"]
-    note: "학생연구원(연수생) 연 6회 모집, 입원 약 2개월 전 공고(2026-05-07, 07-03, 09-02). 2027년 1월 입원분은 2026년 11월 초 게시 예상. 1년 상근이며 해외 대학 재학생 허용 여부 불명."
+    note: "학생연구원(연수생) 연 6회 모집, 입원 약 2개월 전 공고(2026-05-07, 07-03, 09-02). 2027년 1월 입원분은 2026년 11월 초 게시 예상. 1년 상근이며 해외 대학 재학생 허용 여부가 불명확해 적합도 1로 파일 삭제(2026-10-02)."
+    note_en: "Student researchers (trainees) are recruited six times a year, about two months before the start (notices 2026-05-07, 07-03, 09-02). The January 2027 intake notice is expected in early November 2026. A one-year full-time program, and eligibility for students at foreign universities is unclear — its file was deleted as fit 1 on 2026-10-02."
+  - name: "National Laboratory of the Rockies (NLR, formerly NREL)"
+    org_type: lab
+    careers: "https://www.nlr.gov/careers/graduate-internships"
+    ats: workday
+    workday: {host: "nrel.wd5.myworkdayjobs.com", tenant: "nrel", site: "NLR"}
+    relevant_now: false
+    note: "NREL이 NLR(National Laboratory of the Rockies)로 개명됨(nrel.gov는 접속되지 않고 nlr.gov 사용). 대학원 인턴 38건은 전력계통·건물에너지·소재 등 에너지 분야이고 교통·로보틱스 인턴 없음. 대학원생은 Research Participant Program(연중, 충원 시까지)으로 지원."
+    note_en: "NREL has been renamed NLR (National Laboratory of the Rockies); nrel.gov does not load, use nlr.gov. Its 38 graduate internships are energy topics (power systems, building energy, materials) with no transportation or robotics ones. Graduate students apply through the Research Participant Program (year-round, until filled)."
+  - name: "Argonne National Laboratory"
+    org_type: lab
+    careers: "https://www.anl.gov/careers"
+    ats: custom
+    relevant_now: false
+    note: "anl.gov가 403(봇 차단), careers.anl.gov는 응답 없음 — 우회하지 않음. 교통(Vehicle & Mobility Systems) 학생 공고 미확인."
+    note_en: "anl.gov returns 403 (bot block) and careers.anl.gov does not respond — not bypassed. Transportation (Vehicle & Mobility Systems) student postings are unverified."

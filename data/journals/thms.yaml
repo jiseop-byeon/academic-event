@@ -1,0 +1,45 @@
+id: thms
+abbr: "THMS"
+name: "IEEE Transactions on Human-Machine Systems"
+publisher: "IEEE (Systems, Man, and Cybernetics Society)"
+issn: "2168-2291"
+eissn: "2168-2305"
+fields: [hri, ar, haptics]
+community: hri
+tier: 2
+metrics:
+  jif: {value: 4.4, year: 2025}
+  jif_5y: {value: 5.6, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 10.6, year: 2025, quartile: Q1, category: "Human-Computer Interaction", rank: "34/196"}   # also Q1 in Human Factors and Ergonomics (4/48)
+  h5_index: {value: 45, year: 2025}
+review:
+  blind: single
+  speed_note: "단일 익명 심사로, 게재 논문마다 독립 심사자 2인 이상이 본다. 약 10주 안에 심사 결과를 주는 것을 목표로 하며, 투고 때 심사자 6명을 추천해야 한다. 채택률은 공개돼 있지 않다. 편집장은 Simon Fraser University의 Ljiljana Trajkovic 교수다."
+  speed_note_en: "Single-anonymous review with at least two independent reviewers per published article. The journal aims to return review results in about ten weeks, and authors must suggest six reviewers at submission. The acceptance rate is not published. The editor-in-chief is Prof. Ljiljana Trajkovic of Simon Fraser University."
+access: hybrid
+apc_usd: 2800
+length: "Regular paper: 10 pages; technical correspondence: 5 pages; survey: 15 pages (IEEE two-column); $220 per page beyond these limits"
+article_types: ["regular", "technical correspondence", "survey"]
+orientation:
+  contribution: 0
+  summary: "IEEE SMC 학회의 인간-기계 시스템 저널로 인지 인간공학, 시스템 시험·평가, 사람의 정보 처리, 인간-로봇·인간-자동화 상호작용을 다루며, 사람을 루프에 넣은 시스템을 설계하고 피험자 실험으로 검증한 논문이 주류다. 시선·제스처·근전도 기반 의도 인식, VR/AR 인터페이스, 공유 제어처럼 기계가 사람의 상태와 의도를 읽고 반응하는 주제가 잘 맞고, 사람 요인 평가 없이 알고리즘 성능만 보이면 범위에서 벗어나기 쉽다."
+  summary_en: "The IEEE SMC Society's journal for human-machine systems, covering cognitive ergonomics, system test and evaluation, human information processing, and human-robot and human-automation interaction; most papers design a human-in-the-loop system and validate it with human-subject experiments. Topics in which a machine reads and responds to human state and intent, such as gaze-, gesture- or EMG-based intent recognition, VR/AR interfaces and shared control, fit well, while algorithm performance without any human-factors evaluation tends to fall outside its scope."
+  values: ["human-in-the-loop systems", "human-subject experiments", "cognitive ergonomics", "intent and gesture recognition"]
+fit: 2
+take: "시선·제스처·동작으로 작업자 의도를 읽는 양방향 AR 인터페이스나 보행자용 AR 충돌 경고를 피험자 실험으로 검증했을 때 노릴 만한 저널로, HRI 전문지인 THRI보다 공학 시스템·인간공학 관점의 원고에 열려 있다."
+take_en: "A journal to aim for once the two-way AR interface that reads worker intent from gaze, gestures and motion, or AR collision warnings for pedestrians, is validated in human-subject experiments; it is more open to engineering-system and human-factors manuscripts than the HRI-specialist THRI."
+openalex_id: "S2476799526"
+links:
+  home: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221037"
+  society: "https://www.ieeesmc.org/publications/transactions-on-human-machine-systems/"
+  submit: "https://publishingportal.ieee.org/app/publication-venue?id=J-6221037"
+  guide: "https://www.ieeesmc.org/publications/transactions-on-human-machine-systems/information-for-authors-2/"
+sources:
+  - "https://www.ieeesmc.org/publications/transactions-on-human-machine-systems/"
+  - "https://www.ieeesmc.org/publications/transactions-on-human-machine-systems/information-for-authors-2/"
+  - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=6221037"
+  - "https://www.bioxbio.com/journal/IEEE-T-HUM-MACH-SYST"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=9468"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Transactions+on+Human-Machine+Systems"
+  - "https://api.openalex.org/sources?filter=issn:2168-2291"
+last_verified: 2026-10-02

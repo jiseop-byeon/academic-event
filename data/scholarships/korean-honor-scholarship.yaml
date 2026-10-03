@@ -1,0 +1,48 @@
+id: korean-honor-scholarship
+name: "Korean Honor Scholarship (KHS)"
+organizer: "Embassy of the Republic of Korea in the USA (Korean Honor Scholarship Committee)"
+org_type: korean-government
+type: scholarship
+fields: [any]
+amount:
+  summary: "Honor $1,500 · Excellent $3,000 (4명) · Best $5,000 (2명)"
+  summary_en: "Honor $1,500 · Excellent $3,000 (4 students) · Best $5,000 (2 students)"
+  value: 1500
+  max: 5000
+  currency: USD
+  unit: one-time
+duration: "1회 지급 (학부·대학원 과정에서 각각 1회씩만 수혜 가능)"
+duration_en: "One-time award (can be received once at the undergraduate level and once at the graduate level)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국 4년제 대학 또는 대학원 풀타임 재학 — 지원 연도 직전 가을·봄 학기를 모두 미국 대학에서 이수"
+  where_enrolled_en: "Full-time students at a US four-year college/university or graduate school — must have attended a US institution in both the preceding fall and spring semesters"
+  stage: "학부생·대학원생 (석·박사)"
+  stage_en: "Undergraduate and graduate students (MS/PhD)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "한국 국적자 또는 한국계(입양인 포함) 학생 대상. 최근 학년도 성적 기준 GPA 3.0/4.0 이상, 같은 학위 과정에서 이전 수혜자는 지원 불가. 서류는 우편으로만 받으며 학교 소재지 관할 공관에 제출 — 텍사스 소재 학교는 휴스턴 한국교육원 관할. 2026년 선발 인원은 대사관 공지 88명, 시애틀 교육원 공지 약 71명으로 공관마다 다르게 안내됨."
+  notes_en: "For Korean nationals or students of Korean heritage (including adoptees). GPA of 3.0/4.0 or higher for the most recent academic year; previous recipients at the same degree level cannot apply. Documents are accepted by mail only and go to the consular office with jurisdiction over the school — schools in Texas fall under the Korean Education Center in Houston. The number of 2026 awards was given as 88 (Embassy notice) and about 71 (Seattle office notice)."
+requirements: ["지원서 (대사관·한국교육원 웹사이트 양식)", "공식 성적증명서", "교수 추천서 1부", "자기소개서 (영문 500단어 이내)", "이력서 (수상·활동 포함)", "(해당 시) 포트폴리오·입양/장애 증빙·한국어 능력 서류"]
+requirements_en: ["Application form (from the Embassy or Korean Education Center websites)", "Official transcript", "One recommendation letter from a professor", "Personal statement (English, ≤500 words)", "Résumé (awards and activities)", "If applicable: portfolio, proof of adoption/disability, Korean-language proficiency documents"]
+nomination: false
+awards_per_year: "2026년 약 71–88명 (공관별 안내 상이)"
+cycle:
+  typical: "매년 4월 말–6월 말 우편 접수 (2025·2026년 모두 4/27–6/26 도착분), 6월 말–7월 초 공관별 1차 심사, 7월 31일 중앙 심사, 9월 말 이후 수여"
+  typical_en: "Mail-in applications from late April to late June each year (Apr 27–Jun 26 arrival in both 2025 and 2026), regional review late June–early July, central review July 31, awards presented after late September"
+  deadlines:
+    - {kind: application, date: 2026-06-26, label: "2026년 마감(도착 기준, 참고)", label_en: "2026 deadline (arrival, reference)"}
+    - {kind: other, date: 2027-04-27, estimated: true, label: "2027년 접수 시작(추정)", label_en: "2027 applications open (estimated)"}
+    - {kind: application, date: 2027-06-26, estimated: true, label: "2027년 마감(도착 기준, 추정)", label_en: "2027 deadline (arrival, estimated)"}
+status: upcoming
+apply_url: "https://overseas.mofa.go.kr/us-en/brd/m_4513/view.do?seq=761582&page=1"
+fit: 3
+take: "한국 국적 대학원생이면 바로 해당되니 2027년 4월 말 공고가 뜨면 휴스턴 한국교육원 관할로 6월 26일(추정)까지 우편 서류가 도착하게 보내라."
+take_en: "Korean graduate students qualify directly — when the late-April 2027 notice appears, mail your documents to the Korean Education Center in Houston so they arrive by June 26 (estimated)."
+links:
+  home: "https://overseas.mofa.go.kr/us-en/brd/m_4513/view.do?seq=761582&page=1"
+sources:
+  - "https://overseas.mofa.go.kr/us-en/brd/m_4513/view.do?seq=761582&page=1"
+  - "https://overseas.mofa.go.kr/us-seattle-en/brd/m_4809/view.do?seq=761453"
+last_verified: 2026-10-02

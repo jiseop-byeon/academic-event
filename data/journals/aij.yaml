@@ -1,0 +1,54 @@
+id: aij
+abbr: "AIJ"
+name: "Artificial Intelligence"
+publisher: "Elsevier (editorial process run by the IJCAI AIJ Division)"
+issn: "0004-3702"
+eissn: "1872-7921"
+fields: [xai, ml]
+community: ml
+tier: 1
+metrics:
+  jif: {value: 4.7, year: 2025}
+  jif_5y: {value: 6.2, year: 2025}   # LetPub, crowd-sourced (year presumed: JCR 2026 release)
+  citescore: {value: 11.9, year: 2025, quartile: Q1, category: "Artificial Intelligence", rank: "69/570"}
+  h5_index: {value: 62, year: 2025}
+review:
+  blind: single
+  first_decision_days: 140
+  speed_note: "보통 심사자 3인(특수한 경우 2인)의 단일 익명 심사다. 데스크 리젝을 뺀 첫 결정까지 평균 약 20주이며 심사자에게는 6–8주(Research Note는 4–6주)를 준다(2021년 공식 안내 기준). 너무 약하거나 범위 밖인 원고는 심사 없이 거절되는 일이 흔하고, major revision은 보통 한 번만 허용된다. 채택률은 공개돼 있지 않다."
+  speed_note_en: "Single-anonymous review, usually by three reviewers (two in special circumstances). The average time to a first decision, excluding desk rejections, is about 20 weeks, and reviewers get 6-8 weeks (4-6 weeks for Research Notes), per the journal's 2021 guidance. Weak or out-of-scope submissions are often rejected without review, and a paper normally gets a major revision only once. The acceptance rate is not published."
+access: hybrid
+length: "No page limit; 20-30 single-column pages (11 pt or larger) recommended; Research Notes up to 4,500 words (typically 5-14 pages)"
+article_types: ["regular", "research note", "research field review", "position paper", "book review", "competition summary"]
+conference_link: "AAAI-27 저널 트랙: 2024-01-01~2026-10-31에 AIJ에 게재됐고 AAAI·IJCAI 등 주요 AI 학회에서 발표된 적 없는 논문은 2026-10-30까지 신청하면 AAAI-27(몬트리올)에서 포스터(일부는 구두)로 발표할 수 있다."
+conference_link_en: "AAAI-27 Journal Track: AIJ papers published between 2024-01-01 and 2026-10-31 and not previously presented at a major AI conference such as AAAI or IJCAI can be submitted by 2026-10-30 for a poster (some get orals) at AAAI-27 in Montréal."
+orientation:
+  contribution: -2
+  summary: "1970년 창간된 AI 전 분야의 대표 저널로, IJCAI 산하 AIJ Division이 편집을 맡고 Elsevier가 발행한다. 새 문제 정식화나 새 방법을 증명·실험으로 완결성 있게 보여야 하며, 응용 논문도 기존 기법을 또 다른 분야에 적용한 수준이 아니라 새로운 AI 방법이 응용 성능을 어떻게 끌어올리는지를 원리적으로 보이고 깊이 평가해야 한다. Miller의 사회과학 관점 XAI 논문('Explanation in artificial intelligence: Insights from the social sciences')과 설명 가능한 AI(XAI) 특별호를 낸 XAI의 대표 무대이며, 페이지 제한은 없지만 20–30쪽 분량의 완결된 원고가 권장된다."
+  summary_en: "The premier journal for all of AI since 1970, edited by the IJCAI AIJ Division and published by Elsevier. Papers must present a new problem formulation or method completely, with proofs or experiments; application papers must show in a principled way, with in-depth evaluation, how a new AI method advances performance rather than apply conventional techniques to yet another domain. It is a leading home for explainable AI (XAI), having published Miller's widely cited 'Explanation in artificial intelligence: Insights from the social sciences' and a special issue on XAI, and it has no page limit, though complete manuscripts of 20-30 pages are recommended."
+  values: ["completeness and rigor", "novel AI methods", "broad AI scope", "explainable AI"]
+fit: 1
+take: "작업자·보행자 의도 예측에서 출발한 XAI 방법을 일반 AI 문제로 정식화하고 증명이나 폭넓은 실험으로 완결했을 때만 노릴 최상위 AI 저널로, 첫 결정까지 평균 약 20주가 걸리고 단순 응용 보고는 받지 않으니 장기 목표로 두자."
+take_en: "A top AI journal to aim at only when an XAI method grown out of worker or pedestrian intent prediction is formulated as a general AI problem and completed with proofs or broad experiments; first decisions take about 20 weeks on average and plain application reports are not accepted, so treat it as a long-term goal."
+openalex_id: "S196139623"
+links:
+  home: "https://www.sciencedirect.com/journal/artificial-intelligence"
+  society: "https://aij.ijcai.org/"
+  submit: "https://www.editorialmanager.com/artint/"
+  guide: "https://aij.ijcai.org/submitting-an-article/"
+  aaai_journal_track: "https://aaai.org/conference/aaai/aaai-27/journal-track-call-for-papers/"
+sources:
+  - "https://aij.ijcai.org/"
+  - "https://aij.ijcai.org/call-for-papers/"
+  - "https://aij.ijcai.org/submitting-an-article/"
+  - "https://aij.ijcai.org/formatting-requirements/"
+  - "https://aij.ijcai.org/about-reviewing/"
+  - "https://aij.ijcai.org/about-the-artificial-intelligence-journal/"
+  - "https://aij.ijcai.org/organization-and-governance/"
+  - "https://aaai.org/conference/aaai/aaai-27/journal-track-call-for-papers/"
+  - "https://www.bioxbio.com/journal/ARTIF-INTELL"
+  - "https://www.letpub.com.cn/index.php?page=journalapp&view=detail&journalid=892"   # five-year IF there is crowd-sourced (LetPub users); CiteScore table from Scopus June 2026 release
+  - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Artificial+Intelligence"
+  - "https://api.openalex.org/sources?filter=issn:0004-3702"
+  - "https://api.openalex.org/works?filter=primary_location.source.id:S196139623,title.search:explanation%20in%20artificial%20intelligence%20insights%20from%20the%20social%20sciences"
+last_verified: 2026-10-02

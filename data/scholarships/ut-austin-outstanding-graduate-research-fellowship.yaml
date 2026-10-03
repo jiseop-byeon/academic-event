@@ -6,26 +6,34 @@ type: fellowship
 fields: [any]
 amount:
   summary: "12개월 생활비 $38,000 + 건강보험 지원 + 주(州) 거주자 기준 등록금·수수료 지원 (가을·봄 9학점, 여름 3학점); 추천됐으나 미선정 시 Graduate Recognition Award $1,000"
+  summary_en: "12-month stipend of $38,000 + health insurance assistance + tuition and fees at the in-state rate (9 credit hours in fall/spring, 3 in summer); nominees who are not selected receive a $1,000 Graduate Recognition Award"
   value: 38000
   currency: USD
   unit: year
   covers: ["stipend", "tuition", "other"]
 duration: "12개월"
+duration_en: "12 months"
 eligibility:
   nationality: ["any"]
   where_enrolled: "UT Austin 대학원 재학생"
+  where_enrolled_en: "Current UT Austin graduate students"
   stage: "현 재학생 — UT 입학 이후의 실적으로 평가 (학년 제한 명시 없음)"
+  stage_en: "Current students — judged on their record since entering UT (no year restriction stated)"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "학생이 직접 지원할 수 없고 학과 graduate adviser/coordinator가 대학원 온라인 시스템으로 추천해야 함. CAEE는 전공 분야별 교수로 구성된 Graduate Fellowship Committee가 추천 대상을 정하며, 이 위원회는 학과·Cockrell 펠로십(1년 $1,000–$20,000 이상)도 추천함. 심사 기준: 입학 후 주요 성과, 명확한 연구 계획, 개인 진술서, 추천서. 국적 제한 언급 없음."
+  notes: "학생이 직접 지원할 수 없고 학과 graduate adviser/coordinator가 대학원 온라인 시스템으로 추천해야 함. CAEE는 전공 분야별 교수로 구성된 Graduate Fellowship Committee가 추천 대상을 정하며, 이 위원회는 학과·Cockrell 펠로십(1년 $1,000–$20,000 이상)도 추천함. 심사 기준: 입학 후 주요 성과, 명확한 연구 계획, 개인 진술서, 추천서. 추천된 학생 중 박사 후보(candidate)는 Harrington Dissertation Fellowship(12개월 $45,000–$50,000 + 등록금·수수료 + 보험 수당 + $2,000)에도 자동으로 고려됨. 국적 제한 언급 없음."
+  notes_en: "Students cannot apply directly; the department's graduate adviser/coordinator nominates through the Graduate School's online system. In CAEE, a Graduate Fellowship Committee of faculty from each specialty area picks the nominees and also nominates students for department and Cockrell fellowships ($1,000 to more than $20,000 for one year). Criteria: major accomplishments since admission, a well-defined research program, a strong personal statement and letters. Nominees who are doctoral candidates are also considered for the Harrington Dissertation Fellowship ($45,000–$50,000 for 12 months + tuition and fees + insurance allowance + $2,000). No nationality restriction mentioned."
 requirements: ["학과 추천 (graduate adviser/coordinator)", "CV", "개인 진술서 (personal statement)", "추천서 3부 (추천인 정보 제출)"]
+requirements_en: ["Department nomination (graduate adviser/coordinator)", "CV", "Personal statement", "Three recommendation letters (names and emails of recommenders)"]
 nomination: true
 cycle:
-  typical: "학과 추천 → 대학원 위원회 심사; 2026–27 추천 일정은 대학원 공지 전 (Cockrell 재학생 펠로십 결과는 보통 여름에 통보)"
+  typical: "학과 추천 → 대학원 위원회 심사; 2026–27 추천 일정은 대학원 공지 전(마감 'TBD' 표기) (Cockrell 재학생 펠로십 결과는 보통 여름에 통보)"
+  typical_en: "Department nomination → Graduate School committee review; the 2026–27 nomination dates are not posted yet (listed as 'TBD') (Cockrell continuing-student fellowship results usually arrive in summer)"
 status: upcoming
 fit: 2
 take: "1년차 실적만으로는 경쟁이 어려우니 2년차에 ICRA·IROS 1저자 논문을 확보한 뒤 지도교수에게 CAEE 펠로십 위원회 추천을 요청하라 — 선정되면 1년간 $38,000 생활비와 등록금 지원을 받는다."
+take_en: "Year-1 results alone will rarely compete — land first-author ICRA/IROS papers in year 2, then ask your advisor for a CAEE fellowship-committee nomination; it brings a $38,000 stipend and tuition support for a year."
 links:
   home: "https://graduate.utexas.edu/funding/fellowships/grad-school/continuing"
 sources:

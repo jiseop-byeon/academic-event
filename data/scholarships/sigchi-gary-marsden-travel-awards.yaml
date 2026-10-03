@@ -1,0 +1,44 @@
+id: sigchi-gary-marsden-travel-awards
+name: "ACM SIGCHI Gary Marsden Travel Awards (GMTA)"
+organizer: "ACM SIGCHI (Special Interest Group on Computer-Human Interaction)"
+org_type: society
+type: travel-grant
+fields: [hri, ar, haptics]
+amount:
+  summary: "등록비(무료 코드, 워크숍·코스 2개까지) + 항공·현지 교통·숙박·식비·육아비 실비 환급 — 최대 금액은 회차별 예산과 지원자 수에 따라 결정"
+  summary_en: "Registration (complimentary code, up to two workshops/courses) + reimbursement of flights, local transport, lodging, meals and childcare — the maximum depends on the funds and applications in each cycle"
+  covers: ["registration", "travel", "lodging"]
+duration: "SIGCHI 학회 1회 (현장 참가 지원은 3년에 1회, 온라인 참가는 횟수 제한 없음)"
+duration_en: "One SIGCHI conference (in-person support once every three years; virtual attendance without limit)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음"
+  where_enrolled_en: "No restriction"
+  stage: "학부·대학원생, 졸업 5년 이내 초기 경력 연구자, 재정적 어려움이 있거나 기관 지원이 없는 연구자"
+  stage_en: "Undergraduate and graduate students, early-career researchers (≤5 years after graduation), and people facing financial hardship or lacking institutional support"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "지원 시점에 SIGCHI 회원이어야 함(ACM 회원과 별개). HRI는 SIGCHI 학회 목록에 포함돼 HRI 2027 참가에 쓸 수 있음. 참가 학회 시작 1개월 이상 전에 오는 마감 회차에 신청해야 하며(HRI 2027은 1월 9일 회차가 마지막), 논문 채택 전에도 신청 가능. 첫 참가자·발표자를 우선하고 재정 필요도와 참가 효과를 중시하며, 회차별로 지도교수당 학생 1명까지만 고려."
+  notes_en: "Must be a SIGCHI member when applying (separate from ACM membership). HRI is on SIGCHI's conference list, so the award can fund HRI 2027 attendance. Apply to a deadline more than one month before the conference starts (for HRI 2027, the January 9 cycle is the last), even before acceptance. First-time attendees and presenters are prioritized, with emphasis on financial need and benefit; at most one student per advisor is considered per cycle."
+requirements: ["Submittable 온라인 신청서", "예산 (등록·여행 항목별)", "SIGCHI 회원 자격", "(선택) 지도교수 지지 서한"]
+requirements_en: ["Online application on Submittable", "Budget (registration and travel items)", "SIGCHI membership", "Optional: advisor support letter"]
+nomination: false
+cycle:
+  typical: "연 7회 마감 — 1·2·3·5·7·9·11월 9일 오후 11:59 AoE, 마감 약 1개월 뒤 결과"
+  typical_en: "Seven deadlines a year — the 9th of January, February, March, May, July, September and November at 11:59 PM AoE; decisions about one month later"
+  deadlines:
+    - {kind: application, date: 2026-11-09, tz: "AoE", time: "23:59", label: "11월 회차 마감", label_en: "November cycle deadline"}
+    - {kind: application, date: 2027-01-09, tz: "AoE", time: "23:59", label: "1월 회차 마감 (HRI 2027 참가 지원이 가능한 마지막 회차)", label_en: "January cycle deadline (last cycle usable for HRI 2027)"}
+status: open
+apply_url: "https://sigchi.submittable.com/submit/248684/gary-marsden-travel-awards"
+fit: 2
+take: "HRI 2027(산타클라라)에 논문·Pioneers·LBR로 참가하게 되면 SIGCHI 회원 가입 후 1월 9일 회차까지 신청하라 — 등록비와 항공·숙박을 함께 받을 수 있다."
+take_en: "If you will attend HRI 2027 (Santa Clara) with a paper, Pioneers or a late-breaking report, join SIGCHI and apply by the January 9 cycle — it can cover registration plus flights and lodging."
+links:
+  home: "https://sigchi.org/resources/gary-marsden-travel-awards/"
+sources:
+  - "https://sigchi.org/resources/gary-marsden-travel-awards/"
+  - "https://sigchi.submittable.com/submit/248684/gary-marsden-travel-awards"
+  - "https://sigchi.org/conferences/"
+last_verified: 2026-10-02

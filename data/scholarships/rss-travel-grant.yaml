@@ -6,22 +6,29 @@ type: travel-grant
 fields: [robotics]
 amount:
   summary: "2025년: RSS 등록비 면제 + 항공료·숙박(대학 기숙사 다인실) 지원 / 2026년: RSS 이틀 등록만 지원 — 해마다 지원 범위가 달라지며 금액은 비공개"
+  summary_en: "2025: RSS registration waived + airfare and lodging (shared university dorm rooms) / 2026: two-day RSS registration only — coverage changes every year and amounts are not published"
   covers: ["registration", "travel", "lodging"]
 duration: "RSS 학회 1회 참가"
+duration_en: "One RSS conference"
 eligibility:
   nationality: ["any"]
   where_enrolled: "제한 없음"
+  where_enrolled_en: "No restriction"
   stage: "2025년: 학부·석사·박사 1–2년차 / 2026년: 고교·학부·석사 (박사과정 제외) — 연도별로 다름"
+  stage_en: "2025: undergraduates, master's and PhD years 1–2 / 2026: high school, undergraduate and master's (PhD excluded) — varies by year"
   korean_ok: true
   international_in_us_ok: true
   us_citizen_only: false
-  notes: "RSS에 처음 참가하거나 로보틱스 연구 커뮤니티에 새로 들어온 학생 우선, 논문 채택은 요건 아님. 멘토 매칭과 학회 안내 세션 포함. RSS에는 논문 저자 대상의 별도 학생 트래블 그랜트가 없음 (2025·2026 학회 페이지 기준)."
+  notes: "RSS에 처음 참가하거나 로보틱스 연구 커뮤니티에 새로 들어온 학생 우선, 논문 채택은 요건 아님. 멘토 매칭과 학회 안내 세션 포함. RSS에는 논문 저자 대상의 별도 학생 트래블 그랜트가 없음 (2025·2026 학회 페이지 기준). 석사과정생은 2025·2026년 모두 대상이었고 박사과정 포함 여부는 해마다 다름."
+  notes_en: "Priority to students attending RSS for the first time or new to the robotics research community; paper acceptance is not required. Includes mentor matching and orientation sessions. RSS has no separate student travel grant for paper authors (per the 2025 and 2026 conference pages). Master's students were eligible in both 2025 and 2026, while PhD eligibility changes from year to year."
 nomination: false
 cycle:
   typical: "RSS 개최 2–3개월 전 마감 (2025: 3/21 마감·6/21 개최, 2026: 5/15 연장 마감·7/13 개최), 마감 후 10일–3주 내 결과 통보"
+  typical_en: "Deadline 2–3 months before RSS (2025: Mar 21 deadline, Jun 21 conference; 2026: May 15 extended deadline, Jul 13 conference), decisions within 10 days to 3 weeks"
 status: upcoming
 fit: 2
 take: "RSS 2027(아테네) Pathways 공고가 나오면 박사과정 포함 여부부터 확인해, 2025년처럼 박사 1–2년차가 대상이면 논문 없이도 항공·숙박을 지원받을 수 있으니 바로 지원하라."
+take_en: "When the RSS 2027 (Athens) Pathways call appears, first check whether PhD students are included — if PhD years 1–2 qualify as in 2025, it covers airfare and lodging without a paper, so apply right away."
 links:
   home: "https://roboticsconference.org/2026/program/pathways/"
 sources:

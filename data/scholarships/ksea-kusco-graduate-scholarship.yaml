@@ -1,0 +1,47 @@
+id: ksea-kusco-graduate-scholarship
+name: "KSEA-KUSCO Graduate Scholarship"
+organizer: "Korean-American Scientists and Engineers Association (KSEA)"
+org_type: society
+type: scholarship
+fields: [any]
+amount:
+  summary: "1인당 $2,000 (연 20명)"
+  summary_en: "$2,000 each (20 recipients a year)"
+  value: 2000
+  currency: USD
+  unit: one-time
+duration: "1회 지급"
+duration_en: "One-time award"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "미국 인가 대학의 대학원 재학 (지원 마감일 기준 대학원생 신분)"
+  where_enrolled_en: "Graduate students at an accredited institution in the US (graduate-student status on the application deadline)"
+  stage: "석·박사 대학원생 — 이학·의학·공학 또는 관련 전공"
+  stage_en: "Graduate students (MS/PhD) majoring in science, medicine, engineering or a related field"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "한국계(Korean heritage) 대학원생 대상이며 시민권 요건은 명시돼 있지 않아 한국 국적 유학생도 해당. 지원 시점에 KSEA 회원 자격이 활성 상태여야 함(대학원생 연회비 $15). 과거 KSEA-KUSCO 장학금 수혜자는 지원 불가. 수상자가 8월 UKC(US-Korea Conference) 시상식에 참석해 여행 지원을 받으려면 UKC 초록을 제출하고 FIRE 또는 기술 세션에 참여해야 함."
+  notes_en: "For graduate students of Korean heritage; no citizenship requirement is stated, so Korean international students qualify. An active KSEA membership is required at application (graduate dues $15/year). Previous KSEA-KUSCO scholarship recipients cannot apply. To get travel support for the award ceremony at UKC (US-Korea Conference) in August, recipients must submit a UKC abstract and take part in a FIRE or technical session."
+requirements: ["온라인 지원서 (KSEA 웹사이트, 회원 로그인)", "CV (분량 제한 없음, KSEA·한인 커뮤니티 활동 포함)", "에세이 (600–800단어: 가장 의미 있는 성과와 전공 분야의 연관성)", "최대 2개 대학의 성적증명서 (공식 성적표는 학교가 KSEA로 직접 송부)", "추천서 2부 (1부는 교수, 1부는 교수 또는 KSEA 임원)"]
+requirements_en: ["Online application (KSEA website, member login)", "CV (no page limit; include KSEA and Korean-community activities)", "Essay (600–800 words: your most meaningful achievements and how they relate to your field)", "Transcripts from up to two colleges (the school sends the official transcript to KSEA)", "Two recommendation letters (one from a professor; the other from a professor or a KSEA official)"]
+nomination: false
+awards_per_year: "20명"
+cycle:
+  typical: "매년 봄 온라인 접수 (2026년: 3월 31일 오후 5시 ET 마감), 5월까지 KSEA 웹사이트에 발표, 8월 UKC에서 시상"
+  typical_en: "Online applications each spring (2026: deadline March 31 at 5 PM ET), winners posted on the KSEA website by May, awards presented at UKC in August"
+  deadlines:
+    - {kind: application, date: 2026-03-31, tz: "ET", time: "17:00", label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
+status: upcoming
+apply_url: "https://www.ksea.org/scholarship"
+fit: 3
+take: "한국계 대학원생이면 국적과 무관하게 지원할 수 있으니, KSEA 회원 가입($15)을 미리 해 두고 2027년 봄 접수(2026년은 3월 31일 마감)에 CV·에세이·추천서 2부로 지원하라."
+take_en: "Any graduate student of Korean heritage can apply regardless of citizenship — join KSEA ($15) ahead of time and apply in the spring 2027 window (2026 closed March 31) with a CV, essay and two letters."
+links:
+  home: "https://award.ksea.org/scholarships/scholarships-for-graduates"
+sources:
+  - "https://award.ksea.org/scholarships/scholarships-for-graduates"
+  - "https://award.ksea.org/scholarships/scholarships-faqs"
+  - "https://award.ksea.org/scholarships"
+  - "https://www.ksea.org/scholarship"
+last_verified: 2026-10-02

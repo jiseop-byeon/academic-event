@@ -1098,7 +1098,7 @@
     var groups = Object.keys(ORG_TYPE).map(function (k) {
       return { label: lab(ORG_TYPE, k), items: withPay.filter(function (i) { return i.org_type === k; }).sort(function (a, b) { return b.pay.usd_month[1] - a.pay.usd_month[1]; }).map(function (i) {
         return { label: i.company + " · " + i.title, lo: i.pay.usd_month[0], hi: i.pay.usd_month[1], emphasis: i.fit === 3, color: "var(--intern)", href: "#/internships/" + i.id,
-          tip: { title: i.company + " — " + i.title, rows: [{ value: payText(i.pay), label: paySource(i.pay) }, { value: payMonthly(i.pay), label: L("per month (USD)", "월 환산 (USD)") }], note: i.pay.note || "" } };
+          tip: { title: i.company + " — " + i.title, rows: [{ value: payText(i.pay), label: paySource(i.pay) }, { value: payMonthly(i.pay), label: L("per month (USD)", "월 환산 (USD)") }], note: tx(i.pay, "note") } };
       }) };
     }).filter(function (g) { return g.items.length; });
     var maxV = Math.max.apply(null, withPay.map(function (i) { return i.pay.usd_month[1]; }).concat([1000]));
@@ -1235,11 +1235,12 @@
       "<dt>" + esc(L("Work mode", "근무 형태")) + "</dt><dd>" + esc(lab(MODE, i.work_mode)) + "</dd>" +
       "<dt>" + esc(L("When", "시기")) + "</dt><dd>" + esc(i.season) + (i.start ? esc(L(" · starts ", " · 시작 ") + (i.start === "flexible" ? L("flexible", "협의") : i.start)) : "") + "</dd>" +
       (i.duration ? "<dt>" + esc(L("Duration", "기간")) + "</dt><dd>" + esc(i.duration) + "</dd>" : "") +
-      "<dt>" + esc(L("Pay", "급여")) + "</dt><dd>" + (i.pay ? esc(payText(i.pay)) + ' <span class="muted">' + esc(payMonthly(i.pay)) + "</span><br><small class=\"muted\">" + esc(paySource(i.pay)) + (i.pay.note ? " · " + esc(i.pay.note) : "") + "</small>" : '<span class="faint">' + esc(L("not posted", "미공개")) + "</span>") + "</dd>" +
+      "<dt>" + esc(L("Pay", "급여")) + "</dt><dd>" + (i.pay ? esc(payText(i.pay)) + ' <span class="muted">' + esc(payMonthly(i.pay)) + "</span><br><small class=\"muted\">" + esc(paySource(i.pay)) + (tx(i.pay, "note") ? " · " + esc(tx(i.pay, "note")) : "") + "</small>" : '<span class="faint">' + esc(L("not posted", "미공개")) + "</span>") + "</dd>" +
       "<dt>" + esc(L("Degree", "학위")) + "</dt><dd>" + esc((i.degree || []).map(function (x) { return x.toUpperCase(); }).join(" · ")) + "</dd>" +
       "<dt>" + esc(L("Eligibility", "자격")) + "</dt><dd>" + esc(lab(CITIZEN, i.citizenship)) + (tx(i, "eligibility_note") ? '<br><span class="muted">' + esc(tx(i, "eligibility_note")) + "</span>" : "") + "</dd>" +
       (i.posted ? "<dt>" + esc(L("Posted", "게시일")) + "</dt><dd>" + fmtDate(i.posted) + "</dd>" : "") +
-      (i.deadline ? "<dt>" + esc(L("Closes", "마감")) + "</dt><dd>" + fmtDate(i.deadline, true) + " " + dday(i.deadline) + "</dd>" : "") + "</dl></section></div>" +
+      (i.deadline ? "<dt>" + esc(L("Closes", "마감")) + "</dt><dd>" + fmtDate(i.deadline, true) + " " + dday(i.deadline) + "</dd>" : "") +
+      (tx(i, "notes") ? "<dt>" + esc(L("Notes", "메모")) + "</dt><dd>" + esc(tx(i, "notes")) + "</dd>" : "") + "</dl></section></div>" +
       '<aside class="col-side"><section class="panel"><h2>' + esc(L("At a glance", "한눈에")) + '</h2><dl class="kv"><dt>' + esc(L("Fit", "적합도")) + "</dt><dd>" + stars(i.fit) + "</dd><dt>" + esc(L("Status", "상태")) + "</dt><dd>" + statusBadge(st) +
       "</dd><dt>" + esc(L("Checked", "확인일")) + "</dt><dd>" + verified(i) + "</dd></dl></section>" +
       '<section class="panel"><h2>' + esc(L("Sources", "출처")) + "</h2>" + sourceList(i.sources) + "</section></aside></div>";

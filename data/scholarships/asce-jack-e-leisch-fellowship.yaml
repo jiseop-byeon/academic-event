@@ -1,0 +1,45 @@
+id: asce-jack-e-leisch-fellowship
+name: "ASCE Jack E. Leisch Memorial National Graduate Fellowship"
+organizer: "American Society of Civil Engineers (ASCE)"
+org_type: society
+type: fellowship
+fields: [transportation]
+amount:
+  summary: "약 $5,000 + 증서"
+  summary_en: "About $5,000 plus a certificate"
+  value: 5000
+  currency: USD
+  unit: one-time
+duration: "1회 지급 (이전 수혜자 재지원 불가)"
+duration_en: "One-time award (previous recipients cannot reapply)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "인가 대학에서 교통계획·도로 기하구조 설계·교통운영·안전성능을 다루는 대학원 학위과정(석·박사)에 풀타임 재학 또는 입학 허가"
+  where_enrolled_en: "Full-time students enrolled in or admitted to a graduate degree program (master's or doctoral) at an accredited university emphasizing transportation planning, roadway geometric design, traffic operations and safety performance"
+  stage: "석·박사과정"
+  stage_en: "Master's and PhD students"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "수상 시점에 ASCE 또는 T&DI(Transportation & Development Institute) 회원이어야 함. 국적 제한 언급 없음(공식 페이지가 유학생의 성적표 발급 지연을 언급). 학업 프로그램·교육 계획·성적·졸업 후 계획·리더십·재정 필요도를 평가하며, 도로설계·교통운영·교통계획 관련 이수(예정) 과목 목록과 이력서의 GRE 점수를 요구함."
+  notes_en: "Must be an ASCE or T&DI (Transportation & Development Institute) member at the time of the award. No nationality restriction mentioned (the official page notes transcript delays for international students). Judged on the academic program, educational plan, performance, post-graduate intentions, leadership and financial need; requires a list of completed or planned coursework in highway design, traffic operations or transportation planning, and GRE scores on the résumé."
+requirements: ["커버레터 (1쪽)", "관심 진술서 (1,000단어 이내: Jack E. Leisch의 경력과 본인 연구의 연관성 등)", "이력서 (2쪽 이내, 학부·대학원 GPA와 GRE 점수 포함)", "학부·대학원 공식 성적증명서 (학교가 직접 송부)", "도로설계·교통운영·교통계획 관련 이수(예정) 과목 목록", "비공개 추천서 1부 (추천인이 직접 송부)", "재정 필요도 진술 (250단어 이내)"]
+requirements_en: ["Cover letter (1 page)", "Statement of interest (≤1,000 words, incl. how your work relates to Jack E. Leisch's career)", "Résumé (≤2 pages, incl. undergraduate/graduate GPA and GRE scores)", "Official undergraduate and graduate transcripts (sent by the institutions)", "List of completed or planned coursework in highway design, traffic operations or transportation planning", "One confidential recommendation letter (sent by the recommender)", "Statement of financial need (≤250 words)"]
+nomination: false
+cycle:
+  typical: "매년 11월 1일 접수 시작, 이듬해 3월 말 마감 (2026년 회차: 3/27 오후 11:59 ET)"
+  typical_en: "Opens November 1 each year and closes in late March (2026 cycle: Mar 27, 11:59 PM ET)"
+  deadlines:
+    - {kind: other, date: 2026-11-01, label: "2027년 회차 접수 시작", label_en: "2027 cycle opens"}
+    - {kind: application, date: 2026-03-27, tz: "ET", time: "23:59", label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
+status: upcoming
+apply_url: "https://www.asce.org/career-growth/awards-and-honors/fellowships/jack-e-leisch-fellowship"
+fit: 1
+take: "도로 설계·교통운영·교통계획 전공자 대상이라 건설 로봇 연구와는 맞지 않는 참고용 항목이다."
+take_en: "Aimed at students in highway design, traffic operations and transportation planning, so it does not match construction robotics — listed for reference."
+links:
+  home: "https://www.asce.org/career-growth/awards-and-honors/fellowships/jack-e-leisch-fellowship"
+sources:
+  - "https://www.asce.org/career-growth/awards-and-honors/fellowships/jack-e-leisch-fellowship"
+  - "https://www.asce.org/career-growth/awards-and-honors/fellowships"
+last_verified: 2026-10-02

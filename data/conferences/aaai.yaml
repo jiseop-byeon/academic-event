@@ -16,6 +16,7 @@ review:
   rebuttal: true
   acceptance_rate: {value: 0.176, year: 2026, note: "4,167 of 23,680 main-track submissions, from a RIKEN AIP notice (which labels them AAAI-25, but the count matches the roughly 23,000 papers the AAAI-26 proceedings say were reviewed, about twice AAAI-25)"}
 proceedings: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI Press)"
+journal_track: "AAAI-27 Journal Track: papers published 2024-01-01 to 2026-10-31 in AIJ, JAIR, JMLR, IJCV, IJRR, T-RO, Nature and a few other journals, not yet presented at a major AI conference, can be presented (submit by 2026-10-30)"
 orientation:
   contribution: -1
   summary: "AI 전 분야를 아우르는 대형 학회로 본문 7쪽+참고문헌 2쪽, 이중 익명 2단계 심사(1단계 2인 리뷰와 결정에 쓰이지 않는 AI 리뷰 → 2단계 추가 리뷰 후 author feedback)를 거치며, 좁은 하위 분야의 점진적 개선보다 새 문제·방향을 여는 방법론적 기여를 선호한다. 설명 가능한 AI(XAI)는 'HAI: Explainable AI for Human Understanding', 'ML: Transparent, Interpretable & Explainable ML', 'PEAI: Accountability, Interpretability & Explainability' 키워드로 정식 범위이고 HRI·인간-AI 협업과 신뢰 키워드도 있어, 응용 도메인에서 설명 방법을 새로 제시하고 정량 평가하면 경쟁력이 있다. 메인 트랙 외에 기법과 사회 문제의 적합성으로 심사하는 AI for Social Impact, mechanistic interpretability를 포함하는 AI Alignment 특별 트랙이 있고, 저자당 10편 투고 제한과 재현성 체크리스트가 있다."
@@ -43,11 +44,12 @@ editions:
       - {kind: other, date: 2026-09-28, tz: "AoE", label: "student abstracts (2 pages, non-archival)"}
       - {kind: other, date: 2026-10-13, tz: "AoE", label: "Doctoral Consortium application"}
       - {kind: rebuttal, date: 2026-10-25, label: "Author feedback window Oct 19 – Oct 25"}
+      - {kind: other, date: 2026-10-30, label: "Journal Track (papers already published in AIJ, JMLR, IJCV, IJRR, T-RO and other listed journals)"}
       - {kind: other, date: 2026-11-20, label: "workshop papers (AAAI's suggested date; each workshop sets its own)"}
       - {kind: notification, date: 2026-11-30}
       - {kind: camera-ready, date: 2026-12-14}
-    notes: "제41회 AAAI. 본논문(7/28) 마감과 1단계 탈락 통보(9/24)가 지났고, 남은 일정은 author feedback(10/19–25), 최종 결과(11/30), 카메라레디(12/14)다. 아직 열린 기회는 박사과정생 대상 Doctoral Consortium(10/13 AoE 마감, 2쪽 학위논문 요약·2쪽 CV·1쪽 자기소개서)과 워크숍 논문(대부분 11/20 무렵 마감, 워크숍 목록은 10/16까지 공개되며 AAAI 디지털 라이브러리에는 실리지 않음)이다. 학생 초록·포스터(9/28)는 마감됐다."
-    notes_en: "41st AAAI. The paper deadline (7/28) and Phase 1 rejections (9/24) are past; author feedback runs 10/19-25, final decisions come 11/30 and camera-ready is due 12/14. Still open: the Doctoral Consortium for PhD students (due October 13, AoE; 2-page thesis summary, 2-page CV, 1-page personal statement) and workshop papers (most due around November 20; the workshop list is posted by October 16, and workshop papers do not go into the AAAI digital library). The student abstract and poster deadline (September 28) has passed."
+    notes: "제41회 AAAI. 본논문(7/28) 마감과 1단계 탈락 통보(9/24)가 지났고, 남은 일정은 author feedback(10/19–25), 최종 결과(11/30), 카메라레디(12/14)다. 아직 열린 기회는 박사과정생 대상 Doctoral Consortium(10/13 AoE 마감, 2쪽 학위논문 요약·2쪽 CV·1쪽 자기소개서), 저널 트랙(10/30 마감, 2024-01-01 이후 AIJ·JMLR·IJCV·IJRR·T-RO 등에 이미 게재된 논문을 1쪽 정보 시트와 1쪽 초록으로 신청해 포스터 발표), 워크숍 논문(대부분 11/20 무렵 마감, 워크숍 목록은 10/16까지 공개되며 AAAI 디지털 라이브러리에는 실리지 않음)이다. 학생 초록·포스터(9/28)는 마감됐다."
+    notes_en: "41st AAAI. The paper deadline (7/28) and Phase 1 rejections (9/24) are past; author feedback runs 10/19-25, final decisions come 11/30 and camera-ready is due 12/14. Still open: the Doctoral Consortium for PhD students (due October 13, AoE; 2-page thesis summary, 2-page CV, 1-page personal statement), the Journal Track (due October 30; papers already published since 2024-01-01 in AIJ, JMLR, IJCV, IJRR, T-RO and other listed journals apply with a 1-page information sheet and a 1-page abstract for a poster slot) and workshop papers (most due around November 20; the workshop list is posted by October 16, and workshop papers do not go into the AAAI digital library). The student abstract and poster deadline (September 28) has passed."
   - year: 2028
     status: estimated
     deadlines:
@@ -70,6 +72,7 @@ sources:
   - "https://aaai.org/conference/aaai/aaai-27/student-abstract-and-poster-program-call-for-proposals/"
   - "https://aaai.org/conference/aaai/aaai-27/thirty-second-aaai-sigai-doctoral-consortium-call-for-proposals/"
   - "https://aaai.org/conference/aaai/aaai-27/workshops-call/"
+  - "https://aaai.org/conference/aaai/aaai-27/journal-track-call-for-papers/"
   - "https://aaai.org/conference/aaai/"
   - "https://aaai.org/conference/aaai/aaai-26/"
   - "https://ojs.aaai.org/index.php/AAAI/issue/view/729"

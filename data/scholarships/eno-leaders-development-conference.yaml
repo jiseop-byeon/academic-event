@@ -1,0 +1,45 @@
+id: eno-leaders-development-conference
+name: "Eno Leaders Development Conference (LDC)"
+organizer: "Eno Center for Transportation"
+org_type: other
+type: fellowship
+fields: [transportation]
+amount:
+  summary: "프로그램 비용 $4,000 전액 장학 (참가자는 교통카드·인쇄 자료가 포함된 교재비 $100만 부담) + 필요도에 따라 여행 장학금 최대 $1,000"
+  summary_en: "Scholarship covering the full $4,000 program cost (fellows pay only a $100 materials fee, which includes a transit pass and printed materials) + need-based travel scholarships of up to $1,000"
+  value: 4000
+  currency: USD
+  unit: one-time
+  covers: ["registration", "travel"]
+duration: "워싱턴 DC 5일 프로그램 (2026년 5/31–6/4)"
+duration_en: "Five-day program in Washington, DC (2026: May 31–June 4)"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "교통 관련 분야 석·박사과정 재학 — 미국 대학의 추천 필수"
+  where_enrolled_en: "Master's or doctoral students in a transportation-related field — nomination by a US university required"
+  stage: "석·박사과정 (2026년 회차 기준 2026학년도 이후에도 재학 예정이어야 함)"
+  stage_en: "Master's and PhD students (2026 cycle: must still be enrolled in the 2026 academic year or later)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "공식 안내상 유학생도 미국 대학의 추천을 받으면 지원 가능. 본인 추천은 불가하며 학교·교수가 추천하고, 대학당 서로 다른 프로그램에서 최대 2명(예: 토목공학 1명·법학 1명). 워싱턴 DC 전 일정 참석 필수. 교통 정책 결정자·업계 리더와의 만남과 네트워킹 중심의 리더십 프로그램."
+  notes_en: "Per the official page, international students may apply if nominated by a US university. No self-nominations — the school or faculty nominates, up to two students per university from different programs (e.g., one from civil engineering and one from law). Attendance for the full program in Washington, DC is required. A leadership program built around meetings and networking with transportation policymakers and industry leaders."
+requirements: ["관심 진술서 (750–1,000단어, 1.5줄 간격, 12pt)", "이력서/CV (2쪽 이내)", "지도교수 추천서"]
+requirements_en: ["Statement of interest (750–1,000 words, 1.5 spacing, 12-pt font)", "Résumé or CV (2-page limit)", "Nomination letter from the faculty advisor"]
+nomination: true
+cycle:
+  typical: "2026년 회차: 1월 23일(금) 지원 마감, 5/31–6/4 워싱턴 DC 개최 — 2027년 일정은 미공지"
+  typical_en: "2026 cycle: applications due Friday, January 23; program held May 31–June 4 in Washington, DC — 2027 dates not yet posted"
+  deadlines:
+    - {kind: application, date: 2026-01-23, label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
+status: upcoming
+apply_url: "https://enotrans.org/course/ldc/"
+fit: 1
+take: "교통 정책·리더십 네트워킹 프로그램이라 건설 로봇 연구와는 거리가 있지만, 교통 분야 석·박사생이면 유학생도 학교 추천으로 지원할 수 있으니 참고용으로 둔다."
+take_en: "A transportation policy and leadership-networking program, far from construction robotics, but international master's/PhD students in transportation can apply with a university nomination — kept for reference."
+links:
+  home: "https://enotrans.org/course/ldc/"
+sources:
+  - "https://enotrans.org/course/ldc/"
+  - "https://enotrans.org/"
+last_verified: 2026-10-02

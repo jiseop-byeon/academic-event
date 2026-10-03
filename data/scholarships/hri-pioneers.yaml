@@ -1,0 +1,47 @@
+id: hri-pioneers
+name: "HRI Pioneers Workshop 2027"
+organizer: "ACM/IEEE International Conference on Human-Robot Interaction (HRI)"
+org_type: society
+type: award
+fields: [hri, robotics]
+amount:
+  summary: "선정자의 여행·숙박비 일부 지원을 목표로 하지만 재원에 따라 달라 전원 지원은 보장되지 않음 (미국 소재 기관과 해외 기관 참가자의 재원이 별도), 금액 비공개"
+  summary_en: "Aims to cover part of accepted Pioneers' travel and lodging, but it depends on funding and is not guaranteed for everyone (separate pools for US-based and non-US institutions); amounts not published"
+  covers: ["travel", "lodging"]
+duration: "HRI 2027 첫날(3/8) 하루 워크숍 + 본 학회 포스터 발표"
+duration_en: "One-day workshop on the first day of HRI 2027 (Mar 8) + a poster at the main conference"
+eligibility:
+  nationality: ["any"]
+  where_enrolled: "제한 없음 (전 세계 대학)"
+  where_enrolled_en: "No restriction (universities worldwide)"
+  stage: "학부생부터 박사과정까지 학업 단계 무관 (학부생 최소 1명 선발)"
+  stage_en: "Students at any stage, from undergraduate to PhD (at least one undergraduate is accepted)"
+  korean_ok: true
+  international_in_us_ok: true
+  us_citizen_only: false
+  notes: "HRI 분야 학생 연구자 코호트를 뽑는 경쟁 선발 워크숍으로, 기관당 2명 이내·같은 세부 분야 편중을 피해 선발. 채택되면 2쪽 초록이 HRI 2027 companion proceedings에 실리며(일반적으로 비아카이브), 티저 영상·A0 포스터·발표 슬라이드를 준비하고 워크숍 전일 참석해야 함. 여행 지원이 보장되지 않아 HRI 2027 학생 자원봉사(등록비·워크숍비 면제, 약 20시간 근무, 12/1 신청 오픈) 같은 외부 지원도 함께 신청하라고 안내함."
+  notes_en: "A competitive workshop that selects a cohort of student researchers in HRI, with no more than two per institution and a spread of sub-fields. Accepted 2-page abstracts appear in the HRI 2027 companion proceedings (generally non-archival); a teaser video, an A0 poster and slides are required, along with full-day attendance. Because travel support is not guaranteed, applicants are encouraged to also seek outside support such as HRI 2027 student volunteering (registration and workshop fees waived, about 20 hours of work, applications open Dec 1)."
+requirements: ["익명화된 2쪽 확장 초록 (+ 참고문헌 1쪽, ACM 양식)", "2쪽 CV", "(선택) 개인·다양성 진술서 250단어", "(선택) 임팩트 진술서 250단어"]
+requirements_en: ["Anonymized 2-page extended abstract (+1 page of references, ACM format)", "2-page CV", "Optional: personal and diversity statement (250 words)", "Optional: impact statement (250 words)"]
+nomination: false
+cycle:
+  typical: "2027 회차: 9/28 접수 시작, 10/18 마감(AoE), 12/11 통보, 1/2 카메라레디, 3/8 워크숍 (HRI 2027 산타클라라, 3/8–12)"
+  typical_en: "2027 cycle: submissions open Sep 28, close Oct 18 (AoE), notification Dec 11, camera-ready Jan 2, workshop Mar 8 (HRI 2027, Santa Clara, Mar 8–12)"
+  deadlines:
+    - {kind: application, date: 2026-10-18, tz: "AoE", time: "23:59", label: "HRI Pioneers 2027 신청 마감", label_en: "HRI Pioneers 2027 submission deadline"}
+    - {kind: result, date: 2026-12-11, label: "선정 통보", label_en: "Notification of acceptance"}
+    - {kind: other, date: 2027-03-08, label: "HRI Pioneers 워크숍 (산타클라라)", label_en: "HRI Pioneers workshop (Santa Clara)"}
+status: open
+apply_url: "https://hripioneers.org/apply"
+fit: 2
+take: "학년 제한이 없어 1년차도 지원할 수 있으니, 건설 현장 인간–로봇 협업을 연구 질문으로 묶은 2쪽 초록을 10월 18일(AoE)까지 내라 — 여행 지원은 보장되지 않으므로 HRI 학생 자원봉사도 함께 노려라."
+take_en: "Any stage qualifies, so a first-year can apply — submit a 2-page abstract built around human–robot collaboration on construction sites by Oct 18 (AoE), and also go for HRI student volunteering since travel support is not guaranteed."
+links:
+  home: "https://hripioneers.org/"
+  conference: "https://humanrobotinteraction.org/2027/"
+sources:
+  - "https://hripioneers.org/"
+  - "https://hripioneers.org/apply"
+  - "https://humanrobotinteraction.org/2027/"
+  - "https://humanrobotinteraction.org/2027/student-volunteer/"
+last_verified: 2026-10-02
