@@ -1,19 +1,19 @@
 # Units of each currency per 1 USD — used only to put pay and award amounts on one axis.
 # Refreshed by scripts/collect_fx.py (open.er-api.com, no key). Approximate; never shown as a quote.
-date: 2026-10-08
+date: 2026-10-09
 source: https://open.er-api.com/v6/latest/USD
 per_usd:
   USD: 1
-  KRW: 1339.1
-  EUR: 0.8929
-  JPY: 158.1
+  KRW: 1342.3
+  EUR: 0.8923
+  JPY: 158.0
   GBP: 0.7565
-  CHF: 0.8331
-  CAD: 1.4243
-  SGD: 1.2797
-  CNY: 6.7125
-  AUD: 1.4363
-  SEK: 10.0115
-  DKK: 6.683
-  NOK: 9.5752
-  HKD: 7.8476
+  CHF: 0.8325
+  CAD: 1.4231
+  SGD: 1.281
+  CNY: 6.7153
+  AUD: 1.4379
+  SEK: 9.9882
+  DKK: 6.6802
+  NOK: 9.5675
+  HKD: 7.8482
