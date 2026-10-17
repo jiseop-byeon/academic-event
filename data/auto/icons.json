@@ -30,8 +30,9 @@
   "checked": "2026-10-03"
  },
  "2027.worldhaptics.org": {
-  "file": null,
-  "checked": "2026-10-03"
+  "file": "2027.worldhaptics.org.png",
+  "source": "google-s2",
+  "checked": "2026-10-17"
  },
  "aaai.org": {
   "file": "aaai.org.png",
@@ -45,11 +46,11 @@
  },
  "acm.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "advancedconstructionrobotics.com": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "agilityrobotics.com": {
   "file": "agilityrobotics.com.png",
@@ -58,11 +59,11 @@
  },
  "ai.sony": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "algorithmic-robotics.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "amazon.jobs": {
   "file": "amazon.jobs.png",
@@ -81,11 +82,11 @@
  },
  "anl.gov": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "annualreviews.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "anybotics.com": {
   "file": "anybotics.com.png",
@@ -114,7 +115,7 @@
  },
  "apply2.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "apptronik.com": {
   "file": "apptronik.com.png",
@@ -198,7 +199,7 @@
  },
  "canvas.build": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "carbonrobotics.com": {
   "file": "carbonrobotics.com.png",
@@ -252,7 +253,7 @@
  },
  "chi.acm.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "chi2027.acm.org": {
   "file": "chi2027.acm.org.png",
@@ -285,8 +286,9 @@
   "checked": "2026-10-03"
  },
  "construction-institute.org": {
-  "file": null,
-  "checked": "2026-10-03"
+  "file": "construction-institute.org.png",
+  "source": "site",
+  "checked": "2026-10-17"
  },
  "construction-robotics.com": {
   "file": "construction-robotics.com.png",
@@ -295,7 +297,7 @@
  },
  "construction-robots.github.io": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "corl.org": {
   "file": "corl.org.png",
@@ -339,7 +341,7 @@
  },
  "doosanrobotics.com": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "doxel.ai": {
   "file": "doxel.ai.png",
@@ -363,7 +365,7 @@
  },
  "ecva.net": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "eeml.eu": {
   "file": "eeml.eu.png",
@@ -387,7 +389,7 @@
  },
  "facctconference.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "fbr.com.au": {
   "file": "fbr.com.au.png",
@@ -481,7 +483,7 @@
  },
  "hilti-trimble-challenge.com": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "houseofdesign.com": {
   "file": "houseofdesign.com.png",
@@ -495,7 +497,7 @@
  },
  "humanrobotinteraction.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "hyundaimotorgroup.com": {
   "file": "hyundaimotorgroup.com.png",
@@ -504,7 +506,7 @@
  },
  "i3ce2026.com": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "iaarc.org": {
   "file": "iaarc.org.png",
@@ -558,7 +560,7 @@
  },
  "ieeeismar.net": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "ieeevr.org": {
   "file": "ieeevr.org.png",
@@ -572,7 +574,7 @@
  },
  "ifrr.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "informs.org": {
   "file": "informs.org.png",
@@ -646,7 +648,7 @@
  },
  "kajima.co.jp": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "kasf.org": {
   "file": "kasf.org.png",
@@ -660,11 +662,11 @@
  },
  "kict.re.kr": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "kist.re.kr": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "kodiak.ai": {
   "file": "kodiak.ai.png",
@@ -673,11 +675,11 @@
  },
  "komatsu.com": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "ksea.org": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "lgresearch.ai": {
   "file": "lgresearch.ai.png",
@@ -801,7 +803,7 @@
  },
  "obayashi.co.jp": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "oist.jp": {
   "file": "oist.jp.png",
@@ -965,7 +967,7 @@
  },
  "shimz.co.jp": {
   "file": null,
-  "checked": "2026-10-03"
+  "checked": "2026-10-17"
  },
  "sigchi.submittable.com": {
   "file": "sigchi.submittable.com.png",
