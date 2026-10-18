@@ -4,11 +4,6 @@
   "source": "google-s2",
   "checked": "2026-10-03"
  },
- "2026.corl.org": {
-  "file": "2026.corl.org.png",
-  "source": "site",
-  "checked": "2026-10-03"
- },
  "2026.ieee-humanoids.org": {
   "file": "2026.ieee-humanoids.org.png",
   "source": "google-s2",
