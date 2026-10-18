@@ -1,0 +1,36 @@
+id: gritt-robot-learning-intern-rolling
+company: "Gritt"
+org_type: construction-robotics
+team: "Robot Learning"
+title: "Robot Learning Engineer Intern"
+fields: [construction, manipulation, physical-ai, robotics]
+degree: [phd, ms]
+season: "Rolling (3- or 6-month internship)"
+duration: "3 or 6 months"
+duration_weeks: [12, 26]
+locations:
+  - {city: "South San Francisco", region: "CA", country: US, lat: 37.65, lon: -122.41}
+work_mode: onsite
+required:
+  - "Pursuing an MS/PhD in ML, robotics, CS or related (exceptional undergraduates welcome)"
+  - "Strong PyTorch; deep learning and imitation or reinforcement learning"
+  - "Applied evidence: publications, open source or substantial projects"
+  - "Legally authorized to intern in the US for 3 or 6 months"
+preferred:
+  - "Isaac or MuJoCo simulators; VLA/foundation models; teleoperation data collection; real-hardware deployment"
+skills: [python, pytorch, imitation-learning, reinforcement-learning, vla, isaac-sim, mujoco]
+responsibilities:
+  - "Train policies (IL, RL or fine-tuned foundation models) for real construction-robot tasks, e.g., pick-and-place of large flexible panels in wind"
+  - "Build data collection and evaluation pipelines; run ablations"
+  - "Deploy on hardware and iterate on real-world performance; PhD interns may publish"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국에서 3개월 또는 6개월 인턴을 할 수 있는 법적 자격만 요구(유학생은 CPT 등으로 충족 가능 여부 확인). 시기는 명시되지 않음. 급여는 경쟁력 있다고만 밝힘."
+eligibility_note_en: "No citizenship requirement in the posting. It only asks for legal authorization to intern in the US for 3 or 6 months (international students should check whether CPT or similar covers this). Term not stated. Pay is described only as competitive."
+status: rolling
+posted: 2026-07-21
+apply_url: "https://jobs.ashbyhq.com/gritt/5c4737ce-f546-453b-b30d-791a121fb9fd"
+fit: 3
+take: "태양광 건설 현장 장비에 부착해 대형 패널을 집어 놓는 정책을 학습하는 건설 로봇 스타트업 인턴이라 건설 조작 연구와 정확히 겹쳐 우선 지원할 만하다."
+take_en: "A construction-robotics startup internship learning policies that pick and place large panels from equipment on solar construction sites — squarely overlapping construction manipulation research; a priority application."
+sources: ["https://jobs.ashbyhq.com/gritt/5c4737ce-f546-453b-b30d-791a121fb9fd", "https://api.ashbyhq.com/posting-api/job-board/gritt?includeCompensation=true"]
+last_verified: 2026-10-17

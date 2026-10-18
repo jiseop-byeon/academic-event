@@ -1,0 +1,36 @@
+id: field-ai-robot-learning-manipulation-irvine-2027
+company: "Field AI"
+org_type: robotics
+team: "Engineering — Mission, Interaction & Insights (Irvine)"
+title: "Robotics Research, Robot Learning & Manipulation Intern (Spring, Summer, & Fall 2027)"
+fields: [manipulation, physical-ai, robotics, ml]
+degree: [phd, ms]
+season: "Spring, Summer or Fall 2027"
+locations:
+  - {city: "Irvine", region: "CA", country: US, lat: 33.68, lon: -117.83}
+work_mode: onsite
+required:
+  - "Current MS or PhD in robotics, CS, EE, ME, AI/ML or related"
+  - "Research experience in robotic manipulation, robot learning or embodied AI"
+  - "Strong research or open-source track record with clear ownership"
+  - "Foundations in robotics, ML and experimental design; Python and/or C++"
+preferred:
+  - "First-author papers at RSS, CoRL, ICRA, IROS, NeurIPS, ICLR, ICML or RA-L, T-RO, IJRR"
+  - "Taking research to reliable operation on physical robots; evaluation outside the lab"
+  - "Robot integration, sensing, control or data-collection infrastructure"
+skills: [python, cpp, imitation-learning, reinforcement-learning, foundation-models, control]
+responsibilities:
+  - "Own a research project on reliable manipulation across objects, environments and robot platforms (humanoids, mobile manipulators, arm-equipped quadrupeds)"
+  - "Address uncertainty, contact, changing conditions and failure recovery; measure generalization and reliability"
+  - "Validate on hardware and contribute to publications or research tools"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석·박사 재학생 대상, 어바인 상주. 급여는 '후한 수준'이라고만 밝히고 범위는 공개하지 않음."
+eligibility_note_en: "No citizenship requirement in the posting. For current MS/PhD students, onsite in Irvine. Pay is described only as generous; no range is posted."
+status: open
+posted: 2026-10-13
+apply_url: "https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e"
+fit: 3
+take: "현장 배치 로봇에서 접촉·불확실성·실패 복구를 다루는 조작 연구 인턴이고 2027년 봄·여름·가을 모두 열려 있어 일정에 맞춰 지원할 만하다."
+take_en: "A manipulation research internship on contact, uncertainty and failure recovery for field-deployed robots, open in Spring, Summer and Fall 2027 — pick the term that fits."
+sources: ["https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e", "https://api.lever.co/v0/postings/field-ai?mode=json"]
+last_verified: 2026-10-17

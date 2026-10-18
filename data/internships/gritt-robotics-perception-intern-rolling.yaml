@@ -1,0 +1,36 @@
+id: gritt-robotics-perception-intern-rolling
+company: "Gritt"
+org_type: construction-robotics
+team: "Perception"
+title: "Robotics Perception Engineer Intern"
+fields: [construction, vision, robotics, manipulation]
+degree: [phd, ms]
+season: "Rolling (3- or 6-month internship)"
+duration: "3 or 6 months"
+duration_weeks: [12, 26]
+locations:
+  - {city: "South San Francisco", region: "CA", country: US, lat: 37.65, lon: -122.41}
+work_mode: onsite
+required:
+  - "Pursuing an MS/PhD in CS, EE, robotics or related"
+  - "Strong Python; PyTorch and computer vision fundamentals"
+  - "Applied work: projects, competitions, publications or industry robotics"
+  - "Legally authorized to intern in the US for 3 or 6 months"
+preferred:
+  - "Sensor drivers, CUDA, 3D geometry or multi-sensor fusion"
+skills: [python, pytorch, computer-vision, 3d-vision, sensor-fusion, cuda]
+responsibilities:
+  - "Develop and evaluate perception on real construction-robot data, e.g., robust 6-DoF pose estimation in degraded outdoor conditions or 3D detection for manipulation"
+  - "Build datasets and evaluation harnesses; integrate the module into the live robot stack"
+  - "PhD interns may publish"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국에서 3개월 또는 6개월 인턴을 할 수 있는 법적 자격만 요구(유학생은 CPT 등으로 충족 가능 여부 확인). 시기는 명시되지 않음. 급여는 경쟁력 있다고만 밝힘."
+eligibility_note_en: "No citizenship requirement in the posting. It only asks for legal authorization to intern in the US for 3 or 6 months (international students should check whether CPT or similar covers this). Term not stated. Pay is described only as competitive."
+status: rolling
+posted: 2026-07-21
+apply_url: "https://jobs.ashbyhq.com/gritt/26af4e71-339d-4aa3-9f22-91574c1166b9"
+fit: 3
+take: "야외 건설 현장의 6-DoF 자세 추정과 조작용 3D 검출을 다루는 건설 로봇 인지 인턴이라 인지·조작 결합 이력을 쌓기에 좋다."
+take_en: "Construction-robot perception on outdoor sites — 6-DoF pose estimation and 3D detection for manipulation — a good way to build combined perception-manipulation experience."
+sources: ["https://jobs.ashbyhq.com/gritt/26af4e71-339d-4aa3-9f22-91574c1166b9", "https://api.ashbyhq.com/posting-api/job-board/gritt?includeCompensation=true"]
+last_verified: 2026-10-17

@@ -28,21 +28,22 @@ requirements: ["온라인 신청서 (약 12–15분 소요)"]
 requirements_en: ["Online application form (about 12–15 minutes)"]
 nomination: false
 cycle:
-  typical: "학회 5–6주 전 마감, 마감 1–2주 뒤 결과 통보 (2025: 8/15 마감·9/27 개최, 2026: 10/5 마감·11/9 개최)"
-  typical_en: "Deadline 5–6 weeks before the conference, decisions 1–2 weeks later (2025: Aug 15 deadline, Sep 27 conference; 2026: Oct 5 deadline, Nov 9 conference)"
+  typical: "학회 5–6주 전 마감, 마감 1–2주 뒤 결과 통보 (2025: 8/15 마감·9/27 개최, 2026: 10/5 마감·11/9 개최). CoRL 2027은 개최지·일정 미발표 — 최근 대부분 회차처럼 11월 개최라면 10월 초 마감으로 추정"
+  typical_en: "Deadline 5–6 weeks before the conference, decisions 1–2 weeks later (2025: Aug 15 deadline, Sep 27 conference; 2026: Oct 5 deadline, Nov 9 conference). CoRL 2027 location and dates are not announced — if it is held in November like most recent editions, an early-October deadline is estimated"
   deadlines:
-    - {kind: application, date: 2026-10-05, tz: "AoE", time: "23:59", label: "CoRL 2026(오스틴, 11/9–12) 트래블 그랜트 신청 마감", label_en: "CoRL 2026 (Austin, Nov 9–12) travel grant deadline"}
-    - {kind: result, date: 2026-10-15, label: "CoRL 2026 선정 결과 통보", label_en: "CoRL 2026 decisions"}
-status: open
-apply_url: "https://2026.corl.org/attending/inclusion-at-corl"
+    - {kind: application, date: 2026-10-05, tz: "AoE", time: "23:59", label: "CoRL 2026(오스틴) 신청 마감(참고)", label_en: "CoRL 2026 (Austin) deadline (reference)"}
+    - {kind: application, date: 2027-10-01, tz: "AoE", label: "CoRL 2027 트래블 그랜트 신청 마감 (추정 — 학회 일정에 따라 8–10월)", label_en: "CoRL 2027 travel grant deadline (estimated — August to October depending on the conference date)", estimated: true}
+status: upcoming
+apply_url: "https://www.corl.org/"
 fit: 3
-take: "마감(10월 5일 AoE)이 사흘 남았으니 오늘 신청 — CoRL 2026이 오스틴에서 열려 항공·숙박보다 무료 등록이 핵심 혜택이다."
-take_en: "The deadline (Oct 5 AoE) is three days away, so apply today — CoRL 2026 is in Austin, so the free registration matters more than airfare or lodging."
+take: "CoRL 2026(오스틴) 신청은 끝났으니, CoRL 2027 개최지·일정이 발표되면 학회 5–6주 전 마감에 맞춰 바로 신청하라 — 개최지가 멀다면 항공·숙박 지원이 특히 크다."
+take_en: "The CoRL 2026 (Austin) round is over — when CoRL 2027's location and dates are announced, apply right away for the deadline 5–6 weeks before the conference; the airfare and lodging support matters most if it is far away."
 links:
-  home: "https://2026.corl.org/attending/inclusion-at-corl"
+  home: "https://www.corl.org/"
+  last_edition: "https://2026.corl.org/attending/inclusion-at-corl"
 sources:
   - "https://2026.corl.org/attending/inclusion-at-corl"
   - "https://www.corl.org/"
   - "https://2025.corl.org/attending/inclusion-at-corl"
   - "https://2025.corl.org/contributions/call-for-student-volunteers"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

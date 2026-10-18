@@ -1,0 +1,43 @@
+id: bobyard-cv-research-intern-rolling
+company: "Bobyard"
+org_type: construction-tech
+team: "ML"
+title: "Computer Vision Research Engineer - Intern"
+fields: [construction, vision, ml]
+degree: [phd, ms, bs]
+season: "Term not stated (posted Oct 2026)"
+duration: "12–16 weeks, full-time"
+duration_weeks: [12, 16]
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: onsite
+pay:
+  min: 55
+  max: 55
+  currency: USD
+  unit: hour
+  source: posting
+  note: "시급 $55(공고 기재)"
+  note_en: "$55 per hour (stated in the posting)"
+required:
+  - "Pursuing a BS, MS or PhD in CS, EE or related"
+  - "Deep learning and computer vision foundations"
+  - "Training models in PyTorch; strong Python"
+preferred:
+  - "Document AI, OCR or vision-language models"
+skills: [python, pytorch, computer-vision, deep-learning]
+responsibilities:
+  - "Build detection, segmentation and OCR models for construction drawings (automated takeoff)"
+  - "Contribute to data prep, labeling, training and evaluation pipelines"
+  - "Analyze customer data failure modes and help ship to production"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 학사–박사 재학생 지원 가능, SF 상주 12–16주. 시기는 명시되지 않음."
+eligibility_note_en: "No citizenship requirement in the posting. Open to BS through PhD students; 12–16 weeks onsite in the SF Bay Area. Term not stated."
+status: open
+posted: 2026-10-05
+apply_url: "https://jobs.ashbyhq.com/bobyard/ae7aa71b-5ed2-4066-b173-fc0618f2ed8f"
+fit: 1
+take: "건설 도면 물량 산출을 CV로 자동화하는 건설 테크 인턴으로 로봇과는 거리가 있어 건설 CV 경험이 필요할 때 참고할 만하다."
+take_en: "A construction-tech internship automating quantity takeoff from drawings with CV; far from robotics, so keep it for reference if you want construction CV experience."
+sources: ["https://jobs.ashbyhq.com/bobyard/ae7aa71b-5ed2-4066-b173-fc0618f2ed8f", "https://api.ashbyhq.com/posting-api/job-board/bobyard?includeCompensation=true"]
+last_verified: 2026-10-17

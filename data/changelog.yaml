@@ -1,4 +1,8 @@
 # Newest first. The update agent adds one entry per run (see agent/AGENT.md), in Korean and English.
+- date: 2026-10-17
+  by: "update run (5 agents)"
+  summary: "인턴십 81개 전부 재확인(17개 추가: 건설 로봇 GRITT·Rugged, 텍사스 조작 Persona AI·Valstad 등), 장학금·대외활동 다음 주기 반영(IBM·Amazon 종료), CACAIE·T-ASE Q1 확인"
+  summary_en: "Re-checked all internships (81; 17 added incl. construction robotics GRITT and Rugged, Texas manipulation roles at Persona AI and Valstad), rolled scholarships and programs to their next cycles (IBM and Amazon ended), confirmed CACAIE and T-ASE as Q1"
 - date: 2026-10-02
   by: "owner review"
   summary: "범위 재정비: 교통·AR·SLAM/센서퓨전·HRI와 인간 의도·설명 가능한 AI 분야 추가, 명문 학회·Q1 저널만 남김, 장학금·인턴십을 미국 대학 한국인 유학생 대학원생 기준으로 재선별, 영어 기본 + 한국어 전환"

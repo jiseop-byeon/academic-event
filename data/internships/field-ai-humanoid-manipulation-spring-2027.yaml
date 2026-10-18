@@ -2,7 +2,7 @@ id: field-ai-humanoid-manipulation-spring-2027
 company: "Field AI"
 org_type: robotics
 team: "Research (Boston R&D)"
-title: "Robotics Research Internship, Humanoid Manipulation (Spring 2027) | PhD Internship"
+title: "Robotics Research, Humanoid Manipulation Intern (Spring 2027) | PhD"
 fields: [manipulation, physical-ai, robotics]
 degree: [phd]
 season: "Spring 2027"
@@ -30,4 +30,4 @@ fit: 2
 take: "여름 공고와 내용이 같지만 봄 학기 중 근무라 학기 일정을 비울 수 있을 때만 고려하고, 기본은 Summer 2027 공고로 지원하는 편이 낫다."
 take_en: "Same content as the summer posting but during the spring semester; consider it only if the semester can be cleared, and default to the Summer 2027 posting."
 sources: ["https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba", "https://api.lever.co/v0/postings/field-ai?mode=json"]
-last_verified: 2026-10-02
+last_verified: 2026-10-17

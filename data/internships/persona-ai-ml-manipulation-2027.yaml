@@ -1,0 +1,35 @@
+id: persona-ai-ml-manipulation-2027
+company: "Persona AI"
+org_type: robotics
+team: "Robotics Software Engineering — ML"
+title: "Machine Learning Internship, Manipulation"
+fields: [manipulation, physical-ai, robotics, ml]
+degree: [phd, ms]
+season: "Spring 2027 (Jan–May) or Summer 2027 (May–Aug)"
+locations:
+  - {city: "Houston", region: "TX", country: US, lat: 29.76, lon: -95.37}
+work_mode: onsite
+required:
+  - "Deep learning frameworks (PyTorch, JAX, TensorFlow)"
+  - "Cloud computing for models and data (AWS, Azure, GCP)"
+  - "Strong grasp of robot-learning research: behavior cloning and reinforcement learning for manipulation, world models"
+  - "Understanding of deploying neural networks in the real world"
+preferred:
+  - "MS or PhD in CS, robotics, ML or related"
+  - "Papers at ICML, ICRA, CoRL, RSS or NeurIPS"
+skills: [python, pytorch, jax, imitation-learning, reinforcement-learning, world-models]
+responsibilities:
+  - "Develop and improve ML models and infrastructure for humanoid robots"
+  - "Monitor and evaluate model performance in the real world"
+  - "Support ML applications in manipulation, navigation, locomotion and perception"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석·박사 학위는 우대 사항. Fall 2026·Spring 2027·Summer 2027 기수로 선착순 마감되며 Summer 2027이 가장 빨리 찬다고 안내함."
+eligibility_note_en: "No citizenship requirement in the posting. An MS or PhD is preferred. Cohorts are Fall 2026, Spring 2027 and Summer 2027, filled first-come first-served; the posting says Summer 2027 fills fastest."
+status: open
+posted: 2026-07-31
+apply_url: "https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630"
+fit: 3
+take: "조선·제철 현장용 휴머노이드를 만드는 텍사스(휴스턴) 회사의 조작 로봇러닝 인턴으로, 선착순이라 Summer 2027 지원을 서두를 만하다."
+take_en: "A manipulation robot-learning internship at a Houston, Texas humanoid company targeting shipyards and steel mills; it fills first-come first-served, so apply early for Summer 2027."
+sources: ["https://jobs.ashbyhq.com/persona.ai/ed9a7425-9798-471e-b46a-fefd59570630", "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"]
+last_verified: 2026-10-17

@@ -9,6 +9,7 @@ community: construction
 tier: 1
 metrics:
   jif: {value: 9.2, year: 2025}
+  citescore: {value: 14.7, year: 2025, quartile: Q1, category: "Civil and Structural Engineering", rank: "14/434"}
 access: open-access
 apc_usd: 4500
 orientation:
@@ -24,9 +25,10 @@ links:
   wiley_archive: "https://onlinelibrary.wiley.com/journal/14678667"
 sources:
   - "https://www.elsevier.com/about/policies-and-standards/pricing"
+  - "https://www.letpub.com.cn/index.php?journalid=1999&page=journalapp&view=detail"   # Scopus CiteScore table (June 2026 release); also Q1 in Computational Theory and Mathematics 7/203, Computer Graphics and CAD 7/131, Computer Science Applications 60/1022
   - "https://legacyfileshare.elsevier.com/els_com_pricing/article-publishing-charge.xlsx"
   - "https://api.crossref.org/journals/1467-8667"
   - "https://api.openalex.org/works?filter=primary_location.source.id:S206927758,from_publication_date:2026-01-01"
   - "https://www.bioxbio.com/journal/COMPUT-AIDED-CIV-INF"
   - "https://api.openalex.org/sources/S206927758"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

@@ -25,8 +25,10 @@ requirements_en: ["Application form (contact, enrollment, activities, experience
 nomination: false
 awards_per_year: "연 1–4명 (2023년엔 재단 장학금 전체 5명)"
 cycle:
-  typical: "연 1회 모집 (2023년 회차는 4월 30일 마감); 2026년 회차는 마감됐고 2027년 일정은 미공지"
-  typical_en: "One call a year (the 2023 round closed April 30); the 2026 round is closed and the 2027 schedule is not yet posted"
+  typical: "연 1회 모집 (2020년 회차는 8월 31일, 2023년 회차는 4월 30일 마감); 2026년 회차는 마감됐고 2027년 일정은 미공지 — 최근 패턴으로 4월 말 마감 추정"
+  typical_en: "One call a year (the 2020 round closed August 31, the 2023 round April 30); the 2026 round is closed and the 2027 schedule is not yet posted — an end-of-April deadline is estimated from the recent pattern"
+  deadlines:
+    - {kind: application, date: 2027-04-30, label: "2027년 지원 마감 (추정)", label_en: "2027 application deadline (estimated)", estimated: true}
 status: upcoming
 fit: 2
 take: "국적 제한은 없지만 연 1–4명·총 $10,000 규모에 건설관리(CM) 진로 의지가 핵심 심사 기준이라, 2027년 공고가 나오면 현장 자동화의 CM 활용 관점 에세이로 지원할 보조 후보다."
@@ -38,4 +40,4 @@ sources:
   - "https://www.cmaanet.org/sites/default/files/2020-06/2020%20CMAA%20Foundation%20Scholarship_FINAL.pdf"
   - "https://www.cmaanet.org/press-releases/cmaa-foundation-supports-students-scholarship-options"
   - "https://www.cmaanet.org/press-releases/cmaa-foundation-awards-five-scholarships-2023"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

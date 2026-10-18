@@ -170,8 +170,8 @@ companies:
     workday: {host: "symbotic.wd504.myworkdayjobs.com", tenant: "symbotic", site: "Symbotic"}
     relevant_now: true
     items: ["symbotic-robot-perception-intern-summer-2027"]
-    note: "Summer 2027 인턴·co-op 다수(Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing 등). Routing 인턴 파일은 적합도 1(창고 다중 로봇 경로계획)이라 2026-10-02 삭제. 회사 페이지 URL은 /careers/jobs/R<번호>/."
-    note_en: "Many Summer 2027 internships and co-ops (Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing, etc.). The Routing internship file was deleted on 2026-10-02 as fit 1 (warehouse multi-robot path planning). Company page URLs look like /careers/jobs/R<number>/."
+    note: "Summer 2027 인턴·co-op 다수(Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing 등). Routing 인턴 파일은 적합도 1(창고 다중 로봇 경로계획)이라 2026-10-02 삭제. 회사 페이지 URL은 /careers/jobs/R<번호>/. 2026-10-17 확인: host·tenant·site가 맞고 수집기와 같은 POST(searchText intern)가 JSON 200(총 70건)을 반환했다. 일일 수집의 JSONDecodeError(빈 응답)는 GitHub Actions IP에서의 일시적 차단·장애로 보이며, 반복되면 ats: custom으로 바꿀 것."
+    note_en: "Many Summer 2027 internships and co-ops (Robot Perception MS/PhD $32–44/h, Bot Controls, PhD Applied Scientist Routing, etc.). The Routing internship file was deleted on 2026-10-02 as fit 1 (warehouse multi-robot path planning). Company page URLs look like /careers/jobs/R<number>/. Checked 2026-10-17: host, tenant and site are correct, and the same POST the collector sends (searchText intern) returned JSON 200 (70 results). The daily JSONDecodeError (empty body) looks like a transient block or outage from GitHub Actions IPs; switch to ats: custom if it keeps failing."
   - name: "Dyna Robotics"
     org_type: robotics
     careers: "https://www.dyna.co/careers"

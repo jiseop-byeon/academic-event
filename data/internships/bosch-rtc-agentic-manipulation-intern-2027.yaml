@@ -1,0 +1,44 @@
+id: bosch-rtc-agentic-manipulation-intern-2027
+company: "Bosch"
+org_type: bigtech
+team: "Bosch Research and Technology Center North America — Intelligent Autonomous Systems"
+title: "Robotics Research Intern (Robotic Manipulation, Agentic Robotics)"
+fields: [manipulation, robotics, physical-ai, ml]
+degree: [phd, ms]
+season: "Term not stated (posted Oct 2026)"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 48
+  max: 69
+  currency: USD
+  unit: hour
+  source: posting
+  note: "미국 기본 시급 범위(공고 기재)"
+  note_en: "US base hourly range (stated in the posting)"
+required:
+  - "Current PhD or MS student in CS, robotics or related; GPA 3.0 or higher"
+  - "Experience using coding agents (e.g., Claude Code, Codex)"
+  - "Implementing algorithms on robot arms, humanoids or quadrupeds"
+  - "Python and C++ on Ubuntu with ROS 2"
+preferred:
+  - "Applying multimodal generative models, VLAs, VLMs or LLMs to robotics"
+  - "Isaac Sim, cuRobo; SAM/SAM2, DINOv2; Gaussian splatting or NeRFs"
+  - "Publications at ICRA, IROS, CoRL or RSS; embodiment transfer, learning from demonstration, semantic scene understanding"
+skills: [python, cpp, ros2, llm, vla, isaac-sim, motion-planning, gaussian-splatting]
+responsibilities:
+  - "Research state-of-the-art agentic robotics (coding agents for manipulation)"
+  - "Evaluate on a realistic industrial Bosch use case and make the techniques practical"
+  - "Report results and draft a paper for a top conference"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석·박사 재학생(GPA 3.0 이상) 대상이며 약물 검사·신원 조회가 있음. 인턴 시기는 명시되지 않음."
+eligibility_note_en: "No citizenship requirement in the posting. For current MS/PhD students with GPA 3.0 or higher; a drug screen and background check apply. The internship term is not stated."
+status: open
+posted: 2026-10-12
+apply_url: "https://jobs.smartrecruiters.com/BoschGroup/744000154911489"
+fit: 3
+take: "LLM 코딩 에이전트로 산업용 조작 과제를 푸는 Bosch 연구소 인턴이라 조작 연구에 최신 에이전트 기법을 더해 논문까지 노릴 수 있어 지원할 만하다."
+take_en: "A Bosch research internship using LLM coding agents for industrial manipulation tasks, with a paper as the goal — a good way to add agentic methods to manipulation research."
+sources: ["https://jobs.smartrecruiters.com/BoschGroup/744000154911489", "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000154911489"]
+last_verified: 2026-10-17

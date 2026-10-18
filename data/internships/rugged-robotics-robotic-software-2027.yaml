@@ -1,0 +1,32 @@
+id: rugged-robotics-robotic-software-2027
+company: "Rugged Robotics"
+org_type: construction-robotics
+team: "Software"
+title: "Robotic Software Intern/Co-op (Spring or Summer 2027)"
+fields: [construction, robotics, navigation, vision]
+degree: [phd, ms, bs]
+season: "Spring and/or Summer 2027"
+locations:
+  - {city: "Houston", region: "TX", country: US, lat: 29.76, lon: -95.37}
+work_mode: onsite
+required:
+  - "Experience with software and electromechanical systems from an internship, project or lab research"
+  - "Robotics and control: kinematics, sensor fusion, path planning, perception, calibration, firmware"
+  - "ROS, Python, C++; revision control and CI"
+  - "Hands-on deployment and debugging on physical hardware"
+skills: [ros, python, cpp, sensor-fusion, motion-planning, calibration, computer-vision, hardware]
+responsibilities:
+  - "Prototype and test software on construction layout robots in the lab and on customer jobsites"
+  - "Improve speed, precision and reliability by refining kinematics, algorithms and software features"
+  - "Run simulations and experiments to make engineering decisions"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 학위 단계는 명시되지 않음(인턴/코업). 휴스턴 본사 상주 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Degree level is not stated (intern/co-op). Onsite at the Houston headquarters."
+status: open
+posted: 2026-10-08
+apply_url: "https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005"
+fit: 3
+take: "텍사스(휴스턴)의 건설 레이아웃 로봇 회사가 실제 현장에서 로봇 소프트웨어를 다루는 인턴이라 건설 로보틱스 현장 경험을 쌓기에 딱 맞아 지원할 만하다."
+take_en: "A Houston construction-layout-robot company offering robot-software work on real jobsites — a direct way to gain field construction-robotics experience in Texas."
+sources: ["https://job-boards.greenhouse.io/ruggedrobotics/jobs/4730908005", "https://boards-api.greenhouse.io/v1/boards/ruggedrobotics/jobs/4730908005"]
+last_verified: 2026-10-17

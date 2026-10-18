@@ -1,0 +1,37 @@
+id: persona-ai-world-modeling-2027
+company: "Persona AI"
+org_type: robotics
+team: "Robotics Software Engineering — Autonomy (Behavior Coordination)"
+title: "Autonomy Software Engineering Internship, World Modeling"
+fields: [physical-ai, robotics, vision, ml]
+degree: [phd, ms, bs]
+season: "Summer 2027"
+locations:
+  - {city: "Houston", region: "TX", country: US, lat: 29.76, lon: -95.37}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in robotics, CS, ML, EE or related (recent graduates welcome)"
+  - "Training, fine-tuning or evaluating deep learning models in PyTorch"
+  - "Working familiarity with a VLM, LLM or video understanding model"
+  - "Data pipelines: ingestion, filtering, labeling, deduplication, splits"
+  - "Linux, Git, Docker and cloud GPUs"
+preferred:
+  - "NVIDIA Cosmos or comparable world foundation models"
+  - "Isaac Sim, Omniverse or OpenUSD for synthetic data"
+  - "Humanoid or mobile-manipulator robotics, ROS/ROS 2; behavior trees, TAMP or LLM planning"
+skills: [python, pytorch, world-models, foundation-models, isaac-sim, simulation, ros2]
+responsibilities:
+  - "Curate industrial video (shipyards, steel fabrication, welding cells) into training data and fine-tune world models (NVIDIA Cosmos)"
+  - "Build synthetic-data pipelines for post-training humanoid world models"
+  - "Design behavior evaluation, benchmarking and grounding/reasoning benchmarks"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 유급 여름 인턴(휴스턴 상주)으로 소개되며 공통 안내에는 Fall 2026·Spring 2027 기수도 있음."
+eligibility_note_en: "No citizenship requirement in the posting. Described as a paid summer internship onsite in Houston; the shared program text also lists Fall 2026 and Spring 2027 cohorts."
+status: open
+posted: 2026-08-03
+apply_url: "https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08"
+fit: 2
+take: "산업 현장 영상으로 휴머노이드 월드모델을 학습하는 텍사스 인턴이라 조작보다는 데이터·월드모델 쪽이지만 physical AI 경험으로는 의미 있다."
+take_en: "A Texas internship training humanoid world models on industrial-site video — more data and world models than manipulation, but solid physical-AI experience."
+sources: ["https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08", "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"]
+last_verified: 2026-10-17

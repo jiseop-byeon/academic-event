@@ -1,0 +1,37 @@
+id: field-ai-embodied-ai-irvine-2027
+company: "Field AI"
+org_type: robotics
+team: "Engineering — Mission, Interaction & Insights (Irvine)"
+title: "Robotics Research, Embodied AI Intern (Spring & Summer 2027)"
+fields: [physical-ai, robotics, hri, vision, navigation]
+degree: [phd]
+season: "Spring or Summer 2027"
+locations:
+  - {city: "Irvine", region: "CA", country: US, lat: 33.68, lon: -117.83}
+work_mode: onsite
+required:
+  - "Pursuing or recently completed a PhD in robotics, CS, aerospace, EE, ME or related"
+  - "Research foundation in robot learning, planning, embodied AI, perception, active perception or HRI"
+  - "Python and/or C++; modern ML frameworks"
+  - "Developing and evaluating algorithms for robotic systems"
+preferred:
+  - "Deploying autonomy on physical robots; ROS/ROS 2"
+  - "Publications at CoRL, ICRA, IROS, RSS, NeurIPS, CVPR or similar"
+  - "Imitation/reinforcement learning; active perception and viewpoint selection"
+  - "HRI, language-conditioned robotics, shared autonomy; fine-tuning VLM/VLA models"
+skills: [python, cpp, ros2, imitation-learning, reinforcement-learning, vla, foundation-models]
+responsibilities:
+  - "Research robot behavior learning for long-horizon tasks in unstructured environments"
+  - "Develop active perception, embodied reasoning and human-robot collaboration (task specification, intent adaptation)"
+  - "Adapt VLM/VLA and world models and evaluate on real robots toward publications"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정(또는 최근 졸업) 대상, 어바인 상주. 급여 범위 비공개."
+eligibility_note_en: "No citizenship requirement in the posting. For PhD students or recent PhDs, onsite in Irvine. No pay range posted."
+status: open
+posted: 2026-10-13
+apply_url: "https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704"
+fit: 2
+take: "HRI·사용자 의도 적응·능동 인지를 현장 로봇에서 연구하는 박사 인턴이라 조작이 핵심은 아니어도 HRI·인지 보조 축과 잘 맞는다."
+take_en: "A PhD internship on HRI, adapting to user intent and active perception on field robots — not manipulation-centered, but a good match for the HRI and perception side."
+sources: ["https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704", "https://api.lever.co/v0/postings/field-ai?mode=json"]
+last_verified: 2026-10-17

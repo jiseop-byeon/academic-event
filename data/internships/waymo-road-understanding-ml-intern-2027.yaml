@@ -2,7 +2,7 @@ id: waymo-road-understanding-ml-intern-2027
 company: "Waymo"
 org_type: autonomy
 team: "Waymo Road Understanding"
-title: "2027 Summer Intern, PhD, Road Understanding, ML Engineer"
+title: "2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer"
 fields: [vision, navigation, ml]
 degree: [phd]
 season: "Summer 2027"
@@ -43,4 +43,4 @@ take_en: "Road understanding that includes handling construction zones leaves ro
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8224746"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8224746"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

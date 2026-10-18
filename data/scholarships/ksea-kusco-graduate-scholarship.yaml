@@ -28,10 +28,10 @@ requirements_en: ["Online application (KSEA website, member login)", "CV (no pag
 nomination: false
 awards_per_year: "20명"
 cycle:
-  typical: "매년 봄 온라인 접수 (2026년: 3월 31일 오후 5시 ET 마감), 5월까지 KSEA 웹사이트에 발표, 8월 UKC에서 시상"
-  typical_en: "Online applications each spring (2026: deadline March 31 at 5 PM ET), winners posted on the KSEA website by May, awards presented at UKC in August"
+  typical: "매년 봄 온라인 접수 (2025·2026년 모두 3월 31일 오후 5시 ET 마감), 5월까지 KSEA 웹사이트에 발표, 8월 UKC에서 시상"
+  typical_en: "Online applications each spring (2025 and 2026: deadline March 31 at 5 PM ET), winners posted on the KSEA website by May, awards presented at UKC in August"
   deadlines:
-    - {kind: application, date: 2026-03-31, tz: "ET", time: "17:00", label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
+    - {kind: application, date: 2027-03-31, tz: "ET", time: "17:00", label: "2027년 지원 마감 (2025·2026년 패턴으로 추정)", label_en: "2027 application deadline (estimated from the 2025 and 2026 cycles)", estimated: true}
 status: upcoming
 apply_url: "https://www.ksea.org/scholarship"
 fit: 3
@@ -41,7 +41,8 @@ links:
   home: "https://award.ksea.org/scholarships/scholarships-for-graduates"
 sources:
   - "https://award.ksea.org/scholarships/scholarships-for-graduates"
+  - "https://web.archive.org/web/20250216213043/https://award.ksea.org/scholarships/scholarships-for-graduates"
   - "https://award.ksea.org/scholarships/scholarships-faqs"
   - "https://award.ksea.org/scholarships"
   - "https://www.ksea.org/scholarship"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

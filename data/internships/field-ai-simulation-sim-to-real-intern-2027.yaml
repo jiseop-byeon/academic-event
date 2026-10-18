@@ -2,7 +2,7 @@ id: field-ai-simulation-sim-to-real-intern-2027
 company: "Field AI"
 org_type: robotics
 team: "Simulation (Irvine)"
-title: "Simulation, Sim to Real (Internship Program)"
+title: "Simulation, Sim to Real Intern"
 fields: [robotics, physical-ai, navigation]
 degree: [phd, ms, bs]
 season: "12-week internship (term not stated)"
@@ -32,4 +32,4 @@ fit: 2
 take: "야외 현장 로봇의 sim-to-real 도구를 만드는 엔지니어링 인턴이라 연구 비중은 낮지만, 건설 현장 같은 비정형 환경의 시뮬레이션 역량을 쌓는 보조 지원처로 괜찮다."
 take_en: "An engineering internship building sim-to-real tools for outdoor field robots — light on research, but a decent backup for building simulation skills for unstructured environments like construction sites."
 sources: ["https://jobs.lever.co/field-ai/cce71d31-40a0-407f-b3b9-a586976b89b8", "https://api.lever.co/v0/postings/field-ai?mode=json"]
-last_verified: 2026-10-02
+last_verified: 2026-10-17

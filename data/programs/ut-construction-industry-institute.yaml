@@ -10,12 +10,12 @@ summary_en: "The research and development consortium of the capital-projects ind
 activities:
   - "CII 연구팀 과제에 PI 교수의 대학원 연구조교로 참여 — 방법론 설계, 데이터 수집·분석, 산업 위원과의 연 3–4회 팀 회의"
   - "연구 아이디어 제출 (누구나 가능)"
-  - "무료 CII 웨비나 — 2026년 10월 7일 RT 421 Advanced Planning Guide for Modularization 소개·시연"
+  - "CII 웨비나 — RT 421 모듈화 계획 가이드 소개·시연(2026년 10월 7일, 무료, 녹화 공개), 10월 27일 Craftforce Playbook(숙련 인력 확보), 10월 29일 RT 433 AWP·공정관리 통합"
   - "연례 연구 콘퍼런스(ARC, 2026년 덴버)와 Global AWP+ Conference(2026년 11월 18–20일, 텍사스 Conroe, 유료)"
 activities_en:
   - "Work as a graduate research assistant to a faculty PI on a CII Research Team — methodology, data collection and analysis, and three or four team meetings a year with industry members"
   - "Submit a research idea (open to anyone)"
-  - "Free CII webinars — RT 421 Advanced Planning Guide for Modularization intro and demo on October 7, 2026"
+  - "CII webinars — RT 421 Advanced Planning Guide for Modularization intro and demo (October 7, 2026; free; recording posted), Craftforce Playbook on building a sustainable craft workforce (October 27) and RT 433 AWP & Project Controls Integration (October 29)"
   - "The Annual Research Conference (ARC; Denver in 2026) and the Global AWP+ Conference (November 18–20, 2026, Conroe, Texas; paid)"
 benefits:
   - "120개 이상 회원사(발주처·EPC) 실무자와의 협업, 현장 데이터와 산업 문제에 대한 직접 접근"
@@ -37,13 +37,14 @@ cycle:
   typical: "매년 1월경 교수 대상 연구 RFQ, 2월부터 연구 주제 공개와 4월 말까지 산업 위원 추천, 새 연구팀 출범; 연례 연구 콘퍼런스(2026년 덴버, 8월 초 수상자 발표); 웨비나는 수시"
   typical_en: "A research RFQ for academics around January each year; research topics announced from February with industry nominations until late April, then new Research Teams start; the Annual Research Conference (Denver in 2026, awards announced in early August); webinars throughout the year"
   deadlines:
-    - {kind: event, date: 2026-10-07, label: "무료 CII 웨비나: RT 421 Advanced Planning Guide for Modularization (12–13시 CDT, 온라인)", label_en: "Free CII webinar: RT 421 Advanced Planning Guide for Modularization (12–1 p.m. CDT, online)"}
+    - {kind: event, date: 2026-10-27, label: "CII 웨비나: Craftforce Playbook — 지속 가능한 숙련 인력 확보 (12–13시)", label_en: "CII webinar: Craftforce Playbook — How Construction Industry Pioneers Are Building a Sustainable Craft Workforce (12–1 p.m.)"}
+    - {kind: event, date: 2026-10-29, label: "CII 웨비나: RT 433 AWP & Project Controls Integration (12–13시)", label_en: "CII webinar: RT 433 AWP & Project Controls Integration (12–1 p.m.)"}
     - {kind: event, date: 2026-11-18, label: "CII Global AWP+ Conference (11월 18–20일, 텍사스 Conroe, 유료)", label_en: "CII Global AWP+ Conference (November 18–20, Conroe, Texas; paid)"}
 status: ongoing
 apply_url: "https://www.construction-institute.org/engage-with-cii-research"
 fit: 2
-take: "학생 참여는 PI 교수의 연구조교 형태라 기술·AI 관련 연구팀이 생기면 지도교수와 참여를 상의하고, 그 전에는 무료 웨비나와 연구 아이디어 제출로 모듈화·AWP·안전 같은 산업 수요를 건설 로봇 연구의 동기와 평가에 연결하라."
-take_en: "Students take part as a PI's research assistant, so talk with your advisor when a technology or AI Research Team forms; meanwhile use the free webinars and the research-idea form to tie industry needs such as modularization, AWP and safety to the motivation and evaluation of construction-robotics work."
+take: "학생 참여는 PI 교수의 연구조교 형태라 기술·AI 관련 연구팀이 생기면 지도교수와 참여를 상의하고(새 연구팀 RFQ는 보통 1월), 그 전에는 웨비나(10/27·10/29)와 연구 아이디어 제출로 모듈화·AWP·안전 같은 산업 수요를 건설 로봇 연구의 동기와 평가에 연결하라."
+take_en: "Students take part as a PI's research assistant, so talk with your advisor when a technology or AI Research Team forms (the research RFQ usually comes in January); meanwhile use the webinars (Oct 27 and 29) and the research-idea form to tie industry needs such as modularization, AWP and safety to the motivation and evaluation of construction-robotics work."
 links:
   home: "https://www.construction-institute.org/"
   research: "https://www.construction-institute.org/research"
@@ -51,6 +52,7 @@ links:
   awards: "https://www.construction-institute.org/awards"
   awp_conference: "https://www.construction-institute.org/global-awp-conference"
 sources:
+  - "https://www.construction-institute.org/"
   - "https://www.construction-institute.org/about-cii"
   - "https://www.construction-institute.org/research"
   - "https://www.construction-institute.org/engage-with-cii-research"
@@ -60,4 +62,4 @@ sources:
   - "https://www.construction-institute.org/free-cii-webinar-rt-421-intro-and-demo-advanced-planning-guide-for-modularization"
   - "https://www.construction-institute.org/global-awp-conference"
   - "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013418/CEPM+Construction+Engineering+and+Project+Management"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

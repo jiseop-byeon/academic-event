@@ -1,0 +1,43 @@
+id: waymo-perception-foundation-models-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo AI Foundations"
+title: "2027 Summer Intern, MS/PhD, Research, Perception Foundation Models"
+fields: [vision, transportation, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 70
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "석사 $70, 박사 $85 시급(공고 기재)"
+  note_en: "hourly: MS $70, PhD $85 (stated in the posting)"
+required:
+  - "Pursuing an MS or PhD in CS, robotics, ML, EE or related"
+  - "Strong publication record at top AI/ML or robotics conferences"
+  - "Training and evaluating deep models for driving or robotics"
+  - "Python with PyTorch, JAX or TensorFlow"
+preferred:
+  - "Open-set perception models (e.g., SAM)"
+  - "Autonomous driving datasets; open-source foundation models"
+skills: [python, pytorch, jax, computer-vision, foundation-models]
+responsibilities:
+  - "Research, implement and evaluate zero-shot object detection for autonomous driving"
+  - "Improve Waymo's foundation models with research and engineering teams"
+  - "Share findings through technical reports or publications"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 하이브리드 근무이며 상시 접수(충원 시 마감). 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid; resumes are accepted on a rolling basis until filled. Waymo asks applicants to apply to their top three roles."
+status: open
+posted: 2026-10-07
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8257801"
+fit: 2
+take: "SAM류 open-set 인지로 자율주행 zero-shot 검출을 연구하는 인턴이라 인지 연구 실적이 있으면 교통·자율주행 쪽 후보로 둘 만하다."
+take_en: "Zero-shot detection research for driving with SAM-style open-set perception — a transportation and autonomy option if you have perception publications."
+sources: ["https://careers.withwaymo.com/jobs?gh_jid=8257801", "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8257801?pay_transparency=true"]
+last_verified: 2026-10-17

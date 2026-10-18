@@ -26,4 +26,4 @@ take_en: "One of the few ERDC construction-engineering lab postings without citi
 notes: "직전 Spring/Summer 공고(ERDC-CERL-2026-0001)는 2025-12-08 게시 — 2027년 Spring/Summer 공고도 비슷한 시기에 나올 수 있으나 한 번의 사례에 근거한 추정. duration_weeks의 최솟값은 공고에 명시되지 않아 1로 둠."
 notes_en: "The previous Spring/Summer posting (ERDC-CERL-2026-0001) went up on 2025-12-08; the 2027 Spring/Summer posting may appear around the same time, but that is an estimate from a single cycle. The posting gives no minimum duration, so duration_weeks starts at 1."
 sources: ["https://www.zintellect.com/Opportunity/Details/ERDC-CERL-2026-0004", "https://www.erdc.usace.army.mil/Locations/CERL/"]
-last_verified: 2026-10-02
+last_verified: 2026-10-17

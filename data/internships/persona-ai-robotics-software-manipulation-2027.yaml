@@ -1,0 +1,37 @@
+id: persona-ai-robotics-software-manipulation-2027
+company: "Persona AI"
+org_type: robotics
+team: "Software Engineering — Manipulation"
+title: "Robotics Software Internship, Manipulation"
+fields: [manipulation, robotics, physical-ai, haptics]
+degree: [phd, ms, bs]
+season: "Spring 2027 (Jan–May) or Summer 2027 (May–Aug)"
+locations:
+  - {city: "Houston", region: "TX", country: US, lat: 29.76, lon: -95.37}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in robotics, CS, ME/EE or related"
+  - "Coursework, research or projects on control and manipulation of robot or humanoid arms"
+  - "Motion planning, control theory and optimization fundamentals"
+  - "C++ and/or Python; ROS, MoveIt, Drake or similar"
+  - "Deep learning and computer vision basics (point clouds, segmentation, detection)"
+preferred:
+  - "Contact modeling, force/torque estimation or tactile sensing for dexterous tasks"
+  - "Learning-based grasping, behavior cloning or reinforcement learning for manipulation"
+  - "Published manipulation research"
+skills: [cpp, python, ros, motion-planning, control, force-control, tactile-sensing, mujoco, isaac-sim, point-cloud]
+responsibilities:
+  - "Design and implement dexterous manipulation for humanoids with multi-fingered hands (grasping, dual-arm, in-hand)"
+  - "Implement force/motion control and visual/tactile servoing; integrate with whole-body control"
+  - "Build digital-twin simulations in MuJoCo and Isaac Sim and run sim and real tests"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 학사–박사 재학생 지원 가능. 기수별 선착순 마감."
+eligibility_note_en: "No citizenship requirement in the posting. Open to BS through PhD students. Each cohort fills first-come first-served."
+status: open
+posted: 2026-08-28
+apply_url: "https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc"
+fit: 3
+take: "힘·촉각 기반 dexterous manipulation과 MuJoCo/Isaac 디지털 트윈을 직접 다루는 텍사스 휴머노이드 인턴이라 contact-rich 조작 연구와 가장 가깝다."
+take_en: "A Texas humanoid internship working hands-on with force/tactile dexterous manipulation and MuJoCo/Isaac digital twins — about as close to contact-rich manipulation research as it gets."
+sources: ["https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc", "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"]
+last_verified: 2026-10-17

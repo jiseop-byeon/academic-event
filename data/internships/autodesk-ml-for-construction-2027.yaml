@@ -1,0 +1,50 @@
+id: autodesk-ml-for-construction-2027
+company: "Autodesk"
+org_type: construction-tech
+team: "Autodesk Research — AI for AEC"
+title: "PhD Researcher Intern, Machine Learning for Construction"
+fields: [construction, ml]
+degree: [phd]
+season: "Winter–Spring 2027 (Feb 1 – Apr 30)"
+start: "2027-02"
+duration: "12 weeks (Feb 1 – Apr 30, 2027)"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Boston", region: "MA", country: US, lat: 42.36, lon: -71.06}
+work_mode: unknown
+pay:
+  min: 118560
+  max: 162240
+  currency: USD
+  unit: year
+  source: posting
+  note: "박사과정 인턴 연환산 기본급(공고 기재)"
+  note_en: "annualized base salary for PhD interns (stated in the posting)"
+required:
+  - "Current PhD in CS, ML, Data Science, Civil Engineering, Construction Informatics or related, graduating no sooner than April 2027"
+  - "Research experience in graph ML on heterogeneous knowledge graphs (GNNs, graph transformers, link prediction, graph self-supervised learning)"
+  - "Temporal graph models or time-series forecasting"
+  - "Uncertainty-aware prediction (calibration, small or imbalanced labels)"
+  - "Python and PyTorch; graph query languages"
+preferred:
+  - "Time-series, state-space or multimodal modeling; Bayesian or probabilistic modeling"
+  - "NLP or LLMs for technical text and AEC data"
+  - "AEC data or workflows (building models, drawings, schedules, project records)"
+  - "Knowledge graph engineering (Neo4j/Cypher, ontologies)"
+  - "Publications at NeurIPS, ICML, KDD or Automation in Construction, ASCE computing journals, ISARC, CIB W78"
+skills: [python, pytorch, graph-neural-networks, knowledge-graphs, time-series, uncertainty-estimation, llm]
+responsibilities:
+  - "Own an open research question in ML/AI for AEC project data, from framing to results"
+  - "Build graph-based and temporal models with calibrated uncertainty on large heterogeneous project data"
+  - "Document and present results, possibly toward publications"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 대상이며 2027년 4월 이후 졸업 예정이어야 함. 2–4월 학기 중 진행되므로 학업 일정과 병행 가능 여부 확인 필요. 대면 온보딩·신원 확인이 있을 수 있음."
+eligibility_note_en: "No citizenship requirement in the posting. For current PhD students graduating no earlier than April 2027. It runs Feb–Apr during the semester, so check it fits your academic schedule. In-person onboarding and ID verification may be required."
+status: open
+posted: 2026-10-05
+apply_url: "https://autodesk.wd1.myworkdayjobs.com/uni/job/Boston-MA-USA/Phd-Researcher--Machine-Learning-for-Construction_26WD101430"
+fit: 2
+take: "Automation in Construction·ISARC를 우대 실적으로 명시한 드문 건설 AI 연구 인턴이지만 로봇이 아닌 그래프·시계열 ML 중심이고 학기 중(2–4월)이라 일정이 맞을 때 지원할 만하다."
+take_en: "A rare construction-AI research internship that names Automation in Construction and ISARC as preferred venues, but it centers on graph and time-series ML rather than robots and runs Feb–Apr, so apply if the timing works."
+sources: ["https://autodesk.wd1.myworkdayjobs.com/uni/job/Boston-MA-USA/Phd-Researcher--Machine-Learning-for-Construction_26WD101430", "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Boston-MA-USA/Phd-Researcher--Machine-Learning-for-Construction_26WD101430-1"]
+last_verified: 2026-10-17

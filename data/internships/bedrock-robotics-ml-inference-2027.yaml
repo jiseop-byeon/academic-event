@@ -23,4 +23,4 @@ fit: 2
 take: "건설기계 위에서 VLA를 실시간으로 돌리는 경험은 귀하지만 Rust/CUDA 시스템 역량이 핵심이라, 해당 스킬이 없다면 같은 회사의 Behavior ML 포지션을 우선하는 편이 낫다."
 take_en: "Running VLAs in real time on construction machines is rare experience, but Rust/CUDA systems skills are the core; without them, prioritize the same company's Behavior ML roles."
 sources: ["https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8", "https://api.ashbyhq.com/posting-api/job-board/bedrock-robotics?includeCompensation=true"]
-last_verified: 2026-10-02
+last_verified: 2026-10-17

@@ -28,8 +28,8 @@ requirements: ["관심 진술서 (750–1,000단어, 1.5줄 간격, 12pt)", "이
 requirements_en: ["Statement of interest (750–1,000 words, 1.5 spacing, 12-pt font)", "Résumé or CV (2-page limit)", "Nomination letter from the faculty advisor"]
 nomination: true
 cycle:
-  typical: "2026년 회차: 1월 23일(금) 지원 마감, 5/31–6/4 워싱턴 DC 개최 — 2027년 일정은 미공지"
-  typical_en: "2026 cycle: applications due Friday, January 23; program held May 31–June 4 in Washington, DC — 2027 dates not yet posted"
+  typical: "2026년 회차: 1월 23일(금) 지원 마감, 5/31–6/4 워싱턴 DC 개최 — 2026-10-17 현재 공식 페이지는 아직 2026년 회차 기준이며 2027년 일정은 미공지 (이전 회차 마감일을 확인하지 못해 추정 날짜는 넣지 않음; 1월 말 마감이 반복될 가능성)"
+  typical_en: "2026 cycle: applications due Friday, January 23; program held May 31–June 4 in Washington, DC — as of 2026-10-17 the official page still shows the 2026 cycle and the 2027 dates are not posted (earlier cycles' deadlines could not be confirmed, so no estimated date is given; a late-January deadline may repeat)"
   deadlines:
     - {kind: application, date: 2026-01-23, label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
 status: upcoming
@@ -42,4 +42,4 @@ links:
 sources:
   - "https://enotrans.org/course/ldc/"
   - "https://enotrans.org/"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

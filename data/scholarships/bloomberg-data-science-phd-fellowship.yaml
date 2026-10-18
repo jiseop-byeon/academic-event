@@ -24,17 +24,19 @@ eligibility:
   notes: "유학생 지원 가능(open to international applicants). 펠로십 기간 다른 기업 펠로십 중복 수혜 불가(비기업 재원은 사안별 허용). 매년 여름 14주 인턴십(뉴욕/런던) 참여가 조건. 2027–28 공모 주제: agentic AI·도구 사용, 에이전트 평가, 코드 생성, 효율적 모델, 인간–AI 협업, 검색·RAG, 요약·생성, 지식 그래프, LLM 사후학습, 멀티모달·문서 AI, 시계열·금융 AI, 신뢰 가능한 AI — 로보틱스·비전 단독 주제는 없음. 공식 페이지(bloomberg.com·techatbloomberg.com)가 자동 접속을 차단해 Bloomberg가 ACL 포털에 올린 공지와 UChicago 대학원 펠로십 DB로 확인함."
   notes_en: "Open to international applicants. Cannot be combined with another corporate fellowship during the award (non-corporate funding considered case by case). A 14-week summer internship (New York/London) each year is a condition. Topics for the 2027–28 call: agentic AI and tool use, agent evaluation, code generation, efficient models, human-AI collaboration, retrieval and RAG, summarization and generation, knowledge graphs, LLM post-training, multimodal and document AI, time series and AI for finance, trustworthy AI — no robotics or stand-alone vision topic. The official pages (bloomberg.com, techatbloomberg.com) block automated access, so details were checked via Bloomberg's announcement on the ACL Portal and the UChicago fellowship database."
 cycle:
-  typical: "매년 가을 공모 — 2027–28 공모는 9월 초 공지, 2026년 9월 25일(AoE) 마감"
-  typical_en: "Fall call each year — the 2027–28 call was announced in early September and closed September 25, 2026 (AoE)"
+  typical: "가을 공모 — 2026–27 공모는 2025년 11월 공지·12월 14일(AoE) 마감·2026년 2월 9일 발표, 2027–28 공모는 2026년 9월 초 공지·9월 25일(AoE) 마감. 2028–29 공모는 미발표이며 다음 마감은 2027년 9월 말(최근 회차 기준)로 추정, 12월까지 늦어질 수 있음"
+  typical_en: "Fall call — the 2026–27 call was announced in November 2025, closed December 14 (AoE) and named fellows on February 9, 2026; the 2027–28 call was announced in early September 2026 and closed September 25 (AoE). The 2028–29 call is not announced; the next deadline is estimated for late September 2027 (latest cycle), possibly as late as December"
   deadlines:
-    - {kind: application, date: 2026-09-25, tz: "AoE", time: "23:59", label: "2027–28 지원 마감(지난 라운드)", label_en: "2027–28 application deadline (last round)"}
-status: closed
+    - {kind: application, date: 2026-09-25, tz: "AoE", time: "23:59", label: "2027–28 지원 마감(참고)", label_en: "2027–28 application deadline (reference)"}
+    - {kind: application, date: 2027-09-24, tz: "AoE", label: "2028–29 지원 마감 (추정)", label_en: "2028–29 application deadline (estimated)", estimated: true}
+status: upcoming
 fit: 1
-take: "2027–28 라운드(9월 25일 마감)는 끝났고, 주제가 LLM·검색·금융 데이터과학 중심에 매년 뉴욕/런던 14주 인턴십이 조건이라 접촉 기반 조작 연구와는 거리가 머니 참고용으로만 둬라."
-take_en: "The 2027–28 round (deadline Sep 25) is over, and the topics center on LLMs, retrieval and financial data science with a mandatory 14-week New York/London internship each year — far from contact-rich manipulation, so keep it for reference only."
+take: "2027–28 라운드(9월 25일 마감)는 끝났고 다음 라운드는 2027년 가을로 예상되지만, 주제가 LLM·검색·금융 데이터과학 중심에 매년 뉴욕/런던 14주 인턴십이 조건이라 접촉 기반 조작 연구와는 거리가 머니 참고용으로만 둬라."
+take_en: "The 2027–28 round (deadline Sep 25) is over and the next is expected in fall 2027, but the topics center on LLMs, retrieval and financial data science with a mandatory 14-week New York/London internship each year — far from contact-rich manipulation, so keep it for reference only."
 links:
   home: "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/"
 sources:
   - "https://www.aclweb.org/portal/content/3-12686-applications-open-2027-2028-bloomberg-data-science-phd-fellowship"
+  - "https://www.aclweb.org/portal/content/applications-open-2026-2027-bloomberg-data-science-phd-fellowship"
   - "https://grad.uchicago.edu/fellowship/bloomberg-data-science-ph-d-fellowship/"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

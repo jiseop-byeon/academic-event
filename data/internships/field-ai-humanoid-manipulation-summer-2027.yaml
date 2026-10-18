@@ -2,7 +2,7 @@ id: field-ai-humanoid-manipulation-summer-2027
 company: "Field AI"
 org_type: robotics
 team: "Research (Boston R&D)"
-title: "Robotics Research Internship, Humanoid Manipulation (Summer 2027) | PhD Internship"
+title: "Robotics Research, Humanoid Manipulation Intern (Summer 2027) | PhD"
 fields: [manipulation, physical-ai, robotics]
 degree: [phd]
 season: "Summer 2027"
@@ -30,4 +30,4 @@ fit: 3
 take: "박사과정 전용·논문 게재를 목표로 하는 humanoid manipulation 인턴이라 contact-rich 조작 연구와 직결되고 시급($40–60)도 공개돼 있어 여름 인턴 1순위 후보로 지원할 만하다."
 take_en: "A PhD-only humanoid-manipulation internship aimed at publications — directly tied to contact-rich manipulation research, with posted pay ($40–60/h); a first-choice summer application."
 sources: ["https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820", "https://api.lever.co/v0/postings/field-ai?mode=json"]
-last_verified: 2026-10-02
+last_verified: 2026-10-17

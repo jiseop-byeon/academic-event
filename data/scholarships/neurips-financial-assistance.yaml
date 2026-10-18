@@ -1,15 +1,15 @@
 id: neurips-financial-assistance
-name: "NeurIPS 2026 Financial Assistance"
+name: "NeurIPS Financial Assistance"
 organizer: "Neural Information Processing Systems Foundation (NeurIPS)"
 org_type: society
 type: travel-grant
 fields: [ml]
 amount:
-  summary: "무료 등록(현장 또는 온라인) + 배정 도시(시드니·애틀랜타·파리) 숙박 선결제 — 항공·현지 교통·식비·일비는 미지원"
-  summary_en: "Complimentary registration (in person or virtual) + prepaid accommodation in the assigned city (Sydney, Atlanta or Paris) — flights, local transport, meals and per diem are not covered"
+  summary: "2026년 기준: 무료 등록(현장 또는 온라인) + 배정 도시(시드니·애틀랜타·파리) 숙박 선결제 — 항공·현지 교통·식비·일비는 미지원"
+  summary_en: "2026 terms: complimentary registration (in person or virtual) + prepaid accommodation in the assigned city (Sydney, Atlanta or Paris) — flights, local transport, meals and per diem are not covered"
   covers: ["registration", "lodging"]
-duration: "NeurIPS 2026 1회 (시드니 본 행사 12/6–12, 애틀랜타·파리 위성 행사 12/9–13)"
-duration_en: "NeurIPS 2026 only (Sydney main event Dec 6–12; Atlanta and Paris satellites Dec 9–13)"
+duration: "NeurIPS 1회 참가 (2026: 시드니 본 행사 12/6–12, 애틀랜타·파리 위성 행사 12/9–13; 2027: 유럽, 도시·일정 미정)"
+duration_en: "One NeurIPS conference (2026: Sydney main event Dec 6–12, Atlanta and Paris satellites Dec 9–13; 2027: Europe, city and dates not yet set)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "제한 없음"
@@ -25,19 +25,23 @@ requirements: ["Financial Assistance 신청서 (NeurIPS.cc 계정 로그인)", "
 requirements_en: ["Financial Assistance application (NeurIPS.cc account)", "OpenReview profile ID", "Feasible locations, with reasons for any you cannot attend"]
 nomination: false
 cycle:
-  typical: "학회 약 3개월 전 접수 — 2026년은 9/7 오픈, 10/6 마감, 10/14까지 통보"
-  typical_en: "Opens about three months before the conference — 2026: opened Sep 7, closes Oct 6, decisions by Oct 14"
+  typical: "9월 초 오픈, 10월 초 마감, 약 8일 뒤 통보 — 2025년 9/1 오픈·10/2 마감·10/10 통보, 2026년 9/7 오픈·10/6 마감·10/14 통보. NeurIPS 2027(유럽) 일정은 미발표라 같은 패턴으로 추정"
+  typical_en: "Opens in early September, closes in early October, decisions about eight days later — 2025: opened Sep 1, closed Oct 2, decisions Oct 10; 2026: opened Sep 7, closed Oct 6, decisions Oct 14. NeurIPS 2027 (Europe) dates are not announced, so the same pattern is assumed"
   deadlines:
-    - {kind: application, date: 2026-10-06, tz: "AoE", time: "23:59", label: "신청 마감", label_en: "Application deadline"}
-    - {kind: result, date: 2026-10-14, tz: "AoE", time: "23:59", label: "결과 통보 기한", label_en: "Notification by"}
-status: open
-apply_url: "https://neurips.cc/Conferences/2026/FinancialAssistance"
+    - {kind: application, date: 2026-10-06, tz: "AoE", time: "23:59", label: "NeurIPS 2026 신청 마감(참고)", label_en: "NeurIPS 2026 application deadline (reference)"}
+    - {kind: application, date: 2027-10-04, tz: "AoE", label: "NeurIPS 2027 신청 마감 (추정)", label_en: "NeurIPS 2027 application deadline (estimated)", estimated: true}
+    - {kind: result, date: 2027-10-12, tz: "AoE", label: "NeurIPS 2027 결과 통보 (추정)", label_en: "NeurIPS 2027 notification (estimated)", estimated: true}
+status: upcoming
+apply_url: "https://neurips.cc/"
 fit: 2
-take: "마감(10월 6일 AoE)이 나흘 남았으니 NeurIPS 2026에 채택 논문이나 워크숍 발표가 있으면 애틀랜타 위성 행사를 선택지에 넣어 바로 신청하라 — 항공비는 지원되지 않는다."
-take_en: "The deadline (Oct 6 AoE) is four days away — if you have an accepted NeurIPS 2026 paper or workshop contribution, apply now and include the Atlanta satellite among your locations; airfare is not covered."
+take: "NeurIPS 2026 신청은 마감됐으니, NeurIPS 2027(유럽)에 채택 논문이나 워크숍 발표가 생기면 9월 초 오픈에 맞춰 신청하라 — 2026년 기준 항공비는 지원되지 않아 유럽 왕복 항공비는 따로 마련해야 한다."
+take_en: "The NeurIPS 2026 round is closed — if you have an accepted paper or workshop contribution at NeurIPS 2027 (Europe), apply when it opens in early September; under the 2026 terms airfare is not covered, so budget separately for the flight to Europe."
 links:
-  home: "https://neurips.cc/Conferences/2026/FinancialAssistance"
+  home: "https://neurips.cc/"
+  last_edition: "https://neurips.cc/Conferences/2026/FinancialAssistance"
 sources:
   - "https://neurips.cc/Conferences/2026/FinancialAssistance"
   - "https://neurips.cc/Conferences/2026"
-last_verified: 2026-10-02
+  - "https://neurips.cc/Conferences/2025/FinancialAssistance"
+  - "https://neurips.cc/Conferences/FutureMeetings"
+last_verified: 2026-10-17

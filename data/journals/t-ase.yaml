@@ -9,7 +9,7 @@ community: robotics
 tier: 2
 metrics:
   jif: {value: 7.9, year: 2025}
-  citescore: {value: 10.3, year: 2025}
+  citescore: {value: 10.3, year: 2025, quartile: Q1, category: "Control and Systems Engineering", rank: "42/390"}
   h5_index: {value: 83, year: 2025}
 review:
   blind: double
@@ -40,7 +40,8 @@ sources:
   - "https://www.ieee-ras.org/publications/t-ase/"
   - "https://www.ieee-ras.org/publications/t-ase/information-for-authors/"
   - "https://ieeexplore.ieee.org/rest/publication/home/metadata?pubid=8856"
+  - "https://www.letpub.com.cn/index.php?journalid=3365&page=journalapp&view=detail"   # Scopus CiteScore table (June 2026 release); also Q1 in Electrical and Electronic Engineering 104/1030
   - "https://www.bioxbio.com/journal/IEEE-T-AUTOM-SCI-ENG"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
   - "https://api.openalex.org/sources?filter=issn:1545-5955"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

@@ -1,0 +1,45 @@
+id: gm-embodied-ai-research-phd-summer-2027
+company: "General Motors"
+org_type: autonomy
+team: "Embodied AI Research"
+title: "2027 Summer Intern, AI Research, Embodied AI (PhD)"
+fields: [physical-ai, transportation, ml, vision]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: hybrid
+pay:
+  min: 14600
+  max: 14600
+  currency: USD
+  unit: month
+  source: posting
+  note: "월 $14,600(공고 기재), 일회성 지원금 별도"
+  note_en: "$14,600 per month (stated in the posting), plus a one-time stipend"
+required:
+  - "Pursuing a PhD in ML, AI, CS, robotics or related"
+  - "Modern ML and deep learning; Python with PyTorch, TensorFlow or JAX"
+  - "Demonstrated AI/ML research experience"
+  - "Full-time (40 h/week) availability"
+preferred:
+  - "Transformers, LLMs, VLMs, VLA models, diffusion or other generative models"
+  - "RL, imitation learning, self-supervised learning, world models, multimodal or temporal modeling"
+  - "First-authored papers at NeurIPS, CVPR, ICML, ICLR, RSS, ICRA, CoRL or similar"
+  - "Graduating between December 2027 and June 2028"
+skills: [python, pytorch, jax, vla, world-models, imitation-learning, reinforcement-learning, foundation-models]
+responsibilities:
+  - "Applied research on foundation models, VLA and world models for autonomous driving"
+  - "Design experiments and ablations; train on large-scale driving data"
+  - "Contribute to publications, patents or open source"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 주 3일 출근 하이브리드. 우대 사항에 2027년 12월–2028년 6월 졸업 예정이 들어 있어 초년차 박사과정생은 불리할 수 있음."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid, three office days a week. The preferred list includes graduating between Dec 2027 and Jun 2028, which may disadvantage early-stage PhD students."
+status: open
+posted: 2026-10-15
+apply_url: "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146"
+fit: 2
+take: "자율주행용 VLA·월드모델 연구 인턴으로 급여가 높지만 2027–28년 졸업자를 우대하므로 교통·자율주행 쪽 경험을 원할 때 보조 후보로 둘 만하다."
+take_en: "A well-paid VLA and world-model research internship for driving, but it prefers 2027–28 graduates; keep it as a backup for transportation and autonomy experience."
+sources: ["https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146"]
+last_verified: 2026-10-17

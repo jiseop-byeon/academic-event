@@ -29,8 +29,8 @@ requirements: ["Statement of Interest 3–4쪽 (선택한 research challenge 기
 requirements_en: ["Statement of Interest, 3–4 pages (for the chosen research challenge)", "Research summary (≤100 words)", "CV", "Two recommendation letters (student-led proposals)", "Faculty approval"]
 nomination: false
 cycle:
-  typical: "2025년 첫 라운드는 11월 초 접수 시작, 12월 중순 마감(ET), 이듬해 2월 말 결과 통보, 3–4월 지급 — 2026–27 라운드 일정은 미발표"
-  typical_en: "The first round in 2025 opened in early November and closed in mid-December (ET), with results in late February and payment in March–April — the 2026–27 round has not been announced"
+  typical: "2025년 첫 라운드는 11월 초 접수 시작, 12월 중순 마감(ET), 이듬해 2월 말 결과 통보, 3–4월 지급 — 2026-10-17 현재 다음 라운드 일정은 미발표 (새 제도의 과거 회차가 하나뿐이라 추정 날짜는 넣지 않음; 2025년처럼 11월 오픈·12월 중순 마감이 반복될 가능성)"
+  typical_en: "The first round in 2025 opened in early November and closed in mid-December (ET), with results in late February and payment in March–April — as of 2026-10-17 the next round has not been announced (the new program has only one past round, so no estimated date is given; a November opening and mid-December deadline as in 2025 may repeat)"
   deadlines:
     - {kind: application, date: 2025-12-16, tz: "ET", label: "2025년 마감(참고)", label_en: "2025 deadline (reference)"}
     - {kind: result, date: 2026-02-27, label: "2025년 라운드 결과 통보(참고)", label_en: "2025 round results (reference)"}
@@ -48,4 +48,4 @@ sources:
   - "https://www.microsoft.com/en-us/research/academic-program/microsoft-research-fellowship/research-challenges/"
   - "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/"
   - "https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/canada-us/"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

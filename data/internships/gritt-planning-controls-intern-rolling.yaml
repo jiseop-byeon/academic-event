@@ -1,0 +1,36 @@
+id: gritt-planning-controls-intern-rolling
+company: "Gritt"
+org_type: construction-robotics
+team: "Planning & Controls"
+title: "Robotics Planning & Controls Engineer Intern"
+fields: [construction, manipulation, robotics, hri]
+degree: [phd, ms, bs]
+season: "Rolling (3- or 6-month internship)"
+duration: "3 or 6 months"
+duration_weeks: [12, 26]
+locations:
+  - {city: "South San Francisco", region: "CA", country: US, lat: 37.65, lon: -122.41}
+work_mode: onsite
+required:
+  - "Pursuing an MS/PhD in robotics, ME, EE or related (strong BS welcome)"
+  - "Dynamics, optimization and control theory; strong C++ or Python"
+  - "Hands-on robot hardware, competition or research experience"
+  - "Legally authorized to intern in the US for 3 or 6 months"
+preferred:
+  - "MPC, whole-body control, sampling- or optimization-based planners"
+skills: [cpp, python, motion-planning, control, hardware]
+responsibilities:
+  - "Develop motion planning or control algorithms and take them to hardware"
+  - "Benchmark against baselines and tune for real-world robustness"
+  - "Example projects: safe-stop and human-avoidance around live crews, manipulation from a moving base on rough terrain"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국에서 3개월 또는 6개월 인턴을 할 수 있는 법적 자격만 요구(유학생은 CPT 등으로 충족 가능 여부 확인). 시기는 명시되지 않음. 급여는 경쟁력 있다고만 밝힘."
+eligibility_note_en: "No citizenship requirement in the posting. It only asks for legal authorization to intern in the US for 3 or 6 months (international students should check whether CPT or similar covers this). Term not stated. Pay is described only as competitive."
+status: rolling
+posted: 2026-08-24
+apply_url: "https://jobs.ashbyhq.com/gritt/df9254b5-e323-411a-a36f-57bd24a3de56"
+fit: 2
+take: "작업자 주변 안전 정지·회피와 험지 이동 베이스 조작을 다루는 건설 로봇 계획·제어 인턴이라 HRI 안전과 조작 제어 경험을 함께 쌓을 수 있다."
+take_en: "Planning and control for construction robots — safe stops and avoidance around crews, manipulation from a moving base on rough terrain — combining HRI safety with manipulation control."
+sources: ["https://jobs.ashbyhq.com/gritt/df9254b5-e323-411a-a36f-57bd24a3de56", "https://api.ashbyhq.com/posting-api/job-board/gritt?includeCompensation=true"]
+last_verified: 2026-10-17

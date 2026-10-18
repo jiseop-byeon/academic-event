@@ -10,12 +10,12 @@ summary_en: "UT Austin's interdisciplinary research grand challenge on designing
 activities:
   - "매년 봄 심포지엄 참석·포스터 발표 — 2026년부터 ML Lab·Texas Robotics와 공동 개최(2026년 3월 3–4일, 655명 참석)"
   - "참여 교수의 연구실을 통해 핵심 프로젝트(Living and Working with Robots, Smart Hand Tools 등)나 2026년 시드 그랜트 팀에 학생 연구원으로 참여"
-  - "공개 행사 — 2026년 10월 15일 다큐멘터리 'Running With Scissors: AI and the Race for the Future' 상영·Q&A"
+  - "공개 행사 — 2026년 10월 27일 'Agency and Accountability for AI in Education'(EER 2.518, 사전 등록), 10월 15일 다큐멘터리 'Running With Scissors' 상영·Q&A(종료)"
   - "학부·대학원 대상 윤리적 AI 교육 프로그램(4개 이상, MS in AI 필수 과목 포함)과 팟캐스트 'Generation AI'"
 activities_en:
   - "Attend the annual spring symposium and present a poster — co-hosted with the ML Lab and Texas Robotics since 2026 (March 3–4, 2026; 655 attendees)"
   - "Join a core project (Living and Working with Robots, Smart Hand Tools and others) or a 2026 seed-grant team as a student researcher through a participating faculty member's lab"
-  - "Public events — screening and Q&A of the documentary 'Running With Scissors: AI and the Race for the Future' on October 15, 2026"
+  - "Public events — 'Agency and Accountability for AI in Education' on October 27, 2026 (EER 2.518, registration), after the October 15 screening and Q&A of the documentary 'Running With Scissors' (past)"
   - "Ethical AI education programs for undergraduate and graduate students (4+, including a required course for the MS in AI) and the 'Generation AI' podcast"
 benefits:
   - "윤리·신뢰 관점의 HRI 연구 네트워크 — Joydeep Biswas, Luis Sentis, Peter Stone, Junfeng Jiao 등 로봇 프로젝트 교수진"
@@ -38,7 +38,7 @@ cycle:
   typical: "매년 봄 심포지엄(2022년 4월 7–8일, 2025년 봄, 2026년 3월 3–4일 공동 심포지엄), 공개 강연·행사는 수시"
   typical_en: "Annual spring symposium (April 7–8, 2022; spring 2025; joint symposium March 3–4, 2026), with public talks and events through the year"
   deadlines:
-    - {kind: event, date: 2026-10-15, label: "다큐멘터리 상영·Q&A 'AI and the Race for the Future' (18:00–20:30)", label_en: "Documentary screening and Q&A: AI and the Race for the Future (6–8:30 p.m.)"}
+    - {kind: event, date: 2026-10-27, label: "Agency and Accountability for AI in Education (10:00–12:00, EER 2.518, 사전 등록)", label_en: "Agency and Accountability for AI in Education (10 a.m.–noon, EER 2.518; registration)"}
     - {kind: event, date: 2027-03-02, label: "연례 봄 심포지엄 — 2027년 일정 미발표, 최근 패턴으로 3월 초 추정", label_en: "Annual spring symposium — 2027 date not announced; early March estimated from recent editions", estimated: true}
 status: ongoing
 apply_url: "https://bridgingbarriers.utexas.edu/good-systems"
@@ -65,4 +65,4 @@ sources:
   - "https://bridgingbarriers.utexas.edu/news/changing-chairs"
   - "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/"
   - "https://ai.utexas.edu/news/2026/ai-ethics-documentary-ethics-unwrapped-features-good-systems-researchers"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

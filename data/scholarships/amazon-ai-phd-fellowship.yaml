@@ -30,8 +30,8 @@ cycle:
     - {kind: result, date: 2025-10-21, label: "1기 펠로 발표(참고)", label_en: "First cohort announced (reference)"}
 status: closed
 fit: 2
-take: "공개 모집이 없으니 지도교수를 통해 UT–Amazon Science Hub 펠로십 선발 시기를 확인하고, 건설 현장 로봇 조작 연구로 Science Hub 추천을 받는 경로를 노려라."
-take_en: "There is no open call — ask your advisor when the UT–Amazon Science Hub fellowship selects, and aim for a Science Hub nomination with your construction-site robot manipulation research."
+take: "Amazon AI PhD Fellowship은 2025년 1기(2025–26·2026–27 지원)로 종료돼 2026-10 현재 신규 모집이 없으니, 대신 지도교수를 통해 UT–Amazon Science Hub 1년 펠로십 선발 시기를 확인하고 건설 현장 로봇 조작 연구로 추천을 노려라."
+take_en: "The Amazon AI PhD Fellowship has ended for new applicants — its single 2025 cohort is funded for 2025–26 and 2026–27 and no new call exists as of October 2026 — so instead ask your advisor when the UT–Amazon Science Hub one-year fellowship selects, and aim for a nomination with your construction-site robot manipulation research."
 links:
   home: "https://www.amazon.science/news/amazon-launches-68-million-ai-phd-fellowship-program"
   ut_science_hub: "https://sciencehub.utexas.edu/funding/"
@@ -41,4 +41,4 @@ sources:
   - "https://sciencehub.utexas.edu/funding/"
   - "https://sciencehub.utexas.edu/phd-fellowship-recipients/"
   - "https://www.amazon.science/news-and-features/amazon-and-university-of-texas-at-austin-launch-science-hub"
-last_verified: 2026-10-02
+last_verified: 2026-10-17

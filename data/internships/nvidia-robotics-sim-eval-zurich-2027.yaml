@@ -1,0 +1,36 @@
+id: nvidia-robotics-sim-eval-zurich-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "Robotics (Zurich)"
+title: "Robotics Simulation and Evaluation PhD Intern - Summer 2027"
+fields: [physical-ai, manipulation, robotics, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Zurich", country: CH, lat: 47.38, lon: 8.54}
+work_mode: unknown
+required:
+  - "Enrolled in a PhD in CS, EE, robotics or related"
+  - "Research in agentic policies, world action models, robot policy training/evaluation or sim-to-real"
+  - "Strong Python and PyTorch or JAX"
+preferred:
+  - "First-author papers at CoRL, RSS, ICRA, IROS, NeurIPS, ICML, ICLR or CVPR"
+  - "RL, imitation learning or fine-tuning VLA/world models for robotics"
+  - "GPU-accelerated physics simulation (PhysX, Isaac Lab, Newton, MJX) and domain randomization"
+  - "Deploying learned policies on manipulators, humanoids or mobile robots"
+skills: [python, pytorch, jax, isaac-sim, simulation, reinforcement-learning, imitation-learning, vla, world-models]
+responsibilities:
+  - "Scope and run a novel robot-learning project using GPU-accelerated simulation and real hardware"
+  - "Build baselines, evaluation protocols and ablations"
+  - "Deliver prototypes, patents, product contributions and top-venue papers"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 스위스 취리히 근무이므로 현지 인턴 체류·근무 허가 조건은 지원 후 확인 필요. 급여는 공개되지 않음."
+eligibility_note_en: "No citizenship requirement in the posting. The role is in Zurich, Switzerland, so local internship residence and work-permit terms need to be confirmed after applying. Pay is not posted."
+status: open
+posted: 2026-10-09
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Simulation-and-Evaluation-PhD-Intern---Summer-2027_JR2027531"
+fit: 2
+take: "GPU 시뮬레이션·sim-to-real·정책 평가를 다루는 NVIDIA 취리히 로보틱스 인턴이라 조작 정책 연구와 맞지만 유럽 근무라 미국 인턴과 함께 보조 후보로 둘 만하다."
+take_en: "An NVIDIA Zurich robotics internship on GPU simulation, sim-to-real and policy evaluation — a fit for manipulation-policy work, but it is in Europe, so treat it as a secondary option next to US roles."
+sources: ["https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Switzerland-Zurich/Robotics-Simulation-and-Evaluation-PhD-Intern---Summer-2027_JR2027531"]
+last_verified: 2026-10-17

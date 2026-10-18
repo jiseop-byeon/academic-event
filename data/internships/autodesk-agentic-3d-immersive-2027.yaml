@@ -1,0 +1,48 @@
+id: autodesk-agentic-3d-immersive-2027
+company: "Autodesk"
+org_type: construction-tech
+team: "Autodesk Research — AI, spatial computing and AEC"
+title: "PhD Researcher Intern, Agentic 3D Modeling in Immersive Environments"
+fields: [ar, vision, construction, ml]
+degree: [phd]
+season: "Summer 2027"
+start: "2027-05"
+duration: "16 weeks (May 24 – Sep 10, 2027)"
+duration_weeks: [16, 16]
+locations:
+  - {city: "New York", region: "NY", country: US, lat: 40.71, lon: -74.01}
+  - {city: "Boston", region: "MA", country: US, lat: 42.36, lon: -71.06}
+work_mode: remote
+pay:
+  min: 118560
+  max: 162240
+  currency: USD
+  unit: year
+  source: posting
+  note: "박사과정 인턴 연환산 기본급(공고 기재)"
+  note_en: "annualized base salary for PhD interns (stated in the posting)"
+required:
+  - "Current PhD in CS, ML, Computer Graphics, Computational Design or related, finishing in 2028 or later"
+  - "Research experience in AI/ML, computer vision, reality capture and 3D reconstruction, or 3D geometry generation"
+  - "Python and modern ML frameworks"
+  - "Track record through projects, open source or publications"
+preferred:
+  - "Multimodal AI or vision-language models; world models, AI agents or spatial intelligence"
+  - "3D, simulation or virtual environments; human perception or human-centered AI"
+  - "Modern 3D modeling and reconstruction (e.g., Gaussian splats); AEC or computational design"
+skills: [python, pytorch, 3d-vision, gaussian-splatting, foundation-models, llm, simulation]
+responsibilities:
+  - "Research multimodal AI for generating and editing 3D representations of built environments in immersive, editable world models"
+  - "Develop methods with foundation models, AI agents or world models; benchmark AI predictions against human responses"
+  - "Build research prototypes and publish findings"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 2028년 이후 졸업 예정 박사과정생 대상. 근무지는 뉴욕(원격 표기)·보스턴이며 대면 온보딩·신원 확인이 있을 수 있음."
+eligibility_note_en: "No citizenship requirement in the posting. For PhD students finishing in 2028 or later. Listed as New York (remote) and Boston; in-person onboarding and ID verification may be required."
+status: open
+posted: 2026-10-15
+apply_url: "https://autodesk.wd1.myworkdayjobs.com/uni/job/New-York-USA---Remote/PhD-Researcher--Agentic-3D-Modeling-in-Immersive-Environments_26WD101374"
+fit: 2
+take: "건설 환경의 reality capture·Gaussian splat·몰입형 월드모델을 다루는 AEC 연구 인턴이라 AR·인지 쪽 이력을 살려 여름 지원 후보로 넣을 만하다."
+take_en: "An AEC research internship on reality capture, Gaussian splats and immersive world models of built environments — worth a summer application that leans on AR and perception work."
+sources: ["https://autodesk.wd1.myworkdayjobs.com/uni/job/New-York-USA---Remote/PhD-Researcher--Agentic-3D-Modeling-in-Immersive-Environments_26WD101374", "https://autodesk.wd1.myworkdayjobs.com/Ext/job/New-York-USA---Remote/PhD-Researcher--Agentic-3D-Modeling-in-Immersive-Environments_26WD101374-1"]
+last_verified: 2026-10-17
