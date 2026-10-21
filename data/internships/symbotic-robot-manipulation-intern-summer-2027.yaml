@@ -1,0 +1,47 @@
+id: symbotic-robot-manipulation-intern-summer-2027
+company: "Symbotic"
+org_type: robotics
+team: "Robot Manipulation"
+title: "Intern- Robot Manipulation"
+fields: [manipulation, robotics]
+degree: [ms, bs]
+season: "Summer 2027"
+start: "2027-05"
+duration: "May–Aug 2027"
+locations:
+  - {city: "Wilmington", region: "MA", country: US, lat: 42.55, lon: -71.17}
+work_mode: onsite
+pay:
+  min: 32
+  max: 41.8
+  currency: USD
+  unit: hour
+  source: posting
+  note: "윌밍턴(MA) 기준 시급 범위(공고 기재)"
+  note_en: "posted base range for Wilmington, MA"
+required:
+  - "Pursuing a Bachelor's or Master's in CS, robotics, engineering or related"
+  - "Linux, C++, Python, Matlab; Git and CI/CD (Docker or Jenkins)"
+  - "Simulation tools such as MuJoCo, Isaac Sim or PyBullet"
+  - "Forward/inverse kinematics for custom kinematic chains; linear algebra and 3D geometry"
+  - "Libraries such as OMPL, cuRobo, OpenCV, PCL, ROS, Eigen; embedded sensors and actuators over CAN, SPI or I2C"
+preferred:
+  - "Motion planning, trajectory optimization and grasping"
+skills: [cpp, python, matlab, motion-planning, mujoco, isaac-sim, ros, point-cloud, embedded, control]
+responsibilities:
+  - "Develop motion planning algorithms and state machines for robotic manipulators, simulating motion with internal tools"
+  - "Design control software for end-of-arm tools and grippers; define field metrics for pick-and-place quality"
+  - "Apply data-driven / ML optimization from data curation to inference and support system testing"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 상태 차별 금지 명시). 학부·석사 대상이라 박사과정은 해당되지 않을 수 있음. 유효한 운전면허, 최대 10% 출장, 개인 신용카드로 경비 선결제 요건. 이주 요건 충족 시 교통·주거 지원."
+eligibility_note_en: "No citizenship requirement in the posting (the EEO statement prohibits discrimination by citizenship status). Aimed at Bachelor's and Master's students, so PhD students may not qualify. Requires a valid driver's license, up to 10% travel and paying expenses up front on a personal credit card. Travel and housing support if relocation criteria are met."
+status: open
+posted: 2026-10-19
+apply_url: "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278"
+fit: 2
+take: "그리퍼 제어·모션 플래닝·pick-and-place 품질 지표를 다루는 실무형 조작 인턴이지만 학부·석사 대상이라, 석사 학위 과정 중이거나 박사 지원이 허용되는지 확인한 뒤 보조 지원처로 넣어라."
+take_en: "Hands-on manipulation work — gripper control, motion planning and pick-and-place quality metrics — but aimed at Bachelor's and Master's students; treat it as a backup if you qualify at the MS level or can confirm PhD applicants are considered."
+sources:
+  - "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278"
+  - "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278"
+last_verified: 2026-10-20

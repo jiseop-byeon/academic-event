@@ -1,0 +1,46 @@
+id: waymo-visual-reasoning-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Waymo AI Foundations"
+title: "2027 Summer Intern, PhD, Research Scientist, Visual Reasoning"
+fields: [vision, transportation, ml]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 시급 $85(공고 기재)"
+  note_en: "PhD hourly $85 (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, ML, robotics, EE or related"
+  - "Hands-on experience and strong publications in perception and/or LLM/VLM"
+  - "Knowledge of pre-training and post-training of large foundation models"
+  - "Strong Python with PyTorch, JAX or TensorFlow"
+preferred:
+  - "Visual reasoning for LLM/VLM, robotics or driving"
+  - "RL training for LLM/VLM or robotics"
+  - "Open-vocabulary perception"
+skills: [python, pytorch, jax, computer-vision, foundation-models, llm, reinforcement-learning]
+responsibilities:
+  - "Research visual and spatio-temporal reasoning methods for multimodal perception foundation models on AV sensor data"
+  - "Design SFT and RL post-training recipes to improve perception generalization in long-tail driving scenarios"
+  - "Run large-scale experiments and publish at CVPR, ICCV, ECCV, NeurIPS, ICLR or ICML"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; applicants are advised to apply to at most their top three roles."
+status: open
+posted: 2026-10-19
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8292367"
+fit: 1
+take: "VLM 시각 추론·사후학습 연구라 perception 논문 실적이 탄탄해야 하고 건설·조작과 거리가 있으니, 비전 쪽 실적이 쌓이기 전까지는 참고용이다."
+take_en: "VLM visual-reasoning and post-training research that expects strong perception publications and sits far from construction and manipulation — reference only until your vision record grows."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8292367"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8292367"
+last_verified: 2026-10-20

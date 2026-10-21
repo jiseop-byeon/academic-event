@@ -1,0 +1,47 @@
+id: ai2-research-intern-robotics-2027
+company: "The Allen Institute for AI (Ai2)"
+org_type: lab
+team: "Ai2 Robotics"
+title: "Research Internship, Robotics"
+fields: [robotics, physical-ai, manipulation, ml]
+degree: [phd]
+season: "Spring/Summer 2027"
+start: "flexible"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+work_mode: onsite
+pay:
+  min: 140000
+  max: 140000
+  currency: USD
+  unit: year
+  source: posting
+  note: "박사과정 연 환산 $140,000 (석사 $106,110, 학부 $94,320) — 공고 기재"
+  note_en: "PhD annualized $140,000 (Master's $106,110, undergrad $94,320) — stated in the posting"
+required:
+  - "Pursuing a PhD in robotics, machine learning or a related field"
+  - "Interest and experience in cutting-edge AI and robotics research"
+preferred:
+  - "Publications at CoRL, ICRA, IROS, RSS or NeurIPS"
+  - "Strong software engineering in physics simulation, machine learning and robot control"
+skills: [python, pytorch, simulation, reinforcement-learning, world-models, foundation-models, control]
+responsibilities:
+  - "Research on foundation models and skills for robotics, from low-level control and scaled simulation to world models, RL and agentic systems"
+  - "Contribute to fully open datasets, benchmarks and models, and run experiments on real robots"
+  - "Work with a mentor; no publication restrictions on internship work"
+citizenship: none
+eligibility_note: "공고에 '해외 지원자 환영, 비자 스폰서십 가능'이라고 명시. 시애틀 사무실 출근. 2027 봄/여름 인턴은 2027/1/8 오후 11시(PT)까지 지원해야 검토."
+eligibility_note_en: "The posting states international candidates are welcome and visa sponsorship is available. On-site at the Seattle office. Apply by Jan 8, 2027, 11:00 pm PT to be considered for Spring/Summer 2027."
+status: open
+posted: 2026-10-19
+deadline: 2027-01-08
+apply_url: "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641"
+fit: 3
+take: "실로봇 실험·오픈 데이터셋·로봇 파운데이션 모델을 출판 제한 없이 다루고 해외 지원자를 명시적으로 환영하는 박사 인턴이라, 1월 8일 마감 전에 조작(manipulation) 연구 방향을 앞세워 꼭 지원하라."
+take_en: "A PhD internship on robot foundation models, open datasets and real-robot experiments with no publication restrictions that explicitly welcomes international applicants — apply before the Jan 8 deadline, leading with your manipulation research direction."
+sources:
+  - "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641"
+  - "https://boards-api.greenhouse.io/v1/boards/thealleninstitute/jobs/8293641"
+last_verified: 2026-10-20

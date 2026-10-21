@@ -1,0 +1,45 @@
+id: waymo-sim-closed-loop-training-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Software Engineering — Simulation & Closed-Loop Training"
+title: "2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training"
+fields: [transportation, ml, physical-ai]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 시급 $85(공고 기재)"
+  note_en: "PhD hourly $85 (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, ML, robotics or related, graduating between Dec 2027 and Aug 2028 (returning to school for at least one term after)"
+  - "Strong tensor implementation and debugging in Python with JAX/Flax or PyTorch; training Transformers, diffusion/flow models or deep RL networks"
+  - "Deep research expertise in RL and post-training, or in generative world, sequence or trajectory modeling"
+preferred:
+  - "First-author papers at NeurIPS, ICML, ICLR, CVPR, CoRL, RSS or ICRA on RL post-training, flow/diffusion policy optimization or world models"
+  - "Multi-agent closed-loop simulation, sim2real or reward-hacking mitigation (Waymax, WOMD, nuPlan, IsaacGym/MuJoCo)"
+  - "Scaling distributed training on TPUs or multi-node GPUs; C++/Python interfaces"
+skills: [python, jax, pytorch, reinforcement-learning, diffusion-policy, world-models, simulation, cpp]
+responsibilities:
+  - "Design and scale RL post-training and distillation algorithms for foundation world models in simulation and driving"
+  - "Build learned reward models, realism critics and discriminators in a closed-loop multi-agent simulator"
+  - "Run large-scale closed-loop ablations on TPU clusters and write production JAX code"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드, 2027년 12월–2028년 8월 졸업 예정자만 대상이라 초년차 박사과정생은 해당하지 않음. 지원은 상위 3개 직무까지 권장."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; limited to PhD students graduating between Dec 2027 and Aug 2028, so early-stage PhD students do not qualify. Applicants are advised to apply to at most their top three roles."
+status: open
+posted: 2026-10-19
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8283558"
+fit: 1
+take: "RL 사후학습·월드모델 기반 폐루프 시뮬레이션이라는 강한 ML 과제지만 2027–28년 졸업 예정 박사만 받으므로 지금은 참고용으로만 두라."
+take_en: "Strong ML work on RL post-training and world-model closed-loop simulation, but it only takes PhDs graduating in 2027–28 — keep it for reference only for now."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8283558"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8283558"
+last_verified: 2026-10-20

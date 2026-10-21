@@ -1,4 +1,8 @@
 # Newest first. The update agent adds one entry per run (see agent/AGENT.md), in Korean and English.
+- date: 2026-10-20
+  by: "update run"
+  summary: "인턴십 6개 추가(Ai2 로보틱스 연구, Symbotic 로봇 조작, Waymo 시뮬레이션·폐루프 학습 및 시각 추론, GM SEAM, SpAItial 3D 월드모델), HRI Pioneers·Qualcomm QIF 마감 처리 후 다음 회차 추정 마감 추가, Carbon Robotics 채용 보드를 Ashby로 수정"
+  summary_en: "Added 6 internships (Ai2 robotics research, Symbotic robot manipulation, Waymo simulation & closed-loop training and visual reasoning, GM SEAM, SpAItial 3D world models); marked HRI Pioneers and Qualcomm QIF deadlines as passed and added estimated next-cycle deadlines; switched Carbon Robotics' job board to Ashby"
 - date: 2026-10-17
   by: "update run (5 agents)"
   summary: "인턴십 81개 전부 재확인(17개 추가: 건설 로봇 GRITT·Rugged, 텍사스 조작 Persona AI·Valstad 등), 장학금·대외활동 다음 주기 반영(IBM·Amazon 종료), CACAIE·T-ASE Q1 확인"

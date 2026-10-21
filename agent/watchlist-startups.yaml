@@ -355,11 +355,11 @@ companies:
   - name: "Carbon Robotics"
     org_type: robotics
     careers: "https://carbonrobotics.com/job-openings"
-    ats: greenhouse
-    token: "carbonrobotics"
+    ats: ashby
+    token: "carbon-robotics"
     relevant_now: false
-    note: "인턴 없음."
-    note_en: "No internships."
+    note: "인턴 없음. 2026-10-20: Greenhouse 'carbonrobotics'가 404 — 채용 페이지가 Ashby 보드 'carbon-robotics'를 임베드하며, posting-api가 JSON 200(공고 3건, 인턴 0건)을 반환함을 확인."
+    note_en: "No internships. 2026-10-20: Greenhouse 'carbonrobotics' returned 404 — the careers page now embeds the Ashby board 'carbon-robotics', and its posting API returned JSON 200 (3 postings, no internships)."
   - name: "Torc Robotics"
     org_type: autonomy
     careers: "https://torc.ai/careers/"

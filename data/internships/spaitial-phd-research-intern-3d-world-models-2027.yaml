@@ -1,0 +1,37 @@
+id: spaitial-phd-research-intern-3d-world-models-2027
+company: "SpAItial"
+org_type: lab
+team: "Research — 3D World Models"
+title: "PhD Research Intern, 3D World Models"
+fields: [vision, physical-ai, ml]
+degree: [phd]
+season: "2027 (5–7 months)"
+start: "flexible"
+duration: "5–7 months"
+duration_weeks: [22, 30]
+locations:
+  - {city: "Munich", country: DE, lat: 48.14, lon: 11.58}
+  - {city: "London", country: GB, lat: 51.51, lon: -0.13}
+work_mode: onsite
+required:
+  - "Enrolled in the third year or beyond of a PhD in CS, computer vision, graphics, ML or related"
+  - "2–3 first-author papers at CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS or ICLR"
+  - "Knowledge of generative (diffusion or video) models, neural scene representations or 3D reconstruction"
+skills: [python, pytorch, 3d-vision, gaussian-splatting, neural-rendering, world-models]
+responsibilities:
+  - "Own a well-defined research question in 3D generation, reconstruction or world models, aiming at a paper"
+  - "Design, implement and evaluate state-of-the-art methods as working prototypes"
+  - "Publish at CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS or ICLR"
+citizenship: unknown
+eligibility_note: "뮌헨·런던 현장 근무. 공고에 국적·근무 허가 언급이 없어 영국·독일 체류/근무 자격은 별도 확인 필요. 박사 3년차 이상·1저자 논문 2–3편이 필수. 급여 비공개."
+eligibility_note_en: "On-site in Munich or London. The posting does not mention nationality or work permits, so UK/German work eligibility needs checking. Requires PhD year 3+ and 2–3 first-author papers. Pay not posted."
+status: open
+posted: 2026-10-20
+apply_url: "https://jobs.ashbyhq.com/spaitial/39ab566f-8626-4633-a0ab-504e082032d6"
+fit: 1
+take: "3D 생성·재구성 월드모델 연구 인턴이지만 박사 3년차 이상·톱티어 1저자 2–3편을 요구하고 유럽 근무라, 지금은 참고용으로만 두라."
+take_en: "A research internship on generative 3D world models, but it requires PhD year 3+ with 2–3 top-tier first-author papers and is based in Europe — reference only for now."
+sources:
+  - "https://jobs.ashbyhq.com/spaitial/39ab566f-8626-4633-a0ab-504e082032d6"
+  - "https://api.ashbyhq.com/posting-api/job-board/spaitial"
+last_verified: 2026-10-20
