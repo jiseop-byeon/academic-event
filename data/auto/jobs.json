@@ -1,7 +1,227 @@
 {
- "collected_at": "2026-10-26T17:29:48+00:00",
+ "collected_at": "2026-10-27T16:46:33+00:00",
  "boards_polled": 82,
  "postings": [
+  {
+   "id": "workday:trimble.wd1.myworkdayjobs.com:Geospatial-Support-Analyst-Intern_R57921",
+   "company": "Trimble",
+   "org_type": "construction-tech",
+   "title": "Geospatial Support Analyst Intern",
+   "location": "Canada - Richmond Hill, Ontario (Applanix)",
+   "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Geospatial-Support-Analyst-Intern_R57921",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:trimble.wd1.myworkdayjobs.com:Geospatial-Product-Engineering-Intern_R58213",
+   "company": "Trimble",
+   "org_type": "construction-tech",
+   "title": "Geospatial Product Engineering Intern",
+   "location": "Canada - Richmond Hill, Ontario (Applanix)",
+   "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Geospatial-Product-Engineering-Intern_R58213",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:trimble.wd1.myworkdayjobs.com:Navigation---Machine-Learning-Engineering-Intern--16-Months-_R57980",
+   "company": "Trimble",
+   "org_type": "construction-tech",
+   "title": "Firmware & Machine Learning Engineering Intern (16 Months)",
+   "location": "Canada - Richmond Hill, Ontario (Applanix)",
+   "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Navigation---Machine-Learning-Engineering-Intern--16-Months-_R57980",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "machine learning"
+   ]
+  },
+  {
+   "id": "simplify:apply",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Toyota Research Institute",
+   "title": "Robotics Intern - Trustworthy Learning under Uncertainty",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424/apply",
+   "posted": "2026-10-27",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:Software-Engineering-Intern--AI-Agents-and-Backend-Infrastru",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "NVIDIA",
+   "title": "Software Engineer Intern - AI Agents and Backend Infrastructure",
+   "location": "Bristol, UK; Belfast, UK; Remote in UK",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939",
+   "posted": "2026-10-27",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "infrastructure"
+   ]
+  },
+  {
+   "id": "simplify:4467398009",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Lila Sciences",
+   "title": "Robot Perception & State Estimation Co-op",
+   "location": "Cambridge, MA",
+   "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4467398009",
+   "posted": "2026-10-27",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Spring 2027"
+   ],
+   "matched": [
+    "perception",
+    "robot"
+   ]
+  },
+  {
+   "id": "workday:hp.wd5.myworkdayjobs.com:AI---Automation-Intern_UNI3950-1",
+   "company": "HP (SitePrint)",
+   "org_type": "construction-tech",
+   "title": "AI & Automation Intern",
+   "location": "Sant Cugat del Valles, Barcelona, Spain",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Sant-Cugat-del-Valles-Barcelona-Spain/AI---Automation-Intern_UNI3950-1",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "ai"
+   ]
+  },
+  {
+   "id": "workday:hp.wd5.myworkdayjobs.com:College-Intern---Process-and-Digitalization_UNI4586-2",
+   "company": "HP (SitePrint)",
+   "org_type": "construction-tech",
+   "title": "College Intern - Process and Digitalization",
+   "location": "Singapore, South West, Singapore",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Process-and-Digitalization_UNI4586-2",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:cat.wd5.myworkdayjobs.com:Communication-Intern-2_R0000401982",
+   "company": "Caterpillar",
+   "org_type": "construction-tech",
+   "title": "Communication Intern-2",
+   "location": "Wuxi, Jiangsu",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Wuxi-Jiangsu/Communication-Intern-2_R0000401982",
+   "posted": "2026-10-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "lever:tri:f6541d1f-b72f-456f-829f-bf118ac10c43",
+   "company": "Toyota Research Institute",
+   "org_type": "lab",
+   "title": "Robotics Intern, Post-Training and Continual Learning",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43",
+   "posted": "2026-10-26",
+   "pay": null,
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "lever:tri:6f60ff79-c902-466a-912c-7ab849ce6424",
+   "company": "Toyota Research Institute",
+   "org_type": "lab",
+   "title": "Robotics Intern, Trustworthy Learning under Uncertainty",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424",
+   "posted": "2026-10-26",
+   "pay": null,
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "lever:tri:016bbb58-857a-4367-b1aa-0cdc9f818478",
+   "company": "Toyota Research Institute",
+   "org_type": "lab",
+   "title": "Robotics Intern, World Foundation Models",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478",
+   "posted": "2026-10-26",
+   "pay": null,
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:apply",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Toyota Research Institute",
+   "title": "Robotics Intern - World Foundation Models",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478/apply",
+   "posted": "2026-10-26",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:apply",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Toyota Research Institute",
+   "title": "Robotics Intern - Post-Training and Continual Learning",
+   "location": "Los Altos, CA",
+   "url": "https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43/apply",
+   "posted": "2026-10-26",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
   {
    "id": "ashby:skydio:ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
    "company": "Skydio",
@@ -101,12 +321,134 @@
    ]
   },
   {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Skydio",
+   "title": "Autonomy Engineer Intern - Simulation & Robotics",
+   "location": "San Mateo, CA",
+   "url": "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17/application?embed=true",
+   "posted": "2026-10-26",
+   "degrees": [],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "autonom",
+    "robot",
+    "simulation"
+   ]
+  },
+  {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Skydio",
+   "title": "Autonomy Engineer Intern - Reinforcement Learning",
+   "location": "San Mateo, CA",
+   "url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application?embed=true",
+   "posted": "2026-10-26",
+   "degrees": [],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "autonom",
+    "reinforcement"
+   ]
+  },
+  {
    "id": "workday:oshkoshcorporation.wd5.myworkdayjobs.com:Operations-Excellence-Intern_R51075",
    "company": "Oshkosh / JLG",
    "org_type": "construction-tech",
    "title": "Operations Excellence Intern",
    "location": "Spartanburg, South Carolina, United States",
    "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/Oshkosh/job/Spartanburg-South-Carolina-United-States/Operations-Excellence-Intern_R51075",
+   "posted": "2026-10-26",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "ashby:niantic-spatial:ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
+   "company": "Niantic Spatial",
+   "org_type": "robotics",
+   "title": "Software Engineering Intern (Summer 2027) - Native SDK & Mobile Platforms",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/niantic-spatial/ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
+   "posted": "2026-10-26",
+   "pay": "$48 – $70 per hour",
+   "matched": [
+    "ai",
+    "computer vision",
+    "physical ai",
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:1471718241508516",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Meta",
+   "title": "Research Scientist Intern - Robotics",
+   "location": "Burlingame, CA",
+   "url": "https://www.metacareers.com/jobs/1471718241508516",
+   "posted": "2026-10-26",
+   "degrees": [],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:4465059009",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Lila Sciences",
+   "title": "Agentic Simulations for Materials Science Co-op",
+   "location": "Cambridge, MA; SF",
+   "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4465059009",
+   "posted": "2026-10-26",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, AI/ML Engineer, Mapping (PhD)",
+   "location": "Warren, Michigan, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778",
+   "posted": "2026-10-26",
+   "pay": null,
+   "matched": [
+    "ai",
+    "ml"
+   ]
+  },
+  {
+   "id": "workday:disney.wd5.myworkdayjobs.com:Disney-Entertainment-Television-Communication-Intern--Spring-2027_10160863",
+   "company": "Disney Research",
+   "org_type": "lab",
+   "title": "Disney Entertainment Television Communication Intern, Spring 2027",
+   "location": "Burbank, CA, USA",
+   "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Burbank-CA-USA/Disney-Entertainment-Television-Communication-Intern--Spring-2027_10160863",
    "posted": "2026-10-26",
    "pay": null,
    "matched": [
@@ -223,19 +565,6 @@
    ]
   },
   {
-   "id": "workday:hp.wd5.myworkdayjobs.com:College-Intern---New-Product-Introduction-Engineering--NPI-IT-Control-Systems-_UNI4546-1",
-   "company": "HP (SitePrint)",
-   "org_type": "construction-tech",
-   "title": "College Intern - New Product Introduction Engineering (NPI IT Control Systems)",
-   "location": "Singapore, South West, Singapore",
-   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---New-Product-Introduction-Engineering--NPI-IT-Control-Systems-_UNI4546-1",
-   "posted": "2026-10-25",
-   "pay": null,
-   "matched": [
-    "control"
-   ]
-  },
-  {
    "id": "workday:nvidia.wd5.myworkdayjobs.com:Research-Intern--Robotics---2027_JR2028499",
    "company": "NVIDIA",
    "org_type": "bigtech",
@@ -348,20 +677,6 @@
    "pay": null,
    "matched": [
     "intern"
-   ]
-  },
-  {
-   "id": "workday:trimble.wd1.myworkdayjobs.com:Navigation---Machine-Learning-Engineering-Intern--16-Months-_R57980",
-   "company": "Trimble",
-   "org_type": "construction-tech",
-   "title": "Navigation & Machine Learning Engineering Intern (16 Months)",
-   "location": "Canada - Richmond Hill, Ontario (Applanix)",
-   "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Navigation---Machine-Learning-Engineering-Intern--16-Months-_R57980",
-   "posted": "2026-10-23",
-   "pay": null,
-   "matched": [
-    "machine learning",
-    "navigation"
    ]
   },
   {
@@ -512,19 +827,6 @@
    ]
   },
   {
-   "id": "workday:oshkoshcorporation.wd5.myworkdayjobs.com:Advanced-Manufacturing-Intern_R49618",
-   "company": "Oshkosh / JLG",
-   "org_type": "construction-tech",
-   "title": "Manufacturing Simulation Intern",
-   "location": "McConnellsburg, Pennsylvania, United States",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/Oshkosh/job/McConnellsburg-Pennsylvania-United-States/Advanced-Manufacturing-Intern_R49618",
-   "posted": "2026-10-23",
-   "pay": null,
-   "matched": [
-    "simulation"
-   ]
-  },
-  {
    "id": "workday:nvidia.wd5.myworkdayjobs.com:Reinforcement-Learning-and-World-Model-for-Autonomous-Simulation-Intern---2027_JR2028022",
    "company": "NVIDIA",
    "org_type": "bigtech",
@@ -671,6 +973,32 @@
    "pay": null,
    "matched": [
     "intern"
+   ]
+  },
+  {
+   "id": "amazon:Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126):applied-scientist-intern",
+   "company": "Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126)",
+   "org_type": "bigtech",
+   "title": "Applied Scientist Intern",
+   "location": "Zurich, Zurich, CHE",
+   "url": "https://www.amazon.jobs/en/jobs/10581054/applied-scientist-intern",
+   "posted": "2026-10-23",
+   "pay": null,
+   "matched": [
+    "applied scientist"
+   ]
+  },
+  {
+   "id": "amazon:Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126):applied-scientist-intern-rivr",
+   "company": "Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126)",
+   "org_type": "bigtech",
+   "title": "Applied Scientist Intern, RIVR",
+   "location": "Zurich, Zurich, CHE",
+   "url": "https://www.amazon.jobs/en/jobs/10581056/applied-scientist-intern-rivr",
+   "posted": "2026-10-23",
+   "pay": null,
+   "matched": [
+    "applied scientist"
    ]
   },
   {
@@ -846,32 +1174,6 @@
     "control",
     "controls",
     "robot"
-   ]
-  },
-  {
-   "id": "workday:oshkoshcorporation.wd5.myworkdayjobs.com:DSM-MBD-Engineer-Intern_R51331",
-   "company": "Oshkosh / JLG",
-   "org_type": "construction-tech",
-   "title": "DSM/MBD Engineer Intern",
-   "location": "2 Locations",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/Oshkosh/job/Oshkosh-Wisconsin-United-States/DSM-MBD-Engineer-Intern_R51331",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:oshkoshcorporation.wd5.myworkdayjobs.com:Digital-Manufacturing-Intern_R51065",
-   "company": "Oshkosh / JLG",
-   "org_type": "construction-tech",
-   "title": "Digital Manufacturing Intern",
-   "location": "Spartanburg, South Carolina, United States",
-   "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/en-US/Oshkosh/job/Spartanburg-South-Carolina-United-States/Digital-Manufacturing-Intern_R51065",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -2022,27 +2324,6 @@
    ],
    "matched": [
     "embodied"
-   ]
-  },
-  {
-   "id": "simplify:apply",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Commonwealth Fusion Systems",
-   "title": "AI & Infrastructure Engineer Intern",
-   "location": "Devens, MA",
-   "url": "https://jobs.lever.co/cfsenergy/fa87d365-ac8a-44c3-8fda-c9dec3ea8878/apply",
-   "posted": "2026-10-15",
-   "degrees": [
-    "Bachelor's",
-    "PhD"
-   ],
-   "terms": [
-    "Spring 2027"
-   ],
-   "matched": [
-    "infrastructure"
    ]
   },
   {
@@ -3526,6 +3807,19 @@
    ]
   },
   {
+   "id": "ashby:aurora-operations-inc:475a24d7-a058-4f86-be8f-fd6be679af9c",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "AI Engineer Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/475a24d7-a058-4f86-be8f-fd6be679af9c",
+   "posted": "2026-10-08",
+   "pay": null,
+   "matched": [
+    "ai"
+   ]
+  },
+  {
    "id": "simplify:Summer-2027-Autonomy---Robotics-Engineering-Intern_8556",
    "org_type": "",
    "pay": null,
@@ -3626,20 +3920,6 @@
    ],
    "matched": [
     "infrastructure"
-   ]
-  },
-  {
-   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778",
-   "company": "General Motors",
-   "org_type": "autonomy",
-   "title": "2027 Summer Intern, AI/ML Engineer, Mapping",
-   "location": "Warren, Michigan, United States of America",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping_JR-202621778",
-   "posted": "2026-10-06",
-   "pay": null,
-   "matched": [
-    "ai",
-    "ml"
    ]
   },
   {
@@ -4272,6 +4552,245 @@
    ]
   },
   {
+   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op---Robot-Perception_R8113-1",
+   "company": "Symbotic",
+   "org_type": "robotics",
+   "title": "Co-op - Robot Perception",
+   "location": "USA Wilmington,  MA - HQ",
+   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Robot-Perception_R8113-1",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "perception",
+    "robot"
+   ]
+  },
+  {
+   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op---Software-Engineer_R8111",
+   "company": "Symbotic",
+   "org_type": "robotics",
+   "title": "Co-op - Software Engineer",
+   "location": "USA Wilmington,  MA - HQ",
+   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R7976",
+   "company": "Symbotic",
+   "org_type": "robotics",
+   "title": "Co-op- Hardware Engineer",
+   "location": "USA Wilmington, MA - ITC",
+   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:symbotic.wd504.myworkdayjobs.com:Robot-Perception_R7964",
+   "company": "Symbotic",
+   "org_type": "robotics",
+   "title": "Intern- Robot Perception",
+   "location": "USA Wilmington,  MA - HQ",
+   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "perception",
+    "robot"
+   ]
+  },
+  {
+   "id": "workday:sonyglobal.wd1.myworkdayjobs.com:IC-Digital-Design-Intern_JR-119536-1",
+   "company": "Sony AI",
+   "org_type": "lab",
+   "title": "IC Digital Design Intern",
+   "location": "Lysaker",
+   "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Lysaker/IC-Digital-Design-Intern_JR-119536-1",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Undergraduate--Year-Round--Intern---Analytical-Chemistry_R13950",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Undergraduate (Year-Round) Intern - Analytical Chemistry",
+   "location": "Golden, CO",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate--Year-Round--Intern---Analytical-Chemistry_R13950",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Post-Undergraduate-Graduate-Intern---Molecular-Biology_R14452",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Post Undergraduate/Graduate Intern – Molecular Biology",
+   "location": "Golden, CO",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Post-Undergraduate-Graduate-Intern---Molecular-Biology_R14452",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Post Undergraduate (Fixed term) Intern – Electrical Engineering",
+   "location": "2 Locations",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "California Based Graduate Intern - Building Energy Modeling and Analysis",
+   "location": "Los Angeles, CA",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Intern---LLM-Reliability-and-Uncertainty-for-AI-Science-Assistants_R14416",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Graduate Intern - LLM Reliability and Uncertainty for AI Science Assistants",
+   "location": "2 Locations",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate-Intern---LLM-Reliability-and-Uncertainty-for-AI-Science-Assistants_R14416",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "ai"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Graduate Fall Intern – Modeling and Analysis of Distributed Hybrid Energy Systems",
+   "location": "2 Locations",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder-CO/Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14510",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Graduate (Year-Round) Intern: Geospatial Data Science Modeling and Analysis",
+   "location": "2 Locations",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14510",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Graduate (Year-Round) Intern – Modeling, Real-Time Simulation and Hardware in the Loop (HIL) Testing of Distribution Systems",
+   "location": "Golden, CO",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Graduate Intern – Focused Ion Beam, Electron Microscopy, and Autonomous Characterization",
+   "location": "Golden, CO",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "autonom"
+   ]
+  },
+  {
+   "id": "workday:nrel.wd5.myworkdayjobs.com:Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513",
+   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
+   "org_type": "lab",
+   "title": "Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling",
+   "location": "2 Locations",
+   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:nvidia.wd5.myworkdayjobs.com:AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "company": "NVIDIA",
+   "org_type": "bigtech",
+   "title": "AI Developer Technology Intern, Robotics - 2027",
+   "location": "2 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "ai",
+    "robot"
+   ]
+  },
+  {
+   "id": "workday:nvidia.wd5.myworkdayjobs.com:Humanoid-Robot-Learning-Intern--Isaac-Loco-Manipulation---2027_JR2025542",
+   "company": "NVIDIA",
+   "org_type": "bigtech",
+   "title": "Humanoid Robot Learning Intern, Isaac Loco-Manipulation - 2027",
+   "location": "China, Shanghai",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Humanoid-Robot-Learning-Intern--Isaac-Loco-Manipulation---2027_JR2025542",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "humanoid",
+    "manipulat",
+    "robot"
+   ]
+  },
+  {
+   "id": "workday:nvidia.wd5.myworkdayjobs.com:AI-Infrastructure-and-Frameworks-Intern--Cosmos-Lab---2027_JR2025559",
+   "company": "NVIDIA",
+   "org_type": "bigtech",
+   "title": "AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027",
+   "location": "3 Locations",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Infrastructure-and-Frameworks-Intern--Cosmos-Lab---2027_JR2025559",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "ai"
+   ]
+  },
+  {
    "id": "lever:field-ai:40a22216-c73b-4ec1-bfc1-dc0e1938eaba",
    "company": "Field AI",
    "org_type": "robotics",
@@ -4346,252 +4865,13 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op---Robot-Perception_R8113-1",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op - Robot Perception",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Robot-Perception_R8113-1",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "perception",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op---Software-Engineer_R8111",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op - Software Engineer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R7976",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op- Hardware Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Robot-Perception_R7964",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Robot Perception",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Robot-Perception_R7964",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "perception",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:sonyglobal.wd1.myworkdayjobs.com:IC-Digital-Design-Intern_JR-119536-1",
-   "company": "Sony AI",
-   "org_type": "lab",
-   "title": "IC Digital Design Intern",
-   "location": "Lysaker",
-   "url": "https://sonyglobal.wd1.myworkdayjobs.com/en-US/SonyGlobalCareers/job/Lysaker/IC-Digital-Design-Intern_JR-119536-1",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Undergraduate--Year-Round--Intern---Analytical-Chemistry_R13950",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Undergraduate (Year-Round) Intern - Analytical Chemistry",
-   "location": "Golden, CO",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate--Year-Round--Intern---Analytical-Chemistry_R13950",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Post-Undergraduate-Graduate-Intern---Molecular-Biology_R14452",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Post Undergraduate/Graduate Intern – Molecular Biology",
-   "location": "Golden, CO",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Post-Undergraduate-Graduate-Intern---Molecular-Biology_R14452",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Post Undergraduate (Fixed term) Intern – Electrical Engineering",
-   "location": "2 Locations",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder-CO/Post-Undergraduate--Fixed-term--Intern---Electrical-Engineering_R14491",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "California Based Graduate Intern - Building Energy Modeling and Analysis",
-   "location": "Los Angeles, CA",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Los-Angeles-CA/Los-Angeles-Based-Graduate-Intern---Building-Energy-Modeling-and-Analysis_R14264",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Intern---LLM-Reliability-and-Uncertainty-for-AI-Science-Assistants_R14416",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Graduate Intern - LLM Reliability and Uncertainty for AI Science Assistants",
-   "location": "2 Locations",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate-Intern---LLM-Reliability-and-Uncertainty-for-AI-Science-Assistants_R14416",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "ai"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Graduate Fall Intern – Modeling and Analysis of Distributed Hybrid Energy Systems",
-   "location": "2 Locations",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Boulder-CO/Graduate-Summer-Intern---Modeling-and-Analysis-of-Distributed-Hybrid-Energy-Systems_R14469",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14510",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Graduate (Year-Round) Intern: Geospatial Data Science Modeling and Analysis",
-   "location": "2 Locations",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate--Year-Round--Intern--Geospatial-Data-Science-Modeling-and-Analysis_R14510",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Graduate (Year-Round) Intern – Modeling, Real-Time Simulation and Hardware in the Loop (HIL) Testing of Distribution Systems",
-   "location": "Golden, CO",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate--Year-Round--Intern---Modeling--Real-Time-Simulation-and-Hardware-in-the-Loop--HIL--Testing-of-Distribution-Systems_R14483",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "simulation"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Graduate Intern – Focused Ion Beam, Electron Microscopy, and Autonomous Characterization",
-   "location": "Golden, CO",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "autonom"
-   ]
-  },
-  {
-   "id": "workday:nrel.wd5.myworkdayjobs.com:Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513",
-   "company": "National Laboratory of the Rockies (NLR, formerly NREL)",
-   "org_type": "lab",
-   "title": "Undergraduate/Graduate (3-12 Month, Remote) Intern - Power System/Power Electronics Modeling",
-   "location": "2 Locations",
-   "url": "https://nrel.wd5.myworkdayjobs.com/en-US/NLR/job/Golden-CO/Undergraduate-Graduate--3-12-Month--Remote--Intern---Power-System-Power-Electronics-Modeling_R14513",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:nvidia.wd5.myworkdayjobs.com:AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
-   "company": "NVIDIA",
-   "org_type": "bigtech",
-   "title": "AI Developer Technology Intern, Robotics - 2027",
-   "location": "2 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/AI-Developer-Technology-Intern--Robotics---2027_JR2024054-1",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "ai",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:nvidia.wd5.myworkdayjobs.com:Humanoid-Robot-Learning-Intern--Isaac-Loco-Manipulation---2027_JR2025542",
-   "company": "NVIDIA",
-   "org_type": "bigtech",
-   "title": "Humanoid Robot Learning Intern, Isaac Loco-Manipulation - 2027",
-   "location": "China, Shanghai",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Shanghai/Humanoid-Robot-Learning-Intern--Isaac-Loco-Manipulation---2027_JR2025542",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "humanoid",
-    "manipulat",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:nvidia.wd5.myworkdayjobs.com:AI-Infrastructure-and-Frameworks-Intern--Cosmos-Lab---2027_JR2025559",
-   "company": "NVIDIA",
-   "org_type": "bigtech",
-   "title": "AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027",
-   "location": "3 Locations",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/China-Beijing/AI-Infrastructure-and-Frameworks-Intern--Cosmos-Lab---2027_JR2025559",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "ai"
-   ]
-  },
-  {
    "id": "workday:disney.wd5.myworkdayjobs.com:Disney-Research-Studio-Intern_10150845",
    "company": "Disney Research",
    "org_type": "lab",
    "title": "Disney Research Studio Intern",
    "location": "Zurich, Switzerland",
    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Zurich-Switzerland/Disney-Research-Studio-Intern_10150845",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4604,7 +4884,7 @@
    "title": "Disney Research Studio Intern",
    "location": "Zurich, Switzerland",
    "url": "https://disney.wd5.myworkdayjobs.com/en-US/disneycareer/job/Zurich-Switzerland/Disney-Research-Studio-Intern_10149192",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4617,7 +4897,7 @@
    "title": "SCM College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/SCM-College-Intern_R0000392894",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4630,7 +4910,7 @@
    "title": "EHS College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/EHS-College-Intern_R0000393199",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4643,7 +4923,7 @@
    "title": "Quality College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/Quality-College-Intern_R0000392892",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4656,7 +4936,7 @@
    "title": "HR College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/HR-College-Intern_R0000392887",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4669,7 +4949,7 @@
    "title": "Manufacturing Engineering College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/Manufacturing-Engineering-College-Intern_R0000392914",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4682,7 +4962,7 @@
    "title": "Manufacturing Operations College Intern",
    "location": "Rayong, Thailand",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Rayong-Thailand/Manufacturing-Operations-College-Intern_R0000392895",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4695,7 +4975,7 @@
    "title": "2027 Summer Corporate Intern- Manufacturing",
    "location": "11 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Decatur-Illinois/XMLNAME-2027-Summer-Corporate-Intern--Manufacturing_R0000380454",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4708,7 +4988,7 @@
    "title": "2027 Summer Corporate Intern - Engineering",
    "location": "27 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Corporate-Intern---Engineering_R0000384650",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4721,33 +5001,7 @@
    "title": "2027 Summer Intern - Information Technology",
    "location": "Nashville, Tennessee",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:cat.wd5.myworkdayjobs.com:XMLNAME-2027-Engineering-Corporate-Internship-Program-Materials_R0000380501",
-   "company": "Caterpillar",
-   "org_type": "construction-tech",
-   "title": "2027 Engineering Corporate Internship Program Materials",
-   "location": "Mossville, Illinois",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Materials_R0000380501",
-   "posted": "2026-09-26",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:cat.wd5.myworkdayjobs.com:XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506",
-   "company": "Caterpillar",
-   "org_type": "construction-tech",
-   "title": "2027 Engineering Corporate Internship Program Welding",
-   "location": "Mossville, Illinois",
-   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4760,7 +5014,7 @@
    "title": "2027 Summer Corporate Intern – Product Support Engineering",
    "location": "7 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Product-Support-Engineering_R0000391403",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4773,7 +5027,33 @@
    "title": "2027 Summer Corporate Intern – Digital and Analytics",
    "location": "3 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Digital-and-Analytics_R0000392335",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:cat.wd5.myworkdayjobs.com:XMLNAME-2027-Engineering-Corporate-Internship-Program-Materials_R0000380501",
+   "company": "Caterpillar",
+   "org_type": "construction-tech",
+   "title": "2027 Engineering Corporate Internship Program Materials",
+   "location": "Mossville, Illinois",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Materials_R0000380501",
+   "posted": "2026-09-27",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "workday:cat.wd5.myworkdayjobs.com:XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506",
+   "company": "Caterpillar",
+   "org_type": "construction-tech",
+   "title": "2027 Engineering Corporate Internship Program Welding",
+   "location": "Mossville, Illinois",
+   "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4786,7 +5066,7 @@
    "title": "2027 Summer Corporate Intern - Environmental, Health and Safety",
    "location": "Peoria, Illinois",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Environmental--Health-and-Safety_R0000380458",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4799,7 +5079,7 @@
    "title": "2027 Summer Corporate Intern - Autonomy & Intelligent Systems Engineering",
    "location": "6 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "autonom"
@@ -4812,7 +5092,7 @@
    "title": "2027 Engineering Corporate Parallel Co-op Program",
    "location": "7 Locations",
    "url": "https://cat.wd5.myworkdayjobs.com/en-US/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Corporate-Parallel-Co-op-Program_R0000380509",
-   "posted": "2026-09-26",
+   "posted": "2026-09-27",
    "pay": null,
    "matched": [
     "intern"
@@ -4913,6 +5193,40 @@
    ]
   },
   {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Aurora Innovation",
+   "title": "Core Autonomy Software Intern - C++",
+   "location": "Pittsburgh, PA; Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12/application?embed=true",
+   "posted": "2026-09-25",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "autonom"
+   ]
+  },
+  {
+   "id": "ashby:aurora-operations-inc:c823b343-ba1f-4ff3-84ce-965ee9952c12",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "Core Autonomy Software (C++) Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/c823b343-ba1f-4ff3-84ce-965ee9952c12",
+   "posted": "2026-09-25",
+   "pay": null,
+   "matched": [
+    "autonom"
+   ]
+  },
+  {
    "id": "greenhouse:waymo:jobs?gh_jid=8227640",
    "company": "Waymo",
    "org_type": "autonomy",
@@ -4945,6 +5259,101 @@
    ],
    "matched": [
     "simulation"
+   ]
+  },
+  {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Aurora Innovation",
+   "title": "Perception & Mapping Intern",
+   "location": "SF; Pittsburgh, PA; Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/688f13a4-2cc4-4f3f-a5b4-0056bc580224/application?embed=true",
+   "posted": "2026-09-24",
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "mapping",
+    "perception"
+   ]
+  },
+  {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Aurora Innovation",
+   "title": "Simulation Engineering Intern",
+   "location": "SF; Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd/application?embed=true",
+   "posted": "2026-09-24",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "ashby:aurora-operations-inc:688f13a4-2cc4-4f3f-a5b4-0056bc580224",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "Perception & Mapping Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/688f13a4-2cc4-4f3f-a5b4-0056bc580224",
+   "posted": "2026-09-24",
+   "pay": null,
+   "matched": [
+    "perception"
+   ]
+  },
+  {
+   "id": "ashby:aurora-operations-inc:f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "Simulation Engineering Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/f63bb8e2-9ead-4322-beb9-4bcbdbbe14bd",
+   "posted": "2026-09-24",
+   "pay": null,
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "ashby:aurora-operations-inc:a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "Behavior & Planning (ML Research) Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/a90b7522-4e66-4247-b9ec-7e2bb50b78f4",
+   "posted": "2026-09-24",
+   "pay": null,
+   "matched": [
+    "ml"
+   ]
+  },
+  {
+   "id": "ashby:aurora-operations-inc:da4c8e2e-0571-4503-94d9-234da86f83b0",
+   "company": "Aurora",
+   "org_type": "autonomy",
+   "title": "Data & ML Platform Engineering Intern",
+   "location": "Mountain View, CA",
+   "url": "https://jobs.ashbyhq.com/aurora-operations-inc/da4c8e2e-0571-4503-94d9-234da86f83b0",
+   "posted": "2026-09-24",
+   "pay": null,
+   "matched": [
+    "ml"
    ]
   },
   {
@@ -5169,26 +5578,6 @@
    ],
    "matched": [
     "robot"
-   ]
-  },
-  {
-   "id": "simplify:91013?icims=1",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "AMD",
-   "title": "AI Research Intern - Reinforcement Learning and LLM Post-Training",
-   "location": "Santa Clara, CA",
-   "url": "https://careers.amd.com/jobs/91013?icims=1",
-   "posted": "2026-09-21",
-   "degrees": [
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2027"
-   ],
-   "matched": [
-    "reinforcement"
    ]
   },
   {
@@ -5863,28 +6252,6 @@
    ]
   },
   {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Apex",
-   "title": "Simulation Software Engineering Intern",
-   "location": "LA",
-   "url": "https://jobs.ashbyhq.com/apex-technology-inc/d3e21f84-3637-4521-833d-fd07b3ca5f2e/application?embed=true",
-   "posted": "2026-09-04",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "terms": [
-    "Summer 2027",
-    "Fall 2027"
-   ],
-   "matched": [
-    "simulation"
-   ]
-  },
-  {
    "id": "amazon:Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126):software-development-engineer-intern-co-op-robotics-2027",
    "company": "Amazon (Amazon Robotics, Frontier AI & Robotics, Lab126)",
    "org_type": "bigtech",
@@ -6297,27 +6664,6 @@
    ],
    "matched": [
     "robot"
-   ]
-  },
-  {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "H3X Technologies",
-   "title": "Embedded Controls Intern",
-   "location": "Louisville, CO",
-   "url": "https://jobs.ashbyhq.com/h3x-technologies/d406e4b4-9b48-438c-a2af-b7feb8563a40/application?embed=true",
-   "posted": "2026-08-21",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "terms": [
-    "Spring 2026"
-   ],
-   "matched": [
-    "controls"
    ]
   },
   {
@@ -7536,6 +7882,19 @@
    ],
    "matched": [
     "control"
+   ]
+  },
+  {
+   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Systems-Test-Engineer---Co-Op_R3312",
+   "company": "Boston Dynamics",
+   "org_type": "robotics",
+   "title": "Systems Test Engineer - Co-Op",
+   "location": "Waltham Office (POST)",
+   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Systems-Test-Engineer---Co-Op_R3312",
+   "posted": null,
+   "pay": null,
+   "matched": [
+    "intern"
    ]
   }
  ],
