@@ -30,14 +30,16 @@ requirements_en: ["Research proposal (up to 2 pages + references)", "CV", "2–3
 nomination: false
 awards_per_year: "약 10명 (2026–2027년 10명 선정 + 결선 4명)"
 cycle:
-  typical: "매년 가을 접수 (2025년 9/15 마감, 2026년 9/30 오픈·10/30 마감), 12–1월 결과 발표, 이듬해 여름 인턴십 후 가을부터 지원"
-  typical_en: "Fall call each year (2025: closed Sep 15; 2026: opened Sep 30, closes Oct 30), winners notified in December–January, summer internship, funding from the following fall"
+  typical: "매년 가을 접수 (2019–2023년 9월 7–13일, 2025년 9/15 마감, 2026년 9/30 오픈·10/30 마감), 12–1월 결과 발표, 이듬해 여름 인턴십 후 가을부터 지원 — 2027–2028 회차는 2026-10-30 마감됐고 2028–2029 회차 마감은 9월 중순–10월 말 패턴으로 2027-09-30로 추정"
+  typical_en: "Fall call each year (2019–2023: closed Sep 7–13; 2025: closed Sep 15; 2026: opened Sep 30, closed Oct 30), winners notified in December–January, summer internship, funding from the following fall — the 2027–2028 cycle closed on 2026-10-30, and the 2028–2029 deadline is estimated at 2027-09-30 from the mid-September to late-October pattern"
   deadlines:
     - {kind: other, date: 2026-09-30, label: "2027–2028 접수 시작", label_en: "2027–2028 applications open"}
     - {kind: application, date: 2026-10-30, label: "지원서 마감", label_en: "Application deadline"}
     - {kind: recommendation, date: 2026-10-30, label: "추천서 마감", label_en: "Recommendation letters due"}
     - {kind: result, date: 2027-01-15, label: "선정 통보", label_en: "Winner notifications"}
-status: open
+    - {kind: application, date: 2027-09-30, label: "2028–2029 회차 지원 마감(추정)", label_en: "2028–2029 cycle application deadline (estimated)", estimated: true}
+    - {kind: result, date: 2028-01-15, label: "2028–2029 회차 선정 통보(추정)", label_en: "2028–2029 cycle winner notifications (estimated)", estimated: true}
+status: upcoming
 apply_url: "https://webportalapp.com/sp/nvidia_grad_fellow_2027"
 fit: 2
 take: "1년차라 이번 10월 30일 라운드는 지원 자격이 없으니, 2027년 가을(2년차) 콜에 지도교수 추천서로 지원하되 그 전까지 접촉 기반 조작 연구로 CoRL/ICRA급 1저자 논문을 확보하라."
@@ -48,4 +50,7 @@ sources:
   - "https://research.nvidia.com/graduate-fellowships"
   - "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2025/"
   - "https://blogs.nvidia.com/blog/graduate-fellowship-recipients-2026-2027"
-last_verified: 2026-10-02
+  - "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026"
+  - "https://opportunitydesk.org/2019/08/20/nvidia-graduate-fellowship-awards-2020-2021/"
+  - "https://www.cse.sc.edu/node/3109"
+last_verified: 2026-10-31

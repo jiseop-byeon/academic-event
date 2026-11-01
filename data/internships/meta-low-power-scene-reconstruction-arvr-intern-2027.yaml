@@ -1,0 +1,26 @@
+id: meta-low-power-scene-reconstruction-arvr-intern-2027
+company: "Meta"
+org_type: bigtech
+title: "Research Scientist Intern - Low-Power Scene Reconstruction for AR/VR"
+fields: [ar, vision, navigation]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Burlingame", region: "CA", country: US, lat: 37.58, lon: -122.35}
+  - {city: "Redmond", region: "WA", country: US, lat: 47.67, lon: -122.12}
+work_mode: unknown
+skills: [3d-vision, slam, computer-vision]
+citizenship: unknown
+eligibility_note: "공고 페이지가 자동 조회를 차단해 자격 요건 미확인. 학위 요건 미확인(Meta 연구과학자 인턴은 통상 박사과정 대상)."
+eligibility_note_en: "The posting page blocks automated fetches, so eligibility is unverified. Degree requirement unverified (Meta research scientist internships are usually for PhD students)."
+status: open
+posted: 2026-10-21
+apply_url: "https://www.metacareers.com/jobs/1075160338670575/"
+fit: 1
+take: "AR/VR 기기용 저전력 장면 복원 인턴이라 현장 3D 복원·AR 연구가 있을 때만 참고로 지원하라."
+take_en: "A low-power scene-reconstruction internship for AR/VR devices — apply only for reference if you have site 3D-reconstruction or AR work."
+notes: "직무 ID 1075160338670575. 제목·근무지·게시일은 수집된 목록 기준이며 공고 본문(요건·급여·기간)은 미확인 — 지원 전 원문 확인 필요."
+notes_en: "Job ID 1075160338670575. Title, location and posting date come from the collected listing; the posting body (requirements, pay, duration) is unverified — check the original before applying."
+sources:
+  - "https://www.metacareers.com/jobs/1075160338670575/"
+last_verified: 2026-10-31

@@ -1,0 +1,44 @@
+id: tri-hid-decision-making-driving-limits-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Human Interactive Driving — Extreme Performance Intelligent Control (EPIC)"
+title: "Human Interactive Driving Research Intern, Decision-Making for Driving at the Limits"
+fields: [transportation, robotics, ml]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 $45–65, 매사추세츠 $40–58 시급(공고 기재)"
+  note_en: "$45–65 per hour in California, $40–58 in Massachusetts (stated in the posting)"
+required:
+  - "PhD candidate in robotics, (differentiable) optimization, ML, control, Bayesian modeling, computer vision or embodied reasoning"
+  - "At least one of Python, C++, ROS 2, PyTorch, JAX"
+  - "Deploying algorithms on real-world platforms"
+skills: [python, cpp, ros2, control, motion-planning, pytorch, jax]
+responsibilities:
+  - "Develop optimization, modeling, embodied-reasoning or perception methods for extreme vehicle maneuvering"
+  - "Deploy and evaluate on high-performance cars on a closed track; present at international conferences"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-29
+apply_url: "https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56"
+fit: 1
+take: "한계 주행의 최적화·의사결정 연구라 건설 조작 연구와 거리가 멀어 참고용으로만 두라."
+take_en: "Optimization and decision-making for limit driving is far from construction manipulation; keep it for reference only."
+notes: "공고 본문 한 곳에 'Summer 2026'이라 적혀 있으나 팀 분류와 다른 HID 공고 기준 Summer 2027 인턴."
+notes_en: "One line of the posting says 'Summer 2026', but the team category and sibling HID postings place it in Summer 2027."
+sources:
+  - "https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56"
+  - "https://api.lever.co/v0/postings/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56?mode=json"
+last_verified: 2026-10-31

@@ -33,6 +33,7 @@ cycle:
   typical_en: "The 2026–27 cycle is paused and a new program is expected to be announced in Q1 2027. Previously the nomination window was announced only to faculty invited by IBM (no public deadline) — the 2024 cycle closed for nominations on August 30 (ET); awards are finalized in Q4 and fund that fall and the following spring"
   deadlines:
     - {kind: application, date: 2024-08-30, time: "23:59", tz: "ET", label: "2024년 IBM 추천 마감(참고)", label_en: "2024 IBM nomination deadline (reference)"}
+    - {kind: other, date: 2027-03-31, label: "새 프로그램 발표 예정(2027년 1분기, IBM 공지)", label_en: "New program expected to be announced (Q1 2027, per IBM)", estimated: true}
 status: closed
 links:
   home: "https://research.ibm.com/university/awards/fellowships.html"
@@ -43,4 +44,4 @@ sources:
   - "https://research.ibm.com/university/awards/fellowships.html"
   - "https://research.ibm.com/university/awards"
   - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/211255338/25+IBM+PhD+Fellowship+Program+Fall+2024"
-last_verified: 2026-10-17
+last_verified: 2026-10-31

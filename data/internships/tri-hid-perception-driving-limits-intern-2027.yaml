@@ -1,0 +1,43 @@
+id: tri-hid-perception-driving-limits-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Human Interactive Driving — Extreme Performance Intelligent Control (EPIC)"
+title: "Human Interactive Driving Research Intern, Perception for Driving at the Limits"
+fields: [vision, navigation, transportation, robotics]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "PhD candidate in computer vision, ML, robotics, embodied reasoning or related"
+  - "At least one of Python, C++, ROS 2, PyTorch, JAX"
+  - "Geometric foundation models, LiDAR/visual-inertial odometry stacks and/or Bayesian filtering"
+  - "Deploying algorithms on real-world platforms"
+skills: [python, cpp, ros2, state-estimation, slam, lidar, sensor-fusion, 3d-vision]
+responsibilities:
+  - "Develop accelerated perception, filtering and embodied-reasoning methods for high-performance driving"
+  - "Deploy and evaluate on high-performance cars on a closed track; present at international conferences"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-29
+apply_url: "https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8"
+fit: 2
+take: "LiDAR/VIO·베이지안 필터링 기반 고속 주행 인식이라 내비게이션·센서 퓨전 지원 축 경험으로 쓸 만하니, 상태추정 실적이 있으면 넣어 보라."
+take_en: "High-speed driving perception built on LiDAR/VIO and Bayesian filtering strengthens the navigation and sensor-fusion support track; apply if you have state-estimation results."
+sources:
+  - "https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8"
+  - "https://api.lever.co/v0/postings/tri/33c33641-756d-4cd1-8238-0100af2224b8?mode=json"
+last_verified: 2026-10-31

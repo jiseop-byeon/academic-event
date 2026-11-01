@@ -1,0 +1,43 @@
+id: waymo-weather-perception-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "Weather and Degraded Roads Perception"
+title: "2027 Summer Intern, MS/PhD, Weather Perception"
+fields: [vision, transportation, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "San Francisco", region: "CA", country: US, lat: 37.77, lon: -122.42}
+work_mode: hybrid
+pay:
+  min: 70
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "석사 $70, 박사 $85 시급(공고 기재)"
+  note_en: "hourly: MS $70, PhD $85 (stated in the posting)"
+required:
+  - "MS or PhD in CS, Robotics or equivalent"
+  - "ML applications including transformers and ML evaluation"
+  - "Python; implementing ML algorithms from papers; TensorFlow, PyTorch or JAX"
+preferred:
+  - "Classical computer vision or computational geometry"
+  - "Papers at ICML, RSS, IROS, CoRL or CVPR; real-time robotic systems; C++"
+skills: [python, cpp, pytorch, jax, computer-vision, foundation-models]
+responsibilities:
+  - "Research ML perception for rain, fog, snow, ice, potholes, unpaved roads, trenches and construction sites"
+  - "Applied research on data-scarce weather problems, including VLMs for long-tail driving situations"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 샌프란시스코 하이브리드 근무, 충원 시까지 상시 접수."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in San Francisco; resumes accepted on a rolling basis until filled."
+status: open
+posted: 2026-10-29
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8335511"
+fit: 2
+take: "공사 구간·파손 노면·악천후 인식을 다뤄 건설·교통 인접 perception 경험이 되지만 조작과는 멀어 인식 보조 축 지원처로 두라."
+take_en: "Covers perception of construction zones, damaged roads and bad weather, a construction- and transportation-adjacent perception credential, but far from manipulation; keep it as a perception support target."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8335511"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8335511"
+last_verified: 2026-10-31

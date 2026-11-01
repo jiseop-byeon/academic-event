@@ -1,0 +1,46 @@
+id: skydio-autonomy-intern-sim-robotics-2027
+company: "Skydio"
+org_type: robotics
+team: "R&D — Autonomy (Skydio Simulator)"
+title: "Autonomy Engineer Intern, Simulation & Robotics, 2027"
+fields: [robotics, navigation]
+degree: [phd, ms, bs]
+season: "Summer 2027"
+locations:
+  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
+  - {city: "Zurich", country: CH, lat: 47.38, lon: 8.54}
+work_mode: onsite
+pay:
+  min: 47
+  max: 70
+  currency: USD
+  unit: hour
+  source: posting
+  note: "학부 $47, 석사 $53, 박사 $70 시급(공고 기재). 근무지에 따라 다를 수 있음"
+  note_en: "hourly: undergrad $47, Masters $53, PhD $70 (stated in the posting); may vary by location"
+required:
+  - "Strong C++ and Python"
+  - "Complex systems where performance, determinism or correctness matter; real-time execution"
+  - "Interest in robotics, simulation or physical systems"
+preferred:
+  - "Physics engines, sensor modeling, game engines, low-latency multithreaded design"
+skills: [cpp, python, simulation]
+responsibilities:
+  - "Evolve the Skydio Simulator: physics and dynamics, camera/IMU sensor simulation, full autonomy-stack integration"
+  - "Profile and improve simulator performance and fidelity with autonomy, perception and controls engineers"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Verify로 근무 자격을 확인함."
+eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
+status: open
+posted: 2026-10-26
+apply_url: "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17"
+fit: 1
+take: "드론 시뮬레이터 엔지니어링 중심이라 연구 인턴이 아니고 조작과도 멀어 참고용으로 두라."
+take_en: "Mostly drone-simulator engineering rather than research, and far from manipulation; reference only."
+notes: "취리히 근무 공고(05f020b1)가 따로 있음: https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
+notes_en: "A separate Zurich posting exists (05f020b1): https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
+sources:
+  - "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17"
+  - "https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
+  - "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"
+last_verified: 2026-10-31

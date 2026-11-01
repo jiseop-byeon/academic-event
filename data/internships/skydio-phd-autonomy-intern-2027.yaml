@@ -1,0 +1,44 @@
+id: skydio-phd-autonomy-intern-2027
+company: "Skydio"
+org_type: robotics
+team: "R&D — Autonomy"
+title: "PhD Autonomy Engineer Intern, 2027"
+fields: [vision, navigation, robotics]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
+work_mode: onsite
+pay:
+  min: 70
+  max: 70
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 시급 $70(학부 $47, 석사 $53), 공고 기재"
+  note_en: "PhD $70 per hour (undergrad $47, Masters $53), stated in the posting"
+required:
+  - "High proficiency in C++ and/or Python"
+  - "Enthusiasm for computer vision, deep learning, motion planning, dynamics and controls, 3D graphics or related areas"
+  - "Solid software-engineering foundation"
+skills: [cpp, python, computer-vision, 3d-vision, motion-planning, control]
+responsibilities:
+  - "Own a research project with the core autonomy and computer-vision team"
+  - "Research, prototype and assess new autonomy approaches; characterize core software and hardware performance"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Verify로 근무 자격을 확인함."
+eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
+status: open
+posted: 2026-10-25
+apply_url: "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c"
+fit: 2
+take: "드론 자율비행 핵심 비전·자율 팀 박사 인턴으로 인프라 점검용 perception·내비게이션 경험을 쌓을 수 있어 지원 축 보강용으로 넣어볼 만하다."
+take_en: "A PhD internship on the core drone vision and autonomy team that builds perception and navigation experience for infrastructure inspection; worth applying to strengthen the support track."
+notes: "같은 날 올라온 'PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027'(f1a72f5b)과 'Autonomy Engineer Intern, 2027'(d39c46ce)은 본문이 사실상 같아 이 파일 하나로 묶음."
+notes_en: "'PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027' (f1a72f5b) and 'Autonomy Engineer Intern, 2027' (d39c46ce), posted the same day, have essentially identical text and are folded into this file."
+sources:
+  - "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c"
+  - "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f"
+  - "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b"
+  - "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"
+last_verified: 2026-10-31

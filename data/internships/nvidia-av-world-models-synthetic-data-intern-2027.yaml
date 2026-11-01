@@ -1,0 +1,46 @@
+id: nvidia-av-world-models-synthetic-data-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Autonomous Vehicle Applied Research"
+title: "Research Intern, World Models and Synthetic Data for Autonomous Driving - Summer 2027"
+fields: [transportation, navigation, vision, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: unknown
+pay:
+  min: 20
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위"
+  note_en: "intern hourly range stated in the posting"
+required:
+  - "Pursuing a PhD or MS in CS, EE/CE, Robotics or related, with deep learning research experience"
+  - "Hands-on experience developing and evaluating neural networks"
+  - "Experience in generative models, video generation, multimodal learning, 3D vision, autonomous driving or robotics"
+  - "Strong Python and a modern deep learning framework"
+preferred:
+  - "Papers at NeurIPS, ICML, ICLR, CVPR, ICCV or ECCV"
+  - "Generative world models, video generation, diffusion or multimodal foundation models"
+  - "Large-scale video, driving, robotics or simulation datasets"
+skills: [python, pytorch, world-models, foundation-models, computer-vision, 3d-vision, simulation]
+responsibilities:
+  - "Research generative and traffic world models capturing multi-agent, reactive driving behavior"
+  - "Generate controllable, safety-critical driving scenarios and study how synthetic data improves AV models"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 석·박사과정 재학생 대상."
+eligibility_note_en: "No citizenship requirement in the posting. For current MS or PhD students."
+status: open
+posted: 2026-10-30
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--World-Models-and-Synthetic-Data-for-Autonomous-Driving---Summer-2027_JR2026839-1"
+fit: 2
+take: "교통 월드모델·시나리오 생성 중심이라 조작과는 멀지만 교통·자율주행 쪽 결과가 있으면 노려볼 만한 보조 옵션이다."
+take_en: "Centered on traffic world models and scenario generation — far from manipulation, but a reasonable backup if you have transportation or driving results."
+notes: "요청번호 JR2026839. '최소 2026-11-03까지 접수' 문구는 마감일이 아님."
+notes_en: "Requisition JR2026839. The 'accepting applications until at least 2026-11-03' line is not a deadline."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--World-Models-and-Synthetic-Data-for-Autonomous-Driving---Summer-2027_JR2026839-1"
+last_verified: 2026-10-31

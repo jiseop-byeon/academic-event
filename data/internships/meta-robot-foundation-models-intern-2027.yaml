@@ -1,0 +1,25 @@
+id: meta-robot-foundation-models-intern-2027
+company: "Meta"
+org_type: bigtech
+title: "Research Scientist Intern - Robot Foundation Models"
+fields: [robotics, physical-ai, manipulation, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Redmond", region: "WA", country: US, lat: 47.67, lon: -122.12}
+work_mode: unknown
+skills: [pytorch, foundation-models, vla, world-models]
+citizenship: unknown
+eligibility_note: "공고 페이지가 자동 조회를 차단해 자격 요건 미확인. 학위 요건 미확인(Meta 연구과학자 인턴은 통상 박사과정 대상)."
+eligibility_note_en: "The posting page blocks automated fetches, so eligibility is unverified. Degree requirement unverified (Meta research scientist internships are usually for PhD students)."
+status: open
+posted: 2026-10-21
+apply_url: "https://www.metacareers.com/jobs/27730225806654441/"
+fit: 3
+take: "로봇 파운데이션 모델 연구 인턴이라 범용 조작 정책을 노리는 연구와 맞으니 대규모 학습 경험을 보여줄 수 있으면 지원하라."
+take_en: "A robot foundation-model research internship that matches work on generalist manipulation policies; apply if you can show large-scale training experience."
+notes: "직무 ID 27730225806654441. 제목·근무지·게시일은 수집된 목록 기준이며 공고 본문(요건·급여·기간)은 미확인 — 지원 전 원문 확인 필요."
+notes_en: "Job ID 27730225806654441. Title, location and posting date come from the collected listing; the posting body (requirements, pay, duration) is unverified — check the original before applying."
+sources:
+  - "https://www.metacareers.com/jobs/27730225806654441/"
+last_verified: 2026-10-31

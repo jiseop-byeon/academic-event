@@ -37,6 +37,7 @@ cycle:
   typical_en: "Every fall — applications open in late August and close in mid-September, with the event on a late-October weekend (2026: opened August 25, closed September 11, event October 24–25)"
   deadlines:
     - {kind: event, date: 2026-10-24, label: "HackTX 26 (10월 24일 8시–25일 17시, UT 캠퍼스, 당일 현장 등록 가능)", label_en: "HackTX 26 (8 a.m. Oct 24 – 5 p.m. Oct 25, UT campus; walk-in registration on the day)"}
+    - {kind: event, date: 2027-10-23, label: "HackTX 27 (추정: 2023년 10/21–22, 2024년 11/2–3, 2026년 10/24–25 패턴으로 10월 하순 주말)", label_en: "HackTX 27 (estimated from 2023 Oct 21–22, 2024 Nov 2–3 and 2026 Oct 24–25: a late-October weekend)", estimated: true}
 status: upcoming
 apply_url: "https://hacktx.com/"
 fit: 1
@@ -48,4 +49,6 @@ links:
   freetail_hackers: "https://freetailhackers.com"
 sources:
   - "https://hacktx.com/"
-last_verified: 2026-10-02
+  - "https://en.wikipedia.org/wiki/HackTX"
+  - "https://cns.utexas.edu/events/date-interest/deadline-rsvp-freetail-hackers-hacktx-event"
+last_verified: 2026-10-31

@@ -1,0 +1,47 @@
+id: nvidia-robotic-perception-learning-intern-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Research — Robotic Visual Perception and Learning (Learning and Perception Group)"
+title: "PhD Research Intern, Robotic Perception and Learning - 2027"
+fields: [manipulation, vision, robotics, physical-ai]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Redmond", region: "WA", country: US, lat: 47.67, lon: -122.12}
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: unknown
+pay:
+  min: 30
+  max: 94
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위(Redmond·Seattle $30–94, Santa Clara $38–94)"
+  note_en: "intern hourly range stated in the posting (Redmond and Seattle $30–94, Santa Clara $38–94)"
+required:
+  - "Pursuing a PhD in CS/CE, EE, Robotics or related"
+  - "Theory and practice of computer vision, deep learning, robotics and/or control"
+  - "Expertise in 3D vision, RL, real-to-sim-to-real, tactile sensing or robotic manipulation"
+  - "Python prototyping; PyTorch"
+  - "Publication record at top-tier conferences"
+preferred:
+  - "C++ and/or CUDA"
+skills: [python, pytorch, cpp, cuda, 3d-vision, reinforcement-learning, tactile-sensing, computer-vision]
+responsibilities:
+  - "Research and implement novel deep learning methods for vision, robotics and control"
+  - "Publish original research and transfer technology to product groups"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학생 대상."
+eligibility_note_en: "No citizenship requirement in the posting. For current PhD students."
+status: open
+posted: 2026-10-21
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/PhD-Research-Intern--Robotic-Perception-and-Learning---2027_JR2027089"
+fit: 3
+take: "촉각 센싱·로봇 조작·real-to-sim-to-real을 직접 명시한 연구 인턴이라 접촉 조작 연구와 정면으로 맞으니 우선 지원하라."
+take_en: "A research internship that explicitly names tactile sensing, robotic manipulation and real-to-sim-to-real — squarely aligned with contact-rich manipulation; apply with priority."
+notes: "요청번호 JR2027089. 2026-10-30 재게시됨. '최소 2026-11-03까지 접수' 문구는 마감일이 아님."
+notes_en: "Requisition JR2027089. Reposted on 2026-10-30. The 'accepting applications until at least 2026-11-03' line is not a deadline."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/PhD-Research-Intern--Robotic-Perception-and-Learning---2027_JR2027089"
+last_verified: 2026-10-31

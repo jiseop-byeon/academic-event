@@ -1,0 +1,44 @@
+id: tri-trustworthy-learning-manipulation-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — Trustworthy Learning under Uncertainty (TLU)"
+title: "Robotics Intern, Trustworthy Learning under Uncertainty"
+fields: [manipulation, physical-ai, ml, robotics]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in ML, Robotics or related"
+  - "Publications, or the aim to publish, at venues such as CoRL, RSS, ICRA, NeurIPS, ICLR, RA-L or T-RO"
+  - "Python, Unix and a deep-learning framework such as PyTorch"
+preferred:
+  - "Policy evaluation, failure detection, uncertainty estimation, OOD detection, active or continual learning"
+skills: [python, pytorch, imitation-learning, reinforcement-learning, foundation-models, uncertainty-estimation]
+responsibilities:
+  - "Research policy evaluation, failure detection and mitigation, and active or continual learning for world foundation models in robot manipulation"
+  - "Validate on real-world manipulation benchmarks and systems; publish and open-source results"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Based at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-26
+apply_url: "https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424"
+fit: 3
+take: "실제 조작 정책의 실패 감지·불확실성·신뢰성은 건설 조작 로봇 배치의 핵심 문제라 핵심 축과 직결되니, 관련 결과를 정리해 우선 지원하라."
+take_en: "Failure detection, uncertainty and reliability of real manipulation policies are central to deploying construction manipulators, so this ties straight into the core track; apply early with related results."
+sources:
+  - "https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424"
+  - "https://api.lever.co/v0/postings/tri/6f60ff79-c902-466a-912c-7ab849ce6424?mode=json"
+last_verified: 2026-10-31

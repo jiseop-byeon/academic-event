@@ -1,0 +1,25 @@
+id: meta-computational-imaging-robotics-intern-2027
+company: "Meta"
+org_type: bigtech
+title: "Research Scientist Intern - Computational Imaging and Robotics"
+fields: [robotics, vision, ar]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Redmond", region: "WA", country: US, lat: 47.67, lon: -122.12}
+work_mode: unknown
+skills: [computer-vision, 3d-vision, hardware]
+citizenship: unknown
+eligibility_note: "공고 페이지가 자동 조회를 차단해 자격 요건 미확인. 학위 요건 미확인(Meta 연구과학자 인턴은 통상 박사과정 대상)."
+eligibility_note_en: "The posting page blocks automated fetches, so eligibility is unverified. Degree requirement unverified (Meta research scientist internships are usually for PhD students)."
+status: open
+posted: 2026-10-20
+apply_url: "https://www.metacareers.com/jobs/2857194467985784/"
+fit: 2
+take: "계산 이미징과 로보틱스를 묶은 연구 인턴이라 인식·센서 쪽 결과가 있을 때 노릴 보조 옵션이다."
+take_en: "A research internship pairing computational imaging with robotics — a backup option when you have perception or sensing results."
+notes: "직무 ID 2857194467985784. 제목·근무지·게시일은 수집된 목록 기준이며 공고 본문(요건·급여·기간)은 미확인 — 지원 전 원문 확인 필요."
+notes_en: "Job ID 2857194467985784. Title, location and posting date come from the collected listing; the posting body (requirements, pay, duration) is unverified — check the original before applying."
+sources:
+  - "https://www.metacareers.com/jobs/2857194467985784/"
+last_verified: 2026-10-31

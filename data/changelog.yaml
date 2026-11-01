@@ -1,4 +1,8 @@
 # Newest first. The update agent adds one entry per run (see agent/AGENT.md), in Korean and English.
+- date: 2026-10-31
+  by: "update run (3 agents)"
+  summary: "2027 인턴십 시즌 공고 29개 추가(NVIDIA 로봇 인지·학습, Meta 로보틱스 PhD 6개, TRI 인간-로봇 상호작용·조작·주행 10개, Trace 촉각 조작, Waymo 악천후 인지, Skydio 자율비행, Intuitive 등), Amazon 로보틱스 인턴 공고 반영, Humanoids 2027·ISRR 2028 추정 마감 추가, NVIDIA 펠로십·Eno·HackTX 다음 회차 반영, 오래된 인턴십 12개 재확인"
+  summary_en: "Added 29 internships from the 2027 season (NVIDIA robotic perception & learning, 6 Meta robotics PhD roles, 10 TRI human-robot interaction/manipulation/driving roles, Trace tactile manipulation, Waymo weather perception, Skydio autonomy, Intuitive and more); filled in the now-live Amazon robotics intern posting; added estimated Humanoids 2027 and ISRR 2028 deadlines; rolled NVIDIA fellowship, Eno and HackTX to the next cycle; re-verified 12 older internships"
 - date: 2026-10-20
   by: "update run"
   summary: "인턴십 6개 추가(Ai2 로보틱스 연구, Symbotic 로봇 조작, Waymo 시뮬레이션·폐루프 학습 및 시각 추론, GM SEAM, SpAItial 3D 월드모델), HRI Pioneers·Qualcomm QIF 마감 처리 후 다음 회차 추정 마감 추가, Carbon Robotics 채용 보드를 Ashby로 수정"

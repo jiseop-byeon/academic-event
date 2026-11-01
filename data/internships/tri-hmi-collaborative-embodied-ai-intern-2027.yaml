@@ -1,0 +1,46 @@
+id: tri-hmi-collaborative-embodied-ai-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — Human-Machine Interaction Research"
+title: "Robotics Intern, Human-Machine Interaction Research (embodied AI for collaborative physical tasks)"
+fields: [hri, robotics, physical-ai, vision]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: onsite
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, HCI, Robotics, ML, Cognitive Science or related"
+  - "Experience prototyping interactive or embodied AI systems (interactive robots, multimodal assistants, conversational agents)"
+  - "Familiarity with HRI, human-AI interaction or human behavior modeling"
+  - "Experimental design, user studies and quantitative or qualitative analysis"
+skills: [python, hri, user-study, multimodal-learning, foundation-models, ros2]
+responsibilities:
+  - "Prototype embodied AI agents that support people collaborating on physical tasks, using multimodal AI to understand human activity and task progress"
+  - "Integrate AI models and interaction logic with robot hardware for real-time HRI and adapt assistance to context"
+  - "Design and run user studies on how AI assistance affects collaboration, performance and experience"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Based at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-29
+apply_url: "https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047"
+fit: 3
+take: "사람과 함께하는 물리 작업에서 인간 활동·작업 진행을 이해하고 로봇 보조를 적응시키는 주제라 건설 현장 인간-로봇 협업·의도 인식 축과 바로 맞으니 우선 지원하라."
+take_en: "Understanding human activity and task progress in shared physical tasks and adapting robot assistance maps directly onto construction human-robot collaboration and intent recognition; apply early."
+notes: "같은 제목의 TRI HMI 인턴 공고가 하나 더 있으나(사족보행 로봇-사람 팀워크·Theory of Mind) 내용이 달라 별도 파일로 둠."
+notes_en: "A second TRI HMI internship with the same title (quadruped-human teaming, Theory of Mind) has different content and has its own file."
+sources:
+  - "https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047"
+  - "https://api.lever.co/v0/postings/tri/16336213-1880-482f-87d0-b15fa4141047?mode=json"
+last_verified: 2026-10-31

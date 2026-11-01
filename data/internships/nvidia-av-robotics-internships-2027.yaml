@@ -1,0 +1,44 @@
+id: nvidia-av-robotics-internships-2027
+company: "NVIDIA"
+org_type: bigtech
+team: "NVIDIA Autonomous Vehicles and Robotics (general internship pool)"
+title: "NVIDIA 2027 Internships: Autonomous Vehicles and Robotics"
+fields: [robotics, navigation, vision, transportation]
+degree: [phd, ms, bs]
+season: "2027"
+duration: "12 weeks, full-time"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
+work_mode: unknown
+pay:
+  min: 20
+  max: 71
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 인턴 시급 범위(학사~박사 공통)"
+  note_en: "intern hourly range stated in the posting (shared across BS to PhD)"
+required:
+  - "Enrolled in a BS, MS or PhD in EE, CE or related for the full internship; graduation month/year on the resume"
+  - "Depending on the role: C/C++, CUDA, ROS, Python, Linux, LiDAR/camera/radar inputs, PyTorch or TensorFlow"
+preferred:
+  - "Coursework or experience in computer vision, mapping, localization, SLAM, physics simulation or validation frameworks"
+skills: [cpp, python, cuda, ros, slam, lidar, simulation, isaac-sim]
+responsibilities:
+  - "AV: train DNNs for path generation, collect datasets, run simulator and in-vehicle tests"
+  - "Robotics: build the Isaac software platform and infrastructure"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 인턴 기간 내내 재학 상태여야 함."
+eligibility_note_en: "No citizenship requirement in the posting. Must remain enrolled for the whole internship."
+status: rolling
+posted: 2026-10-30
+apply_url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496"
+fit: 1
+take: "학사까지 포함한 엔지니어링 풀 공고라 연구 인턴의 보조 경로로만 이력서를 올려 두라."
+take_en: "An engineering pool posting that includes undergraduates — upload a resume only as a fallback to the research internships."
+notes: "요청번호 JR2023496. 지원서는 상시 검토되며 리크루터가 여러 인턴 자리 중 맞는 곳에 연락하는 방식."
+notes_en: "Requisition JR2023496. Resumes are reviewed on a rolling basis and a recruiter reaches out if one of many internships fits."
+sources:
+  - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496"
+last_verified: 2026-10-31

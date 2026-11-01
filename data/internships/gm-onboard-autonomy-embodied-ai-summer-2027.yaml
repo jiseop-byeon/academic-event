@@ -1,0 +1,47 @@
+id: gm-onboard-autonomy-embodied-ai-summer-2027
+company: "General Motors"
+org_type: autonomy
+team: "Onboard Autonomy"
+title: "2027 Summer Intern, Onboard Autonomy, Embodied AI (PhD / Masters)"
+fields: [navigation, transportation, vision, robotics]
+degree: [phd, ms]
+season: "Summer 2027"
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+  - {city: "Seattle", region: "WA", country: US, lat: 47.61, lon: -122.33}
+work_mode: hybrid
+pay:
+  min: 11800
+  max: 14600
+  currency: USD
+  unit: month
+  source: posting
+  note: "월 석사 $11,800, 박사 $14,600(공고 기재), 일회성 지원금 별도"
+  note_en: "per month: Masters $11,800, PhD $14,600 (stated in the postings), plus a one-time stipend"
+required:
+  - "Pursuing a PhD (or a Master's, separate requisition) in CS, Robotics, EE, ME, Controls, ML or related STEM"
+  - "Experience in ML, computer vision, robotics, controls, optimization or autonomous systems"
+  - "Strong Python and C++ or another systems language; full-time 40 h/week"
+  - "Graduating between Dec 2027 and Jun 2028"
+preferred:
+  - "AVs, ADAS, robotics or ROS; PyTorch/JAX, transformers, multimodal, RL, imitation learning or trajectory prediction"
+  - "Vehicle dynamics, trajectory optimization, motion planning, closed-loop evaluation"
+skills: [python, cpp, pytorch, sensor-fusion, computer-vision, motion-planning, control, imitation-learning, ros]
+responsibilities:
+  - "Prototype and evaluate algorithms for sensor fusion, structured perception, ML planning, trajectory generation, local planning, controls or guardrails"
+  - "Work with real driving data and simulation; build evaluation and visualization tools"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음(EEO 문구에 시민권 상태 차별 금지). 주 3일 출근. 필수 요건에 2027년 12월–2028년 6월 졸업 예정이 들어 있어 초년차 박사과정생은 해당하지 않음."
+eligibility_note_en: "No citizenship requirement in the posting (the EEO statement prohibits discrimination by citizenship status). Three office days a week. Graduating between Dec 2027 and Jun 2028 is required, so early-stage PhD students do not qualify."
+status: open
+posted: 2026-10-23
+apply_url: "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135"
+fit: 1
+take: "인식·계획·제어 전반의 자율주행 온보드 스택 인턴이지만 2027–28년 졸업 예정자만 받으므로 지금은 참고용으로 두라."
+take_en: "An onboard AV stack internship spanning perception, planning and control, but only students graduating in 2027–28 qualify; reference only for now."
+notes: "박사(JR-202622135)와 석사(JR-202622543) 공고가 따로 있으나 내용은 같음. 석사 지원 링크: https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543"
+notes_en: "Separate PhD (JR-202622135) and Masters (JR-202622543) requisitions with the same content. Masters link: https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543"
+sources:
+  - "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135"
+  - "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543"
+last_verified: 2026-10-31

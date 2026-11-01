@@ -1,0 +1,46 @@
+id: tri-post-training-continual-learning-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — generalist policies"
+title: "Robotics Intern, Post-Training and Continual Learning"
+fields: [manipulation, physical-ai, ml, robotics]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, ML, Robotics or related"
+  - "Research experience in robot learning, RL, imitation learning, generative modeling or world models"
+  - "Python and a deep-learning framework such as PyTorch"
+preferred:
+  - "Pretrained generalist policies or large-scale robot-learning systems"
+  - "Offline/online RL, DAgger, human-in-the-loop learning, sim-to-real, policy distillation or manipulation"
+  - "Publications at CoRL, RSS, ICRA, IROS, NeurIPS, ICLR or ICML"
+skills: [python, pytorch, reinforcement-learning, imitation-learning, vla, simulation, foundation-models]
+responsibilities:
+  - "Develop post-training methods that adapt pretrained generalist robot policies to new tasks, environments and robots"
+  - "Run rigorous experiments in simulation and on real robots; contribute to publications"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Based at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-26
+apply_url: "https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43"
+fit: 3
+take: "범용 로봇 정책을 적은 데이터로 새 조작 작업에 정밀하게 맞추는 연구라 건설 접촉 조작에 그대로 쓰일 수 있으니 핵심 지원처로 삼아라."
+take_en: "Adapting generalist robot policies to new precise manipulation tasks with little data carries straight over to contact-rich construction manipulation; make it a primary target."
+sources:
+  - "https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43"
+  - "https://api.lever.co/v0/postings/tri/f6541d1f-b72f-456f-829f-bf118ac10c43?mode=json"
+last_verified: 2026-10-31

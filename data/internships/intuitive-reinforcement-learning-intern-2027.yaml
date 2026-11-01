@@ -1,0 +1,46 @@
+id: intuitive-reinforcement-learning-intern-2027
+company: "Intuitive Surgical"
+org_type: robotics
+team: "Future-forward research (supervised autonomy)"
+title: "Reinforcement Learning Intern"
+fields: [robotics, manipulation, ml]
+degree: [phd]
+season: "Summer 2027"
+start: "2027-05"
+duration: "10–12 weeks, full-time, starting May or June"
+duration_weeks: [10, 12]
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 62
+  max: 82
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 시급(지역 1 $73–82, 지역 2 $62–70), 주거 지원금 별도"
+  note_en: "hourly rate stated in the posting (Region 1 $73–82, Region 2 $62–70), plus a housing allowance"
+required:
+  - "Enrolled in a doctoral program in engineering, robotics, CS or related, returning after the internship"
+  - "Available full-time for 10–12 weeks starting May or June"
+preferred:
+  - "Deep experience with PyTorch or JAX"
+  - "Policy-gradient and actor-critic RL algorithms"
+  - "Video-based and multimodal data analysis"
+skills: [python, pytorch, jax, reinforcement-learning, simulation]
+responsibilities:
+  - "Collect teleoperated trajectory data on the surgical robot (e.g., pick-and-place exercises)"
+  - "Train and adapt offline RL algorithms on the data; stretch goal: real-time deployment in sim or on the da Vinci 5"
+citizenship: none
+eligibility_note: "시민권 요건 없음. 수출통제 대상 직무는 일부 국적에 한해 수출 허가 또는 기술통제계획이 필요할 수 있다고 공고에 명시."
+eligibility_note_en: "No citizenship requirement. The posting notes that export-controlled roles may need an export license or technology control plan for nationals of certain sanctioned countries."
+status: open
+posted: 2026-10-28
+apply_url: "https://jobs.smartrecruiters.com/Intuitive/744000158310864"
+fit: 2
+take: "수술 로봇의 원격조작 궤적으로 오프라인 RL을 다루는 박사 인턴이라 조작 학습 경험을 쌓기 좋지만 도메인이 의료여서 2순위로 두라."
+take_en: "A PhD internship on offline RL from teleoperated surgical-robot trajectories — good manipulation-learning experience, but the medical domain makes it a second-tier target."
+sources:
+  - "https://jobs.smartrecruiters.com/Intuitive/744000158310864"
+  - "https://api.smartrecruiters.com/v1/companies/Intuitive/postings/744000158310864"
+last_verified: 2026-10-31

@@ -1,0 +1,37 @@
+id: palona-phd-research-intern-physical-ai-2027
+company: "Palona AI"
+org_type: robotics
+team: "Product Engineering — Physical AI"
+title: "PhD Research Intern - Robotics & Physical AI"
+fields: [physical-ai, robotics, vision, hri]
+degree: [phd]
+season: "Not stated in the posting (posted Oct 2026)"
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: onsite
+required:
+  - "Pursuing a PhD in Robotics, CS, AI, Computer Vision, ML or related"
+  - "Hands-on experience programming, training, integrating and debugging real robots"
+  - "Robotic perception, planning, control or embodied AI; Python and C++; PyTorch"
+preferred:
+  - "Publications at NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, RSS, CoRL, ICRA or IROS"
+  - "VLMs, video understanding, interaction recognition, robot learning; ROS/ROS 2, motion planning"
+  - "Healthcare or assistive-robotics domain knowledge"
+skills: [python, cpp, pytorch, computer-vision, foundation-models, ros2, motion-planning]
+responsibilities:
+  - "Connect interaction-understanding perception models to real robots in a closed loop: perception, planning, execution monitoring and replanning"
+  - "Decide when, where and how a robot should act from physical-world events in restaurant and healthcare settings"
+  - "Detect execution failures and trigger replanning; evaluate robustness across actors, objects, locations and timing"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 로스앨터스 상주 근무. 급여·기간·시즌은 공고에 없음."
+eligibility_note_en: "No citizenship requirement in the posting. Onsite in Los Altos. Pay, duration and season are not stated."
+status: open
+posted: 2026-10-04
+apply_url: "https://apply.workable.com/palona/j/7B3B722546/"
+fit: 2
+take: "사람·사물 상호작용 인식을 실제 로봇 실행·재계획으로 잇는 연구라 인간 의도 인식과 실행 모니터링 경험에 도움이 되지만 식당·의료 도메인이라 보조 지원처로 두라."
+take_en: "Links human-object interaction perception to real robot execution and replanning, useful for intent recognition and execution monitoring, but the domain is restaurants and healthcare; keep it as a secondary target."
+sources:
+  - "https://apply.workable.com/palona/j/7B3B722546/"
+  - "https://apply.workable.com/api/v2/accounts/palona/jobs/7B3B722546"
+last_verified: 2026-10-31

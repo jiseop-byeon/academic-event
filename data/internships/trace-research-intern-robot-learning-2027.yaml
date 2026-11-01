@@ -1,0 +1,50 @@
+id: trace-research-intern-robot-learning-2027
+company: "Trace"
+org_type: robotics
+team: "Research — robot learning from human experience (Brooklyn lab)"
+title: "Research Intern"
+fields: [manipulation, physical-ai, vision, robotics]
+degree: [phd, ms]
+season: "Flexible start (2026–27)"
+start: "flexible"
+locations:
+  - {city: "Brooklyn", region: "NY", country: US, lat: 40.68, lon: -73.94}
+work_mode: onsite
+pay:
+  min: 22
+  max: 50
+  currency: USD
+  unit: hour
+  source: posting
+  note: "시급 $22–50(공고 기재)"
+  note_en: "$22–50 per hour (stated in the posting)"
+required:
+  - "Pursuing a PhD or Master's in Robotics, ML, CS, CE, EE, ME or related"
+  - "Strong research background in robot learning, imitation/RL, computer vision, embodied AI, dexterous manipulation or learning from human demonstrations"
+  - "Research excellence, e.g. papers at RSS, CoRL, ICRA, IROS, T-RO, IJRR, NeurIPS or CVPR"
+  - "Python and PyTorch or JAX"
+preferred:
+  - "Real-robot manipulation experiments; egocentric video, hand tracking, retargeting, cross-embodiment"
+  - "VLAs, diffusion policies, world models; tactile sensing, force estimation or contact-rich manipulation"
+  - "MuJoCo or Isaac Sim"
+skills: [python, pytorch, jax, imitation-learning, vla, diffusion-policy, tactile-sensing, force-control, mujoco, isaac-sim]
+responsibilities:
+  - "Lead an original research project on learning from human experience, human-to-robot transfer, visual-tactile learning or dexterous manipulation"
+  - "Work with egocentric video, teleoperation demonstrations, visual-tactile signals, force measurements and robot trajectories"
+  - "Validate in simulation and on real robots and publish at leading robotics and ML venues"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 브루클린 연구소 상주 근무, 시작 시기 유연, 학점 인정 가능."
+eligibility_note_en: "No citizenship requirement in the posting. Onsite at the Brooklyn lab; flexible start dates; academic credit possible."
+status: open
+posted: 2026-10-23
+apply_url: "https://jobs.ashbyhq.com/tracelabs/68034b74-c6d1-4f10-afb4-b3912efe7e96"
+fit: 3
+take: "사람 시연·시각-촉각·힘 신호로 손재주 조작을 배우는 연구라 접촉 많은 조작 핵심 축과 정확히 맞으니 연구 포트폴리오와 함께 지원하라."
+take_en: "Learning dexterous manipulation from human demonstrations, visual-tactile and force signals matches the contact-rich manipulation core exactly; apply with a research portfolio."
+notes: "같은 날 'Robotics Engineering Intern — Hardware & Software'(시급 $20–50, 학부·석사 중심, 박사 지원 가능; 하드웨어·데이터 파이프라인 위주)도 게시됨: https://jobs.ashbyhq.com/tracelabs/dec74a24-a2d5-46d2-b5b9-e7a4e3f29525"
+notes_en: "A 'Robotics Engineering Intern — Hardware & Software' posting ($20–50/h, aimed at undergrad and MS students, PhDs welcome; hardware and data pipelines) went up the same day: https://jobs.ashbyhq.com/tracelabs/dec74a24-a2d5-46d2-b5b9-e7a4e3f29525"
+sources:
+  - "https://jobs.ashbyhq.com/tracelabs/68034b74-c6d1-4f10-afb4-b3912efe7e96"
+  - "https://jobs.ashbyhq.com/tracelabs/dec74a24-a2d5-46d2-b5b9-e7a4e3f29525"
+  - "https://api.ashbyhq.com/posting-api/job-board/tracelabs?includeCompensation=true"
+last_verified: 2026-10-31

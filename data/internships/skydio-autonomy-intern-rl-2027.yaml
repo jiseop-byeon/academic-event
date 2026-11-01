@@ -1,0 +1,49 @@
+id: skydio-autonomy-intern-rl-2027
+company: "Skydio"
+org_type: robotics
+team: "R&D — Autonomy"
+title: "Autonomy Engineer Intern, Reinforcement Learning, 2027"
+fields: [navigation, robotics, ml, hri]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
+  - {city: "Zurich", country: CH, lat: 47.38, lon: 8.54}
+work_mode: onsite
+pay:
+  min: 70
+  max: 70
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 시급 $70(학부 $47, 석사 $53), 공고 기재. 근무지에 따라 다를 수 있음"
+  note_en: "PhD $70 per hour (undergrad $47, Masters $53), stated in the posting; may vary by location"
+required:
+  - "PhD student in Robotics, ML, Controls or related"
+  - "Strong RL, control theory and motion planning fundamentals"
+  - "Python (PyTorch/JAX/RLlib) and C++ or CUDA"
+  - "Robotics simulation (Isaac Lab, MuJoCo, PyBullet) and sim-to-real; deploying policies for navigation, manipulation or locomotion on real robots"
+preferred:
+  - "Publications at CoRL, ICRA, IROS, RSS or NeurIPS"
+  - "Diffusion policies, IL/BC, offline or model-based RL; multi-agent RL; TensorRT"
+skills: [python, cpp, pytorch, reinforcement-learning, isaac-sim, mujoco, motion-planning, imitation-learning]
+responsibilities:
+  - "Train RL policies for navigation and obstacle avoidance in cluttered 3D scenes (forests, bridges, urban canyons), fused with trajectory optimization"
+  - "Build sim-to-real training loops with Isaac Lab and safety filters, flight-tested weekly on real drones"
+  - "Human-in-the-loop shared control that blends pilot intent with autonomy; multi-agent coordination"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Verify로 근무 자격을 확인함."
+eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
+status: open
+posted: 2026-10-26
+apply_url: "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048"
+fit: 2
+take: "교량 같은 복잡 구조물 주변 RL 내비게이션과 조종자 의도 기반 공유 제어를 실기체로 검증해 내비게이션·HRI 보조 축에 잘 맞으니 넣어볼 만하다."
+take_en: "RL navigation around complex structures such as bridges plus pilot-intent shared control, validated on real aircraft, fits the navigation and HRI support tracks well; worth applying."
+notes: "취리히 근무 공고(bdf927bf)가 따로 있음: https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
+notes_en: "A separate Zurich posting exists (bdf927bf): https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
+sources:
+  - "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048"
+  - "https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
+  - "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"
+last_verified: 2026-10-31

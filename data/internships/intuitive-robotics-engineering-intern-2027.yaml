@@ -1,0 +1,47 @@
+id: intuitive-robotics-engineering-intern-2027
+company: "Intuitive Surgical"
+org_type: robotics
+team: "Future-forward research (supervised autonomy)"
+title: "Robotics Engineering Intern"
+fields: [robotics, manipulation, physical-ai]
+degree: [phd, ms]
+season: "Summer 2027"
+start: "2027-05"
+duration: "10–12 weeks, full-time, starting May or June"
+duration_weeks: [10, 12]
+locations:
+  - {city: "Sunnyvale", region: "CA", country: US, lat: 37.37, lon: -122.04}
+work_mode: onsite
+pay:
+  min: 62
+  max: 82
+  currency: USD
+  unit: hour
+  source: posting
+  note: "공고 기재 시급(지역 1 $73–82, 지역 2 $62–70), 주거 지원금 별도"
+  note_en: "hourly rate stated in the posting (Region 1 $73–82, Region 2 $62–70), plus a housing allowance"
+required:
+  - "Enrolled in an MS or PhD in robotics, EE, ME, CS or related, returning after the internship"
+  - "Available full-time for 10–12 weeks starting May or June"
+preferred:
+  - "MATLAB and/or Python for control design"
+  - "MuJoCo or similar constrained rigid-body simulators; Isaac Sim"
+  - "Sim-to-real transfer; embedded C++ controllers"
+  - "Video-based 3D reconstruction and environment synthesis"
+skills: [python, cpp, mujoco, isaac-sim, control, simulation, embedded, 3d-vision]
+responsibilities:
+  - "Build a sim-to-real-to-sim platform to prototype and validate autonomous controllers on the surgical robot"
+  - "Synthesize simulation environments from video (geometry, texture, inferred stiffness) and run closed-loop round-trip tests"
+citizenship: none
+eligibility_note: "시민권 요건 없음. 수출통제 대상 직무는 일부 국적에 한해 수출 허가 또는 기술통제계획이 필요할 수 있다고 공고에 명시."
+eligibility_note_en: "No citizenship requirement. The posting notes that export-controlled roles may need an export license or technology control plan for nationals of certain sanctioned countries."
+status: open
+posted: 2026-10-28
+apply_url: "https://jobs.smartrecruiters.com/Intuitive/744000158313717"
+fit: 2
+take: "강성 추정·sim-to-real 제어 검증 플랫폼을 만드는 일이라 접촉 조작 시뮬레이션 역량과 잘 맞으니 MuJoCo 경험을 앞세워 지원해 볼 만하다."
+take_en: "Building a sim-to-real controller-validation platform with stiffness inference fits contact-manipulation simulation skills; worth applying with MuJoCo experience up front."
+sources:
+  - "https://jobs.smartrecruiters.com/Intuitive/744000158313717"
+  - "https://api.smartrecruiters.com/v1/companies/Intuitive/postings/744000158313717"
+last_verified: 2026-10-31

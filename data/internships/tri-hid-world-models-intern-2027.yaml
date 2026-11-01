@@ -1,0 +1,45 @@
+id: tri-hid-world-models-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Human Interactive Driving — Extreme Performance Intelligent Control (EPIC)"
+title: "Human Interactive Driving Research Intern, World Models"
+fields: [transportation, ml, vision]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, Robotics, ML, EE or related"
+  - "Deep learning, generative models, RL or probabilistic modeling"
+  - "Hands-on world models, model-based RL, 3D reconstruction or sensor fusion, and large-scale simulation"
+  - "PyTorch, JAX or TensorFlow; prior top-tier AI/ML publications"
+skills: [python, pytorch, jax, world-models, reinforcement-learning, simulation]
+responsibilities:
+  - "Research a world foundation model for driving: multi-agent interaction, RL, perception or sim-to-real"
+  - "Evaluate in closed-loop simulation and, time permitting, on high-performance driving hardware"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-29
+apply_url: "https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb"
+fit: 1
+take: "주행용 월드 파운데이션 모델로 ML 출판 실적을 요구해 건설 조작 연구와 거리가 있으니 참고용으로 두라."
+take_en: "A driving world foundation model that expects an ML publication record; far from construction manipulation, so reference only."
+notes: "Fall 2026 시즌용 HID World Models 인턴 공고(63d61db3)와는 별개인 Summer 2027 요청."
+notes_en: "A Summer 2027 requisition, separate from the Fall 2026 HID World Models internship (63d61db3)."
+sources:
+  - "https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb"
+  - "https://api.lever.co/v0/postings/tri/828d98d0-f914-404f-b537-5d05236128bb?mode=json"
+last_verified: 2026-10-31

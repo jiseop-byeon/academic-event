@@ -1,0 +1,46 @@
+id: tri-hmi-quadruped-teaming-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — Human-Machine Interaction Research"
+title: "Robotics Intern, Human-Machine Interaction Research (quadruped-human teaming)"
+fields: [hri, robotics, ml]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in HCI, CS, ME, Cognitive Science, Robotics, ML or related"
+  - "Integrating hardware and software for real-time interactive robots (Python, C++, ROS 2)"
+  - "Familiarity with HRI, data-driven behavior modeling, ML or collaborative teamwork dynamics"
+  - "Experimental design and data collection with human participants"
+skills: [python, cpp, ros2, hri, user-study, reinforcement-learning]
+responsibilities:
+  - "Prototype interactions between quadruped robots and humans to study teamwork and collaboration"
+  - "Train and deploy learning-based models of human behavior, robot decision-making or adaptive HRI on physical robots"
+  - "Run user studies on mental-model formation (Theory of Mind) and multimodal cueing"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Based at TRI headquarters in Los Altos."
+status: open
+posted: 2026-10-29
+apply_url: "https://jobs.lever.co/tri/dcc68e06-e6a6-4cb5-b0a9-282ab9c16dc8"
+fit: 2
+take: "사족보행 로봇과 사람의 팀워크·의도 모델링이라 HRI 보조 축 경험으로 좋지만 조작과는 멀어, 협업 HMI 공고와 함께 차순위로 지원하라."
+take_en: "Quadruped-human teaming and intent modeling builds the HRI support track but is far from manipulation; apply as a second choice alongside the collaborative HMI posting."
+notes: "같은 제목의 다른 HMI 공고(협업 물리 작업용 embodied AI 보조, 상주 근무)와는 내용이 다름."
+notes_en: "Different from the other HMI posting with the same title (embodied AI assistance for collaborative physical tasks, onsite)."
+sources:
+  - "https://jobs.lever.co/tri/dcc68e06-e6a6-4cb5-b0a9-282ab9c16dc8"
+  - "https://api.lever.co/v0/postings/tri/dcc68e06-e6a6-4cb5-b0a9-282ab9c16dc8?mode=json"
+last_verified: 2026-10-31

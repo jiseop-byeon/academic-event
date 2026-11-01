@@ -1,0 +1,42 @@
+id: waymo-rsi-autonomous-driving-phd-intern-2027
+company: "Waymo"
+org_type: autonomy
+team: "AI Foundations"
+title: "2027 Summer Intern, PhD, Research, RSI for Autonomous Driving"
+fields: [ml, transportation, physical-ai]
+degree: [phd]
+season: "Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: hybrid
+pay:
+  min: 85
+  max: 85
+  currency: USD
+  unit: hour
+  source: posting
+  note: "박사 시급 $85(공고 기재)"
+  note_en: "PhD $85 per hour (stated in the posting)"
+required:
+  - "Pursuing a PhD in CS, Robotics, ML or a related quantitative field"
+  - "Depth in foundation-model post-training, especially RL; an RL training framework such as Verl or NeMo-RL"
+  - "Transformer training basics; familiarity with autonomous driving, physical AI, VLA or world models"
+preferred:
+  - "RL for robotics or driving models; world-action or video-generation models; recursive self-improvement training"
+skills: [python, reinforcement-learning, foundation-models, world-models, vla]
+responsibilities:
+  - "Design data and post-training recipes that RL the driver against critic and world models in a closed loop (recursive self-improvement)"
+  - "Implement the RSI system and iterate through ablations"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 마운틴뷰 하이브리드 근무, 충원 시까지 상시 접수."
+eligibility_note_en: "No citizenship requirement in the posting. Hybrid in Mountain View; resumes accepted on a rolling basis until filled."
+status: open
+posted: 2026-10-22
+apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8306779"
+fit: 1
+take: "대규모 주행 모델의 RL 후학습 연구로 LLM 수준 RL 경험을 요구해 현재 연구와 거리가 머니 참고용으로 두라."
+take_en: "RL post-training of large driving models that expects LLM-scale RL experience; far from current research, reference only."
+sources:
+  - "https://careers.withwaymo.com/jobs?gh_jid=8306779"
+  - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8306779"
+last_verified: 2026-10-31

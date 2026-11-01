@@ -1,0 +1,47 @@
+id: tri-human-aware-interactions-learning-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — Human Aware Interaction and Learning (HAIL)"
+title: "Human Aware Interactions and Learning Intern"
+fields: [manipulation, hri, physical-ai, robotics]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD or MS in Robotics, CS, ME or related"
+  - "Publications at RSS, CoRL, ICRA, HRI, NeurIPS, ICML, ICLR, CVPR or ICCV"
+  - "Python; ML with large datasets, models and benchmarks"
+  - "User studies with real robot hardware; hardware deployment of learned policies strongly preferred"
+preferred:
+  - "Behavior cloning or RL for manipulation; adapting policies from human feedback or corrections"
+  - "User research: IRB, study materials, statistical analysis"
+skills: [python, cpp, imitation-learning, reinforcement-learning, vla, hri, user-study, uncertainty-estimation]
+responsibilities:
+  - "Research multimodal robot policies (Large Behavior Models, VLAs) that reason about human intent, cues and shared roles in collaborative dexterous tasks"
+  - "Work on uncertainty-aware teaming, shared autonomy with VLAs, and learning from human-human and collaborative demonstrations"
+  - "Run experiments on simulated and real robots and publish at peer-reviewed venues"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 케임브리지(MA) 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid in Cambridge, MA."
+status: open
+posted: 2026-10-22
+apply_url: "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7"
+fit: 3
+take: "사람이 있는 환경에서의 조작 정책(LBM·VLA)과 인간 의도·역할 추론을 함께 다뤄 핵심 조작 축과 HRI 보조 축을 동시에 채우니 최우선으로 지원하라."
+take_en: "Covers manipulation policies (LBMs, VLAs) in the presence of people together with human intent and role reasoning, filling both the core manipulation and HRI support tracks; a top-priority application."
+sources:
+  - "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7"
+  - "https://api.lever.co/v0/postings/tri/71e99c38-aa29-4414-956d-cc526644b9b7?mode=json"
+last_verified: 2026-10-31

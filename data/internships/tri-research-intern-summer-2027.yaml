@@ -2,7 +2,7 @@ id: tri-research-intern-summer-2027
 company: "Toyota Research Institute"
 org_type: lab
 team: "TRI Robotics and other research divisions"
-title: "Summer 2027 Research Internships (not yet posted)"
+title: "Summer 2027 Research Internships (program overview)"
 fields: [robotics, manipulation, physical-ai]
 degree: [phd, ms]
 season: "Summer 2027"
@@ -19,15 +19,15 @@ responsibilities:
 citizenship: none
 eligibility_note: "TRI 인턴 안내: 보통 가을에 다음 해 여름 인턴 지원이 열리고 봄까지 대부분 충원, 첫 면접은 해당 멘토와 진행. 오퍼는 근무지·학위·이주 여부로 표준화되며 필요 시 HR이 취업 비자 절차를 안내한다고 명시."
 eligibility_note_en: "From TRI's internship guide: applications for the next summer usually open in the fall and most slots fill by spring; the first interview is with the mentor. Offers are standardized by location, degree and relocation, and TRI states that HR guides the work-visa process when needed."
-status: upcoming
-apply_url: "https://www.tri.global/tri-internship-program"
+status: open
+apply_url: "https://jobs.lever.co/tri"
 fit: 3
-take: "조작·로봇 학습 비중이 큰 TRI 로보틱스 인턴은 가을 공고 직후 멘토 단위로 빠르게 차니, 지금 연구 요약과 제안서 초안을 준비해 두고 공고가 뜨는 즉시 지원하라."
-take_en: "TRI robotics internships, heavy on manipulation and robot learning, fill quickly mentor by mentor right after the fall posting; prepare a research summary and draft proposal now and apply the moment it opens."
-notes: "2026-10-17 기준 TRI Lever 보드의 인턴 공고는 Human-Centered AI Research Intern(Causal Reasoning Models)과 Human Interactive Driving Intern(World Models) 2건뿐이며 로보틱스 Summer 2027 공고는 아직 미게시. 오픈 시기는 TRI 안내문('가을 오픈') 기준."
-notes_en: "As of 2026-10-17 TRI's Lever board lists only two internships, Human-Centered AI Research Intern (Causal Reasoning Models) and Human Interactive Driving Intern (World Models); no Summer 2027 robotics posting yet. Opening time per TRI's guide ('opens in the fall')."
+take: "조작·로봇 학습 비중이 큰 TRI 로보틱스 Summer 2027 공고가 열렸으니, 멘토 단위로 빨리 차기 전에 연구 요약과 제안서를 붙여 맞는 공고에 바로 지원하라."
+take_en: "TRI's Summer 2027 robotics postings, heavy on manipulation and robot learning, are now open; apply to the matching ones right away with a research summary and proposal before mentors fill their slots."
+notes: "2026-10-31 기준 TRI Lever 보드에 Summer 2027 인턴 공고가 게시됨. 로보틱스(HMI 2건, HAIL, Post-Training, Trustworthy Learning, World Foundation Models)와 Human Interactive Driving(인식·의사결정·학습 제어·월드 모델) 공고는 각각 별도 파일로 정리. 이 파일은 프로그램 개요용."
+notes_en: "As of 2026-10-31 TRI's Lever board lists Summer 2027 internships. Robotics (two HMI postings, HAIL, Post-Training, Trustworthy Learning, World Foundation Models) and Human Interactive Driving (perception, decision-making, learning-based control, world models) postings each have their own file; this file is the program overview."
 sources:
   - "https://www.tri.global/tri-internship-program"
   - "https://jobs.lever.co/tri"
   - "https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f"
-last_verified: 2026-10-17
+last_verified: 2026-10-31

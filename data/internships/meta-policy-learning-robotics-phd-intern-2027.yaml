@@ -1,0 +1,25 @@
+id: meta-policy-learning-robotics-phd-intern-2027
+company: "Meta"
+org_type: bigtech
+title: "Research Scientist Intern - Policy Learning for Robotics - PhD"
+fields: [robotics, manipulation, physical-ai, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Redmond", region: "WA", country: US, lat: 47.67, lon: -122.12}
+work_mode: unknown
+skills: [pytorch, reinforcement-learning, imitation-learning, vla]
+citizenship: unknown
+eligibility_note: "공고 페이지가 자동 조회를 차단해 자격 요건 미확인. 제목에 PhD 명시."
+eligibility_note_en: "The posting page blocks automated fetches, so eligibility is unverified. Title states PhD."
+status: open
+posted: 2026-10-24
+apply_url: "https://www.metacareers.com/jobs/2554989011673624/"
+fit: 3
+take: "로봇 정책 학습 박사 인턴이라 조작 정책 연구의 핵심 타깃이니 모방·강화학습 결과를 앞세워 지원하라."
+take_en: "A PhD internship on robot policy learning — a core target for manipulation-policy research; apply leading with imitation or RL results."
+notes: "직무 ID 2554989011673624. 제목·근무지·게시일은 수집된 목록 기준이며 공고 본문(요건·급여·기간)은 미확인 — 지원 전 원문 확인 필요."
+notes_en: "Job ID 2554989011673624. Title, location and posting date come from the collected listing; the posting body (requirements, pay, duration) is unverified — check the original before applying."
+sources:
+  - "https://www.metacareers.com/jobs/2554989011673624/"
+last_verified: 2026-10-31
