@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-21T18:05:25+00:00",
+ "collected_at": "2026-11-22T18:35:28+00:00",
  "boards_polled": 82,
  "postings": [
   {
@@ -1638,19 +1638,6 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Manufacturing-Engineer_R8400",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Manufacturing Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Intern--Manufacturing-Engineer_R8400",
-   "posted": "2026-11-02",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
    "id": "simplify:1872420890835857",
    "org_type": "",
    "pay": null,
@@ -1763,19 +1750,6 @@
     "ml",
     "robot",
     "vision"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Customer-Success_R8234",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Customer Success",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Customer-Success_R8234",
-   "posted": "2026-10-30",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -1997,19 +1971,6 @@
    ],
    "matched": [
     "robot"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-Op--Service-Readiness-Engineer_R8374",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-Op- Service Readiness Engineer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-Op--Service-Readiness-Engineer_R8374",
-   "posted": "2026-10-29",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -2575,19 +2536,6 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R8101",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern - Hardware Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101",
-   "posted": "2026-10-23",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
    "id": "ashby:skydio:d79ccbaa-2901-4303-bd90-675db7802366",
    "company": "Skydio",
    "org_type": "robotics",
@@ -2851,124 +2799,6 @@
    "pay": null,
    "matched": [
     "robot"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op--Machine-Learning-Ops_R8327",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op- Machine Learning Ops",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op--Machine-Learning-Ops_R8327",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "machine learning"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:MBA-Intern--Executive-Projects_R8293",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "MBA Intern- Executive Projects",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/MBA-Intern--Executive-Projects_R8293",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Robot-Manipulation_R8278",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Robot Manipulation",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "manipulat",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-Op--System-Engineer_R8261",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-Op- System Engineer",
-   "location": "USA Brooksville, FL",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Brooksville-FL/Co-Op--System-Engineer_R8261",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-Op-Project-Engineer_R8240",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-Op- Project Engineer, Commissioning",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Co-Op-Project-Engineer_R8240",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Industrial-Controls_R7973",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern - Industrial Controls",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Industrial-Controls_R7973",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "controls"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Data-Engineer_R7967",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Data Engineer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Data-Engineer_R7967",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Machine-Learning-Ops_R8202",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Machine Learning Ops",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Machine-Learning-Ops_R8202",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "machine learning"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R7976",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op- Hardware Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976",
-   "posted": "2026-10-22",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -4612,27 +4442,6 @@
    "pay": null,
    "matched": [
     "machine learning"
-   ]
-  },
-  {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Rhoda AI",
-   "title": "Robot Software Engineer Intern",
-   "location": "Mountain View, CA",
-   "url": "https://jobs.ashbyhq.com/rhoda-ai/9a57c8ff-dd2b-4547-a46a-44658a699ba5/application?embed=true",
-   "posted": "2026-09-29",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "terms": [
-    "Winter 2026"
-   ],
-   "matched": [
-    "robot"
    ]
   },
   {
@@ -6846,71 +6655,6 @@
     "reinforcement",
     "robot"
    ]
-  },
-  {
-   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Atlas-VLA-Research-Intern_R3317",
-   "company": "Boston Dynamics",
-   "org_type": "robotics",
-   "title": "Atlas VLA Research Intern",
-   "location": "Waltham Office (POST)",
-   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Atlas-VLA-Research-Intern_R3317",
-   "posted": null,
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Electrical-Engineer-Co-Op_R3315",
-   "company": "Boston Dynamics",
-   "org_type": "robotics",
-   "title": "Electrical Engineer Co-Op",
-   "location": "Waltham Office (POST)",
-   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Electrical-Engineer-Co-Op_R3315",
-   "posted": null,
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Mechanical-Engineer--Atlas-Hardware-Co-Op_R3318",
-   "company": "Boston Dynamics",
-   "org_type": "robotics",
-   "title": "Mechanical Engineer, Atlas Hardware Co-Op",
-   "location": "Waltham Office (POST)",
-   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Mechanical-Engineer--Atlas-Hardware-Co-Op_R3318",
-   "posted": null,
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Manufacturing-Test-Engineer-Co-Op_R3360",
-   "company": "Boston Dynamics",
-   "org_type": "robotics",
-   "title": "Manufacturing Test Engineer Co-Op",
-   "location": "Waltham Office (POST)",
-   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Manufacturing-Test-Engineer-Co-Op_R3360",
-   "posted": null,
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:bostondynamics.wd1.myworkdayjobs.com:Advanced-Manufacturing-Engineering-Co-Op_R3380",
-   "company": "Boston Dynamics",
-   "org_type": "robotics",
-   "title": "Advanced Manufacturing Engineering Co-Op",
-   "location": "Waltham Office (POST)",
-   "url": "https://bostondynamics.wd1.myworkdayjobs.com/en-US/Boston_Dynamics/job/Waltham-Office-POST/Advanced-Manufacturing-Engineering-Co-Op_R3380",
-   "posted": null,
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
   }
  ],
  "errors": [
@@ -6940,9 +6684,19 @@
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://generalmotors.wd5.myworkdayjobs.com/wday/cxs/generalmotors/Careers_GM/jobs"
   },
   {
+   "company": "Toyota Motor North America",
+   "ats": "workday",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://toyota.wd503.myworkdayjobs.com/wday/cxs/toyota/TMNA/jobs"
+  },
+  {
    "company": "Boston Dynamics",
    "ats": "workday",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://bostondynamics.wd1.myworkdayjobs.com/wday/cxs/bostondynamics/Boston_Dynamics/jobs"
+  },
+  {
+   "company": "Symbotic",
+   "ats": "workday",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://symbotic.wd504.myworkdayjobs.com/wday/cxs/symbotic/Symbotic/jobs"
   },
   {
    "company": "Oshkosh / JLG",
