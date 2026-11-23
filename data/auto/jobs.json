@@ -1,7 +1,53 @@
 {
- "collected_at": "2026-11-22T18:35:28+00:00",
+ "collected_at": "2026-11-23T22:46:02+00:00",
  "boards_polled": 82,
  "postings": [
+  {
+   "id": "greenhouse:samsungresearchamericainternship:8955802002",
+   "company": "Samsung Research America",
+   "org_type": "lab",
+   "title": "2027 Spring/Summer Intern, Computer Vision",
+   "location": "665 Clyde Avenue, Mountain View,  CA, USA",
+   "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002",
+   "posted": "2026-11-23",
+   "pay": null,
+   "matched": [
+    "computer vision"
+   ]
+  },
+  {
+   "id": "greenhouse:samsungresearchamericainternship:8955762002",
+   "company": "Samsung Research America",
+   "org_type": "lab",
+   "title": "2027 Spring/Summer PhD Intern, AI Research",
+   "location": "665 Clyde Avenue, Mountain View,  CA, USA",
+   "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955762002",
+   "posted": "2026-11-23",
+   "pay": null,
+   "matched": [
+    "ai"
+   ]
+  },
+  {
+   "id": "simplify:210806784",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "JP Morgan Chase",
+   "title": "Machine Learning Intern - Time Series and Reinforcement Learning",
+   "location": "London, UK",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806784",
+   "posted": "2026-11-23",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "reinforcement"
+   ]
+  },
   {
    "id": "lever:tri:2d9833d5-a940-4862-b13b-a1ecc9378fea",
    "company": "Toyota Research Institute",
@@ -857,28 +903,6 @@
    ]
   },
   {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Shield AI",
-   "title": "Engineer 2 New Grad - Software - Autonomy Capabilities",
-   "location": "United States",
-   "url": "https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/24de5a65-86ce-4269-ad26-0a3e85b42eec/application?embed=true",
-   "posted": "2026-11-11",
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2027"
-   ],
-   "matched": [
-    "autonom"
-   ]
-  },
-  {
    "id": "lever:gravisrobotics:3cc54f41-f1cd-4534-b2ba-09e11fbc9eba",
    "company": "Gravis Robotics",
    "org_type": "construction-robotics",
@@ -971,6 +995,20 @@
    ]
   },
   {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern – Machine Learning Engineer, AV/AI Platform",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--AV-AI-Platform_JR-202621695",
+   "posted": "2026-11-10",
+   "pay": null,
+   "matched": [
+    "ai",
+    "machine learning"
+   ]
+  },
+  {
    "id": "ashby:aurora-operations-inc:b61cb8ea-3ab6-46ed-90d7-be3ad9ac85ad",
    "company": "Aurora",
    "org_type": "autonomy",
@@ -1021,19 +1059,6 @@
    "matched": [
     "robot",
     "teleoperat"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Buyer_R8448",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Buyer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
-   "posted": "2026-11-09",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -1093,6 +1118,19 @@
    ],
    "matched": [
     "computer vision"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:AI-Researcher--AV--Internship--PhD-Student-_JR-202623638",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "AI Researcher (AV) Internship (PhD Student)",
+   "location": "Herzliya, Tel Aviv District, Israel",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Herzliya-Tel-Aviv-District-Israel/AI-Researcher--AV--Internship--PhD-Student-_JR-202623638",
+   "posted": "2026-11-09",
+   "pay": null,
+   "matched": [
+    "ai"
    ]
   },
   {
@@ -1594,19 +1632,6 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Project-Manager_R7971",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Project Manager",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Project-Manager_R7971",
-   "posted": "2026-11-03",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
    "id": "greenhouse:samsungresearchamericainternship:8927216002",
    "company": "Samsung Research America",
    "org_type": "lab",
@@ -2017,6 +2042,21 @@
    ]
   },
   {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439",
+   "posted": "2026-10-29",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "ml"
+   ]
+  },
+  {
    "id": "simplify:XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Veh",
    "org_type": "",
    "pay": null,
@@ -2059,27 +2099,6 @@
    ]
   },
   {
-   "id": "simplify:744000158313717",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Intuitive Surgical",
-   "title": "Robotics Engineer Intern",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.smartrecruiters.com/Intuitive/744000158313717",
-   "posted": "2026-10-28",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2027"
-   ],
-   "matched": [
-    "robot"
-   ]
-  },
-  {
    "id": "simplify:744000158310864",
    "org_type": "",
    "pay": null,
@@ -2097,6 +2116,27 @@
    ],
    "matched": [
     "reinforcement"
+   ]
+  },
+  {
+   "id": "simplify:application?embed=true",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "GrayMatter Robotics",
+   "title": "Robotics Engineering Intern: Systems & Applications",
+   "location": "Carson, CA",
+   "url": "https://jobs.ashbyhq.com/graymatter-robotics/1cdbf03d-438b-46f8-808e-76fb6cfd4320/application?embed=true",
+   "posted": "2026-10-28",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Fall 2026"
+   ],
+   "matched": [
+    "robot"
    ]
   },
   {
@@ -2275,19 +2315,6 @@
    ],
    "matched": [
     "robot"
-   ]
-  },
-  {
-   "id": "ashby:skydio:fa88cb47-36f0-4020-95c3-6ac94d59d5d5",
-   "company": "Skydio",
-   "org_type": "robotics",
-   "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (Zurich)",
-   "location": "Zurich, Switzerland",
-   "url": "https://jobs.ashbyhq.com/skydio/fa88cb47-36f0-4020-95c3-6ac94d59d5d5",
-   "posted": "2026-10-26",
-   "pay": null,
-   "matched": [
-    "autonom"
    ]
   },
   {
@@ -2485,6 +2512,223 @@
    ],
    "matched": [
     "robot"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--PhD-_JR-202621649",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern – Machine Learning Intern, Autonomous Vehicles: Software Validation (PhD)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--PhD-_JR-202621649",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "autonom",
+    "machine learning"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern – Machine Learning Intern, Autonomous Vehicles: Software Validation (Master's)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--Master-s-_JR-202621655",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "autonom",
+    "machine learning"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern - AI/ML Engineer, Autonomous Vehicle: Simulation",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicle--Simulation_JR-202621508",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "ml",
+    "simulation"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern – Autonomous Driving Software Engineer (Bachelor's & Master's)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Autonomous-Driving-Software-Engineer--Bachelor-s---Master-s-_JR-202622064",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "autonom"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Intern - AI/ML Engineer, Autonomous Vehicle ML Infrastructure",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer--Autonomous-Vehicle-ML-Infrastructure_JR-202622410",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "ml"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern – AI/ML Engineer, Autonomous Vehicles: Simulation (PhD)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "ml",
+    "simulation"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Intern---AI-ML-Engineer---Capacity---Performance-Engineering--Autonomous-Vehicles_JR-202622406",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Intern - AI/ML Engineer - Capacity & Performance Engineering, Autonomous Vehicles",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer---Capacity---Performance-Engineering--Autonomous-Vehicles_JR-202622406",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "ml"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern,  Data Scaling, Embodied AI",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI_JR-202622132",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, AI Research, Embodied AI (PhD)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, AI Research, Embodied AI (Masters)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, SEAM, Embodied AI (PhD)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, SEAM, Embodied AI (Masters)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern,  Data Scaling, Embodied AI (Masters)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, Onboard Autonomy, Embodied AI (PhD)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI_JR-202622135",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "embodied"
+   ]
+  },
+  {
+   "id": "workday:generalmotors.wd5.myworkdayjobs.com:XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+   "company": "General Motors",
+   "org_type": "autonomy",
+   "title": "2027 Summer Intern, Onboard Autonomy, Embodied AI (Masters)",
+   "location": "Sunnyvale, California, United States of America",
+   "url": "https://generalmotors.wd5.myworkdayjobs.com/en-US/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+   "posted": "2026-10-24",
+   "pay": null,
+   "matched": [
+    "ai",
+    "autonom",
+    "embodied"
    ]
   },
   {
@@ -2742,27 +2986,6 @@
    ]
   },
   {
-   "id": "simplify:Architecture-Research-Intern--Predictive-Modelling---Simulat",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "AMA",
-   "title": "Architecture Research Intern - Predictive Modelling & Simulations",
-   "location": "Edmonton, AB, Canada",
-   "url": "https://albertamotorassociation.wd3.myworkdayjobs.com/ama/job/CA-AB-Edmonton-South/Architecture-Research-Intern--Predictive-Modelling---Simulations---12-months_JR102921",
-   "posted": "2026-10-23",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "N/A"
-   ],
-   "matched": [
-    "simulation"
-   ]
-  },
-  {
    "id": "greenhouse:waymo:jobs?gh_jid=8306841",
    "company": "Waymo",
    "org_type": "autonomy",
@@ -2901,27 +3124,6 @@
    "degrees": [],
    "terms": [
     "N/A"
-   ],
-   "matched": [
-    "robot"
-   ]
-  },
-  {
-   "id": "simplify:5271842007",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Anduril",
-   "title": "Robotics Engineer Co-op",
-   "location": "Quincy, MA",
-   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5271842007",
-   "posted": "2026-10-21",
-   "degrees": [
-    "Bachelor's",
-    "Master's"
-   ],
-   "terms": [
-    "Winter 2027"
    ],
    "matched": [
     "robot"
@@ -6468,22 +6670,6 @@
    "matched": [
     "navigation",
     "reinforcement"
-   ]
-  },
-  {
-   "id": "lever:anybotics:06e5edc9-4092-4518-8ee4-cc02a2ee4c3e",
-   "company": "ANYbotics",
-   "org_type": "robotics",
-   "title": "Internship – 3D Perception, Computer Vision & AI",
-   "location": "Zurich, Switzerland",
-   "url": "https://jobs.lever.co/anybotics/06e5edc9-4092-4518-8ee4-cc02a2ee4c3e",
-   "posted": "2026-07-08",
-   "pay": "$3,000–$3,000/mo",
-   "matched": [
-    "3d",
-    "ai",
-    "computer vision",
-    "perception"
    ]
   },
   {
