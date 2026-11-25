@@ -1,7 +1,94 @@
 {
- "collected_at": "2026-11-24T21:23:22+00:00",
+ "collected_at": "2026-11-25T20:31:45+00:00",
  "boards_polled": 82,
  "postings": [
+  {
+   "id": "greenhouse:samsungresearchamericainternship:8960746002",
+   "company": "Samsung Research America",
+   "org_type": "lab",
+   "title": "2027 Summer Intern, 6G Cellular Standardization",
+   "location": "6105 Tennyson Pkwy, Suite 300, Plano TX 75024",
+   "url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8960746002",
+   "posted": "2026-11-25",
+   "pay": null,
+   "matched": [
+    "ai",
+    "control",
+    "vision"
+   ]
+  },
+  {
+   "id": "workday:hp.wd5.myworkdayjobs.com:Strategy---Planning-Intern_3171106-2",
+   "company": "HP (SitePrint)",
+   "org_type": "construction-tech",
+   "title": "Strategy & Planning Intern",
+   "location": "Stockholm - Solna, Stockholm County, Sweden",
+   "url": "https://hp.wd5.myworkdayjobs.com/en-US/ExternalCareerSite/job/Stockholm---Solna-Stockholm-County-Sweden/Strategy---Planning-Intern_3171106-2",
+   "posted": "2026-11-25",
+   "pay": null,
+   "matched": [
+    "intern"
+   ]
+  },
+  {
+   "id": "lever:gravisrobotics:8a4a157c-7569-43e6-82b1-56e84033641d",
+   "company": "Gravis Robotics",
+   "org_type": "construction-robotics",
+   "title": "Data Engineer Intern",
+   "location": "Zurich",
+   "url": "https://jobs.lever.co/gravisrobotics/8a4a157c-7569-43e6-82b1-56e84033641d",
+   "posted": "2026-11-25",
+   "pay": null,
+   "matched": [
+    "autonom",
+    "construction",
+    "control",
+    "lidar",
+    "ml",
+    "physical ai"
+   ]
+  },
+  {
+   "id": "simplify:1482835147112669",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Meta",
+   "title": "Research Scientist Intern - Machine Learning for Robust 3D Perception",
+   "location": "Redmond, WA",
+   "url": "https://www.metacareers.com/jobs/1482835147112669",
+   "posted": "2026-11-24",
+   "degrees": [],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "3d",
+    "perception"
+   ]
+  },
+  {
+   "id": "simplify:61013?icims=1&lang=en-us",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Johns Hopkins Applied Physics Laboratory",
+   "title": "Robotics Intern",
+   "location": "Laurel, MD",
+   "url": "https://careers.jhuapl.edu/jobs/61013?icims=1&lang=en-us",
+   "posted": "2026-11-24",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
   {
    "id": "greenhouse:samsungresearchamericainternship:8955802002",
    "company": "Samsung Research America",
@@ -4518,28 +4605,6 @@
    ]
   },
   {
-   "id": "simplify:apply",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Field AI",
-   "title": "Simulation – Sim to Real Intern",
-   "location": "Irvine, CA",
-   "url": "https://jobs.lever.co/field-ai/cce71d31-40a0-407f-b3b9-a586976b89b8/apply",
-   "posted": "2026-09-24",
-   "degrees": [
-    "Bachelor's",
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "N/A"
-   ],
-   "matched": [
-    "simulation"
-   ]
-  },
-  {
    "id": "simplify:8002829003?gh_jid=8002829003",
    "org_type": "",
    "pay": null,
@@ -4557,19 +4622,6 @@
    ],
    "matched": [
     "autonom"
-   ]
-  },
-  {
-   "id": "lever:field-ai:cce71d31-40a0-407f-b3b9-a586976b89b8",
-   "company": "Field AI",
-   "org_type": "robotics",
-   "title": "Simulation, Sim to Real Intern",
-   "location": "Irvine, CA",
-   "url": "https://jobs.lever.co/field-ai/cce71d31-40a0-407f-b3b9-a586976b89b8",
-   "posted": "2026-09-23",
-   "pay": "$30–$40/hr",
-   "matched": [
-    "simulation"
    ]
   },
   {
@@ -6259,116 +6311,6 @@
    ],
    "matched": [
     "civil"
-   ]
-  },
-  {
-   "id": "simplify:application",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Applied Intuition",
-   "title": "Research Intern - 3D Vision and Generation - Self-Driving",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application",
-   "posted": "2026-06-27",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2026"
-   ],
-   "matched": [
-    "3d",
-    "self-driving",
-    "vision"
-   ]
-  },
-  {
-   "id": "simplify:application",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Applied Intuition",
-   "title": "Research Intern - Reinforcement Learning - Self-Driving",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application",
-   "posted": "2026-06-27",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2026"
-   ],
-   "matched": [
-    "reinforcement",
-    "self-driving"
-   ]
-  },
-  {
-   "id": "simplify:application",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Applied Intuition",
-   "title": "Research Intern - Robotic Hardware - Simulation and Data",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application",
-   "posted": "2026-06-27",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Summer 2026"
-   ],
-   "matched": [
-    "robot",
-    "simulation"
-   ]
-  },
-  {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Applied Intuition",
-   "title": "Research Intern - World-Action Foundation Model - Robotics",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application?embed=true",
-   "posted": "2026-06-27",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Fall 2026"
-   ],
-   "matched": [
-    "robot"
-   ]
-  },
-  {
-   "id": "simplify:application?embed=true",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Applied Intuition",
-   "title": "Research Intern - Reinforcement Learning - Robotics",
-   "location": "Sunnyvale, CA",
-   "url": "https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902/application?embed=true",
-   "posted": "2026-06-27",
-   "degrees": [
-    "Master's",
-    "PhD"
-   ],
-   "terms": [
-    "Fall 2026"
-   ],
-   "matched": [
-    "reinforcement",
-    "robot"
    ]
   }
  ],
