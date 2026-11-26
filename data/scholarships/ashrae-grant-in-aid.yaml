@@ -29,10 +29,10 @@ requirements_en: ["GIA application (student part, 1–3 pages + advisor part, 4 
 nomination: false
 awards_per_year: "연 10–25명"
 cycle:
-  typical: "3월 1일 마감(2027년 회차 기준), 7월 중순 결과 통보·지급"
-  typical_en: "Deadline March 1 (2027 cycle); results and payment in mid-July"
+  typical: "매년 3월 초 마감(2027–28년분: 2027년 3월 2일 오전 8시 EST, 성적증명서 포함 서류 도착 기준), 5월 중순 결과 통보"
+  typical_en: "Deadline in early March each year (2027–28 award: March 2, 2027, 8:00 AM EST, complete packet incl. official transcript received), results by mid-May"
   deadlines:
-    - {kind: application, date: 2027-03-01, tz: "ET", time: "08:00", label: "지원 마감 (오전 8시 ET)", label_en: "Application deadline (8 a.m. ET)"}
+    - {kind: application, date: 2027-03-02, tz: "ET", time: "08:00", label: "지원 마감 (오전 8시 EST, 서류 도착 기준)", label_en: "Application deadline (8 a.m. EST, packet received)"}
 status: open
 apply_url: "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program"
 fit: 1
@@ -43,4 +43,4 @@ links:
 sources:
   - "https://www.ashrae.org/technical-resources/research/graduate-student-grant-in-aid-award"
   - "https://www.ashrae.org/communities/student-zone/scholarships-and-grants/graduate-student-grant-in-aid-award-program"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

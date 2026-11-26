@@ -31,13 +31,15 @@ responsibilities:
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 샌프란시스코 하이브리드 근무, 충원 시까지 상시 접수."
 eligibility_note_en: "No citizenship requirement in the posting. Hybrid in San Francisco; resumes accepted on a rolling basis until filled."
-status: open
+status: closed
 posted: 2026-10-29
 apply_url: "https://careers.withwaymo.com/jobs?gh_jid=8335511"
 fit: 2
 take: "공사 구간·파손 노면·악천후 인식을 다뤄 건설·교통 인접 perception 경험이 되지만 조작과는 멀어 인식 보조 축 지원처로 두라."
 take_en: "Covers perception of construction zones, damaged roads and bad weather, a construction- and transportation-adjacent perception credential, but far from manipulation; keep it as a perception support target."
+notes: "2026-11-26 확인 시 공고가 Waymo Greenhouse 보드(404)에서 내려가 마감 처리."
+notes_en: "On 2026-11-26 the posting was gone from the Waymo Greenhouse board (404); marked closed."
 sources:
   - "https://careers.withwaymo.com/jobs?gh_jid=8335511"
   - "https://boards-api.greenhouse.io/v1/boards/waymo/jobs/8335511"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

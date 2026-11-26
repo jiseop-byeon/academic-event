@@ -1,0 +1,35 @@
+id: pivotal-autonomy-path-planning-intern-2027
+company: "Pivotal"
+org_type: autonomy
+team: "Autonomy"
+title: "Internship, Autonomy - Path Planning (Summer 2027)"
+fields: [navigation, robotics]
+degree: [phd, ms, bs]
+season: "Summer 2027"
+locations:
+  - {city: "Palo Alto", region: "CA", country: US, lat: 37.44, lon: -122.14}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in Robotics, CS, Aerospace, EE or related"
+  - "C++ and/or Python, MATLAB; ROS"
+  - "Motion planning (graph search, sampling-based planning, trajectory optimization); kinematics, dynamics and control basics"
+preferred:
+  - "UAV or aerial robotics, PX4; A*, D*, RRT/RRT*"
+  - "Gazebo or AirSim; state estimation, mapping or perception; field or flight tests"
+skills: [cpp, python, matlab, ros, motion-planning, simulation]
+responsibilities:
+  - "Design path-planning and trajectory-generation algorithms for the Helix eVTOL aircraft and integrate them in a ROS-based autonomy stack"
+  - "Validate in simulation, hardware-in-the-loop and flight experiments"
+citizenship: none
+eligibility_note: "공고 문구: 미국 내 근무 자격이 있어야 하며 팔로알토 본사 출근 필요. 시민권 제한 문구는 없음. 급여는 공고에 없음."
+eligibility_note_en: "Posting language: applicants must be eligible for employment in the US and work onsite at the Palo Alto HQ; no citizenship restriction. Pay is not stated."
+status: open
+posted: 2026-11-19
+apply_url: "https://jobs.lever.co/pivotal/092eb283-16ac-4f68-a6e9-b6a0a9564067"
+fit: 1
+take: "eVTOL 경로계획 인턴이라 내비게이션 기초 경험은 되지만 건설·조작과 멀고 학부생까지 대상이니 참고용으로 두라."
+take_en: "An eVTOL path-planning internship — basic navigation experience, but far from construction and manipulation and open down to undergraduates; reference only."
+sources:
+  - "https://jobs.lever.co/pivotal/092eb283-16ac-4f68-a6e9-b6a0a9564067"
+  - "https://api.lever.co/v0/postings/pivotal/092eb283-16ac-4f68-a6e9-b6a0a9564067?mode=json"
+last_verified: 2026-11-26

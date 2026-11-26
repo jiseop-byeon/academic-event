@@ -20,30 +20,15 @@ orientation:
   summary_en: "A single-track conference centered on robot learning (imitation and reinforcement learning, VLA, robot foundation models) that demands both novelty in learning-based methods and real-robot validation. Classical control or systems integration alone tends to look out of scope, and construction work only draws interest when framed as 'a new contact-rich task and data + generalization of a learned policy'. The rebuttal is limited to 1 page and to pointing out factual errors."
   values: ["robot learning", "real-robot validation", "generalization", "open-source"]
 fit: 3
-take: "CoRL 2026은 오스틴(UT 홈그라운드)에서 11월에 열리니 청강·네트워킹은 필수이고, 투고는 2027년 5월 말 예상 마감에 학습 기반 건설 조작 결과로 노릴 것."
-take_en: "CoRL 2026 is held in Austin (UT's home turf) in November, so attending and networking are a must; for submission, aim at the expected late-May 2027 deadline with learning-based construction manipulation results."
+take: "학습 기반 조작의 핵심 무대이니 2027년 5월 말 예상 마감에 학습 기반 건설 조작 결과로 노릴 것(CoRL 2026 오스틴 대회는 11/12 종료)."
+take_en: "The core venue for learning-based manipulation: aim at the expected late-May 2027 deadline with learning-based construction manipulation results (CoRL 2026 in Austin ended November 12)."
 editions:
-  - year: 2026
-    status: confirmed
-    start: 2026-11-09
-    end: 2026-11-12
-    city: "Austin"
-    country: US
-    lat: 30.27
-    lon: -97.74
-    url: "https://2026.corl.org/"
-    deadlines:
-      - {kind: abstract, date: 2026-05-25, tz: "AoE"}
-      - {kind: paper, date: 2026-05-28, tz: "AoE"}
-      - {kind: camera-ready, date: 2026-10-12, tz: "AoE", time: "23:59"}
-    notes: "논문 마감은 종료. 본회의 11/9–11, 워크숍 11/12(JW Marriott Austin 등). 투고 저자에게 리뷰 의무(reciprocal reviewing)가 있다."
-    notes_en: "Paper deadline has passed. Main conference 11/9–11, workshops 11/12 (JW Marriott Austin, etc.). Submitting authors have a reviewing obligation (reciprocal reviewing)."
   - year: 2027
     status: estimated
     deadlines:
       - {kind: paper, date: 2027-05-28, tz: "AoE", estimated: true}
-    notes: "개최지·일정 미발표. 논문 마감은 2026(5/28 AoE) 기준 추정치이며, 과거 회차는 개최 시기에 따라 4월 말~6월 초로 변동해 왔다."
-    notes_en: "Location and schedule not yet announced. The paper deadline is an estimate based on 2026 (5/28 AoE); past deadlines have varied from late April to early June depending on when the conference was held."
+    notes: "2026-11-26 기준 corl.org에 CoRL 2027 개최지·일정 미발표. 논문 마감은 2026(5/28 AoE) 기준 추정치이며, 과거 회차는 개최 시기에 따라 4월 말~6월 초로 변동해 왔다."
+    notes_en: "As of 2026-11-26, corl.org has not announced the CoRL 2027 location or schedule. The paper deadline is an estimate based on 2026 (5/28 AoE); past deadlines have varied from late April to early June depending on when the conference was held."
 links:
   home: "https://www.corl.org/"
   cfp: "https://2026.corl.org/contributions/call-for-papers"
@@ -54,4 +39,4 @@ sources:
   - "https://www.getpaperpilot.com/deadlines/corl-2026.html"
   - "https://www.coexcenter.com/events/2025-conference-on-robot-learning-corl-2025/"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

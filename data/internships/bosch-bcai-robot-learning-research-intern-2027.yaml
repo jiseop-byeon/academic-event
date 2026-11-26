@@ -1,0 +1,37 @@
+id: bosch-bcai-robot-learning-research-intern-2027
+company: "Bosch"
+org_type: bigtech
+team: "Bosch Center for Artificial Intelligence (BCAI) — Robot Learning Lab"
+title: "Robot Learning Research Intern"
+fields: [manipulation, robotics, physical-ai, ml]
+degree: [phd]
+season: "Term not stated (posted Nov 2026)"
+locations:
+  - {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -80.00}
+work_mode: onsite
+required:
+  - "Current PhD student (or recent postdoc) in Robotics, ML, CS, CE, EE or related; GPA 3.0 or higher"
+  - "Hands-on training or adapting of VLA, diffusion/flow-matching or world-action-model policies (BC/SFT or RL post-training)"
+  - "Python and PyTorch; using coding agents to build and maintain robotics and ML software"
+  - "Physical robot platforms: data collection, policy deployment, closed-loop experiments"
+preferred:
+  - "Dexterous or contact-rich manipulation with visual, tactile, force, proprioceptive or acoustic feedback"
+  - "Cross-embodiment transfer, test-time adaptation, policy steering, failure detection and recovery"
+  - "Simulation, generative world models, digital twins or Real2Sim2Real; multi-GPU training"
+skills: [python, pytorch, vla, diffusion-policy, imitation-learning, reinforcement-learning, world-models, tactile-sensing]
+responsibilities:
+  - "Formulate a research problem, R&D plan and hypothesis with mentors; implement and evaluate in simulation and on physical robots"
+  - "Prepare a manuscript for CoRL, RSS, ICRA, IROS, NeurIPS, CVPR or similar, plus invention disclosures"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 피츠버그 BCAI 근무, CMU 로보틱스 연구소와 협업. 급여·기간은 공고에 없음."
+eligibility_note_en: "No citizenship requirement in the posting. Based at BCAI Pittsburgh, collaborating with the CMU Robotics Institute. Pay and duration are not stated."
+status: open
+posted: 2026-11-18
+apply_url: "https://jobs.smartrecruiters.com/BoschGroup/744000162212029"
+fit: 3
+take: "VLA·월드 모델 정책을 실제 로봇에서 다루고 contact-rich 조작을 우대하는 CMU 연계 연구 인턴이라 핵심 주제와 맞으니 우선 지원하라."
+take_en: "A CMU-linked research internship on VLA and world-model policies on real robots that favors contact-rich manipulation — on the core topic; apply first."
+sources:
+  - "https://jobs.smartrecruiters.com/BoschGroup/744000162212029"
+  - "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000162212029"
+last_verified: 2026-11-26

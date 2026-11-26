@@ -1,0 +1,45 @@
+id: tri-continual-adaptation-robotics-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics (Cambridge)"
+title: "Research Intern, Continual Adaptation for Robotics"
+fields: [robotics, manipulation, ml, physical-ai]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in robotics, ML, CS or related"
+  - "Research experience in RL, imitation learning, continual learning or related ML methods"
+  - "Python and PyTorch or JAX"
+preferred:
+  - "Generative robot policies (diffusion or flow), VLA or world-action models"
+  - "Online RL, preference learning, personalization, parameter-efficient post-training; real-world robot learning"
+skills: [python, pytorch, jax, reinforcement-learning, imitation-learning, diffusion-policy, vla]
+responsibilities:
+  - "Research continual learning, efficient adaptation and personalization from human demonstrations, corrections or preferences for robot policies"
+  - "Run controlled experiments in simulation and on real robots measuring task success, retention, transfer and human effort"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 케임브리지(MA) 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid in Cambridge, MA."
+status: open
+posted: 2026-11-13
+apply_url: "https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac"
+fit: 2
+take: "적은 시연·교정으로 로봇 정책을 계속 적응시키는 주제라 현장마다 다른 건설 조작에 쓸모 있지만 ML 방법론 실적이 기준이니 보조 지원처로 두라."
+take_en: "Continually adapting robot policies from few demonstrations and corrections is useful for site-to-site variation in construction manipulation, but the bar is an ML-methods record; keep it as a secondary target."
+sources:
+  - "https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac"
+  - "https://api.lever.co/v0/postings/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac?mode=json"
+last_verified: 2026-11-26

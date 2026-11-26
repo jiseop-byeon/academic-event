@@ -38,7 +38,6 @@ cycle:
   typical: "매년 봄 심포지엄(2022년 4월 7–8일, 2025년 봄, 2026년 3월 3–4일 공동 심포지엄), 공개 강연·행사는 수시"
   typical_en: "Annual spring symposium (April 7–8, 2022; spring 2025; joint symposium March 3–4, 2026), with public talks and events through the year"
   deadlines:
-    - {kind: event, date: 2026-10-27, label: "Agency and Accountability for AI in Education (10:00–12:00, EER 2.518, 사전 등록)", label_en: "Agency and Accountability for AI in Education (10 a.m.–noon, EER 2.518; registration)"}
     - {kind: event, date: 2027-03-02, label: "연례 봄 심포지엄 — 2027년 일정 미발표, 최근 패턴으로 3월 초 추정", label_en: "Annual spring symposium — 2027 date not announced; early March estimated from recent editions", estimated: true}
 status: ongoing
 apply_url: "https://bridgingbarriers.utexas.edu/good-systems"
@@ -65,4 +64,4 @@ sources:
   - "https://bridgingbarriers.utexas.edu/news/changing-chairs"
   - "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/"
   - "https://ai.utexas.edu/news/2026/ai-ethics-documentary-ethics-unwrapped-features-good-systems-researchers"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

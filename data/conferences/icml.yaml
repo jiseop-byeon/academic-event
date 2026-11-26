@@ -10,7 +10,7 @@ rankings:
   h5_index: 272
   h5_year: 2025
 frequency: annual
-paper_format: "8 pages main text (+1 at camera-ready); references, impact statement and appendix unlimited (2026 rules)"
+paper_format: "8 pages main text (+1 at camera-ready); references, impact statement and appendix unlimited (2027 CFP)"
 review:
   blind: double
   rebuttal: true
@@ -19,26 +19,37 @@ proceedings: "PMLR (Proceedings of Machine Learning Research)"
 journal_track: "TMLR papers with a J2C Certification can be presented in the NeurIPS/ICML/ICLR Journal-to-Conference track"
 orientation:
   contribution: -2
-  summary: "ML 알고리즘·이론 최상위 학회로 본문 8쪽(채택 시 +1쪽), 이중맹검, author response가 있으며 PMLR로 출판된다. 'application-driven ML'을 공식 토픽으로 두지만 여전히 ML 커뮤니티가 관심 가질 새로운 기법·문제 정의·데이터셋이어야 하고, 도메인 시스템 통합만으로는 어렵다. 4편 이상 투고한 저자는 리뷰어로 봉사해야 한다(2026 기준)."
-  summary_en: "The top conference for ML algorithms and theory, with an 8-page main text (+1 page if accepted), double-blind review and an author response, published in PMLR. It lists 'application-driven ML' as an official topic, but a paper must still offer a new technique, problem formulation or dataset that the ML community will care about, and domain systems integration alone is hard to get through. Authors who submit 4 or more papers must serve as reviewers (as of 2026)."
+  summary: "ML 알고리즘·이론 최상위 학회로 본문 8쪽(채택 시 +1쪽), 이중맹검, author response가 있으며 PMLR로 출판된다. 'application-driven ML'을 공식 토픽으로 두지만 여전히 ML 커뮤니티가 관심 가질 새로운 기법·문제 정의·데이터셋이어야 하고, 도메인 시스템 통합만으로는 어렵다. 3편 이상 투고한 저자는 PC로 봉사해야 하고, 2027년부터 2단계 심사와 저자당 20편 투고 상한이 생겼다."
+  summary_en: "The top conference for ML algorithms and theory, with an 8-page main text (+1 page if accepted), double-blind review and an author response, published in PMLR. It lists 'application-driven ML' as an official topic, but a paper must still offer a new technique, problem formulation or dataset that the ML community will care about, and domain systems integration alone is hard to get through. Authors with 3 or more submissions must serve on the program committee, and 2027 adds two-stage review and a cap of 20 submissions per author."
   values: ["algorithmic novelty", "theory", "application-driven ML"]
 fit: 1
-take: "건설 응용보다 접촉 동역학 학습·정책 학습 알고리즘 자체가 기여일 때만 의미 있는 타깃이며, 2027년 1월 말 마감(추정)에 맞출 원고가 없다면 건너뛰어도 된다."
-take_en: "A meaningful target only when the contribution is the contact-dynamics learning or policy learning algorithm itself rather than the construction application, and if there is no manuscript to fit the late-January 2027 deadline (estimated), it is fine to skip."
+take: "건설 응용보다 접촉 동역학 학습·정책 학습 알고리즘 자체가 기여일 때만 의미 있는 타깃이며, 2027-01-22 마감(초록 1/14)에 맞출 원고가 없다면 건너뛰어도 된다."
+take_en: "A meaningful target only when the contribution is the contact-dynamics learning or policy learning algorithm itself rather than the construction application, and if there is no manuscript to fit the 2027-01-22 deadline (abstracts 1/14), it is fine to skip."
 editions:
   - year: 2027
-    status: estimated
+    status: confirmed
+    start: 2027-07-31
+    end: 2027-08-06
+    city: "Rio de Janeiro"
+    country: BR
+    lat: -22.91
+    lon: -43.17
+    url: "https://icml.cc/Conferences/2027"
     deadlines:
-      - {kind: abstract, date: 2027-01-22, estimated: true}
-      - {kind: paper, date: 2027-01-28, estimated: true}
-      - {kind: notification, date: 2027-04-30, estimated: true}
-    notes: "2026-10-31 확인: 공식 Future Meetings 페이지에 '남미'로만 공지(도시·일정 미정, 예년처럼 7월 개최 예상), 2027 Dates·CFP 페이지는 아직 없다(404). 2028은 미국 동부. 마감은 ICML 2025(초록 1/23, 본문 1/30, 통보 5/1)·2026(1/23, 1/28, 4/30) 패턴으로 추정했다. 2026 서울 대회(7/6–11)가 직전 대회다."
-    notes_en: "Checked 2026-10-31: the official Future Meetings page lists only 'South America' (city and schedule undecided; a July conference is expected, as in past years), and the 2027 Dates and CFP pages do not exist yet (404). 2028 is in the eastern United States. The deadlines are estimated from the ICML 2025 (abstract 1/23, full paper 1/30, notification 5/1) and 2026 (1/23, 1/28, 4/30) pattern. The 2026 Seoul conference (7/6–11) is the most recent one."
+      - {kind: abstract, date: 2027-01-14, tz: "AoE", time: "23:59"}
+      - {kind: paper, date: 2027-01-22, tz: "AoE", time: "23:59"}
+      - {kind: other, date: 2027-02-23, label: "first-stage rejection notifications"}
+      - {kind: notification, date: 2027-05-03, label: "final decisions"}
+    notes: "제44회 ICML, 현장 개최. 엑스포 7/31, 튜토리얼 8/1, 본회의 8/2–4, 워크숍 8/5–6. 투고 사이트는 1/8에 열리고 OpenReview 계정은 12/31까지 만들 것을 권장하며, 마감은 연장 없음이 명시돼 있다. 2027년부터 2단계 심사(AC가 1단계 리젝 제안, SAC 확인)를 도입했고, 저자당 투고 20편 상한, 투고마다 상호 심사자(reciprocal reviewer) 1명 지정, 기여 유형 선택, 복수 투고 저자의 자기 논문 순위 제출이 의무다. 3편 이상 투고한 저자는 PC로 봉사해야 한다. 행사장과 카메라레디 마감은 아직 공지되지 않았다. 2028은 미국 동부."
+    notes_en: "44th ICML, in person. Expo 7/31, tutorials 8/1, main conference 8/2–4, workshops 8/5–6. The submission site opens 1/8, creating an OpenReview account by 12/31 is recommended, and the deadlines are stated to be strict with no extensions. New in 2027: two-stage review (the AC proposes first-stage rejections, confirmed by the SAC), a cap of 20 submissions per author, one designated reciprocal reviewer per submission, a required contribution type, and authors with several submissions must rank them. Authors with 3 or more submissions must serve on the program committee. The venue and camera-ready deadline have not been announced. 2028 is in the eastern United States."
 links:
   home: "https://icml.cc/"
   future_meetings: "https://icml.cc/Conferences/FutureMeetings"
-  cfp_2026: "https://icml.cc/Conferences/2026/CallForPapers"
+  cfp: "https://icml.cc/Conferences/2027/CallForPapers"
+  dates: "https://icml.cc/Conferences/2027/Dates"
 sources:
+  - "https://icml.cc/Conferences/2027/CallForPapers"
+  - "https://icml.cc/Conferences/2027/Dates"
   - "https://icml.cc/Conferences/FutureMeetings"
   - "https://icml.cc/"
   - "https://icml.cc/Conferences/2026/Dates"
@@ -48,4 +59,4 @@ sources:
   - "https://jmlr.org/tmlr/"
   - "https://portal.core.edu.au/conf-ranks/?search=ICML&by=acronym&source=ICORE2026"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

@@ -1,0 +1,25 @@
+id: meta-robotics-foundation-models-agentic-rl-intern-2027
+company: "Meta"
+org_type: bigtech
+title: "Research Scientist Intern, Robotics Foundation Models, Agentic RL (PhD)"
+fields: [manipulation, robotics, physical-ai, ml]
+degree: [phd]
+season: "2027"
+locations:
+  - {city: "Menlo Park", region: "CA", country: US, lat: 37.45, lon: -122.18}
+work_mode: unknown
+skills: [reinforcement-learning, vla, world-models, foundation-models]
+citizenship: unknown
+eligibility_note: "공고 페이지가 자동 조회를 차단해 자격 요건 미확인. 제목에 PhD 명시. 근무지는 제3자 목록 기준."
+eligibility_note_en: "The posting page blocks automated fetches, so eligibility is unverified. Title states PhD. Location comes from a third-party listing."
+status: open
+apply_url: "https://www.metacareers.com/profile/job_details/1414987577372371/"
+fit: 3
+take: "조작용 VLA·월드 액션 모델을 오프라인 RL로 사후학습하는 주제로 보여 조작 연구와 직결되니 원문 요건을 확인한 뒤 바로 지원하라."
+take_en: "Appears to be offline-RL post-training of VLA and world-action models for manipulation — directly tied to manipulation research; confirm the requirements on the posting and apply now."
+notes: "직무 ID 1414987577372371. 주제(조작용 WAM·VLA의 오프라인 RL 사후학습)는 검색 결과 요약, 근무지(멘로파크)는 제3자 인턴 목록 기준이며 공고 본문(요건·급여·기간)은 미확인 — 지원 전 원문 확인 필요."
+notes_en: "Job ID 1414987577372371. The topic (offline-RL post-training of WAMs and VLAs for manipulation) comes from a search-result summary and the location (Menlo Park) from a third-party internship listing; the posting body (requirements, pay, duration) is unverified — check the original before applying."
+sources:
+  - "https://www.metacareers.com/profile/job_details/1414987577372371/"
+  - "https://interninsider.me/internships/meta/research-scientist-intern-robotics-foundation-models-agentic-rl-a234b428-9a8b-4baf-8168-32b63a0d4dbd"
+last_verified: 2026-11-26

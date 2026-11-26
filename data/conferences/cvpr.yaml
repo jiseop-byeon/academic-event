@@ -23,13 +23,13 @@ orientation:
   summary_en: "The top computer vision conference, it values most a new methodology, a quantitative edge on public benchmarks, and thorough ablations. With no separate application or dataset track, construction-site perception papers are reviewed by the same standard, so 'we applied it to construction' alone easily draws comments about insufficient novelty and baseline comparisons; a new dataset or benchmark needs scale and a problem definition that generalizes."
   values: ["methodological novelty", "SOTA benchmark results", "large-scale datasets", "thorough ablations"]
 fit: 2
-take: "조작이 핵심인 지금 1순위 타깃은 아니지만, 건설 현장 인식 데이터셋·벤치마크를 일반화 가능한 방법과 묶어 낼 수 있다면 2026-11-16 마감에 도전할 가치가 있다."
-take_en: "Not the No. 1 target now that manipulation is the core focus, but worth a shot at the 2026-11-16 deadline if a construction-site perception dataset or benchmark can be paired with a generalizable method."
+take: "조작이 핵심인 지금 1순위 타깃은 아니지만, 건설 현장 인식 데이터셋·벤치마크를 일반화 가능한 방법과 묶어 낼 수 있다면 CVPR 2028의 2027년 11월 중순(예상) 마감에 도전할 가치가 있다."
+take_en: "Not the No. 1 target now that manipulation is the core focus, but worth a shot at the CVPR 2028 deadline expected in mid-November 2027 if a construction-site perception dataset or benchmark can be paired with a generalizable method."
 editions:
   - year: 2027
     status: confirmed
     start: 2027-06-20
-    end: 2027-06-25
+    end: 2027-06-24
     city: "Seattle"
     country: US
     venue: "Seattle Convention Center"
@@ -43,8 +43,21 @@ editions:
       - {kind: other, date: 2027-01-25, tz: "AoE", label: "Reviews released"}
       - {kind: rebuttal, date: 2027-02-01, tz: "AoE", label: "Rebuttal period Jan 25 – Feb 1"}
       - {kind: notification, date: 2027-02-25, tz: "AoE"}
-    notes: "워크숍·튜토리얼 6/20–21, 본회의 6/22–25(CVPR 2027 Dates 페이지 기준). CVF 메인 페이지와 CVPR 2026 폐막 보도자료는 6/20–24로 표기해 종료일이 하루 다르다. 제출 마감은 연장 없음이 명시돼 있고, 모든 저자는 초청 시 리뷰어·AC로 봉사해야 한다. 카메라레디 마감은 아직 공지되지 않았다."
-    notes_en: "Workshops and tutorials 6/20–21, main conference 6/22–25 (per the CVPR 2027 Dates page). The CVF main page and the CVPR 2026 closing press release give 6/20–24, so the end date differs by one day. The submission deadline is explicitly stated to have no extension, and all authors must serve as reviewers or ACs when invited. The camera-ready deadline has not been announced yet."
+    notes: "워크숍·튜토리얼 6/20–21, 본회의 6/22–24(CVPR 2027 Dates 페이지와 CVF 메인 페이지 기준, 2026-11-26 확인; 이전에 Dates 페이지가 6/25로 표기했던 종료일이 수정됐다). 제출 마감은 연장 없음이 명시돼 있고, 모든 저자는 초청 시 리뷰어·AC로 봉사해야 한다. 카메라레디 마감은 아직 공지되지 않았다."
+    notes_en: "Workshops and tutorials 6/20–21, main conference 6/22–24 (per the CVPR 2027 Dates page and the CVF main page, checked 2026-11-26; the Dates page earlier showed 6/25 as the end date). The submission deadline is explicitly stated to have no extension, and all authors must serve as reviewers or ACs when invited. The camera-ready deadline has not been announced yet."
+  - year: 2028
+    status: estimated
+    start: 2028-06-11
+    end: 2028-06-15
+    city: "San Antonio"
+    country: US
+    lat: 29.42
+    lon: -98.49
+    deadlines:
+      - {kind: abstract, date: 2027-11-07, tz: "AoE", label: "Paper registration", estimated: true}
+      - {kind: paper, date: 2027-11-14, tz: "AoE", estimated: true}
+    notes: "2026-11-26 기준 공식 CVPR·CVF 사이트에 2028년 정보 없음. 개최지·일정(샌안토니오, 6/11–15)은 행사 목록 사이트(BERI, Showsbee)에만 나와 확인되지 않았다. 마감은 CVPR 2025(등록 2024-11-07, 본문 11/14, 태평양시)·2026(초록 2025-11-07, 본문 11/13)·2027(초록 2026-11-10, 본문 11/16) 패턴으로 11월 중순을 추정했다."
+    notes_en: "As of 2026-11-26 the official CVPR and CVF sites have no 2028 information. The location and dates (San Antonio, June 11–15) appear only on event-listing sites (BERI, Showsbee) and are unconfirmed. The deadlines are estimated for mid-November from the CVPR 2025 (registration 2024-11-07, paper 11/14, Pacific time), 2026 (abstract 2025-11-07, paper 11/13) and 2027 (abstract 2026-11-10, paper 11/16) pattern."
 links:
   home: "https://cvpr.thecvf.com/Conferences/2027"
   cfp: "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
@@ -58,4 +71,8 @@ sources:
   - "https://www.thecvf.com/"
   - "https://portal.core.edu.au/conf-ranks/?search=CVPR&by=acronym&source=ICORE2026"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
-last_verified: 2026-10-02
+  - "https://cvpr.thecvf.com/Conferences/2026/Dates"
+  - "https://cvpr.thecvf.com/Conferences/2025/Dates"
+  - "https://www.beri.net/events/cvpr-2028"
+  - "https://www.showsbee.com/fairs/108223-IEEE-CVPR-2028.html"
+last_verified: 2026-11-26

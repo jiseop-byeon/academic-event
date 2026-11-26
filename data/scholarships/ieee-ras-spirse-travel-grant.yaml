@@ -29,8 +29,8 @@ requirements_en: ["Online application (RAS Smartsheet form)", "One letter of rec
 nomination: false
 awards_per_year: "연 3명"
 cycle:
-  typical: "학회별로 공모 — 학회 약 4–5개월 전 마감, 약 1개월 반 뒤 통보 (ICRA 2026: 2/1 마감, IROS 2026: 5/1 마감). ICRA 2027(서울, 5/24–28) 공모는 미발표 — 같은 패턴으로 2027년 2월 1일경 마감 추정"
-  typical_en: "One call per conference — deadline about 4–5 months before the conference, notification about six weeks later (ICRA 2026: due Feb 1; IROS 2026: due May 1). The ICRA 2027 (Seoul, May 24–28) call is not posted — about February 1, 2027 is estimated from the same pattern"
+  typical: "학회별로 공모 — 학회 약 4–5개월 전 마감, 약 1개월 반 뒤 통보 (ICRA 2026: 2/1 마감, IROS 2026: 5/1 마감). ICRA 2027(서울, 5/24–28) 공모는 2026-11-26 현재 미발표 — 같은 패턴으로 2027년 2월 1일경 마감 추정"
+  typical_en: "One call per conference — deadline about 4–5 months before the conference, notification about six weeks later (ICRA 2026: due Feb 1; IROS 2026: due May 1). The ICRA 2027 (Seoul, May 24–28) call is not posted as of 2026-11-26 — about February 1, 2027 is estimated from the same pattern"
   deadlines:
     - {kind: application, date: 2027-02-01, label: "ICRA 2027(서울) SPIRSE 신청 마감 (추정)", label_en: "ICRA 2027 (Seoul) SPIRSE application deadline (estimated)", estimated: true}
 status: upcoming
@@ -44,4 +44,4 @@ sources:
   - "https://www.ieee-ras.org/industry-government/standards/students-participating-in-ieee-robotic-standardization-efforts/"
   - "https://www.ieee-ras.org/industry-activities/standards/students-participating-in-ieee-robotic-standardization-efforts/2026-icra-spirse-competition-2/"
   - "https://www.ieee-ras.org/industry-activities/standards/students-participating-in-ieee-robotic-standardization-efforts/2026-icra-spirse-competition/"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

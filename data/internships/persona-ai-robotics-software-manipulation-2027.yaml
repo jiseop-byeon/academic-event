@@ -27,11 +27,13 @@ responsibilities:
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 학사–박사 재학생 지원 가능. 기수별 선착순 마감."
 eligibility_note_en: "No citizenship requirement in the posting. Open to BS through PhD students. Each cohort fills first-come first-served."
-status: open
+status: closed
 posted: 2026-08-28
 apply_url: "https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc"
 fit: 3
 take: "힘·촉각 기반 dexterous manipulation과 MuJoCo/Isaac 디지털 트윈을 직접 다루는 텍사스 휴머노이드 인턴이라 contact-rich 조작 연구와 가장 가깝다."
 take_en: "A Texas humanoid internship working hands-on with force/tactile dexterous manipulation and MuJoCo/Isaac digital twins — about as close to contact-rich manipulation research as it gets."
+notes: "2026-11-26 확인 시 공고가 Persona AI Ashby 보드에서 내려가 마감 처리."
+notes_en: "On 2026-11-26 the posting was gone from the Persona AI Ashby board; marked closed."
 sources: ["https://jobs.ashbyhq.com/persona.ai/1e8d195c-e28e-423d-a06a-9eeb401ed4fc", "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"]
-last_verified: 2026-10-17
+last_verified: 2026-11-26

@@ -2,7 +2,7 @@ id: amazon-robotics-applied-scientist-intern-2027
 company: "Amazon"
 org_type: bigtech
 team: "Amazon Robotics, Frontier AI & Robotics, Lab126 (multiple robotics teams)"
-title: "2027 Applied Science Internship - Robotics - United States (Robotics Applied Scientist II Intern/Co-op)"
+title: "2027 Applied Science Internship - Robotics - United States"
 fields: [robotics, manipulation, navigation, vision, hri]
 degree: [phd]
 season: "2027 (year-round start dates)"
@@ -17,13 +17,13 @@ locations:
   - {city: "New York", region: "NY", country: US, lat: 40.71, lon: -74.01}
 work_mode: onsite
 pay:
-  min: 135660
-  max: 156910
+  min: 143640
+  max: 172584
   currency: USD
   unit: year
   source: posting
-  note: "연 환산 기본급(공고 기재): MA·WA $135,660, Sunnyvale $156,060, New York $156,910"
-  note_en: "annualized base pay (stated in the posting): MA and WA $135,660, Sunnyvale $156,060, New York $156,910"
+  note: "연 환산 기본급(공고 기재): Bellevue·Seattle·Westborough $143,640, North Reading $146,832, New York $166,140, Sunnyvale $172,584"
+  note_en: "annualized base pay (stated in the posting): Bellevue, Seattle and Westborough $143,640, North Reading $146,832, New York $166,140, Sunnyvale $172,584"
 required:
   - "Enrolled in a PhD in engineering, CS, ML, robotics, OR, statistics, math or related"
   - "Demonstrated research depth through publications or thesis work"
@@ -41,14 +41,14 @@ citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정 재학·만 18세 이상, 대면 근무."
 eligibility_note_en: "No citizenship requirement in the posting. PhD enrollment, age 18+, onsite work."
 status: open
-posted: 2026-10-28
-apply_url: "https://www.amazon.jobs/en/jobs/10591833/2027-applied-science-internship-robotics-united-states"
+posted: 2026-11-13
+apply_url: "https://www.amazon.jobs/en/jobs/10604778/2027-applied-science-internship-robotics-united-states"
 fit: 3
 take: "파지·말단장치·모바일 조작부터 HRI까지 폭넓게 뽑는 로보틱스 박사 인턴 공고가 열렸으니 조작 연구를 앞세워 바로 지원하라."
 take_en: "The robotics PhD internship that hires broadly from grasping, end effectors and mobile manipulation to HRI is now open — apply right away, leading with manipulation research."
-notes: "직무 ID 10591833, 2026-10-28 게시. 여러 로보틱스 팀에 동시 고려되며 근무지·기간(3–6개월 이상)·시작 시기(연중)가 다양함. 2026판은 직무 ID 3104589(2025-10-08 게시)였음."
-notes_en: "Job ID 10591833, posted 2026-10-28. Applicants are considered across several robotics teams, with varied locations, durations (3–6+ months) and year-round start dates. The 2026 edition was job ID 3104589 (posted 2025-10-08)."
+notes: "직무 ID 10604778(2026-11-13 재게시; 이전 ID 10591833은 2026-11-26 기준 404). 여러 로보틱스 팀에 동시 고려되며 근무지·기간(3–6개월 이상)·시작 시기(연중)가 다양함. 2026판은 직무 ID 3104589(2025-10-08 게시)였음."
+notes_en: "Job ID 10604778 (reposted 2026-11-13; the earlier ID 10591833 returns 404 as of 2026-11-26). Applicants are considered across several robotics teams, with varied locations, durations (3–6+ months) and year-round start dates. The 2026 edition was job ID 3104589 (posted 2025-10-08)."
 sources:
+  - "https://www.amazon.jobs/en/jobs/10604778/2027-applied-science-internship-robotics-united-states"
   - "https://www.amazon.jobs/en/jobs/10591833/2027-applied-science-internship-robotics-united-states"
-  - "https://www.amazon.jobs/en/search.json?base_query=10591833&result_limit=5"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

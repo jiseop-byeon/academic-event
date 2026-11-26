@@ -30,12 +30,13 @@ requirements_en: ["Research proposal (≤750 words, PDF)", "Résumé (PDF)", "Ph
 nomination: false
 awards_per_year: "2026년 4명"
 cycle:
-  typical: "매년 가을 접수 — 2027 펠로십은 2026/8/14 오픈·9/25 마감, 11/2 추천서 마감, 12월 결선 발표, 1월 결선 발표회, 2–3월 선정 발표 (2023·2024년 회차는 11월 초 마감이었음)"
-  typical_en: "Fall call each year — the 2027 fellowship opened Aug 14, 2026 and closed Sep 25, letters due Nov 2, finalists in December, finalist presentations in January, winners in February–March (the 2023 and 2024 cycles closed in early November)"
+  typical: "매년 가을 접수 — 2027 펠로십은 2026/8/14 오픈·9/25 마감, 11/2 추천서 마감, 12월 결선 발표, 1월 결선 발표회, 2–3월 선정 발표 (2026 펠로십은 2025/9/20 마감; 2023·2024년 회차는 11월 초 마감이었음) — 2028 펠로십은 2027년 9월 하순 마감으로 추정"
+  typical_en: "Fall call each year — the 2027 fellowship opened Aug 14, 2026 and closed Sep 25, letters due Nov 2, finalists in December, finalist presentations in January, winners in February–March (the 2026 fellowship closed Sep 20, 2025; the 2023 and 2024 cycles closed in early November) — the 2028 fellowship is estimated to close in late September 2027"
   deadlines:
     - {kind: application, date: 2026-09-25, time: "12:00", tz: "ET", label: "2027 펠로십 지원 마감", label_en: "2027 fellowship application deadline"}
     - {kind: recommendation, date: 2026-11-02, time: "12:00", tz: "ET", label: "추천서 마감", label_en: "Recommendation letters due"}
-status: closed
+    - {kind: application, date: 2027-09-24, time: "12:00", tz: "ET", estimated: true, label: "2028 펠로십 지원 마감 (2025·2026년 9월 하순 마감 패턴으로 추정)", label_en: "2028 fellowship application deadline (estimated from the late-September deadlines of 2025 and 2026)"}
+status: upcoming
 fit: 2
 take: "지금(1년차)은 자격 밖이니 2년차 가을인 2027년 가을 접수(2028 펠로십)에 로봇 학습 연구를 AI·CS 분야로 내세워 직접 지원하되, 다른 기업 펠로십과 중복 수혜가 안 되므로 NVIDIA·Google 등과 함께 저울질하라."
 take_en: "Not eligible in year 1 — apply directly in the fall of year 2 (fall 2027 call for the 2028 fellowship), pitching robot learning as AI/CS; it cannot be combined with other corporate fellowships, so weigh it against NVIDIA, Google and others."
@@ -44,6 +45,8 @@ links:
 sources:
   - "https://www.twosigma.com/graduate-students/phd-fellowships/"
   - "https://www.twosigma.com/graduate-students/"
+  - "https://www.twosigma.com/articles/empowering-scientific-excellence-the-two-sigma-phd-fellowship/"
+  - "https://econ.columbia.edu/two-sigmas-2026-phd-fellowship"
   - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/245825916/24-25+Two+Sigma+PhD+Fellowship+Fall+2024"
   - "https://uofi.atlassian.net/wiki/spaces/studentawards/pages/119767507/23-24+Two+Sigma+PhD+Fellowship+Fall+2023"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

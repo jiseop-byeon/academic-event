@@ -34,10 +34,10 @@ editions:
     url: "https://www.nationalacademies.org/events/887"
     deadlines:
       - {kind: paper, date: 2026-08-01, tz: "AoE", time: "23:59", label: "full paper (submission site open July 1 - August 1)"}
-      - {kind: registration, date: 2026-11-18, label: "early-bird registration"}
-      - {kind: other, date: 2026-11-20, label: "accepted papers: choose full paper or structured abstract only for the online program"}
-    notes: "106회 연차 회의. 논문 접수(7/1–8/1)와 심사(9/15까지)는 끝났고 발표 채택 결정은 10월 초에 통보된다. 2027년부터 구조화 초록, 최대 20쪽, Chicago 저자-연도 인용이 의무화됐다. 워크숍은 첫날과 마지막 날 열린다."
-    notes_en: "106th Annual Meeting. Submission (July 1 - August 1) and review (through September 15) are over; presentation decisions go out in early October. New in 2027: a mandatory structured abstract, a 20-page cap and Chicago author-date references. Workshops run on the first and last days."
+      - {kind: registration, date: 2026-11-18, label: "early-bird registration (original date; TRB is extending it by 10 business days after registration service is restored, new end date to be announced)"}
+      - {kind: other, date: 2026-11-20, label: "accepted papers: choose full paper or structured abstract only for the online program (original date; being extended, new date to be announced)"}
+    notes: "106회 연차 회의. 논문 접수(7/1–8/1)와 심사(9/15까지)는 끝났고 발표 채택 결정은 10월 초에 통보된다. 2027년부터 구조화 초록, 최대 20쪽, Chicago 저자-연도 인용이 의무화됐다. 워크숍은 첫날과 마지막 날 열린다. 2026-11-26 확인: 등록 시스템 중단으로 얼리버드 등록(원래 11/18)은 등록 재개 후 영업일 10일 연장되고, 채택 논문 업로드(원래 11/20)도 연장되며 새 날짜는 추후 공지된다. 장소는 Walter E. Washington Convention Center와 Marriott Marquis."
+    notes_en: "106th Annual Meeting. Submission (July 1 - August 1) and review (through September 15) are over; presentation decisions go out in early October. New in 2027: a mandatory structured abstract, a 20-page cap and Chicago author-date references. Workshops run on the first and last days. Checked 2026-11-26: because registration service is down, the early-bird rate (originally November 18) will stay open for 10 business days after registration returns, and the accepted-paper upload (originally November 20) is also being extended, with new dates to be announced. Venue: Walter E. Washington Convention Center and Marriott Marquis."
   - year: 2028
     status: announced
     start: 2028-01-09
@@ -62,4 +62,4 @@ sources:
   - "https://trb.secure-platform.com/a/page/TRBPaperReview/TRBAMReviewerGuide"
   - "https://www.ectri.org/event/2028-trb-annual-meeting/"
   - "https://www.pci.org/PCI/PCI/News-Events/Event_Display.aspx?EventKey=TRB28"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

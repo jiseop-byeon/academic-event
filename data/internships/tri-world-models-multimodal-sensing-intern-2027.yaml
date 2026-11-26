@@ -1,0 +1,45 @@
+id: tri-world-models-multimodal-sensing-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics (Cambridge) — Large Behavior Models"
+title: "Robotics Intern, World Models, Multimodal Sensing"
+fields: [manipulation, robotics, haptics, physical-ai, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Hands-on ML with large datasets and generative models"
+  - "Research experience in world models, action-conditioned prediction or learned control, with interest in contact-rich manipulation"
+  - "Python and a modern deep-learning framework such as PyTorch"
+preferred:
+  - "Tactile sensors, force/torque sensing, contact simulation or force-controlled manipulation (strongly preferred)"
+  - "Contact dynamics, deformation, slip and force transmission"
+skills: [python, pytorch, world-models, tactile-sensing, force-control, simulation, foundation-models]
+responsibilities:
+  - "Build world-action models that fuse tactile and force sensing with vision and proprioception to predict interaction outcomes and guide robot behavior"
+  - "Run experiments on simulated and real robots and publish"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 학위 요건은 명시되지 않음. 케임브리지(MA) 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. No degree level stated. Hybrid in Cambridge, MA."
+status: open
+posted: 2026-11-16
+apply_url: "https://jobs.lever.co/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3"
+fit: 3
+take: "촉각·힘 센싱 기반 월드 모델로 접촉 결과를 예측하는 주제라 contact-rich 건설 조작의 핵심과 그대로 맞으니 우선 지원하라."
+take_en: "World models that predict contact outcomes from tactile and force sensing match the core of contact-rich construction manipulation exactly; apply first."
+sources:
+  - "https://jobs.lever.co/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3"
+  - "https://api.lever.co/v0/postings/tri/c6569529-4b6b-4229-b2c9-f97467c26cd3?mode=json"
+last_verified: 2026-11-26

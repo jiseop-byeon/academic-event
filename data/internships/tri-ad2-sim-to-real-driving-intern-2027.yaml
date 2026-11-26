@@ -1,0 +1,45 @@
+id: tri-ad2-sim-to-real-driving-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Automated Driving Advanced Development (AD2)"
+title: "Automated Driving Advanced Development Intern, Machine Learning Research (Cambridge)"
+fields: [transportation, ml, robotics]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD or MS in CS, Robotics, ML, AI, Engineering or related"
+  - "Python and PyTorch; version control, testing and software-engineering fundamentals"
+  - "Research experience in sim-to-real, domain adaptation, RL, imitation learning, diffusion/flow models or autonomous driving"
+preferred:
+  - "CARLA or NVIDIA DriveSim, sensor simulation or neural rendering; world models"
+  - "Post-training with RL, DAgger or preference methods; real sensor data; publications at CoRL, ICRA, RSS, NeurIPS, ICML or CVPR"
+skills: [python, pytorch, simulation, reinforcement-learning, imitation-learning, neural-rendering]
+responsibilities:
+  - "Own a research project on sim-to-sim and sim-to-real transfer of driving policies post-trained in fast, low-fidelity simulation"
+  - "Run closed-loop evaluations across simulators of varying fidelity and write a conference or workshop paper"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 공고 위치는 케임브리지(MA)이지만 자격 요건에는 로스앨터스 본사 하이브리드 근무가 적혀 있어 근무지 확인 필요."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. The listed location is Cambridge, MA, but the qualifications ask for hybrid work at TRI headquarters in Los Altos — confirm the site."
+status: open
+posted: 2026-11-16
+apply_url: "https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476"
+fit: 1
+take: "주행 정책의 sim-to-real 전이 연구라 방법론은 조작에도 통하지만 자율주행 전용이니 참고용으로만 두라."
+take_en: "Sim-to-real transfer of driving policies; the methods carry over to manipulation, but the role is driving-only, so keep it for reference."
+sources:
+  - "https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476"
+  - "https://api.lever.co/v0/postings/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476?mode=json"
+last_verified: 2026-11-26

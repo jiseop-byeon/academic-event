@@ -2,12 +2,11 @@ id: skydio-autonomy-intern-sim-robotics-2027
 company: "Skydio"
 org_type: robotics
 team: "R&D — Autonomy (Skydio Simulator)"
-title: "Autonomy Engineer Intern, Simulation & Robotics, 2027"
+title: "Autonomy Engineer Intern, Simulation & Robotics, 2027 (Zurich)"
 fields: [robotics, navigation]
 degree: [phd, ms, bs]
 season: "Summer 2027"
 locations:
-  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
   - {city: "Zurich", country: CH, lat: 47.38, lon: 8.54}
 work_mode: onsite
 pay:
@@ -33,14 +32,14 @@ eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Veri
 eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
 status: open
 posted: 2026-10-26
-apply_url: "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17"
+apply_url: "https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
 fit: 1
 take: "드론 시뮬레이터 엔지니어링 중심이라 연구 인턴이 아니고 조작과도 멀어 참고용으로 두라."
 take_en: "Mostly drone-simulator engineering rather than research, and far from manipulation; reference only."
-notes: "취리히 근무 공고(05f020b1)가 따로 있음: https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
-notes_en: "A separate Zurich posting exists (05f020b1): https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
+notes: "2026-11-26 기준 San Mateo(미국) 공고는 내려가고 취리히 공고(05f020b1)만 남음. 취리히 공고도 학부 $47·석사 $53·박사 $70 시급을 기재."
+notes_en: "As of 2026-11-26 the San Mateo (US) posting is gone and only the Zurich posting (05f020b1) remains. The Zurich posting also lists $47 undergrad, $53 Masters and $70 PhD per hour."
 sources:
   - "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17"
   - "https://jobs.ashbyhq.com/skydio/05f020b1-9023-49c5-bac4-42dbd8552d3a"
   - "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

@@ -17,8 +17,8 @@ orientation:
   summary_en: "The largest conference of the haptics community, spanning haptic devices, tactile sensing, human perception experiments and teleoperation, and valuing 'haptics-specific contributions' such as device design or perception experiments. It fits well when packaged as force/tactile-feedback teleoperation or tactile-sensing-based control for construction contact-rich manipulation, but robot manipulation performance alone easily draws the verdict that the haptic contribution is weak."
   values: ["haptic devices", "tactile sensing", "human perception", "teleoperation"]
 fit: 2
-take: "WHC 2027(보스턴, 1/29 마감 예정)은 촉각 센싱·햅틱 원격조작을 건설 조작에 접목한 결과가 있을 때 노릴 만한 2순위 무대."
-take_en: "WHC 2027 (Boston, deadline scheduled for 1/29) is a No. 2 priority stage worth aiming at when there are results combining tactile sensing or haptic teleoperation with construction manipulation."
+take: "WHC 2027(보스턴, 초록 1/29·본문 2/5 마감)은 촉각 센싱·햅틱 원격조작을 건설 조작에 접목한 결과가 있을 때 노릴 만한 2순위 무대."
+take_en: "WHC 2027 (Boston, abstracts 1/29, papers 2/5) is a No. 2 priority stage worth aiming at when there are results combining tactile sensing or haptic teleoperation with construction manipulation."
 editions:
   - year: 2027
     status: confirmed
@@ -31,15 +31,16 @@ editions:
     url: "https://2027.worldhaptics.org/"
     deadlines:
       - {kind: workshop-proposal, date: 2027-01-15, label: "workshop/tutorial expression of interest"}
-      - {kind: paper, date: 2027-01-29, label: "long and regular papers"}
+      - {kind: abstract, date: 2027-01-29, label: "long and regular papers"}
+      - {kind: paper, date: 2027-02-05, label: "long and regular papers"}
+      - {kind: other, date: 2027-03-26, label: "Student Innovation Challenge proposals"}
       - {kind: workshop-proposal, date: 2027-04-02, label: "workshop/tutorial full proposal"}
-      - {kind: notification, date: 2027-04-16}
-      - {kind: other, date: 2027-04-23, label: "intention of participation (ToH papers)"}
-      - {kind: other, date: 2027-04-30, label: "work-in-progress papers"}
-      - {kind: other, date: 2027-05-07, label: "hands-on demonstrations"}
+      - {kind: notification, date: 2027-04-20, label: "long and regular papers"}
+      - {kind: other, date: 2027-05-07, label: "work-in-progress papers; hands-on demonstrations and Haptic Design Showcase"}
+      - {kind: other, date: 2027-05-14, label: "previously published papers (PPP)"}
       - {kind: camera-ready, date: 2027-05-14}
-    notes: "공식 사이트의 모든 일정은 '잠정(tentative)'. 본문은 7/13–16, Important Dates 목록은 7/12–15로 표기가 엇갈려 본문 기준으로 입력함. 격년(홀수 해) 개최로 짝수 해에는 IEEE Haptics Symposium이 열린다."
-    notes_en: "All dates on the official site are 'tentative'. The body text says 7/13–16 while the Important Dates list says 7/12–15, so the body text was used for the entry. It is held biennially (in odd years), and in even years the IEEE Haptics Symposium takes place."
+    notes: "2026-11-26 확인: 공식 사이트가 일정을 갱신해 장편·정규 논문은 1/29 초록, 2/5 본문 제출로 나뉘었고(이전 공지는 1/29 본문 마감), 통보는 4/20, WIP·데모는 5/7, 기발표 논문(PPP)과 최종본은 5/14다. 이전의 '잠정' 표기와 7/12–15 표기는 사라지고 7/13–16으로 통일됐으며, 마감 시간대는 표기되지 않았다. 격년(홀수 해) 개최로 짝수 해에는 IEEE Haptics Symposium이 열린다."
+    notes_en: "Checked 2026-11-26: the official site has updated its schedule, so long and regular papers now have an abstract deadline of 1/29 and a full-paper deadline of 2/5 (previously the paper deadline was 1/29), notification on 4/20, work-in-progress papers and demos on 5/7, and previously published papers (PPP) and camera-ready on 5/14. The 'tentative' label and the 7/12–15 range are gone; the site now consistently gives 7/13–16, and no deadline time zone is stated. It is held biennially (in odd years), and in even years the IEEE Haptics Symposium takes place."
 links:
   home: "https://2027.worldhaptics.org/"
 sources:
@@ -47,4 +48,4 @@ sources:
   - "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/"
   - "https://2025.worldhaptics.org/papers-a/"
   - "https://2025.worldhaptics.org/toh-papers-a/"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

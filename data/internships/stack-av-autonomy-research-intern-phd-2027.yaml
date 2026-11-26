@@ -1,0 +1,36 @@
+id: stack-av-autonomy-research-intern-phd-2027
+company: "Stack AV"
+org_type: autonomy
+team: "Autonomy"
+title: "Research Intern (PhD), Autonomy"
+fields: [navigation, vision, transportation, ml]
+degree: [phd]
+season: "Summer 2027"
+duration: "At least 12 weeks; may extend into the fall semester"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Pittsburgh", region: "PA", country: US, lat: 40.44, lon: -80.00}
+work_mode: remote
+required:
+  - "Enrolled in a PhD program (3+ years in preferred), currently located in the US"
+  - "Python or C++; PyTorch"
+  - "Foundations in computer vision, ML, simulation or RL; SOTA deep learning such as multimodal foundation models"
+preferred:
+  - "Publications at CVPR, ICCV, ICRA, IROS or similar; grants, fellowships or patents"
+  - "Prior research or software internships, or widely used open-source work"
+skills: [python, cpp, pytorch, 3d-vision, slam, world-models, foundation-models]
+responsibilities:
+  - "Research for an autonomous trucking product: autolabeling, 3D perception/tracking/SLAM, long-range perception, automatic mapping, prediction, decision making or world models"
+citizenship: none
+eligibility_note: "CPT 지원을 명시하고 미국 거주 박사과정생을 대상으로 함. 다만 수출통제·국가안보 규정에 따라 거주지·U.S. person 여부 확인이 고용 조건이 될 수 있다고 적혀 있음. 원격 우선, 피츠버그 거주자는 출근 가능."
+eligibility_note_en: "States that it supports CPT and targets PhD students located in the US. It also says the role may be contingent on verifying residence or U.S.-person status under export-control and national-security rules. Remote-first; interns near Pittsburgh may work in person."
+status: open
+posted: 2026-11-12
+apply_url: "https://job-boards.greenhouse.io/stackav/jobs/5287594007"
+fit: 2
+take: "3D 인식·SLAM·자동 지도화를 원격으로 할 수 있는 자율주행 트럭 연구 인턴이라 내비게이션 보조 축으로 지원할 만하지만 수출통제 단서는 확인하라."
+take_en: "A remote autonomous-trucking research internship in 3D perception, SLAM and auto-mapping — worth applying as a navigation support target, but check the export-control caveat."
+sources:
+  - "https://job-boards.greenhouse.io/stackav/jobs/5287594007"
+  - "https://boards-api.greenhouse.io/v1/boards/stackav/jobs/5287594007"
+last_verified: 2026-11-26

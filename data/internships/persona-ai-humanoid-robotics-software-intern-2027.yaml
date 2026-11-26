@@ -1,0 +1,37 @@
+id: persona-ai-humanoid-robotics-software-intern-2027
+company: "Persona AI"
+org_type: robotics
+team: "Software — humanoid robotics (perception, locomotion, manipulation, ML, autonomy, platform)"
+title: "Humanoid Robotics Software Internship"
+fields: [manipulation, robotics, construction, navigation, physical-ai]
+degree: [phd, ms, bs]
+season: "Spring 2027 (Jan–May), Summer 2027 (May–Aug) or Fall 2027 (Aug–Dec)"
+locations:
+  - {city: "Houston", region: "TX", country: US, lat: 29.76, lon: -95.37}
+  - {city: "Pensacola", region: "FL", country: US, lat: 30.42, lon: -87.22}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in CS, Robotics, Software Engineering or related"
+  - "Python and/or C++ through coursework, research or projects"
+preferred:
+  - "Exposure to robotics, ML or computer vision; Git and software-development practices"
+  - "Prior internships, co-ops, competitions or open-source projects"
+skills: [python, cpp, computer-vision, sensor-fusion, slam, motion-planning, control, reinforcement-learning]
+responsibilities:
+  - "Work, by team need, on humanoid locomotion, perception (CV, sensor fusion, SLAM), arm and hand manipulation, ML pipelines, autonomy or platform software"
+  - "Paired 1:1 with a senior engineer mentor in a term-based cohort"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 학사–박사 재학생 지원 가능. 휴스턴 또는 펜서콜라 출근, 급여는 공고에 없음. 기수별 선착순 마감."
+eligibility_note_en: "No citizenship requirement in the posting. Open to BS through PhD students. Onsite in Houston or Pensacola; pay not stated. Each cohort fills on a rolling basis."
+status: rolling
+posted: 2026-11-09
+apply_url: "https://jobs.ashbyhq.com/persona.ai/8a866ae6-613e-4d46-af2d-7dc13eb926bb"
+fit: 2
+take: "조선소·제철소 용접·연삭용 휴머노이드라 현장형 contact-rich 조작과 맞닿지만 학부생 대상의 범용 소프트웨어 인턴이라 조작 팀 배정 여부를 확인하고 지원하라."
+take_en: "Humanoids for welding and grinding in shipyards and steel mills touch field contact-rich manipulation, but this is a general software internship open to undergraduates; apply after checking you would land on manipulation."
+notes: "기존 Persona AI 조작·월드 모델링 인턴 공고가 내려간 뒤 보드에 남은 통합 인턴 공고."
+notes_en: "The combined internship posting left on the board after Persona AI's manipulation and world-modeling internship postings came down."
+sources:
+  - "https://jobs.ashbyhq.com/persona.ai/8a866ae6-613e-4d46-af2d-7dc13eb926bb"
+  - "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"
+last_verified: 2026-11-26

@@ -21,8 +21,8 @@ orientation:
   summary_en: "The IEEE ITS Society's flagship symposium on automated vehicles and vehicle-infrastructure cooperation, taking six-page papers across perception, sensor fusion, localization, planning and control, vulnerable-road-user protection and HMI. Its reviewer guidelines count either a new approach or strong experimental results as a contribution, and below-SOTA performance alone is not grounds for rejection. Papers validated on real vehicles or real data do best; applications outside vehicles need a clear link to intelligent vehicles."
   values: ["real-vehicle validation", "perception and sensor fusion", "vulnerable road users", "concise six-page papers"]
 fit: 2
-take: "보행자 보호·스마트 인프라·다중 센서 융합 주제가 노변 LiDAR 연구와 맞닿아 있으니, 결과가 준비됐다면 11월 15일(AWST) 마감인 IV 2027(퍼스)에 내고, 아니면 3월 1일 마감인 ITSC 2027로 넘기자."
-take_en: "Its pedestrian-protection, smart-infrastructure and sensor-fusion topics overlap the roadside-LiDAR work — submit to IV 2027 in Perth (deadline November 15, AWST) if results are ready, otherwise move to ITSC 2027 (March 1)."
+take: "보행자 보호·스마트 인프라·다중 센서 융합 주제가 노변 LiDAR 연구와 맞닿아 있으니, IV 2027(퍼스) 마감이 지난 지금은 3월 1일 마감인 ITSC 2027을 노리고, 다음 IV는 2027년 11월 중순(예상) 마감인 IV 2028(바르셀로나)이다."
+take_en: "Its pedestrian-protection, smart-infrastructure and sensor-fusion topics overlap the roadside-LiDAR work — with the IV 2027 (Perth) deadline past, aim at ITSC 2027 (March 1); the next IV is IV 2028 in Barcelona, with a deadline expected in mid-November 2027."
 editions:
   - year: 2027
     status: confirmed
@@ -34,15 +34,27 @@ editions:
     lon: 115.86
     url: "https://ieee-iv.org/2027/"
     deadlines:
-      - {kind: workshop-proposal, date: 2026-11-01, label: "workshop and tutorial proposals"}
+      - {kind: workshop-proposal, date: 2026-12-01, label: "workshop and tutorial proposals (moved from Nov 1; decisions Dec 15)"}
       - {kind: paper, date: 2026-11-15, tz: "AWST", time: "23:59"}
       - {kind: other, date: 2026-12-01, label: "journal presentation requests"}
       - {kind: notification, date: 2027-01-15}
       - {kind: camera-ready, date: 2027-02-01, label: "camera-ready; presenting authors must be registered"}
-      - {kind: other, date: 2027-02-01, label: "workshop papers"}
+      - {kind: other, date: 2027-02-01, label: "workshop papers (notification Mar 1)"}
       - {kind: other, date: 2027-03-15, label: "industry track papers"}
-    notes: "제38회 IV로 서호주 퍼스에서 열린다. 논문 마감은 11/15 23:59 AWST(UTC+8)이고 첫 제출부터 이중 익명이며 영상도 익명화해야 한다. 워크숍 논문(2/1)과 산업 트랙(3/15)은 마감이 더 늦다. 다음 IV 2028은 2028년 6/27–30 바르셀로나 개최가 발표됐다."
-    notes_en: "The 38th IV, held in Perth, Western Australia. Papers are due November 15, 23:59 AWST (UTC+8); review is double-blind from the first submission and videos must be anonymized too. Workshop papers (February 1) and the industry track (March 15) close later. IV 2028 has been announced for Barcelona, June 27-30, 2028."
+    notes: "제38회 IV로 서호주 퍼스에서 열린다. 논문 마감은 11/15 23:59 AWST(UTC+8)이고 첫 제출부터 이중 익명이며 영상도 익명화해야 한다. 논문 마감은 지났다(2026-11-26 확인). 워크숍·튜토리얼 제안 마감은 12/1로 늦춰졌고, 워크숍 논문(2/1)과 산업 트랙(3/15)은 마감이 더 늦다. 다음 IV 2028은 2028년 6/27–30 바르셀로나 개최가 발표됐다."
+    notes_en: "The 38th IV, held in Perth, Western Australia. Papers are due November 15, 23:59 AWST (UTC+8); review is double-blind from the first submission and videos must be anonymized too. The paper deadline has passed (checked 2026-11-26). The workshop and tutorial proposal deadline moved to December 1, and workshop papers (February 1) and the industry track (March 15) close later. IV 2028 has been announced for Barcelona, June 27-30, 2028."
+  - year: 2028
+    status: announced
+    start: 2028-06-27
+    end: 2028-06-30
+    city: "Barcelona"
+    country: ES
+    lat: 41.39
+    lon: 2.17
+    deadlines:
+      - {kind: paper, date: 2027-11-15, estimated: true}
+    notes: "IEEE ITS Society(ieee-iv.org) 목록에 2028년 6/27–30 바르셀로나 개최가 올라 있지만 전용 사이트와 CFP는 아직 없다. 논문 마감은 IV 2026(디트로이트, 2025-11-15)과 IV 2027(퍼스, 2026-11-15) 패턴으로 추정했다."
+    notes_en: "The IEEE ITS Society list (ieee-iv.org) shows IV 2028 in Barcelona, June 27–30, 2028, but there is no dedicated site or CFP yet. The paper deadline is estimated from IV 2026 (Detroit, 2025-11-15) and IV 2027 (Perth, 2026-11-15)."
 links:
   home: "https://ieee-iv.org/2027/"
   cfp: "https://ieee-iv.org/2027/contributions/call-for-papers/"
@@ -56,6 +68,8 @@ sources:
   - "https://ieee-iv.org/2027/contributions/call-for-workshop-and-tutorials-proposals/"
   - "https://ieee-iv.org/2027/contributions/reviews-guidelines/"
   - "https://ieee-iv.org/"
+  - "https://ieee-iv.org/2026/"
+  - "https://ieee-itss.org/events/tag/iv/list/"
   - "https://portal.core.edu.au/conf-ranks/?search=Intelligent+Vehicles&by=all&source=all"
   - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Intelligent+Vehicles+Symposium"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

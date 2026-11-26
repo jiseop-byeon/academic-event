@@ -1,0 +1,45 @@
+id: tri-agentic-robotics-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics (Cambridge) — Large Behavior Models"
+title: "Robotics Intern, Agentic Robotics"
+fields: [manipulation, robotics, physical-ai, ml]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Research experience in classical robotics, robot learning, RL, world models or embodied reasoning"
+  - "Python and a modern deep-learning framework such as PyTorch"
+  - "Rapid prototyping and testing in simulation and on physical robots"
+preferred:
+  - "Large-model post-training, simulation-based RL, sim-to-real transfer or contact-rich manipulation (strongly preferred)"
+  - "Training and adapting robot foundation models, action-conditioned prediction"
+skills: [python, pytorch, reinforcement-learning, foundation-models, world-models, simulation, tactile-sensing]
+responsibilities:
+  - "Research data-efficient algorithms for robust multimodal policies (proprioception, images, force, audio, dense tactile) within TRI's Large Behavior Models"
+  - "Build code or hardware prototypes, run experiments on simulated and real robots, and publish"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 학위 요건은 명시되지 않음. 케임브리지(MA) 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. No degree level stated. Hybrid in Cambridge, MA."
+status: open
+posted: 2026-11-17
+apply_url: "https://jobs.lever.co/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49"
+fit: 3
+take: "힘·촉각을 포함한 멀티모달 정책과 contact-rich 조작을 우대하는 LBM 팀이라 건설 조작 연구와 정확히 겹치니 우선 지원하라."
+take_en: "An LBM team that wants multimodal policies with force and touch and strongly prefers contact-rich manipulation — a direct overlap with construction manipulation research; apply first."
+sources:
+  - "https://jobs.lever.co/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49"
+  - "https://api.lever.co/v0/postings/tri/7f676d3c-6a86-4b00-a9fd-c1009035fe49?mode=json"
+last_verified: 2026-11-26

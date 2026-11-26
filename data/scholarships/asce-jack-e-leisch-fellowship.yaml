@@ -27,12 +27,13 @@ requirements: ["커버레터 (1쪽)", "관심 진술서 (1,000단어 이내: Jac
 requirements_en: ["Cover letter (1 page)", "Statement of interest (≤1,000 words, incl. how your work relates to Jack E. Leisch's career)", "Résumé (≤2 pages, incl. undergraduate/graduate GPA and GRE scores)", "Official undergraduate and graduate transcripts (sent by the institutions)", "List of completed or planned coursework in highway design, traffic operations or transportation planning", "One confidential recommendation letter (sent by the recommender)", "Statement of financial need (≤250 words)"]
 nomination: false
 cycle:
-  typical: "매년 11월 1일 접수 시작, 이듬해 3월 말 마감 (2026년 회차: 3/27 오후 11:59 ET)"
-  typical_en: "Opens November 1 each year and closes in late March (2026 cycle: Mar 27, 11:59 PM ET)"
+  typical: "매년 11월 1일 접수 시작, 이듬해 3월 말 마감 (2026년 회차: 3/27, 2027년 회차: 3/26 오후 11:59 ET)"
+  typical_en: "Opens November 1 each year and closes in late March (2026 cycle: Mar 27; 2027 cycle: Mar 26, 11:59 PM ET)"
   deadlines:
-    - {kind: other, date: 2026-11-01, label: "2027년 회차 접수 시작", label_en: "2027 cycle opens"}
     - {kind: application, date: 2026-03-27, tz: "ET", time: "23:59", label: "2026년 마감(참고)", label_en: "2026 deadline (reference)"}
-status: upcoming
+    - {kind: other, date: 2026-11-01, label: "2027년 회차 접수 시작", label_en: "2027 cycle opens"}
+    - {kind: application, date: 2027-03-26, tz: "ET", time: "23:59", label: "2027년 회차 지원 마감", label_en: "2027 cycle application deadline"}
+status: open
 apply_url: "https://www.asce.org/career-growth/awards-and-honors/fellowships/jack-e-leisch-fellowship"
 fit: 1
 take: "도로 설계·교통운영·교통계획 전공자 대상이라 건설 로봇 연구와는 맞지 않는 참고용 항목이다."
@@ -42,4 +43,4 @@ links:
 sources:
   - "https://www.asce.org/career-growth/awards-and-honors/fellowships/jack-e-leisch-fellowship"
   - "https://www.asce.org/career-growth/awards-and-honors/fellowships"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

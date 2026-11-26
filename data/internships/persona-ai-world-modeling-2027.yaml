@@ -27,11 +27,13 @@ responsibilities:
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 유급 여름 인턴(휴스턴 상주)으로 소개되며 공통 안내에는 Fall 2026·Spring 2027 기수도 있음."
 eligibility_note_en: "No citizenship requirement in the posting. Described as a paid summer internship onsite in Houston; the shared program text also lists Fall 2026 and Spring 2027 cohorts."
-status: open
+status: closed
 posted: 2026-08-03
 apply_url: "https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08"
 fit: 2
 take: "산업 현장 영상으로 휴머노이드 월드모델을 학습하는 텍사스 인턴이라 조작보다는 데이터·월드모델 쪽이지만 physical AI 경험으로는 의미 있다."
 take_en: "A Texas internship training humanoid world models on industrial-site video — more data and world models than manipulation, but solid physical-AI experience."
+notes: "2026-11-26 확인 시 공고가 Persona AI Ashby 보드에서 내려가 마감 처리."
+notes_en: "On 2026-11-26 the posting was gone from the Persona AI Ashby board; marked closed."
 sources: ["https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08", "https://api.ashbyhq.com/posting-api/job-board/persona.ai?includeCompensation=true"]
-last_verified: 2026-10-17
+last_verified: 2026-11-26

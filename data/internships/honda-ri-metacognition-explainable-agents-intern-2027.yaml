@@ -27,14 +27,14 @@ responsibilities:
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 박사과정생 대상(연구 경력 1년 이상의 뛰어난 석사과정생도 검토), 희망 시작일 2027-01-11, 기간 3개월."
 eligibility_note_en: "No citizenship requirement in the posting. For PhD students (exceptional MS students with 1+ year of research also considered); preferred start 2027-01-11, 3 months."
-status: open
+status: closed
 apply_url: "https://usa.honda-ri.com/-/research-intern-meta-cognition-and-internal-mechanisms-for-multi-modal-foundation-model-based-agent"
 fit: 2
 take: "VLA 등 멀티모달 파운데이션 모델의 내부 표현을 해석해 에이전트가 스스로 오류와 불확실성을 판단하게 만드는 설명 가능한 AI(XAI) 과제라, 로봇 정책의 신뢰성을 해석 가능성 관점에서 다루고 싶다면 좋은 진입점이다."
 take_en: "Explainable AI (XAI) work that interprets the internals of multimodal foundation models, including VLAs, so agents can judge their own errors and uncertainty — a good entry point for tackling robot-policy reliability through interpretability."
-notes: "공고번호 P25INT-60, 게시일 미표기."
-notes_en: "Posting no. P25INT-60; posting date not shown."
+notes: "공고번호 P25INT-60, 게시일 미표기. 2026-11-26 확인: 공고 페이지 404, HRI-US 인턴 목록(usa.honda-ri.com/intern-positions)에서 빠짐."
+notes_en: "Posting no. P25INT-60; posting date not shown. Checked 2026-11-26: the posting page returns 404 and it is no longer on the HRI-US intern list (usa.honda-ri.com/intern-positions)."
 sources:
   - "https://usa.honda-ri.com/-/research-intern-meta-cognition-and-internal-mechanisms-for-multi-modal-foundation-model-based-agent"
   - "https://usa.honda-ri.com/intern-positions"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

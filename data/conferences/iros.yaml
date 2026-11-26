@@ -27,7 +27,7 @@ take_en: "IROS 2027 (Florence) has a 3/1 deadline — now that ICRA 2027 has bee
 editions:
   - year: 2027
     status: confirmed
-    start: 2027-09-26
+    start: 2027-09-27
     end: 2027-10-01
     city: "Florence"
     country: IT
@@ -37,8 +37,8 @@ editions:
     url: "https://2027.ieee-iros.org/"
     deadlines:
       - {kind: paper, date: 2027-03-01}
-    notes: "공식 사이트에 아직 CFP가 없어 논문 마감(3/1)은 IEEE RAS 공식 행사 목록 기준(시간대 미표기). 참고로 IROS 2026은 3/2 마감, 6/16 통지, 7/16 최종본이었다. 2026부터 RA-L+IROS 동시 투고 옵션 폐지. 테마: 'Human-Centric Robots for Sustainable Life'."
-    notes_en: "The official site has no CFP yet, so the paper deadline (3/1) is based on the official IEEE RAS event listing (time zone not stated). For reference, IROS 2026 had a 3/2 deadline, 6/16 notification and 7/16 final version. The RA-L+IROS joint submission option was discontinued from 2026. Theme: 'Human-Centric Robots for Sustainable Life'."
+    notes: "일정은 공식 사이트와 IEEE RAS 행사 목록 기준 9/27–10/1(2026-11-26 확인; 이전 기록 9/26에서 수정, PaperCept 목록은 9/25–30로 다르게 표기). 공식 사이트에 아직 CFP가 없어 논문 마감(3/1)은 IEEE RAS 공식 행사 목록 기준(시간대 미표기). 참고로 IROS 2026은 3/2 마감, 6/16 통지, 7/16 최종본이었다. 2026부터 RA-L+IROS 동시 투고 옵션 폐지. 테마: 'Human-Centric Robots for Sustainable Life'."
+    notes_en: "Dates are September 27 – October 1 per the official site and the IEEE RAS event listing (checked 2026-11-26; corrected from the earlier 9/26 start, and the PaperCept listing shows 9/25–30 instead). The official site has no CFP yet, so the paper deadline (3/1) is based on the official IEEE RAS event listing (time zone not stated). For reference, IROS 2026 had a 3/2 deadline, 6/16 notification and 7/16 final version. The RA-L+IROS joint submission option was discontinued from 2026. Theme: 'Human-Centric Robots for Sustainable Life'."
 links:
   home: "https://2027.ieee-iros.org/"
 sources:
@@ -48,4 +48,4 @@ sources:
   - "https://www.rsj.or.jp/en/event/international/iros.html"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics"
   - "https://www.myhuiban.com/conferences/rank/field/robotics.md"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

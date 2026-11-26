@@ -1,0 +1,46 @@
+id: graymatter-robotics-engineering-intern-winter-2027
+company: "GrayMatter Robotics"
+org_type: robotics
+team: "Customer Success — robotic surface treatment"
+title: "Robotics Engineering Intern: Systems & Applications - Winter '27 - January Start"
+fields: [manipulation, robotics, physical-ai]
+degree: [ms, bs]
+season: "Winter–Spring 2027 (Jan–Jun)"
+start: "2027-01"
+duration: "About January–June 2027; start by 2027-01-04, minimum 16 weeks"
+duration_weeks: [16, 26]
+locations:
+  - {city: "Carson", region: "CA", country: US, lat: 33.83, lon: -118.28}
+work_mode: onsite
+pay:
+  min: 30
+  max: 40
+  currency: USD
+  unit: hour
+  source: posting
+  note: "시급 $30–40(공고 기재)"
+  note_en: "$30–40 per hour (stated in the posting)"
+required:
+  - "Bachelor's or higher (in progress) in Robotics, ME, EE, CS or related"
+  - "Iterative design and prototyping of cyber-physical and mechatronic systems; exposure to manufacturing"
+  - "Read C++/Python; VS Code"
+preferred:
+  - "Master's or higher (in progress); industrial robots and auxiliary systems; autonomous manufacturing experience"
+  - "C++/Python, 3D CAD, Linux, ROS; dynamics, controls, motion planning, ML, computer vision or computational geometry"
+skills: [cpp, python, ros, cad, motion-planning, hardware]
+responsibilities:
+  - "Design, implement and test systems for robotic grinding applications with senior application engineers"
+  - "Support proofs of concept for new customers and rigorous system testing"
+citizenship: none
+eligibility_note: "공고 문구: 채용 시점부터 미국 내 근무 자격을 확보·유지해야 함. 시민권 제한 문구는 없음. 1월 시작·최소 16주라 학기 중 인턴."
+eligibility_note_en: "Posting language: must secure and maintain US work authorization from hire; no citizenship restriction. Starts in January for at least 16 weeks — a during-semester internship."
+status: open
+posted: 2026-11-23
+apply_url: "https://jobs.ashbyhq.com/graymatter-robotics/347cbb66-c542-4c41-bdfc-3f9fa242b20b"
+fit: 2
+take: "산업용 로봇 연삭이라는 실제 contact-rich 공정을 현장에서 다루지만 연구보다 응용 엔지니어링이고 학기 중 근무라 일정이 맞을 때만 지원하라."
+take_en: "Hands-on robotic grinding, a real contact-rich process, but applications engineering rather than research and during the semester; apply only if the timing works."
+sources:
+  - "https://jobs.ashbyhq.com/graymatter-robotics/347cbb66-c542-4c41-bdfc-3f9fa242b20b"
+  - "https://api.ashbyhq.com/posting-api/job-board/graymatter-robotics?includeCompensation=true"
+last_verified: 2026-11-26

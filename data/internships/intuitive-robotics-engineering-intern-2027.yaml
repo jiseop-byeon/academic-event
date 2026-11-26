@@ -35,13 +35,15 @@ responsibilities:
 citizenship: none
 eligibility_note: "시민권 요건 없음. 수출통제 대상 직무는 일부 국적에 한해 수출 허가 또는 기술통제계획이 필요할 수 있다고 공고에 명시."
 eligibility_note_en: "No citizenship requirement. The posting notes that export-controlled roles may need an export license or technology control plan for nationals of certain sanctioned countries."
-status: open
+status: closed
 posted: 2026-10-28
 apply_url: "https://jobs.smartrecruiters.com/Intuitive/744000158313717"
 fit: 2
 take: "강성 추정·sim-to-real 제어 검증 플랫폼을 만드는 일이라 접촉 조작 시뮬레이션 역량과 잘 맞으니 MuJoCo 경험을 앞세워 지원해 볼 만하다."
 take_en: "Building a sim-to-real controller-validation platform with stiffness inference fits contact-manipulation simulation skills; worth applying with MuJoCo experience up front."
+notes: "2026-11-26 확인: SmartRecruiters 공고가 만료됨('this job has expired')."
+notes_en: "Checked 2026-11-26: the SmartRecruiters posting has expired ('this job has expired')."
 sources:
   - "https://jobs.smartrecruiters.com/Intuitive/744000158313717"
   - "https://api.smartrecruiters.com/v1/companies/Intuitive/postings/744000158313717"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

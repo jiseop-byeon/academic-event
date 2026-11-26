@@ -11,8 +11,8 @@ amount:
   currency: USD
   unit: one-time
   covers: ["tuition", "living", "books", "travel"]
-duration: "1학년도 (2027년 가을학기–2028년 봄학기)"
-duration_en: "One academic year (fall 2027–spring 2028)"
+duration: "1학년도 (다음 회차: 2028년 가을학기–2029년 봄학기)"
+duration_en: "One academic year (next cycle: fall 2028–spring 2029)"
 eligibility:
   nationality: ["any"]
   where_enrolled: "미국 또는 캐나다 인가 대학에서 콘크리트 관련 학위과정에 풀타임 재학 (수여 연도 기준)"
@@ -29,18 +29,20 @@ requirements_en: ["Résumé", "Career-interest essay (500 words)", "Transcripts 
 nomination: false
 awards_per_year: "2026–27년 펠로십 29명·장학금 14명 (36개 기관)"
 cycle:
-  typical: "매년 7월 1일 접수 시작, 11월 1일 마감, 2월 첫 주 결선 통보, 4월 초 최종 통보"
-  typical_en: "Opens July 1 each year and closes November 1; finalists notified in the first week of February, final notification in early April"
+  typical: "매년 7월 1일 접수 시작, 11월 1일 마감, 2월 첫 주 결선 통보, 4월 초 최종 통보 — 2027–28학년도분은 2026년 11월 1일 마감됐고 2028–29학년도분은 2027년 7월 1일 접수 시작"
+  typical_en: "Opens July 1 each year and closes November 1; finalists notified in the first week of February, final notification in early April — the 2027–28 round closed November 1, 2026; the 2028–29 round opens July 1, 2027"
   deadlines:
-    - {kind: application, date: 2026-11-01, tz: "ET", time: "23:59", label: "지원 마감 (오후 11:59 ET)", label_en: "Application deadline (11:59 p.m. ET)"}
-status: open
+    - {kind: application, date: 2026-11-01, tz: "ET", time: "23:59", label: "2027–28학년도분 마감(참고)", label_en: "2027–28 award deadline (reference)"}
+    - {kind: other, date: 2027-07-01, label: "2028–29학년도분 접수 시작", label_en: "2028–29 applications open"}
+    - {kind: application, date: 2027-11-01, tz: "ET", time: "23:59", estimated: true, label: "2028–29학년도분 지원 마감 (매년 11월 1일 마감 규정 기준)", label_en: "2028–29 application deadline (per the standing November 1 deadline)"}
+status: upcoming
 apply_url: "https://www.acifoundation.org/scholarships"
 fit: 2
-take: "국적 제한 없이 미국 대학 대학원생이 지원할 수 있으니 콘크리트 시공 로봇(철근 결속·타설·표면 마감) 연구로 엮어 ACI 회원 추천을 확보한 뒤 11월 1일 마감에 지원하라."
-take_en: "Open to graduate students at US universities regardless of nationality — frame a concrete-construction robotics project (rebar tying, placement, surface finishing), secure an ACI-member endorsement and apply by November 1."
+take: "국적 제한 없이 미국 대학 대학원생이 지원할 수 있으니 콘크리트 시공 로봇(철근 결속·타설·표면 마감) 연구로 엮어 ACI 회원 추천을 확보한 뒤 2027년 7월 1일 열리는 2028–29학년도분에 11월 1일까지 지원하라."
+take_en: "Open to graduate students at US universities regardless of nationality — frame a concrete-construction robotics project (rebar tying, placement, surface finishing), secure an ACI-member endorsement and apply between July 1 and November 1, 2027 for the 2028–29 award."
 links:
   home: "https://www.acifoundation.org/scholarships"
 sources:
   - "https://www.acifoundation.org/scholarships"
   - "https://www.concrete.org/newsandevents/news/newsdetail.aspx?f=51750678"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

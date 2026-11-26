@@ -28,8 +28,11 @@ requirements: ["학과 추천 (graduate adviser/coordinator)", "CV", "개인 진
 requirements_en: ["Department nomination (graduate adviser/coordinator)", "CV", "Personal statement", "Three recommendation letters (names and emails of recommenders)"]
 nomination: true
 cycle:
-  typical: "학과 추천 → 대학원 위원회 심사; 다음 회차 추천 일정은 2026-10-31 현재도 대학원 마감 표에 'TBD'로 표기(과거 회차 날짜를 확인하지 못해 추정 날짜는 넣지 않음; 같은 표의 다른 재학생 펠로십은 가을–봄 마감) (Cockrell 재학생 펠로십 결과는 보통 여름에 통보)"
-  typical_en: "Department nomination → Graduate School committee review; the next nomination dates are still listed as 'TBD' on the Graduate School deadline table as of 2026-10-31 (past cycles' dates could not be confirmed, so no estimated date is given; other continuing fellowships on the same table close between fall and spring) (Cockrell continuing-student fellowship results usually arrive in summer)"
+  typical: "학과 추천 → 대학원 위원회 심사; 직전 회차는 2025/11/15 추천 시작·2026/1/23 마감; 다음 회차 일정은 2026-11-26 현재도 대학원 마감 표에 'TBD'로 표기(확인된 과거 회차가 하나뿐이라 추정 날짜는 넣지 않음; 같은 표의 다른 재학생 펠로십은 가을–봄 마감) (Cockrell 재학생 펠로십 결과는 보통 여름에 통보)"
+  typical_en: "Department nomination → Graduate School committee review; the previous cycle opened Nov 15, 2025 and closed Jan 23, 2026; the next nomination dates are still listed as 'TBD' on the Graduate School deadline table as of 2026-11-26 (only one past cycle is confirmed, so no estimated date is given; other continuing fellowships on the same table close between fall and spring) (Cockrell continuing-student fellowship results usually arrive in summer)"
+  deadlines:
+    - {kind: other, date: 2025-11-15, label: "직전 회차 추천 접수 시작(참고)", label_en: "Previous cycle nominations opened (reference)"}
+    - {kind: internal, date: 2026-01-23, label: "직전 회차 학과 추천 마감(참고)", label_en: "Previous cycle department nomination deadline (reference)"}
 status: upcoming
 fit: 2
 take: "1년차 실적만으로는 경쟁이 어려우니 2년차에 ICRA·IROS 1저자 논문을 확보한 뒤 지도교수에게 CAEE 펠로십 위원회 추천을 요청하라 — 선정되면 1년간 $38,000 생활비와 등록금 지원을 받는다."
@@ -42,4 +45,4 @@ sources:
   - "https://graduate.utexas.edu/funding/fellowships/grad-fellows"
   - "https://caee.utexas.edu/academics/graduate/funding/"
   - "https://cockrell.utexas.edu/admissions/financial-support/graduate-funding"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

@@ -1,0 +1,36 @@
+id: warp-sciences-robot-learning-intern-2027
+company: "Warp Sciences"
+org_type: robotics
+team: "Robotics Learning"
+title: "Member of Technical Staff Intern - Robotics Learning"
+fields: [manipulation, robotics, physical-ai, ml]
+degree: [phd, ms, bs]
+season: "Term not stated (posted Nov 2026)"
+locations:
+  - {city: "South San Francisco", region: "CA", country: US, lat: 37.65, lon: -122.41}
+work_mode: onsite
+required:
+  - "Pursuing a BS, MS or PhD in CS, Robotics, ML or related"
+  - "ML and deep-learning foundations; PyTorch, JAX or similar"
+  - "Familiarity with imitation learning, RL or visuomotor policies; robotics, simulation or hands-on projects"
+preferred:
+  - "VLA, world models or robot foundation models; diffusion policies, action chunking"
+  - "MuJoCo, Isaac Sim or Isaac Lab; sim-to-real and real-to-sim; teleoperation data"
+  - "Dexterous manipulation, contact-rich tasks or robot control"
+skills: [python, pytorch, jax, imitation-learning, reinforcement-learning, vla, diffusion-policy, mujoco, isaac-sim]
+responsibilities:
+  - "Develop imitation learning, RL and post-training methods for manipulation in automated life-science labs"
+  - "Build simulation and real-to-sim pipelines and multimodal robot data workflows; evaluate on real robots"
+citizenship: none
+eligibility_note: "공고에 시민권 요건 없음. 급여·기간은 공고에 없음. 사우스 샌프란시스코 출근 근무."
+eligibility_note_en: "No citizenship requirement in the posting. Pay and duration are not stated. Onsite in South San Francisco."
+status: open
+posted: 2026-11-17
+apply_url: "https://jobs.ashbyhq.com/warp-sciences/addb09af-18ab-4aa1-a7b5-861f8485e9a9"
+fit: 2
+take: "실험실 자동화용 조작 정책 학습으로 VLA·sim-to-real 경험을 쌓을 수 있지만 생명과학 도메인이라 조작 실적용 보조 지원처로 두라."
+take_en: "Manipulation policy learning for lab automation builds VLA and sim-to-real experience, but in the life-science domain; keep it as a secondary target for manipulation experience."
+sources:
+  - "https://jobs.ashbyhq.com/warp-sciences/addb09af-18ab-4aa1-a7b5-861f8485e9a9"
+  - "https://api.ashbyhq.com/posting-api/job-board/warp-sciences?includeCompensation=true"
+last_verified: 2026-11-26

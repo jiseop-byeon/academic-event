@@ -29,8 +29,8 @@ requirements_en: ["IEEE RAS student membership (proof)", "Accepted paper details
 nomination: false
 awards_per_year: "학회별 상이 (IROS 2025 RAS 프로그램 최대 51명)"
 cycle:
-  typical: "학회별 접수 — ICRA는 논문 채택 통보 약 3주 뒤 2월 하순 마감(2025: 2/20, 2026: 2/25), IROS는 학회 약 11–12주 전 마감(2025: 8/1, 2026: 7/3), 마감 1–2주 뒤 결과 통보"
-  typical_en: "Per conference — ICRA closes in late February, about three weeks after paper decisions (2025: Feb 20; 2026: Feb 25); IROS closes about 11–12 weeks before the conference (2025: Aug 1; 2026: Jul 3); results 1–2 weeks after the deadline"
+  typical: "학회별 접수 — ICRA는 논문 채택 통보 약 3주 뒤 2월 하순 마감(2025: 2/20, 2026: 2/25), IROS는 학회 약 11–12주 전 마감(2025: 8/1, 2026: 7/3), 마감 1–2주 뒤 결과 통보 — ICRA 2027 공식 페이지는 2026-11-26 현재 일정 TBD(호텔은 RAS가 선결제)"
+  typical_en: "Per conference — ICRA closes in late February, about three weeks after paper decisions (2025: Feb 20; 2026: Feb 25); IROS closes about 11–12 weeks before the conference (2025: Aug 1; 2026: Jul 3); results 1–2 weeks after the deadline — the ICRA 2027 page still lists the schedule as TBD as of 2026-11-26 (RAS prepays hotel rooms)"
   deadlines:
     - {kind: application, date: 2027-02-22, estimated: true, label: "ICRA 2027(서울, 5/24–28) RAS 트래블 그랜트 신청 마감 (예상)", label_en: "ICRA 2027 (Seoul, May 24–28) RAS travel grant deadline (expected)"}
     - {kind: result, date: 2027-03-01, estimated: true, label: "ICRA 2027 수혜자 통보 (예상)", label_en: "ICRA 2027 recipients notified (expected)"}
@@ -52,4 +52,4 @@ sources:
   - "http://iros25.org/TravelGrants"
   - "https://2027.ieee-icra.org/"
   - "https://2027.ieee-iros.org/"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

@@ -37,9 +37,6 @@ eligibility:
 cycle:
   typical: "학기 중 온라인·대면 단기 교육 수시, 5–7월 여름 Institute(봄에 등록), SGX3 인턴십은 가을 공고 후 2월 말 마감"
   typical_en: "Short courses throughout the semester; summer Institutes in May–July (registration in spring); the SGX3 internship is announced in the fall and closes at the end of February"
-  deadlines:
-    - {kind: event, date: 2026-10-22, label: "Beyond the Web Interface: DesignSafe 연구 자동화 (온라인)", label_en: "Beyond the Web Interface: Automating Your Research on DesignSafe (online)"}
-    - {kind: event, date: 2026-11-18, label: "NHERI Presents — 실물 크기 시스템 진동대 실험으로 본 회복력 있는 설계·시공 (온라인)", label_en: "NHERI Presents — Informing Resilient Design and Construction Through Full-Scale System-Level Shake Table Validation Experiments (online)"}
 status: ongoing
 apply_url: "https://tacc.utexas.edu/use-tacc/training/"
 fit: 2
@@ -63,4 +60,4 @@ sources:
   - "https://frontera-portal.tacc.utexas.edu/fellowship/"
   - "https://ml.utexas.edu/center-for-generative-ai"
   - "https://news.utexas.edu/2026/08/27/ut-to-lead-nsf-center-that-will-study-how-robots-and-people-learn-to-live-and-work-together/"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

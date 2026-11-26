@@ -29,14 +29,14 @@ responsibilities:
 citizenship: none
 eligibility_note: "공고에 시민권 요건 없음. 희망 시작일 2027-01-11, 기간 3개월의 학기 중 인턴."
 eligibility_note_en: "No citizenship requirement in the posting. Preferred start 2027-01-11 for 3 months — a during-semester internship."
-status: open
+status: closed
 apply_url: "https://usa.honda-ri.com/-/research-intern-semantic-aware-interaction-and-behavior-planning-for-autonomous-driving"
 fit: 2
 take: "다른 도로 이용자의 의도와 상호작용을 읽어 진행·양보·대기·경로 변경을 결정하는 상호작용 인지 계획 과제라 충돌 회피·HRI 연구와 직결되니, 1월 시작이 가능하면 지원할 만하다."
 take_en: "Interaction-aware planning that reads other road users' intent and decides when to proceed, yield, wait or reroute — directly tied to collision-avoidance and HRI research; apply if a January start is possible."
-notes: "공고번호 P25INT-56, 게시일 미표기."
-notes_en: "Posting no. P25INT-56; posting date not shown."
+notes: "공고번호 P25INT-56, 게시일 미표기. 2026-11-26 확인: 공고 페이지 404, HRI-US 인턴 목록(usa.honda-ri.com/intern-positions)에서 빠짐."
+notes_en: "Posting no. P25INT-56; posting date not shown. Checked 2026-11-26: the posting page returns 404 and it is no longer on the HRI-US intern list (usa.honda-ri.com/intern-positions)."
 sources:
   - "https://usa.honda-ri.com/-/research-intern-semantic-aware-interaction-and-behavior-planning-for-autonomous-driving"
   - "https://usa.honda-ri.com/intern-positions"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

@@ -1,0 +1,45 @@
+id: tri-spatial-intelligence-robotics-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics (Cambridge)"
+title: "Research Intern, Spatial Intelligence for Robotics"
+fields: [navigation, vision, robotics]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Cambridge", region: "MA", country: US, lat: 42.37, lon: -71.11}
+work_mode: hybrid
+pay:
+  min: 40
+  max: 58
+  currency: USD
+  unit: hour
+  source: posting
+  note: "매사추세츠 근무 기준 시급 $40–58(공고 기재)"
+  note_en: "$40–58 per hour for Massachusetts-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in robotics, ML, CS or related"
+  - "Research experience in scene understanding, semantic mapping or similar"
+  - "Python and/or C++"
+preferred:
+  - "SLAM and robot mapping, localization and navigation in real-world environments"
+  - "Task-level reasoning or agentic methods for behavior composition; robotics simulation or robot data systems"
+skills: [python, cpp, slam, 3d-vision, computer-vision, simulation]
+responsibilities:
+  - "Research scene understanding and semantic mapping so robots can run long-duration operations and adapt as environments and tasks change"
+  - "Define metrics and run controlled experiments with strong baselines in simulation and on real robots"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 케임브리지(MA) 하이브리드 근무."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid in Cambridge, MA."
+status: open
+posted: 2026-11-16
+apply_url: "https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e"
+fit: 2
+take: "변화하는 환경에서의 의미 지도·장면 이해는 건설 현장 내비게이션 보조 축과 맞으니 SLAM 실적이 있으면 지원하라."
+take_en: "Semantic mapping and scene understanding in changing environments fit the navigation support track for construction sites; apply if you have a SLAM record."
+sources:
+  - "https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e"
+  - "https://api.lever.co/v0/postings/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e?mode=json"
+last_verified: 2026-11-26

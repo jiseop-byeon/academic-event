@@ -2,12 +2,11 @@ id: skydio-autonomy-intern-rl-2027
 company: "Skydio"
 org_type: robotics
 team: "R&D — Autonomy"
-title: "Autonomy Engineer Intern, Reinforcement Learning, 2027"
+title: "Autonomy Engineer Intern, Reinforcement Learning, 2027 (Zurich)"
 fields: [navigation, robotics, ml, hri]
 degree: [phd]
 season: "Summer 2027"
 locations:
-  - {city: "San Mateo", region: "CA", country: US, lat: 37.56, lon: -122.32}
   - {city: "Zurich", country: CH, lat: 47.38, lon: 8.54}
 work_mode: onsite
 pay:
@@ -36,14 +35,14 @@ eligibility_note: "공고에 시민권 요건 없음. 미국 근무지는 E-Veri
 eligibility_note_en: "No citizenship requirement in the posting. US work authorization is verified through E-Verify."
 status: open
 posted: 2026-10-26
-apply_url: "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048"
+apply_url: "https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
 fit: 2
 take: "교량 같은 복잡 구조물 주변 RL 내비게이션과 조종자 의도 기반 공유 제어를 실기체로 검증해 내비게이션·HRI 보조 축에 잘 맞으니 넣어볼 만하다."
 take_en: "RL navigation around complex structures such as bridges plus pilot-intent shared control, validated on real aircraft, fits the navigation and HRI support tracks well; worth applying."
-notes: "취리히 근무 공고(bdf927bf)가 따로 있음: https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
-notes_en: "A separate Zurich posting exists (bdf927bf): https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
+notes: "2026-11-26 기준 San Mateo(미국) 공고는 내려가고 취리히 공고(bdf927bf)만 남음. 취리히 공고도 학부 $47·석사 $53·박사 $70 시급을 기재."
+notes_en: "As of 2026-11-26 the San Mateo (US) posting is gone and only the Zurich posting (bdf927bf) remains. The Zurich posting also lists $47 undergrad, $53 Masters and $70 PhD per hour."
 sources:
   - "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048"
   - "https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a"
   - "https://api.ashbyhq.com/posting-api/job-board/skydio?includeCompensation=true"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

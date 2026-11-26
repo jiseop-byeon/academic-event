@@ -1,4 +1,8 @@
 # Newest first. The update agent adds one entry per run (see agent/AGENT.md), in Korean and English.
+- date: 2026-11-26
+  by: "update run (5 agents)"
+  summary: "추가 18 · 마감 처리 19 · 전체 재확인: 인턴십 18개 추가(TRI 7개, Bosch 로봇 학습, Stack AV, Samsung 비전, GrayMatter, Warp, Pivotal, Persona AI 휴머노이드, Meta 4개), 내려간 공고 19개 마감 처리(Waymo 3, Persona AI 3, Honda RI 3, Meta 3 등), ICML 2027 공식 일정(초록 1/14·논문 1/22) 반영, CVPR·FAccT·IV 다음 회차 추정 추가, ASCE Leisch 3/26·ACI·Two Sigma 다음 회차, UT Dean's Supplement 모집 중(12/11), 학회·장학금·대외활동 전체 재확인"
+  summary_en: "Added 18 · closed 19 · full re-check: added 18 internships (7 TRI, Bosch robot learning, Stack AV, Samsung vision, GrayMatter, Warp, Pivotal, Persona AI humanoid, 4 Meta); closed 19 removed postings (3 Waymo, 3 Persona AI, 3 Honda RI, 3 Meta and more); ICML 2027 official dates (abstract 1/14, paper 1/22); estimated next editions for CVPR, FAccT and IV; next cycles for ASCE Leisch (3/26), ACI and Two Sigma; UT Dean's Supplement open until 12/11; re-verified all conferences, scholarships and programs"
 - date: 2026-10-31
   by: "update run (3 agents)"
   summary: "2027 인턴십 시즌 공고 29개 추가(NVIDIA 로봇 인지·학습, Meta 로보틱스 PhD 6개, TRI 인간-로봇 상호작용·조작·주행 10개, Trace 촉각 조작, Waymo 악천후 인지, Skydio 자율비행, Intuitive 등), Amazon 로보틱스 인턴 공고 반영, Humanoids 2027·ISRR 2028 추정 마감 추가, NVIDIA 펠로십·Eno·HackTX 다음 회차 반영, 오래된 인턴십 12개 재확인"

@@ -31,8 +31,8 @@ requirements_en: ["Personal and research statements (3 pages total)", "Two lette
 nomination: false
 awards_per_year: "1–3명"
 cycle:
-  typical: "12월 초 접수 시작, 2–3월 마감(2025년 2월 7일, 2026년 3월 19일 23:59 ET), 4월 말 발표, 6월 1일 시작"
-  typical_en: "Applications open in early December and close in February–March (February 7, 2025; March 19, 2026 at 23:59 ET); fellows are announced at the end of April and start June 1"
+  typical: "12월 초 접수 시작, 2–3월 마감(2025년 2월 7일, 2026년 3월 19일 23:59 ET), 4월 말 발표, 6월 1일 시작 — 2027–28 공고는 2026-11-26 현재 미발표"
+  typical_en: "Applications open in early December and close in February–March (February 7, 2025; March 19, 2026 at 23:59 ET); fellows are announced at the end of April and start June 1 — the 2027–28 call is not posted as of 2026-11-26"
   deadlines:
     - {kind: application, date: 2027-02-07, label: "2027–28 펠로십 마감 (미발표 — 과거 2/7·3/19 중 이른 날짜로 추정)", label_en: "2027–28 fellowship deadline (not announced — estimated from the earlier of the past dates, Feb 7 / Mar 19)", estimated: true}
     - {kind: result, date: 2027-04-30, label: "선정 발표 (추정)", label_en: "Fellows announced (estimated)", estimated: true}
@@ -51,4 +51,4 @@ sources:
   - "https://tacc.utexas.edu/education/undergraduates-graduates/scipe/fellowship-application-instructions"
   - "https://www.chishiki-ai.org/awardees/"
   - "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321040"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

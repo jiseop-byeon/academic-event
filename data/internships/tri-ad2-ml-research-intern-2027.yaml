@@ -1,0 +1,45 @@
+id: tri-ad2-ml-research-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Automated Driving Advanced Development (AD2)"
+title: "Automated Driving Advanced Development Intern, Machine Learning Research"
+fields: [transportation, ml, vision]
+degree: [phd, ms]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD or MS in CS, Robotics, ML, AI, EE or related"
+  - "Python and PyTorch; version control, testing and software-engineering fundamentals"
+  - "Research experience in computer vision, NLP, generative modeling or RL; publications, preprints or substantial projects"
+preferred:
+  - "CARLA or other driving/robotics simulators, neural rendering"
+  - "VLMs, agent systems, diffusion or flow models, world models; real-world sensor data (video, lidar, IMU, radar)"
+skills: [python, pytorch, foundation-models, world-models, simulation, reinforcement-learning]
+responsibilities:
+  - "Lead an independent project on foundation models and generative AI for an end-to-end learned driving stack (multimodal agents, generative policies, world models, closed-loop learning)"
+  - "Build prototypes with Toyota driving data and closed-loop simulation; contribute to publications"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 하이브리드 근무(12주 전 기간)."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid at TRI headquarters in Los Altos for the full 12 weeks."
+status: open
+posted: 2026-11-11
+apply_url: "https://jobs.lever.co/tri/da4b4832-36e7-4703-9841-c319efd6d495"
+fit: 1
+take: "자율주행용 파운데이션 모델·생성 정책 연구라 조작과 거리가 있으니 참고용으로만 두라."
+take_en: "Foundation-model and generative-policy research for autonomous driving, far from manipulation; keep it for reference only."
+sources:
+  - "https://jobs.lever.co/tri/da4b4832-36e7-4703-9841-c319efd6d495"
+  - "https://api.lever.co/v0/postings/tri/da4b4832-36e7-4703-9841-c319efd6d495?mode=json"
+last_verified: 2026-11-26

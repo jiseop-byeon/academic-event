@@ -43,8 +43,8 @@ editions:
     status: estimated
     deadlines:
       - {kind: paper, date: 2027-07-25, tz: "PT", estimated: true}
-    notes: "2026-10-31 기준 개최지·일정 미발표(2027.ieee-humanoids.org 미개설, IEEE RAS 페이지 접근 차단). 논문 마감은 11–12월 개최 회차인 2023 오스틴(7/22)·2026 산타클라라(7/27) 패턴으로 7월 말로 추정했다. 2025 서울처럼 초가을에 열리면 마감이 5월 중순으로 크게 앞당겨질 수 있다."
-    notes_en: "As of 2026-10-31, the location and schedule have not been announced (2027.ieee-humanoids.org does not resolve yet and the IEEE RAS pages block automated access). The paper deadline is estimated at the end of July from the pattern of the November–December editions, 2023 Austin (7/22) and 2026 Santa Clara (7/27). If the conference is held in early autumn, as the 2025 Seoul edition was, the deadline could move up sharply to mid-May."
+    notes: "2026-11-26 기준 개최지·일정 미발표(2027.ieee-humanoids.org 미개설, IEEE RAS 정규 학회 목록에도 2026 회차만 있음). 논문 마감은 11–12월 개최 회차인 2023 오스틴(7/22)·2026 산타클라라(7/27) 패턴으로 7월 말로 추정했다. 2025 서울처럼 초가을에 열리면 마감이 5월 중순으로 크게 앞당겨질 수 있다."
+    notes_en: "As of 2026-11-26, the location and schedule have not been announced (2027.ieee-humanoids.org does not resolve yet, and the IEEE RAS fully-sponsored conference list shows only the 2026 edition). The paper deadline is estimated at the end of July from the pattern of the November–December editions, 2023 Austin (7/22) and 2026 Santa Clara (7/27). If the conference is held in early autumn, as the 2025 Seoul edition was, the deadline could move up sharply to mid-May."
 links:
   home: "https://2026.ieee-humanoids.org/"
   cfp: "https://2026.ieee-humanoids.org/call-for-papers/"
@@ -55,4 +55,4 @@ sources:
   - "https://2025humanoids.org/"
   - "https://ieee-ras.org/about-ras/latest-news/cfp-humanoids-2023-in-austin-tx-usa"
   - "https://scholar.google.com/citations?hl=en&view_op=search_venues&vq=Humanoid+Robots"
-last_verified: 2026-10-31
+last_verified: 2026-11-26

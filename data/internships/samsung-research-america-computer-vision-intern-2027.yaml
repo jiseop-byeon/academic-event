@@ -1,0 +1,41 @@
+id: samsung-research-america-computer-vision-intern-2027
+company: "Samsung Research America"
+org_type: bigtech
+team: "AI Research Center — Vision Intelligence"
+title: "2027 Spring/Summer Intern, Computer Vision"
+fields: [vision, ml]
+degree: [phd]
+season: "Spring/Summer 2027"
+locations:
+  - {city: "Mountain View", region: "CA", country: US, lat: 37.39, lon: -122.08}
+work_mode: onsite
+pay:
+  min: 48
+  max: 63
+  currency: USD
+  unit: hour
+  source: posting
+  note: "시급 $48–63(공고 기재, 지역별 차등 가능)"
+  note_en: "$48–63 per hour (stated in the posting; may vary by state)"
+required:
+  - "Currently pursuing a PhD"
+  - "Python, PyTorch, Transformers"
+  - "Publications at CVPR, ECCV, ICCV, ICML, NeurIPS or AAAI"
+  - "One of: VLMs (pretraining, SFT, RLHF, GRPO), streaming or egocentric video, long-form video, non-generative world models (JEPA), spatial memory, multimodal embeddings, efficient multimodal inference"
+skills: [python, pytorch, computer-vision, foundation-models, multimodal-learning]
+responsibilities:
+  - "Research multimodal (image, video, 3D) retrieval, question answering, reasoning and understanding"
+  - "Implement and run experiments and prepare a conference or journal submission"
+citizenship: none
+eligibility_note: "공고 문구: 미국 내 합법적 근무 자격이 있는 지원자 대상. 시민권 제한 문구는 없음. 마운틴뷰 사무실 근무."
+eligibility_note_en: "Posting language: open to candidates legally authorized to work in the US; no citizenship restriction. Office-based in Mountain View."
+status: open
+posted: 2026-11-23
+apply_url: "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002"
+fit: 1
+take: "비디오·멀티모달 이해 중심의 비전 연구 인턴이라 로봇과 거리가 있고 CV 1저자 실적이 필요하니 참고용으로 두라."
+take_en: "A vision research internship centered on video and multimodal understanding, distant from robots and requiring first-author CV papers; keep it for reference."
+sources:
+  - "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002"
+  - "https://boards-api.greenhouse.io/v1/boards/samsungresearchamericainternship/jobs/8955802002"
+last_verified: 2026-11-26

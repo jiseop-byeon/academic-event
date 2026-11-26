@@ -37,9 +37,8 @@ cycle:
   typical: "매년 1월경 교수 대상 연구 RFQ, 2월부터 연구 주제 공개와 4월 말까지 산업 위원 추천, 새 연구팀 출범; 연례 연구 콘퍼런스(2026년 덴버, 8월 초 수상자 발표); 웨비나는 수시"
   typical_en: "A research RFQ for academics around January each year; research topics announced from February with industry nominations until late April, then new Research Teams start; the Annual Research Conference (Denver in 2026, awards announced in early August); webinars throughout the year"
   deadlines:
-    - {kind: event, date: 2026-10-27, label: "CII 웨비나: Craftforce Playbook — 지속 가능한 숙련 인력 확보 (12–13시)", label_en: "CII webinar: Craftforce Playbook — How Construction Industry Pioneers Are Building a Sustainable Craft Workforce (12–1 p.m.)"}
-    - {kind: event, date: 2026-10-29, label: "CII 웨비나: RT 433 AWP & Project Controls Integration (12–13시)", label_en: "CII webinar: RT 433 AWP & Project Controls Integration (12–1 p.m.)"}
-    - {kind: event, date: 2026-11-18, label: "CII Global AWP+ Conference (11월 18–20일, 텍사스 Conroe, 유료)", label_en: "CII Global AWP+ Conference (November 18–20, Conroe, Texas; paid)"}
+    - {kind: event, date: 2026-12-16, label: "CII Analytics and AI CBA 온라인 회의 (12:00–13:30 CT)", label_en: "CII Analytics and AI CBA virtual meeting (12–1:30 p.m. CT)"}
+    - {kind: event, date: 2027-01-27, label: "CII 2027 Leadership Meeting (오스틴)", label_en: "CII 2027 Leadership Meeting (Austin)"}
 status: ongoing
 apply_url: "https://www.construction-institute.org/engage-with-cii-research"
 fit: 2
@@ -62,4 +61,4 @@ sources:
   - "https://www.construction-institute.org/free-cii-webinar-rt-421-intro-and-demo-advanced-planning-guide-for-modularization"
   - "https://www.construction-institute.org/global-awp-conference"
   - "https://cloud.wikis.utexas.edu/wiki/spaces/caeegraduateoffice/pages/34013418/CEPM+Construction+Engineering+and+Project+Management"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

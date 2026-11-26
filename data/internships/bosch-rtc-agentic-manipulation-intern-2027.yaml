@@ -41,4 +41,4 @@ fit: 3
 take: "LLM 코딩 에이전트로 산업용 조작 과제를 푸는 Bosch 연구소 인턴이라 조작 연구에 최신 에이전트 기법을 더해 논문까지 노릴 수 있어 지원할 만하다."
 take_en: "A Bosch research internship using LLM coding agents for industrial manipulation tasks, with a paper as the goal — a good way to add agentic methods to manipulation research."
 sources: ["https://jobs.smartrecruiters.com/BoschGroup/744000154911489", "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000154911489"]
-last_verified: 2026-10-17
+last_verified: 2026-11-26

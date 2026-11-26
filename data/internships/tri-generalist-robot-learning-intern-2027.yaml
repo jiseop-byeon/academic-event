@@ -1,0 +1,45 @@
+id: tri-generalist-robot-learning-intern-2027
+company: "Toyota Research Institute"
+org_type: lab
+team: "Robotics — Generalist Robot Learning (GRL)"
+title: "Robotics Intern, Generalist Robot Learning (GRL)"
+fields: [robotics, vision, physical-ai, ml]
+degree: [phd]
+season: "Summer 2027"
+duration: "12 weeks"
+duration_weeks: [12, 12]
+locations:
+  - {city: "Los Altos", region: "CA", country: US, lat: 37.39, lon: -122.11}
+work_mode: hybrid
+pay:
+  min: 45
+  max: 65
+  currency: USD
+  unit: hour
+  source: posting
+  note: "캘리포니아 근무 기준 시급 $45–65(공고 기재)"
+  note_en: "$45–65 per hour for California-based roles (stated in the posting)"
+required:
+  - "Pursuing a PhD in ML, Computer Vision, Graphics, Robotics or related"
+  - "Publications, or the aim to publish, at CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, CoRL, RSS, ICRA, IROS, SIGGRAPH or RA-L"
+  - "Python, Unix and a deep-learning framework such as PyTorch"
+preferred:
+  - "Physics simulators, reinforcement learning or reward modeling"
+  - "3D/4D perception, multimodal foundation models, world models, sim-to-real transfer"
+skills: [python, pytorch, 3d-vision, world-models, foundation-models, simulation, reinforcement-learning]
+responsibilities:
+  - "Research multimodal policy learning, Real2Sim2Real and world models for robots, including 3D foundation models"
+  - "Turn real-world captures into simulation; post-train policies and world models with RL and learned rewards; validate on physical robots"
+citizenship: none
+eligibility_note: "공고에 시민권·영주권 요건 없음. 로스앨터스 본사 하이브리드 근무. 지원 시 Google Scholar 링크와 전체 논문 목록 첨부 요청."
+eligibility_note_en: "No citizenship or permanent-residency requirement in the posting. Hybrid at TRI headquarters in Los Altos. The posting asks for a Google Scholar link and a full publication list with the CV."
+status: open
+posted: 2026-11-18
+apply_url: "https://jobs.lever.co/tri/4cac9569-cc90-4dcd-96b8-d9777c35c943"
+fit: 2
+take: "3D 인식·Real2Sim2Real·월드 모델로 조작 정책을 키우는 팀이라 시뮬레이션 기반 조작 연구와 맞닿지만 비전·그래픽스 실적이 중심이니 보조 지원처로 두라."
+take_en: "The team grows manipulation policies from 3D perception, Real2Sim2Real and world models, which touches simulation-based manipulation research, but the bar is a vision and graphics record; treat it as a secondary target."
+sources:
+  - "https://jobs.lever.co/tri/4cac9569-cc90-4dcd-96b8-d9777c35c943"
+  - "https://api.lever.co/v0/postings/tri/4cac9569-cc90-4dcd-96b8-d9777c35c943?mode=json"
+last_verified: 2026-11-26

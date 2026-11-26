@@ -37,8 +37,6 @@ cycle:
   typical: "연중 운영 — 학기 중 격주 화요일 포트폴리오 세미나(2026년 가을학기는 9월 1일 시작), 최근 심포지엄은 3월 초(2025년 3월 4–6일 AI x Robotics Research Symposium, 2026년 3월 3–4일 공동 심포지엄)"
   typical_en: "Year-round — portfolio seminar every other Tuesday during the semester (fall 2026 began September 1); recent symposia were in early March (AI x Robotics Research Symposium, March 4–6, 2025; joint symposium, March 3–4, 2026)"
   deadlines:
-    - {kind: event, date: 2026-10-27, label: "포트폴리오 세미나 (9월 1일 시작 격주 화요일 일정에서 계산한 날짜)", label_en: "Portfolio Seminar (date computed from the every-other-Tuesday schedule that began September 1)", estimated: true}
-    - {kind: event, date: 2026-11-06, label: "제4회 Robot Parade (16–17시, Speedway·Gregory Gym Plaza)", label_en: "4th Annual Robot Parade (4–5 p.m., Speedway and Gregory Gym Plaza)"}
     - {kind: event, date: 2027-03-02, label: "연례 AI·로보틱스 심포지엄 — 2027년 일정 미발표, 2025·2026년 패턴으로 3월 초 추정", label_en: "Annual AI + robotics symposium — 2027 date not announced; early March estimated from the 2025 and 2026 editions", estimated: true}
 status: ongoing
 apply_url: "https://robotics.utexas.edu/graduate"
@@ -62,4 +60,4 @@ sources:
   - "https://cvent.utexas.edu/event/Symposium2026/summary"
   - "https://news.utexas.edu/2026/03/20/leaders-in-ai-robotics-and-ethical-innovation-come-together-at-ut-austin/"
   - "https://robotics.utexas.edu/news/301"
-last_verified: 2026-10-17
+last_verified: 2026-11-26

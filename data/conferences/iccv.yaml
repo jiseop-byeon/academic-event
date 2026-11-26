@@ -27,8 +27,8 @@ take_en: "The deadline is in early March 2027 (estimated), a schedule that suits
 editions:
   - year: 2027
     status: confirmed
-    start: 2027-10-02
-    end: 2027-10-08
+    start: 2027-10-03
+    end: 2027-10-07
     city: "Hong Kong"
     country: HK
     venue: "Hong Kong Convention and Exhibition Centre (HKCEC)"
@@ -38,13 +38,14 @@ editions:
     deadlines:
       - {kind: abstract, date: 2027-03-01, label: "Paper registration", estimated: true}
       - {kind: paper, date: 2027-03-05, estimated: true}
-    notes: "공식 마감일은 아직 미발표. ICCV 2023(3/8)·2025(3/7) 제출 마감 패턴으로 3월 첫 주를 추정했으며, 2027년은 10월 초 개최라 더 앞당겨질 수 있다. 공식 Dates 페이지는 아직 이전 대회 템플릿 상태다."
-    notes_en: "The official deadline has not been announced yet. The first week of March is estimated from the ICCV 2023 (3/8) and 2025 (3/7) submission deadline pattern, and since the 2027 conference is held in early October, the deadline could come earlier still. The official Dates page is still showing the previous conference's template."
+    notes: "2026-11-26 확인: 공식 Dates 페이지는 워크숍·튜토리얼 10/3–4, 본회의 10/5–7(10/3–7)로 표기하지만 같은 사이트 Venue 섹션과 CVF 메인 페이지는 10/2–8로 적고 있어 하루씩 차이가 난다. 공식 마감일은 아직 미발표(CallForPapers 페이지 404). ICCV 2023(3/8)·2025(3/7) 제출 마감 패턴으로 3월 첫 주를 추정했으며, 2027년은 10월 초 개최라 더 앞당겨질 수 있다. "
+    notes_en: "Checked 2026-11-26: the official Dates page gives workshops and tutorials 10/3–4 and the main conference 10/5–7 (10/3–7 overall), while the Venue section of the same site and the CVF main page give 10/2–8. The official deadline has not been announced yet (the CallForPapers page returns 404). The first week of March is estimated from the ICCV 2023 (3/8) and 2025 (3/7) submission deadline pattern, and since the 2027 conference is held in early October, the deadline could come earlier still. "
 links:
   home: "https://iccv.thecvf.com/Conferences/2027"
   cvf: "https://www.thecvf.com/"
 sources:
   - "https://iccv.thecvf.com/Conferences/2027"
+  - "https://iccv.thecvf.com/Conferences/2027/Dates"
   - "https://www.thecvf.com/"
   - "https://iccv.thecvf.com/Conferences/2025/Dates"
   - "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines"
@@ -52,4 +53,4 @@ sources:
   - "https://group.ntt/en/topics/2025/10/23/iccv2025.html"
   - "https://portal.core.edu.au/conf-ranks/?search=ICCV&by=acronym&source=ICORE2026"
   - "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

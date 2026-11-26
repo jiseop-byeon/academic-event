@@ -32,8 +32,8 @@ eligibility:
   notes: "대회별 규정에 따름 — 보통 대학·기업 팀 누구나 참가 가능하며 국적 제한은 언급되지 않음. 실물 로봇이 필요한 대회가 많아 연구실 단위 참여가 일반적."
   notes_en: "Rules vary by competition — typically open to university and industry teams, with no nationality restriction mentioned. Many require physical robots, so participation is usually at the lab level."
 cycle:
-  typical: "매년 ICRA에서 개최 — ICRA 2027은 대회 제안을 7/29–8/31 접수하고 10/31 채택 발표, 이후 대회별로 팀을 모집해 학회 중(5/25–27) 경연"
-  typical_en: "Held at every ICRA — for ICRA 2027, competition proposals were taken July 29–August 31 with acceptances on October 31; each competition then recruits teams for the on-site rounds during the conference (May 25–27)"
+  typical: "매년 ICRA에서 개최 — ICRA 2027은 대회 제안을 7/29–8/31 접수하고 10/31 채택 발표, 이후 대회별로 팀을 모집해 학회 중(5/25–27) 경연. 2027년 채택 대회: Humanoid Manufacturing Challenge, Legged Robot Challenges·Wearable Robot Systems, Robotic Grasping and Manipulation Competition(RGMC), RoboRacer, PhyRC(Physical Robotic Caregiving) — 팀 등록 마감은 대회별 사이트에서 공지"
+  typical_en: "Held at every ICRA — for ICRA 2027, competition proposals were taken July 29–August 31 with acceptances on October 31; each competition then recruits teams for the on-site rounds during the conference (May 25–27). Accepted for 2027: Humanoid Manufacturing Challenge, Legged Robot Challenges & Wearable Robot Systems, Robotic Grasping and Manipulation Competition (RGMC), RoboRacer and PhyRC (Physical Robotic Caregiving) — team registration deadlines are posted on each competition's site"
   deadlines:
     - {kind: other, date: 2026-10-31, label: "ICRA 2027 채택 대회 발표 — 이후 대회별 팀 모집", label_en: "ICRA 2027 accepted competitions announced — team calls follow per competition"}
     - {kind: event, date: 2027-05-25, label: "ICRA 2027 경연 (서울 코엑스, 5/25–27)", label_en: "ICRA 2027 competitions (COEX, Seoul, May 25–27)"}
@@ -49,5 +49,6 @@ links:
 sources:
   - "https://2027.ieee-icra.org/contribute/call-for-competition/"
   - "https://2027.ieee-icra.org/"
+  - "https://2027.ieee-icra.org/program/competitions/"
   - "https://2026.ieee-icra.org/program/competitions/"
-last_verified: 2026-10-02
+last_verified: 2026-11-26

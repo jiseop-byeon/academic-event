@@ -12,13 +12,13 @@ locations:
   - {city: "Santa Clara", region: "CA", country: US, lat: 37.35, lon: -121.96}
 work_mode: unknown
 pay:
-  min: 30
+  min: 38
   max: 94
   currency: USD
   unit: hour
   source: posting
-  note: "공고 기재 인턴 시급 범위(Redmond·Seattle $30–94, Santa Clara $38–94)"
-  note_en: "intern hourly range stated in the posting (Redmond and Seattle $30–94, Santa Clara $38–94)"
+  note: "공고 기재 인턴 시급 범위(2026-11-26 기준 단일 범위 $38–94)"
+  note_en: "intern hourly range stated in the posting (a single $38–94 range as of 2026-11-26)"
 required:
   - "Pursuing a PhD in CS/CE, EE, Robotics or related"
   - "Theory and practice of computer vision, deep learning, robotics and/or control"
@@ -44,4 +44,4 @@ notes: "요청번호 JR2027089. 2026-10-30 재게시됨. '최소 2026-11-03까�
 notes_en: "Requisition JR2027089. Reposted on 2026-10-30. The 'accepting applications until at least 2026-11-03' line is not a deadline."
 sources:
   - "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-WA-Redmond/PhD-Research-Intern--Robotic-Perception-and-Learning---2027_JR2027089"
-last_verified: 2026-10-31
+last_verified: 2026-11-26
