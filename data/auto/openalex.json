@@ -1,243 +1,243 @@
 {
- "collected_at": "2026-11-26T20:17:33+00:00",
+ "collected_at": "2026-11-27T20:04:37+00:00",
  "sources": {
   "S188336720": {
    "display_name": "Accident Analysis & Prevention",
    "two_year_mean_citedness": 9.33,
-   "h_index": 284,
-   "works_count": 9867,
-   "cited_by_count": 591494
+   "h_index": 285,
+   "works_count": 9870,
+   "cited_by_count": 592362
   },
   "S112141509": {
    "display_name": "Advanced Engineering Informatics",
-   "two_year_mean_citedness": 14.34,
+   "two_year_mean_citedness": 14.35,
    "h_index": 165,
-   "works_count": 5015,
-   "cited_by_count": 178889
+   "works_count": 5017,
+   "cited_by_count": 179247
   },
   "S196139623": {
    "display_name": "Artificial Intelligence",
-   "two_year_mean_citedness": 7.34,
-   "h_index": 319,
-   "works_count": 4860,
-   "cited_by_count": 515356
+   "two_year_mean_citedness": 7.37,
+   "h_index": 320,
+   "works_count": 4861,
+   "cited_by_count": 516316
   },
   "S4210191328": {
    "display_name": "Annual Review of Control Robotics and Autonomous Systems",
    "two_year_mean_citedness": 23.53,
    "h_index": 72,
    "works_count": 191,
-   "cited_by_count": 22975
+   "cited_by_count": 23042
   },
   "S144091109": {
    "display_name": "Autonomous Robots",
    "two_year_mean_citedness": 11.07,
    "h_index": 170,
    "works_count": 1723,
-   "cited_by_count": 119647
+   "cited_by_count": 119846
   },
   "S172073041": {
    "display_name": "Automation in Construction",
-   "two_year_mean_citedness": 17.18,
+   "two_year_mean_citedness": 17.2,
    "h_index": 275,
-   "works_count": 7129,
-   "cited_by_count": 482331
+   "works_count": 7134,
+   "cited_by_count": 483388
   },
   "S206927758": {
    "display_name": "Computer-Aided Civil and Infrastructure Engineering",
    "two_year_mean_citedness": 7.89,
    "h_index": 145,
-   "works_count": 3463,
-   "cited_by_count": 117302
+   "works_count": 3465,
+   "cited_by_count": 117492
   },
   "S25538012": {
    "display_name": "International Journal of Computer Vision",
-   "two_year_mean_citedness": 18.18,
+   "two_year_mean_citedness": 18.19,
    "h_index": 315,
    "works_count": 4099,
-   "cited_by_count": 714996
+   "cited_by_count": 716193
   },
   "S73484101": {
    "display_name": "The International Journal of Robotics Research",
    "two_year_mean_citedness": 16.39,
    "h_index": 287,
-   "works_count": 3168,
-   "cited_by_count": 385966
+   "works_count": 3169,
+   "cited_by_count": 386483
   },
   "S168738021": {
    "display_name": "International Journal of Social Robotics",
    "two_year_mean_citedness": 6.67,
-   "h_index": 126,
+   "h_index": 127,
    "works_count": 1450,
-   "cited_by_count": 72010
+   "cited_by_count": 72165
   },
   "S7560371": {
    "display_name": "Information Fusion",
-   "two_year_mean_citedness": 24.68,
+   "two_year_mean_citedness": 24.7,
    "h_index": 238,
-   "works_count": 4759,
-   "cited_by_count": 299777
+   "works_count": 4765,
+   "cited_by_count": 300545
   },
   "S173339282": {
    "display_name": "ISPRS Journal of Photogrammetry and Remote Sensing",
    "two_year_mean_citedness": 15.01,
    "h_index": 256,
-   "works_count": 5224,
-   "cited_by_count": 385811
+   "works_count": 5227,
+   "cited_by_count": 386551
   },
   "S176637136": {
    "display_name": "Journal of Computing in Civil Engineering",
    "two_year_mean_citedness": 7.4,
    "h_index": 138,
-   "works_count": 2450,
-   "cited_by_count": 92529
+   "works_count": 2453,
+   "cited_by_count": 92726
   },
   "S2764777209": {
    "display_name": "Journal of Construction Engineering and Management",
-   "two_year_mean_citedness": 6.88,
-   "h_index": 204,
-   "works_count": 5660,
-   "cited_by_count": 282211
+   "two_year_mean_citedness": 6.89,
+   "h_index": 205,
+   "works_count": 5663,
+   "cited_by_count": 282996
   },
   "S151299380": {
    "display_name": "Journal of Field Robotics",
-   "two_year_mean_citedness": 6.29,
+   "two_year_mean_citedness": 6.3,
    "h_index": 140,
    "works_count": 2077,
-   "cited_by_count": 94287
+   "cited_by_count": 94478
   },
   "S118988714": {
    "display_name": "Journal of Machine Learning Research",
    "two_year_mean_citedness": 8.5,
    "h_index": 226,
    "works_count": 1260,
-   "cited_by_count": 458437
+   "cited_by_count": 460243
   },
   "S2912241403": {
    "display_name": "Nature Machine Intelligence",
-   "two_year_mean_citedness": 36.09,
-   "h_index": 186,
-   "works_count": 1331,
-   "cited_by_count": 183620
+   "two_year_mean_citedness": 36.11,
+   "h_index": 187,
+   "works_count": 1333,
+   "cited_by_count": 184169
   },
   "S4210169774": {
    "display_name": "IEEE Robotics and Automation Letters",
-   "two_year_mean_citedness": 8.15,
-   "h_index": 198,
+   "two_year_mean_citedness": 8.13,
+   "h_index": 199,
    "works_count": 11920,
-   "cited_by_count": 357595
+   "cited_by_count": 358317
   },
   "S132261465": {
    "display_name": "IEEE Robotics & Automation Magazine",
    "two_year_mean_citedness": 2.8,
    "h_index": 137,
    "works_count": 3030,
-   "cited_by_count": 109672
+   "cited_by_count": 109856
   },
   "S133768115": {
    "display_name": "Robotics and Autonomous Systems",
-   "two_year_mean_citedness": 8.55,
+   "two_year_mean_citedness": 8.56,
    "h_index": 193,
-   "works_count": 5427,
-   "cited_by_count": 223536
+   "works_count": 5428,
+   "cited_by_count": 223859
   },
   "S118216261": {
    "display_name": "Robotics and Computer-Integrated Manufacturing",
    "two_year_mean_citedness": 15.76,
    "h_index": 175,
    "works_count": 3968,
-   "cited_by_count": 175192
+   "cited_by_count": 175471
   },
   "S4210213233": {
    "display_name": "Science Robotics",
    "two_year_mean_citedness": 22.32,
    "h_index": 184,
    "works_count": 993,
-   "cited_by_count": 119824
+   "cited_by_count": 120028
   },
   "S34881539": {
    "display_name": "IEEE Transactions on Automation Science and Engineering",
    "two_year_mean_citedness": 9.84,
    "h_index": 158,
-   "works_count": 6989,
-   "cited_by_count": 186663
+   "works_count": 6993,
+   "cited_by_count": 186983
   },
   "S144771191": {
    "display_name": "IEEE Transactions on Intelligent Transportation Systems",
    "two_year_mean_citedness": 12.09,
    "h_index": 291,
-   "works_count": 12475,
-   "cited_by_count": 646412
+   "works_count": 12482,
+   "cited_by_count": 647376
   },
   "S4210199657": {
    "display_name": "IEEE Transactions on Intelligent Vehicles",
    "two_year_mean_citedness": 9.26,
    "h_index": 123,
-   "works_count": 2500,
-   "cited_by_count": 84667
+   "works_count": 2501,
+   "cited_by_count": 84784
   },
   "S13961689": {
    "display_name": "IEEE/ASME Transactions on Mechatronics",
    "two_year_mean_citedness": 7.5,
    "h_index": 202,
-   "works_count": 7323,
-   "cited_by_count": 294652
+   "works_count": 7330,
+   "cited_by_count": 294957
   },
   "S144620930": {
    "display_name": "IEEE Transactions on Robotics",
    "two_year_mean_citedness": 15.56,
    "h_index": 254,
-   "works_count": 4254,
-   "cited_by_count": 346543
+   "works_count": 4256,
+   "cited_by_count": 347099
   },
   "S2476799526": {
    "display_name": "IEEE Transactions on Human-Machine Systems",
    "two_year_mean_citedness": 4.63,
    "h_index": 99,
-   "works_count": 1690,
-   "cited_by_count": 43701
+   "works_count": 1691,
+   "cited_by_count": 43798
   },
   "S4210193251": {
    "display_name": "ACM Transactions on Human-Robot Interaction",
-   "two_year_mean_citedness": 9.83,
+   "two_year_mean_citedness": 9.81,
    "h_index": 62,
-   "works_count": 507,
-   "cited_by_count": 13731
+   "works_count": 508,
+   "cited_by_count": 13776
   },
   "S199944782": {
    "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-   "two_year_mean_citedness": 28.84,
+   "two_year_mean_citedness": 28.86,
    "h_index": 604,
-   "works_count": 12660,
-   "cited_by_count": 2319840
+   "works_count": 12663,
+   "cited_by_count": 2323744
   },
   "S96305778": {
    "display_name": "Transportation Research Part B Methodological",
    "two_year_mean_citedness": 7.68,
-   "h_index": 255,
-   "works_count": 4240,
-   "cited_by_count": 343009
+   "h_index": 256,
+   "works_count": 4241,
+   "cited_by_count": 343449
   },
   "S64511102": {
    "display_name": "Transportation Research Part C Emerging Technologies",
    "two_year_mean_citedness": 11.09,
    "h_index": 264,
-   "works_count": 5557,
-   "cited_by_count": 396917
+   "works_count": 5562,
+   "cited_by_count": 397436
   },
   "S130252234": {
    "display_name": "Transportation Science",
    "two_year_mean_citedness": 6.55,
-   "h_index": 211,
+   "h_index": 212,
    "works_count": 2669,
-   "cited_by_count": 205984
+   "cited_by_count": 206365
   },
   "S84775595": {
    "display_name": "IEEE Transactions on Visualization and Computer Graphics",
    "two_year_mean_citedness": 8.32,
    "h_index": 235,
-   "works_count": 8131,
-   "cited_by_count": 383814
+   "works_count": 8133,
+   "cited_by_count": 384406
   }
  },
  "errors": []
