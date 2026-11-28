@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-27T20:04:25+00:00",
+ "collected_at": "2026-11-28T19:01:12+00:00",
  "boards_polled": 82,
  "postings": [
   {
@@ -40,6 +40,28 @@
    ]
   },
   {
+   "id": "simplify:Software-Engineering-Intern--Simulation-Technology---Summer-",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "NVIDIA",
+   "title": "Software Engineer Intern - Simulation Technology",
+   "location": "Canada; Santa Clara, CA; United States",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Simulation-Technology---Summer-2027_JR2029531",
+   "posted": "2026-11-25",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
    "id": "lever:gravisrobotics:8a4a157c-7569-43e6-82b1-56e84033641d",
    "company": "Gravis Robotics",
    "org_type": "construction-robotics",
@@ -55,6 +77,25 @@
     "lidar",
     "ml",
     "physical ai"
+   ]
+  },
+  {
+   "id": "simplify:Research-Intern---Computer-Vision-and-Robotics-for-Intervent",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Varian",
+   "title": "Research Intern - Computer Vision and Robotics for Interventional AI",
+   "location": "United States",
+   "url": "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/PCT/Research-Intern---Computer-Vision-and-Robotics-for-Interventional-AI_R-32162",
+   "posted": "2026-11-24",
+   "degrees": [],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "computer vision",
+    "robot"
    ]
   },
   {
@@ -74,6 +115,27 @@
    "matched": [
     "3d",
     "perception"
+   ]
+  },
+  {
+   "id": "simplify:Simulation-Engineering-Intern--Summer-2027-_JR003181",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Draper",
+   "title": "Simulation Engineer Intern",
+   "location": "Cambridge, MA",
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Simulation-Engineering-Intern--Summer-2027-_JR003181",
+   "posted": "2026-11-24",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "simulation"
    ]
   },
   {
@@ -142,6 +204,112 @@
    ],
    "matched": [
     "robot"
+   ]
+  },
+  {
+   "id": "simplify:XMLNAME-2027-Summer-Intern---Software-Engineer--Robotics----",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Genentech",
+   "title": "Software Engineer Intern - Robotics - Lab Automation",
+   "location": "South SF",
+   "url": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Software-Engineer--Robotics----Lab-Automation_202611-129832",
+   "posted": "2026-11-23",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:Software-Engineering-Intern---Circuit-Simulation_R57251",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer Intern - Circuit Simulation",
+   "location": "Austin, TX",
+   "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Software-Engineering-Intern---Circuit-Simulation_R57251",
+   "posted": "2026-11-23",
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "simplify:Software-Engineering-Intern---Circuit-Simulation_R57251-1",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Cadence Design Systems",
+   "title": "Software Engineer Intern - Circuit Simulation",
+   "location": "Austin, TX",
+   "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Engineering-Intern---Circuit-Simulation_R57251-1",
+   "posted": "2026-11-23",
+   "degrees": [
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "simulation"
+   ]
+  },
+  {
+   "id": "simplify:Robot-Learning-Engineer-Intern_R269543",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Analog Devices",
+   "title": "Robot Learning Engineer Intern",
+   "location": "San Jose, CA; United States",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Robot-Learning-Engineer-Intern_R269543",
+   "posted": "2026-11-23",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "robot"
+   ]
+  },
+  {
+   "id": "simplify:Internship-Data---AI--Controls_J-00357861",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "ASML",
+   "title": "Data & AI Intern - Controls",
+   "location": "San Diego, CA",
+   "url": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Data---AI--Controls_J-00357861",
+   "posted": "2026-11-23",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "N/A"
+   ],
+   "matched": [
+    "controls"
    ]
   },
   {
@@ -563,21 +731,44 @@
    ]
   },
   {
-   "id": "simplify:289",
+   "id": "simplify:PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation--",
    "org_type": "",
    "pay": null,
    "source": "simplify",
-   "company": "Birdseye Security Solutions",
-   "title": "Computer Vision Intern",
-   "location": "Mississauga, ON, Canada",
-   "url": "https://birdseyeaccount.bamboohr.com/careers/289/",
+   "company": "NVIDIA",
+   "title": "PhD Research Intern - AI for Climate and Weather Simulation",
+   "location": "Remote in UK; Reading, UK",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UK-Remote/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2030004",
    "posted": "2026-11-17",
-   "degrees": [],
+   "degrees": [
+    "PhD"
+   ],
    "terms": [
     "N/A"
    ],
    "matched": [
-    "computer vision"
+    "simulation"
+   ]
+  },
+  {
+   "id": "simplify:AI-Infrastructure-Engineer-Intern--MS---Summer-2027_2604829",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "Marvell",
+   "title": "AI Infrastructure Engineer Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Infrastructure-Engineer-Intern--MS---Summer-2027_2604829",
+   "posted": "2026-11-17",
+   "degrees": [
+    "Bachelor's",
+    "Master's"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "infrastructure"
    ]
   },
   {
@@ -925,25 +1116,6 @@
    ]
   },
   {
-   "id": "simplify:Local-College-Co-op--Infrastructure-Mapping---Data-Quality--",
-   "org_type": "",
-   "pay": null,
-   "source": "simplify",
-   "company": "Dow Chemical Company",
-   "title": "Infrastructure Mapping & Data Quality Co-op",
-   "location": "Midland, MI",
-   "url": "https://dow.wd1.myworkdayjobs.com/ExternalCareers/job/Midland-MI-USA/Local-College-Co-op--Infrastructure-Mapping---Data-Quality--Michigan-Operations-_R2069169",
-   "posted": "2026-11-11",
-   "degrees": [],
-   "terms": [
-    "N/A"
-   ],
-   "matched": [
-    "infrastructure",
-    "mapping"
-   ]
-  },
-  {
    "id": "simplify:RMCC-Systems-Engineering-Intern_JR-25363",
    "org_type": "",
    "pay": null,
@@ -1054,19 +1226,6 @@
    "matched": [
     "robot",
     "teleoperat"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Buyer_R8448",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Buyer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Buyer_R8448",
-   "posted": "2026-11-09",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -1786,19 +1945,6 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Customer-Success_R8234",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Customer Success",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Customer-Success_R8234",
-   "posted": "2026-10-30",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
    "id": "simplify:1126899676481179",
    "org_type": "",
    "pay": null,
@@ -2020,19 +2166,6 @@
    ]
   },
   {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-Op--Service-Readiness-Engineer_R8374",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-Op- Service Readiness Engineer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-Op--Service-Readiness-Engineer_R8374",
-   "posted": "2026-10-29",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
    "id": "simplify:446721858024",
    "org_type": "",
    "pay": null,
@@ -2094,111 +2227,6 @@
    ],
    "matched": [
     "autonom"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R8101",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern - Hardware Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R8101",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Co-op--Machine-Learning-Ops_R8327",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op- Machine Learning Ops",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Co-op--Machine-Learning-Ops_R8327",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "machine learning"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:MBA-Intern--Executive-Projects_R8293",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "MBA Intern- Executive Projects",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/MBA-Intern--Executive-Projects_R8293",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Robot-Manipulation_R8278",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Robot Manipulation",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Robot-Manipulation_R8278",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "manipulat",
-    "robot"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Industrial-Controls_R7973",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern - Industrial Controls",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Industrial-Controls_R7973",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "controls"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Data-Engineer_R7967",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Data Engineer",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Data-Engineer_R7967",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "intern"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Intern--Machine-Learning-Ops_R8202",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Intern- Machine Learning Ops",
-   "location": "USA Wilmington,  MA - HQ",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington--MA---HQ/Intern--Machine-Learning-Ops_R8202",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "machine learning"
-   ]
-  },
-  {
-   "id": "workday:symbotic.wd504.myworkdayjobs.com:Hardware-Engineer_R7976",
-   "company": "Symbotic",
-   "org_type": "robotics",
-   "title": "Co-op- Hardware Engineer",
-   "location": "USA Wilmington, MA - ITC",
-   "url": "https://symbotic.wd504.myworkdayjobs.com/en-US/Symbotic/job/USA-Wilmington-MA---ITC/Hardware-Engineer_R7976",
-   "posted": "2026-10-28",
-   "pay": null,
-   "matched": [
-    "intern"
    ]
   },
   {
@@ -2958,6 +2986,26 @@
    "matched": [
     "perception",
     "robot"
+   ]
+  },
+  {
+   "id": "simplify:PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation--",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "NVIDIA",
+   "title": "PhD Research Intern - AI for Climate and Weather Simulation",
+   "location": "Canada; Santa Clara, CA; United States",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2026949",
+   "posted": "2026-10-21",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "simulation"
    ]
   },
   {
@@ -4881,6 +4929,26 @@
    ]
   },
   {
+   "id": "simplify:PhD-Research-Intern--Generalist-Embodied-Agents-Research---2",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "NVIDIA",
+   "title": "PhD Research Intern - Generalist Embodied Agents Research",
+   "location": "Remote in USA; Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generalist-Embodied-Agents-Research---2027_JR2025103",
+   "posted": "2026-09-17",
+   "degrees": [
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "embodied"
+   ]
+  },
+  {
    "id": "lever:tri:6433edb6-76be-409f-9a73-9b9d9c207f9f",
    "company": "Toyota Research Institute",
    "org_type": "lab",
@@ -5671,6 +5739,29 @@
    ]
   },
   {
+   "id": "simplify:NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "NVIDIA",
+   "title": "Autonomous Vehicles and Robotics Intern",
+   "location": "Santa Clara, CA",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Autonomous-Vehicles-and-Robotics_JR2023496",
+   "posted": "2026-08-19",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "Summer 2027"
+   ],
+   "matched": [
+    "autonom",
+    "robot"
+   ]
+  },
+  {
    "id": "simplify:detail",
    "org_type": "",
    "pay": null,
@@ -6308,6 +6399,28 @@
    ]
   },
   {
+   "id": "simplify:Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and",
+   "org_type": "",
+   "pay": null,
+   "source": "simplify",
+   "company": "National Laboratory of the Rockies",
+   "title": "Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern - Multiple Teams",
+   "location": "Golden, CO",
+   "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Graduate-Intern---Focused-Ion-Beam--Electron-Microscopy--and-Autonomous-Characterization_R14431",
+   "posted": "2026-07-29",
+   "degrees": [
+    "Bachelor's",
+    "Master's",
+    "PhD"
+   ],
+   "terms": [
+    "Fall 2026"
+   ],
+   "matched": [
+    "autonom"
+   ]
+  },
+  {
    "id": "simplify:application?embed=true",
    "org_type": "",
    "pay": null,
@@ -6461,6 +6574,11 @@
    "company": "Boston Dynamics",
    "ats": "workday",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://bostondynamics.wd1.myworkdayjobs.com/wday/cxs/bostondynamics/Boston_Dynamics/jobs"
+  },
+  {
+   "company": "Symbotic",
+   "ats": "workday",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://symbotic.wd504.myworkdayjobs.com/wday/cxs/symbotic/Symbotic/jobs"
   },
   {
    "company": "Oshkosh / JLG",
